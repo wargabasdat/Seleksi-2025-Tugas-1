@@ -162,13 +162,13 @@ if __name__ == "__main__":
             for guest in guest_cast_list:
                 all_guest_casts.append({"episode_id": episode_id, "actor": guest['actor'], "character": guest['character']})
 
-        with open("episodes.json", 'w', encoding='utf-8') as f: json.dump(all_episodes, f, ensure_ascii=False, indent=2)
-        print("\nData saved to episodes.json")
-        with open("casts.json", 'w', encoding='utf-8') as f: json.dump(all_casts, f, ensure_ascii=False, indent=2)
-        print("Data saved to casts.json")
-        with open("crews.json", 'w', encoding='utf-8') as f: json.dump(all_crews, f, ensure_ascii=False, indent=2)
-        print("Data saved to crews.json")
-        with open("guest_casts.json", 'w', encoding='utf-8') as f: json.dump(all_guest_casts, f, ensure_ascii=False, indent=2)
-        print("Data saved to guest_casts.json")
-        
+        with open("../data/episodes.json", 'w', encoding='utf-8') as f: json.dump(all_episodes, f, ensure_ascii=False, indent=2)
+        print("\nData saved ../data/to episodes.json")
+        with open("../data/casts.json", 'w', encoding='utf-8') as f: json.dump(all_casts, f, ensure_ascii=False, indent=2)
+        print("Data saved ../data/to casts.json")
+        with open("../data/crews.json", 'w', encoding='utf-8') as f: json.dump(all_crews, f, ensure_ascii=False, indent=2)
+        print("Data saved ../data/to crews.json")
+        with open("../data/guest_casts.json", 'w', encoding='utf-8') as f: json.dump(all_guest_casts, f, ensure_ascii=False, indent=2)
+        print("Data saved ../data/to guest_casts.json")
+
         print(f"\nScraping complete for {len(episodes_to_process)} episodes.")
