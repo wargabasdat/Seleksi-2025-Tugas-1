@@ -8,15 +8,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-27",
     "Last Updated": "2025-07-23",
-    "Server Size": "18",
     "Title": "[] ZOO or OOF",
-    "Maturity": "Mild",
     "Thumbs Up": 25000,
     "Thumbs Down": 1752,
     "gameID": "139233844569220",
     "URL": "https://www.roblox.com/games/139233844569220/ZOO-or-OOF?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=139233844569220&playContext=gamesPage&position=77&sortPos=1&universeId=7785400752",
     "genreID": 1,
-    "communityID": 1
+    "communityID": 1,
+    "maturity_id": 1,
+    "server_id": 1
   },
   {
     "Date": "2025-07-24",
@@ -27,15 +27,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-03-12",
     "Last Updated": "2025-07-18",
-    "Server Size": "12",
     "Title": "Webbed [2 Player Obby]",
-    "Maturity": "Minimal",
     "Thumbs Up": 43000,
     "Thumbs Down": 6607,
     "gameID": "132586479415502",
     "URL": "https://www.roblox.com/games/132586479415502/Webbed-2-Player-Obby?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=132586479415502&playContext=gamesPage&position=34&sortPos=10&universeId=7364297396",
     "genreID": 2,
-    "communityID": 2
+    "communityID": 2,
+    "maturity_id": 2,
+    "server_id": 2
   },
   {
     "Date": "2025-07-24",
@@ -46,15 +46,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-04",
     "Last Updated": "2025-07-21",
-    "Server Size": "70",
     "Title": "Squid Game 3 [Final Games]",
-    "Maturity": "Mild",
     "Thumbs Up": 6286,
     "Thumbs Down": 1137,
     "gameID": "104937784445732",
     "URL": "https://www.roblox.com/games/104937784445732/Squid-Game-3-Final-Games?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=104937784445732&playContext=gamesPage&position=11&sortPos=19&universeId=7837861170",
     "genreID": 1,
-    "communityID": 3
+    "communityID": null,
+    "maturity_id": 1,
+    "server_id": 3
   },
   {
     "Date": "2025-07-24",
@@ -65,15 +65,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-11",
     "Last Updated": "2025-05-16",
-    "Server Size": "10",
     "Title": "Minds Fall - Survival",
-    "Maturity": "Mild",
     "Thumbs Up": 99000,
     "Thumbs Down": 6661,
     "gameID": "103138144891239",
     "URL": "https://www.roblox.com/games/103138144891239/Minds-Fall-Survival?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=103138144891239&playContext=gamesPage&position=48&sortPos=1&universeId=6904570042",
     "genreID": 3,
-    "communityID": 4
+    "communityID": 4,
+    "maturity_id": 1,
+    "server_id": 4
   },
   {
     "Date": "2025-07-24",
@@ -84,15 +84,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-10-14",
     "Last Updated": "2025-07-19",
-    "Server Size": "1",
     "Title": "Formula 1998 Championship Edition",
-    "Maturity": "Minimal",
     "Thumbs Up": 2085,
     "Thumbs Down": 354,
     "gameID": "121047268788549",
     "URL": "https://www.roblox.com/games/121047268788549/Formula-1998-Championship-Edition?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=121047268788549&playContext=gamesPage&position=40&sortPos=13&universeId=6673367088",
     "genreID": 4,
-    "communityID": 5
+    "communityID": 5,
+    "maturity_id": 2,
+    "server_id": 5
   },
   {
     "Date": "2025-07-24",
@@ -103,15 +103,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-12",
     "Last Updated": "2025-07-21",
-    "Server Size": "50",
     "Title": "Dead Sewers[Summer][Alpha]",
-    "Maturity": "Mild",
     "Thumbs Up": 13000,
     "Thumbs Down": 1159,
     "gameID": "92044060392057",
     "URL": "https://www.roblox.com/games/92044060392057/Dead-Sewers-Summer-Alpha?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=92044060392057&playContext=gamesPage&position=49&sortPos=11&universeId=7690412163",
     "genreID": 5,
-    "communityID": 6
+    "communityID": 6,
+    "maturity_id": 1,
+    "server_id": 6
   },
   {
     "Date": "2025-07-24",
@@ -122,15 +122,15 @@
     "Camera": "Not Supported",
     "Date Created": "2017-02-19",
     "Last Updated": "2025-04-17",
-    "Server Size": "8",
     "Title": "LUCKY BLOCKS Battlegrounds",
-    "Maturity": "Minimal",
     "Thumbs Up": 733000,
     "Thumbs Down": 266000,
     "gameID": "662417684",
     "URL": "https://www.roblox.com/games/662417684/LUCKY-BLOCKS-Battlegrounds?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=662417684&playContext=gamesPage&position=21&sortPos=15&universeId=279565647",
     "genreID": 6,
-    "communityID": 7
+    "communityID": 7,
+    "maturity_id": 2,
+    "server_id": 7
   },
   {
     "Date": "2025-07-24",
@@ -141,15 +141,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-02-02",
     "Last Updated": "2023-10-15",
-    "Server Size": "18",
     "Title": "RECOIL",
-    "Maturity": "Mild",
     "Thumbs Up": 280000,
     "Thumbs Down": 50000,
     "gameID": "4651779470",
     "URL": "https://www.roblox.com/games/4651779470/RECOIL?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=4651779470&playContext=gamesPage&position=22&sortPos=14&universeId=1534453623",
     "genreID": 7,
-    "communityID": 8
+    "communityID": 8,
+    "maturity_id": 1,
+    "server_id": 8
   },
   {
     "Date": "2025-07-24",
@@ -160,15 +160,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-12-25",
     "Last Updated": "2025-07-19",
-    "Server Size": "20",
     "Title": "Order Up",
-    "Maturity": "Minimal",
     "Thumbs Up": 9168,
     "Thumbs Down": 1131,
     "gameID": "15743235834",
     "URL": "https://www.roblox.com/games/15743235834/Order-Up?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=15743235834&playContext=gamesPage&position=20&sortPos=19&universeId=5440357767",
     "genreID": 1,
-    "communityID": 9
+    "communityID": 9,
+    "maturity_id": 2,
+    "server_id": 9
   },
   {
     "Date": "2025-07-24",
@@ -179,15 +179,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-21",
     "Last Updated": "2025-07-24",
-    "Server Size": "12",
     "Title": "[RELEASE] Tennis Zero",
-    "Maturity": "Minimal",
     "Thumbs Up": 315000,
     "Thumbs Down": 4315,
     "gameID": "81072337989394",
     "URL": "https://www.roblox.com/games/81072337989394/RELEASE-Tennis-Zero?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=81072337989394&playContext=gamesPage&position=33&sortPos=6&universeId=7744159391",
     "genreID": 4,
-    "communityID": 10
+    "communityID": 10,
+    "maturity_id": 2,
+    "server_id": 10
   },
   {
     "Date": "2025-07-24",
@@ -198,15 +198,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-07",
     "Last Updated": "2025-07-20",
-    "Server Size": "8",
     "Title": "Feed Your Pet",
-    "Maturity": "Minimal",
     "Thumbs Up": 158000,
     "Thumbs Down": 3239,
     "gameID": "131783066284968",
     "URL": "https://www.roblox.com/games/131783066284968/Feed-Your-Pet?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=131783066284968&playContext=gamesPage&position=64&sortPos=6&universeId=7658839393",
     "genreID": 8,
-    "communityID": 11
+    "communityID": 11,
+    "maturity_id": 2,
+    "server_id": 11
   },
   {
     "Date": "2025-07-24",
@@ -217,15 +217,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-04-26",
     "Last Updated": "2025-07-24",
-    "Server Size": "20",
     "Title": "Bridge Builders",
-    "Maturity": "Mild",
     "Thumbs Up": 4400,
     "Thumbs Down": 923,
     "gameID": "101419624822516",
     "URL": "https://www.roblox.com/games/101419624822516/Bridge-Builders?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=101419624822516&playContext=gamesPage&position=19&sortPos=19&universeId=7597641221",
     "genreID": 1,
-    "communityID": 12
+    "communityID": 12,
+    "maturity_id": 1,
+    "server_id": 12
   },
   {
     "Date": "2025-07-24",
@@ -236,15 +236,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-26",
     "Last Updated": "2025-07-24",
-    "Server Size": "8",
     "Title": "Steal Junk",
-    "Maturity": "Minimal",
     "Thumbs Up": 5199,
     "Thumbs Down": 383,
     "gameID": "121807678075780",
     "URL": "https://www.roblox.com/games/121807678075780/Steal-Junk?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=121807678075780&playContext=gamesPage&position=96&sortPos=23&universeId=7778459210",
     "genreID": 8,
-    "communityID": 13
+    "communityID": 13,
+    "maturity_id": 2,
+    "server_id": 13
   },
   {
     "Date": "2025-07-24",
@@ -255,15 +255,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-10-27",
     "Last Updated": "2024-12-21",
-    "Server Size": "10",
     "Title": "Fruit Game",
-    "Maturity": "Minimal",
     "Thumbs Up": 12000,
     "Thumbs Down": 2222,
     "gameID": "15180042075",
     "URL": "https://www.roblox.com/games/15180042075/Fruit-Game?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=15180042075&playContext=gamesPage&position=22&sortPos=20&universeId=5232746563",
     "genreID": 9,
-    "communityID": 14
+    "communityID": 14,
+    "maturity_id": 2,
+    "server_id": 14
   },
   {
     "Date": "2025-07-24",
@@ -274,15 +274,15 @@
     "Camera": "Not Supported",
     "Date Created": "2017-01-05",
     "Last Updated": "2024-07-21",
-    "Server Size": "6",
     "Title": "Mint Tycoon [BETA]",
-    "Maturity": "Minimal",
     "Thumbs Up": 25000,
     "Thumbs Down": 1814,
     "gameID": "601239270",
     "URL": "https://www.roblox.com/games/601239270/Mint-Tycoon-BETA?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=669&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=62&page=gamesPage&placeId=601239270&playContext=gamesPage&position=34&sortPos=7&universeId=242453665",
     "genreID": 8,
-    "communityID": 15
+    "communityID": 15,
+    "maturity_id": 2,
+    "server_id": 15
   },
   {
     "Date": "2025-07-24",
@@ -293,15 +293,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-17",
     "Last Updated": "2025-07-22",
-    "Server Size": "12",
     "Title": "Volleyball Legends",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 52000,
     "gameID": "73956553001240",
     "URL": "https://www.roblox.com/games/73956553001240/Volleyball-Legends?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=73956553001240&playContext=gamesPage&position=21&sortPos=3&universeId=6931042565",
     "genreID": 4,
-    "communityID": 16
+    "communityID": 16,
+    "maturity_id": 2,
+    "server_id": 16
   },
   {
     "Date": "2025-07-24",
@@ -312,15 +312,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-02-05",
     "Last Updated": "2025-07-13",
-    "Server Size": "28",
     "Title": "PLS DONATE",
-    "Maturity": "Minimal",
     "Thumbs Up": 2000000,
     "Thumbs Down": 208000,
     "gameID": "8737602449",
     "URL": "https://www.roblox.com/games/8737602449/PLS-DONATE?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=8737602449&playContext=gamesPage&position=21&sortPos=10&universeId=3317679266",
     "genreID": 10,
-    "communityID": 17
+    "communityID": 17,
+    "maturity_id": 2,
+    "server_id": 17
   },
   {
     "Date": "2025-07-24",
@@ -331,15 +331,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-04-03",
     "Last Updated": "2025-07-21",
-    "Server Size": "20",
     "Title": "[RECODE] something evil will happen",
-    "Maturity": "Minimal",
     "Thumbs Up": 153000,
     "Thumbs Down": 12000,
     "gameID": "16991287194",
     "URL": "https://www.roblox.com/games/16991287194/RECODE-something-evil-will-happen?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=16991287194&playContext=gamesPage&position=26&sortPos=4&universeId=5829613337",
     "genreID": 3,
-    "communityID": 18
+    "communityID": 18,
+    "maturity_id": 2,
+    "server_id": 18
   },
   {
     "Date": "2025-07-24",
@@ -350,15 +350,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-14",
     "Last Updated": "2025-07-19",
-    "Server Size": "8",
     "Title": "[UPD ] Steal A Fish",
-    "Maturity": "Minimal",
     "Thumbs Up": 432000,
     "Thumbs Down": 12000,
     "gameID": "72212564918217",
     "URL": "https://www.roblox.com/games/72212564918217/UPD-Steal-A-Fish?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=72212564918217&playContext=gamesPage&position=41&sortPos=6&universeId=7907828295",
     "genreID": 8,
-    "communityID": 19
+    "communityID": 19,
+    "maturity_id": 2,
+    "server_id": 19
   },
   {
     "Date": "2025-07-24",
@@ -369,15 +369,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-03-25",
     "Last Updated": "2025-06-28",
-    "Server Size": "8",
     "Title": "Mines",
-    "Maturity": "Minimal",
     "Thumbs Up": 462000,
     "Thumbs Down": 5152,
     "gameID": "112279762578792",
     "URL": "https://www.roblox.com/games/112279762578792/Mines?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=112279762578792&playContext=gamesPage&position=14&sortPos=8&universeId=7432254268",
     "genreID": 8,
-    "communityID": 20
+    "communityID": 20,
+    "maturity_id": 2,
+    "server_id": 20
   },
   {
     "Date": "2025-07-24",
@@ -388,15 +388,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-09-25",
     "Last Updated": "2025-07-23",
-    "Server Size": "80",
     "Title": "[SKY SQUID] Squid Game X",
-    "Maturity": "Mild",
     "Thumbs Up": 789000,
     "Thumbs Down": 61000,
     "gameID": "7554888362",
     "URL": "https://www.roblox.com/games/7554888362/SKY-SQUID-Squid-Game-X?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=7554888362&playContext=gamesPage&position=56&sortPos=6&universeId=2936053166",
     "genreID": 1,
-    "communityID": 21
+    "communityID": 21,
+    "maturity_id": 1,
+    "server_id": 21
   },
   {
     "Date": "2025-07-24",
@@ -407,15 +407,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-03-31",
     "Last Updated": "2025-05-01",
-    "Server Size": "50",
     "Title": "Rail Frenzy",
-    "Maturity": "Minimal",
     "Thumbs Up": 64000,
     "Thumbs Down": 14000,
     "gameID": "6589412525",
     "URL": "https://www.roblox.com/games/6589412525/Rail-Frenzy?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=6589412525&playContext=gamesPage&position=67&sortPos=19&universeId=2480517375",
     "genreID": 1,
-    "communityID": 22
+    "communityID": 22,
+    "maturity_id": 2,
+    "server_id": 22
   },
   {
     "Date": "2025-07-24",
@@ -426,15 +426,15 @@
     "Camera": "Not Supported",
     "Date Created": "2012-01-30",
     "Last Updated": "2025-07-18",
-    "Server Size": "20",
     "Title": "Dragon Ball Rage",
-    "Maturity": "Mild",
     "Thumbs Up": 575000,
     "Thumbs Down": 64000,
     "gameID": "71315343",
     "URL": "https://www.roblox.com/games/71315343/Dragon-Ball-Rage?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=658&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=73&page=gamesPage&placeId=71315343&playContext=gamesPage&position=71&sortPos=12&universeId=98929893",
     "genreID": 11,
-    "communityID": 23
+    "communityID": 23,
+    "maturity_id": 1,
+    "server_id": 23
   },
   {
     "Date": "2025-07-24",
@@ -445,15 +445,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-07-25",
     "Last Updated": "2025-07-19",
-    "Server Size": "20",
     "Title": "[RELAPSE] Are you lonely",
-    "Maturity": "Minimal",
     "Thumbs Up": 58000,
     "Thumbs Down": 2064,
     "gameID": "18649596490",
     "URL": "https://www.roblox.com/games/18649596490/RELAPSE-Are-you-lonely?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=18649596490&playContext=gamesPage&position=39&sortPos=4&universeId=6318887244",
     "genreID": 10,
-    "communityID": 24
+    "communityID": 24,
+    "maturity_id": 2,
+    "server_id": 24
   },
   {
     "Date": "2025-07-24",
@@ -464,15 +464,15 @@
     "Camera": "Not Supported",
     "Date Created": "2019-01-30",
     "Last Updated": "2025-07-15",
-    "Server Size": "4",
     "Title": "Itty Bitty Railway [DUAL TRAINS]",
-    "Maturity": "Minimal",
     "Thumbs Up": 24000,
     "Thumbs Down": 4825,
     "gameID": "2797140616",
     "URL": "https://www.roblox.com/games/2797140616/Itty-Bitty-Railway-DUAL-TRAINS?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=669&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=62&page=gamesPage&placeId=2797140616&playContext=gamesPage&position=16&sortPos=7&universeId=1012352727",
     "genreID": 8,
-    "communityID": 25
+    "communityID": 25,
+    "maturity_id": 2,
+    "server_id": 25
   },
   {
     "Date": "2025-07-24",
@@ -483,15 +483,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-03-15",
     "Last Updated": "2025-07-23",
-    "Server Size": "30",
     "Title": "[the upd before noli] Untitled Forsaken Engine",
-    "Maturity": "Minimal",
     "Thumbs Up": 8475,
     "Thumbs Down": 3465,
     "gameID": "100039707794702",
     "URL": "https://www.roblox.com/games/100039707794702/the-upd-before-noli-Untitled-Forsaken-Engine?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=100039707794702&playContext=gamesPage&position=72&sortPos=5&universeId=7378605382",
     "genreID": 6,
-    "communityID": 26
+    "communityID": 26,
+    "maturity_id": 2,
+    "server_id": 26
   },
   {
     "Date": "2025-07-24",
@@ -502,15 +502,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-01-13",
     "Last Updated": "2025-07-21",
-    "Server Size": "12",
     "Title": "Anime Dungeon Fighters[Demon Slayer]",
-    "Maturity": "Mild",
     "Thumbs Up": 952000,
     "Thumbs Down": 21000,
     "gameID": "12135640403",
     "URL": "https://www.roblox.com/games/12135640403/Anime-Dungeon-Fighters-Demon-Slayer?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=658&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=73&page=gamesPage&placeId=12135640403&playContext=gamesPage&position=22&sortPos=12&universeId=4280744785",
     "genreID": 11,
-    "communityID": 27
+    "communityID": 27,
+    "maturity_id": 1,
+    "server_id": 27
   },
   {
     "Date": "2025-07-24",
@@ -521,15 +521,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-14",
     "Last Updated": "2025-07-23",
-    "Server Size": "1",
     "Title": "Project Corsa",
-    "Maturity": "Minimal",
     "Thumbs Up": 2643,
     "Thumbs Down": 595,
     "gameID": "80085043174485",
     "URL": "https://www.roblox.com/games/80085043174485/Project-Corsa?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=80085043174485&playContext=gamesPage&position=30&sortPos=13&universeId=7702815023",
     "genreID": 4,
-    "communityID": 28
+    "communityID": 28,
+    "maturity_id": 2,
+    "server_id": 28
   },
   {
     "Date": "2025-07-24",
@@ -540,15 +540,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-01-29",
     "Last Updated": "2025-07-07",
-    "Server Size": "15",
     "Title": "Ben 10 Super Hero Time",
-    "Maturity": "Mild",
     "Thumbs Up": 57000,
     "Thumbs Down": 20000,
     "gameID": "4640354700",
     "URL": "https://www.roblox.com/games/4640354700/Ben-10-Super-Hero-Time?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=4640354700&playContext=gamesPage&position=37&sortPos=15&universeId=1527252839",
     "genreID": 6,
-    "communityID": 29
+    "communityID": 29,
+    "maturity_id": 1,
+    "server_id": 29
   },
   {
     "Date": "2025-07-24",
@@ -559,15 +559,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-02-07",
     "Last Updated": "2025-05-08",
-    "Server Size": "16",
     "Title": "[NEW] Keys  Season 23",
-    "Maturity": "Mild",
     "Thumbs Up": 97000,
     "Thumbs Down": 11000,
     "gameID": "12407250267",
     "URL": "https://www.roblox.com/games/12407250267/NEW-Keys-Season-23?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=12407250267&playContext=gamesPage&position=72&sortPos=3&universeId=4365819446",
     "genreID": 3,
-    "communityID": 30
+    "communityID": 30,
+    "maturity_id": 1,
+    "server_id": 30
   },
   {
     "Date": "2025-07-24",
@@ -578,15 +578,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-12-20",
     "Last Updated": "2025-07-23",
-    "Server Size": "20",
     "Title": "UNORTHODOX ACCOUNTING",
-    "Maturity": "Mild",
     "Thumbs Up": 50000,
     "Thumbs Down": 1984,
     "gameID": "15685372384",
     "URL": "https://www.roblox.com/games/15685372384/UNORTHODOX-ACCOUNTING?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=15685372384&playContext=gamesPage&position=21&sortPos=14&universeId=5418349743",
     "genreID": 7,
-    "communityID": 31
+    "communityID": 31,
+    "maturity_id": 1,
+    "server_id": 31
   },
   {
     "Date": "2025-07-24",
@@ -597,15 +597,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-02-05",
     "Last Updated": "2025-07-13",
-    "Server Size": "28",
     "Title": "PLS DONATE",
-    "Maturity": "Minimal",
     "Thumbs Up": 2000000,
     "Thumbs Down": 208000,
     "gameID": "8737602449",
     "URL": "https://www.roblox.com/games/8737602449/PLS-DONATE?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=8737602449&playContext=gamesPage&position=41&sortPos=3&universeId=3317679266",
     "genreID": 10,
-    "communityID": 17
+    "communityID": 17,
+    "maturity_id": 2,
+    "server_id": 32
   },
   {
     "Date": "2025-07-24",
@@ -616,15 +616,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-10-22",
     "Last Updated": "2025-07-20",
-    "Server Size": "20",
     "Title": "[GAGAMARU] Freestyle Football",
-    "Maturity": "Minimal",
     "Thumbs Up": 8297,
     "Thumbs Down": 2353,
     "gameID": "15133985014",
     "URL": "https://www.roblox.com/games/15133985014/GAGAMARU-Freestyle-Football?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=15133985014&playContext=gamesPage&position=32&sortPos=5&universeId=5215846239",
     "genreID": 4,
-    "communityID": 32
+    "communityID": 32,
+    "maturity_id": 2,
+    "server_id": 33
   },
   {
     "Date": "2025-07-24",
@@ -635,15 +635,15 @@
     "Camera": "Not Supported",
     "Date Created": "2013-10-05",
     "Last Updated": "2025-07-18",
-    "Server Size": "40",
     "Title": "ROBLOX At War 4",
-    "Maturity": "Mild",
     "Thumbs Up": 11000,
     "Thumbs Down": 3436,
     "gameID": "131679415",
     "URL": "https://www.roblox.com/games/131679415/ROBLOX-At-War-4?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=131679415&playContext=gamesPage&position=40&sortPos=14&universeId=44532244",
     "genreID": 7,
-    "communityID": 33
+    "communityID": 33,
+    "maturity_id": 1,
+    "server_id": 34
   },
   {
     "Date": "2025-07-24",
@@ -654,15 +654,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-09-06",
     "Last Updated": "2025-05-23",
-    "Server Size": "40",
     "Title": "World Tower Defense [1.16]",
-    "Maturity": "Minimal",
     "Thumbs Up": 23000,
     "Thumbs Down": 6563,
     "gameID": "5656754541",
     "URL": "https://www.roblox.com/games/5656754541/World-Tower-Defense-1-16?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=5656754541&playContext=gamesPage&position=71&sortPos=5&universeId=1990050272",
     "genreID": 12,
-    "communityID": 34
+    "communityID": 34,
+    "maturity_id": 2,
+    "server_id": 35
   },
   {
     "Date": "2025-07-24",
@@ -673,15 +673,15 @@
     "Camera": "Not Supported",
     "Date Created": "2019-03-02",
     "Last Updated": "2025-05-20",
-    "Server Size": "20",
     "Title": "Obby Creator",
-    "Maturity": "Minimal",
     "Thumbs Up": 271000,
     "Thumbs Down": 67000,
     "gameID": "2913303231",
     "URL": "https://www.roblox.com/games/2913303231/Obby-Creator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=2913303231&playContext=gamesPage&position=37&sortPos=4&universeId=1053132402",
     "genreID": 8,
-    "communityID": 35
+    "communityID": 35,
+    "maturity_id": 2,
+    "server_id": 36
   },
   {
     "Date": "2025-07-24",
@@ -692,15 +692,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-24",
     "Last Updated": "2025-07-23",
-    "Server Size": "50",
     "Title": "Grow a Garden Quiz",
-    "Maturity": "Minimal",
     "Thumbs Up": 82,
     "Thumbs Down": 31,
     "gameID": "110072078315694",
     "URL": "https://www.roblox.com/games/110072078315694/Grow-a-Garden-Quiz?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=110072078315694&playContext=gamesPage&position=1&sortPos=19&universeId=7984427658",
     "genreID": 1,
-    "communityID": 36
+    "communityID": 36,
+    "maturity_id": 2,
+    "server_id": 37
   },
   {
     "Date": "2025-07-24",
@@ -711,15 +711,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-24",
     "Last Updated": "2025-07-23",
-    "Server Size": "32",
     "Title": "[UPD] Fight in Streamer University",
-    "Maturity": "Mild",
     "Thumbs Up": 10000,
     "Thumbs Down": 748,
     "gameID": "131145970478334",
     "URL": "https://www.roblox.com/games/131145970478334/UPD-Fight-in-Streamer-University?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=131145970478334&playContext=gamesPage&position=23&sortPos=15&universeId=7761516673",
     "genreID": 6,
-    "communityID": 37
+    "communityID": 37,
+    "maturity_id": 1,
+    "server_id": 38
   },
   {
     "Date": "2025-07-24",
@@ -730,15 +730,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-02-22",
     "Last Updated": "2025-06-30",
-    "Server Size": "30",
     "Title": "Korean BBQ Restaurant [Preparing for a remake...]",
-    "Maturity": "Minimal",
     "Thumbs Up": 114000,
     "Thumbs Down": 8592,
     "gameID": "6430630495",
     "URL": "https://www.roblox.com/games/6430630495/Korean-BBQ-Restaurant-Preparing-for-a-remake?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=6430630495&playContext=gamesPage&position=48&sortPos=21&universeId=2394934836",
     "genreID": 13,
-    "communityID": 38
+    "communityID": 38,
+    "maturity_id": 2,
+    "server_id": 39
   },
   {
     "Date": "2025-07-24",
@@ -749,15 +749,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-29",
     "Last Updated": "2025-07-22",
-    "Server Size": "22",
     "Title": "(FREE GUNS) South London",
-    "Maturity": "Minimal",
     "Thumbs Up": 733,
     "Thumbs Down": 60,
     "gameID": "111269821236707",
     "URL": "https://www.roblox.com/games/111269821236707/FREE-GUNS-South-London?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=111269821236707&playContext=gamesPage&position=3&sortPos=15&universeId=8029270163",
     "genreID": 6,
-    "communityID": 39
+    "communityID": 39,
+    "maturity_id": 2,
+    "server_id": 40
   },
   {
     "Date": "2025-07-24",
@@ -768,15 +768,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-04",
     "Last Updated": "2025-07-24",
-    "Server Size": "8",
     "Title": "[] Build a Scam Empire",
-    "Maturity": "Minimal",
     "Thumbs Up": 479000,
     "Thumbs Down": 8120,
     "gameID": "83942919686609",
     "URL": "https://www.roblox.com/games/83942919686609/Build-a-Scam-Empire?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=83942919686609&playContext=gamesPage&position=37&sortPos=11&universeId=7640282930",
     "genreID": 8,
-    "communityID": 40
+    "communityID": 40,
+    "maturity_id": 2,
+    "server_id": 41
   },
   {
     "Date": "2025-07-24",
@@ -787,15 +787,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-05-11",
     "Last Updated": "2025-07-22",
-    "Server Size": "8",
     "Title": "[UPD] Gym League",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 33000,
     "gameID": "17450551531",
     "URL": "https://www.roblox.com/games/17450551531/UPD-Gym-League?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=17450551531&playContext=gamesPage&position=34&sortPos=11&universeId=5972059550",
     "genreID": 8,
-    "communityID": 41
+    "communityID": 41,
+    "maturity_id": 2,
+    "server_id": 42
   },
   {
     "Date": "2025-07-24",
@@ -806,15 +806,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-07-11",
     "Last Updated": "2025-05-13",
-    "Server Size": "24",
     "Title": "Short Horror Games",
-    "Maturity": "Minimal",
     "Thumbs Up": 61000,
     "Thumbs Down": 15000,
     "gameID": "18432975025",
     "URL": "https://www.roblox.com/games/18432975025/Short-Horror-Games?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=18432975025&playContext=gamesPage&position=67&sortPos=16&universeId=6247557414",
     "genreID": 5,
-    "communityID": 42
+    "communityID": 42,
+    "maturity_id": 2,
+    "server_id": 43
   },
   {
     "Date": "2025-07-24",
@@ -825,15 +825,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-12",
     "Last Updated": "2025-07-21",
-    "Server Size": "50",
     "Title": "Dead Sewers[Summer][Alpha]",
-    "Maturity": "Mild",
     "Thumbs Up": 13000,
     "Thumbs Down": 1159,
     "gameID": "92044060392057",
     "URL": "https://www.roblox.com/games/92044060392057/Dead-Sewers-Summer-Alpha?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=92044060392057&playContext=gamesPage&position=19&sortPos=16&universeId=7690412163",
     "genreID": 5,
-    "communityID": 6
+    "communityID": 6,
+    "maturity_id": 1,
+    "server_id": 44
   },
   {
     "Date": "2025-07-24",
@@ -844,15 +844,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-10",
     "Last Updated": "2025-07-23",
-    "Server Size": "75",
     "Title": "be a gubby(THE LONG AWAITED HUMAN UPDATE IS HERE)",
-    "Maturity": "Minimal",
     "Thumbs Up": 12000,
     "Thumbs Down": 1248,
     "gameID": "88282708812651",
     "URL": "https://www.roblox.com/games/88282708812651/be-a-gubby-THE-LONG-AWAITED-HUMAN-UPDATE-IS-HERE?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=88282708812651&playContext=gamesPage&position=46&sortPos=21&universeId=7669979046",
     "genreID": 13,
-    "communityID": 43
+    "communityID": 43,
+    "maturity_id": 2,
+    "server_id": 45
   },
   {
     "Date": "2025-07-24",
@@ -863,15 +863,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-01-23",
     "Last Updated": "2025-07-24",
-    "Server Size": "6",
     "Title": "Piggy [SPARKY SKIN]",
-    "Maturity": "Mild",
     "Thumbs Up": 3000000,
     "Thumbs Down": 423000,
     "gameID": "4623386862",
     "URL": "https://www.roblox.com/games/4623386862/Piggy-SPARKY-SKIN?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=4623386862&playContext=gamesPage&position=57&sortPos=10&universeId=1516533665",
     "genreID": 3,
-    "communityID": 44
+    "communityID": 44,
+    "maturity_id": 1,
+    "server_id": 46
   },
   {
     "Date": "2025-07-24",
@@ -882,15 +882,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-01-08",
     "Last Updated": "2025-07-23",
-    "Server Size": "25",
     "Title": "The Diner",
-    "Maturity": "Minimal",
     "Thumbs Up": 1442,
     "Thumbs Down": 411,
     "gameID": "73808553296106",
     "URL": "https://www.roblox.com/games/73808553296106/The-Diner?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=73808553296106&playContext=gamesPage&position=27&sortPos=23&universeId=7056703874",
     "genreID": 8,
-    "communityID": 45
+    "communityID": 45,
+    "maturity_id": 2,
+    "server_id": 47
   },
   {
     "Date": "2025-07-24",
@@ -901,15 +901,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-04-03",
     "Last Updated": "2025-07-19",
-    "Server Size": "6",
     "Title": "[2nd Event][Free Titan]Sword Warriors",
-    "Maturity": "Mild",
     "Thumbs Up": 484000,
     "Thumbs Down": 21000,
     "gameID": "12986400307",
     "URL": "https://www.roblox.com/games/12986400307/2nd-Event-Free-Titan-Sword-Warriors?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=12986400307&playContext=gamesPage&position=92&sortPos=8&universeId=4540494160",
     "genreID": 8,
-    "communityID": 46
+    "communityID": 46,
+    "maturity_id": 1,
+    "server_id": 48
   },
   {
     "Date": "2025-07-24",
@@ -920,15 +920,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-04-18",
     "Last Updated": "2025-07-22",
-    "Server Size": "8",
     "Title": "Sapling [Fields  Flora]",
-    "Maturity": "Minimal",
     "Thumbs Up": 2726,
     "Thumbs Down": 357,
     "gameID": "78486942226809",
     "URL": "https://www.roblox.com/games/78486942226809/Sapling-Fields-Flora?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=78486942226809&playContext=gamesPage&position=14&sortPos=23&universeId=7558198287",
     "genreID": 8,
-    "communityID": 47
+    "communityID": 47,
+    "maturity_id": 2,
+    "server_id": 49
   },
   {
     "Date": "2025-07-24",
@@ -939,15 +939,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-18",
     "Last Updated": "2025-07-23",
-    "Server Size": "20",
     "Title": "[Brainrot ] Lucky Block Tower",
-    "Maturity": "Mild",
     "Thumbs Up": 139000,
     "Thumbs Down": 4939,
     "gameID": "105938112304055",
     "URL": "https://www.roblox.com/games/105938112304055/Brainrot-Lucky-Block-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=105938112304055&playContext=gamesPage&position=30&sortPos=1&universeId=7938272070",
     "genreID": 2,
-    "communityID": 48
+    "communityID": 48,
+    "maturity_id": 1,
+    "server_id": 50
   },
   {
     "Date": "2025-07-24",
@@ -958,15 +958,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-01-31",
     "Last Updated": "2025-06-04",
-    "Server Size": "8",
     "Title": "Which friend do you save",
-    "Maturity": "Minimal",
     "Thumbs Up": 16000,
     "Thumbs Down": 5363,
     "gameID": "16181108359",
     "URL": "https://www.roblox.com/games/16181108359/Which-friend-do-you-save?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=16181108359&playContext=gamesPage&position=79&sortPos=19&universeId=5588721964",
     "genreID": 1,
-    "communityID": 12
+    "communityID": 12,
+    "maturity_id": 2,
+    "server_id": 51
   },
   {
     "Date": "2025-07-24",
@@ -977,15 +977,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-05-10",
     "Last Updated": "2025-07-24",
-    "Server Size": "25",
     "Title": "",
-    "Maturity": "Minimal",
     "Thumbs Up": 2940,
     "Thumbs Down": 926,
     "gameID": "17439875687",
     "URL": "https://www.roblox.com/games/17439875687/Low-Club-REDEASED-2-0-NEW-MAP?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=668&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=58&page=gamesPage&placeId=17439875687&playContext=gamesPage&position=10&sortPos=9&universeId=5968213228",
     "genreID": 8,
-    "communityID": 49
+    "communityID": 49,
+    "maturity_id": 2,
+    "server_id": 52
   },
   {
     "Date": "2025-07-24",
@@ -996,15 +996,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-07-31",
     "Last Updated": "2025-07-23",
-    "Server Size": "15",
     "Title": "[UPD] Military Tycoon",
-    "Maturity": "Mild",
     "Thumbs Up": 1000000,
     "Thumbs Down": 110000,
     "gameID": "7180042682",
     "URL": "https://www.roblox.com/games/7180042682/UPD-Military-Tycoon?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=7180042682&playContext=gamesPage&position=57&sortPos=6&universeId=2788648141",
     "genreID": 8,
-    "communityID": 50
+    "communityID": 50,
+    "maturity_id": 1,
+    "server_id": 53
   },
   {
     "Date": "2025-07-24",
@@ -1015,15 +1015,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-08-13",
     "Last Updated": "2025-01-23",
-    "Server Size": "40",
     "Title": "Zombie game [upd3]",
-    "Maturity": "Mild",
     "Thumbs Up": 179000,
     "Thumbs Down": 9444,
     "gameID": "14419907512",
     "URL": "https://www.roblox.com/games/14419907512/Zombie-game-upd3?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=14419907512&playContext=gamesPage&position=20&sortPos=15&universeId=4982226076",
     "genreID": 6,
-    "communityID": 51
+    "communityID": 51,
+    "maturity_id": 1,
+    "server_id": 54
   },
   {
     "Date": "2025-07-24",
@@ -1034,15 +1034,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-14",
     "Last Updated": "2025-07-19",
-    "Server Size": "8",
     "Title": "[UPD ] Steal A Fish",
-    "Maturity": "Minimal",
     "Thumbs Up": 433000,
     "Thumbs Down": 12000,
     "gameID": "72212564918217",
     "URL": "https://www.roblox.com/games/72212564918217/UPD-Steal-A-Fish?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=72212564918217&playContext=gamesPage&position=36&sortPos=10&universeId=7907828295",
     "genreID": 8,
-    "communityID": 19
+    "communityID": 19,
+    "maturity_id": 2,
+    "server_id": 55
   },
   {
     "Date": "2025-07-24",
@@ -1053,15 +1053,15 @@
     "Camera": "Not Supported",
     "Date Created": "2018-03-21",
     "Last Updated": "2025-07-01",
-    "Server Size": "6",
     "Title": "Bee Swarm Simulator",
-    "Maturity": "Minimal",
     "Thumbs Up": 2000000,
     "Thumbs Down": 131000,
     "gameID": "1537690962",
     "URL": "https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=1537690962&playContext=gamesPage&position=50&sortPos=10&universeId=601130232",
     "genreID": 8,
-    "communityID": 52
+    "communityID": 52,
+    "maturity_id": 2,
+    "server_id": 56
   },
   {
     "Date": "2025-07-24",
@@ -1072,15 +1072,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-16",
     "Last Updated": "2025-07-21",
-    "Server Size": "10",
     "Title": "[YUKIMIYA] Goalbound",
-    "Maturity": "Minimal",
     "Thumbs Up": 716000,
     "Thumbs Down": 13000,
     "gameID": "137628283909891",
     "URL": "https://www.roblox.com/games/137628283909891/YUKIMIYA-Goalbound?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=137628283909891&playContext=gamesPage&position=11&sortPos=8&universeId=6925303818",
     "genreID": 4,
-    "communityID": 53
+    "communityID": 53,
+    "maturity_id": 2,
+    "server_id": 57
   },
   {
     "Date": "2025-07-24",
@@ -1091,15 +1091,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-05-24",
     "Last Updated": "2025-04-06",
-    "Server Size": "10",
     "Title": "[0.9.2]Batman Gotham Stories",
-    "Maturity": "Minimal",
     "Thumbs Up": 1199,
     "Thumbs Down": 241,
     "gameID": "6855783063",
     "URL": "https://www.roblox.com/games/6855783063/0-9-2-Batman-Gotham-Stories?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=669&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=62&page=gamesPage&placeId=6855783063&playContext=gamesPage&position=42&sortPos=7&universeId=2610672811",
     "genreID": 14,
-    "communityID": 54
+    "communityID": 54,
+    "maturity_id": 2,
+    "server_id": 58
   },
   {
     "Date": "2025-07-24",
@@ -1110,15 +1110,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-04-19",
     "Last Updated": "2025-07-08",
-    "Server Size": "30",
     "Title": "Deermont [RP]",
-    "Maturity": "Minimal",
     "Thumbs Up": 11000,
     "Thumbs Down": 2008,
     "gameID": "17192092512",
     "URL": "https://www.roblox.com/games/17192092512/Deermont-RP?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=17192092512&playContext=gamesPage&position=34&sortPos=21&universeId=5887211857",
     "genreID": 13,
-    "communityID": 55
+    "communityID": 55,
+    "maturity_id": 2,
+    "server_id": 59
   },
   {
     "Date": "2025-07-24",
@@ -1129,15 +1129,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-04-10",
     "Last Updated": "2025-07-11",
-    "Server Size": "30",
     "Title": "Noobs Must Die",
-    "Maturity": "Mild",
     "Thumbs Up": 20000,
     "Thumbs Down": 1618,
     "gameID": "93557410403539",
     "URL": "https://www.roblox.com/games/93557410403539/Noobs-Must-Die?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=658&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=73&page=gamesPage&placeId=93557410403539&playContext=gamesPage&position=16&sortPos=12&universeId=7516718402",
     "genreID": 11,
-    "communityID": 56
+    "communityID": 56,
+    "maturity_id": 1,
+    "server_id": 60
   },
   {
     "Date": "2025-07-24",
@@ -1148,15 +1148,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-15",
     "Last Updated": "2025-07-20",
-    "Server Size": "6",
     "Title": "[] Container RNG",
-    "Maturity": "Minimal",
     "Thumbs Up": 401000,
     "Thumbs Down": 5588,
     "gameID": "79657240466394",
     "URL": "https://www.roblox.com/games/79657240466394/Container-RNG?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=239&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=42&page=gamesPage&placeId=79657240466394&playContext=gamesPage&position=38&sortPos=2&universeId=7703544118",
     "genreID": 8,
-    "communityID": 57
+    "communityID": 57,
+    "maturity_id": 2,
+    "server_id": 61
   },
   {
     "Date": "2025-07-24",
@@ -1167,15 +1167,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-01-06",
     "Last Updated": "2025-04-05",
-    "Server Size": "50",
     "Title": "MM2 Duels",
-    "Maturity": "Minimal",
     "Thumbs Up": 17000,
     "Thumbs Down": 4886,
     "gameID": "4577486879",
     "URL": "https://www.roblox.com/games/4577486879/MM2-Duels?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=4577486879&playContext=gamesPage&position=32&sortPos=15&universeId=1487374608",
     "genreID": 6,
-    "communityID": 58
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 62
   },
   {
     "Date": "2025-07-24",
@@ -1186,15 +1186,15 @@
     "Camera": "Not Supported",
     "Date Created": "2011-02-06",
     "Last Updated": "2025-07-20",
-    "Server Size": "1",
     "Title": "PARTY.exe",
-    "Maturity": "Minimal",
     "Thumbs Up": 64000,
     "Thumbs Down": 11000,
     "gameID": "45659278",
     "URL": "https://www.roblox.com/games/45659278/PARTY-exe?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=45659278&playContext=gamesPage&position=21&sortPos=16&universeId=2988214",
     "genreID": 5,
-    "communityID": 59
+    "communityID": 59,
+    "maturity_id": 2,
+    "server_id": 63
   },
   {
     "Date": "2025-07-24",
@@ -1205,15 +1205,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-06-13",
     "Last Updated": "2025-07-22",
-    "Server Size": "15",
     "Title": "Project Escape Room [NEW MAP]",
-    "Maturity": "Minimal",
     "Thumbs Up": 34000,
     "Thumbs Down": 3738,
     "gameID": "17844293708",
     "URL": "https://www.roblox.com/games/17844293708/Project-Escape-Room-NEW-MAP?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=17844293708&playContext=gamesPage&position=5&sortPos=20&universeId=6113928308",
     "genreID": 9,
-    "communityID": 60
+    "communityID": 60,
+    "maturity_id": 2,
+    "server_id": 64
   },
   {
     "Date": "2025-07-24",
@@ -1224,15 +1224,15 @@
     "Camera": "Not Supported",
     "Date Created": "2015-09-21",
     "Last Updated": "2025-07-21",
-    "Server Size": "32",
     "Title": "test place",
-    "Maturity": "Mild",
     "Thumbs Up": 65000,
     "Thumbs Down": 9007,
     "gameID": "299659045",
     "URL": "https://www.roblox.com/games/299659045/test-place?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=299659045&playContext=gamesPage&position=20&sortPos=14&universeId=115272207",
     "genreID": 7,
-    "communityID": 61
+    "communityID": 61,
+    "maturity_id": 1,
+    "server_id": 65
   },
   {
     "Date": "2025-07-24",
@@ -1243,15 +1243,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-02-09",
     "Last Updated": "2025-07-23",
-    "Server Size": "25",
     "Title": "[2X Luck] DIG",
-    "Maturity": "Minimal",
     "Thumbs Up": 90000,
     "Thumbs Down": 9408,
     "gameID": "126244816328678",
     "URL": "https://www.roblox.com/games/126244816328678/2X-Luck-DIG?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=126244816328678&playContext=gamesPage&position=82&sortPos=6&universeId=7218065222",
     "genreID": 8,
-    "communityID": 62
+    "communityID": 62,
+    "maturity_id": 2,
+    "server_id": 66
   },
   {
     "Date": "2025-07-24",
@@ -1262,15 +1262,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-11-17",
     "Last Updated": "2025-07-20",
-    "Server Size": "12",
     "Title": "FNAF Battlegrounds 2",
-    "Maturity": "Mild",
     "Thumbs Up": 38000,
     "Thumbs Down": 7559,
     "gameID": "96490671161699",
     "URL": "https://www.roblox.com/games/96490671161699/FNAF-Battlegrounds-2?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=96490671161699&playContext=gamesPage&position=43&sortPos=15&universeId=6807582030",
     "genreID": 6,
-    "communityID": 63
+    "communityID": null,
+    "maturity_id": 1,
+    "server_id": 67
   },
   {
     "Date": "2025-07-24",
@@ -1281,15 +1281,15 @@
     "Camera": "Not Supported",
     "Date Created": "2017-01-06",
     "Last Updated": "2025-07-13",
-    "Server Size": "28",
     "Title": "Jailbreak",
-    "Maturity": "Minimal",
     "Thumbs Up": 5000000,
     "Thumbs Down": 791000,
     "gameID": "606849621",
     "URL": "https://www.roblox.com/games/606849621/Jailbreak?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=606849621&playContext=gamesPage&position=38&sortPos=10&universeId=245662005",
     "genreID": 6,
-    "communityID": 64
+    "communityID": 64,
+    "maturity_id": 2,
+    "server_id": 68
   },
   {
     "Date": "2025-07-24",
@@ -1300,15 +1300,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-09-25",
     "Last Updated": "2025-07-23",
-    "Server Size": "80",
     "Title": "[SKY SQUID] Squid Game X",
-    "Maturity": "Mild",
     "Thumbs Up": 789000,
     "Thumbs Down": 61000,
     "gameID": "7554888362",
     "URL": "https://www.roblox.com/games/7554888362/SKY-SQUID-Squid-Game-X?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=7554888362&playContext=gamesPage&position=16&sortPos=3&universeId=2936053166",
     "genreID": 1,
-    "communityID": 21
+    "communityID": 21,
+    "maturity_id": 1,
+    "server_id": 69
   },
   {
     "Date": "2025-07-24",
@@ -1319,15 +1319,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-01-03",
     "Last Updated": "2025-07-23",
-    "Server Size": "10",
     "Title": "[UPD] Basketball Zero",
-    "Maturity": "Minimal",
     "Thumbs Up": 5000000,
     "Thumbs Down": 72000,
     "gameID": "130739873848552",
     "URL": "https://www.roblox.com/games/130739873848552/UPD-Basketball-Zero?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=130739873848552&playContext=gamesPage&position=32&sortPos=6&universeId=7028566528",
     "genreID": 4,
-    "communityID": 65
+    "communityID": 65,
+    "maturity_id": 2,
+    "server_id": 70
   },
   {
     "Date": "2025-07-24",
@@ -1338,15 +1338,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-05-28",
     "Last Updated": "2025-07-24",
-    "Server Size": "12",
     "Title": "Tiny Wheels",
-    "Maturity": "Minimal",
     "Thumbs Up": 41000,
     "Thumbs Down": 6572,
     "gameID": "5098630929",
     "URL": "https://www.roblox.com/games/5098630929/Tiny-Wheels?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=5098630929&playContext=gamesPage&position=28&sortPos=13&universeId=1766958151",
     "genreID": 4,
-    "communityID": 66
+    "communityID": 66,
+    "maturity_id": 2,
+    "server_id": 71
   },
   {
     "Date": "2025-07-24",
@@ -1357,15 +1357,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-02-12",
     "Last Updated": "2025-07-17",
-    "Server Size": "20",
     "Title": "Escape Room Academy",
-    "Maturity": "Minimal",
     "Thumbs Up": 18000,
     "Thumbs Down": 4225,
     "gameID": "16343978644",
     "URL": "https://www.roblox.com/games/16343978644/Escape-Room-Academy?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=16343978644&playContext=gamesPage&position=16&sortPos=20&universeId=5637228071",
     "genreID": 9,
-    "communityID": 67
+    "communityID": 67,
+    "maturity_id": 2,
+    "server_id": 72
   },
   {
     "Date": "2025-07-24",
@@ -1376,15 +1376,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-06",
     "Last Updated": "2025-07-24",
-    "Server Size": "20",
     "Title": "[TYBW 2  QOL ] Anime Rangers X",
-    "Maturity": "Minimal",
     "Thumbs Up": 436000,
     "Thumbs Down": 10000,
     "gameID": "72829404259339",
     "URL": "https://www.roblox.com/games/72829404259339/TYBW-2-QOL-Anime-Rangers-X?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=72829404259339&playContext=gamesPage&position=13&sortPos=5&universeId=6884266247",
     "genreID": 12,
-    "communityID": 68
+    "communityID": 68,
+    "maturity_id": 2,
+    "server_id": 73
   },
   {
     "Date": "2025-07-24",
@@ -1395,15 +1395,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-03-25",
     "Last Updated": "2025-07-24",
-    "Server Size": "10",
     "Title": "CNA Simulator",
-    "Maturity": "Minimal",
     "Thumbs Up": 85000,
     "Thumbs Down": 4883,
     "gameID": "16864008714",
     "URL": "https://www.roblox.com/games/16864008714/CNA-Simulator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=16864008714&playContext=gamesPage&position=75&sortPos=21&universeId=5794311181",
     "genreID": 13,
-    "communityID": 69
+    "communityID": 69,
+    "maturity_id": 2,
+    "server_id": 74
   },
   {
     "Date": "2025-07-24",
@@ -1414,15 +1414,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-18",
     "Last Updated": "2025-07-19",
-    "Server Size": "9",
     "Title": "Blue Lock RNG",
-    "Maturity": "Minimal",
     "Thumbs Up": 276,
     "Thumbs Down": 115,
     "gameID": "87212636993817",
     "URL": "https://www.roblox.com/games/87212636993817/Blue-Lock-RNG?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=87212636993817&playContext=gamesPage&position=72&sortPos=23&universeId=7943036770",
     "genreID": 8,
-    "communityID": 70
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 75
   },
   {
     "Date": "2025-07-24",
@@ -1433,15 +1433,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-02-15",
     "Last Updated": "2025-07-10",
-    "Server Size": "6",
     "Title": "[MEGA] Butterfly Tycoon",
-    "Maturity": "Minimal",
     "Thumbs Up": 5024,
     "Thumbs Down": 703,
     "gameID": "115170712422892",
     "URL": "https://www.roblox.com/games/115170712422892/MEGA-Butterfly-Tycoon?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=239&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=42&page=gamesPage&placeId=115170712422892&playContext=gamesPage&position=24&sortPos=2&universeId=7245520408",
     "genreID": 8,
-    "communityID": 71
+    "communityID": 70,
+    "maturity_id": 2,
+    "server_id": 76
   },
   {
     "Date": "2025-07-24",
@@ -1452,15 +1452,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-09-12",
     "Last Updated": "2025-07-21",
-    "Server Size": "50",
     "Title": "Ragdoll Engine",
-    "Maturity": "Minimal",
     "Thumbs Up": 83000,
     "Thumbs Down": 17000,
     "gameID": "5683833663",
     "URL": "https://www.roblox.com/games/5683833663/Ragdoll-Engine?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=5683833663&playContext=gamesPage&position=49&sortPos=4&universeId=2007050448",
     "genreID": 8,
-    "communityID": 72
+    "communityID": 71,
+    "maturity_id": 2,
+    "server_id": 77
   },
   {
     "Date": "2025-07-24",
@@ -1471,15 +1471,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-25",
     "Last Updated": "2025-07-23",
-    "Server Size": "8",
     "Title": "[UPD] Steal A Pet",
-    "Maturity": "Minimal",
     "Thumbs Up": 12000,
     "Thumbs Down": 642,
     "gameID": "102335515580864",
     "URL": "https://www.roblox.com/games/102335515580864/UPD-Steal-A-Pet?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=102335515580864&playContext=gamesPage&position=12&sortPos=18&universeId=7772563946",
     "genreID": 2,
-    "communityID": 73
+    "communityID": 72,
+    "maturity_id": 2,
+    "server_id": 78
   },
   {
     "Date": "2025-07-24",
@@ -1490,15 +1490,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-02-21",
     "Last Updated": "2025-07-22",
-    "Server Size": "15",
     "Title": "UGC Easy Glass Bridge Obby",
-    "Maturity": "Minimal",
     "Thumbs Up": 2199,
     "Thumbs Down": 677,
     "gameID": "122142945178411",
     "URL": "https://www.roblox.com/games/122142945178411/UGC-Easy-Glass-Bridge-Obby?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=122142945178411&playContext=gamesPage&position=88&sortPos=18&universeId=7272113094",
     "genreID": 2,
-    "communityID": 74
+    "communityID": 73,
+    "maturity_id": 2,
+    "server_id": 79
   },
   {
     "Date": "2025-07-24",
@@ -1509,15 +1509,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-10-11",
     "Last Updated": "2025-07-23",
-    "Server Size": "42",
     "Title": "Emergency Hamburg",
-    "Maturity": "Mild",
     "Thumbs Up": 322000,
     "Thumbs Down": 61000,
     "gameID": "7711635737",
     "URL": "https://www.roblox.com/games/7711635737/Emergency-Hamburg?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=7711635737&playContext=gamesPage&position=31&sortPos=3&universeId=2992873140",
     "genreID": 13,
-    "communityID": 75
+    "communityID": 74,
+    "maturity_id": 1,
+    "server_id": 80
   },
   {
     "Date": "2025-07-24",
@@ -1528,15 +1528,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-11-01",
     "Last Updated": "2025-07-19",
-    "Server Size": "30",
     "Title": "Randomizer Redux",
-    "Maturity": "Mild",
     "Thumbs Up": 11000,
     "Thumbs Down": 4516,
     "gameID": "99342262733194",
     "URL": "https://www.roblox.com/games/99342262733194/Randomizer-Redux?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=99342262733194&playContext=gamesPage&position=16&sortPos=14&universeId=6745933496",
     "genreID": 7,
-    "communityID": 76
+    "communityID": 75,
+    "maturity_id": 1,
+    "server_id": 81
   },
   {
     "Date": "2025-07-24",
@@ -1547,15 +1547,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-08-31",
     "Last Updated": "2025-07-15",
-    "Server Size": "30",
     "Title": "EXILED",
-    "Maturity": "Mild",
     "Thumbs Up": 131000,
     "Thumbs Down": 3093,
     "gameID": "70767845851256",
     "URL": "https://www.roblox.com/games/70767845851256/EXILED?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=70767845851256&playContext=gamesPage&position=63&sortPos=16&universeId=6489669774",
     "genreID": 5,
-    "communityID": 77
+    "communityID": 76,
+    "maturity_id": 1,
+    "server_id": 82
   },
   {
     "Date": "2025-07-24",
@@ -1566,15 +1566,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-14",
     "Last Updated": "2025-07-23",
-    "Server Size": "42",
     "Title": "Squid Game Troll Tower",
-    "Maturity": "Minimal",
     "Thumbs Up": 321000,
     "Thumbs Down": 19000,
     "gameID": "75139493550474",
     "URL": "https://www.roblox.com/games/75139493550474/Squid-Game-Troll-Tower?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=75139493550474&playContext=gamesPage&position=70&sortPos=3&universeId=7912886575",
     "genreID": 2,
-    "communityID": 78
+    "communityID": 77,
+    "maturity_id": 2,
+    "server_id": 83
   },
   {
     "Date": "2025-07-24",
@@ -1585,15 +1585,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-27",
     "Last Updated": "2025-07-23",
-    "Server Size": "18",
     "Title": "[] ZOO or OOF",
-    "Maturity": "Mild",
     "Thumbs Up": 25000,
     "Thumbs Down": 1752,
     "gameID": "139233844569220",
     "URL": "https://www.roblox.com/games/139233844569220/ZOO-or-OOF?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=139233844569220&playContext=gamesPage&position=12&sortPos=19&universeId=7785400752",
     "genreID": 1,
-    "communityID": 1
+    "communityID": 1,
+    "maturity_id": 1,
+    "server_id": 84
   },
   {
     "Date": "2025-07-24",
@@ -1604,15 +1604,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-06-11",
     "Last Updated": "2025-07-22",
-    "Server Size": "15",
     "Title": "Evade  [PLUSHIE]",
-    "Maturity": "Mild",
     "Thumbs Up": 2000000,
     "Thumbs Down": 160000,
     "gameID": "9872472334",
     "URL": "https://www.roblox.com/games/9872472334/Evade-PLUSHIE?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=9872472334&playContext=gamesPage&position=20&sortPos=3&universeId=3647333358",
     "genreID": 3,
-    "communityID": 79
+    "communityID": 78,
+    "maturity_id": 1,
+    "server_id": 85
   },
   {
     "Date": "2025-07-24",
@@ -1623,15 +1623,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-20",
     "Last Updated": "2025-07-15",
-    "Server Size": "14",
     "Title": "[] Better Show",
-    "Maturity": "Mild",
     "Thumbs Up": 4768,
     "Thumbs Down": 215,
     "gameID": "109599487501571",
     "URL": "https://www.roblox.com/games/109599487501571/Better-Show?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=109599487501571&playContext=gamesPage&position=13&sortPos=19&universeId=7733613102",
     "genreID": 1,
-    "communityID": 80
+    "communityID": 79,
+    "maturity_id": 1,
+    "server_id": 86
   },
   {
     "Date": "2025-07-24",
@@ -1642,15 +1642,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-10-10",
     "Last Updated": "2025-07-22",
-    "Server Size": "30",
     "Title": "[] Tied Together",
-    "Maturity": "Minimal",
     "Thumbs Up": 11000,
     "Thumbs Down": 187,
     "gameID": "108003034980758",
     "URL": "https://www.roblox.com/games/108003034980758/Tied-Together?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=108003034980758&playContext=gamesPage&position=39&sortPos=18&universeId=6655970630",
     "genreID": 2,
-    "communityID": 81
+    "communityID": 80,
+    "maturity_id": 2,
+    "server_id": 87
   },
   {
     "Date": "2025-07-24",
@@ -1661,15 +1661,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-29",
     "Last Updated": "2025-07-24",
-    "Server Size": "20",
     "Title": "Simple Guns [FFA]",
-    "Maturity": "Minimal",
     "Thumbs Up": 3444,
     "Thumbs Down": 234,
     "gameID": "135071635394677",
     "URL": "https://www.roblox.com/games/135071635394677/Simple-Guns-FFA?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=135071635394677&playContext=gamesPage&position=4&sortPos=14&universeId=7797566941",
     "genreID": 7,
-    "communityID": 82
+    "communityID": 81,
+    "maturity_id": 2,
+    "server_id": 88
   },
   {
     "Date": "2025-07-24",
@@ -1680,15 +1680,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-12",
     "Last Updated": "2025-07-22",
-    "Server Size": "12",
     "Title": "[SALES] Jetpack Rush",
-    "Maturity": "Minimal",
     "Thumbs Up": 834,
     "Thumbs Down": 65,
     "gameID": "101403552776844",
     "URL": "https://www.roblox.com/games/101403552776844/SALES-Jetpack-Rush?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=101403552776844&playContext=gamesPage&position=70&sortPos=18&universeId=7897603620",
     "genreID": 2,
-    "communityID": 83
+    "communityID": 82,
+    "maturity_id": 2,
+    "server_id": 89
   },
   {
     "Date": "2025-07-24",
@@ -1699,15 +1699,15 @@
     "Camera": "Not Supported",
     "Date Created": "2016-03-13",
     "Last Updated": "2020-12-20",
-    "Server Size": "70",
     "Title": "Wheres the Baby",
-    "Maturity": "Minimal",
     "Thumbs Up": 338000,
     "Thumbs Down": 85000,
     "gameID": "381674682",
     "URL": "https://www.roblox.com/games/381674682/Wheres-the-Baby?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=381674682&playContext=gamesPage&position=66&sortPos=19&universeId=143384880",
     "genreID": 1,
-    "communityID": 84
+    "communityID": 83,
+    "maturity_id": 2,
+    "server_id": 90
   },
   {
     "Date": "2025-07-24",
@@ -1718,15 +1718,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-09-02",
     "Last Updated": "2025-07-19",
-    "Server Size": "150",
     "Title": "Oath of Office Political Simulator",
-    "Maturity": "Minimal",
     "Thumbs Up": 25000,
     "Thumbs Down": 4697,
     "gameID": "110814051639689",
     "URL": "https://www.roblox.com/games/110814051639689/Oath-of-Office-Political-Simulator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=110814051639689&playContext=gamesPage&position=11&sortPos=21&universeId=6500116207",
     "genreID": 13,
-    "communityID": 85
+    "communityID": 84,
+    "maturity_id": 2,
+    "server_id": 91
   },
   {
     "Date": "2025-07-24",
@@ -1737,15 +1737,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-03-09",
     "Last Updated": "2025-07-23",
-    "Server Size": "100",
     "Title": "rosumania 7.50.1  Music  Rhythm",
-    "Maturity": "Minimal",
     "Thumbs Up": 22000,
     "Thumbs Down": 7267,
     "gameID": "9051087354",
     "URL": "https://www.roblox.com/games/9051087354/rosu-mania-7-50-1-Music-Rhythm?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=668&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=58&page=gamesPage&placeId=9051087354&playContext=gamesPage&position=30&sortPos=9&universeId=3405992067",
     "genreID": 6,
-    "communityID": 86
+    "communityID": 85,
+    "maturity_id": 2,
+    "server_id": 92
   },
   {
     "Date": "2025-07-24",
@@ -1756,15 +1756,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-16",
     "Last Updated": "2025-07-21",
-    "Server Size": "10",
     "Title": "[YUKIMIYA] Goalbound",
-    "Maturity": "Minimal",
     "Thumbs Up": 716000,
     "Thumbs Down": 13000,
     "gameID": "137628283909891",
     "URL": "https://www.roblox.com/games/137628283909891/YUKIMIYA-Goalbound?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=137628283909891&playContext=gamesPage&position=49&sortPos=10&universeId=6925303818",
     "genreID": 4,
-    "communityID": 53
+    "communityID": 53,
+    "maturity_id": 2,
+    "server_id": 93
   },
   {
     "Date": "2025-07-24",
@@ -1775,15 +1775,15 @@
     "Camera": "Not Supported",
     "Date Created": "2017-06-11",
     "Last Updated": "2025-07-23",
-    "Server Size": "30",
     "Title": "Apocalypse Rising 2",
-    "Maturity": "Mild",
     "Thumbs Up": 219000,
     "Thumbs Down": 31000,
     "gameID": "863266079",
     "URL": "https://www.roblox.com/games/863266079/Apocalypse-Rising-2?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=863266079&playContext=gamesPage&position=22&sortPos=1&universeId=358276974",
     "genreID": 6,
-    "communityID": 87
+    "communityID": 86,
+    "maturity_id": 1,
+    "server_id": 94
   },
   {
     "Date": "2025-07-24",
@@ -1794,15 +1794,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-19",
     "Last Updated": "2025-07-24",
-    "Server Size": "15",
     "Title": "[NEWSCENE]Wally West Simulator Speed Unleashed",
-    "Maturity": "Minimal",
     "Thumbs Up": 184,
     "Thumbs Down": 49,
     "gameID": "137708409245293",
     "URL": "https://www.roblox.com/games/137708409245293/NEWSCENE-Wally-West-Simulator-Speed-Unleashed?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=137708409245293&playContext=gamesPage&position=53&sortPos=23&universeId=7950003836",
     "genreID": 8,
-    "communityID": 88
+    "communityID": 87,
+    "maturity_id": 2,
+    "server_id": 95
   },
   {
     "Date": "2025-07-24",
@@ -1813,15 +1813,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-04-16",
     "Last Updated": "2025-06-25",
-    "Server Size": "14",
     "Title": "Chicken Jockey [2 Player Obby]",
-    "Maturity": "Minimal",
     "Thumbs Up": 48000,
     "Thumbs Down": 3576,
     "gameID": "71412777087552",
     "URL": "https://www.roblox.com/games/71412777087552/Chicken-Jockey-2-Player-Obby?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=71412777087552&playContext=gamesPage&position=78&sortPos=18&universeId=7546135071",
     "genreID": 2,
-    "communityID": 89
+    "communityID": 88,
+    "maturity_id": 2,
+    "server_id": 96
   },
   {
     "Date": "2025-07-24",
@@ -1832,15 +1832,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-02",
     "Last Updated": "2025-07-24",
-    "Server Size": "15",
     "Title": "Hide the body",
-    "Maturity": "Mild",
     "Thumbs Up": 54000,
     "Thumbs Down": 8332,
     "gameID": "81239378558719",
     "URL": "https://www.roblox.com/games/81239378558719/Hide-the-body?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=81239378558719&playContext=gamesPage&position=2&sortPos=1&universeId=7823137182",
     "genreID": 12,
-    "communityID": 90
+    "communityID": 89,
+    "maturity_id": 1,
+    "server_id": 97
   },
   {
     "Date": "2025-07-24",
@@ -1851,15 +1851,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-06-13",
     "Last Updated": "2025-07-22",
-    "Server Size": "15",
     "Title": "Project Escape Room [NEW MAP]",
-    "Maturity": "Minimal",
     "Thumbs Up": 34000,
     "Thumbs Down": 3738,
     "gameID": "17844293708",
     "URL": "https://www.roblox.com/games/17844293708/Project-Escape-Room-NEW-MAP?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=17844293708&playContext=gamesPage&position=82&sortPos=1&universeId=6113928308",
     "genreID": 9,
-    "communityID": 60
+    "communityID": 60,
+    "maturity_id": 2,
+    "server_id": 98
   },
   {
     "Date": "2025-07-24",
@@ -1870,15 +1870,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-07-06",
     "Last Updated": "2025-07-24",
-    "Server Size": "30",
     "Title": "The 1000000 Jump Rope",
-    "Maturity": "Minimal",
     "Thumbs Up": 46000,
     "Thumbs Down": 2904,
     "gameID": "123741668193208",
     "URL": "https://www.roblox.com/games/123741668193208/The-1-000-000-Jump-Rope?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=239&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=42&page=gamesPage&placeId=123741668193208&playContext=gamesPage&position=8&sortPos=2&universeId=8081472583",
     "genreID": 2,
-    "communityID": 91
+    "communityID": 90,
+    "maturity_id": 2,
+    "server_id": 99
   },
   {
     "Date": "2025-07-24",
@@ -1889,15 +1889,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-12-23",
     "Last Updated": "2025-07-20",
-    "Server Size": "24",
     "Title": "LankyBox Concert LIVE",
-    "Maturity": "Minimal",
     "Thumbs Up": 3005,
     "Thumbs Down": 1255,
     "gameID": "15715250396",
     "URL": "https://www.roblox.com/games/15715250396/LankyBox-Concert-LIVE?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=668&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=58&page=gamesPage&placeId=15715250396&playContext=gamesPage&position=14&sortPos=9&universeId=5429414398",
     "genreID": 15,
-    "communityID": 92
+    "communityID": 91,
+    "maturity_id": 2,
+    "server_id": 100
   },
   {
     "Date": "2025-07-24",
@@ -1908,15 +1908,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-05-08",
     "Last Updated": "2025-07-19",
-    "Server Size": "20",
     "Title": "Attack on Titan Revolution",
-    "Maturity": "Mild",
     "Thumbs Up": 832000,
     "Thumbs Down": 36000,
     "gameID": "13379208636",
     "URL": "https://www.roblox.com/games/13379208636/Attack-on-Titan-Revolution?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=13379208636&playContext=gamesPage&position=85&sortPos=8&universeId=4658598196",
     "genreID": 11,
-    "communityID": 93
+    "communityID": 92,
+    "maturity_id": 1,
+    "server_id": 101
   },
   {
     "Date": "2025-07-24",
@@ -1927,15 +1927,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-02-20",
     "Last Updated": "2025-06-30",
-    "Server Size": "50",
     "Title": "Freshly Shopping Thorngate Park Store",
-    "Maturity": "Minimal",
     "Thumbs Up": 16000,
     "Thumbs Down": 3085,
     "gameID": "8876147780",
     "URL": "https://www.roblox.com/games/8876147780/Freshly-Shopping-Thorngate-Park-Store?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=8876147780&playContext=gamesPage&position=22&sortPos=21&universeId=3357087159",
     "genreID": 13,
-    "communityID": 94
+    "communityID": 93,
+    "maturity_id": 2,
+    "server_id": 102
   },
   {
     "Date": "2025-07-24",
@@ -1946,15 +1946,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-02-11",
     "Last Updated": "2025-07-23",
-    "Server Size": "32",
     "Title": "POLY-Z RNGZombie Survival",
-    "Maturity": "Mild",
     "Thumbs Up": 4191,
     "Thumbs Down": 806,
     "gameID": "114291906728616",
     "URL": "https://www.roblox.com/games/114291906728616/POLY-Z-RNG-Zombie-Survival?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=114291906728616&playContext=gamesPage&position=12&sortPos=14&universeId=7229464493",
     "genreID": 7,
-    "communityID": 95
+    "communityID": 94,
+    "maturity_id": 1,
+    "server_id": 103
   },
   {
     "Date": "2025-07-24",
@@ -1965,15 +1965,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-01-18",
     "Last Updated": "2025-07-12",
-    "Server Size": "50",
     "Title": "LOCOfficial",
-    "Maturity": "Minimal",
     "Thumbs Up": 236000,
     "Thumbs Down": 34000,
     "gameID": "8571687919",
     "URL": "https://www.roblox.com/games/8571687919/LOCOfficial?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=8571687919&playContext=gamesPage&position=46&sortPos=1&universeId=3267012194",
     "genreID": 12,
-    "communityID": 96
+    "communityID": 95,
+    "maturity_id": 2,
+    "server_id": 104
   },
   {
     "Date": "2025-07-24",
@@ -1984,15 +1984,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-24",
     "Last Updated": "2025-07-21",
-    "Server Size": "32",
     "Title": "Invisible Troll Tower",
-    "Maturity": "Minimal",
     "Thumbs Up": 12000,
     "Thumbs Down": 946,
     "gameID": "88021617698822",
     "URL": "https://www.roblox.com/games/88021617698822/Invisible-Troll-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=88021617698822&playContext=gamesPage&position=33&sortPos=18&universeId=7983687809",
     "genreID": 2,
-    "communityID": 97
+    "communityID": 96,
+    "maturity_id": 2,
+    "server_id": 105
   },
   {
     "Date": "2025-07-24",
@@ -2003,15 +2003,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-07-04",
     "Last Updated": "2025-07-24",
-    "Server Size": "8",
     "Title": "Steal Thaaa Brainrot Modded",
-    "Maturity": "Minimal",
     "Thumbs Up": 5942,
     "Thumbs Down": 686,
     "gameID": "112401682618370",
     "URL": "https://www.roblox.com/games/112401682618370/Steal-Thaaa-Brainrot-Modded?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=239&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=42&page=gamesPage&placeId=112401682618370&playContext=gamesPage&position=10&sortPos=2&universeId=8069861680",
     "genreID": 8,
-    "communityID": 98
+    "communityID": 97,
+    "maturity_id": 2,
+    "server_id": 106
   },
   {
     "Date": "2025-07-24",
@@ -2022,15 +2022,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-09-27",
     "Last Updated": "2025-07-24",
-    "Server Size": "50",
     "Title": "(Testing) Squid Game X",
-    "Maturity": "Mild",
     "Thumbs Up": 3117,
     "Thumbs Down": 367,
     "gameID": "7577961216",
     "URL": "https://www.roblox.com/games/7577961216/Testing-Squid-Game-X?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=7577961216&playContext=gamesPage&position=61&sortPos=19&universeId=2943850166",
     "genreID": 1,
-    "communityID": 21
+    "communityID": 21,
+    "maturity_id": 1,
+    "server_id": 107
   },
   {
     "Date": "2025-07-24",
@@ -2041,15 +2041,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-03-07",
     "Last Updated": "2025-07-11",
-    "Server Size": "50",
     "Title": "Audio Controller",
-    "Maturity": "Minimal",
     "Thumbs Up": 3065,
     "Thumbs Down": 567,
     "gameID": "16648064928",
     "URL": "https://www.roblox.com/games/16648064928/Audio-Controller?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=668&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=58&page=gamesPage&placeId=16648064928&playContext=gamesPage&position=13&sortPos=9&universeId=5726732822",
     "genreID": 15,
-    "communityID": 99
+    "communityID": 98,
+    "maturity_id": 2,
+    "server_id": 108
   },
   {
     "Date": "2025-07-24",
@@ -2060,15 +2060,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-02-19",
     "Last Updated": "2025-07-23",
-    "Server Size": "14",
     "Title": "[ Sakura Pass] FREE FIRE Ilha de treinamento",
-    "Maturity": "Mild",
     "Thumbs Up": 906,
     "Thumbs Down": 212,
     "gameID": "134697928735986",
     "URL": "https://www.roblox.com/games/134697928735986/Sakura-Pass-FREE-FIRE-Ilha-de-treinamento?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=134697928735986&playContext=gamesPage&position=14&sortPos=14&universeId=7264117105",
     "genreID": 7,
-    "communityID": 100
+    "communityID": 99,
+    "maturity_id": 1,
+    "server_id": 109
   },
   {
     "Date": "2025-07-24",
@@ -2079,15 +2079,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-08-13",
     "Last Updated": "2025-07-20",
-    "Server Size": "200",
     "Title": "[CAR] A Long Road - BETA",
-    "Maturity": "Minimal",
     "Thumbs Up": 50000,
     "Thumbs Down": 6358,
     "gameID": "18934709778",
     "URL": "https://www.roblox.com/games/18934709778/CAR-A-Long-Road-BETA?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=18934709778&playContext=gamesPage&position=25&sortPos=16&universeId=6413074235",
     "genreID": 5,
-    "communityID": 101
+    "communityID": 100,
+    "maturity_id": 2,
+    "server_id": 110
   },
   {
     "Date": "2025-07-24",
@@ -2098,15 +2098,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-01",
     "Last Updated": "2025-07-24",
-    "Server Size": "16",
     "Title": "climb a mountain",
-    "Maturity": "Minimal",
     "Thumbs Up": 6092,
     "Thumbs Down": 1676,
     "gameID": "103120571981776",
     "URL": "https://www.roblox.com/games/103120571981776/climb-a-mountain?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=103120571981776&playContext=gamesPage&position=13&sortPos=16&universeId=6862548805",
     "genreID": 5,
-    "communityID": 102
+    "communityID": 101,
+    "maturity_id": 2,
+    "server_id": 111
   },
   {
     "Date": "2025-07-24",
@@ -2117,15 +2117,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-02-17",
     "Last Updated": "2025-04-28",
-    "Server Size": "25",
     "Title": "Digital Piano",
-    "Maturity": "Minimal",
     "Thumbs Up": 32000,
     "Thumbs Down": 4881,
     "gameID": "8848607186",
     "URL": "https://www.roblox.com/games/8848607186/Digital-Piano?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=654&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=33&page=gamesPage&placeId=8848607186&playContext=gamesPage&position=6&sortPos=17&universeId=3349588628",
     "genreID": 15,
-    "communityID": 103
+    "communityID": 102,
+    "maturity_id": 2,
+    "server_id": 112
   },
   {
     "Date": "2025-07-24",
@@ -2136,15 +2136,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-06-28",
     "Last Updated": "2025-07-22",
-    "Server Size": "8",
     "Title": "Superstar Racers",
-    "Maturity": "Minimal",
     "Thumbs Up": 40000,
     "Thumbs Down": 7436,
     "gameID": "18238180555",
     "URL": "https://www.roblox.com/games/18238180555/Superstar-Racers?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=18238180555&playContext=gamesPage&position=9&sortPos=13&universeId=6182655829",
     "genreID": 4,
-    "communityID": 104
+    "communityID": 103,
+    "maturity_id": 2,
+    "server_id": 113
   },
   {
     "Date": "2025-07-24",
@@ -2155,15 +2155,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-07-04",
     "Last Updated": "2025-07-18",
-    "Server Size": "25",
     "Title": "Super Mega Papa Obby[BETA]",
-    "Maturity": "Minimal",
     "Thumbs Up": 1107,
     "Thumbs Down": 399,
     "gameID": "95293629233276",
     "URL": "https://www.roblox.com/games/95293629233276/Super-Mega-Papa-Obby-BETA?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=95293629233276&playContext=gamesPage&position=7&sortPos=18&universeId=8064917023",
     "genreID": 2,
-    "communityID": 105
+    "communityID": 104,
+    "maturity_id": 2,
+    "server_id": 114
   },
   {
     "Date": "2025-07-24",
@@ -2174,15 +2174,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-06-23",
     "Last Updated": "2025-07-04",
-    "Server Size": "20",
     "Title": "Colors in Question",
-    "Maturity": "Minimal",
     "Thumbs Up": 28000,
     "Thumbs Down": 4488,
     "gameID": "10001065412",
     "URL": "https://www.roblox.com/games/10001065412/Colors-in-Question?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=10001065412&playContext=gamesPage&position=21&sortPos=20&universeId=3684063910",
     "genreID": 9,
-    "communityID": 106
+    "communityID": 105,
+    "maturity_id": 2,
+    "server_id": 115
   },
   {
     "Date": "2025-07-24",
@@ -2193,15 +2193,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-10",
     "Last Updated": "2025-06-10",
-    "Server Size": "25",
     "Title": "Labubu [HORROR]",
-    "Maturity": "Minimal",
     "Thumbs Up": 9691,
     "Thumbs Down": 3297,
     "gameID": "127757919932453",
     "URL": "https://www.roblox.com/games/127757919932453/Labubu-HORROR?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=127757919932453&playContext=gamesPage&position=56&sortPos=16&universeId=7675956997",
     "genreID": 5,
-    "communityID": 107
+    "communityID": 106,
+    "maturity_id": 2,
+    "server_id": 116
   },
   {
     "Date": "2025-07-24",
@@ -2212,15 +2212,15 @@
     "Camera": "Not Supported",
     "Date Created": "2016-04-25",
     "Last Updated": "2022-07-30",
-    "Server Size": "8",
     "Title": "TreeLands Legacy",
-    "Maturity": "Minimal",
     "Thumbs Up": 141000,
     "Thumbs Down": 6650,
     "gameID": "404729070",
     "URL": "https://www.roblox.com/games/404729070/TreeLands-Legacy?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=669&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=62&page=gamesPage&placeId=404729070&playContext=gamesPage&position=44&sortPos=7&universeId=152631806",
     "genreID": 8,
-    "communityID": 108
+    "communityID": 107,
+    "maturity_id": 2,
+    "server_id": 117
   },
   {
     "Date": "2025-07-24",
@@ -2231,15 +2231,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-09-24",
     "Last Updated": "2025-07-24",
-    "Server Size": "24",
     "Title": "[] SpongeBob Tower Defense",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 26000,
     "gameID": "123662243100680",
     "URL": "https://www.roblox.com/games/123662243100680/SpongeBob-Tower-Defense?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=123662243100680&playContext=gamesPage&position=3&sortPos=8&universeId=6594435384",
     "genreID": 12,
-    "communityID": 109
+    "communityID": 108,
+    "maturity_id": 2,
+    "server_id": 118
   },
   {
     "Date": "2025-07-24",
@@ -2250,15 +2250,15 @@
     "Camera": "Not Supported",
     "Date Created": "2013-12-06",
     "Last Updated": "2025-07-22",
-    "Server Size": "40",
     "Title": "RoCitizens",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 142000,
     "gameID": "137877687",
     "URL": "https://www.roblox.com/games/137877687/RoCitizens?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=137877687&playContext=gamesPage&position=55&sortPos=11&universeId=63951305",
     "genreID": 13,
-    "communityID": 110
+    "communityID": 109,
+    "maturity_id": 2,
+    "server_id": 119
   },
   {
     "Date": "2025-07-24",
@@ -2269,15 +2269,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-05-31",
     "Last Updated": "2025-07-23",
-    "Server Size": "8",
     "Title": "[UPD] Cake Off",
-    "Maturity": "Minimal",
     "Thumbs Up": 561000,
     "Thumbs Down": 11000,
     "gameID": "17670743999",
     "URL": "https://www.roblox.com/games/17670743999/UPD-Cake-Off?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=17670743999&playContext=gamesPage&position=21&sortPos=19&universeId=6052033819",
     "genreID": 1,
-    "communityID": 111
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 120
   },
   {
     "Date": "2025-07-24",
@@ -2288,15 +2288,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-21",
     "Last Updated": "2025-07-24",
-    "Server Size": "12",
     "Title": "[RELEASE] Tennis Zero",
-    "Maturity": "Minimal",
     "Thumbs Up": 315000,
     "Thumbs Down": 4333,
     "gameID": "81072337989394",
     "URL": "https://www.roblox.com/games/81072337989394/RELEASE-Tennis-Zero?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=81072337989394&playContext=gamesPage&position=36&sortPos=8&universeId=7744159391",
     "genreID": 4,
-    "communityID": 10
+    "communityID": 10,
+    "maturity_id": 2,
+    "server_id": 121
   },
   {
     "Date": "2025-07-24",
@@ -2307,15 +2307,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-04-14",
     "Last Updated": "2025-07-12",
-    "Server Size": "25",
     "Title": "ZO SAMURAI SWORD FIGHTING",
-    "Maturity": "Mild",
     "Thumbs Up": 702000,
     "Thumbs Down": 153000,
     "gameID": "6678877691",
     "URL": "https://www.roblox.com/games/6678877691/ZO-SAMURAI-SWORD-FIGHTING?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=6678877691&playContext=gamesPage&position=45&sortPos=4&universeId=2516044547",
     "genreID": 6,
-    "communityID": 112
+    "communityID": 111,
+    "maturity_id": 1,
+    "server_id": 122
   },
   {
     "Date": "2025-07-24",
@@ -2326,15 +2326,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-06-14",
     "Last Updated": "2025-05-06",
-    "Server Size": "12",
     "Title": "Eating Simulator",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 65000,
     "gameID": "6953291455",
     "URL": "https://www.roblox.com/games/6953291455/Eating-Simulator?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=6953291455&playContext=gamesPage&position=76&sortPos=8&universeId=2663599422",
     "genreID": 8,
-    "communityID": 113
+    "communityID": 112,
+    "maturity_id": 2,
+    "server_id": 123
   },
   {
     "Date": "2025-07-24",
@@ -2345,15 +2345,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-18",
     "Last Updated": "2025-07-23",
-    "Server Size": "20",
     "Title": "[Brainrot ] Lucky Block Tower",
-    "Maturity": "Mild",
     "Thumbs Up": 139000,
     "Thumbs Down": 4941,
     "gameID": "105938112304055",
     "URL": "https://www.roblox.com/games/105938112304055/Brainrot-Lucky-Block-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=105938112304055&playContext=gamesPage&position=24&sortPos=11&universeId=7938272070",
     "genreID": 2,
-    "communityID": 48
+    "communityID": 48,
+    "maturity_id": 1,
+    "server_id": 124
   },
   {
     "Date": "2025-07-24",
@@ -2364,15 +2364,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-08",
     "Last Updated": "2025-07-24",
-    "Server Size": "50",
     "Title": "[CLASSES] Zombie Tower",
-    "Maturity": "Minimal",
     "Thumbs Up": 5074,
     "Thumbs Down": 1737,
     "gameID": "115338810233057",
     "URL": "https://www.roblox.com/games/115338810233057/CLASSES-Zombie-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=115338810233057&playContext=gamesPage&position=39&sortPos=10&universeId=7661577083",
     "genreID": 2,
-    "communityID": 114
+    "communityID": 113,
+    "maturity_id": 2,
+    "server_id": 125
   },
   {
     "Date": "2025-07-24",
@@ -2383,15 +2383,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-10-30",
     "Last Updated": "2025-07-24",
-    "Server Size": "18",
     "Title": "[Slayer] DUEL Warriors",
-    "Maturity": "Mild",
     "Thumbs Up": 651000,
     "Thumbs Down": 22000,
     "gameID": "100400297022629",
     "URL": "https://www.roblox.com/games/100400297022629/Slayer-DUEL-Warriors?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=100400297022629&playContext=gamesPage&position=69&sortPos=15&universeId=6736482454",
     "genreID": 6,
-    "communityID": 115
+    "communityID": 114,
+    "maturity_id": 1,
+    "server_id": 126
   },
   {
     "Date": "2025-07-24",
@@ -2402,15 +2402,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-12-03",
     "Last Updated": "2025-07-22",
-    "Server Size": "20",
     "Title": "Sols RNG [ Sand Worm  ]",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 120000,
     "gameID": "15532962292",
     "URL": "https://www.roblox.com/games/15532962292/Sols-RNG-Sand-Worm?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=15532962292&playContext=gamesPage&position=14&sortPos=5&universeId=5361032378",
     "genreID": 8,
-    "communityID": 116
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 127
   },
   {
     "Date": "2025-07-24",
@@ -2421,15 +2421,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-10-15",
     "Last Updated": "2025-07-22",
-    "Server Size": "9",
     "Title": "[RECODE] NPC or DIE",
-    "Maturity": "Mild",
     "Thumbs Up": 471000,
     "Thumbs Down": 34000,
     "gameID": "11276071411",
     "URL": "https://www.roblox.com/games/11276071411/RECODE-NPC-or-DIE?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=11276071411&playContext=gamesPage&position=11&sortPos=11&universeId=4019583467",
     "genreID": 3,
-    "communityID": 117
+    "communityID": 116,
+    "maturity_id": 1,
+    "server_id": 128
   },
   {
     "Date": "2025-07-24",
@@ -2440,15 +2440,15 @@
     "Camera": "Not Supported",
     "Date Created": "2015-08-31",
     "Last Updated": "2025-07-21",
-    "Server Size": "32",
     "Title": "[Belgian National Day] Phantom Forces",
-    "Maturity": "Mild",
     "Thumbs Up": 2000000,
     "Thumbs Down": 241000,
     "gameID": "292439477",
     "URL": "https://www.roblox.com/games/292439477/Belgian-National-Day-Phantom-Forces?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=292439477&playContext=gamesPage&position=18&sortPos=14&universeId=113491250",
     "genreID": 7,
-    "communityID": 61
+    "communityID": 61,
+    "maturity_id": 1,
+    "server_id": 129
   },
   {
     "Date": "2025-07-24",
@@ -2459,15 +2459,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-04-03",
     "Last Updated": "2025-07-21",
-    "Server Size": "20",
     "Title": "[RECODE] something evil will happen",
-    "Maturity": "Minimal",
     "Thumbs Up": 153000,
     "Thumbs Down": 12000,
     "gameID": "16991287194",
     "URL": "https://www.roblox.com/games/16991287194/RECODE-something-evil-will-happen?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=16991287194&playContext=gamesPage&position=53&sortPos=10&universeId=5829613337",
     "genreID": 3,
-    "communityID": 18
+    "communityID": 18,
+    "maturity_id": 2,
+    "server_id": 130
   },
   {
     "Date": "2025-07-24",
@@ -2478,15 +2478,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-27",
     "Last Updated": "2025-07-23",
-    "Server Size": "50",
     "Title": "Incredible Blox",
-    "Maturity": "Minimal",
     "Thumbs Up": 20000,
     "Thumbs Down": 1742,
     "gameID": "125790795579287",
     "URL": "https://www.roblox.com/games/125790795579287/Incredible-Blox?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=654&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=33&page=gamesPage&placeId=125790795579287&playContext=gamesPage&position=12&sortPos=17&universeId=6983536246",
     "genreID": 15,
-    "communityID": 118
+    "communityID": 117,
+    "maturity_id": 2,
+    "server_id": 131
   },
   {
     "Date": "2025-07-24",
@@ -2497,15 +2497,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-01-25",
     "Last Updated": "2025-07-05",
-    "Server Size": "20",
     "Title": "RO-Scale Sandbox",
-    "Maturity": "Minimal",
     "Thumbs Up": 17000,
     "Thumbs Down": 5015,
     "gameID": "4629209674",
     "URL": "https://www.roblox.com/games/4629209674/RO-Scale-Sandbox?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=4629209674&playContext=gamesPage&position=31&sortPos=5&universeId=1520491885",
     "genreID": 8,
-    "communityID": 119
+    "communityID": 118,
+    "maturity_id": 2,
+    "server_id": 132
   },
   {
     "Date": "2025-07-24",
@@ -2516,15 +2516,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-08",
     "Last Updated": "2025-03-21",
-    "Server Size": "24",
     "Title": "Blade League",
-    "Maturity": "Minimal",
     "Thumbs Up": 50000,
     "Thumbs Down": 13000,
     "gameID": "80316691895873",
     "URL": "https://www.roblox.com/games/80316691895873/Blade-League?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=80316691895873&playContext=gamesPage&position=52&sortPos=13&universeId=6894451805",
     "genreID": 4,
-    "communityID": 120
+    "communityID": 119,
+    "maturity_id": 2,
+    "server_id": 133
   },
   {
     "Date": "2025-07-24",
@@ -2535,15 +2535,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-04-08",
     "Last Updated": "2025-07-23",
-    "Server Size": "15",
     "Title": "IQ Rooms [Room79]",
-    "Maturity": "Minimal",
     "Thumbs Up": 13000,
     "Thumbs Down": 2627,
     "gameID": "79368456802742",
     "URL": "https://www.roblox.com/games/79368456802742/IQ-Rooms-Room79?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=79368456802742&playContext=gamesPage&position=29&sortPos=20&universeId=7506737869",
     "genreID": 9,
-    "communityID": 121
+    "communityID": 120,
+    "maturity_id": 2,
+    "server_id": 134
   },
   {
     "Date": "2025-07-24",
@@ -2554,15 +2554,15 @@
     "Camera": "Not Supported",
     "Date Created": "2020-04-24",
     "Last Updated": "2025-07-23",
-    "Server Size": "10",
     "Title": "SPLASH  Skate  Music",
-    "Maturity": "Minimal",
     "Thumbs Up": 279000,
     "Thumbs Down": 34000,
     "gameID": "4936591712",
     "URL": "https://www.roblox.com/games/4936591712/SPLASH-Skate-Music?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=4936591712&playContext=gamesPage&position=78&sortPos=13&universeId=1692631458",
     "genreID": 4,
-    "communityID": 122
+    "communityID": 121,
+    "maturity_id": 2,
+    "server_id": 135
   },
   {
     "Date": "2025-07-24",
@@ -2573,15 +2573,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-07-05",
     "Last Updated": "2025-07-24",
-    "Server Size": "35",
     "Title": "1000000 Jump Rope [SQUID GAME SEASON 3]",
-    "Maturity": "Minimal",
     "Thumbs Up": 1741,
     "Thumbs Down": 200,
     "gameID": "73260369529980",
     "URL": "https://www.roblox.com/games/73260369529980/1-000-000-Jump-Rope-SQUID-GAME-SEASON-3?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=73260369529980&playContext=gamesPage&position=80&sortPos=18&universeId=8076774031",
     "genreID": 2,
-    "communityID": 123
+    "communityID": 122,
+    "maturity_id": 2,
+    "server_id": 136
   },
   {
     "Date": "2025-07-24",
@@ -2592,15 +2592,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-11-10",
     "Last Updated": "2025-07-21",
-    "Server Size": "12",
     "Title": "Anime Combats Simulator",
-    "Maturity": "Minimal",
     "Thumbs Up": 461000,
     "Thumbs Down": 9622,
     "gameID": "15313073197",
     "URL": "https://www.roblox.com/games/15313073197/Anime-Combats-Simulator?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=15313073197&playContext=gamesPage&position=29&sortPos=8&universeId=5281426065",
     "genreID": 8,
-    "communityID": 124
+    "communityID": 123,
+    "maturity_id": 2,
+    "server_id": 137
   },
   {
     "Date": "2025-07-24",
@@ -2611,15 +2611,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-07-20",
     "Last Updated": "2025-06-20",
-    "Server Size": "12",
     "Title": "Dont Shatter [2 Player Obby]",
-    "Maturity": "Minimal",
     "Thumbs Up": 237000,
     "Thumbs Down": 6782,
     "gameID": "18565120308",
     "URL": "https://www.roblox.com/games/18565120308/Dont-Shatter-2-Player-Obby?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=18565120308&playContext=gamesPage&position=93&sortPos=8&universeId=6290175032",
     "genreID": 2,
-    "communityID": 125
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 138
   },
   {
     "Date": "2025-07-24",
@@ -2630,15 +2630,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-04-02",
     "Last Updated": "2025-07-19",
-    "Server Size": "10",
     "Title": "Reborn As Swordsman",
-    "Maturity": "Mild",
     "Thumbs Up": 285000,
     "Thumbs Down": 9514,
     "gameID": "16981421605",
     "URL": "https://www.roblox.com/games/16981421605/Reborn-As-Swordsman?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=16981421605&playContext=gamesPage&position=96&sortPos=8&universeId=5827120940",
     "genreID": 8,
-    "communityID": 126
+    "communityID": 125,
+    "maturity_id": 1,
+    "server_id": 139
   },
   {
     "Date": "2025-07-24",
@@ -2649,15 +2649,15 @@
     "Camera": "Not Supported",
     "Date Created": "2019-06-05",
     "Last Updated": "2025-07-24",
-    "Server Size": "30",
     "Title": "[PVP]  Tower Defense Simulator",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 113000,
     "gameID": "3260590327",
     "URL": "https://www.roblox.com/games/3260590327/PVP-Tower-Defense-Simulator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=3260590327&playContext=gamesPage&position=60&sortPos=10&universeId=1176784616",
     "genreID": 12,
-    "communityID": 127
+    "communityID": 126,
+    "maturity_id": 2,
+    "server_id": 140
   },
   {
     "Date": "2025-07-24",
@@ -2668,15 +2668,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-12-03",
     "Last Updated": "2025-07-22",
-    "Server Size": "20",
     "Title": "Sols RNG [ Sand Worm  ]",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 120000,
     "gameID": "15532962292",
     "URL": "https://www.roblox.com/games/15532962292/Sols-RNG-Sand-Worm?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=15532962292&playContext=gamesPage&position=37&sortPos=6&universeId=5361032378",
     "genreID": 8,
-    "communityID": 116
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 141
   },
   {
     "Date": "2025-07-24",
@@ -2687,15 +2687,15 @@
     "Camera": "Not Supported",
     "Date Created": "2018-11-01",
     "Last Updated": "2025-07-22",
-    "Server Size": "40",
     "Title": "Emergency Response Liberty County",
-    "Maturity": "Mild",
     "Thumbs Up": 1000000,
     "Thumbs Down": 103000,
     "gameID": "2534724415",
     "URL": "https://www.roblox.com/games/2534724415/Emergency-Response-Liberty-County?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=2534724415&playContext=gamesPage&position=57&sortPos=5&universeId=903807016",
     "genreID": 13,
-    "communityID": 128
+    "communityID": 127,
+    "maturity_id": 1,
+    "server_id": 142
   },
   {
     "Date": "2025-07-24",
@@ -2706,15 +2706,15 @@
     "Camera": "Not Supported",
     "Date Created": "2019-02-19",
     "Last Updated": "2025-07-20",
-    "Server Size": "150",
     "Title": "Chechos Deltarune RP",
-    "Maturity": "Minimal",
     "Thumbs Up": 19000,
     "Thumbs Down": 1411,
     "gameID": "2872154782",
     "URL": "https://www.roblox.com/games/2872154782/Chechos-Deltarune-RP?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=2872154782&playContext=gamesPage&position=55&sortPos=21&universeId=1039663363",
     "genreID": 13,
-    "communityID": 129
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 143
   },
   {
     "Date": "2025-07-24",
@@ -2725,15 +2725,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-12",
     "Last Updated": "2025-07-23",
-    "Server Size": "8",
     "Title": "[] Steal a Freddy",
-    "Maturity": "Minimal",
     "Thumbs Up": 16000,
     "Thumbs Down": 2840,
     "gameID": "137167142636546",
     "URL": "https://www.roblox.com/games/137167142636546/Steal-a-Freddy?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=137167142636546&playContext=gamesPage&position=47&sortPos=4&universeId=7896337643",
     "genreID": 8,
-    "communityID": 130
+    "communityID": 129,
+    "maturity_id": 2,
+    "server_id": 144
   },
   {
     "Date": "2025-07-24",
@@ -2744,15 +2744,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-16",
     "Last Updated": "2025-07-24",
-    "Server Size": "50",
     "Title": "ESCAPE ROOM Deluxe Edition [BETA]",
-    "Maturity": "Minimal",
     "Thumbs Up": 1255,
     "Thumbs Down": 355,
     "gameID": "135864053284092",
     "URL": "https://www.roblox.com/games/135864053284092/ESCAPE-ROOM-Deluxe-Edition-BETA?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=135864053284092&playContext=gamesPage&position=28&sortPos=20&universeId=7709793220",
     "genreID": 9,
-    "communityID": 131
+    "communityID": 130,
+    "maturity_id": 2,
+    "server_id": 145
   },
   {
     "Date": "2025-07-24",
@@ -2763,15 +2763,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-09-27",
     "Last Updated": "2025-07-13",
-    "Server Size": "40",
     "Title": "PAWS Pet Hospital",
-    "Maturity": "Minimal",
     "Thumbs Up": 22000,
     "Thumbs Down": 3816,
     "gameID": "14895218677",
     "URL": "https://www.roblox.com/games/14895218677/PAWS-Pet-Hospital?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=14895218677&playContext=gamesPage&position=29&sortPos=21&universeId=5131771588",
     "genreID": 13,
-    "communityID": 132
+    "communityID": 131,
+    "maturity_id": 2,
+    "server_id": 146
   },
   {
     "Date": "2025-07-24",
@@ -2782,15 +2782,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-07-04",
     "Last Updated": "2025-07-22",
-    "Server Size": "24",
     "Title": "Catalog Avatar Creator",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 142000,
     "gameID": "7041939546",
     "URL": "https://www.roblox.com/games/7041939546/Catalog-Avatar-Creator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=7041939546&playContext=gamesPage&position=61&sortPos=5&universeId=2711375305",
     "genreID": 16,
-    "communityID": 133
+    "communityID": 132,
+    "maturity_id": 2,
+    "server_id": 147
   },
   {
     "Date": "2025-07-24",
@@ -2801,15 +2801,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-10",
     "Last Updated": "2025-07-23",
-    "Server Size": "12",
     "Title": "[PART 2] Anime Eternal",
-    "Maturity": "Minimal",
     "Thumbs Up": 66000,
     "Thumbs Down": 1044,
     "gameID": "90462358603255",
     "URL": "https://www.roblox.com/games/90462358603255/PART-2-Anime-Eternal?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=239&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=42&page=gamesPage&placeId=90462358603255&playContext=gamesPage&position=41&sortPos=2&universeId=7882829745",
     "genreID": 8,
-    "communityID": 134
+    "communityID": 133,
+    "maturity_id": 2,
+    "server_id": 148
   },
   {
     "Date": "2025-07-24",
@@ -2820,15 +2820,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-22",
     "Last Updated": "2025-07-04",
-    "Server Size": "20",
     "Title": "Find The Labubu [127]",
-    "Maturity": "Minimal",
     "Thumbs Up": 2810,
     "Thumbs Down": 164,
     "gameID": "137634669639110",
     "URL": "https://www.roblox.com/games/137634669639110/Find-The-Labubu-127?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=137634669639110&playContext=gamesPage&position=27&sortPos=16&universeId=7975097812",
     "genreID": 5,
-    "communityID": 135
+    "communityID": 134,
+    "maturity_id": 2,
+    "server_id": 149
   },
   {
     "Date": "2025-07-24",
@@ -2839,15 +2839,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-08-02",
     "Last Updated": "2025-07-16",
-    "Server Size": "15",
     "Title": "The Strongest Battlegrounds",
-    "Maturity": "Mild",
     "Thumbs Up": 4000000,
     "Thumbs Down": 793000,
     "gameID": "10449761463",
     "URL": "https://www.roblox.com/games/10449761463/The-Strongest-Battlegrounds?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=10449761463&playContext=gamesPage&position=15&sortPos=5&universeId=3808081382",
     "genreID": 6,
-    "communityID": 136
+    "communityID": 135,
+    "maturity_id": 1,
+    "server_id": 150
   },
   {
     "Date": "2025-07-24",
@@ -2858,15 +2858,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-15",
     "Last Updated": "2025-07-24",
-    "Server Size": "8",
     "Title": "EQuest Testing [PERSONALITIES]",
-    "Maturity": "Minimal",
     "Thumbs Up": 7743,
     "Thumbs Down": 728,
     "gameID": "75178747054941",
     "URL": "https://www.roblox.com/games/75178747054941/EQuest-Testing-PERSONALITIES?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=75178747054941&playContext=gamesPage&position=86&sortPos=21&universeId=7921879545",
     "genreID": 13,
-    "communityID": 137
+    "communityID": 136,
+    "maturity_id": 2,
+    "server_id": 151
   },
   {
     "Date": "2025-07-24",
@@ -2877,15 +2877,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-11-22",
     "Last Updated": "2024-12-01",
-    "Server Size": "16",
     "Title": "Pick A Food",
-    "Maturity": "Minimal",
     "Thumbs Up": 16000,
     "Thumbs Down": 1048,
     "gameID": "82434557832176",
     "URL": "https://www.roblox.com/games/82434557832176/Pick-A-Food?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=82434557832176&playContext=gamesPage&position=31&sortPos=19&universeId=6826136419",
     "genreID": 1,
-    "communityID": 138
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 152
   },
   {
     "Date": "2025-07-24",
@@ -2896,15 +2896,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-02-06",
     "Last Updated": "2025-07-23",
-    "Server Size": "8",
     "Title": "Silly Simon Says",
-    "Maturity": "Minimal",
     "Thumbs Up": 147000,
     "Thumbs Down": 31000,
     "gameID": "12397515839",
     "URL": "https://www.roblox.com/games/12397515839/Silly-Simon-Says?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=12397515839&playContext=gamesPage&position=55&sortPos=19&universeId=4362587875",
     "genreID": 1,
-    "communityID": 139
+    "communityID": 138,
+    "maturity_id": 2,
+    "server_id": 153
   },
   {
     "Date": "2025-07-24",
@@ -2915,15 +2915,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-09-25",
     "Last Updated": "2025-07-23",
-    "Server Size": "80",
     "Title": "[SKY SQUID] Squid Game X",
-    "Maturity": "Mild",
     "Thumbs Up": 789000,
     "Thumbs Down": 61000,
     "gameID": "7554888362",
     "URL": "https://www.roblox.com/games/7554888362/SKY-SQUID-Squid-Game-X?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=7554888362&playContext=gamesPage&position=24&sortPos=10&universeId=2936053166",
     "genreID": 1,
-    "communityID": 21
+    "communityID": 21,
+    "maturity_id": 1,
+    "server_id": 154
   },
   {
     "Date": "2025-07-24",
@@ -2934,15 +2934,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-05-14",
     "Last Updated": "2025-06-28",
-    "Server Size": "16",
     "Title": "void fishing",
-    "Maturity": "Minimal",
     "Thumbs Up": 866000,
     "Thumbs Down": 12000,
     "gameID": "17487086188",
     "URL": "https://www.roblox.com/games/17487086188/void-fishing?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=17487086188&playContext=gamesPage&position=1&sortPos=8&universeId=5985126622",
     "genreID": 8,
-    "communityID": 140
+    "communityID": 139,
+    "maturity_id": 2,
+    "server_id": 155
   },
   {
     "Date": "2025-07-24",
@@ -2953,15 +2953,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-01-08",
     "Last Updated": "2025-07-24",
-    "Server Size": "18",
     "Title": "[TRADING] Old A Bizarre Day",
-    "Maturity": "Mild",
     "Thumbs Up": 7034,
     "Thumbs Down": 2202,
     "gameID": "6206310576",
     "URL": "https://www.roblox.com/games/6206310576/TRADING-Old-A-Bizarre-Day?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=6206310576&playContext=gamesPage&position=17&sortPos=15&universeId=2275514399",
     "genreID": 6,
-    "communityID": 141
+    "communityID": 140,
+    "maturity_id": 1,
+    "server_id": 156
   },
   {
     "Date": "2025-07-24",
@@ -2972,15 +2972,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-11",
     "Last Updated": "2025-07-19",
-    "Server Size": "15",
     "Title": "[SUMMER] - Grow a Garden Quiz",
-    "Maturity": "Minimal",
     "Thumbs Up": 22000,
     "Thumbs Down": 1446,
     "gameID": "129134935332234",
     "URL": "https://www.roblox.com/games/129134935332234/SUMMER-Grow-a-Garden-Quiz?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=129134935332234&playContext=gamesPage&position=23&sortPos=19&universeId=7685972663",
     "genreID": 1,
-    "communityID": 142
+    "communityID": 141,
+    "maturity_id": 2,
+    "server_id": 157
   },
   {
     "Date": "2025-07-24",
@@ -2991,15 +2991,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-05-19",
     "Last Updated": "2025-07-22",
-    "Server Size": "10",
     "Title": "[TRAILBLAZERS] FUT 25",
-    "Maturity": "Minimal",
     "Thumbs Up": 7523,
     "Thumbs Down": 2271,
     "gameID": "9665612064",
     "URL": "https://www.roblox.com/games/9665612064/TRAILBLAZERS-FUT-25?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=9665612064&playContext=gamesPage&position=2&sortPos=13&universeId=3590268018",
     "genreID": 4,
-    "communityID": 143
+    "communityID": 142,
+    "maturity_id": 2,
+    "server_id": 158
   },
   {
     "Date": "2025-07-24",
@@ -3010,15 +3010,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-01-23",
     "Last Updated": "2025-07-19",
-    "Server Size": "15",
     "Title": "Survive The Zombies The Killers",
-    "Maturity": "Minimal",
     "Thumbs Up": 8288,
     "Thumbs Down": 2589,
     "gameID": "16087546880",
     "URL": "https://www.roblox.com/games/16087546880/Survive-The-Zombies-The-Killers?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=16087546880&playContext=gamesPage&position=5&sortPos=14&universeId=5560226875",
     "genreID": 7,
-    "communityID": 144
+    "communityID": 143,
+    "maturity_id": 2,
+    "server_id": 159
   },
   {
     "Date": "2025-07-24",
@@ -3029,15 +3029,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-04-25",
     "Last Updated": "2025-07-21",
-    "Server Size": "30",
     "Title": "Color Book",
-    "Maturity": "Minimal",
     "Thumbs Up": 33000,
     "Thumbs Down": 3492,
     "gameID": "6722921118",
     "URL": "https://www.roblox.com/games/6722921118/Color-Book?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=6722921118&playContext=gamesPage&position=60&sortPos=19&universeId=2541236151",
     "genreID": 1,
-    "communityID": 145
+    "communityID": 144,
+    "maturity_id": 2,
+    "server_id": 160
   },
   {
     "Date": "2025-07-24",
@@ -3048,15 +3048,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-04-17",
     "Last Updated": "2025-07-23",
-    "Server Size": "20",
     "Title": "[CURSED PARTNERS] Jujutsu Shenanigans",
-    "Maturity": "Mild",
     "Thumbs Up": 1000000,
     "Thumbs Down": 199000,
     "gameID": "9391468976",
     "URL": "https://www.roblox.com/games/9391468976/CURSED-PARTNERS-Jujutsu-Shenanigans?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=9391468976&playContext=gamesPage&position=76&sortPos=6&universeId=3508322461",
     "genreID": 6,
-    "communityID": 146
+    "communityID": null,
+    "maturity_id": 1,
+    "server_id": 161
   },
   {
     "Date": "2025-07-24",
@@ -3067,15 +3067,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-03-30",
     "Last Updated": "2025-07-22",
-    "Server Size": "20",
     "Title": "Mindlock Escape Room",
-    "Maturity": "Minimal",
     "Thumbs Up": 10000,
     "Thumbs Down": 1125,
     "gameID": "93729973089151",
     "URL": "https://www.roblox.com/games/93729973089151/Mindlock-Escape-Room?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=93729973089151&playContext=gamesPage&position=4&sortPos=20&universeId=7455943862",
     "genreID": 9,
-    "communityID": 147
+    "communityID": 146,
+    "maturity_id": 2,
+    "server_id": 162
   },
   {
     "Date": "2025-07-24",
@@ -3086,15 +3086,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-07-01",
     "Last Updated": "2025-07-18",
-    "Server Size": "35",
     "Title": "Antariksa Expedition",
-    "Maturity": "Minimal",
     "Thumbs Up": 567,
     "Thumbs Down": 160,
     "gameID": "136180334926832",
     "URL": "https://www.roblox.com/games/136180334926832/Antariksa-Expedition?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=136180334926832&playContext=gamesPage&position=15&sortPos=16&universeId=8038511396",
     "genreID": 5,
-    "communityID": 148
+    "communityID": 147,
+    "maturity_id": 2,
+    "server_id": 163
   },
   {
     "Date": "2025-07-24",
@@ -3105,15 +3105,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-07-06",
     "Last Updated": "2025-07-21",
-    "Server Size": "25",
     "Title": "Lucky Gear Tower []",
-    "Maturity": "Minimal",
     "Thumbs Up": 4944,
     "Thumbs Down": 579,
     "gameID": "119397264543214",
     "URL": "https://www.roblox.com/games/119397264543214/Lucky-Gear-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=119397264543214&playContext=gamesPage&position=68&sortPos=18&universeId=8089683668",
     "genreID": 2,
-    "communityID": 149
+    "communityID": 148,
+    "maturity_id": 2,
+    "server_id": 164
   },
   {
     "Date": "2025-07-24",
@@ -3124,15 +3124,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-05-08",
     "Last Updated": "2025-07-19",
-    "Server Size": "20",
     "Title": "Attack on Titan Revolution",
-    "Maturity": "Mild",
     "Thumbs Up": 832000,
     "Thumbs Down": 36000,
     "gameID": "13379208636",
     "URL": "https://www.roblox.com/games/13379208636/Attack-on-Titan-Revolution?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=13379208636&playContext=gamesPage&position=65&sortPos=3&universeId=4658598196",
     "genreID": 11,
-    "communityID": 93
+    "communityID": 92,
+    "maturity_id": 1,
+    "server_id": 165
   },
   {
     "Date": "2025-07-24",
@@ -3143,15 +3143,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-03-25",
     "Last Updated": "2025-07-17",
-    "Server Size": "26",
     "Title": "[UPD 62] Anime Last Stand",
-    "Maturity": "Minimal",
     "Thumbs Up": 770000,
     "Thumbs Down": 35000,
     "gameID": "12886143095",
     "URL": "https://www.roblox.com/games/12886143095/UPD-62-Anime-Last-Stand?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=12886143095&playContext=gamesPage&position=89&sortPos=8&universeId=4509896324",
     "genreID": 12,
-    "communityID": 150
+    "communityID": 149,
+    "maturity_id": 2,
+    "server_id": 166
   },
   {
     "Date": "2025-07-24",
@@ -3162,15 +3162,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-02-07",
     "Last Updated": "2025-07-23",
-    "Server Size": "18",
     "Title": "",
-    "Maturity": "Minimal",
     "Thumbs Up": 10000,
     "Thumbs Down": 1322,
     "gameID": "124823937850563",
     "URL": "https://www.roblox.com/games/124823937850563/BERSERK-DRIFT-2?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=124823937850563&playContext=gamesPage&position=36&sortPos=13&universeId=7207944727",
     "genreID": 4,
-    "communityID": 151
+    "communityID": 150,
+    "maturity_id": 2,
+    "server_id": 167
   },
   {
     "Date": "2025-07-24",
@@ -3181,15 +3181,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-12",
     "Last Updated": "2025-07-19",
-    "Server Size": "8",
     "Title": "Steal a Huge Planet [MYSTERY Planet]",
-    "Maturity": "Minimal",
     "Thumbs Up": 1334,
     "Thumbs Down": 219,
     "gameID": "80989280669685",
     "URL": "https://www.roblox.com/games/80989280669685/Steal-a-Huge-Planet-MYSTERY-Planet?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=80989280669685&playContext=gamesPage&position=69&sortPos=23&universeId=7897422375",
     "genreID": 8,
-    "communityID": 152
+    "communityID": 151,
+    "maturity_id": 2,
+    "server_id": 168
   },
   {
     "Date": "2025-07-24",
@@ -3200,15 +3200,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-03-04",
     "Last Updated": "2025-07-21",
-    "Server Size": "25",
     "Title": "99 Nights in the Forest  [ALIENS]",
-    "Maturity": "Minimal",
     "Thumbs Up": 429000,
     "Thumbs Down": 39000,
     "gameID": "79546208627805",
     "URL": "https://www.roblox.com/games/79546208627805/99-Nights-in-the-Forest-ALIENS?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=79546208627805&playContext=gamesPage&position=0&sortPos=1&universeId=7326934954",
     "genreID": 3,
-    "communityID": 153
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 169
   },
   {
     "Date": "2025-07-24",
@@ -3219,15 +3219,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-08-02",
     "Last Updated": "2025-07-16",
-    "Server Size": "15",
     "Title": "The Strongest Battlegrounds",
-    "Maturity": "Mild",
     "Thumbs Up": 4000000,
     "Thumbs Down": 793000,
     "gameID": "10449761463",
     "URL": "https://www.roblox.com/games/10449761463/The-Strongest-Battlegrounds?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=10449761463&playContext=gamesPage&position=10&sortPos=3&universeId=3808081382",
     "genreID": 6,
-    "communityID": 136
+    "communityID": 135,
+    "maturity_id": 1,
+    "server_id": 170
   },
   {
     "Date": "2025-07-24",
@@ -3238,15 +3238,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-31",
     "Last Updated": "2025-07-20",
-    "Server Size": "28",
     "Title": "Hug or Pass  [BOOTHS]",
-    "Maturity": "Minimal",
     "Thumbs Up": 116000,
     "Thumbs Down": 5990,
     "gameID": "129121878966543",
     "URL": "https://www.roblox.com/games/129121878966543/Hug-or-Pass-BOOTHS?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=129121878966543&playContext=gamesPage&position=79&sortPos=3&universeId=7812923977",
     "genreID": 1,
-    "communityID": 154
+    "communityID": 153,
+    "maturity_id": 2,
+    "server_id": 171
   },
   {
     "Date": "2025-07-24",
@@ -3257,15 +3257,15 @@
     "Camera": "Not Supported",
     "Date Created": "2022-09-20",
     "Last Updated": "2025-07-21",
-    "Server Size": "50",
     "Title": "[ALPHA] Rail Sim Universe Pre-Release",
-    "Maturity": "Minimal",
     "Thumbs Up": 5908,
     "Thumbs Down": 232,
     "gameID": "10962282214",
     "URL": "https://www.roblox.com/games/10962282214/ALPHA-Rail-Sim-Universe-Pre-Release?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=669&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=62&page=gamesPage&placeId=10962282214&playContext=gamesPage&position=15&sortPos=7&universeId=3951824888",
     "genreID": 8,
-    "communityID": 155
+    "communityID": 154,
+    "maturity_id": 2,
+    "server_id": 172
   },
   {
     "Date": "2025-07-24",
@@ -3276,15 +3276,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-05-23",
     "Last Updated": "2025-02-06",
-    "Server Size": "30",
     "Title": "Hot Pot Restaurant",
-    "Maturity": "Minimal",
     "Thumbs Up": 23000,
     "Thumbs Down": 2956,
     "gameID": "13521186297",
     "URL": "https://www.roblox.com/games/13521186297/Hot-Pot-Restaurant?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=13521186297&playContext=gamesPage&position=31&sortPos=21&universeId=4701326804",
     "genreID": 13,
-    "communityID": 156
+    "communityID": 155,
+    "maturity_id": 2,
+    "server_id": 173
   },
   {
     "Date": "2025-07-24",
@@ -3295,15 +3295,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-02",
     "Last Updated": "2025-07-24",
-    "Server Size": "15",
     "Title": "Hide the body",
-    "Maturity": "Mild",
     "Thumbs Up": 54000,
     "Thumbs Down": 8337,
     "gameID": "81239378558719",
     "URL": "https://www.roblox.com/games/81239378558719/Hide-the-body?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=81239378558719&playContext=gamesPage&position=26&sortPos=3&universeId=7823137182",
     "genreID": 12,
-    "communityID": 90
+    "communityID": 89,
+    "maturity_id": 1,
+    "server_id": 174
   },
   {
     "Date": "2025-07-24",
@@ -3314,15 +3314,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-07-24",
     "Last Updated": "2025-07-06",
-    "Server Size": "40",
     "Title": "Survival Odyssey",
-    "Maturity": "Mild",
     "Thumbs Up": 62000,
     "Thumbs Down": 21000,
     "gameID": "18629053284",
     "URL": "https://www.roblox.com/games/18629053284/Survival-Odyssey?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=658&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=73&page=gamesPage&placeId=18629053284&playContext=gamesPage&position=39&sortPos=12&universeId=6312044888",
     "genreID": 11,
-    "communityID": 157
+    "communityID": 156,
+    "maturity_id": 1,
+    "server_id": 175
   },
   {
     "Date": "2025-07-24",
@@ -3333,15 +3333,15 @@
     "Camera": "Not Supported",
     "Date Created": "2017-06-11",
     "Last Updated": "2025-07-23",
-    "Server Size": "30",
     "Title": "Apocalypse Rising 2",
-    "Maturity": "Mild",
     "Thumbs Up": 219000,
     "Thumbs Down": 31000,
     "gameID": "863266079",
     "URL": "https://www.roblox.com/games/863266079/Apocalypse-Rising-2?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=863266079&playContext=gamesPage&position=75&sortPos=10&universeId=358276974",
     "genreID": 6,
-    "communityID": 87
+    "communityID": 86,
+    "maturity_id": 1,
+    "server_id": 176
   },
   {
     "Date": "2025-07-24",
@@ -3352,15 +3352,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-01-13",
     "Last Updated": "2025-07-21",
-    "Server Size": "12",
     "Title": "Anime Dungeon Fighters[Demon Slayer]",
-    "Maturity": "Mild",
     "Thumbs Up": 952000,
     "Thumbs Down": 21000,
     "gameID": "12135640403",
     "URL": "https://www.roblox.com/games/12135640403/Anime-Dungeon-Fighters-Demon-Slayer?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=12135640403&playContext=gamesPage&position=12&sortPos=8&universeId=4280744785",
     "genreID": 11,
-    "communityID": 27
+    "communityID": 27,
+    "maturity_id": 1,
+    "server_id": 177
   },
   {
     "Date": "2025-07-24",
@@ -3371,15 +3371,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-07",
     "Last Updated": "2025-07-21",
-    "Server Size": "50",
     "Title": "Troll Ghost Player Tower",
-    "Maturity": "Minimal",
     "Thumbs Up": 4469,
     "Thumbs Down": 225,
     "gameID": "137821247265040",
     "URL": "https://www.roblox.com/games/137821247265040/Troll-Ghost-Player-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=137821247265040&playContext=gamesPage&position=28&sortPos=18&universeId=7855982925",
     "genreID": 2,
-    "communityID": 158
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 178
   },
   {
     "Date": "2025-07-24",
@@ -3390,15 +3390,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-10-05",
     "Last Updated": "2025-07-18",
-    "Server Size": "12",
     "Title": "Watermelon GO [Fruit Game]",
-    "Maturity": "Minimal",
     "Thumbs Up": 108000,
     "Thumbs Down": 9454,
     "gameID": "14970015233",
     "URL": "https://www.roblox.com/games/14970015233/Watermelon-GO-Fruit-Game?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=14970015233&playContext=gamesPage&position=9&sortPos=20&universeId=5156590883",
     "genreID": 9,
-    "communityID": 159
+    "communityID": 158,
+    "maturity_id": 2,
+    "server_id": 179
   },
   {
     "Date": "2025-07-24",
@@ -3409,15 +3409,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-02",
     "Last Updated": "2025-07-23",
-    "Server Size": "5",
     "Title": "[] Build A Plane",
-    "Maturity": "Minimal",
     "Thumbs Up": 7567,
     "Thumbs Down": 2242,
     "gameID": "137925884276740",
     "URL": "https://www.roblox.com/games/137925884276740/Build-A-Plane?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=137925884276740&playContext=gamesPage&position=30&sortPos=10&universeId=7822444776",
     "genreID": 8,
-    "communityID": 160
+    "communityID": 159,
+    "maturity_id": 2,
+    "server_id": 180
   },
   {
     "Date": "2025-07-24",
@@ -3428,15 +3428,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-12-17",
     "Last Updated": "2025-07-18",
-    "Server Size": "10",
     "Title": "FORTLITE",
-    "Maturity": "Mild",
     "Thumbs Up": 7829,
     "Thumbs Down": 1507,
     "gameID": "135526982947902",
     "URL": "https://www.roblox.com/games/135526982947902/FORTLITE?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=135526982947902&playContext=gamesPage&position=44&sortPos=14&universeId=6929888880",
     "genreID": 7,
-    "communityID": 161
+    "communityID": 160,
+    "maturity_id": 1,
+    "server_id": 181
   },
   {
     "Date": "2025-07-24",
@@ -3447,15 +3447,15 @@
     "Camera": "Not Supported",
     "Date Created": "2019-06-05",
     "Last Updated": "2025-07-24",
-    "Server Size": "30",
     "Title": "[PVP]  Tower Defense Simulator",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 113000,
     "gameID": "3260590327",
     "URL": "https://www.roblox.com/games/3260590327/PVP-Tower-Defense-Simulator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=3260590327&playContext=gamesPage&position=18&sortPos=6&universeId=1176784616",
     "genreID": 12,
-    "communityID": 127
+    "communityID": 126,
+    "maturity_id": 2,
+    "server_id": 182
   },
   {
     "Date": "2025-07-24",
@@ -3466,15 +3466,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-09-03",
     "Last Updated": "2025-07-20",
-    "Server Size": "12",
     "Title": "Bubble Gum Simulator INFINITY",
-    "Maturity": "Minimal",
     "Thumbs Up": 451000,
     "Thumbs Down": 13000,
     "gameID": "85896571713843",
     "URL": "https://www.roblox.com/games/85896571713843/Bubble-Gum-Simulator-INFINITY?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=85896571713843&playContext=gamesPage&position=46&sortPos=11&universeId=6504986360",
     "genreID": 8,
-    "communityID": 162
+    "communityID": 161,
+    "maturity_id": 2,
+    "server_id": 183
   },
   {
     "Date": "2025-07-24",
@@ -3485,15 +3485,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-03-05",
     "Last Updated": "2025-07-23",
-    "Server Size": "10",
     "Title": "Brainrot Evolution",
-    "Maturity": "Mild",
     "Thumbs Up": 1000000,
     "Thumbs Down": 30000,
     "gameID": "111989938562194",
     "URL": "https://www.roblox.com/games/111989938562194/Brainrot-Evolution?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=111989938562194&playContext=gamesPage&position=19&sortPos=3&universeId=7332711118",
     "genreID": 8,
-    "communityID": 163
+    "communityID": 162,
+    "maturity_id": 1,
+    "server_id": 184
   },
   {
     "Date": "2025-07-24",
@@ -3504,15 +3504,15 @@
     "Camera": "Not Supported",
     "Date Created": "2015-04-04",
     "Last Updated": "2025-03-06",
-    "Server Size": "8",
     "Title": "Piano Keyboard v1.1",
-    "Maturity": "Minimal",
     "Thumbs Up": 97000,
     "Thumbs Down": 10000,
     "gameID": "233727153",
     "URL": "https://www.roblox.com/games/233727153/Piano-Keyboard-v1-1?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=668&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=58&page=gamesPage&placeId=233727153&playContext=gamesPage&position=56&sortPos=9&universeId=100169684",
     "genreID": 15,
-    "communityID": 164
+    "communityID": 163,
+    "maturity_id": 2,
+    "server_id": 185
   },
   {
     "Date": "2025-07-24",
@@ -3523,15 +3523,15 @@
     "Camera": "Not Supported",
     "Date Created": "2023-12-09",
     "Last Updated": "2025-07-22",
-    "Server Size": "12",
     "Title": "Basketball Stars 3",
-    "Maturity": "Minimal",
     "Thumbs Up": 13000,
     "Thumbs Down": 3669,
     "gameID": "15583100726",
     "URL": "https://www.roblox.com/games/15583100726/Basketball-Stars-3?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=15583100726&playContext=gamesPage&position=89&sortPos=13&universeId=5379950946",
     "genreID": 4,
-    "communityID": 165
+    "communityID": 164,
+    "maturity_id": 2,
+    "server_id": 186
   },
   {
     "Date": "2025-07-24",
@@ -3542,15 +3542,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-07-28",
     "Last Updated": "2025-07-23",
-    "Server Size": "9",
     "Title": "[NOLI] Forsaken",
-    "Maturity": "Mild",
     "Thumbs Up": 1000000,
     "Thumbs Down": 153000,
     "gameID": "18687417158",
     "URL": "https://www.roblox.com/games/18687417158/NOLI-Forsaken?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=18687417158&playContext=gamesPage&position=5&sortPos=3&universeId=6331902150",
     "genreID": 3,
-    "communityID": 166
+    "communityID": 165,
+    "maturity_id": 1,
+    "server_id": 187
   },
   {
     "Date": "2025-07-24",
@@ -3561,15 +3561,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-30",
     "Last Updated": "2025-07-10",
-    "Server Size": "50",
     "Title": "Matematika Tower",
-    "Maturity": "Minimal",
     "Thumbs Up": 2280,
     "Thumbs Down": 426,
     "gameID": "136999450205609",
     "URL": "https://www.roblox.com/games/136999450205609/Matematika-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=136999450205609&playContext=gamesPage&position=59&sortPos=18&universeId=8035745255",
     "genreID": 2,
-    "communityID": 167
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 188
   },
   {
     "Date": "2025-07-24",
@@ -3580,15 +3580,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-25",
     "Last Updated": "2025-07-22",
-    "Server Size": "16",
     "Title": "[] SHARP",
-    "Maturity": "Mild",
     "Thumbs Up": 13000,
     "Thumbs Down": 2721,
     "gameID": "113506071094099",
     "URL": "https://www.roblox.com/games/113506071094099/SHARP?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=239&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=42&page=gamesPage&placeId=113506071094099&playContext=gamesPage&position=31&sortPos=2&universeId=7996365376",
     "genreID": 7,
-    "communityID": 168
+    "communityID": 167,
+    "maturity_id": 1,
+    "server_id": 189
   },
   {
     "Date": "2025-07-24",
@@ -3599,15 +3599,15 @@
     "Camera": "Not Supported",
     "Date Created": "2019-12-17",
     "Last Updated": "2025-07-20",
-    "Server Size": "12",
     "Title": "[UPD 9] King Legacy",
-    "Maturity": "Mild",
     "Thumbs Up": 1000000,
     "Thumbs Down": 149000,
     "gameID": "4520749081",
     "URL": "https://www.roblox.com/games/4520749081/UPD-9-King-Legacy?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=4520749081&playContext=gamesPage&position=16&sortPos=1&universeId=1451439645",
     "genreID": 11,
-    "communityID": 169
+    "communityID": 168,
+    "maturity_id": 1,
+    "server_id": 190
   },
   {
     "Date": "2025-07-24",
@@ -3618,15 +3618,15 @@
     "Camera": "Not Supported",
     "Date Created": "2024-06-09",
     "Last Updated": "2025-07-23",
-    "Server Size": "15",
     "Title": "Fatal Combat",
-    "Maturity": "Mild",
     "Thumbs Up": 23000,
     "Thumbs Down": 7234,
     "gameID": "17788997511",
     "URL": "https://www.roblox.com/games/17788997511/Fatal-Combat?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=17788997511&playContext=gamesPage&position=39&sortPos=15&universeId=6094102038",
     "genreID": 6,
-    "communityID": 170
+    "communityID": 169,
+    "maturity_id": 1,
+    "server_id": 191
   },
   {
     "Date": "2025-07-24",
@@ -3637,15 +3637,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-07-06",
     "Last Updated": "2025-07-24",
-    "Server Size": "1",
     "Title": "Truck Testing Remaster",
-    "Maturity": "Minimal",
     "Thumbs Up": 6625,
     "Thumbs Down": 2293,
     "gameID": "7052580219",
     "URL": "https://www.roblox.com/games/7052580219/Truck-Testing-Remaster?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=7052580219&playContext=gamesPage&position=86&sortPos=23&universeId=2717209656",
     "genreID": 8,
-    "communityID": 171
+    "communityID": 170,
+    "maturity_id": 2,
+    "server_id": 192
   },
   {
     "Date": "2025-07-24",
@@ -3656,15 +3656,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-25",
     "Last Updated": "2025-07-21",
-    "Server Size": "50",
     "Title": "Pull Hair Tower",
-    "Maturity": "Mild",
     "Thumbs Up": 2088,
     "Thumbs Down": 189,
     "gameID": "74399004053401",
     "URL": "https://www.roblox.com/games/74399004053401/Pull-Hair-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=74399004053401&playContext=gamesPage&position=10&sortPos=18&universeId=7995420236",
     "genreID": 2,
-    "communityID": 172
+    "communityID": 171,
+    "maturity_id": 1,
+    "server_id": 193
   },
   {
     "Date": "2025-07-24",
@@ -3675,15 +3675,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-29",
     "Last Updated": "2025-07-23",
-    "Server Size": "5",
     "Title": "Toy Store Simulator",
-    "Maturity": "Minimal",
     "Thumbs Up": 1809,
     "Thumbs Down": 197,
     "gameID": "83273735730446",
     "URL": "https://www.roblox.com/games/83273735730446/Toy-Store-Simulator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=83273735730446&playContext=gamesPage&position=73&sortPos=23&universeId=7795202327",
     "genreID": 8,
-    "communityID": 173
+    "communityID": 172,
+    "maturity_id": 2,
+    "server_id": 194
   },
   {
     "Date": "2025-07-24",
@@ -3694,15 +3694,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-12-27",
     "Last Updated": "2025-07-19",
-    "Server Size": "24",
     "Title": "Redcliff City RP",
-    "Maturity": "Minimal",
     "Thumbs Up": 196000,
     "Thumbs Down": 30000,
     "gameID": "8369888266",
     "URL": "https://www.roblox.com/games/8369888266/Redcliff-City-RP?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=8369888266&playContext=gamesPage&position=9&sortPos=4&universeId=3204175584",
     "genreID": 13,
-    "communityID": 174
+    "communityID": 173,
+    "maturity_id": 2,
+    "server_id": 195
   },
   {
     "Date": "2025-07-24",
@@ -3713,15 +3713,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-06-16",
     "Last Updated": "2025-07-22",
-    "Server Size": "6",
     "Title": "Fish and Fight",
-    "Maturity": "Minimal",
     "Thumbs Up": 65000,
     "Thumbs Down": 2409,
     "gameID": "81968724698850",
     "URL": "https://www.roblox.com/games/81968724698850/Fish-and-Fight?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=81968724698850&playContext=gamesPage&position=27&sortPos=1&universeId=7926427431",
     "genreID": 8,
-    "communityID": 175
+    "communityID": 174,
+    "maturity_id": 2,
+    "server_id": 196
   },
   {
     "Date": "2025-07-24",
@@ -3732,15 +3732,15 @@
     "Camera": "Not Supported",
     "Date Created": "2017-05-31",
     "Last Updated": "2025-06-20",
-    "Server Size": "30",
     "Title": "Would You Rather..",
-    "Maturity": "Mild",
     "Thumbs Up": 382000,
     "Thumbs Down": 53000,
     "gameID": "845649531",
     "URL": "https://www.roblox.com/games/845649531/Would-You-Rather?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=845649531&playContext=gamesPage&position=63&sortPos=19&universeId=350059755",
     "genreID": 1,
-    "communityID": 176
+    "communityID": 175,
+    "maturity_id": 1,
+    "server_id": 197
   },
   {
     "Date": "2025-07-24",
@@ -3751,15 +3751,15 @@
     "Camera": "Not Supported",
     "Date Created": "2025-05-29",
     "Last Updated": "2025-07-24",
-    "Server Size": "80",
     "Title": "Noob Mayhem",
-    "Maturity": "Mild",
     "Thumbs Up": 4557,
     "Thumbs Down": 336,
     "gameID": "107727386530697",
     "URL": "https://www.roblox.com/games/107727386530697/Noob-Mayhem?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=107727386530697&playContext=gamesPage&position=81&sortPos=11&universeId=7794218964",
     "genreID": 11,
-    "communityID": 177
+    "communityID": 176,
+    "maturity_id": 1,
+    "server_id": 198
   },
   {
     "Date": "2025-07-24",
@@ -3770,15 +3770,15 @@
     "Camera": "Not Supported",
     "Date Created": "2021-07-04",
     "Last Updated": "2025-07-22",
-    "Server Size": "24",
     "Title": "Catalog Avatar Creator",
-    "Maturity": "Minimal",
     "Thumbs Up": 1000000,
     "Thumbs Down": 142000,
     "gameID": "7041939546",
     "URL": "https://www.roblox.com/games/7041939546/Catalog-Avatar-Creator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=7041939546&playContext=gamesPage&position=67&sortPos=4&universeId=2711375305",
     "genreID": 16,
-    "communityID": 133
+    "communityID": 132,
+    "maturity_id": 2,
+    "server_id": 199
   },
   {
     "Date": "2025-07-24",
@@ -3789,14 +3789,14 @@
     "Camera": "Not Supported",
     "Date Created": "2023-02-01",
     "Last Updated": "2025-06-15",
-    "Server Size": "6",
     "Title": "Resort Tycoon 2",
-    "Maturity": "Minimal",
     "Thumbs Up": 287000,
     "Thumbs Down": 7481,
     "gameID": "12338455185",
     "URL": "https://www.roblox.com/games/12338455185/Resort-Tycoon-2?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=12338455185&playContext=gamesPage&position=75&sortPos=8&universeId=4343544885",
     "genreID": 8,
-    "communityID": 178
+    "communityID": null,
+    "maturity_id": 2,
+    "server_id": 200
   }
 ]

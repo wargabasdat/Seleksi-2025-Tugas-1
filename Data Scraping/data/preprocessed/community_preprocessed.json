@@ -14,7 +14,7 @@
   {
     "Community Name": "Frontman's Squid Gang",
     "Members": 30000,
-    "communityID": 179,
+    "communityID": 3,
     "creatorID": 3
   },
   {
@@ -186,12 +186,6 @@
     "creatorID": 25
   },
   {
-    "Community Name": "@haz3mn",
-    "Members": 0,
-    "communityID": 17,
-    "creatorID": 7
-  },
-  {
     "Community Name": "Promise Development",
     "Members": 8195,
     "communityID": 32,
@@ -258,12 +252,6 @@
     "creatorID": 35
   },
   {
-    "Community Name": "Three Piggys!",
-    "Members": 50000,
-    "communityID": 6,
-    "creatorID": 6
-  },
-  {
     "Community Name": "@Spawted",
     "Members": 0,
     "communityID": 43,
@@ -300,12 +288,6 @@
     "creatorID": 39
   },
   {
-    "Community Name": "Minimalist colors",
-    "Members": 17000,
-    "communityID": 12,
-    "creatorID": 11
-  },
-  {
     "Community Name": "@CheechSC",
     "Members": 0,
     "communityID": 49,
@@ -322,12 +304,6 @@
     "Members": 609000,
     "communityID": 51,
     "creatorID": 41
-  },
-  {
-    "Community Name": "MY FISH FRIEND",
-    "Members": 1000000,
-    "communityID": 19,
-    "creatorID": 16
   },
   {
     "Community Name": "@Onett",
@@ -368,7 +344,7 @@
   {
     "Community Name": "blu's buds",
     "Members": 1000000,
-    "communityID": 180,
+    "communityID": 58,
     "creatorID": 46
   },
   {
@@ -398,7 +374,7 @@
   {
     "Community Name": "Zaku's Games",
     "Members": 77000,
-    "communityID": 181,
+    "communityID": 63,
     "creatorID": 49
   },
   {
@@ -406,12 +382,6 @@
     "Members": 3000000,
     "communityID": 64,
     "creatorID": 50
-  },
-  {
-    "Community Name": "redifi",
-    "Members": 2000000,
-    "communityID": 21,
-    "creatorID": 18
   },
   {
     "Community Name": "Current.",
@@ -446,271 +416,247 @@
   {
     "Community Name": "Fyer Studios",
     "Members": 5636,
-    "communityID": 71,
+    "communityID": 70,
     "creatorID": 53
   },
   {
     "Community Name": "Byteonix",
     "Members": 3000000,
-    "communityID": 72,
+    "communityID": 71,
     "creatorID": 54
   },
   {
     "Community Name": "Cup_Family",
     "Members": 76000,
-    "communityID": 73,
+    "communityID": 72,
     "creatorID": 55
   },
   {
     "Community Name": "aesthetic obbys",
     "Members": 7858,
-    "communityID": 74,
+    "communityID": 73,
     "creatorID": 56
   },
   {
     "Community Name": "Emergency Hamburg",
     "Members": 664000,
-    "communityID": 75,
+    "communityID": 74,
     "creatorID": 57
   },
   {
     "Community Name": "The Random Developers!",
     "Members": 4784,
-    "communityID": 76,
+    "communityID": 75,
     "creatorID": 58
   },
   {
     "Community Name": "Dreadworks Studio",
     "Members": 232000,
-    "communityID": 77,
+    "communityID": 76,
     "creatorID": 59
   },
   {
     "Community Name": "God Bless Zak 5",
     "Members": 2000000,
-    "communityID": 78,
+    "communityID": 77,
     "creatorID": 60
-  },
-  {
-    "Community Name": "Dropping a Banger",
-    "Members": 71000,
-    "communityID": 1,
-    "creatorID": 1
   },
   {
     "Community Name": "Hexagon Development Community",
     "Members": 3000000,
-    "communityID": 79,
+    "communityID": 78,
     "creatorID": 61
   },
   {
     "Community Name": "wrldstar ent",
     "Members": 481000,
-    "communityID": 80,
+    "communityID": 79,
     "creatorID": 62
   },
   {
     "Community Name": "Whimco",
     "Members": 23000,
-    "communityID": 81,
+    "communityID": 80,
     "creatorID": 63
   },
   {
     "Community Name": "cadictt productions",
     "Members": 20000,
-    "communityID": 82,
+    "communityID": 81,
     "creatorID": 64
   },
   {
     "Community Name": "Step by step.",
     "Members": 4733,
-    "communityID": 83,
+    "communityID": 82,
     "creatorID": 65
   },
   {
     "Community Name": "@Smellysuperfart",
     "Members": 0,
-    "communityID": 84,
+    "communityID": 83,
     "creatorID": 7
   },
   {
     "Community Name": "Chesapeake Studios",
     "Members": 91000,
-    "communityID": 85,
+    "communityID": 84,
     "creatorID": 66
   },
   {
     "Community Name": "RoVSRG",
     "Members": 4658,
-    "communityID": 86,
+    "communityID": 85,
     "creatorID": 67
-  },
-  {
-    "Community Name": "ΞGO",
-    "Members": 1000000,
-    "communityID": 53,
-    "creatorID": 42
   },
   {
     "Community Name": "Dualpoint Interactive",
     "Members": 159000,
-    "communityID": 87,
+    "communityID": 86,
     "creatorID": 68
   },
   {
     "Community Name": "Gir Laboratory",
     "Members": 761,
-    "communityID": 88,
+    "communityID": 87,
     "creatorID": 69
   },
   {
     "Community Name": "PlayPixel",
     "Members": 196000,
-    "communityID": 89,
+    "communityID": 88,
     "creatorID": 70
   },
   {
     "Community Name": "Doge Cloud",
     "Members": 145000,
-    "communityID": 90,
+    "communityID": 89,
     "creatorID": 71
-  },
-  {
-    "Community Name": "@seriif",
-    "Members": 0,
-    "communityID": 60,
-    "creatorID": 7
   },
   {
     "Community Name": "JumpROPE!",
     "Members": 232000,
-    "communityID": 91,
+    "communityID": 90,
     "creatorID": 72
   },
   {
     "Community Name": "LankyDevs",
     "Members": 69000,
-    "communityID": 92,
+    "communityID": 91,
     "creatorID": 73
   },
   {
     "Community Name": "AoTR [PI]",
     "Members": 1000000,
-    "communityID": 93,
+    "communityID": 92,
     "creatorID": 74
   },
   {
     "Community Name": "Freshly Shopping UK",
     "Members": 301000,
-    "communityID": 94,
+    "communityID": 93,
     "creatorID": 75
   },
   {
     "Community Name": "STUDIO 04",
     "Members": 8986,
-    "communityID": 95,
+    "communityID": 94,
     "creatorID": 76
   },
   {
     "Community Name": "Rawblocky",
     "Members": 164000,
-    "communityID": 96,
+    "communityID": 95,
     "creatorID": 77
   },
   {
     "Community Name": "MIKETING Studios",
     "Members": 279000,
-    "communityID": 97,
+    "communityID": 96,
     "creatorID": 78
   },
   {
     "Community Name": "Golden Crusted Steak Studios",
     "Members": 0,
-    "communityID": 98,
+    "communityID": 97,
     "creatorID": 7
-  },
-  {
-    "Community Name": "redifi",
-    "Members": 2000000,
-    "communityID": 21,
-    "creatorID": 18
   },
   {
     "Community Name": "@Huk779",
     "Members": 0,
-    "communityID": 99,
+    "communityID": 98,
     "creatorID": 7
   },
   {
     "Community Name": "Super super funny games",
     "Members": 3771,
-    "communityID": 100,
+    "communityID": 99,
     "creatorID": 79
   },
   {
     "Community Name": "Hoii :P",
     "Members": 117000,
-    "communityID": 101,
+    "communityID": 100,
     "creatorID": 80
   },
   {
     "Community Name": "boring box",
     "Members": 10000,
-    "communityID": 102,
+    "communityID": 101,
     "creatorID": 81
   },
   {
     "Community Name": "Digital Piano Org.",
     "Members": 78000,
-    "communityID": 103,
+    "communityID": 102,
     "creatorID": 82
   },
   {
     "Community Name": "CONECORP",
     "Members": 10000,
-    "communityID": 104,
+    "communityID": 103,
     "creatorID": 83
   },
   {
     "Community Name": "@rtdfhfs124",
     "Members": 0,
-    "communityID": 105,
+    "communityID": 104,
     "creatorID": 7
   },
   {
     "Community Name": "Crimson Exit",
     "Members": 7609,
-    "communityID": 106,
+    "communityID": 105,
     "creatorID": 84
   },
   {
     "Community Name": "Fat Car Studios",
     "Members": 54000,
-    "communityID": 107,
+    "communityID": 106,
     "creatorID": 85
   },
   {
     "Community Name": "Fissy Games",
     "Members": 93000,
-    "communityID": 108,
+    "communityID": 107,
     "creatorID": 86
   },
   {
     "Community Name": "Krabby Krew",
     "Members": 2000000,
-    "communityID": 109,
+    "communityID": 108,
     "creatorID": 87
   },
   {
     "Community Name": "Firebrand Games",
     "Members": 78,
-    "communityID": 110,
+    "communityID": 109,
     "creatorID": 88
   },
   {
     "Community Name": "| Flipping Frogs |",
     "Members": 688000,
-    "communityID": 182,
+    "communityID": 110,
     "creatorID": 89
   },
   {
@@ -722,475 +668,403 @@
   {
     "Community Name": "ZO by Voldex",
     "Members": 850000,
-    "communityID": 112,
+    "communityID": 111,
     "creatorID": 90
   },
   {
     "Community Name": "YUМ",
     "Members": 6000000,
-    "communityID": 113,
+    "communityID": 112,
     "creatorID": 91
-  },
-  {
-    "Community Name": "Devolty Games",
-    "Members": 1000000,
-    "communityID": 48,
-    "creatorID": 39
   },
   {
     "Community Name": "JJ Game Creations",
     "Members": 38000,
-    "communityID": 114,
+    "communityID": 113,
     "creatorID": 92
   },
   {
     "Community Name": "EOM STUDIO",
     "Members": 2000000,
-    "communityID": 115,
+    "communityID": 114,
     "creatorID": 93
   },
   {
     "Community Name": "sol's studio",
     "Members": 9000000,
-    "communityID": 183,
+    "communityID": 115,
     "creatorID": 94
   },
   {
     "Community Name": "arashiyama",
     "Members": 1000000,
-    "communityID": 117,
+    "communityID": 116,
     "creatorID": 95
-  },
-  {
-    "Community Name": "StyLiS Studios",
-    "Members": 897000,
-    "communityID": 61,
-    "creatorID": 47
-  },
-  {
-    "Community Name": "larvae studios",
-    "Members": 139000,
-    "communityID": 18,
-    "creatorID": 15
   },
   {
     "Community Name": "specil studios Deluxe",
     "Members": 8191,
-    "communityID": 118,
+    "communityID": 117,
     "creatorID": 96
   },
   {
     "Community Name": "Rock Fort Lines",
     "Members": 30000,
-    "communityID": 119,
+    "communityID": 118,
     "creatorID": 97
   },
   {
     "Community Name": "Wiggity.",
     "Members": 24000000,
-    "communityID": 120,
+    "communityID": 119,
     "creatorID": 98
   },
   {
     "Community Name": "SpinMaster",
     "Members": 87000,
-    "communityID": 121,
+    "communityID": 120,
     "creatorID": 99
   },
   {
     "Community Name": "SplashDev",
     "Members": 209000,
-    "communityID": 122,
+    "communityID": 121,
     "creatorID": 100
   },
   {
     "Community Name": "Bridge Entertainment",
     "Members": 14000,
-    "communityID": 123,
+    "communityID": 122,
     "creatorID": 101
   },
   {
     "Community Name": "Swansa X Peaceful Play",
     "Members": 2000000,
-    "communityID": 124,
+    "communityID": 123,
     "creatorID": 102
   },
   {
     "Community Name": "Bob's Supermarket",
     "Members": 379000,
-    "communityID": 184,
+    "communityID": 124,
     "creatorID": 103
   },
   {
     "Community Name": "Weapon Kingdom",
     "Members": 1000000,
-    "communityID": 126,
+    "communityID": 125,
     "creatorID": 104
   },
   {
     "Community Name": "Paradoxum Games",
     "Members": 6000000,
-    "communityID": 127,
+    "communityID": 126,
     "creatorID": 105
-  },
-  {
-    "Community Name": "sol's studio",
-    "Members": 9000000,
-    "communityID": 183,
-    "creatorID": 94
   },
   {
     "Community Name": "Police Roleplay Community",
     "Members": 1000000,
-    "communityID": 128,
+    "communityID": 127,
     "creatorID": 106
   },
   {
     "Community Name": "Checho's Deltarune RP",
     "Members": 20000,
-    "communityID": 185,
+    "communityID": 128,
     "creatorID": 107
   },
   {
     "Community Name": "Mousetrap Studios",
     "Members": 432000,
-    "communityID": 130,
+    "communityID": 129,
     "creatorID": 108
   },
   {
     "Community Name": "EscapeLovers",
     "Members": 5838,
-    "communityID": 131,
+    "communityID": 130,
     "creatorID": 109
   },
   {
     "Community Name": "THEAM STUDIOS",
     "Members": 1000000,
-    "communityID": 132,
+    "communityID": 131,
     "creatorID": 110
   },
   {
     "Community Name": "@itsMuneeeb",
     "Members": 0,
-    "communityID": 133,
+    "communityID": 132,
     "creatorID": 7
   },
   {
     "Community Name": "New ProjectR",
     "Members": 270000,
-    "communityID": 134,
+    "communityID": 133,
     "creatorID": 111
   },
   {
     "Community Name": "Shoeless Studios",
     "Members": 216000,
-    "communityID": 135,
+    "communityID": 134,
     "creatorID": 112
   },
   {
     "Community Name": "Yielding Arts",
     "Members": 17000000,
-    "communityID": 136,
+    "communityID": 135,
     "creatorID": 113
   },
   {
     "Community Name": "Lake County Stables",
     "Members": 106000,
-    "communityID": 137,
+    "communityID": 136,
     "creatorID": 114
   },
   {
     "Community Name": "Ming's Pick",
     "Members": 320000,
-    "communityID": 186,
+    "communityID": 137,
     "creatorID": 115
   },
   {
     "Community Name": "Nomo Falls",
     "Members": 438000,
-    "communityID": 139,
+    "communityID": 138,
     "creatorID": 116
-  },
-  {
-    "Community Name": "redifi",
-    "Members": 2000000,
-    "communityID": 21,
-    "creatorID": 18
   },
   {
     "Community Name": "wunmo",
     "Members": 1000000,
-    "communityID": 140,
+    "communityID": 139,
     "creatorID": 117
   },
   {
     "Community Name": "Old A Bizarre Day Community",
     "Members": 3929,
-    "communityID": 141,
+    "communityID": 140,
     "creatorID": 118
   },
   {
     "Community Name": "Garden Quiz",
     "Members": 64000,
-    "communityID": 142,
+    "communityID": 141,
     "creatorID": 119
   },
   {
     "Community Name": "@REALW0WSTAR",
     "Members": 0,
-    "communityID": 143,
+    "communityID": 142,
     "creatorID": 7
   },
   {
     "Community Name": "King x Matty",
     "Members": 62000,
-    "communityID": 144,
+    "communityID": 143,
     "creatorID": 120
   },
   {
     "Community Name": "@LINDON55",
     "Members": 0,
-    "communityID": 145,
+    "communityID": 144,
     "creatorID": 7
   },
   {
     "Community Name": "Tze's Shenanigans",
     "Members": 1000000,
-    "communityID": 187,
+    "communityID": 145,
     "creatorID": 121
   },
   {
     "Community Name": "Cookie’s basement :)",
     "Members": 15000,
-    "communityID": 147,
+    "communityID": 146,
     "creatorID": 122
   },
   {
     "Community Name": "Majas Studio",
     "Members": 404,
-    "communityID": 148,
+    "communityID": 147,
     "creatorID": 123
   },
   {
     "Community Name": "Sors Studio",
     "Members": 95000,
-    "communityID": 149,
+    "communityID": 148,
     "creatorID": 124
-  },
-  {
-    "Community Name": "AoTR [PI]",
-    "Members": 1000000,
-    "communityID": 93,
-    "creatorID": 74
   },
   {
     "Community Name": "[B:S] ALS Team",
     "Members": 2000000,
-    "communityID": 150,
+    "communityID": 149,
     "creatorID": 52
   },
   {
     "Community Name": "BERSERK DRIFT 2 Group",
     "Members": 18000,
-    "communityID": 151,
+    "communityID": 150,
     "creatorID": 125
   },
   {
     "Community Name": "Do Huge Games",
     "Members": 245000,
-    "communityID": 152,
+    "communityID": 151,
     "creatorID": 126
   },
   {
     "Community Name": "Grandma's Favourite Games",
     "Members": 943000,
-    "communityID": 188,
+    "communityID": 152,
     "creatorID": 127
-  },
-  {
-    "Community Name": "Yielding Arts",
-    "Members": 17000000,
-    "communityID": 136,
-    "creatorID": 113
   },
   {
     "Community Name": "Hug Playworks",
     "Members": 250000,
-    "communityID": 154,
+    "communityID": 153,
     "creatorID": 128
   },
   {
     "Community Name": "Railway Engineering Studios",
     "Members": 53000,
-    "communityID": 155,
+    "communityID": 154,
     "creatorID": 129
   },
   {
     "Community Name": "@johnpcps",
     "Members": 0,
-    "communityID": 156,
+    "communityID": 155,
     "creatorID": 7
-  },
-  {
-    "Community Name": "Doge Cloud",
-    "Members": 145000,
-    "communityID": 90,
-    "creatorID": 71
   },
   {
     "Community Name": "Survival Odyssey",
     "Members": 65000,
-    "communityID": 157,
+    "communityID": 156,
     "creatorID": 130
-  },
-  {
-    "Community Name": "Dualpoint Interactive",
-    "Members": 159000,
-    "communityID": 87,
-    "creatorID": 68
-  },
-  {
-    "Community Name": "BestBunny",
-    "Members": 8000000,
-    "communityID": 27,
-    "creatorID": 22
   },
   {
     "Community Name": "Ezra's Troll Towers",
     "Members": 33000,
-    "communityID": 189,
+    "communityID": 157,
     "creatorID": 131
   },
   {
     "Community Name": "Akio.gg",
     "Members": 35000,
-    "communityID": 159,
+    "communityID": 158,
     "creatorID": 132
   },
   {
     "Community Name": "Budget Gaming",
     "Members": 9629,
-    "communityID": 160,
+    "communityID": 159,
     "creatorID": 133
   },
   {
     "Community Name": "FORTLINE Productions",
     "Members": 233000,
-    "communityID": 161,
+    "communityID": 160,
     "creatorID": 134
-  },
-  {
-    "Community Name": "Paradoxum Games",
-    "Members": 6000000,
-    "communityID": 127,
-    "creatorID": 105
   },
   {
     "Community Name": "Rumble Studios",
     "Members": 10000000,
-    "communityID": 162,
+    "communityID": 161,
     "creatorID": 135
   },
   {
     "Community Name": "Brainrot Evolution",
     "Members": 4000000,
-    "communityID": 163,
+    "communityID": 162,
     "creatorID": 136
   },
   {
     "Community Name": "@NickPatella",
     "Members": 0,
-    "communityID": 164,
+    "communityID": 163,
     "creatorID": 7
   },
   {
     "Community Name": "@Ma1e",
     "Members": 0,
-    "communityID": 165,
+    "communityID": 164,
     "creatorID": 7
   },
   {
     "Community Name": "Forsaken Dev Team",
     "Members": 1000000,
-    "communityID": 166,
+    "communityID": 165,
     "creatorID": 137
   },
   {
     "Community Name": "Copyrend's Community",
     "Members": 1000000,
-    "communityID": 190,
+    "communityID": 166,
     "creatorID": 138
   },
   {
     "Community Name": "MAD STUDIO",
     "Members": 243000,
-    "communityID": 168,
+    "communityID": 167,
     "creatorID": 139
   },
   {
     "Community Name": "Sea King Games",
     "Members": 1000000,
-    "communityID": 169,
+    "communityID": 168,
     "creatorID": 140
   },
   {
     "Community Name": "Martial Arts Inc",
     "Members": 35000,
-    "communityID": 170,
+    "communityID": 169,
     "creatorID": 141
   },
   {
     "Community Name": "@edgarevaristo",
     "Members": 0,
-    "communityID": 171,
+    "communityID": 170,
     "creatorID": 7
   },
   {
     "Community Name": "FLOPTROPICANZ",
     "Members": 20000,
-    "communityID": 172,
+    "communityID": 171,
     "creatorID": 142
   },
   {
     "Community Name": "Magic Box Games",
     "Members": 570000,
-    "communityID": 173,
+    "communityID": 172,
     "creatorID": 143
   },
   {
     "Community Name": "Redcliff City RP",
     "Members": 443000,
-    "communityID": 174,
+    "communityID": 173,
     "creatorID": 144
   },
   {
     "Community Name": "Fishing League",
     "Members": 142000,
-    "communityID": 175,
+    "communityID": 174,
     "creatorID": 4
   },
   {
     "Community Name": "Studio Serenity",
     "Members": 1000000,
-    "communityID": 176,
+    "communityID": 175,
     "creatorID": 145
   },
   {
     "Community Name": "Game Thing",
     "Members": 84000,
-    "communityID": 177,
+    "communityID": 176,
     "creatorID": 146
-  },
-  {
-    "Community Name": "@itsMuneeeb",
-    "Members": 0,
-    "communityID": 133,
-    "creatorID": 7
   },
   {
     "Community Name": "Ready, set, more!",
     "Members": 2000000,
-    "communityID": 191,
+    "communityID": 177,
     "creatorID": 147
   }
 ]
