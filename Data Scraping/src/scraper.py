@@ -2,8 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
+import re
+from datetime import datetime
+import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-def scrape_master_list_with_links():
+# scrapes episode guide (master list)
+def get_master_list():
     url = "https://epguides.com/NCIS/"
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
@@ -14,7 +19,7 @@ def scrape_master_list_with_links():
         response = requests.get(url, headers=headers)
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching page: {e}")
+        print(f"Error fetching master list: {e}")
         return []
 
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -32,143 +37,171 @@ def scrape_master_list_with_links():
                 if not (title_tag and title_tag.has_attr('href')):
                     continue
 
+                raw_date_str = cells[2].text.strip()
+                if raw_date_str: 
+                    date_obj = datetime.strptime(raw_date_str, "%d %b %y")
+                    air_date = date_obj.strftime("%Y-%m-%d")
+                else:
+                    air_date = None
+
                 season, episode_in_season = map(int, cells[1].text.strip().split('-'))
                 
                 episode_data = {
                     "overall_episode_number": int(cells[0].text.strip().replace('.', '')),
-                    "season": season,
+                    "season": season, 
                     "episode_in_season": episode_in_season,
-                    "air_date": cells[2].text.strip(),
+                    "air_date": air_date, 
                     "title": title_tag.text.strip(),
-                    "tvmaze_detail_url": title_tag['href']
+                    "detail_url": title_tag['href']
                 }
                 all_episodes_stubs.append(episode_data)
             except (ValueError, IndexError, AttributeError):
                 continue
     return all_episodes_stubs
 
-def get_tvmaze_details(detail_url):
+# scrapes episode details 
+def get_episode_details(detail_url):
     if not detail_url: return {}
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
         'From': '13523122@std.stei.itb.ac.id'  
     }
     details = {}
-    print(f"  -> Fetching details from: {detail_url}") 
-
+    # print(f"  -> Fetching episode details from: {detail_url}")
     try:
         response = requests.get(detail_url, headers=headers)
         response.raise_for_status()
         time.sleep(1)
         soup = BeautifulSoup(response.content, 'html.parser')
-        rating_value_tag = soup.select_one('[itemprop="ratingValue"]')
-        rating_count_tag = soup.select_one('[itemprop="ratingCount"]')
-        details['rating_value'] = float(rating_value_tag.text.strip()) if rating_value_tag else None
-        details['rating_count'] = int(rating_count_tag.text.strip()) if rating_count_tag else None
-        summary_tag = soup.select_one("section#general-information article p")
-        details['summary'] = summary_tag.get_text(strip=True) if summary_tag else None
-        
-        # doesnt work yet, i think pake ver guest cast aja (diff page)
-        crew = []
-        for item in soup.select("#episode-crew-list .crew-list-item"):
-            role = item.select_one(".role").text.strip().lower()
-            name = item.select_one(".name").text.strip()
-            crew.append({"name": name, "role": role})
-        details['crew'] = crew
-
-        # doesnt work yet, i think pake ver guest cast aja (diff page)
-        cast = []
-        for item in soup.select("#episode-cast-list .cast-list-item"):
-            actor = item.select_one(".person-name").text.strip()
-            character = item.select_one(".character-name").text.strip()
-            cast.append({"actor": actor, "character": character})
-        details['cast'] = cast
-
+        details['summary'] = soup.select_one("section#general-information article p").get_text(strip=True) if soup.select_one("section#general-information article p") else None
+        details['rating_value'] = float(soup.select_one('[itemprop="ratingValue"]').text.strip()) if soup.select_one('[itemprop="ratingValue"]') else None
+        details['rating_count'] = int(soup.select_one('[itemprop="ratingCount"]').text.strip()) if soup.select_one('[itemprop="ratingCount"]') else None
     except requests.exceptions.RequestException as e:
         print(f"  -> Error scraping episode details: {e}")
     return details
 
-def get_guest_cast(cast_url):
-    if not cast_url: return []
-    
+# scrapes people involved in the episode (cast n crew)
+def get_people_involved(url, person_type, status):
+    if not url: return []
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
-        'From': '13523122@std.stei.itb.ac.id'  
+        'From': '13523122@std.stei.itb.ac.id'
     }
-    guest_list = []
-    print(f"  -> Fetching guest cast from: {cast_url}")
-
+    people_list = []
+    # print(f"  -> Fetching {status.lower()} {person_type} from: {url}")
     try:
-        response = requests.get(cast_url, headers=headers)
+        response = requests.get(url, headers=headers)
         response.raise_for_status()
         time.sleep(1)
 
         soup = BeautifulSoup(response.content, 'html.parser')
-        
+
         for person_box in soup.select('article.grid-x.personbox'):
-            actor_tag = person_box.select_one('h2 > a')
+            name_tag = person_box.select_one('h2 > a')
+            if not name_tag: continue
+
+            name = name_tag.text.strip()
+            person_data = {}
+
+            if person_type == 'cast':
+                character_tag = person_box.select_one("a[href*='/characters/']")
+                if character_tag:
+                    raw_character = character_tag.text.strip()
+                    cleaned_character = re.sub(r' \"[^"]*\"', '', raw_character)
+                    person_data = {"actor": name, "character": cleaned_character, "status": status}
             
-            character_tag = person_box.select_one("a[href*='/characters/']")
-            
-            if actor_tag and character_tag:
-                guest_list.append({
-                    "actor": actor_tag.text.strip(),
-                    "character": character_tag.text.strip()
-                })
+            elif person_type == 'crew':
+                role_container = person_box.select_one('div.auto.cell')
+                if role_container:
+                    full_text = role_container.get_text(separator=' ', strip=True)
+                    role = full_text.replace(name, '').replace('as', '').strip()
+                    person_data = {"name": name, "role": role, "status": status}
+
+            if person_data:
+                people_list.append(person_data)
 
     except requests.exceptions.RequestException as e:
-        print(f"  -> Error scraping guest cast: {e}")
+        print(f"  -> Error scraping {person_type}: {e}")
+    return people_list
+
+# processes a single episode stub
+def process_single_episode(episode_stub):
+    episode_id = episode_stub['overall_episode_number']
+    detail_url = episode_stub.get('detail_url')
+    
+    main_details = get_episode_details(detail_url)
+    
+    guest_cast_list = get_people_involved(detail_url + "/cast", 'cast', 'Guest')
+    main_cast_list = get_people_involved(detail_url + "/castappearances", 'cast', 'Main')
+    guest_crew_list = get_people_involved(detail_url + "/crew", 'crew', 'Guest')
+    main_crew_list = get_people_involved(detail_url + "/crewappearances", 'crew', 'Main')
+
+    episode_data = {
+        "episode_id": episode_id, "season": episode_stub['season'],
+        "episode_in_season": episode_stub['episode_in_season'], "title": episode_stub['title'],
+        "air_date": episode_stub['air_date'], "summary": main_details.get('summary'),
+        "rating_value": main_details.get('rating_value'), "rating_count": main_details.get('rating_count')
+    }
+    
+    cast_data = []
+    combined_cast = main_cast_list + guest_cast_list
+    for cast_member in combined_cast:
+        cast_data.append({
+            "episode_id": episode_id, "actor": cast_member['actor'], 
+            "character": cast_member['character'], "status": cast_member['status']
+        })
+
+    crew_data = []
+    combined_crew = main_crew_list + guest_crew_list
+    for crew_member in combined_crew:
+        crew_data.append({
+            "episode_id": episode_id, "name": crew_member['name'], 
+            "role": crew_member['role'], "status": crew_member['status']
+        })
         
-    return guest_list
+    return episode_data, cast_data, crew_data
 
 if __name__ == "__main__":
-    master_list = scrape_master_list_with_links()
+    master_list = get_master_list()
     
-    all_episodes = []
-    all_casts = []
-    all_crews = []
-    all_guest_casts = [] 
+    all_episodes, all_casts, all_crews = [], [], []
 
     if master_list:
-        episodes_to_process = master_list[:5]  # remove this later kl mau all
+        episodes_to_process = master_list
+        # episodes_to_process = master_list[:5] 
+        total_episodes = len(episodes_to_process)
+        total_seasons = episodes_to_process[-1]['season'] if episodes_to_process else 0
+        print(f"Processing {total_seasons} seasons ({total_episodes} episodes)...")
 
-        print(f"\nProcessing {len(episodes_to_process)} episodes...")
-
-        for episode_stub in episodes_to_process:
-            details = get_tvmaze_details(episode_stub.get('tvmaze_detail_url'))
+        # multithreading to speed up the scraping
+        with ThreadPoolExecutor(max_workers=5) as executor: 
+            future_to_stub = {executor.submit(process_single_episode, stub): stub for stub in episodes_to_process}
             
-            guest_cast_url = episode_stub.get('tvmaze_detail_url') + "/cast"
-            guest_cast_list = get_guest_cast(guest_cast_url)
+            for i, future in enumerate(as_completed(future_to_stub)):
+                try:
+                    episode_data, cast_data, crew_data = future.result()
+                    all_episodes.append(episode_data)
+                    all_casts.extend(cast_data)
+                    all_crews.extend(crew_data)
+                    if (i + 1) % 30 == 0 or i + 1 == total_episodes:
+                        print(f"Processed {i+1}/{total_episodes} episodes")
+                except Exception as e:
+                    stub = future_to_stub[future]
+                    print(f"  Error processing {stub['title']}: {e}")
 
-            episode_id = episode_stub['overall_episode_number']
-            
-            all_episodes.append({
-                "episode_id": episode_id, 
-                "season": episode_stub['season'],
-                "episode_in_season": episode_stub['episode_in_season'], 
-                "title": episode_stub['title'],
-                "air_date": episode_stub['air_date'], 
-                "summary": details.get('summary'),
-                "rating_value": details.get('rating_value'), 
-                "rating_count": details.get('rating_count')
-            })
-            
-            for crew_member in details.get('crew', []):
-                all_crews.append({"episode_id": episode_id, "name": crew_member['name'], "role": crew_member['role']})
-            
-            for cast_member in details.get('cast', []):
-                all_casts.append({"episode_id": episode_id, "actor": cast_member['actor'], "character": cast_member['character']})
+        all_episodes.sort(key=lambda x: x['episode_id'])
+        all_casts.sort(key=lambda x: (x['episode_id'], x['status'], x['actor']))
+        all_crews.sort(key=lambda x: (x['episode_id'], x['status'], x['name']))
 
-            for guest in guest_cast_list:
-                all_guest_casts.append({"episode_id": episode_id, "actor": guest['actor'], "character": guest['character']})
+        output_dir = "..\data"
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
 
-        with open("../data/episodes.json", 'w', encoding='utf-8') as f: json.dump(all_episodes, f, ensure_ascii=False, indent=2)
-        print("\nData saved ../data/to episodes.json")
-        with open("../data/casts.json", 'w', encoding='utf-8') as f: json.dump(all_casts, f, ensure_ascii=False, indent=2)
-        print("Data saved ../data/to casts.json")
-        with open("../data/crews.json", 'w', encoding='utf-8') as f: json.dump(all_crews, f, ensure_ascii=False, indent=2)
-        print("Data saved ../data/to crews.json")
-        with open("../data/guest_casts.json", 'w', encoding='utf-8') as f: json.dump(all_guest_casts, f, ensure_ascii=False, indent=2)
-        print("Data saved ../data/to guest_casts.json")
+        with open(os.path.join(output_dir, "episodes.json"), 'w', encoding='utf-8') as f: json.dump(all_episodes, f, ensure_ascii=False, indent=2)
+        print(f"\nData saved to {os.path.join(output_dir,'episodes.json')}")
+        with open(os.path.join(output_dir, "casts.json"), 'w', encoding='utf-8') as f: json.dump(all_casts, f, ensure_ascii=False, indent=2)
+        print(f"Data saved to {os.path.join(output_dir, 'casts.json')}")
+        with open(os.path.join(output_dir, "crews.json"), 'w', encoding='utf-8') as f: json.dump(all_crews, f, ensure_ascii=False, indent=2)
+        print(f"Data saved to {os.path.join(output_dir, 'crews.json')}")
 
-        print(f"\nScraping complete for {len(episodes_to_process)} episodes.")
+        print(f"\nScraping completed for {len(episodes_to_process)} episodes.")
