@@ -1,0 +1,7 @@
+[project]
+name = "seleksi-2025-tugas-1"
+version = "0.1.0"
+description = "Database Lab Assistant 2025 Recruitment"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
