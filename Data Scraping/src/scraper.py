@@ -7,7 +7,7 @@ from datetime import datetime
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# scrapes episode guide (master list)
+# scrape episode guide (master list)
 def get_master_list():
     url = "https://epguides.com/NCIS/"
     headers = {
@@ -59,7 +59,7 @@ def get_master_list():
                 continue
     return all_episodes_stubs
 
-# scrapes episode details 
+# scrape episode details 
 def get_episode_details(detail_url):
     if not detail_url: return {}
     headers = {
@@ -67,7 +67,7 @@ def get_episode_details(detail_url):
         'From': '13523122@std.stei.itb.ac.id'  
     }
     details = {}
-    # print(f"  -> Fetching episode details from: {detail_url}")
+    # print(f"   Fetching episode details from: {detail_url}")
     try:
         response = requests.get(detail_url, headers=headers)
         response.raise_for_status()
@@ -82,7 +82,7 @@ def get_episode_details(detail_url):
         for comment_article in soup.select("article.comment"):
             username = comment_article.select_one("span.username a").text.strip() if comment_article.select_one("span.username a") else None
             
-            # handles content extraction
+            # handle content extraction
             content_container = comment_article.select_one(".content.rendered-content")
             if content_container:
                 paragraphs = [p.get_text(strip=True) for p in content_container.find_all('p')]
@@ -93,7 +93,7 @@ def get_episode_details(detail_url):
             upvote_tag = comment_article.select_one(".upvote-vote")
             downvote_tag = comment_article.select_one(".downvote-vote")
 
-            # handles no upvotes or downvotes
+            # handle no upvotes or downvotes
             upvote_text = upvote_tag.text.strip() if upvote_tag else '0'
             upvote_count = 0 if upvote_text == '|' else int(upvote_text)
 
@@ -115,7 +115,7 @@ def get_episode_details(detail_url):
         print(f"  -> Error scraping episode details: {e}")
     return details
 
-# scrapes people involved in the episode (cast n crew)
+# scrape people involved in the episode (cast n crew)
 def get_people_involved(url, person_type, status):
     if not url: return []
     headers = {
@@ -123,7 +123,7 @@ def get_people_involved(url, person_type, status):
         'From': '13523122@std.stei.itb.ac.id'
     }
     people_list = []
-    # print(f"  -> Fetching {status.lower()} {person_type} from: {url}")
+    # print(f"   Fetching {status.lower()} {person_type} from: {url}")
     try:
         response = requests.get(url, headers=headers)
         response.raise_for_status()
@@ -159,7 +159,7 @@ def get_people_involved(url, person_type, status):
         print(f"  -> Error scraping {person_type}: {e}")
     return people_list
 
-# processes a single episode stub
+# process a single episode stub
 def process_single_episode(episode_stub):
     episode_id = episode_stub['overall_episode_number']
     detail_url = episode_stub.get('detail_url')
