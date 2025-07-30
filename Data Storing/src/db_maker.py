@@ -1,6 +1,8 @@
 import mariadb
 import sys
-import getpass 
+import json
+import os
+import getpass
 
 def get_db_connection(config):
     try:
@@ -34,6 +36,7 @@ def main():
 
     db_config = {**initial_config, 'database': db_name}
 
+    # define tables
     TABLES = {}
     TABLES['Personnel'] = """
         CREATE OR REPLACE TABLE Personnel (
@@ -92,7 +95,7 @@ def main():
             name VARCHAR(255),
             character_name VARCHAR(255) NOT NULL,
             status ENUM('Main', 'Guest') NOT NULL,
-            PRIMARY KEY (episode_id, name),
+            PRIMARY KEY (episode_id, name, character_name),
             FOREIGN KEY (episode_id) REFERENCES Episode(episode_id) ON DELETE CASCADE,
             FOREIGN KEY (name) REFERENCES Personnel(name) ON DELETE CASCADE
         ) ENGINE=InnoDB;
@@ -105,25 +108,68 @@ def main():
     cursor = conn.cursor()
     
     try:
-        # temporarily disables foreign key checks 
+        # temporarily disable foreign key checks
         cursor.execute("SET FOREIGN_KEY_CHECKS=0;")
 
+        # create tables
         print("\nCreating tables...")
-        for table_name in TABLES:
-            table_sql = TABLES[table_name]
-            try:
-                cursor.execute(table_sql)
-                print(f"Table '{table_name}' created successfully.")
-            except mariadb.Error as e:
-                print(f"\nError creating table '{table_name}': {e}")
+        table_creation_order = ['Personnel', 'User', 'Episode', 'Comment', 'Crew', 'Cast']
+        for table_name in table_creation_order:
+            cursor.execute(TABLES[table_name])
+            print(f"Table '{table_name}' is ready.")
+        
+        data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "Data Scraping", "data")
+        
+        # load data from json
+        print ("\nLoading data into tables...")
+
+        with open(os.path.join(data_dir, 'casts.json'), 'r', encoding='utf-8') as f:
+            casts = json.load(f)
+        with open(os.path.join(data_dir, 'crews.json'), 'r', encoding='utf-8') as f:
+            crews = json.load(f)
+        personnel_names = {p['actor'] for p in casts} | {p['name'] for p in crews}
+        cursor.executemany("INSERT INTO Personnel (name) VALUES (?)", [(name,) for name in personnel_names])
+        print(f"Loaded {cursor.rowcount} personnel.")
+
+        with open(os.path.join(data_dir, 'comments.json'), 'r', encoding='utf-8') as f:
+            comments = json.load(f)
+        usernames = {c['username'] for c in comments}
+        cursor.executemany("INSERT INTO User (username) VALUES (?)", [(user,) for user in usernames])
+        print(f"Loaded {cursor.rowcount} users.")
+
+        with open(os.path.join(data_dir, 'episodes.json'), 'r', encoding='utf-8') as f:
+            episodes = json.load(f)
+        ep_sql = "INSERT INTO Episode (episode_id, season, episode_in_season, title, air_date, summary, rating_value, rating_count) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+        cursor.executemany(ep_sql, [(e['episode_id'], e['season'], e['episode_in_season'], e['title'], e['air_date'], e['summary'], e.get('rating_value'), e.get('rating_count')) for e in episodes])
+        print(f"Loaded {cursor.rowcount} episodes.")
+
+        cast_sql = "INSERT INTO Cast (episode_id, name, character_name, status) VALUES (?, ?, ?, ?)"
+        cursor.executemany(cast_sql, [(c['episode_id'], c['actor'], c['character'], c['status']) for c in casts])
+        print(f"Loaded {cursor.rowcount} cast appearances.")
+
+        crew_sql = "INSERT INTO Crew (episode_id, name, role, status) VALUES (?, ?, ?, ?)"
+        cursor.executemany(crew_sql, [(c['episode_id'], c['name'], c['role'], c['status']) for c in crews])
+        print(f"Loaded {cursor.rowcount} crew appearances.")
+
+        comment_sql = "INSERT INTO Comment (episode_id, comment_number, username, content, upvote_count, downvote_count) VALUES (?, ?, ?, ?, ?, ?)"
+        cursor.executemany(comment_sql, [(c['episode_id'], c['comment_number'], c['username'], c['content'], c.get('upvote_count'), c.get('downvote_count')) for c in comments])
+        print(f"Loaded {cursor.rowcount} comments.")
+
+        conn.commit()
+        print("\nAll data loaded to the database successfully.")
+
+    except mariadb.Error as e:
+        print(f"An error occurred: {e}")
+        conn.rollback()
+    except FileNotFoundError as e:
+        print(f"JSON file not found: {e}")
 
     finally:
-        # reenables foreign key checks
+        # reenable foreign key checks
         cursor.execute("SET FOREIGN_KEY_CHECKS=1;")
 
         cursor.close()
         conn.close()
-        print("\nAll tables created successfully in the database.")
 
 if __name__ == "__main__":
     main()
