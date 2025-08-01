@@ -54,13 +54,15 @@ def main():
     TABLES['Episode'] = """
         CREATE OR REPLACE TABLE Episode (
             episode_id INT PRIMARY KEY, 
-            season INT CHECK (season >= 1),
-            episode_in_season INT CHECK (episode_in_season >= 1),
+            season INT NOT NULL,
+            episode_in_season INT NOT NULL,
             title VARCHAR(255),
             air_date DATE,
             summary TEXT,
             rating_value FLOAT CHECK (rating_value >= 0),
-            rating_count INT CHECK (rating_count >= 0)
+            rating_count INT CHECK (rating_count >= 0),
+            CONSTRAINT chk_season CHECK (season >= 1),
+            CONSTRAINT chk_episode_in_season CHECK (episode_in_season >= 1)
         ) ENGINE=InnoDB;
         """
 
