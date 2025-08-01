@@ -44,10 +44,12 @@ def main():
     TABLES['DimEpisode'] = """
         CREATE TABLE DimEpisode (
             episode_id INT PRIMARY KEY,
-            season INT CHECK (season >= 1),
-            episode_in_season INT CHECK (episode_in_season >= 1),
+            season INT NOT NULL,
+            episode_in_season INT NOT NULL,
             title VARCHAR(255),
-            summary TEXT
+            summary TEXT,
+            CONSTRAINT chk_season CHECK (season >= 1),
+            CONSTRAINT chk_episode_in_season CHECK (episode_in_season >= 1)
         ) ENGINE=InnoDB;
     """
 
@@ -142,8 +144,8 @@ def main():
         cursor.executemany("INSERT INTO DimPersonnel (name) VALUES (?)", [(name,) for name in unique_people])
         cursor.execute("SELECT name, personnel_id FROM DimPersonnel")
         person_map = {name: key for name, key in cursor}
-        cursor.executemany("INSERT INTO DimEpisode (episode_id, title, season) VALUES (?, ?, ?)",
-                           [(e['episode_id'], e['title'], e['season']) for e in episodes])
+        cursor.executemany("INSERT INTO DimEpisode (episode_id, title, season, episode_in_season, summary) VALUES (?, ?, ?, ?, ?)", 
+                           [(e['episode_id'], e['title'], e['season'], e['episode_in_season'], e['summary']) for e in episodes])
         print(f"Loaded {cursor.rowcount} episodes.")
         
         comment_counts = {}
