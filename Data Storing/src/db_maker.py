@@ -27,7 +27,8 @@ def main():
         
     cursor = conn.cursor()
     try:
-        cursor.execute(f"CREATE DATABASE IF NOT EXISTS `{db_name}` CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_unicode_ci';")
+        cursor.execute(f"DROP DATABASE IF EXISTS `{db_name}`;")
+        cursor.execute(f"CREATE DATABASE `{db_name}` CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_unicode_ci';")
         print(f"Database '{db_name}' is ready.")
     except mariadb.Error as e:
         print(f"Error creating database: {e}")
@@ -53,7 +54,7 @@ def main():
     TABLES['Episode'] = """
         CREATE OR REPLACE TABLE Episode (
             episode_id INT PRIMARY KEY, 
-            season INT,
+            season INT CHECK (season >= 1),
             episode_in_season INT CHECK (episode_in_season >= 1),
             title VARCHAR(255),
             air_date DATE,
@@ -104,7 +105,6 @@ def main():
     conn = get_db_connection(db_config)
     if not conn:
         sys.exit(1)
-        
     cursor = conn.cursor()
     
     try:
@@ -113,8 +113,7 @@ def main():
 
         # create tables
         print("\nCreating tables...")
-        table_creation_order = ['Personnel', 'User', 'Episode', 'Comment', 'Crew', 'Cast']
-        for table_name in table_creation_order:
+        for table_name in TABLES:
             cursor.execute(TABLES[table_name])
             print(f"Table '{table_name}' is ready.")
         
