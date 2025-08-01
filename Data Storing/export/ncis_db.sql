@@ -14841,14 +14841,16 @@ DROP TABLE IF EXISTS `episode`;
 /*!40101 SET character_set_client = utf8mb4 */;
 CREATE TABLE `episode` (
   `episode_id` int(11) NOT NULL,
-  `season` int(11) DEFAULT NULL,
-  `episode_in_season` int(11) DEFAULT NULL CHECK (`episode_in_season` >= 1),
+  `season` int(11) NOT NULL,
+  `episode_in_season` int(11) NOT NULL,
   `title` varchar(255) DEFAULT NULL,
   `air_date` date DEFAULT NULL,
   `summary` text DEFAULT NULL,
   `rating_value` float DEFAULT NULL CHECK (`rating_value` >= 0),
   `rating_count` int(11) DEFAULT NULL CHECK (`rating_count` >= 0),
-  PRIMARY KEY (`episode_id`)
+  PRIMARY KEY (`episode_id`),
+  CONSTRAINT `chk_season` CHECK (`season` >= 1),
+  CONSTRAINT `chk_episode_in_season` CHECK (`episode_in_season` >= 1)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -19335,4 +19337,4 @@ commit;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2025-07-31  0:00:39
+-- Dump completed on 2025-08-01 21:53:17
