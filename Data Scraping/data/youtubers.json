@@ -1,0 +1,902 @@
+[
+    {
+        "youtuber_name": "Bari Koral",
+        "gender": "Female",
+        "email": "****@gmail.com",
+        "youtube_subscribers": 707000,
+        "facebook_followers": 3400,
+        "instagram_followers": 6300,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Sara & Les",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 959000,
+        "facebook_followers": 12300,
+        "instagram_followers": null,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Anthony Paul Moo-Young",
+        "gender": "Male",
+        "email": "****@mooji.org",
+        "youtube_subscribers": 835000,
+        "facebook_followers": 460600,
+        "instagram_followers": 477800,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Tara Brach",
+        "gender": "Female",
+        "email": "****@tarabrach.com",
+        "youtube_subscribers": 339000,
+        "facebook_followers": 373300,
+        "instagram_followers": 289200,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Christian Thomas",
+        "gender": "Male",
+        "email": "****@gmail.com",
+        "youtube_subscribers": 409000,
+        "facebook_followers": 1200,
+        "instagram_followers": 434,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Chibs Okereke",
+        "gender": "Male",
+        "email": "****@chibs.co",
+        "youtube_subscribers": 94000,
+        "facebook_followers": null,
+        "instagram_followers": 8000,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Sean Fargo",
+        "gender": "Male",
+        "email": "****@mindfulnessexercises.com",
+        "youtube_subscribers": 121000,
+        "facebook_followers": null,
+        "instagram_followers": 102300,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Mindful Music",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 136000,
+        "facebook_followers": 975,
+        "instagram_followers": null,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Holly Morris",
+        "gender": "Female",
+        "email": "****@thementalhealthteacher.com",
+        "youtube_subscribers": 110000,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Palouse Mindfulness",
+        "gender": null,
+        "email": "****@palousemindfulness.com",
+        "youtube_subscribers": 50800,
+        "facebook_followers": 4400,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Jamie Marich",
+        "gender": "Female",
+        "email": "****@mindfulohio.com",
+        "youtube_subscribers": 20100,
+        "facebook_followers": 10800,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Voicu Mihnea Simandan",
+        "gender": "Male",
+        "email": "****@yahoo.com",
+        "youtube_subscribers": 12600,
+        "facebook_followers": null,
+        "instagram_followers": 486,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Scott Todnem",
+        "gender": "Male",
+        "email": null,
+        "youtube_subscribers": 5900,
+        "facebook_followers": 1300,
+        "instagram_followers": 10800,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Loch Kelly",
+        "gender": "Male",
+        "email": "****@lochkelly.org",
+        "youtube_subscribers": 16200,
+        "facebook_followers": null,
+        "instagram_followers": 7600,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Shamash Alidina",
+        "gender": "Male",
+        "email": "****@shamashalidina.com",
+        "youtube_subscribers": 2900,
+        "facebook_followers": 13600,
+        "instagram_followers": 2900,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Cynthia Hauk",
+        "gender": "Female",
+        "email": "****@mindfulcreativemuse.com",
+        "youtube_subscribers": 12900,
+        "facebook_followers": 1200,
+        "instagram_followers": 4500,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Kelly Smith",
+        "gender": "Female",
+        "email": "****@yogaforyouonline.com",
+        "youtube_subscribers": 5300,
+        "facebook_followers": 1300,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Cory Muscara",
+        "gender": "Male",
+        "email": "****@limindfulness.com",
+        "youtube_subscribers": 17000,
+        "facebook_followers": 36300,
+        "instagram_followers": 1100000,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Melli O'brien",
+        "gender": "Female",
+        "email": "****@mrsmindfulness.com",
+        "youtube_subscribers": 5400,
+        "facebook_followers": 63400,
+        "instagram_followers": 13100,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Gui Hung",
+        "gender": "Male",
+        "email": "****@mindfulnews.uk",
+        "youtube_subscribers": 3600,
+        "facebook_followers": null,
+        "instagram_followers": 1700,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Sarah McLean",
+        "gender": "Female",
+        "email": "****@mcleanmeditation.com",
+        "youtube_subscribers": 4600,
+        "facebook_followers": 11800,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Rocky Heron",
+        "gender": "Male",
+        "email": "****@rockyheron.com",
+        "youtube_subscribers": 3800,
+        "facebook_followers": 21100,
+        "instagram_followers": 53400,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Jessie Mahoney",
+        "gender": "Female",
+        "email": "****@jessiemahoneymd.com",
+        "youtube_subscribers": 2900,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Oren Jay Sofer",
+        "gender": "Male",
+        "email": "****@orenjaysofer.com",
+        "youtube_subscribers": 6100,
+        "facebook_followers": null,
+        "instagram_followers": 14500,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Nicole E. Anderson",
+        "gender": "Female",
+        "email": "****@neamusic.com",
+        "youtube_subscribers": 2900,
+        "facebook_followers": 215,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Missy",
+        "gender": "Female",
+        "email": "****@the-life-helper.com",
+        "youtube_subscribers": 2800,
+        "facebook_followers": 169,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Anthony Ongaro",
+        "gender": "Male",
+        "email": "****@gmail.com",
+        "youtube_subscribers": 67300,
+        "facebook_followers": 20400,
+        "instagram_followers": 2600,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Shilpi Mahajan",
+        "gender": "Female",
+        "email": "****@fablefy.com",
+        "youtube_subscribers": 28200,
+        "facebook_followers": 846,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "John Davisi",
+        "gender": "Male",
+        "email": null,
+        "youtube_subscribers": 12600,
+        "facebook_followers": null,
+        "instagram_followers": 4500,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Ellen",
+        "gender": "Female",
+        "email": "****@gmail.com",
+        "youtube_subscribers": 8600,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness Place",
+        "gender": null,
+        "email": "****@mindfulness-place.com",
+        "youtube_subscribers": 3500,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Ron Levine",
+        "gender": "Male",
+        "email": "****@mindfulnessinbluejeans.com",
+        "youtube_subscribers": 3000,
+        "facebook_followers": 911,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "MeditationRelaxClub - Sleep Music & Mindfulness",
+        "gender": null,
+        "email": "****@meditationrelaxclub.com",
+        "youtube_subscribers": 1700000,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Mega"
+    },
+    {
+        "youtuber_name": "Headspace",
+        "gender": null,
+        "email": "****@headspace.com",
+        "youtube_subscribers": 779000,
+        "facebook_followers": 800400,
+        "instagram_followers": null,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Brain Education TV",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 406000,
+        "facebook_followers": 2900,
+        "instagram_followers": 6700,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Be Here Now Network",
+        "gender": null,
+        "email": "****@beherenownetwork.com",
+        "youtube_subscribers": 208000,
+        "facebook_followers": 42600,
+        "instagram_followers": null,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "MindfulPeace",
+        "gender": null,
+        "email": "****@mindfulpeacejourney.com",
+        "youtube_subscribers": 235000,
+        "facebook_followers": 8100,
+        "instagram_followers": null,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Wisdom 2.0",
+        "gender": null,
+        "email": "****@wisdom2conference.com",
+        "youtube_subscribers": 152000,
+        "facebook_followers": 56900,
+        "instagram_followers": null,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "My Peace Of Mindfulness",
+        "gender": null,
+        "email": "****@mypeaceofmindfulness.com",
+        "youtube_subscribers": 116000,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Declutter The Mind",
+        "gender": null,
+        "email": "****@declutterthemind.com",
+        "youtube_subscribers": 163000,
+        "facebook_followers": 9100,
+        "instagram_followers": 2400,
+        "type": "Macro"
+    },
+    {
+        "youtuber_name": "Mindful Muslimah",
+        "gender": null,
+        "email": null,
+        "youtube_subscribers": 29100,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Insight Meditation Center",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 26400,
+        "facebook_followers": 17500,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Mindful Wing Chun",
+        "gender": null,
+        "email": "****@mindfulwingchun.com.hk",
+        "youtube_subscribers": 27300,
+        "facebook_followers": 30000,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Mindful Mama Mentor",
+        "gender": null,
+        "email": "****@mindfulmamamentor.com",
+        "youtube_subscribers": 3500,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindful",
+        "gender": null,
+        "email": "****@mindful.org",
+        "youtube_subscribers": 12400,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Master Niels",
+        "gender": null,
+        "email": "****@innermindinstitute.org",
+        "youtube_subscribers": 55000,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Metta Mindfulness Music",
+        "gender": null,
+        "email": "****@mettamindfulnessmusic.com",
+        "youtube_subscribers": 3900,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Julia Delaney | Positive Pranic",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 8500,
+        "facebook_followers": 1100,
+        "instagram_followers": 1100,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Common Ground Meditation Center",
+        "gender": null,
+        "email": "****@commongroundmeditation.org",
+        "youtube_subscribers": 3800,
+        "facebook_followers": 3800,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness with Mariel",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 494,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "RoundGlass",
+        "gender": null,
+        "email": "****@round.glass",
+        "youtube_subscribers": 4800,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness Association",
+        "gender": null,
+        "email": "****@mindfulnessassociation.net",
+        "youtube_subscribers": 3200,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "The Men Talking Mindfulness Podcast",
+        "gender": null,
+        "email": "****@mentalkingmindfulness.com",
+        "youtube_subscribers": 7200,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Meditate with Deb",
+        "gender": null,
+        "email": "****@peacefulwellness.org",
+        "youtube_subscribers": 1000,
+        "facebook_followers": 706,
+        "instagram_followers": 581,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Breathworks Mindfulness",
+        "gender": null,
+        "email": "****@breathworks.co.uk",
+        "youtube_subscribers": 5500,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Monash Mindfulness",
+        "gender": null,
+        "email": "****@monash.edu",
+        "youtube_subscribers": 8800,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Center for Mindful Self-Compassion",
+        "gender": null,
+        "email": "****@centerformsc.org",
+        "youtube_subscribers": 10100,
+        "facebook_followers": 29300,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Dr. Mindfulness",
+        "gender": null,
+        "email": "****@carleton.ca",
+        "youtube_subscribers": 3600,
+        "facebook_followers": 301,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Meditate: School of Mindfulness",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 1900,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Omni Mindfulness",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 125,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness With Aly F Canavan",
+        "gender": null,
+        "email": "****@alisoncanavan.com",
+        "youtube_subscribers": 1700,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindful Life Coaching with Dr. Jessie Mahoney",
+        "gender": null,
+        "email": "****@jessiemahoneymd.com",
+        "youtube_subscribers": 579,
+        "facebook_followers": null,
+        "instagram_followers": 1700,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Connected Kids - teach kids meditation",
+        "gender": null,
+        "email": "****@teachchildrenmeditation.com",
+        "youtube_subscribers": 874,
+        "facebook_followers": 740,
+        "instagram_followers": 1000,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Gayane Kulikyan - Mindfulness & Healing",
+        "gender": null,
+        "email": "****@concordinlove.com",
+        "youtube_subscribers": 480,
+        "facebook_followers": 344,
+        "instagram_followers": 385,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Brittany Lynne | Beautifully Awakening",
+        "gender": null,
+        "email": null,
+        "youtube_subscribers": 1000,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "A Lust For Life",
+        "gender": null,
+        "email": "****@alustforlife.com",
+        "youtube_subscribers": 1200,
+        "facebook_followers": 39200,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Creative Mindfulness",
+        "gender": null,
+        "email": "****@louiseshanagher.com",
+        "youtube_subscribers": 1300,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindful Meditation with Storytime Family",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 1700,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Make Mind Spiritual",
+        "gender": null,
+        "email": null,
+        "youtube_subscribers": 693,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "A Mindful Approach to Fitness",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 630,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Meditation Mindfulness",
+        "gender": null,
+        "email": "****@alanspicer.com",
+        "youtube_subscribers": 1500,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness Project",
+        "gender": null,
+        "email": "****@mindfulness-project.org",
+        "youtube_subscribers": 1400,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Christy Jones Health and Mindfulness Coach",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 432,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Practice With Lydia Zamorano",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 1500,
+        "facebook_followers": null,
+        "instagram_followers": 14600,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Samavira Meditation and Mindfulness",
+        "gender": null,
+        "email": "****@samavira.com",
+        "youtube_subscribers": 441,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mark Coleman",
+        "gender": null,
+        "email": "****@markcoleman.org",
+        "youtube_subscribers": 1100,
+        "facebook_followers": 2000,
+        "instagram_followers": 3400,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Padraig O'Morain Mindfulness",
+        "gender": null,
+        "email": "****@gmx.com",
+        "youtube_subscribers": 809,
+        "facebook_followers": 10600,
+        "instagram_followers": 3300,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Susan Young Mindful Coaching",
+        "gender": null,
+        "email": "****@susancoach.ca",
+        "youtube_subscribers": 182,
+        "facebook_followers": 265,
+        "instagram_followers": 646,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Peace & Love: Meditation and Mindfulness",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 466,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Sue Hutton Mindfulness",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 433,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Alex Strauss - Author & Natural Mindfulness Guide",
+        "gender": null,
+        "email": "****@themindfulwalker.com",
+        "youtube_subscribers": 334,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Breathworks Mindfulness",
+        "gender": null,
+        "email": "****@breathworks.co.uk",
+        "youtube_subscribers": null,
+        "facebook_followers": 19400,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Vanessa Guild - Mindfulness Trainer, Private Coach",
+        "gender": null,
+        "email": "****@vanessaguild.com",
+        "youtube_subscribers": 153,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness With Ms. Guerra",
+        "gender": null,
+        "email": null,
+        "youtube_subscribers": 160,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mrs Mindfulness",
+        "gender": null,
+        "email": "****@mrsmindful.co.uk",
+        "youtube_subscribers": null,
+        "facebook_followers": 1,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness Academy",
+        "gender": null,
+        "email": "****@aimeemorgan.com",
+        "youtube_subscribers": 52,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Rita Geraghty - Mindful Life Guide",
+        "gender": null,
+        "email": null,
+        "youtube_subscribers": 22,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness 360 - Center For Mindfulness",
+        "gender": null,
+        "email": "****@mindfulness360.net",
+        "youtube_subscribers": 35900,
+        "facebook_followers": 4300,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Quiet Mind Cafe",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 12800,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "Peaceful Breathing - Meditation and Mindfulness",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 7800,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Elements - Meditations & Mindfulness",
+        "gender": null,
+        "email": "****@mail.com",
+        "youtube_subscribers": 10900,
+        "facebook_followers": 92,
+        "instagram_followers": 843,
+        "type": "Micro"
+    },
+    {
+        "youtuber_name": "iBme / Inward Bound Mindfulness Education",
+        "gender": null,
+        "email": "****@ibme.com",
+        "youtube_subscribers": 1900,
+        "facebook_followers": 9400,
+        "instagram_followers": 3100,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "The Centre for Mindfulness Studies",
+        "gender": null,
+        "email": "****@mindfulnessstudies.com",
+        "youtube_subscribers": 1800,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness Meditation by Soothing Pod",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 2900,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "The Local Mystic",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 2000,
+        "facebook_followers": null,
+        "instagram_followers": 4900,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness Abundance by Dee Gardner",
+        "gender": null,
+        "email": "****@thecounselingservices.com",
+        "youtube_subscribers": 1300,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Pandit Dasa",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 1200,
+        "facebook_followers": 2000,
+        "instagram_followers": 148500,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness in Schools Project",
+        "gender": null,
+        "email": "****@mindfulnessinschools.org",
+        "youtube_subscribers": 667,
+        "facebook_followers": null,
+        "instagram_followers": null,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "Mindfulness Sanctuary",
+        "gender": null,
+        "email": "****@emmagray.net",
+        "youtube_subscribers": 389,
+        "facebook_followers": 101,
+        "instagram_followers": 192,
+        "type": "Nano"
+    },
+    {
+        "youtuber_name": "a Mindfulness Base",
+        "gender": null,
+        "email": "****@gmail.com",
+        "youtube_subscribers": 353,
+        "facebook_followers": 204,
+        "instagram_followers": null,
+        "type": "Nano"
+    }
+]
