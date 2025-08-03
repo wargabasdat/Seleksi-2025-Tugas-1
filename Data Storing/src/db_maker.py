@@ -3,6 +3,7 @@ import sys
 import json
 import os
 import getpass
+from datetime import datetime
 
 def get_db_connection(config):
     try:
@@ -12,9 +13,28 @@ def get_db_connection(config):
         print(f"Error connecting to MariaDB: {e}")
         return None
 
-def main():
+def get_credentials_from_config(path='config.json'):
+    try:
+        with open(path, 'r') as f:
+            config = json.load(f)
+            return config.get('db_user'), config.get('db_password')
+    except FileNotFoundError:
+        print(f"Error: MariaDB config file not found.")
+        return None, None
+
+def get_credentials_manually():
     db_user = input("Enter your MariaDB username: ")
     db_password = getpass.getpass("Enter your MariaDB password: ")
+    return db_user, db_password
+
+def main():
+    if "--auto" in sys.argv:
+        db_user, db_password = get_credentials_from_config()
+        if not db_user or not db_password:
+            sys.exit(1)
+    else:
+        db_user, db_password = get_credentials_manually()
+        
     db_name = "ncis_db"
 
     initial_config = {
@@ -61,6 +81,7 @@ def main():
             summary TEXT,
             rating_value FLOAT CHECK (rating_value >= 0),
             rating_count INT CHECK (rating_count >= 0),
+            last_updated TIMESTAMP NOT NULL,
             CONSTRAINT chk_season CHECK (season >= 1),
             CONSTRAINT chk_episode_in_season CHECK (episode_in_season >= 1)
         ) ENGINE=InnoDB;
@@ -140,8 +161,9 @@ def main():
 
         with open(os.path.join(data_dir, 'episodes.json'), 'r', encoding='utf-8') as f:
             episodes = json.load(f)
-        ep_sql = "INSERT INTO Episode (episode_id, season, episode_in_season, title, air_date, summary, rating_value, rating_count) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
-        cursor.executemany(ep_sql, [(e['episode_id'], e['season'], e['episode_in_season'], e['title'], e['air_date'], e['summary'], e.get('rating_value'), e.get('rating_count')) for e in episodes])
+        current_timestamp = datetime.now() 
+        ep_sql = "INSERT INTO Episode (episode_id, season, episode_in_season, title, air_date, summary, rating_value, rating_count, last_updated) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        cursor.executemany(ep_sql, [(e['episode_id'], e['season'], e['episode_in_season'], e['title'], e['air_date'], e['summary'], e.get('rating_value'), e.get('rating_count'), current_timestamp) for e in episodes])
         print(f"Loaded {cursor.rowcount} episodes.")
 
         cast_sql = "INSERT INTO Cast (episode_id, name, character_name, status) VALUES (?, ?, ?, ?)"

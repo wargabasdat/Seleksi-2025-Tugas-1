@@ -12,10 +12,29 @@ def get_db_connection(config):
     except mariadb.Error as e:
         print(f"Error connecting to MariaDB: {e}")
         return None
+    
+def get_credentials_from_config(path='config.json'):
+    try:
+        with open(path, 'r') as f:
+            config = json.load(f)
+            return config.get('db_user'), config.get('db_password')
+    except FileNotFoundError:
+        print(f"Error: MariaDB config file not found.")
+        return None, None
 
-def main():
+def get_credentials_manually():
     db_user = input("Enter your MariaDB username: ")
     db_password = getpass.getpass("Enter your MariaDB password: ")
+    return db_user, db_password
+
+def main():
+    if "--auto" in sys.argv:
+        db_user, db_password = get_credentials_from_config()
+        if not db_user or not db_password:
+            sys.exit(1)
+    else:
+        db_user, db_password = get_credentials_manually()
+        
     db_name = "ncis_dw"
 
     initial_config = {
@@ -76,6 +95,7 @@ def main():
             rating_value FLOAT CHECK (rating_value >= 0),
             rating_count INT CHECK (rating_count >= 0),
             comment_count INT CHECK (comment_count >= 0),
+            last_updated TIMESTAMP NOT NULL,
             PRIMARY KEY (episode_id),
             FOREIGN KEY (episode_id) REFERENCES DimEpisode(episode_id) ON DELETE CASCADE,
             FOREIGN KEY (date_id) REFERENCES DimDate(date_id) ON DELETE SET NULL
@@ -144,8 +164,9 @@ def main():
         cursor.executemany("INSERT INTO DimPersonnel (name) VALUES (?)", [(name,) for name in unique_people])
         cursor.execute("SELECT name, personnel_id FROM DimPersonnel")
         person_map = {name: key for name, key in cursor}
-        cursor.executemany("INSERT INTO DimEpisode (episode_id, title, season, episode_in_season, summary) VALUES (?, ?, ?, ?, ?)", 
-                           [(e['episode_id'], e['title'], e['season'], e['episode_in_season'], e['summary']) for e in episodes])
+        episode_sql = "INSERT INTO DimEpisode (episode_id, title, season, episode_in_season, summary) VALUES (?, ?, ?, ?, ?)"
+        episode_data = [(e['episode_id'], e['title'], e['season'], e['episode_in_season'], e['summary']) for e in episodes]
+        cursor.executemany(episode_sql, episode_data)
         print(f"Loaded {cursor.rowcount} episodes.")
         
         comment_counts = {}
@@ -153,6 +174,7 @@ def main():
             ep_id = c['episode_id']
             comment_counts[ep_id] = comment_counts.get(ep_id, 0) + 1
 
+        current_timestamp = datetime.now()
         fact_performance_data = []
         for e in episodes:
             date_key = date_map.get(e['air_date'])
@@ -162,17 +184,21 @@ def main():
                     date_key, 
                     e.get('rating_value'), 
                     e.get('rating_count'), 
-                    comment_counts.get(e['episode_id'], 0)
+                    comment_counts.get(e['episode_id'], 0),
+                    current_timestamp 
                 ))
-        cursor.executemany("INSERT INTO FactEpisodePerformance (episode_id, date_id, rating_value, rating_count, comment_count) VALUES (?, ?, ?, ?, ?)", fact_performance_data)
+        fact_sql = "INSERT INTO FactEpisodePerformance (episode_id, date_id, rating_value, rating_count, comment_count, last_updated) VALUES (?, ?, ?, ?, ?, ?)"
+        cursor.executemany(fact_sql, fact_performance_data)
         print(f"Loaded {cursor.rowcount} episode performance records.")
 
         cast_bridge_data = [(c['episode_id'], person_map[c['actor']], c['character'], c['status']) for c in casts]
-        cursor.executemany("INSERT INTO BridgeCastInvolvement (episode_id, personnel_id, character_name, status) VALUES (?, ?, ?, ?)", cast_bridge_data)
+        cast_sql = "INSERT INTO BridgeCastInvolvement (episode_id, personnel_id, character_name, status) VALUES (?, ?, ?, ?)"
+        cursor.executemany(cast_sql, cast_bridge_data)
         print(f"Loaded {cursor.rowcount} cast involvements.")
         
         crew_bridge_data = [(c['episode_id'], person_map[c['name']], c['role'], c['status']) for c in crews]
-        cursor.executemany("INSERT INTO BridgeCrewInvolvement (episode_id, personnel_id, role, status) VALUES (?, ?, ?, ?)", crew_bridge_data)
+        crew_sql = "INSERT INTO BridgeCrewInvolvement (episode_id, personnel_id, role, status) VALUES (?, ?, ?, ?)"
+        cursor.executemany(crew_sql, crew_bridge_data)
         print(f"Loaded {cursor.rowcount} crew involvements.")
 
         conn.commit()
