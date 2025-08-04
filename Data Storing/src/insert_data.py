@@ -8,7 +8,7 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',          # Change to your MySQL host
-            database='testbookdb',       # Change to your database name
+            database='books_db',     # Change to your database name
             user='root',               # Change to your MySQL username
             password='' ,              # Change to your MySQL password
             port = 1234                # Change to your MySQL port if necessary
