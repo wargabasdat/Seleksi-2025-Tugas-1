@@ -746,19 +746,19 @@ class SugarySweetsRecipeScraper:
         """Save scraped data to JSON files"""
         
         # Save recipes
-        with open('data/recipes.json', 'w', encoding='utf-8') as f:
+        with open('../data/recipes.json', 'w', encoding='utf-8') as f:
             json.dump(self.recipes, f, indent=2, ensure_ascii=False)
         
         # Save categories
-        with open('data/categories.json', 'w', encoding='utf-8') as f:
+        with open('../data/categories.json', 'w', encoding='utf-8') as f:
             json.dump(self.categories, f, indent=2, ensure_ascii=False)
         
         # Save ingredients
-        with open('data/ingredients.json', 'w', encoding='utf-8') as f:
+        with open('../data/ingredients.json', 'w', encoding='utf-8') as f:
             json.dump(self.ingredients, f, indent=2, ensure_ascii=False)
         
         # Save instructions
-        with open('data/instructions.json', 'w', encoding='utf-8') as f:
+        with open('../data/instructions.json', 'w', encoding='utf-8') as f:
             json.dump(self.instructions, f, indent=2, ensure_ascii=False)
         
         print(f"\n=== SCRAPING SUMMARY ===")
