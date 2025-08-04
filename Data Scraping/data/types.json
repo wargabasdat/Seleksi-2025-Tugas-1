@@ -1,0 +1,18 @@
+[
+    {
+        "type_id": 1,
+        "type_name": "Fiction"
+    },
+    {
+        "type_id": 2,
+        "type_name": "Nonfiction"
+    },
+    {
+        "type_id": 3,
+        "type_name": "Poetry"
+    },
+    {
+        "type_id": 4,
+        "type_name": "Religious"
+    }
+]

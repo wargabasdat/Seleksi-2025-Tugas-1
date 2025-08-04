@@ -1,0 +1,1286 @@
+[
+    {
+        "subject_id": 1,
+        "subject_name": "Addiction"
+    },
+    {
+        "subject_id": 2,
+        "subject_name": "Adolescence"
+    },
+    {
+        "subject_id": 3,
+        "subject_name": "Adultery"
+    },
+    {
+        "subject_id": 4,
+        "subject_name": "African American"
+    },
+    {
+        "subject_id": 5,
+        "subject_name": "African American History"
+    },
+    {
+        "subject_id": 6,
+        "subject_name": "Afterlife"
+    },
+    {
+        "subject_id": 7,
+        "subject_name": "Alcohol"
+    },
+    {
+        "subject_id": 8,
+        "subject_name": "Alienation"
+    },
+    {
+        "subject_id": 9,
+        "subject_name": "Ambition"
+    },
+    {
+        "subject_id": 10,
+        "subject_name": "American dream"
+    },
+    {
+        "subject_id": 11,
+        "subject_name": "Animals"
+    },
+    {
+        "subject_id": 12,
+        "subject_name": "Asian History"
+    },
+    {
+        "subject_id": 13,
+        "subject_name": "Authority"
+    },
+    {
+        "subject_id": 14,
+        "subject_name": "Beat Generation"
+    },
+    {
+        "subject_id": 15,
+        "subject_name": "Beauty"
+    },
+    {
+        "subject_id": 16,
+        "subject_name": "Betrayal"
+    },
+    {
+        "subject_id": 17,
+        "subject_name": "Birth"
+    },
+    {
+        "subject_id": 18,
+        "subject_name": "Blackmail"
+    },
+    {
+        "subject_id": 19,
+        "subject_name": "Blindness"
+    },
+    {
+        "subject_id": 20,
+        "subject_name": "Boredom"
+    },
+    {
+        "subject_id": 21,
+        "subject_name": "Bullfighting"
+    },
+    {
+        "subject_id": 22,
+        "subject_name": "Bureaucracy"
+    },
+    {
+        "subject_id": 23,
+        "subject_name": "Business"
+    },
+    {
+        "subject_id": 24,
+        "subject_name": "Case studies"
+    },
+    {
+        "subject_id": 25,
+        "subject_name": "Childhood and youth"
+    },
+    {
+        "subject_id": 26,
+        "subject_name": "Chivalry"
+    },
+    {
+        "subject_id": 27,
+        "subject_name": "Christianity"
+    },
+    {
+        "subject_id": 28,
+        "subject_name": "Civil War"
+    },
+    {
+        "subject_id": 29,
+        "subject_name": "Civilization"
+    },
+    {
+        "subject_id": 30,
+        "subject_name": "Class Struggle"
+    },
+    {
+        "subject_id": 31,
+        "subject_name": "Classical Studies"
+    },
+    {
+        "subject_id": 32,
+        "subject_name": "Classics"
+    },
+    {
+        "subject_id": 33,
+        "subject_name": "Communication"
+    },
+    {
+        "subject_id": 34,
+        "subject_name": "Communism"
+    },
+    {
+        "subject_id": 35,
+        "subject_name": "Community"
+    },
+    {
+        "subject_id": 36,
+        "subject_name": "Comradeship"
+    },
+    {
+        "subject_id": 37,
+        "subject_name": "Conformity"
+    },
+    {
+        "subject_id": 38,
+        "subject_name": "Consciousness"
+    },
+    {
+        "subject_id": 39,
+        "subject_name": "Consequences"
+    },
+    {
+        "subject_id": 40,
+        "subject_name": "Control"
+    },
+    {
+        "subject_id": 41,
+        "subject_name": "Counterculture"
+    },
+    {
+        "subject_id": 42,
+        "subject_name": "Courage"
+    },
+    {
+        "subject_id": 43,
+        "subject_name": "Courtship"
+    },
+    {
+        "subject_id": 44,
+        "subject_name": "Covenant"
+    },
+    {
+        "subject_id": 45,
+        "subject_name": "Creation"
+    },
+    {
+        "subject_id": 46,
+        "subject_name": "Creativity"
+    },
+    {
+        "subject_id": 47,
+        "subject_name": "Criticism"
+    },
+    {
+        "subject_id": 48,
+        "subject_name": "Cultural Conflict"
+    },
+    {
+        "subject_id": 49,
+        "subject_name": "Culture"
+    },
+    {
+        "subject_id": 50,
+        "subject_name": "Cunning"
+    },
+    {
+        "subject_id": 51,
+        "subject_name": "Darkness"
+    },
+    {
+        "subject_id": 52,
+        "subject_name": "Death"
+    },
+    {
+        "subject_id": 53,
+        "subject_name": "Death & Grief"
+    },
+    {
+        "subject_id": 54,
+        "subject_name": "Deception"
+    },
+    {
+        "subject_id": 55,
+        "subject_name": "Decline"
+    },
+    {
+        "subject_id": 56,
+        "subject_name": "Defeat"
+    },
+    {
+        "subject_id": 57,
+        "subject_name": "Desire"
+    },
+    {
+        "subject_id": 58,
+        "subject_name": "Despair"
+    },
+    {
+        "subject_id": 59,
+        "subject_name": "Destiny"
+    },
+    {
+        "subject_id": 60,
+        "subject_name": "Detective"
+    },
+    {
+        "subject_id": 61,
+        "subject_name": "Diaries"
+    },
+    {
+        "subject_id": 62,
+        "subject_name": "Disillusionment"
+    },
+    {
+        "subject_id": 63,
+        "subject_name": "Divine Intervention"
+    },
+    {
+        "subject_id": 64,
+        "subject_name": "Divine Retribution"
+    },
+    {
+        "subject_id": 65,
+        "subject_name": "Dreams"
+    },
+    {
+        "subject_id": 66,
+        "subject_name": "Duty"
+    },
+    {
+        "subject_id": 67,
+        "subject_name": "Dystopia"
+    },
+    {
+        "subject_id": 68,
+        "subject_name": "Education"
+    },
+    {
+        "subject_id": 69,
+        "subject_name": "Empathy"
+    },
+    {
+        "subject_id": 70,
+        "subject_name": "Equality"
+    },
+    {
+        "subject_id": 71,
+        "subject_name": "Espionage"
+    },
+    {
+        "subject_id": 72,
+        "subject_name": "European History"
+    },
+    {
+        "subject_id": 73,
+        "subject_name": "Exile"
+    },
+    {
+        "subject_id": 74,
+        "subject_name": "Existentialism"
+    },
+    {
+        "subject_id": 75,
+        "subject_name": "Expatriates"
+    },
+    {
+        "subject_id": 76,
+        "subject_name": "Exploitation"
+    },
+    {
+        "subject_id": 77,
+        "subject_name": "Exploration"
+    },
+    {
+        "subject_id": 78,
+        "subject_name": "Faith"
+    },
+    {
+        "subject_id": 79,
+        "subject_name": "Family"
+    },
+    {
+        "subject_id": 80,
+        "subject_name": "Family dynamics"
+    },
+    {
+        "subject_id": 81,
+        "subject_name": "Farm life"
+    },
+    {
+        "subject_id": 82,
+        "subject_name": "Fate"
+    },
+    {
+        "subject_id": 83,
+        "subject_name": "Feminism"
+    },
+    {
+        "subject_id": 84,
+        "subject_name": "Forgiveness"
+    },
+    {
+        "subject_id": 85,
+        "subject_name": "Fragmentation"
+    },
+    {
+        "subject_id": 86,
+        "subject_name": "Free will"
+    },
+    {
+        "subject_id": 87,
+        "subject_name": "Freedom"
+    },
+    {
+        "subject_id": 88,
+        "subject_name": "French Revolution"
+    },
+    {
+        "subject_id": 89,
+        "subject_name": "Friendship"
+    },
+    {
+        "subject_id": 90,
+        "subject_name": "Frustration"
+    },
+    {
+        "subject_id": 91,
+        "subject_name": "Ghosts"
+    },
+    {
+        "subject_id": 92,
+        "subject_name": "Good vs Evil"
+    },
+    {
+        "subject_id": 93,
+        "subject_name": "Grief"
+    },
+    {
+        "subject_id": 94,
+        "subject_name": "Growth"
+    },
+    {
+        "subject_id": 95,
+        "subject_name": "Guilt"
+    },
+    {
+        "subject_id": 96,
+        "subject_name": "Happiness"
+    },
+    {
+        "subject_id": 97,
+        "subject_name": "Heroism"
+    },
+    {
+        "subject_id": 98,
+        "subject_name": "History"
+    },
+    {
+        "subject_id": 99,
+        "subject_name": "Honor"
+    },
+    {
+        "subject_id": 100,
+        "subject_name": "Hospitality"
+    },
+    {
+        "subject_id": 101,
+        "subject_name": "Human Condition"
+    },
+    {
+        "subject_id": 102,
+        "subject_name": "Human Resilience"
+    },
+    {
+        "subject_id": 103,
+        "subject_name": "Human rights"
+    },
+    {
+        "subject_id": 104,
+        "subject_name": "Humanities"
+    },
+    {
+        "subject_id": 105,
+        "subject_name": "Humanity"
+    },
+    {
+        "subject_id": 106,
+        "subject_name": "Hypocrisy"
+    },
+    {
+        "subject_id": 107,
+        "subject_name": "Identity"
+    },
+    {
+        "subject_id": 108,
+        "subject_name": "Ideology"
+    },
+    {
+        "subject_id": 109,
+        "subject_name": "Illness"
+    },
+    {
+        "subject_id": 110,
+        "subject_name": "Illusion"
+    },
+    {
+        "subject_id": 111,
+        "subject_name": "Immigrants"
+    },
+    {
+        "subject_id": 112,
+        "subject_name": "Immortality"
+    },
+    {
+        "subject_id": 113,
+        "subject_name": "Imperialism"
+    },
+    {
+        "subject_id": 114,
+        "subject_name": "Imprisonment"
+    },
+    {
+        "subject_id": 115,
+        "subject_name": "Indifference"
+    },
+    {
+        "subject_id": 116,
+        "subject_name": "Indigenous"
+    },
+    {
+        "subject_id": 117,
+        "subject_name": "Individualism"
+    },
+    {
+        "subject_id": 118,
+        "subject_name": "Infidelity"
+    },
+    {
+        "subject_id": 119,
+        "subject_name": "Infinity"
+    },
+    {
+        "subject_id": 120,
+        "subject_name": "Influence"
+    },
+    {
+        "subject_id": 121,
+        "subject_name": "Inheritance"
+    },
+    {
+        "subject_id": 122,
+        "subject_name": "Inheritance and succession"
+    },
+    {
+        "subject_id": 123,
+        "subject_name": "Injury"
+    },
+    {
+        "subject_id": 124,
+        "subject_name": "Injustice"
+    },
+    {
+        "subject_id": 125,
+        "subject_name": "Innocence"
+    },
+    {
+        "subject_id": 126,
+        "subject_name": "Insanity"
+    },
+    {
+        "subject_id": 127,
+        "subject_name": "Interpersonal relations"
+    },
+    {
+        "subject_id": 128,
+        "subject_name": "Intrigue"
+    },
+    {
+        "subject_id": 129,
+        "subject_name": "Investigation"
+    },
+    {
+        "subject_id": 130,
+        "subject_name": "Jazz"
+    },
+    {
+        "subject_id": 131,
+        "subject_name": "Jealousy"
+    },
+    {
+        "subject_id": 132,
+        "subject_name": "Jewish"
+    },
+    {
+        "subject_id": 133,
+        "subject_name": "Journalism"
+    },
+    {
+        "subject_id": 134,
+        "subject_name": "Journey"
+    },
+    {
+        "subject_id": 135,
+        "subject_name": "Judgment"
+    },
+    {
+        "subject_id": 136,
+        "subject_name": "Justice"
+    },
+    {
+        "subject_id": 137,
+        "subject_name": "Juvenile"
+    },
+    {
+        "subject_id": 138,
+        "subject_name": "Knighthood"
+    },
+    {
+        "subject_id": 139,
+        "subject_name": "Knowledge"
+    },
+    {
+        "subject_id": 140,
+        "subject_name": "Labor"
+    },
+    {
+        "subject_id": 141,
+        "subject_name": "Labyrinths"
+    },
+    {
+        "subject_id": 142,
+        "subject_name": "Language & Writing"
+    },
+    {
+        "subject_id": 143,
+        "subject_name": "Law"
+    },
+    {
+        "subject_id": 144,
+        "subject_name": "Leadership"
+    },
+    {
+        "subject_id": 145,
+        "subject_name": "Legacy"
+    },
+    {
+        "subject_id": 146,
+        "subject_name": "Lgbtq+"
+    },
+    {
+        "subject_id": 147,
+        "subject_name": "Life"
+    },
+    {
+        "subject_id": 148,
+        "subject_name": "Life and Death"
+    },
+    {
+        "subject_id": 149,
+        "subject_name": "Literature"
+    },
+    {
+        "subject_id": 150,
+        "subject_name": "Loss"
+    },
+    {
+        "subject_id": 151,
+        "subject_name": "Love"
+    },
+    {
+        "subject_id": 152,
+        "subject_name": "Loyalty"
+    },
+    {
+        "subject_id": 153,
+        "subject_name": "Madness"
+    },
+    {
+        "subject_id": 154,
+        "subject_name": "Magic"
+    },
+    {
+        "subject_id": 155,
+        "subject_name": "Manipulation"
+    },
+    {
+        "subject_id": 156,
+        "subject_name": "Marriage"
+    },
+    {
+        "subject_id": 157,
+        "subject_name": "Materialism"
+    },
+    {
+        "subject_id": 158,
+        "subject_name": "Medicine"
+    },
+    {
+        "subject_id": 159,
+        "subject_name": "Memory"
+    },
+    {
+        "subject_id": 160,
+        "subject_name": "Mental Health"
+    },
+    {
+        "subject_id": 161,
+        "subject_name": "Mental illness"
+    },
+    {
+        "subject_id": 162,
+        "subject_name": "Middle East History"
+    },
+    {
+        "subject_id": 163,
+        "subject_name": "Migration"
+    },
+    {
+        "subject_id": 164,
+        "subject_name": "Military"
+    },
+    {
+        "subject_id": 165,
+        "subject_name": "Miracles"
+    },
+    {
+        "subject_id": 166,
+        "subject_name": "Modernity"
+    },
+    {
+        "subject_id": 167,
+        "subject_name": "Moral Dilemma"
+    },
+    {
+        "subject_id": 168,
+        "subject_name": "Moral Growth"
+    },
+    {
+        "subject_id": 169,
+        "subject_name": "Mortality"
+    },
+    {
+        "subject_id": 170,
+        "subject_name": "Motherhood"
+    },
+    {
+        "subject_id": 171,
+        "subject_name": "Murder"
+    },
+    {
+        "subject_id": 172,
+        "subject_name": "Music"
+    },
+    {
+        "subject_id": 173,
+        "subject_name": "Mythology"
+    },
+    {
+        "subject_id": 174,
+        "subject_name": "Nature"
+    },
+    {
+        "subject_id": 175,
+        "subject_name": "Nature & Environment"
+    },
+    {
+        "subject_id": 176,
+        "subject_name": "Nihilism"
+    },
+    {
+        "subject_id": 177,
+        "subject_name": "Nobility"
+    },
+    {
+        "subject_id": 178,
+        "subject_name": "Nonsense"
+    },
+    {
+        "subject_id": 179,
+        "subject_name": "Nostalgia"
+    },
+    {
+        "subject_id": 180,
+        "subject_name": "Novela"
+    },
+    {
+        "subject_id": 181,
+        "subject_name": "Novels"
+    },
+    {
+        "subject_id": 182,
+        "subject_name": "Obsession"
+    },
+    {
+        "subject_id": 183,
+        "subject_name": "Opinions"
+    },
+    {
+        "subject_id": 184,
+        "subject_name": "Optimism"
+    },
+    {
+        "subject_id": 185,
+        "subject_name": "Paradox"
+    },
+    {
+        "subject_id": 186,
+        "subject_name": "Paranoia"
+    },
+    {
+        "subject_id": 187,
+        "subject_name": "Parody"
+    },
+    {
+        "subject_id": 188,
+        "subject_name": "Partition"
+    },
+    {
+        "subject_id": 189,
+        "subject_name": "Peace"
+    },
+    {
+        "subject_id": 190,
+        "subject_name": "People with disabilities"
+    },
+    {
+        "subject_id": 191,
+        "subject_name": "Persecution"
+    },
+    {
+        "subject_id": 192,
+        "subject_name": "Perseverance"
+    },
+    {
+        "subject_id": 193,
+        "subject_name": "Philosophy"
+    },
+    {
+        "subject_id": 194,
+        "subject_name": "Phoniness"
+    },
+    {
+        "subject_id": 195,
+        "subject_name": "Piety"
+    },
+    {
+        "subject_id": 196,
+        "subject_name": "Pilgrimage"
+    },
+    {
+        "subject_id": 197,
+        "subject_name": "Piracy"
+    },
+    {
+        "subject_id": 198,
+        "subject_name": "Political Ideologies"
+    },
+    {
+        "subject_id": 199,
+        "subject_name": "Politics"
+    },
+    {
+        "subject_id": 200,
+        "subject_name": "Post-war trauma"
+    },
+    {
+        "subject_id": 201,
+        "subject_name": "Poverty"
+    },
+    {
+        "subject_id": 202,
+        "subject_name": "Power"
+    },
+    {
+        "subject_id": 203,
+        "subject_name": "Power Dynamics"
+    },
+    {
+        "subject_id": 204,
+        "subject_name": "Prejudice"
+    },
+    {
+        "subject_id": 205,
+        "subject_name": "Pride"
+    },
+    {
+        "subject_id": 206,
+        "subject_name": "Propaganda"
+    },
+    {
+        "subject_id": 207,
+        "subject_name": "Prophecy"
+    },
+    {
+        "subject_id": 208,
+        "subject_name": "Psychology"
+    },
+    {
+        "subject_id": 209,
+        "subject_name": "Psychology & Mental Health"
+    },
+    {
+        "subject_id": 210,
+        "subject_name": "Punishment"
+    },
+    {
+        "subject_id": 211,
+        "subject_name": "Purity"
+    },
+    {
+        "subject_id": 212,
+        "subject_name": "Race relations"
+    },
+    {
+        "subject_id": 213,
+        "subject_name": "Racism"
+    },
+    {
+        "subject_id": 214,
+        "subject_name": "Rage"
+    },
+    {
+        "subject_id": 215,
+        "subject_name": "Rebirth"
+    },
+    {
+        "subject_id": 216,
+        "subject_name": "Reconstruction"
+    },
+    {
+        "subject_id": 217,
+        "subject_name": "Redemption"
+    },
+    {
+        "subject_id": 218,
+        "subject_name": "Reflection"
+    },
+    {
+        "subject_id": 219,
+        "subject_name": "Reform"
+    },
+    {
+        "subject_id": 220,
+        "subject_name": "Reportage"
+    },
+    {
+        "subject_id": 221,
+        "subject_name": "Reputation"
+    },
+    {
+        "subject_id": 222,
+        "subject_name": "Resilience"
+    },
+    {
+        "subject_id": 223,
+        "subject_name": "Responsibility"
+    },
+    {
+        "subject_id": 224,
+        "subject_name": "Revenge"
+    },
+    {
+        "subject_id": 225,
+        "subject_name": "Revolution"
+    },
+    {
+        "subject_id": 226,
+        "subject_name": "Sacrifice"
+    },
+    {
+        "subject_id": 227,
+        "subject_name": "Salvation"
+    },
+    {
+        "subject_id": 228,
+        "subject_name": "Satan"
+    },
+    {
+        "subject_id": 229,
+        "subject_name": "Savagery"
+    },
+    {
+        "subject_id": 230,
+        "subject_name": "School"
+    },
+    {
+        "subject_id": 231,
+        "subject_name": "Science"
+    },
+    {
+        "subject_id": 232,
+        "subject_name": "Seduction"
+    },
+    {
+        "subject_id": 233,
+        "subject_name": "Self-discovery"
+    },
+    {
+        "subject_id": 234,
+        "subject_name": "Self-reflection"
+    },
+    {
+        "subject_id": 235,
+        "subject_name": "Self-reliance"
+    },
+    {
+        "subject_id": 236,
+        "subject_name": "Sexuality"
+    },
+    {
+        "subject_id": 237,
+        "subject_name": "Simplicity"
+    },
+    {
+        "subject_id": 238,
+        "subject_name": "Sin"
+    },
+    {
+        "subject_id": 239,
+        "subject_name": "Sisterhood"
+    },
+    {
+        "subject_id": 240,
+        "subject_name": "Skepticism"
+    },
+    {
+        "subject_id": 241,
+        "subject_name": "Slavery"
+    },
+    {
+        "subject_id": 242,
+        "subject_name": "Social Class"
+    },
+    {
+        "subject_id": 243,
+        "subject_name": "Social Critique"
+    },
+    {
+        "subject_id": 244,
+        "subject_name": "Social Inequality"
+    },
+    {
+        "subject_id": 245,
+        "subject_name": "Social Injustice"
+    },
+    {
+        "subject_id": 246,
+        "subject_name": "Social status"
+    },
+    {
+        "subject_id": 247,
+        "subject_name": "Society"
+    },
+    {
+        "subject_id": 248,
+        "subject_name": "Sociology"
+    },
+    {
+        "subject_id": 249,
+        "subject_name": "Soldiers"
+    },
+    {
+        "subject_id": 250,
+        "subject_name": "Solidarity"
+    },
+    {
+        "subject_id": 251,
+        "subject_name": "Solitude"
+    },
+    {
+        "subject_id": 252,
+        "subject_name": "Southern Culture"
+    },
+    {
+        "subject_id": 253,
+        "subject_name": "Southern Gothic"
+    },
+    {
+        "subject_id": 254,
+        "subject_name": "Storytelling"
+    },
+    {
+        "subject_id": 255,
+        "subject_name": "Struggle"
+    },
+    {
+        "subject_id": 256,
+        "subject_name": "Suffering"
+    },
+    {
+        "subject_id": 257,
+        "subject_name": "Superstition"
+    },
+    {
+        "subject_id": 258,
+        "subject_name": "Survival"
+    },
+    {
+        "subject_id": 259,
+        "subject_name": "Technology"
+    },
+    {
+        "subject_id": 260,
+        "subject_name": "Temptation"
+    },
+    {
+        "subject_id": 261,
+        "subject_name": "Time"
+    },
+    {
+        "subject_id": 262,
+        "subject_name": "Time travel"
+    },
+    {
+        "subject_id": 263,
+        "subject_name": "Transcendentalism"
+    },
+    {
+        "subject_id": 264,
+        "subject_name": "Transformation"
+    },
+    {
+        "subject_id": 265,
+        "subject_name": "Trauma"
+    },
+    {
+        "subject_id": 266,
+        "subject_name": "Truth"
+    },
+    {
+        "subject_id": 267,
+        "subject_name": "Unity"
+    },
+    {
+        "subject_id": 268,
+        "subject_name": "Upper class"
+    },
+    {
+        "subject_id": 269,
+        "subject_name": "Vampirism"
+    },
+    {
+        "subject_id": 270,
+        "subject_name": "Violence"
+    },
+    {
+        "subject_id": 271,
+        "subject_name": "Virtue"
+    },
+    {
+        "subject_id": 272,
+        "subject_name": "Waiting"
+    },
+    {
+        "subject_id": 273,
+        "subject_name": "War"
+    },
+    {
+        "subject_id": 274,
+        "subject_name": "Wealth"
+    },
+    {
+        "subject_id": 275,
+        "subject_name": "Wisdom"
+    },
+    {
+        "subject_id": 276,
+        "subject_name": "Women"
+    },
+    {
+        "subject_id": 277,
+        "subject_name": "Women's Studies"
+    },
+    {
+        "subject_id": 278,
+        "subject_name": "Work"
+    },
+    {
+        "subject_id": 279,
+        "subject_name": "World War I"
+    },
+    {
+        "subject_id": 280,
+        "subject_name": "World War II"
+    },
+    {
+        "subject_id": 281,
+        "subject_name": "Youth"
+    },
+    {
+        "subject_id": 282,
+        "subject_name": "alcoholism"
+    },
+    {
+        "subject_id": 283,
+        "subject_name": "aristocracy"
+    },
+    {
+        "subject_id": 284,
+        "subject_name": "change"
+    },
+    {
+        "subject_id": 285,
+        "subject_name": "childhood"
+    },
+    {
+        "subject_id": 286,
+        "subject_name": "class"
+    },
+    {
+        "subject_id": 287,
+        "subject_name": "colonialism"
+    },
+    {
+        "subject_id": 288,
+        "subject_name": "conflict"
+    },
+    {
+        "subject_id": 289,
+        "subject_name": "consumerism"
+    },
+    {
+        "subject_id": 290,
+        "subject_name": "corruption"
+    },
+    {
+        "subject_id": 291,
+        "subject_name": "curiosity"
+    },
+    {
+        "subject_id": 292,
+        "subject_name": "depression"
+    },
+    {
+        "subject_id": 293,
+        "subject_name": "economy"
+    },
+    {
+        "subject_id": 294,
+        "subject_name": "fear"
+    },
+    {
+        "subject_id": 295,
+        "subject_name": "gender"
+    },
+    {
+        "subject_id": 296,
+        "subject_name": "gender roles"
+    },
+    {
+        "subject_id": 297,
+        "subject_name": "greed"
+    },
+    {
+        "subject_id": 298,
+        "subject_name": "human nature"
+    },
+    {
+        "subject_id": 299,
+        "subject_name": "imagination"
+    },
+    {
+        "subject_id": 300,
+        "subject_name": "invisibility"
+    },
+    {
+        "subject_id": 301,
+        "subject_name": "isolation"
+    },
+    {
+        "subject_id": 302,
+        "subject_name": "logic"
+    },
+    {
+        "subject_id": 303,
+        "subject_name": "loneliness"
+    },
+    {
+        "subject_id": 304,
+        "subject_name": "manners"
+    },
+    {
+        "subject_id": 305,
+        "subject_name": "masculinity"
+    },
+    {
+        "subject_id": 306,
+        "subject_name": "morality"
+    },
+    {
+        "subject_id": 307,
+        "subject_name": "oppression"
+    },
+    {
+        "subject_id": 308,
+        "subject_name": "orphans"
+    },
+    {
+        "subject_id": 309,
+        "subject_name": "political satire"
+    },
+    {
+        "subject_id": 310,
+        "subject_name": "race"
+    },
+    {
+        "subject_id": 311,
+        "subject_name": "realism"
+    },
+    {
+        "subject_id": 312,
+        "subject_name": "reality"
+    },
+    {
+        "subject_id": 313,
+        "subject_name": "rebellion"
+    },
+    {
+        "subject_id": 314,
+        "subject_name": "relationships"
+    },
+    {
+        "subject_id": 315,
+        "subject_name": "secrets"
+    },
+    {
+        "subject_id": 316,
+        "subject_name": "stream of consciousness"
+    },
+    {
+        "subject_id": 317,
+        "subject_name": "surveillance"
+    },
+    {
+        "subject_id": 318,
+        "subject_name": "tradition"
+    },
+    {
+        "subject_id": 319,
+        "subject_name": "treasure"
+    },
+    {
+        "subject_id": 320,
+        "subject_name": "vanity"
+    },
+    {
+        "subject_id": 321,
+        "subject_name": "writing"
+    }
+]

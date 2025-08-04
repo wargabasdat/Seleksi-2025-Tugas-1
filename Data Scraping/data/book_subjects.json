@@ -1,0 +1,4474 @@
+[
+    {
+        "book_id": 1,
+        "subject_id": 8
+    },
+    {
+        "book_id": 1,
+        "subject_id": 38
+    },
+    {
+        "book_id": 1,
+        "subject_id": 79
+    },
+    {
+        "book_id": 1,
+        "subject_id": 89
+    },
+    {
+        "book_id": 1,
+        "subject_id": 107
+    },
+    {
+        "book_id": 1,
+        "subject_id": 169
+    },
+    {
+        "book_id": 1,
+        "subject_id": 236
+    },
+    {
+        "book_id": 1,
+        "subject_id": 261
+    },
+    {
+        "book_id": 2,
+        "subject_id": 79
+    },
+    {
+        "book_id": 2,
+        "subject_id": 89
+    },
+    {
+        "book_id": 2,
+        "subject_id": 109
+    },
+    {
+        "book_id": 2,
+        "subject_id": 131
+    },
+    {
+        "book_id": 2,
+        "subject_id": 146
+    },
+    {
+        "book_id": 2,
+        "subject_id": 151
+    },
+    {
+        "book_id": 2,
+        "subject_id": 159
+    },
+    {
+        "book_id": 2,
+        "subject_id": 314
+    },
+    {
+        "book_id": 2,
+        "subject_id": 247
+    },
+    {
+        "book_id": 2,
+        "subject_id": 316
+    },
+    {
+        "book_id": 2,
+        "subject_id": 261
+    },
+    {
+        "book_id": 3,
+        "subject_id": 10
+    },
+    {
+        "book_id": 3,
+        "subject_id": 286
+    },
+    {
+        "book_id": 3,
+        "subject_id": 98
+    },
+    {
+        "book_id": 3,
+        "subject_id": 107
+    },
+    {
+        "book_id": 3,
+        "subject_id": 110
+    },
+    {
+        "book_id": 3,
+        "subject_id": 303
+    },
+    {
+        "book_id": 3,
+        "subject_id": 151
+    },
+    {
+        "book_id": 3,
+        "subject_id": 306
+    },
+    {
+        "book_id": 3,
+        "subject_id": 274
+    },
+    {
+        "book_id": 4,
+        "subject_id": 2
+    },
+    {
+        "book_id": 4,
+        "subject_id": 8
+    },
+    {
+        "book_id": 4,
+        "subject_id": 292
+    },
+    {
+        "book_id": 4,
+        "subject_id": 79
+    },
+    {
+        "book_id": 4,
+        "subject_id": 107
+    },
+    {
+        "book_id": 4,
+        "subject_id": 125
+    },
+    {
+        "book_id": 4,
+        "subject_id": 301
+    },
+    {
+        "book_id": 4,
+        "subject_id": 194
+    },
+    {
+        "book_id": 4,
+        "subject_id": 313
+    },
+    {
+        "book_id": 5,
+        "subject_id": 79
+    },
+    {
+        "book_id": 5,
+        "subject_id": 80
+    },
+    {
+        "book_id": 5,
+        "subject_id": 82
+    },
+    {
+        "book_id": 5,
+        "subject_id": 98
+    },
+    {
+        "book_id": 5,
+        "subject_id": 159
+    },
+    {
+        "book_id": 5,
+        "subject_id": 202
+    },
+    {
+        "book_id": 5,
+        "subject_id": 251
+    },
+    {
+        "book_id": 5,
+        "subject_id": 261
+    },
+    {
+        "book_id": 6,
+        "subject_id": 40
+    },
+    {
+        "book_id": 6,
+        "subject_id": 294
+    },
+    {
+        "book_id": 6,
+        "subject_id": 87
+    },
+    {
+        "book_id": 6,
+        "subject_id": 107
+    },
+    {
+        "book_id": 6,
+        "subject_id": 142
+    },
+    {
+        "book_id": 6,
+        "subject_id": 198
+    },
+    {
+        "book_id": 6,
+        "subject_id": 206
+    },
+    {
+        "book_id": 6,
+        "subject_id": 313
+    },
+    {
+        "book_id": 6,
+        "subject_id": 317
+    },
+    {
+        "book_id": 7,
+        "subject_id": 82
+    },
+    {
+        "book_id": 7,
+        "subject_id": 89
+    },
+    {
+        "book_id": 7,
+        "subject_id": 107
+    },
+    {
+        "book_id": 7,
+        "subject_id": 301
+    },
+    {
+        "book_id": 7,
+        "subject_id": 153
+    },
+    {
+        "book_id": 7,
+        "subject_id": 169
+    },
+    {
+        "book_id": 7,
+        "subject_id": 174
+    },
+    {
+        "book_id": 7,
+        "subject_id": 182
+    },
+    {
+        "book_id": 7,
+        "subject_id": 224
+    },
+    {
+        "book_id": 8,
+        "subject_id": 286
+    },
+    {
+        "book_id": 8,
+        "subject_id": 52
+    },
+    {
+        "book_id": 8,
+        "subject_id": 53
+    },
+    {
+        "book_id": 8,
+        "subject_id": 79
+    },
+    {
+        "book_id": 8,
+        "subject_id": 95
+    },
+    {
+        "book_id": 8,
+        "subject_id": 98
+    },
+    {
+        "book_id": 8,
+        "subject_id": 150
+    },
+    {
+        "book_id": 8,
+        "subject_id": 159
+    },
+    {
+        "book_id": 8,
+        "subject_id": 161
+    },
+    {
+        "book_id": 8,
+        "subject_id": 310
+    },
+    {
+        "book_id": 8,
+        "subject_id": 253
+    },
+    {
+        "book_id": 8,
+        "subject_id": 316
+    },
+    {
+        "book_id": 8,
+        "subject_id": 261
+    },
+    {
+        "book_id": 8,
+        "subject_id": 318
+    },
+    {
+        "book_id": 9,
+        "subject_id": 26
+    },
+    {
+        "book_id": 9,
+        "subject_id": 89
+    },
+    {
+        "book_id": 9,
+        "subject_id": 97
+    },
+    {
+        "book_id": 9,
+        "subject_id": 99
+    },
+    {
+        "book_id": 9,
+        "subject_id": 110
+    },
+    {
+        "book_id": 9,
+        "subject_id": 299
+    },
+    {
+        "book_id": 9,
+        "subject_id": 138
+    },
+    {
+        "book_id": 9,
+        "subject_id": 153
+    },
+    {
+        "book_id": 9,
+        "subject_id": 187
+    },
+    {
+        "book_id": 9,
+        "subject_id": 312
+    },
+    {
+        "book_id": 9,
+        "subject_id": 243
+    },
+    {
+        "book_id": 10,
+        "subject_id": 79
+    },
+    {
+        "book_id": 10,
+        "subject_id": 80
+    },
+    {
+        "book_id": 10,
+        "subject_id": 107
+    },
+    {
+        "book_id": 10,
+        "subject_id": 118
+    },
+    {
+        "book_id": 10,
+        "subject_id": 151
+    },
+    {
+        "book_id": 10,
+        "subject_id": 156
+    },
+    {
+        "book_id": 10,
+        "subject_id": 306
+    },
+    {
+        "book_id": 10,
+        "subject_id": 247
+    },
+    {
+        "book_id": 10,
+        "subject_id": 248
+    },
+    {
+        "book_id": 11,
+        "subject_id": 8
+    },
+    {
+        "book_id": 11,
+        "subject_id": 79
+    },
+    {
+        "book_id": 11,
+        "subject_id": 95
+    },
+    {
+        "book_id": 11,
+        "subject_id": 301
+    },
+    {
+        "book_id": 11,
+        "subject_id": 136
+    },
+    {
+        "book_id": 11,
+        "subject_id": 153
+    },
+    {
+        "book_id": 11,
+        "subject_id": 167
+    },
+    {
+        "book_id": 11,
+        "subject_id": 201
+    },
+    {
+        "book_id": 11,
+        "subject_id": 217
+    },
+    {
+        "book_id": 12,
+        "subject_id": 286
+    },
+    {
+        "book_id": 12,
+        "subject_id": 43
+    },
+    {
+        "book_id": 12,
+        "subject_id": 79
+    },
+    {
+        "book_id": 12,
+        "subject_id": 127
+    },
+    {
+        "book_id": 12,
+        "subject_id": 151
+    },
+    {
+        "book_id": 12,
+        "subject_id": 156
+    },
+    {
+        "book_id": 12,
+        "subject_id": 204
+    },
+    {
+        "book_id": 12,
+        "subject_id": 205
+    },
+    {
+        "book_id": 12,
+        "subject_id": 314
+    },
+    {
+        "book_id": 12,
+        "subject_id": 221
+    },
+    {
+        "book_id": 12,
+        "subject_id": 246
+    },
+    {
+        "book_id": 12,
+        "subject_id": 268
+    },
+    {
+        "book_id": 12,
+        "subject_id": 274
+    },
+    {
+        "book_id": 13,
+        "subject_id": 58
+    },
+    {
+        "book_id": 13,
+        "subject_id": 82
+    },
+    {
+        "book_id": 13,
+        "subject_id": 107
+    },
+    {
+        "book_id": 13,
+        "subject_id": 151
+    },
+    {
+        "book_id": 13,
+        "subject_id": 306
+    },
+    {
+        "book_id": 13,
+        "subject_id": 189
+    },
+    {
+        "book_id": 13,
+        "subject_id": 247
+    },
+    {
+        "book_id": 13,
+        "subject_id": 273
+    },
+    {
+        "book_id": 14,
+        "subject_id": 57
+    },
+    {
+        "book_id": 14,
+        "subject_id": 95
+    },
+    {
+        "book_id": 14,
+        "subject_id": 107
+    },
+    {
+        "book_id": 14,
+        "subject_id": 125
+    },
+    {
+        "book_id": 14,
+        "subject_id": 155
+    },
+    {
+        "book_id": 14,
+        "subject_id": 306
+    },
+    {
+        "book_id": 14,
+        "subject_id": 182
+    },
+    {
+        "book_id": 14,
+        "subject_id": 203
+    },
+    {
+        "book_id": 15,
+        "subject_id": 53
+    },
+    {
+        "book_id": 15,
+        "subject_id": 301
+    },
+    {
+        "book_id": 15,
+        "subject_id": 151
+    },
+    {
+        "book_id": 15,
+        "subject_id": 153
+    },
+    {
+        "book_id": 15,
+        "subject_id": 224
+    },
+    {
+        "book_id": 15,
+        "subject_id": 242
+    },
+    {
+        "book_id": 16,
+        "subject_id": 290
+    },
+    {
+        "book_id": 16,
+        "subject_id": 42
+    },
+    {
+        "book_id": 16,
+        "subject_id": 58
+    },
+    {
+        "book_id": 16,
+        "subject_id": 59
+    },
+    {
+        "book_id": 16,
+        "subject_id": 89
+    },
+    {
+        "book_id": 16,
+        "subject_id": 92
+    },
+    {
+        "book_id": 16,
+        "subject_id": 152
+    },
+    {
+        "book_id": 16,
+        "subject_id": 174
+    },
+    {
+        "book_id": 16,
+        "subject_id": 202
+    },
+    {
+        "book_id": 16,
+        "subject_id": 226
+    },
+    {
+        "book_id": 17,
+        "subject_id": 285
+    },
+    {
+        "book_id": 17,
+        "subject_id": 42
+    },
+    {
+        "book_id": 17,
+        "subject_id": 69
+    },
+    {
+        "book_id": 17,
+        "subject_id": 79
+    },
+    {
+        "book_id": 17,
+        "subject_id": 136
+    },
+    {
+        "book_id": 17,
+        "subject_id": 168
+    },
+    {
+        "book_id": 17,
+        "subject_id": 204
+    },
+    {
+        "book_id": 17,
+        "subject_id": 213
+    },
+    {
+        "book_id": 17,
+        "subject_id": 244
+    },
+    {
+        "book_id": 18,
+        "subject_id": 27
+    },
+    {
+        "book_id": 18,
+        "subject_id": 44
+    },
+    {
+        "book_id": 18,
+        "subject_id": 45
+    },
+    {
+        "book_id": 18,
+        "subject_id": 78
+    },
+    {
+        "book_id": 18,
+        "subject_id": 79
+    },
+    {
+        "book_id": 18,
+        "subject_id": 98
+    },
+    {
+        "book_id": 18,
+        "subject_id": 143
+    },
+    {
+        "book_id": 18,
+        "subject_id": 156
+    },
+    {
+        "book_id": 18,
+        "subject_id": 162
+    },
+    {
+        "book_id": 18,
+        "subject_id": 207
+    },
+    {
+        "book_id": 18,
+        "subject_id": 217
+    },
+    {
+        "book_id": 18,
+        "subject_id": 226
+    },
+    {
+        "book_id": 18,
+        "subject_id": 227
+    },
+    {
+        "book_id": 18,
+        "subject_id": 238
+    },
+    {
+        "book_id": 18,
+        "subject_id": 275
+    },
+    {
+        "book_id": 19,
+        "subject_id": 74
+    },
+    {
+        "book_id": 19,
+        "subject_id": 78
+    },
+    {
+        "book_id": 19,
+        "subject_id": 79
+    },
+    {
+        "book_id": 19,
+        "subject_id": 86
+    },
+    {
+        "book_id": 19,
+        "subject_id": 95
+    },
+    {
+        "book_id": 19,
+        "subject_id": 136
+    },
+    {
+        "book_id": 19,
+        "subject_id": 306
+    },
+    {
+        "book_id": 19,
+        "subject_id": 217
+    },
+    {
+        "book_id": 20,
+        "subject_id": 285
+    },
+    {
+        "book_id": 20,
+        "subject_id": 87
+    },
+    {
+        "book_id": 20,
+        "subject_id": 107
+    },
+    {
+        "book_id": 20,
+        "subject_id": 306
+    },
+    {
+        "book_id": 20,
+        "subject_id": 213
+    },
+    {
+        "book_id": 20,
+        "subject_id": 247
+    },
+    {
+        "book_id": 20,
+        "subject_id": 252
+    },
+    {
+        "book_id": 21,
+        "subject_id": 8
+    },
+    {
+        "book_id": 21,
+        "subject_id": 22
+    },
+    {
+        "book_id": 21,
+        "subject_id": 74
+    },
+    {
+        "book_id": 21,
+        "subject_id": 95
+    },
+    {
+        "book_id": 21,
+        "subject_id": 136
+    },
+    {
+        "book_id": 21,
+        "subject_id": 143
+    },
+    {
+        "book_id": 21,
+        "subject_id": 307
+    },
+    {
+        "book_id": 21,
+        "subject_id": 186
+    },
+    {
+        "book_id": 21,
+        "subject_id": 202
+    },
+    {
+        "book_id": 22,
+        "subject_id": 8
+    },
+    {
+        "book_id": 22,
+        "subject_id": 32
+    },
+    {
+        "book_id": 22,
+        "subject_id": 53
+    },
+    {
+        "book_id": 22,
+        "subject_id": 74
+    },
+    {
+        "book_id": 22,
+        "subject_id": 87
+    },
+    {
+        "book_id": 22,
+        "subject_id": 107
+    },
+    {
+        "book_id": 22,
+        "subject_id": 115
+    },
+    {
+        "book_id": 22,
+        "subject_id": 136
+    },
+    {
+        "book_id": 22,
+        "subject_id": 149
+    },
+    {
+        "book_id": 22,
+        "subject_id": 306
+    },
+    {
+        "book_id": 22,
+        "subject_id": 169
+    },
+    {
+        "book_id": 22,
+        "subject_id": 181
+    },
+    {
+        "book_id": 22,
+        "subject_id": 193
+    },
+    {
+        "book_id": 22,
+        "subject_id": 230
+    },
+    {
+        "book_id": 22,
+        "subject_id": 247
+    },
+    {
+        "book_id": 23,
+        "subject_id": 3
+    },
+    {
+        "book_id": 23,
+        "subject_id": 20
+    },
+    {
+        "book_id": 23,
+        "subject_id": 57
+    },
+    {
+        "book_id": 23,
+        "subject_id": 62
+    },
+    {
+        "book_id": 23,
+        "subject_id": 110
+    },
+    {
+        "book_id": 23,
+        "subject_id": 156
+    },
+    {
+        "book_id": 23,
+        "subject_id": 157
+    },
+    {
+        "book_id": 23,
+        "subject_id": 242
+    },
+    {
+        "book_id": 24,
+        "subject_id": 54
+    },
+    {
+        "book_id": 24,
+        "subject_id": 79
+    },
+    {
+        "book_id": 24,
+        "subject_id": 82
+    },
+    {
+        "book_id": 24,
+        "subject_id": 97
+    },
+    {
+        "book_id": 24,
+        "subject_id": 100
+    },
+    {
+        "book_id": 24,
+        "subject_id": 107
+    },
+    {
+        "book_id": 24,
+        "subject_id": 134
+    },
+    {
+        "book_id": 24,
+        "subject_id": 152
+    },
+    {
+        "book_id": 24,
+        "subject_id": 224
+    },
+    {
+        "book_id": 25,
+        "subject_id": 35
+    },
+    {
+        "book_id": 25,
+        "subject_id": 58
+    },
+    {
+        "book_id": 25,
+        "subject_id": 76
+    },
+    {
+        "book_id": 25,
+        "subject_id": 79
+    },
+    {
+        "book_id": 25,
+        "subject_id": 80
+    },
+    {
+        "book_id": 25,
+        "subject_id": 81
+    },
+    {
+        "book_id": 25,
+        "subject_id": 98
+    },
+    {
+        "book_id": 25,
+        "subject_id": 124
+    },
+    {
+        "book_id": 25,
+        "subject_id": 140
+    },
+    {
+        "book_id": 25,
+        "subject_id": 163
+    },
+    {
+        "book_id": 25,
+        "subject_id": 201
+    },
+    {
+        "book_id": 25,
+        "subject_id": 311
+    },
+    {
+        "book_id": 25,
+        "subject_id": 258
+    },
+    {
+        "book_id": 26,
+        "subject_id": 29
+    },
+    {
+        "book_id": 26,
+        "subject_id": 109
+    },
+    {
+        "book_id": 27,
+        "subject_id": 6
+    },
+    {
+        "book_id": 27,
+        "subject_id": 31
+    },
+    {
+        "book_id": 27,
+        "subject_id": 64
+    },
+    {
+        "book_id": 27,
+        "subject_id": 78
+    },
+    {
+        "book_id": 27,
+        "subject_id": 298
+    },
+    {
+        "book_id": 27,
+        "subject_id": 136
+    },
+    {
+        "book_id": 27,
+        "subject_id": 306
+    },
+    {
+        "book_id": 27,
+        "subject_id": 217
+    },
+    {
+        "book_id": 27,
+        "subject_id": 227
+    },
+    {
+        "book_id": 27,
+        "subject_id": 238
+    },
+    {
+        "book_id": 27,
+        "subject_id": 271
+    },
+    {
+        "book_id": 28,
+        "subject_id": 285
+    },
+    {
+        "book_id": 28,
+        "subject_id": 52
+    },
+    {
+        "book_id": 28,
+        "subject_id": 53
+    },
+    {
+        "book_id": 28,
+        "subject_id": 79
+    },
+    {
+        "book_id": 28,
+        "subject_id": 295
+    },
+    {
+        "book_id": 28,
+        "subject_id": 156
+    },
+    {
+        "book_id": 28,
+        "subject_id": 159
+    },
+    {
+        "book_id": 28,
+        "subject_id": 174
+    },
+    {
+        "book_id": 28,
+        "subject_id": 316
+    },
+    {
+        "book_id": 28,
+        "subject_id": 261
+    },
+    {
+        "book_id": 29,
+        "subject_id": 286
+    },
+    {
+        "book_id": 29,
+        "subject_id": 68
+    },
+    {
+        "book_id": 29,
+        "subject_id": 79
+    },
+    {
+        "book_id": 29,
+        "subject_id": 80
+    },
+    {
+        "book_id": 29,
+        "subject_id": 295
+    },
+    {
+        "book_id": 29,
+        "subject_id": 151
+    },
+    {
+        "book_id": 29,
+        "subject_id": 160
+    },
+    {
+        "book_id": 29,
+        "subject_id": 308
+    },
+    {
+        "book_id": 29,
+        "subject_id": 277
+    },
+    {
+        "book_id": 30,
+        "subject_id": 9
+    },
+    {
+        "book_id": 30,
+        "subject_id": 68
+    },
+    {
+        "book_id": 30,
+        "subject_id": 79
+    },
+    {
+        "book_id": 30,
+        "subject_id": 127
+    },
+    {
+        "book_id": 30,
+        "subject_id": 151
+    },
+    {
+        "book_id": 30,
+        "subject_id": 156
+    },
+    {
+        "book_id": 30,
+        "subject_id": 158
+    },
+    {
+        "book_id": 30,
+        "subject_id": 306
+    },
+    {
+        "book_id": 30,
+        "subject_id": 199
+    },
+    {
+        "book_id": 30,
+        "subject_id": 219
+    },
+    {
+        "book_id": 30,
+        "subject_id": 242
+    },
+    {
+        "book_id": 31,
+        "subject_id": 8
+    },
+    {
+        "book_id": 31,
+        "subject_id": 287
+    },
+    {
+        "book_id": 31,
+        "subject_id": 51
+    },
+    {
+        "book_id": 31,
+        "subject_id": 107
+    },
+    {
+        "book_id": 31,
+        "subject_id": 113
+    },
+    {
+        "book_id": 31,
+        "subject_id": 153
+    },
+    {
+        "book_id": 31,
+        "subject_id": 306
+    },
+    {
+        "book_id": 31,
+        "subject_id": 202
+    },
+    {
+        "book_id": 32,
+        "subject_id": 11
+    },
+    {
+        "book_id": 32,
+        "subject_id": 285
+    },
+    {
+        "book_id": 32,
+        "subject_id": 25
+    },
+    {
+        "book_id": 32,
+        "subject_id": 291
+    },
+    {
+        "book_id": 32,
+        "subject_id": 65
+    },
+    {
+        "book_id": 32,
+        "subject_id": 89
+    },
+    {
+        "book_id": 32,
+        "subject_id": 137
+    },
+    {
+        "book_id": 32,
+        "subject_id": 302
+    },
+    {
+        "book_id": 32,
+        "subject_id": 178
+    },
+    {
+        "book_id": 32,
+        "subject_id": 264
+    },
+    {
+        "book_id": 33,
+        "subject_id": 5
+    },
+    {
+        "book_id": 33,
+        "subject_id": 8
+    },
+    {
+        "book_id": 33,
+        "subject_id": 98
+    },
+    {
+        "book_id": 33,
+        "subject_id": 107
+    },
+    {
+        "book_id": 33,
+        "subject_id": 300
+    },
+    {
+        "book_id": 33,
+        "subject_id": 202
+    },
+    {
+        "book_id": 33,
+        "subject_id": 213
+    },
+    {
+        "book_id": 33,
+        "subject_id": 233
+    },
+    {
+        "book_id": 33,
+        "subject_id": 245
+    },
+    {
+        "book_id": 34,
+        "subject_id": 52
+    },
+    {
+        "book_id": 34,
+        "subject_id": 151
+    },
+    {
+        "book_id": 34,
+        "subject_id": 153
+    },
+    {
+        "book_id": 34,
+        "subject_id": 154
+    },
+    {
+        "book_id": 34,
+        "subject_id": 193
+    },
+    {
+        "book_id": 34,
+        "subject_id": 199
+    },
+    {
+        "book_id": 34,
+        "subject_id": 202
+    },
+    {
+        "book_id": 34,
+        "subject_id": 228
+    },
+    {
+        "book_id": 35,
+        "subject_id": 22
+    },
+    {
+        "book_id": 35,
+        "subject_id": 52
+    },
+    {
+        "book_id": 35,
+        "subject_id": 294
+    },
+    {
+        "book_id": 35,
+        "subject_id": 89
+    },
+    {
+        "book_id": 35,
+        "subject_id": 97
+    },
+    {
+        "book_id": 35,
+        "subject_id": 126
+    },
+    {
+        "book_id": 35,
+        "subject_id": 164
+    },
+    {
+        "book_id": 35,
+        "subject_id": 209
+    },
+    {
+        "book_id": 35,
+        "subject_id": 258
+    },
+    {
+        "book_id": 35,
+        "subject_id": 273
+    },
+    {
+        "book_id": 35,
+        "subject_id": 280
+    },
+    {
+        "book_id": 36,
+        "subject_id": 286
+    },
+    {
+        "book_id": 36,
+        "subject_id": 52
+    },
+    {
+        "book_id": 36,
+        "subject_id": 89
+    },
+    {
+        "book_id": 36,
+        "subject_id": 151
+    },
+    {
+        "book_id": 36,
+        "subject_id": 156
+    },
+    {
+        "book_id": 36,
+        "subject_id": 159
+    },
+    {
+        "book_id": 36,
+        "subject_id": 161
+    },
+    {
+        "book_id": 36,
+        "subject_id": 247
+    },
+    {
+        "book_id": 36,
+        "subject_id": 261
+    },
+    {
+        "book_id": 36,
+        "subject_id": 273
+    },
+    {
+        "book_id": 36,
+        "subject_id": 277
+    },
+    {
+        "book_id": 37,
+        "subject_id": 63
+    },
+    {
+        "book_id": 37,
+        "subject_id": 72
+    },
+    {
+        "book_id": 37,
+        "subject_id": 82
+    },
+    {
+        "book_id": 37,
+        "subject_id": 89
+    },
+    {
+        "book_id": 37,
+        "subject_id": 97
+    },
+    {
+        "book_id": 37,
+        "subject_id": 98
+    },
+    {
+        "book_id": 37,
+        "subject_id": 99
+    },
+    {
+        "book_id": 37,
+        "subject_id": 169
+    },
+    {
+        "book_id": 37,
+        "subject_id": 214
+    },
+    {
+        "book_id": 37,
+        "subject_id": 273
+    },
+    {
+        "book_id": 38,
+        "subject_id": 84
+    },
+    {
+        "book_id": 38,
+        "subject_id": 88
+    },
+    {
+        "book_id": 38,
+        "subject_id": 124
+    },
+    {
+        "book_id": 38,
+        "subject_id": 136
+    },
+    {
+        "book_id": 38,
+        "subject_id": 151
+    },
+    {
+        "book_id": 38,
+        "subject_id": 306
+    },
+    {
+        "book_id": 38,
+        "subject_id": 201
+    },
+    {
+        "book_id": 38,
+        "subject_id": 217
+    },
+    {
+        "book_id": 38,
+        "subject_id": 225
+    },
+    {
+        "book_id": 38,
+        "subject_id": 226
+    },
+    {
+        "book_id": 38,
+        "subject_id": 244
+    },
+    {
+        "book_id": 39,
+        "subject_id": 9
+    },
+    {
+        "book_id": 39,
+        "subject_id": 94
+    },
+    {
+        "book_id": 39,
+        "subject_id": 107
+    },
+    {
+        "book_id": 39,
+        "subject_id": 124
+    },
+    {
+        "book_id": 39,
+        "subject_id": 151
+    },
+    {
+        "book_id": 39,
+        "subject_id": 217
+    },
+    {
+        "book_id": 39,
+        "subject_id": 242
+    },
+    {
+        "book_id": 39,
+        "subject_id": 274
+    },
+    {
+        "book_id": 40,
+        "subject_id": 14
+    },
+    {
+        "book_id": 40,
+        "subject_id": 41
+    },
+    {
+        "book_id": 40,
+        "subject_id": 87
+    },
+    {
+        "book_id": 40,
+        "subject_id": 89
+    },
+    {
+        "book_id": 40,
+        "subject_id": 98
+    },
+    {
+        "book_id": 40,
+        "subject_id": 130
+    },
+    {
+        "book_id": 40,
+        "subject_id": 233
+    },
+    {
+        "book_id": 41,
+        "subject_id": 3
+    },
+    {
+        "book_id": 41,
+        "subject_id": 9
+    },
+    {
+        "book_id": 41,
+        "subject_id": 16
+    },
+    {
+        "book_id": 41,
+        "subject_id": 286
+    },
+    {
+        "book_id": 41,
+        "subject_id": 106
+    },
+    {
+        "book_id": 41,
+        "subject_id": 151
+    },
+    {
+        "book_id": 41,
+        "subject_id": 199
+    },
+    {
+        "book_id": 41,
+        "subject_id": 202
+    },
+    {
+        "book_id": 41,
+        "subject_id": 247
+    },
+    {
+        "book_id": 42,
+        "subject_id": 9
+    },
+    {
+        "book_id": 42,
+        "subject_id": 45
+    },
+    {
+        "book_id": 42,
+        "subject_id": 79
+    },
+    {
+        "book_id": 42,
+        "subject_id": 107
+    },
+    {
+        "book_id": 42,
+        "subject_id": 301
+    },
+    {
+        "book_id": 42,
+        "subject_id": 174
+    },
+    {
+        "book_id": 42,
+        "subject_id": 223
+    },
+    {
+        "book_id": 42,
+        "subject_id": 224
+    },
+    {
+        "book_id": 42,
+        "subject_id": 231
+    },
+    {
+        "book_id": 43,
+        "subject_id": 16
+    },
+    {
+        "book_id": 43,
+        "subject_id": 79
+    },
+    {
+        "book_id": 43,
+        "subject_id": 95
+    },
+    {
+        "book_id": 43,
+        "subject_id": 145
+    },
+    {
+        "book_id": 43,
+        "subject_id": 182
+    },
+    {
+        "book_id": 43,
+        "subject_id": 213
+    },
+    {
+        "book_id": 43,
+        "subject_id": 224
+    },
+    {
+        "book_id": 43,
+        "subject_id": 241
+    },
+    {
+        "book_id": 43,
+        "subject_id": 253
+    },
+    {
+        "book_id": 44,
+        "subject_id": 65
+    },
+    {
+        "book_id": 44,
+        "subject_id": 107
+    },
+    {
+        "book_id": 44,
+        "subject_id": 119
+    },
+    {
+        "book_id": 44,
+        "subject_id": 139
+    },
+    {
+        "book_id": 44,
+        "subject_id": 141
+    },
+    {
+        "book_id": 44,
+        "subject_id": 185
+    },
+    {
+        "book_id": 44,
+        "subject_id": 312
+    },
+    {
+        "book_id": 44,
+        "subject_id": 261
+    },
+    {
+        "book_id": 45,
+        "subject_id": 285
+    },
+    {
+        "book_id": 45,
+        "subject_id": 77
+    },
+    {
+        "book_id": 45,
+        "subject_id": 89
+    },
+    {
+        "book_id": 45,
+        "subject_id": 298
+    },
+    {
+        "book_id": 45,
+        "subject_id": 299
+    },
+    {
+        "book_id": 45,
+        "subject_id": 125
+    },
+    {
+        "book_id": 45,
+        "subject_id": 303
+    },
+    {
+        "book_id": 45,
+        "subject_id": 193
+    },
+    {
+        "book_id": 45,
+        "subject_id": 314
+    },
+    {
+        "book_id": 45,
+        "subject_id": 275
+    },
+    {
+        "book_id": 46,
+        "subject_id": 16
+    },
+    {
+        "book_id": 46,
+        "subject_id": 50
+    },
+    {
+        "book_id": 46,
+        "subject_id": 82
+    },
+    {
+        "book_id": 46,
+        "subject_id": 136
+    },
+    {
+        "book_id": 46,
+        "subject_id": 151
+    },
+    {
+        "book_id": 46,
+        "subject_id": 254
+    },
+    {
+        "book_id": 46,
+        "subject_id": 275
+    },
+    {
+        "book_id": 47,
+        "subject_id": 287
+    },
+    {
+        "book_id": 47,
+        "subject_id": 58
+    },
+    {
+        "book_id": 47,
+        "subject_id": 74
+    },
+    {
+        "book_id": 47,
+        "subject_id": 105
+    },
+    {
+        "book_id": 47,
+        "subject_id": 158
+    },
+    {
+        "book_id": 47,
+        "subject_id": 201
+    },
+    {
+        "book_id": 47,
+        "subject_id": 256
+    },
+    {
+        "book_id": 47,
+        "subject_id": 273
+    },
+    {
+        "book_id": 47,
+        "subject_id": 279
+    },
+    {
+        "book_id": 48,
+        "subject_id": 9
+    },
+    {
+        "book_id": 48,
+        "subject_id": 16
+    },
+    {
+        "book_id": 48,
+        "subject_id": 68
+    },
+    {
+        "book_id": 48,
+        "subject_id": 79
+    },
+    {
+        "book_id": 48,
+        "subject_id": 89
+    },
+    {
+        "book_id": 48,
+        "subject_id": 107
+    },
+    {
+        "book_id": 48,
+        "subject_id": 156
+    },
+    {
+        "book_id": 48,
+        "subject_id": 308
+    },
+    {
+        "book_id": 48,
+        "subject_id": 201
+    },
+    {
+        "book_id": 48,
+        "subject_id": 222
+    },
+    {
+        "book_id": 48,
+        "subject_id": 242
+    },
+    {
+        "book_id": 49,
+        "subject_id": 37
+    },
+    {
+        "book_id": 49,
+        "subject_id": 289
+    },
+    {
+        "book_id": 49,
+        "subject_id": 40
+    },
+    {
+        "book_id": 49,
+        "subject_id": 67
+    },
+    {
+        "book_id": 49,
+        "subject_id": 87
+    },
+    {
+        "book_id": 49,
+        "subject_id": 96
+    },
+    {
+        "book_id": 49,
+        "subject_id": 107
+    },
+    {
+        "book_id": 49,
+        "subject_id": 259
+    },
+    {
+        "book_id": 50,
+        "subject_id": 56
+    },
+    {
+        "book_id": 50,
+        "subject_id": 98
+    },
+    {
+        "book_id": 50,
+        "subject_id": 301
+    },
+    {
+        "book_id": 50,
+        "subject_id": 174
+    },
+    {
+        "book_id": 50,
+        "subject_id": 192
+    },
+    {
+        "book_id": 50,
+        "subject_id": 205
+    },
+    {
+        "book_id": 50,
+        "subject_id": 222
+    },
+    {
+        "book_id": 50,
+        "subject_id": 255
+    },
+    {
+        "book_id": 51,
+        "subject_id": 29
+    },
+    {
+        "book_id": 51,
+        "subject_id": 294
+    },
+    {
+        "book_id": 51,
+        "subject_id": 298
+    },
+    {
+        "book_id": 51,
+        "subject_id": 125
+    },
+    {
+        "book_id": 51,
+        "subject_id": 144
+    },
+    {
+        "book_id": 51,
+        "subject_id": 202
+    },
+    {
+        "book_id": 51,
+        "subject_id": 229
+    },
+    {
+        "book_id": 51,
+        "subject_id": 258
+    },
+    {
+        "book_id": 52,
+        "subject_id": 4
+    },
+    {
+        "book_id": 52,
+        "subject_id": 35
+    },
+    {
+        "book_id": 52,
+        "subject_id": 79
+    },
+    {
+        "book_id": 52,
+        "subject_id": 80
+    },
+    {
+        "book_id": 52,
+        "subject_id": 87
+    },
+    {
+        "book_id": 52,
+        "subject_id": 91
+    },
+    {
+        "book_id": 52,
+        "subject_id": 95
+    },
+    {
+        "book_id": 52,
+        "subject_id": 159
+    },
+    {
+        "book_id": 52,
+        "subject_id": 170
+    },
+    {
+        "book_id": 52,
+        "subject_id": 212
+    },
+    {
+        "book_id": 52,
+        "subject_id": 241
+    },
+    {
+        "book_id": 52,
+        "subject_id": 265
+    },
+    {
+        "book_id": 52,
+        "subject_id": 277
+    },
+    {
+        "book_id": 53,
+        "subject_id": 28
+    },
+    {
+        "book_id": 53,
+        "subject_id": 79
+    },
+    {
+        "book_id": 53,
+        "subject_id": 98
+    },
+    {
+        "book_id": 53,
+        "subject_id": 107
+    },
+    {
+        "book_id": 53,
+        "subject_id": 151
+    },
+    {
+        "book_id": 53,
+        "subject_id": 156
+    },
+    {
+        "book_id": 53,
+        "subject_id": 216
+    },
+    {
+        "book_id": 53,
+        "subject_id": 222
+    },
+    {
+        "book_id": 53,
+        "subject_id": 241
+    },
+    {
+        "book_id": 53,
+        "subject_id": 242
+    },
+    {
+        "book_id": 53,
+        "subject_id": 258
+    },
+    {
+        "book_id": 53,
+        "subject_id": 273
+    },
+    {
+        "book_id": 54,
+        "subject_id": 16
+    },
+    {
+        "book_id": 54,
+        "subject_id": 30
+    },
+    {
+        "book_id": 54,
+        "subject_id": 290
+    },
+    {
+        "book_id": 54,
+        "subject_id": 70
+    },
+    {
+        "book_id": 54,
+        "subject_id": 307
+    },
+    {
+        "book_id": 54,
+        "subject_id": 198
+    },
+    {
+        "book_id": 54,
+        "subject_id": 309
+    },
+    {
+        "book_id": 54,
+        "subject_id": 202
+    },
+    {
+        "book_id": 54,
+        "subject_id": 206
+    },
+    {
+        "book_id": 54,
+        "subject_id": 225
+    },
+    {
+        "book_id": 55,
+        "subject_id": 52
+    },
+    {
+        "book_id": 55,
+        "subject_id": 109
+    },
+    {
+        "book_id": 55,
+        "subject_id": 125
+    },
+    {
+        "book_id": 55,
+        "subject_id": 131
+    },
+    {
+        "book_id": 55,
+        "subject_id": 151
+    },
+    {
+        "book_id": 55,
+        "subject_id": 153
+    },
+    {
+        "book_id": 55,
+        "subject_id": 201
+    },
+    {
+        "book_id": 55,
+        "subject_id": 217
+    },
+    {
+        "book_id": 55,
+        "subject_id": 247
+    },
+    {
+        "book_id": 55,
+        "subject_id": 274
+    },
+    {
+        "book_id": 56,
+        "subject_id": 282
+    },
+    {
+        "book_id": 56,
+        "subject_id": 52
+    },
+    {
+        "book_id": 56,
+        "subject_id": 58
+    },
+    {
+        "book_id": 56,
+        "subject_id": 74
+    },
+    {
+        "book_id": 56,
+        "subject_id": 95
+    },
+    {
+        "book_id": 56,
+        "subject_id": 151
+    },
+    {
+        "book_id": 56,
+        "subject_id": 199
+    },
+    {
+        "book_id": 56,
+        "subject_id": 217
+    },
+    {
+        "book_id": 56,
+        "subject_id": 314
+    },
+    {
+        "book_id": 57,
+        "subject_id": 294
+    },
+    {
+        "book_id": 57,
+        "subject_id": 89
+    },
+    {
+        "book_id": 57,
+        "subject_id": 92
+    },
+    {
+        "book_id": 57,
+        "subject_id": 112
+    },
+    {
+        "book_id": 57,
+        "subject_id": 301
+    },
+    {
+        "book_id": 57,
+        "subject_id": 153
+    },
+    {
+        "book_id": 57,
+        "subject_id": 232
+    },
+    {
+        "book_id": 57,
+        "subject_id": 257
+    },
+    {
+        "book_id": 57,
+        "subject_id": 269
+    },
+    {
+        "book_id": 58,
+        "subject_id": 17
+    },
+    {
+        "book_id": 58,
+        "subject_id": 52
+    },
+    {
+        "book_id": 58,
+        "subject_id": 147
+    },
+    {
+        "book_id": 58,
+        "subject_id": 158
+    },
+    {
+        "book_id": 58,
+        "subject_id": 183
+    },
+    {
+        "book_id": 58,
+        "subject_id": 193
+    },
+    {
+        "book_id": 58,
+        "subject_id": 273
+    },
+    {
+        "book_id": 58,
+        "subject_id": 321
+    },
+    {
+        "book_id": 59,
+        "subject_id": 283
+    },
+    {
+        "book_id": 59,
+        "subject_id": 284
+    },
+    {
+        "book_id": 59,
+        "subject_id": 52
+    },
+    {
+        "book_id": 59,
+        "subject_id": 55
+    },
+    {
+        "book_id": 59,
+        "subject_id": 79
+    },
+    {
+        "book_id": 59,
+        "subject_id": 156
+    },
+    {
+        "book_id": 59,
+        "subject_id": 199
+    },
+    {
+        "book_id": 59,
+        "subject_id": 202
+    },
+    {
+        "book_id": 59,
+        "subject_id": 318
+    },
+    {
+        "book_id": 60,
+        "subject_id": 287
+    },
+    {
+        "book_id": 60,
+        "subject_id": 34
+    },
+    {
+        "book_id": 60,
+        "subject_id": 61
+    },
+    {
+        "book_id": 60,
+        "subject_id": 83
+    },
+    {
+        "book_id": 60,
+        "subject_id": 160
+    },
+    {
+        "book_id": 60,
+        "subject_id": 199
+    },
+    {
+        "book_id": 60,
+        "subject_id": 314
+    },
+    {
+        "book_id": 60,
+        "subject_id": 236
+    },
+    {
+        "book_id": 60,
+        "subject_id": 277
+    },
+    {
+        "book_id": 60,
+        "subject_id": 321
+    },
+    {
+        "book_id": 61,
+        "subject_id": 7
+    },
+    {
+        "book_id": 61,
+        "subject_id": 21
+    },
+    {
+        "book_id": 61,
+        "subject_id": 62
+    },
+    {
+        "book_id": 61,
+        "subject_id": 75
+    },
+    {
+        "book_id": 61,
+        "subject_id": 89
+    },
+    {
+        "book_id": 61,
+        "subject_id": 98
+    },
+    {
+        "book_id": 61,
+        "subject_id": 151
+    },
+    {
+        "book_id": 61,
+        "subject_id": 305
+    },
+    {
+        "book_id": 61,
+        "subject_id": 200
+    },
+    {
+        "book_id": 61,
+        "subject_id": 314
+    },
+    {
+        "book_id": 61,
+        "subject_id": 273
+    },
+    {
+        "book_id": 61,
+        "subject_id": 279
+    },
+    {
+        "book_id": 62,
+        "subject_id": 284
+    },
+    {
+        "book_id": 62,
+        "subject_id": 287
+    },
+    {
+        "book_id": 62,
+        "subject_id": 35
+    },
+    {
+        "book_id": 62,
+        "subject_id": 288
+    },
+    {
+        "book_id": 62,
+        "subject_id": 79
+    },
+    {
+        "book_id": 62,
+        "subject_id": 116
+    },
+    {
+        "book_id": 62,
+        "subject_id": 137
+    },
+    {
+        "book_id": 62,
+        "subject_id": 305
+    },
+    {
+        "book_id": 62,
+        "subject_id": 202
+    },
+    {
+        "book_id": 62,
+        "subject_id": 212
+    },
+    {
+        "book_id": 62,
+        "subject_id": 318
+    },
+    {
+        "book_id": 63,
+        "subject_id": 49
+    },
+    {
+        "book_id": 63,
+        "subject_id": 298
+    },
+    {
+        "book_id": 63,
+        "subject_id": 306
+    },
+    {
+        "book_id": 63,
+        "subject_id": 202
+    },
+    {
+        "book_id": 63,
+        "subject_id": 247
+    },
+    {
+        "book_id": 64,
+        "subject_id": 286
+    },
+    {
+        "book_id": 64,
+        "subject_id": 52
+    },
+    {
+        "book_id": 64,
+        "subject_id": 54
+    },
+    {
+        "book_id": 64,
+        "subject_id": 95
+    },
+    {
+        "book_id": 64,
+        "subject_id": 131
+    },
+    {
+        "book_id": 64,
+        "subject_id": 151
+    },
+    {
+        "book_id": 64,
+        "subject_id": 315
+    },
+    {
+        "book_id": 65,
+        "subject_id": 31
+    },
+    {
+        "book_id": 65,
+        "subject_id": 59
+    },
+    {
+        "book_id": 65,
+        "subject_id": 63
+    },
+    {
+        "book_id": 65,
+        "subject_id": 73
+    },
+    {
+        "book_id": 65,
+        "subject_id": 79
+    },
+    {
+        "book_id": 65,
+        "subject_id": 97
+    },
+    {
+        "book_id": 65,
+        "subject_id": 98
+    },
+    {
+        "book_id": 65,
+        "subject_id": 144
+    },
+    {
+        "book_id": 65,
+        "subject_id": 195
+    },
+    {
+        "book_id": 65,
+        "subject_id": 256
+    },
+    {
+        "book_id": 65,
+        "subject_id": 273
+    },
+    {
+        "book_id": 66,
+        "subject_id": 87
+    },
+    {
+        "book_id": 66,
+        "subject_id": 105
+    },
+    {
+        "book_id": 66,
+        "subject_id": 107
+    },
+    {
+        "book_id": 66,
+        "subject_id": 117
+    },
+    {
+        "book_id": 66,
+        "subject_id": 169
+    },
+    {
+        "book_id": 66,
+        "subject_id": 174
+    },
+    {
+        "book_id": 66,
+        "subject_id": 198
+    },
+    {
+        "book_id": 66,
+        "subject_id": 263
+    },
+    {
+        "book_id": 66,
+        "subject_id": 267
+    },
+    {
+        "book_id": 67,
+        "subject_id": 31
+    },
+    {
+        "book_id": 67,
+        "subject_id": 53
+    },
+    {
+        "book_id": 67,
+        "subject_id": 68
+    },
+    {
+        "book_id": 67,
+        "subject_id": 72
+    },
+    {
+        "book_id": 67,
+        "subject_id": 89
+    },
+    {
+        "book_id": 67,
+        "subject_id": 98
+    },
+    {
+        "book_id": 67,
+        "subject_id": 298
+    },
+    {
+        "book_id": 67,
+        "subject_id": 306
+    },
+    {
+        "book_id": 67,
+        "subject_id": 193
+    },
+    {
+        "book_id": 67,
+        "subject_id": 234
+    },
+    {
+        "book_id": 67,
+        "subject_id": 240
+    },
+    {
+        "book_id": 67,
+        "subject_id": 247
+    },
+    {
+        "book_id": 68,
+        "subject_id": 4
+    },
+    {
+        "book_id": 68,
+        "subject_id": 5
+    },
+    {
+        "book_id": 68,
+        "subject_id": 35
+    },
+    {
+        "book_id": 68,
+        "subject_id": 87
+    },
+    {
+        "book_id": 68,
+        "subject_id": 295
+    },
+    {
+        "book_id": 68,
+        "subject_id": 98
+    },
+    {
+        "book_id": 68,
+        "subject_id": 151
+    },
+    {
+        "book_id": 68,
+        "subject_id": 156
+    },
+    {
+        "book_id": 68,
+        "subject_id": 209
+    },
+    {
+        "book_id": 68,
+        "subject_id": 310
+    },
+    {
+        "book_id": 68,
+        "subject_id": 314
+    },
+    {
+        "book_id": 68,
+        "subject_id": 233
+    },
+    {
+        "book_id": 69,
+        "subject_id": 12
+    },
+    {
+        "book_id": 69,
+        "subject_id": 288
+    },
+    {
+        "book_id": 69,
+        "subject_id": 59
+    },
+    {
+        "book_id": 69,
+        "subject_id": 79
+    },
+    {
+        "book_id": 69,
+        "subject_id": 98
+    },
+    {
+        "book_id": 69,
+        "subject_id": 154
+    },
+    {
+        "book_id": 69,
+        "subject_id": 159
+    },
+    {
+        "book_id": 69,
+        "subject_id": 179
+    },
+    {
+        "book_id": 69,
+        "subject_id": 188
+    },
+    {
+        "book_id": 69,
+        "subject_id": 199
+    },
+    {
+        "book_id": 69,
+        "subject_id": 202
+    },
+    {
+        "book_id": 69,
+        "subject_id": 225
+    },
+    {
+        "book_id": 70,
+        "subject_id": 84
+    },
+    {
+        "book_id": 70,
+        "subject_id": 95
+    },
+    {
+        "book_id": 70,
+        "subject_id": 106
+    },
+    {
+        "book_id": 70,
+        "subject_id": 107
+    },
+    {
+        "book_id": 70,
+        "subject_id": 301
+    },
+    {
+        "book_id": 70,
+        "subject_id": 135
+    },
+    {
+        "book_id": 70,
+        "subject_id": 210
+    },
+    {
+        "book_id": 70,
+        "subject_id": 217
+    },
+    {
+        "book_id": 70,
+        "subject_id": 238
+    },
+    {
+        "book_id": 71,
+        "subject_id": 16
+    },
+    {
+        "book_id": 71,
+        "subject_id": 290
+    },
+    {
+        "book_id": 71,
+        "subject_id": 53
+    },
+    {
+        "book_id": 71,
+        "subject_id": 79
+    },
+    {
+        "book_id": 71,
+        "subject_id": 107
+    },
+    {
+        "book_id": 71,
+        "subject_id": 153
+    },
+    {
+        "book_id": 71,
+        "subject_id": 169
+    },
+    {
+        "book_id": 71,
+        "subject_id": 202
+    },
+    {
+        "book_id": 71,
+        "subject_id": 224
+    },
+    {
+        "book_id": 72,
+        "subject_id": 287
+    },
+    {
+        "book_id": 72,
+        "subject_id": 48
+    },
+    {
+        "book_id": 72,
+        "subject_id": 89
+    },
+    {
+        "book_id": 72,
+        "subject_id": 136
+    },
+    {
+        "book_id": 72,
+        "subject_id": 180
+    },
+    {
+        "book_id": 72,
+        "subject_id": 212
+    },
+    {
+        "book_id": 72,
+        "subject_id": 213
+    },
+    {
+        "book_id": 72,
+        "subject_id": 242
+    },
+    {
+        "book_id": 73,
+        "subject_id": 42
+    },
+    {
+        "book_id": 73,
+        "subject_id": 58
+    },
+    {
+        "book_id": 73,
+        "subject_id": 89
+    },
+    {
+        "book_id": 73,
+        "subject_id": 150
+    },
+    {
+        "book_id": 73,
+        "subject_id": 151
+    },
+    {
+        "book_id": 73,
+        "subject_id": 158
+    },
+    {
+        "book_id": 73,
+        "subject_id": 314
+    },
+    {
+        "book_id": 73,
+        "subject_id": 273
+    },
+    {
+        "book_id": 73,
+        "subject_id": 279
+    },
+    {
+        "book_id": 74,
+        "subject_id": 29
+    },
+    {
+        "book_id": 74,
+        "subject_id": 287
+    },
+    {
+        "book_id": 74,
+        "subject_id": 78
+    },
+    {
+        "book_id": 74,
+        "subject_id": 102
+    },
+    {
+        "book_id": 74,
+        "subject_id": 301
+    },
+    {
+        "book_id": 74,
+        "subject_id": 235
+    },
+    {
+        "book_id": 74,
+        "subject_id": 258
+    },
+    {
+        "book_id": 75,
+        "subject_id": 74
+    },
+    {
+        "book_id": 75,
+        "subject_id": 105
+    },
+    {
+        "book_id": 75,
+        "subject_id": 301
+    },
+    {
+        "book_id": 75,
+        "subject_id": 169
+    },
+    {
+        "book_id": 75,
+        "subject_id": 222
+    },
+    {
+        "book_id": 75,
+        "subject_id": 250
+    },
+    {
+        "book_id": 75,
+        "subject_id": 256
+    },
+    {
+        "book_id": 76,
+        "subject_id": 290
+    },
+    {
+        "book_id": 76,
+        "subject_id": 106
+    },
+    {
+        "book_id": 76,
+        "subject_id": 184
+    },
+    {
+        "book_id": 76,
+        "subject_id": 193
+    },
+    {
+        "book_id": 76,
+        "subject_id": 256
+    },
+    {
+        "book_id": 77,
+        "subject_id": 16
+    },
+    {
+        "book_id": 77,
+        "subject_id": 79
+    },
+    {
+        "book_id": 77,
+        "subject_id": 87
+    },
+    {
+        "book_id": 77,
+        "subject_id": 122
+    },
+    {
+        "book_id": 77,
+        "subject_id": 127
+    },
+    {
+        "book_id": 77,
+        "subject_id": 151
+    },
+    {
+        "book_id": 77,
+        "subject_id": 155
+    },
+    {
+        "book_id": 77,
+        "subject_id": 156
+    },
+    {
+        "book_id": 77,
+        "subject_id": 311
+    },
+    {
+        "book_id": 77,
+        "subject_id": 314
+    },
+    {
+        "book_id": 77,
+        "subject_id": 247
+    },
+    {
+        "book_id": 77,
+        "subject_id": 274
+    },
+    {
+        "book_id": 78,
+        "subject_id": 47
+    },
+    {
+        "book_id": 78,
+        "subject_id": 52
+    },
+    {
+        "book_id": 78,
+        "subject_id": 89
+    },
+    {
+        "book_id": 78,
+        "subject_id": 111
+    },
+    {
+        "book_id": 78,
+        "subject_id": 153
+    },
+    {
+        "book_id": 78,
+        "subject_id": 171
+    },
+    {
+        "book_id": 78,
+        "subject_id": 177
+    },
+    {
+        "book_id": 78,
+        "subject_id": 182
+    },
+    {
+        "book_id": 78,
+        "subject_id": 186
+    },
+    {
+        "book_id": 78,
+        "subject_id": 187
+    },
+    {
+        "book_id": 79,
+        "subject_id": 8
+    },
+    {
+        "book_id": 79,
+        "subject_id": 13
+    },
+    {
+        "book_id": 79,
+        "subject_id": 22
+    },
+    {
+        "book_id": 79,
+        "subject_id": 40
+    },
+    {
+        "book_id": 79,
+        "subject_id": 74
+    },
+    {
+        "book_id": 79,
+        "subject_id": 90
+    },
+    {
+        "book_id": 79,
+        "subject_id": 301
+    },
+    {
+        "book_id": 79,
+        "subject_id": 202
+    },
+    {
+        "book_id": 79,
+        "subject_id": 255
+    },
+    {
+        "book_id": 80,
+        "subject_id": 8
+    },
+    {
+        "book_id": 80,
+        "subject_id": 95
+    },
+    {
+        "book_id": 80,
+        "subject_id": 301
+    },
+    {
+        "book_id": 80,
+        "subject_id": 223
+    },
+    {
+        "book_id": 80,
+        "subject_id": 264
+    },
+    {
+        "book_id": 80,
+        "subject_id": 278
+    },
+    {
+        "book_id": 81,
+        "subject_id": 53
+    },
+    {
+        "book_id": 81,
+        "subject_id": 82
+    },
+    {
+        "book_id": 81,
+        "subject_id": 86
+    },
+    {
+        "book_id": 81,
+        "subject_id": 258
+    },
+    {
+        "book_id": 81,
+        "subject_id": 261
+    },
+    {
+        "book_id": 81,
+        "subject_id": 265
+    },
+    {
+        "book_id": 81,
+        "subject_id": 273
+    },
+    {
+        "book_id": 82,
+        "subject_id": 36
+    },
+    {
+        "book_id": 82,
+        "subject_id": 52
+    },
+    {
+        "book_id": 82,
+        "subject_id": 62
+    },
+    {
+        "book_id": 82,
+        "subject_id": 89
+    },
+    {
+        "book_id": 82,
+        "subject_id": 123
+    },
+    {
+        "book_id": 82,
+        "subject_id": 137
+    },
+    {
+        "book_id": 82,
+        "subject_id": 220
+    },
+    {
+        "book_id": 82,
+        "subject_id": 249
+    },
+    {
+        "book_id": 82,
+        "subject_id": 258
+    },
+    {
+        "book_id": 82,
+        "subject_id": 265
+    },
+    {
+        "book_id": 82,
+        "subject_id": 273
+    },
+    {
+        "book_id": 82,
+        "subject_id": 279
+    },
+    {
+        "book_id": 82,
+        "subject_id": 281
+    },
+    {
+        "book_id": 83,
+        "subject_id": 16
+    },
+    {
+        "book_id": 83,
+        "subject_id": 54
+    },
+    {
+        "book_id": 83,
+        "subject_id": 84
+    },
+    {
+        "book_id": 83,
+        "subject_id": 114
+    },
+    {
+        "book_id": 83,
+        "subject_id": 136
+    },
+    {
+        "book_id": 83,
+        "subject_id": 151
+    },
+    {
+        "book_id": 83,
+        "subject_id": 202
+    },
+    {
+        "book_id": 83,
+        "subject_id": 217
+    },
+    {
+        "book_id": 83,
+        "subject_id": 224
+    },
+    {
+        "book_id": 83,
+        "subject_id": 274
+    },
+    {
+        "book_id": 84,
+        "subject_id": 151
+    },
+    {
+        "book_id": 84,
+        "subject_id": 153
+    },
+    {
+        "book_id": 84,
+        "subject_id": 172
+    },
+    {
+        "book_id": 84,
+        "subject_id": 190
+    },
+    {
+        "book_id": 84,
+        "subject_id": 199
+    },
+    {
+        "book_id": 84,
+        "subject_id": 313
+    },
+    {
+        "book_id": 84,
+        "subject_id": 273
+    },
+    {
+        "book_id": 84,
+        "subject_id": 280
+    },
+    {
+        "book_id": 85,
+        "subject_id": 3
+    },
+    {
+        "book_id": 85,
+        "subject_id": 16
+    },
+    {
+        "book_id": 85,
+        "subject_id": 52
+    },
+    {
+        "book_id": 85,
+        "subject_id": 54
+    },
+    {
+        "book_id": 85,
+        "subject_id": 89
+    },
+    {
+        "book_id": 85,
+        "subject_id": 118
+    },
+    {
+        "book_id": 85,
+        "subject_id": 151
+    },
+    {
+        "book_id": 85,
+        "subject_id": 156
+    },
+    {
+        "book_id": 85,
+        "subject_id": 161
+    },
+    {
+        "book_id": 85,
+        "subject_id": 164
+    },
+    {
+        "book_id": 86,
+        "subject_id": 52
+    },
+    {
+        "book_id": 86,
+        "subject_id": 53
+    },
+    {
+        "book_id": 86,
+        "subject_id": 66
+    },
+    {
+        "book_id": 86,
+        "subject_id": 79
+    },
+    {
+        "book_id": 86,
+        "subject_id": 80
+    },
+    {
+        "book_id": 86,
+        "subject_id": 93
+    },
+    {
+        "book_id": 86,
+        "subject_id": 301
+    },
+    {
+        "book_id": 86,
+        "subject_id": 153
+    },
+    {
+        "book_id": 86,
+        "subject_id": 201
+    },
+    {
+        "book_id": 86,
+        "subject_id": 253
+    },
+    {
+        "book_id": 86,
+        "subject_id": 316
+    },
+    {
+        "book_id": 86,
+        "subject_id": 256
+    },
+    {
+        "book_id": 87,
+        "subject_id": 15
+    },
+    {
+        "book_id": 87,
+        "subject_id": 39
+    },
+    {
+        "book_id": 87,
+        "subject_id": 290
+    },
+    {
+        "book_id": 87,
+        "subject_id": 107
+    },
+    {
+        "book_id": 87,
+        "subject_id": 120
+    },
+    {
+        "book_id": 87,
+        "subject_id": 306
+    },
+    {
+        "book_id": 87,
+        "subject_id": 320
+    },
+    {
+        "book_id": 87,
+        "subject_id": 281
+    },
+    {
+        "book_id": 88,
+        "subject_id": 79
+    },
+    {
+        "book_id": 88,
+        "subject_id": 89
+    },
+    {
+        "book_id": 88,
+        "subject_id": 296
+    },
+    {
+        "book_id": 88,
+        "subject_id": 98
+    },
+    {
+        "book_id": 88,
+        "subject_id": 151
+    },
+    {
+        "book_id": 88,
+        "subject_id": 201
+    },
+    {
+        "book_id": 88,
+        "subject_id": 226
+    },
+    {
+        "book_id": 88,
+        "subject_id": 239
+    },
+    {
+        "book_id": 88,
+        "subject_id": 276
+    },
+    {
+        "book_id": 89,
+        "subject_id": 46
+    },
+    {
+        "book_id": 89,
+        "subject_id": 68
+    },
+    {
+        "book_id": 89,
+        "subject_id": 79
+    },
+    {
+        "book_id": 89,
+        "subject_id": 87
+    },
+    {
+        "book_id": 89,
+        "subject_id": 95
+    },
+    {
+        "book_id": 89,
+        "subject_id": 104
+    },
+    {
+        "book_id": 89,
+        "subject_id": 313
+    },
+    {
+        "book_id": 89,
+        "subject_id": 236
+    },
+    {
+        "book_id": 90,
+        "subject_id": 9
+    },
+    {
+        "book_id": 90,
+        "subject_id": 58
+    },
+    {
+        "book_id": 90,
+        "subject_id": 92
+    },
+    {
+        "book_id": 90,
+        "subject_id": 298
+    },
+    {
+        "book_id": 90,
+        "subject_id": 139
+    },
+    {
+        "book_id": 90,
+        "subject_id": 151
+    },
+    {
+        "book_id": 90,
+        "subject_id": 306
+    },
+    {
+        "book_id": 90,
+        "subject_id": 217
+    },
+    {
+        "book_id": 90,
+        "subject_id": 260
+    },
+    {
+        "book_id": 91,
+        "subject_id": 23
+    },
+    {
+        "book_id": 91,
+        "subject_id": 29
+    },
+    {
+        "book_id": 91,
+        "subject_id": 52
+    },
+    {
+        "book_id": 91,
+        "subject_id": 55
+    },
+    {
+        "book_id": 91,
+        "subject_id": 79
+    },
+    {
+        "book_id": 91,
+        "subject_id": 80
+    },
+    {
+        "book_id": 91,
+        "subject_id": 109
+    },
+    {
+        "book_id": 91,
+        "subject_id": 121
+    },
+    {
+        "book_id": 91,
+        "subject_id": 156
+    },
+    {
+        "book_id": 91,
+        "subject_id": 242
+    },
+    {
+        "book_id": 91,
+        "subject_id": 318
+    },
+    {
+        "book_id": 91,
+        "subject_id": 274
+    },
+    {
+        "book_id": 92,
+        "subject_id": 166
+    },
+    {
+        "book_id": 92,
+        "subject_id": 306
+    },
+    {
+        "book_id": 92,
+        "subject_id": 193
+    },
+    {
+        "book_id": 92,
+        "subject_id": 199
+    },
+    {
+        "book_id": 92,
+        "subject_id": 208
+    },
+    {
+        "book_id": 92,
+        "subject_id": 314
+    },
+    {
+        "book_id": 92,
+        "subject_id": 231
+    },
+    {
+        "book_id": 92,
+        "subject_id": 247
+    },
+    {
+        "book_id": 93,
+        "subject_id": 58
+    },
+    {
+        "book_id": 93,
+        "subject_id": 74
+    },
+    {
+        "book_id": 93,
+        "subject_id": 101
+    },
+    {
+        "book_id": 93,
+        "subject_id": 256
+    },
+    {
+        "book_id": 93,
+        "subject_id": 261
+    },
+    {
+        "book_id": 93,
+        "subject_id": 272
+    },
+    {
+        "book_id": 94,
+        "subject_id": 43
+    },
+    {
+        "book_id": 94,
+        "subject_id": 54
+    },
+    {
+        "book_id": 94,
+        "subject_id": 79
+    },
+    {
+        "book_id": 94,
+        "subject_id": 89
+    },
+    {
+        "book_id": 94,
+        "subject_id": 131
+    },
+    {
+        "book_id": 94,
+        "subject_id": 151
+    },
+    {
+        "book_id": 94,
+        "subject_id": 304
+    },
+    {
+        "book_id": 94,
+        "subject_id": 156
+    },
+    {
+        "book_id": 94,
+        "subject_id": 233
+    },
+    {
+        "book_id": 94,
+        "subject_id": 242
+    },
+    {
+        "book_id": 94,
+        "subject_id": 277
+    },
+    {
+        "book_id": 95,
+        "subject_id": 290
+    },
+    {
+        "book_id": 95,
+        "subject_id": 79
+    },
+    {
+        "book_id": 95,
+        "subject_id": 89
+    },
+    {
+        "book_id": 95,
+        "subject_id": 108
+    },
+    {
+        "book_id": 95,
+        "subject_id": 153
+    },
+    {
+        "book_id": 95,
+        "subject_id": 306
+    },
+    {
+        "book_id": 95,
+        "subject_id": 176
+    },
+    {
+        "book_id": 95,
+        "subject_id": 202
+    },
+    {
+        "book_id": 95,
+        "subject_id": 225
+    },
+    {
+        "book_id": 96,
+        "subject_id": 286
+    },
+    {
+        "book_id": 96,
+        "subject_id": 37
+    },
+    {
+        "book_id": 96,
+        "subject_id": 66
+    },
+    {
+        "book_id": 96,
+        "subject_id": 79
+    },
+    {
+        "book_id": 96,
+        "subject_id": 117
+    },
+    {
+        "book_id": 96,
+        "subject_id": 151
+    },
+    {
+        "book_id": 96,
+        "subject_id": 156
+    },
+    {
+        "book_id": 96,
+        "subject_id": 247
+    },
+    {
+        "book_id": 96,
+        "subject_id": 318
+    },
+    {
+        "book_id": 97,
+        "subject_id": 16
+    },
+    {
+        "book_id": 97,
+        "subject_id": 42
+    },
+    {
+        "book_id": 97,
+        "subject_id": 52
+    },
+    {
+        "book_id": 97,
+        "subject_id": 71
+    },
+    {
+        "book_id": 97,
+        "subject_id": 87
+    },
+    {
+        "book_id": 97,
+        "subject_id": 151
+    },
+    {
+        "book_id": 97,
+        "subject_id": 152
+    },
+    {
+        "book_id": 97,
+        "subject_id": 226
+    },
+    {
+        "book_id": 97,
+        "subject_id": 270
+    },
+    {
+        "book_id": 97,
+        "subject_id": 273
+    },
+    {
+        "book_id": 98,
+        "subject_id": 22
+    },
+    {
+        "book_id": 98,
+        "subject_id": 290
+    },
+    {
+        "book_id": 98,
+        "subject_id": 54
+    },
+    {
+        "book_id": 98,
+        "subject_id": 297
+    },
+    {
+        "book_id": 98,
+        "subject_id": 298
+    },
+    {
+        "book_id": 98,
+        "subject_id": 306
+    },
+    {
+        "book_id": 98,
+        "subject_id": 247
+    },
+    {
+        "book_id": 98,
+        "subject_id": 274
+    },
+    {
+        "book_id": 99,
+        "subject_id": 295
+    },
+    {
+        "book_id": 99,
+        "subject_id": 98
+    },
+    {
+        "book_id": 99,
+        "subject_id": 112
+    },
+    {
+        "book_id": 99,
+        "subject_id": 146
+    },
+    {
+        "book_id": 99,
+        "subject_id": 151
+    },
+    {
+        "book_id": 99,
+        "subject_id": 177
+    },
+    {
+        "book_id": 99,
+        "subject_id": 247
+    },
+    {
+        "book_id": 99,
+        "subject_id": 261
+    },
+    {
+        "book_id": 99,
+        "subject_id": 262
+    },
+    {
+        "book_id": 99,
+        "subject_id": 264
+    },
+    {
+        "book_id": 99,
+        "subject_id": 277
+    },
+    {
+        "book_id": 100,
+        "subject_id": 19
+    },
+    {
+        "book_id": 100,
+        "subject_id": 31
+    },
+    {
+        "book_id": 100,
+        "subject_id": 79
+    },
+    {
+        "book_id": 100,
+        "subject_id": 82
+    },
+    {
+        "book_id": 100,
+        "subject_id": 95
+    },
+    {
+        "book_id": 100,
+        "subject_id": 104
+    },
+    {
+        "book_id": 100,
+        "subject_id": 136
+    },
+    {
+        "book_id": 100,
+        "subject_id": 205
+    },
+    {
+        "book_id": 100,
+        "subject_id": 207
+    },
+    {
+        "book_id": 100,
+        "subject_id": 256
+    },
+    {
+        "book_id": 100,
+        "subject_id": 266
+    },
+    {
+        "book_id": 101,
+        "subject_id": 53
+    },
+    {
+        "book_id": 101,
+        "subject_id": 58
+    },
+    {
+        "book_id": 101,
+        "subject_id": 294
+    },
+    {
+        "book_id": 101,
+        "subject_id": 95
+    },
+    {
+        "book_id": 101,
+        "subject_id": 301
+    },
+    {
+        "book_id": 101,
+        "subject_id": 151
+    },
+    {
+        "book_id": 101,
+        "subject_id": 153
+    },
+    {
+        "book_id": 101,
+        "subject_id": 224
+    },
+    {
+        "book_id": 102,
+        "subject_id": 8
+    },
+    {
+        "book_id": 102,
+        "subject_id": 294
+    },
+    {
+        "book_id": 102,
+        "subject_id": 98
+    },
+    {
+        "book_id": 102,
+        "subject_id": 107
+    },
+    {
+        "book_id": 102,
+        "subject_id": 136
+    },
+    {
+        "book_id": 102,
+        "subject_id": 307
+    },
+    {
+        "book_id": 102,
+        "subject_id": 201
+    },
+    {
+        "book_id": 102,
+        "subject_id": 213
+    },
+    {
+        "book_id": 102,
+        "subject_id": 270
+    },
+    {
+        "book_id": 103,
+        "subject_id": 16
+    },
+    {
+        "book_id": 103,
+        "subject_id": 79
+    },
+    {
+        "book_id": 103,
+        "subject_id": 107
+    },
+    {
+        "book_id": 103,
+        "subject_id": 144
+    },
+    {
+        "book_id": 103,
+        "subject_id": 175
+    },
+    {
+        "book_id": 103,
+        "subject_id": 202
+    },
+    {
+        "book_id": 103,
+        "subject_id": 207
+    },
+    {
+        "book_id": 103,
+        "subject_id": 225
+    },
+    {
+        "book_id": 103,
+        "subject_id": 258
+    },
+    {
+        "book_id": 104,
+        "subject_id": 53
+    },
+    {
+        "book_id": 104,
+        "subject_id": 58
+    },
+    {
+        "book_id": 104,
+        "subject_id": 85
+    },
+    {
+        "book_id": 104,
+        "subject_id": 107
+    },
+    {
+        "book_id": 104,
+        "subject_id": 166
+    },
+    {
+        "book_id": 104,
+        "subject_id": 173
+    },
+    {
+        "book_id": 104,
+        "subject_id": 215
+    },
+    {
+        "book_id": 105,
+        "subject_id": 74
+    },
+    {
+        "book_id": 105,
+        "subject_id": 82
+    },
+    {
+        "book_id": 105,
+        "subject_id": 87
+    },
+    {
+        "book_id": 105,
+        "subject_id": 107
+    },
+    {
+        "book_id": 105,
+        "subject_id": 118
+    },
+    {
+        "book_id": 105,
+        "subject_id": 151
+    },
+    {
+        "book_id": 105,
+        "subject_id": 159
+    },
+    {
+        "book_id": 106,
+        "subject_id": 293
+    },
+    {
+        "book_id": 106,
+        "subject_id": 98
+    },
+    {
+        "book_id": 106,
+        "subject_id": 117
+    },
+    {
+        "book_id": 106,
+        "subject_id": 174
+    },
+    {
+        "book_id": 106,
+        "subject_id": 218
+    },
+    {
+        "book_id": 106,
+        "subject_id": 235
+    },
+    {
+        "book_id": 106,
+        "subject_id": 237
+    },
+    {
+        "book_id": 106,
+        "subject_id": 251
+    },
+    {
+        "book_id": 106,
+        "subject_id": 263
+    },
+    {
+        "book_id": 107,
+        "subject_id": 16
+    },
+    {
+        "book_id": 107,
+        "subject_id": 79
+    },
+    {
+        "book_id": 107,
+        "subject_id": 151
+    },
+    {
+        "book_id": 107,
+        "subject_id": 158
+    },
+    {
+        "book_id": 107,
+        "subject_id": 199
+    },
+    {
+        "book_id": 107,
+        "subject_id": 225
+    },
+    {
+        "book_id": 107,
+        "subject_id": 258
+    },
+    {
+        "book_id": 107,
+        "subject_id": 273
+    },
+    {
+        "book_id": 107,
+        "subject_id": 279
+    },
+    {
+        "book_id": 108,
+        "subject_id": 11
+    },
+    {
+        "book_id": 108,
+        "subject_id": 285
+    },
+    {
+        "book_id": 108,
+        "subject_id": 79
+    },
+    {
+        "book_id": 108,
+        "subject_id": 81
+    },
+    {
+        "book_id": 108,
+        "subject_id": 89
+    },
+    {
+        "book_id": 108,
+        "subject_id": 137
+    },
+    {
+        "book_id": 108,
+        "subject_id": 148
+    },
+    {
+        "book_id": 108,
+        "subject_id": 152
+    },
+    {
+        "book_id": 108,
+        "subject_id": 165
+    },
+    {
+        "book_id": 108,
+        "subject_id": 226
+    },
+    {
+        "book_id": 109,
+        "subject_id": 26
+    },
+    {
+        "book_id": 109,
+        "subject_id": 290
+    },
+    {
+        "book_id": 109,
+        "subject_id": 54
+    },
+    {
+        "book_id": 109,
+        "subject_id": 306
+    },
+    {
+        "book_id": 109,
+        "subject_id": 196
+    },
+    {
+        "book_id": 109,
+        "subject_id": 242
+    },
+    {
+        "book_id": 109,
+        "subject_id": 254
+    },
+    {
+        "book_id": 110,
+        "subject_id": 9
+    },
+    {
+        "book_id": 110,
+        "subject_id": 37
+    },
+    {
+        "book_id": 110,
+        "subject_id": 292
+    },
+    {
+        "book_id": 110,
+        "subject_id": 107
+    },
+    {
+        "book_id": 110,
+        "subject_id": 301
+    },
+    {
+        "book_id": 110,
+        "subject_id": 209
+    },
+    {
+        "book_id": 110,
+        "subject_id": 247
+    },
+    {
+        "book_id": 110,
+        "subject_id": 277
+    },
+    {
+        "book_id": 111,
+        "subject_id": 24
+    },
+    {
+        "book_id": 111,
+        "subject_id": 52
+    },
+    {
+        "book_id": 111,
+        "subject_id": 79
+    },
+    {
+        "book_id": 111,
+        "subject_id": 98
+    },
+    {
+        "book_id": 111,
+        "subject_id": 129
+    },
+    {
+        "book_id": 111,
+        "subject_id": 133
+    },
+    {
+        "book_id": 111,
+        "subject_id": 136
+    },
+    {
+        "book_id": 111,
+        "subject_id": 143
+    },
+    {
+        "book_id": 111,
+        "subject_id": 171
+    },
+    {
+        "book_id": 111,
+        "subject_id": 208
+    },
+    {
+        "book_id": 111,
+        "subject_id": 210
+    },
+    {
+        "book_id": 111,
+        "subject_id": 220
+    },
+    {
+        "book_id": 111,
+        "subject_id": 270
+    },
+    {
+        "book_id": 112,
+        "subject_id": 16
+    },
+    {
+        "book_id": 112,
+        "subject_id": 42
+    },
+    {
+        "book_id": 112,
+        "subject_id": 89
+    },
+    {
+        "book_id": 112,
+        "subject_id": 297
+    },
+    {
+        "book_id": 112,
+        "subject_id": 152
+    },
+    {
+        "book_id": 112,
+        "subject_id": 197
+    },
+    {
+        "book_id": 112,
+        "subject_id": 319
+    },
+    {
+        "book_id": 113,
+        "subject_id": 9
+    },
+    {
+        "book_id": 113,
+        "subject_id": 286
+    },
+    {
+        "book_id": 113,
+        "subject_id": 54
+    },
+    {
+        "book_id": 113,
+        "subject_id": 79
+    },
+    {
+        "book_id": 113,
+        "subject_id": 89
+    },
+    {
+        "book_id": 113,
+        "subject_id": 156
+    },
+    {
+        "book_id": 113,
+        "subject_id": 306
+    },
+    {
+        "book_id": 113,
+        "subject_id": 247
+    },
+    {
+        "book_id": 113,
+        "subject_id": 320
+    },
+    {
+        "book_id": 113,
+        "subject_id": 274
+    },
+    {
+        "book_id": 114,
+        "subject_id": 1
+    },
+    {
+        "book_id": 114,
+        "subject_id": 18
+    },
+    {
+        "book_id": 114,
+        "subject_id": 290
+    },
+    {
+        "book_id": 114,
+        "subject_id": 54
+    },
+    {
+        "book_id": 114,
+        "subject_id": 60
+    },
+    {
+        "book_id": 114,
+        "subject_id": 79
+    },
+    {
+        "book_id": 114,
+        "subject_id": 171
+    },
+    {
+        "book_id": 114,
+        "subject_id": 274
+    },
+    {
+        "book_id": 115,
+        "subject_id": 8
+    },
+    {
+        "book_id": 115,
+        "subject_id": 33
+    },
+    {
+        "book_id": 115,
+        "subject_id": 58
+    },
+    {
+        "book_id": 115,
+        "subject_id": 89
+    },
+    {
+        "book_id": 115,
+        "subject_id": 98
+    },
+    {
+        "book_id": 115,
+        "subject_id": 107
+    },
+    {
+        "book_id": 115,
+        "subject_id": 301
+    },
+    {
+        "book_id": 115,
+        "subject_id": 303
+    },
+    {
+        "book_id": 115,
+        "subject_id": 213
+    },
+    {
+        "book_id": 116,
+        "subject_id": 79
+    },
+    {
+        "book_id": 116,
+        "subject_id": 80
+    },
+    {
+        "book_id": 116,
+        "subject_id": 82
+    },
+    {
+        "book_id": 116,
+        "subject_id": 296
+    },
+    {
+        "book_id": 116,
+        "subject_id": 124
+    },
+    {
+        "book_id": 116,
+        "subject_id": 156
+    },
+    {
+        "book_id": 116,
+        "subject_id": 306
+    },
+    {
+        "book_id": 116,
+        "subject_id": 174
+    },
+    {
+        "book_id": 116,
+        "subject_id": 211
+    },
+    {
+        "book_id": 116,
+        "subject_id": 242
+    },
+    {
+        "book_id": 117,
+        "subject_id": 16
+    },
+    {
+        "book_id": 117,
+        "subject_id": 42
+    },
+    {
+        "book_id": 117,
+        "subject_id": 54
+    },
+    {
+        "book_id": 117,
+        "subject_id": 89
+    },
+    {
+        "book_id": 117,
+        "subject_id": 99
+    },
+    {
+        "book_id": 117,
+        "subject_id": 128
+    },
+    {
+        "book_id": 117,
+        "subject_id": 152
+    },
+    {
+        "book_id": 117,
+        "subject_id": 224
+    },
+    {
+        "book_id": 118,
+        "subject_id": 22
+    },
+    {
+        "book_id": 118,
+        "subject_id": 58
+    },
+    {
+        "book_id": 118,
+        "subject_id": 74
+    },
+    {
+        "book_id": 118,
+        "subject_id": 79
+    },
+    {
+        "book_id": 118,
+        "subject_id": 80
+    },
+    {
+        "book_id": 118,
+        "subject_id": 98
+    },
+    {
+        "book_id": 118,
+        "subject_id": 298
+    },
+    {
+        "book_id": 118,
+        "subject_id": 301
+    },
+    {
+        "book_id": 118,
+        "subject_id": 151
+    },
+    {
+        "book_id": 118,
+        "subject_id": 156
+    },
+    {
+        "book_id": 118,
+        "subject_id": 169
+    },
+    {
+        "book_id": 118,
+        "subject_id": 242
+    },
+    {
+        "book_id": 119,
+        "subject_id": 288
+    },
+    {
+        "book_id": 119,
+        "subject_id": 52
+    },
+    {
+        "book_id": 119,
+        "subject_id": 66
+    },
+    {
+        "book_id": 119,
+        "subject_id": 79
+    },
+    {
+        "book_id": 119,
+        "subject_id": 99
+    },
+    {
+        "book_id": 119,
+        "subject_id": 136
+    },
+    {
+        "book_id": 119,
+        "subject_id": 143
+    },
+    {
+        "book_id": 119,
+        "subject_id": 152
+    },
+    {
+        "book_id": 119,
+        "subject_id": 313
+    },
+    {
+        "book_id": 120,
+        "subject_id": 2
+    },
+    {
+        "book_id": 120,
+        "subject_id": 72
+    },
+    {
+        "book_id": 120,
+        "subject_id": 294
+    },
+    {
+        "book_id": 120,
+        "subject_id": 98
+    },
+    {
+        "book_id": 120,
+        "subject_id": 103
+    },
+    {
+        "book_id": 120,
+        "subject_id": 301
+    },
+    {
+        "book_id": 120,
+        "subject_id": 132
+    },
+    {
+        "book_id": 120,
+        "subject_id": 191
+    },
+    {
+        "book_id": 120,
+        "subject_id": 258
+    },
+    {
+        "book_id": 120,
+        "subject_id": 273
+    },
+    {
+        "book_id": 120,
+        "subject_id": 280
+    },
+    {
+        "book_id": 120,
+        "subject_id": 321
+    }
+]

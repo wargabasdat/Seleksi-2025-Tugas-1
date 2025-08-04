@@ -1,0 +1,26 @@
+[
+    {
+        "length_id": 1,
+        "length_name": "Long"
+    },
+    {
+        "length_id": 2,
+        "length_name": "Medium"
+    },
+    {
+        "length_id": 3,
+        "length_name": "Moderate"
+    },
+    {
+        "length_id": 4,
+        "length_name": "Short"
+    },
+    {
+        "length_id": 5,
+        "length_name": "Very Long"
+    },
+    {
+        "length_id": 6,
+        "length_name": "Very Short"
+    }
+]
