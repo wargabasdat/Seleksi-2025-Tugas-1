@@ -1,22 +1,26 @@
 [
   {
-    "name": "Dresses",
-    "url": "https://dumaofficial.com/collections/dress",
-    "image": "https://dumaofficial.com/cdn/shop/files/BiannaDressKhaki4_1x1.jpg?v=1753853214"
+    "category_id": "C001",
+    "name": "Dress"
   },
   {
-    "name": "Tops",
-    "url": "https://dumaofficial.com/collections/top",
-    "image": "https://dumaofficial.com/cdn/shop/files/RhimaTopButter5_1x1.jpg?v=1753853423"
+    "category_id": "C002",
+    "name": "Top"
   },
   {
-    "name": "Bottoms",
-    "url": "https://dumaofficial.com/collections/bottom",
-    "image": "https://dumaofficial.com/cdn/shop/files/PossaSkirtWhite2_1x1.jpg?v=1753843203"
+    "category_id": "C003",
+    "name": "Outerwear"
   },
   {
-    "name": "Outerwears",
-    "url": "https://dumaofficial.com/collections/outerwear",
-    "image": "https://dumaofficial.com/cdn/shop/files/GrenoTopBlue2_1x1.jpg?v=1753852806"
+    "category_id": "C004",
+    "name": "Card"
+  },
+  {
+    "category_id": "C005",
+    "name": "Pants"
+  },
+  {
+    "category_id": "C006",
+    "name": "Skirt"
   }
 ]
