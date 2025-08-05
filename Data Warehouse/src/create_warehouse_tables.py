@@ -10,6 +10,10 @@ conn = psycopg2.connect(
 
 cur = conn.cursor()
 
+drop_statements = [
+    "DROP TABLE IF EXISTS dim_videogame, dim_year, dim_director, fact_videogame_rating, fact_director_credit CASCADE;",
+]
+
 # Buat tabel dimensi dan fact
 create_tables_queries = [
     # dim_videogame
@@ -62,7 +66,7 @@ create_tables_queries = [
 ]
 
 # Jalankan semua query
-for query in create_tables_queries:
+for query in drop_statements + create_tables_queries:
     cur.execute(query)
 
 # Simpan perubahan dan tutup koneksi

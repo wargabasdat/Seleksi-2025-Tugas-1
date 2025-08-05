@@ -549,6 +549,74 @@ COPY public.cast_credit (videogame_id, star_id) FROM stdin;
 75	173
 75	174
 75	175
+76	176
+76	168
+76	16
+77	177
+77	178
+78	51
+78	179
+78	180
+80	71
+80	73
+80	72
+81	181
+81	182
+81	183
+82	184
+82	185
+82	186
+84	187
+84	188
+84	4
+85	189
+85	190
+85	191
+86	192
+86	193
+86	194
+87	25
+87	26
+87	46
+88	13
+88	195
+88	196
+89	197
+89	198
+89	199
+90	200
+90	16
+90	201
+91	202
+91	203
+91	204
+92	205
+92	206
+92	207
+93	168
+93	201
+93	208
+94	209
+94	210
+94	211
+95	212
+95	184
+95	186
+96	62
+96	213
+96	108
+97	214
+97	215
+97	216
+98	217
+98	218
+98	219
+99	220
+99	221
+99	222
+100	170
+100	223
+100	224
 \.
 
 
@@ -629,6 +697,27 @@ COPY public.director (id, director_name) FROM stdin;
 62	Mark Schwarz
 63	Duane Stinnett
 64	Martin Hollis
+65	Masahiro Sakurai
+66	Yoshio Sakamoto
+67	Hiroyuki Itô
+68	Jonathan Ackley
+69	Larry Ahern
+70	Keiji Okayasu
+71	Yu Suzuki
+72	Hal Barwood
+73	Shinta Nojiri
+74	Kazuki Hosokawa
+75	Toshihiro Nagoshi
+76	Justin Richmond
+77	Jason West
+78	Kenta Motokura
+79	Zane Lyon
+80	Chris Parker
+81	Chris 'Crispy' Brion
+82	Dave Grossman
+83	Didrik Tollefsen
+84	Ragnar Tørnquist
+85	Matthew Samia
 \.
 
 
@@ -728,6 +817,39 @@ COPY public.director_credit (videogame_id, director_id) FROM stdin;
 74	62
 74	63
 75	64
+76	65
+77	66
+78	21
+79	67
+79	10
+80	68
+80	69
+81	70
+81	71
+82	72
+83	73
+84	16
+85	65
+86	74
+86	75
+87	20
+87	76
+88	5
+89	77
+90	78
+91	79
+91	80
+91	81
+92	6
+93	8
+94	6
+95	82
+95	45
+96	24
+98	83
+98	84
+99	49
+100	85
 \.
 
 
@@ -927,6 +1049,55 @@ COPY public.star (id, star_name) FROM stdin;
 173	Kevin Bayliss
 174	Ken Lobb
 175	Scott Hochberg
+176	Dean Harrington
+177	Kenji Yamamoto
+178	Dan Owsen
+179	Merle Dandridge
+180	Tony Todd
+181	Hiroshi Fujioka
+182	Masaya Matsukaze
+183	Corey Marshall
+184	Denny Delk
+185	David Gitin
+186	Jane Jacobs
+187	Carlos Alazraqui
+188	Laura Bailey
+189	Jaz Adams
+190	Rikako Aikawa
+191	Justin Anselmi
+192	Takaya Kuroda
+193	Hidenari Ugaki
+194	Kazuhiro Nakaya
+195	Quinton Flynn
+196	Christopher Randolph
+197	Billy Murray
+198	Craig Fairbrass
+199	David Sobolov
+200	Kate Higgins
+201	Kenny James
+202	Trey Parker
+203	Matt Stone
+204	Mona Marshall
+205	Akira Sasanuma
+206	Akiko Kômoto
+207	Hironori Miyata
+208	Samantha Kelly
+209	Nate Bihldorff
+210	Osamu Hosoi
+211	Asami Imai
+212	Richard Sanders
+213	Michael Bell
+214	Frank Gorshin
+215	Liana Young
+216	James Harper
+217	Sarah Hamilton
+218	Regina Lund
+219	Louis Aguirre
+220	Kemal Amarasingham
+221	Laura Baldwin
+222	Matt Boynton
+223	Jack Ritschel
+224	Paul Ainsley
 \.
 
 
@@ -935,81 +1106,106 @@ COPY public.star (id, star_name) FROM stdin;
 --
 
 COPY public.videogame (id, title, year, age_rating, rating, description, country_id) FROM stdin;
-1	1. Red Dead Redemption II	2018	M	9.7	Follows outlaw Arthur Morgan and his gang, led by the charismatic Dutch Van der Linde, as they struggle to cope with the loss of their way of life amidst the decline of the Wild West at the turn of the 20th century.	\N
-2	2. The Last of Us	2013	M	9.7	In a hostile, post-pandemic world, Joel and Ellie, brought together by desperate circumstances, must rely on each other to survive a brutal journey across what remains of the United States.	\N
-3	3. The Witcher 3: Wild Hunt	2015	M	9.6	The monster slayer Geralt of Rivia must find his adoptive daughter who is being pursued by the Wild Hunt, and prevent the White Frost from bringing about the end of the world.	\N
-4	4. God of War	2018	M	9.5	After wiping out the gods of Mount Olympus, Kratos moves on to the frigid lands of Scandinavia, where he and his son must embark on an odyssey across a dangerous world of gods and monsters.	\N
-5	5. Metal Gear Solid	1998	M	9.5	A crack government anti-terrorist squad takes over an obscure Alaskan nuclear disposal facility. Solid Snake is up for the task to infiltrate the facility, rescue the two hostages and thwart the terrorists' plans.	\N
-6	6. The Legend of Zelda: Ocarina of Time	1998	E	9.6	A young Kokiri boy discovers that his destiny is to free the Seven Sages and save the land of Hyrule from the treacherous sorcerer Ganondorf.	\N
-7	7. Grand Theft Auto V	2013	M	9.4	Three very different criminals team up for a series of heists and walk into some of the most thrilling experiences in the corrupt city of Los Santos in the sate of Southern San Andreas.	\N
-8	8. Mass Effect 2	2010	M	9.5	After being revived from death and having to join a pro-human organization without a choice, Commander Shepard must assemble a team, battle a new threat, and make tough choices in order to save the galaxy from total annihilation once more.	\N
-9	9. Uncharted 4: A Thief's End	2016	T	9.4	Thrown back into the dangerous underworld he'd tried to leave behind, Nathan Drake must decide what he's willing to sacrifice to save the ones he loves.	\N
-10	10. Metal Gear Solid 3: Snake Eater	2004	M	9.5	In 1964, a U.S. government operative codenamed "Snake" must infiltrate mountainous Soviet territory to rescue a scientist building a weapon of terrible power.	\N
-11	11. Star Wars: Knights of the Old Republic	2003	T	9.5	A republic soldier, training to become a Jedi Knight, is given the task of halting the conquest of Darth Malak by discovering the location of a weapon known as the Star Forge.	\N
-12	12. Final Fantasy VII	1997	T	9.5	A former soldier from an evil company joins a mercenary clan to fight the company he once served.	\N
-13	13. Chrono Trigger	1995	E	9.4	Crono, a young boy, is thrust to adventure by destiny to destroy an oncoming threat that will destroy the world in 1999.	\N
-14	14. Grand Theft Auto: San Andreas	2004	M	9.4	In 1992, Carl "CJ" Johnson, a member of the Grove Street gang, comes home after a family tragedy to find the streets of Los Santos overtaken by crime and corruption, which he must take back before things become worse.	\N
-15	15. The Elder Scrolls V: Skyrim	2011	M	9.3	After escaping execution, the last living Dragonborn must grow in strength and power to defeat the dragons that have once again begun to plague the land of Skyrim.	\N
-16	16. Red Dead Redemption	2010	M	9.4	Follows a former outlaw, John Marston, who is forced by the federal government to hunt down the members of his old gang during the decline of the American frontier in the year 1911.	\N
-17	17. Batman: Arkham City	2011	T	9.4	When part of Gotham is turned into a private reserve for criminals known as Arkham City, all hell is sure to break loose, and the Dark Knight is the only one who can stop it.	\N
-18	18. The Legend of Zelda: Breath of the Wild	2017	E10+	9.4	After a century of hibernation, Link reawakens to once again save a ruined Hyrule from a great evil.	\N
-19	19. Uncharted 2: Among Thieves	2009	18+	9.3	After being tracked down by Harry Flynn, Nathan Drake goes on a quest for Marco Polo's lost fleet. However when things take an unexpected turn for the worst, Drake must rely on those closest to him in order to find the Cintomani Stone.	\N
-20	20. Portal 2	2011	E10+	9.4	Many years after "Portal," Chell reawakens at Aperture Science and tries to stop GLaDOS once again with the help of Wheatley, who has his own plans for the historical facility.	\N
-21	21. Half-Life 2	2004	M	9.4	Dr. Freeman is taken out of stasis by his "employer" to help rid the planet of invading aliens forces known as the Combine that entered through the portals he helped create.	\N
-22	22. Metal Gear Solid 4: Guns of the Patriots	2008	M	9.3	When the nations of the world rely upon private military companies to fight their battles for them, renegade Liquid Ocelot emerges as the head of a potent coalition of mercenary powers. Solid Snake returns to save the world once again.	\N
-23	23. Silent Hill 2	2001	M	9.4	After receiving a letter from his late wife, from Silent Hill, James Sunderland heads towards the town to search for her, only to come across a terrifying road of truth and redemption.	\N
-24	24. Fallout 2: A Post-Nuclear Role-Playing Game	1998	M	9.4	In a post-nuclear future, the descendant of an ancient exiled hero must leave his tribe in search of the Garden of Eden Creation Kit, the last chance of survival for his people.	\N
-25	25. Baldur's Gate II: Shadows of Amn	2000	T	9.4	Jon Irenicus, a sadistic secretive powerful mage bent on revenge, captures Gorion's ward and his/her party for a diabolical experiment.	\N
-26	26. Planescape: Torment	1999	T	9.3	In the city of Sigil, the only place from which all realities of the Planescape universe can be reached, an immortal amnesiac, the Nameless One, must uncover his past, the mystery of his immortality as well as who's trying to kill him.	\N
-27	27. Ghost of Tsushima	2020	M	9.2	Set in 1274 on the Tsushima Island, the last samurai, Jin Sakai, must master a new fighting style, the way of the Ghost, to defeat the Mongol forces and fight for the freedom and independence of Japan.	\N
-28	28. Persona 5	2016	M	9.2	A group of high school students create a vigilante group to expose the crimes of corrupt adults but soon find themselves in the midst of a worldwide conspiracy and targeted by powerful individuals who would do anything to silence them.	\N
-29	29. P.T.	2014	M	9.2	The player must navigate a series of continuously looping hallways, solving cryptic puzzles, all while being hunted by a hostile apparition named Lisa.	\N
-30	30. Super Mario World	1990	E	9.2	While Mario and Luigi are vacationing in Dinosaur Land, Bowser kidnaps the Princess. Mario and his new dino friend Yoshi go on a mission to save her.	\N
-31	31. The Secret of Monkey Island	1990	E	9.3	Young pirate wanna-be Guybrush Threepwood sets out to pass the Three Trials, woo the governess Elaine Marley, reach the fabled Monkey Island and vanquish the nefarious ghost pirate LeChuck.	\N
-32	32. The Legend of Zelda: A Link to the Past	1991	E	9.2	The wizard Agahnim has abducted seven maidens, intent on using their power to open a portal to the Dark World. Armed with a trusty sword and shield, Link begins a great and treacherous journey.	\N
-33	33. Shadow of the Colossus	2005	T	9.2	A young man brings a deceased woman to a forbidden land inhabited by colossal beings said to house the power to revive the dead.	\N
-34	34. Detroit: Become Human	2018	M	9.1	Three androids go on a quest to discover who they really are.	\N
-35	35. Spider-Man	2018	T	9.2	When a new villain threatens New York City, Peter Parker and Spider-Man's worlds collide. To save the city and those he loves, he must rise up and be greater.	\N
-36	36. Mass Effect	2007	M	9.1	In a technologically advanced future, an elite human soldier takes command of a prototype star ship and works to defend the galaxy from danger.	\N
-37	37. Grand Theft Auto: Vice City	2002	M	9.2	In 1986, after doing 15 years in prison in Liberty City, gangster Tommy Vercetti is sent away to Vice City to take over the town and rise to the top of the criminal empire.	\N
-38	38. Batman: Arkham Asylum	2009	T	9.1	Batman battles his archenemy, the Joker, who instigates an elaborate plot to seize control of Arkham Asylum, trap Batman inside with many of his incarcerated foes, and threaten Gotham City with hidden bombs.	\N
-39	39. Resident Evil 4	2005	M	9.2	Six years after the events in Raccoon City, Leon Kennedy, now a federal agent, is sent to a rural part of Spain to rescue the U.S. President's kidnapped daughter, Ashley Graham from a sinister cult.	\N
-40	40. The Walking Dead: A Telltale Game Series	2012	M	9.2	In a world devastated by the undead, a convicted criminal is given a second chance at life when he comes across a little girl named Clementine.	\N
-41	41. Bloodborne	2015	M	9.2	A hunter awakens in the plagued lands of Yharnam, where the denizens have succumbed to beasthood, in an attempt to learn the truth and how to end the plague, unbeknownst of the true horror lurking within the city.	\N
-42	42. Max Payne	2001	M	9.2	A troubled NYPD cop is framed for murder and finds himself being hunted by the police, the mob, and a ruthless corporation.	\N
-43	43. Kingdom Hearts	2002	E	9.1	When his world is destroyed and his friends mysteriously disappear, a young boy named Sora is thrust into a quest to find his missing friends and prevent the armies of darkness from destroying many other worlds.	\N
-44	44. God of War II	2007	M	9.2	After being betrayed by the gods of Olympus and annulled of his divine powers, Kratos must embark on a journey to meet the Sisters of Fate and take his revenge on Olympus.	\N
-45	45. God of War II	2007	M	9.2	After being betrayed by the gods of Olympus and annulled of his divine powers, Kratos must embark on a journey to meet the Sisters of Fate and take his revenge on Olympus.	\N
-46	46. Fallout	1997	M	9.1	After being sent by the overseer of his vault to search for a new water purifying chip, the player discovers the horrors of post apocalyptic America, and the threat of the Master's Army.	\N
-47	47. Half-Life	1998	M	9.1	Dr. Gordon Freeman must fight his way out of a secret research facility after a teleportation experiment goes disastrously wrong.	\N
-48	48. Mafia: The City of Lost Heaven	2002	M	9.1	Set within the fictional American city of Lost Heaven during the 1930s, the story follows the rise and fall of taxi driver-turned-mobster Tommy Angelo within the Salieri crime family.	\N
-49	49. Deus Ex	2000	M	9.2	In a dark cyberpunk future where poverty, disease, oppression and terrorism are widespread, J.C. Denton, a new cybernetically-enhanced special agent, finds evidence of a massive conspiracy when his brother, also an agent, goes rogue.	\N
-50	50. Grim Fandango	1998	T	9.1	Manuel Calavera is a travel agent in The Land of the Dead who has stumbled across a ring of corruption.	\N
-51	51. Castlevania: Symphony of the Night	1997	T	9.2	In 1797, Shaft manages to regain power through a curse placed on Richter Belmont. Four years later, Dracula's son Alucard awakens from his eternal slumber, intent on destroying his evil father once and for all.	\N
-52	52. Super Mario Bros. 3	1988	E	9.2	King Koopa has kidnapped Princess Toadstool, taken over all seven kingdoms in the Mushroom World, and put his seven kids in charge of all of them. It's the Mario Brothers to the rescue.	\N
-53	53. Monkey Island 2: LeChuck's Revenge	1991	E	9.2	Having vanquished the ghost pirate LeChuck with a soft drink, Guybrush Threepwood now seeks the treasure of Big Whoop. During his quest he discovers LeChuck is back from the dead. Once again.	\N
-54	54. Mass Effect 3	2012	M	9.1	Earth is under attack by a monstrous race of gigantic living ships known as the Reapers. Even if Commander Shepard could unite all surviving species in the galaxy, only a miracle could save them. Then again, Shepard did come back from the dead.	\N
-55	55. Horizon Zero Dawn	2017	T	8.9	In a primitive tribal world where strange, monstrous, animalistic machines roam the wilderness, a brave young female warrior goes on a quest to learn the truth about her mysterious origin and the state the world is in.	\N
-56	56. BioShock Infinite	2013	M	9.1	A man is sent to the flying city of Columbia to find a missing girl. However, upon arrival he discovers that the city, its people, and his objective are all not what they seem.	\N
-57	57. God of War III	2010	M	9.1	Armed with his deadly double-chained blades, Kratos must take on Greek mythology's darkest creatures to destroy Olympus and the mighty Zeus himself.	\N
-58	58. BioShock	2007	M	9.1	In 1960, a lone survivor of a plane crash named Jack discovers an abandoned underwater utopia, only to find out that the mystery behind its creation is much more sinister than he first believed.	\N
-59	59. Assassin's Creed II	2009	M	9	Desmond Miles is trained to become a modern-day Assassin through the resurrected memories of ancestor Ezio Auditore da Firenze, who uncovers a massive Templar conspiracy in Renaissance Italy leading to the new Pope.	\N
-60	60. Assassin's Creed II	2009	M	9	Desmond Miles is trained to become a modern-day Assassin through the resurrected memories of ancestor Ezio Auditore da Firenze, who uncovers a massive Templar conspiracy in Renaissance Italy leading to the new Pope.	\N
-61	61. Final Fantasy X	2001	T	9.1	A celebrated young athlete is drawn from his futuristic hometown and convenient lifestyle to a harsh and techno-phobic land by a mysterious force only known as Sin.	\N
-62	62. Fallout 3	2008	M	9	Centuries following nuclear war, a teen leaves the safety of an underground vault in order to find their father, who left in hopes of creating a water purifier.	\N
-63	63. Dragon Age: Origins	2009	M	9.1	After four hundred years since the last Blight, a new Archdemon seeks to destroy the land of Ferelden. It is up to the player - as one of the remaining Grey Wardens - to unite the divided armies of Ferelden and save humanity.	\N
-64	64. God of War	2005	M	9	After 10 years of endless nightmares and servitude to the gods of Olympus, Kratos is assigned with a final task, to kill Ares, the God of War.	\N
-65	65. Dark Souls III	2016	M	9.1	The fire is fading. Darkness creeps across the land. The Lords of Cinder charged with watching over the First Flame have abandoned their thrones. The Champion of Ash, an undead is chosen to return them to their thrones.	\N
-66	66. Max Payne 2: The Fall of Max Payne	2003	M	9.1	The brooding cop has left the DEA and returned to the NYPD. When his latest case ends up involving the thought-dead femme fatale Mona Sax, he finds that his journey through the night is far from over.	\N
-67	67. Resident Evil 2	1998	M	9.1	Two months after the mansion events, the deadly T-virus escapes into the streets of Raccoon City. Leon Kennedy and Claire Redfield find the police office left abandoned. In an underground facility the story of Umbrella Corp. gets unfolded.	\N
-68	68. Dark Souls	2011	M	9	After narrowly escaping a doomed fate in an asylum, an undead warrior fights his way through the desolate remains of Lordran, once a sprawling utopia lead by the gods, to seek his purpose and fulfill a centuries old prophecy.	\N
-69	69. Portal	2007	T	9.1	A test subject wakes up in a scientific facility controlled by a sadistic artificial intelligence and must escape with the help of the only instrument she has--a gun that makes portals.	\N
-70	70. Silent Hill	1999	M	9	Harry awakes from a car crash to notice his daughter, Cheryl, vanished. As he searches for her, through the eerie town of Silent Hill, a terrifying descent into the unknown is set.	\N
-71	71. Vampire: The Masquerade - Bloodlines	2004	M	9.1	Beginning your journey as a new Kindred, you must choose your path to follow the high class Vampire Society, or the lawbreaking group of Anarchs as you find your place in this new world.	\N
-72	72. The Legend of Zelda: Majora's Mask	2000	E	9	After becoming the hero of Hyrule, Link stumbles into the enchanted land of Termina, where a falling moon will crush the world in three days.	\N
-73	73. Super Mario 64	1996	K-A	9.1	When the evil Bowser steals 120 power stars and traps Princess Peach within the walls of her own castle, it's up to Mario to save her once again.	\N
-74	74. StarCraft	1998	T	9.1	In 2499 in the Koprulu sector, a ferocious collective race known as the Zerg arrives to massacre the exiled human colonies while a highly advanced race, the Protoss, intervenes to exterminate the Zerg.	\N
-75	75. GoldenEye 007	1997	T	9.1	James Bond must track down agent-turned-terrorist Alec Trevelyan to stop the launch of a powerful satellite. Play the game that set the stage for the First-person shooter genre on the console.	\N
+1	Red Dead Redemption II	2018	M	9.7	Follows outlaw Arthur Morgan and his gang, led by the charismatic Dutch Van der Linde, as they struggle to cope with the loss of their way of life amidst the decline of the Wild West at the turn of the 20th century.	\N
+2	The Last of Us	2013	M	9.7	In a hostile, post-pandemic world, Joel and Ellie, brought together by desperate circumstances, must rely on each other to survive a brutal journey across what remains of the United States.	\N
+3	The Witcher 3: Wild Hunt	2015	M	9.6	The monster slayer Geralt of Rivia must find his adoptive daughter who is being pursued by the Wild Hunt, and prevent the White Frost from bringing about the end of the world.	\N
+4	God of War	2018	M	9.5	After wiping out the gods of Mount Olympus, Kratos moves on to the frigid lands of Scandinavia, where he and his son must embark on an odyssey across a dangerous world of gods and monsters.	\N
+5	Metal Gear Solid	1998	M	9.5	A crack government anti-terrorist squad takes over an obscure Alaskan nuclear disposal facility. Solid Snake is up for the task to infiltrate the facility, rescue the two hostages and thwart the terrorists' plans.	\N
+6	The Legend of Zelda: Ocarina of Time	1998	E	9.6	A young Kokiri boy discovers that his destiny is to free the Seven Sages and save the land of Hyrule from the treacherous sorcerer Ganondorf.	\N
+7	Grand Theft Auto V	2013	M	9.4	Three very different criminals team up for a series of heists and walk into some of the most thrilling experiences in the corrupt city of Los Santos in the sate of Southern San Andreas.	\N
+8	Mass Effect 2	2010	M	9.5	After being revived from death and having to join a pro-human organization without a choice, Commander Shepard must assemble a team, battle a new threat, and make tough choices in order to save the galaxy from total annihilation once more.	\N
+9	Uncharted 4: A Thief's End	2016	T	9.4	Thrown back into the dangerous underworld he'd tried to leave behind, Nathan Drake must decide what he's willing to sacrifice to save the ones he loves.	\N
+10	Metal Gear Solid 3: Snake Eater	2004	M	9.5	In 1964, a U.S. government operative codenamed "Snake" must infiltrate mountainous Soviet territory to rescue a scientist building a weapon of terrible power.	\N
+11	Star Wars: Knights of the Old Republic	2003	T	9.5	A republic soldier, training to become a Jedi Knight, is given the task of halting the conquest of Darth Malak by discovering the location of a weapon known as the Star Forge.	\N
+12	Final Fantasy VII	1997	T	9.5	A former soldier from an evil company joins a mercenary clan to fight the company he once served.	\N
+13	Chrono Trigger	1995	E	9.4	Crono, a young boy, is thrust to adventure by destiny to destroy an oncoming threat that will destroy the world in 1999.	\N
+14	Grand Theft Auto: San Andreas	2004	M	9.4	In 1992, Carl "CJ" Johnson, a member of the Grove Street gang, comes home after a family tragedy to find the streets of Los Santos overtaken by crime and corruption, which he must take back before things become worse.	\N
+15	The Elder Scrolls V: Skyrim	2011	M	9.3	After escaping execution, the last living Dragonborn must grow in strength and power to defeat the dragons that have once again begun to plague the land of Skyrim.	\N
+16	Red Dead Redemption	2010	M	9.4	Follows a former outlaw, John Marston, who is forced by the federal government to hunt down the members of his old gang during the decline of the American frontier in the year 1911.	\N
+17	Batman: Arkham City	2011	T	9.4	When part of Gotham is turned into a private reserve for criminals known as Arkham City, all hell is sure to break loose, and the Dark Knight is the only one who can stop it.	\N
+18	The Legend of Zelda: Breath of the Wild	2017	E10+	9.4	After a century of hibernation, Link reawakens to once again save a ruined Hyrule from a great evil.	\N
+19	Uncharted 2: Among Thieves	2009	18+	9.3	After being tracked down by Harry Flynn, Nathan Drake goes on a quest for Marco Polo's lost fleet. However when things take an unexpected turn for the worst, Drake must rely on those closest to him in order to find the Cintomani Stone.	\N
+20	Portal 2	2011	E10+	9.4	Many years after "Portal," Chell reawakens at Aperture Science and tries to stop GLaDOS once again with the help of Wheatley, who has his own plans for the historical facility.	\N
+21	Half-Life 2	2004	M	9.4	Dr. Freeman is taken out of stasis by his "employer" to help rid the planet of invading aliens forces known as the Combine that entered through the portals he helped create.	\N
+22	Metal Gear Solid 4: Guns of the Patriots	2008	M	9.3	When the nations of the world rely upon private military companies to fight their battles for them, renegade Liquid Ocelot emerges as the head of a potent coalition of mercenary powers. Solid Snake returns to save the world once again.	\N
+23	Silent Hill 2	2001	M	9.4	After receiving a letter from his late wife, from Silent Hill, James Sunderland heads towards the town to search for her, only to come across a terrifying road of truth and redemption.	\N
+24	Fallout 2: A Post-Nuclear Role-Playing Game	1998	M	9.4	In a post-nuclear future, the descendant of an ancient exiled hero must leave his tribe in search of the Garden of Eden Creation Kit, the last chance of survival for his people.	\N
+25	Baldur's Gate II: Shadows of Amn	2000	T	9.4	Jon Irenicus, a sadistic secretive powerful mage bent on revenge, captures Gorion's ward and his/her party for a diabolical experiment.	\N
+26	Planescape: Torment	1999	T	9.3	In the city of Sigil, the only place from which all realities of the Planescape universe can be reached, an immortal amnesiac, the Nameless One, must uncover his past, the mystery of his immortality as well as who's trying to kill him.	\N
+27	Ghost of Tsushima	2020	M	9.2	Set in 1274 on the Tsushima Island, the last samurai, Jin Sakai, must master a new fighting style, the way of the Ghost, to defeat the Mongol forces and fight for the freedom and independence of Japan.	\N
+28	Persona 5	2016	M	9.2	A group of high school students create a vigilante group to expose the crimes of corrupt adults but soon find themselves in the midst of a worldwide conspiracy and targeted by powerful individuals who would do anything to silence them.	\N
+29	P.T.	2014	M	9.2	The player must navigate a series of continuously looping hallways, solving cryptic puzzles, all while being hunted by a hostile apparition named Lisa.	\N
+30	Super Mario World	1990	E	9.2	While Mario and Luigi are vacationing in Dinosaur Land, Bowser kidnaps the Princess. Mario and his new dino friend Yoshi go on a mission to save her.	\N
+31	The Secret of Monkey Island	1990	E	9.3	Young pirate wanna-be Guybrush Threepwood sets out to pass the Three Trials, woo the governess Elaine Marley, reach the fabled Monkey Island and vanquish the nefarious ghost pirate LeChuck.	\N
+32	The Legend of Zelda: A Link to the Past	1991	E	9.2	The wizard Agahnim has abducted seven maidens, intent on using their power to open a portal to the Dark World. Armed with a trusty sword and shield, Link begins a great and treacherous journey.	\N
+33	Shadow of the Colossus	2005	T	9.2	A young man brings a deceased woman to a forbidden land inhabited by colossal beings said to house the power to revive the dead.	\N
+34	Detroit: Become Human	2018	M	9.1	Three androids go on a quest to discover who they really are.	\N
+35	Spider-Man	2018	T	9.2	When a new villain threatens New York City, Peter Parker and Spider-Man's worlds collide. To save the city and those he loves, he must rise up and be greater.	\N
+36	Mass Effect	2007	M	9.1	In a technologically advanced future, an elite human soldier takes command of a prototype star ship and works to defend the galaxy from danger.	\N
+37	Grand Theft Auto: Vice City	2002	M	9.2	In 1986, after doing 15 years in prison in Liberty City, gangster Tommy Vercetti is sent away to Vice City to take over the town and rise to the top of the criminal empire.	\N
+38	Batman: Arkham Asylum	2009	T	9.1	Batman battles his archenemy, the Joker, who instigates an elaborate plot to seize control of Arkham Asylum, trap Batman inside with many of his incarcerated foes, and threaten Gotham City with hidden bombs.	\N
+39	Resident Evil 4	2005	M	9.2	Six years after the events in Raccoon City, Leon Kennedy, now a federal agent, is sent to a rural part of Spain to rescue the U.S. President's kidnapped daughter, Ashley Graham from a sinister cult.	\N
+40	The Walking Dead: A Telltale Game Series	2012	M	9.2	In a world devastated by the undead, a convicted criminal is given a second chance at life when he comes across a little girl named Clementine.	\N
+41	Bloodborne	2015	M	9.2	A hunter awakens in the plagued lands of Yharnam, where the denizens have succumbed to beasthood, in an attempt to learn the truth and how to end the plague, unbeknownst of the true horror lurking within the city.	\N
+42	Max Payne	2001	M	9.2	A troubled NYPD cop is framed for murder and finds himself being hunted by the police, the mob, and a ruthless corporation.	\N
+43	Kingdom Hearts	2002	E	9.1	When his world is destroyed and his friends mysteriously disappear, a young boy named Sora is thrust into a quest to find his missing friends and prevent the armies of darkness from destroying many other worlds.	\N
+44	God of War II	2007	M	9.2	After being betrayed by the gods of Olympus and annulled of his divine powers, Kratos must embark on a journey to meet the Sisters of Fate and take his revenge on Olympus.	\N
+45	God of War II	2007	M	9.2	After being betrayed by the gods of Olympus and annulled of his divine powers, Kratos must embark on a journey to meet the Sisters of Fate and take his revenge on Olympus.	\N
+46	Fallout	1997	M	9.1	After being sent by the overseer of his vault to search for a new water purifying chip, the player discovers the horrors of post apocalyptic America, and the threat of the Master's Army.	\N
+47	Half-Life	1998	M	9.1	Dr. Gordon Freeman must fight his way out of a secret research facility after a teleportation experiment goes disastrously wrong.	\N
+48	Mafia: The City of Lost Heaven	2002	M	9.1	Set within the fictional American city of Lost Heaven during the 1930s, the story follows the rise and fall of taxi driver-turned-mobster Tommy Angelo within the Salieri crime family.	\N
+49	Deus Ex	2000	M	9.2	In a dark cyberpunk future where poverty, disease, oppression and terrorism are widespread, J.C. Denton, a new cybernetically-enhanced special agent, finds evidence of a massive conspiracy when his brother, also an agent, goes rogue.	\N
+50	Grim Fandango	1998	T	9.1	Manuel Calavera is a travel agent in The Land of the Dead who has stumbled across a ring of corruption.	\N
+51	Castlevania: Symphony of the Night	1997	T	9.2	In 1797, Shaft manages to regain power through a curse placed on Richter Belmont. Four years later, Dracula's son Alucard awakens from his eternal slumber, intent on destroying his evil father once and for all.	\N
+52	Super Mario Bros. 3	1988	E	9.2	King Koopa has kidnapped Princess Toadstool, taken over all seven kingdoms in the Mushroom World, and put his seven kids in charge of all of them. It's the Mario Brothers to the rescue.	\N
+53	Monkey Island 2: LeChuck's Revenge	1991	E	9.2	Having vanquished the ghost pirate LeChuck with a soft drink, Guybrush Threepwood now seeks the treasure of Big Whoop. During his quest he discovers LeChuck is back from the dead. Once again.	\N
+54	Mass Effect 3	2012	M	9.1	Earth is under attack by a monstrous race of gigantic living ships known as the Reapers. Even if Commander Shepard could unite all surviving species in the galaxy, only a miracle could save them. Then again, Shepard did come back from the dead.	\N
+55	Horizon Zero Dawn	2017	T	8.9	In a primitive tribal world where strange, monstrous, animalistic machines roam the wilderness, a brave young female warrior goes on a quest to learn the truth about her mysterious origin and the state the world is in.	\N
+56	BioShock Infinite	2013	M	9.1	A man is sent to the flying city of Columbia to find a missing girl. However, upon arrival he discovers that the city, its people, and his objective are all not what they seem.	\N
+57	God of War III	2010	M	9.1	Armed with his deadly double-chained blades, Kratos must take on Greek mythology's darkest creatures to destroy Olympus and the mighty Zeus himself.	\N
+58	BioShock	2007	M	9.1	In 1960, a lone survivor of a plane crash named Jack discovers an abandoned underwater utopia, only to find out that the mystery behind its creation is much more sinister than he first believed.	\N
+59	Assassin's Creed II	2009	M	9	Desmond Miles is trained to become a modern-day Assassin through the resurrected memories of ancestor Ezio Auditore da Firenze, who uncovers a massive Templar conspiracy in Renaissance Italy leading to the new Pope.	\N
+60	Assassin's Creed II	2009	M	9	Desmond Miles is trained to become a modern-day Assassin through the resurrected memories of ancestor Ezio Auditore da Firenze, who uncovers a massive Templar conspiracy in Renaissance Italy leading to the new Pope.	\N
+61	Final Fantasy X	2001	T	9.1	A celebrated young athlete is drawn from his futuristic hometown and convenient lifestyle to a harsh and techno-phobic land by a mysterious force only known as Sin.	\N
+62	Fallout 3	2008	M	9	Centuries following nuclear war, a teen leaves the safety of an underground vault in order to find their father, who left in hopes of creating a water purifier.	\N
+63	Dragon Age: Origins	2009	M	9.1	After four hundred years since the last Blight, a new Archdemon seeks to destroy the land of Ferelden. It is up to the player - as one of the remaining Grey Wardens - to unite the divided armies of Ferelden and save humanity.	\N
+64	God of War	2005	M	9	After 10 years of endless nightmares and servitude to the gods of Olympus, Kratos is assigned with a final task, to kill Ares, the God of War.	\N
+65	Dark Souls III	2016	M	9.1	The fire is fading. Darkness creeps across the land. The Lords of Cinder charged with watching over the First Flame have abandoned their thrones. The Champion of Ash, an undead is chosen to return them to their thrones.	\N
+66	Max Payne 2: The Fall of Max Payne	2003	M	9.1	The brooding cop has left the DEA and returned to the NYPD. When his latest case ends up involving the thought-dead femme fatale Mona Sax, he finds that his journey through the night is far from over.	\N
+67	Resident Evil 2	1998	M	9.1	Two months after the mansion events, the deadly T-virus escapes into the streets of Raccoon City. Leon Kennedy and Claire Redfield find the police office left abandoned. In an underground facility the story of Umbrella Corp. gets unfolded.	\N
+68	Dark Souls	2011	M	9	After narrowly escaping a doomed fate in an asylum, an undead warrior fights his way through the desolate remains of Lordran, once a sprawling utopia lead by the gods, to seek his purpose and fulfill a centuries old prophecy.	\N
+69	Portal	2007	T	9.1	A test subject wakes up in a scientific facility controlled by a sadistic artificial intelligence and must escape with the help of the only instrument she has--a gun that makes portals.	\N
+70	Silent Hill	1999	M	9	Harry awakes from a car crash to notice his daughter, Cheryl, vanished. As he searches for her, through the eerie town of Silent Hill, a terrifying descent into the unknown is set.	\N
+71	Vampire: The Masquerade - Bloodlines	2004	M	9.1	Beginning your journey as a new Kindred, you must choose your path to follow the high class Vampire Society, or the lawbreaking group of Anarchs as you find your place in this new world.	\N
+72	The Legend of Zelda: Majora's Mask	2000	E	9	After becoming the hero of Hyrule, Link stumbles into the enchanted land of Termina, where a falling moon will crush the world in three days.	\N
+73	Super Mario 64	1996	K-A	9.1	When the evil Bowser steals 120 power stars and traps Princess Peach within the walls of her own castle, it's up to Mario to save her once again.	\N
+74	StarCraft	1998	T	9.1	In 2499 in the Koprulu sector, a ferocious collective race known as the Zerg arrives to massacre the exiled human colonies while a highly advanced race, the Protoss, intervenes to exterminate the Zerg.	\N
+75	GoldenEye 007	1997	T	9.1	James Bond must track down agent-turned-terrorist Alec Trevelyan to stop the launch of a powerful satellite. Play the game that set the stage for the First-person shooter genre on the console.	\N
+76	Super Smash Bros. Melee	2001	T	9	Smash Bros. installment for the GameCube with fast-paced, highly competitive and technical gameplay of realtime chess and hype using various Nintendo characters, with simple controls yet deep mechanics.	\N
+77	Super Metroid	1994	E	9.1	Samus Aran returns to the brooding planet Zebes to recover the last metroid from the Space Pirates.	\N
+78	Half-Life 2: Episode Two	2007	M	9.1	Gordon Freeman, along with the help of human and non-human allies, continues his fight against the ruthless alien force known as the Combine.	\N
+79	Final Fantasy VI	1994	T	9.1	A mysterious woman joins a group of mercenaries in order to find out about her destiny and means of saving the world from an evil madman.	\N
+80	The Curse of Monkey Island	1997	K-A	9.1	After unwittingly turning his true love Elaine into solid gold with a cursed engagement ring, Guybrush Threepwood must find a map, a ship and a crew, sail to Blood Island and track down an uncursed diamond ring to reverse the curse.	\N
+81	Shenmue	1999	T	9	Ryo, a respected Japanese student sees his father killed in front of his own eyes. He sets out to find the man in charge of his fathers death and the mystery of who and why?	\N
+82	Indiana Jones and the Fate of Atlantis	1992	T	9	Indiana Jones must fight the nazis again in search for Atlantis and a newly discovered mineral of unbelievable power, the Orichalcum.	\N
+83	Metal Gear: Ghost Babel	2000	E	9	In this non-canonical sequel to Metal Gear Solid, Solid Snake is called upon from his home in Alaska to infiltrate an enemy base searching for Metal Gear.	\N
+84	Batman: Arkham Knight	2015	M	9	With his back against the wall, Batman turns to his closest allies to help him save Gotham City from the clutches of Scarecrow and the Arkham Knight's army. A familiar face also returns to give The Dark Knight a message he cannot ignore.	\N
+85	Super Smash Bros. Ultimate	2018	E10+	8.8	Super Smash Bros. Ultimate for the Nintendo Switch brings back every fighter in the history of the series, adds newcomers and over 100 stages, and introduces a new adventure mode called "World of Light''.	\N
+86	Yakuza 0	2015	M	8.9	Kiryu and Majima, both Yakuza's who are in different cities in Japan in 1988, as the fate of the two characters become intertwined in a gritty, violent, and often touching narrative.	\N
+87	Uncharted 3: Drake's Deception	2011	T	9	Treasure hunter Nathan Drake embarks on a quest in search of the Atlantis of the Sands while battling an ancient, sinister organization.	\N
+88	Metal Gear Solid 2: Sons of Liberty	2001	M	9	Two years after the death of Solid Snake, a rookie FOX-HOUND agent, on his first mission, infiltrates an offshore decontamination facility to rescue the President.	\N
+89	Call of Duty 4: Modern Warfare	2007	M	9	The Call of Duty series returns this time into a modern day setting. The player takes control of a character nicknamed "Soap," for the majority of the campaign and will need to progress through many modern warfare scenarios.	\N
+90	Super Mario Odyssey	2017	E10+	9	Mario must travel to worlds unknown in order to stop Bowser from marrying Princess Peach.	\N
+91	South Park: The Stick of Truth	2014	M	8.8	As the New Kid, discover the lost Stick of Truth, and earn your place at the side of Stan, Kyle, Cartman and Kenny as their new friend.	\N
+92	The Legend of Zelda: Twilight Princess	2006	T	9	Link, a young man from a small farming village, finds Hyrule is being consumed by an otherworldly twilight. Guided by a strange pixie named Midna, he endeavors to return light to the land and confront the usurper king Zant.	\N
+93	Super Mario Galaxy	2007	E	9.1	When Princess Peach is abducted as part of Bowser's galaxy creation scheme, stalwart plumber Mario must leap to her rescue, with the help of new celestial friends and powers.	\N
+94	The Legend of Zelda: The Wind Waker	2002	E	9	After his sister gets kidnapped from their peaceful island, a young boy aims to emulate the Hero of Time by saving her.	\N
+95	Day of the Tentacle	1993	E	8.9	A disembodied tentacle is accidentally exposed to nuclear waste, giving it human abilities and an ambition to take over the world.	\N
+96	Baldur's Gate	1998	T	8.9	The main character, ward of mystical monk Gorion, whose name, sex, race and class are defined by the players, leaves his order's keep for the first time and starts a journey to discover his true identity. But someone wants him dead.	\N
+97	Diablo II	2000	M	9	Evil has survived. Diablo, the Lord of Terror, now seeks to free his demonic brothers. The armies of Heaven are forbidden to interfere with his plan, so an Amazon, a Barbarian, a Necromancer, a Paladin and a Sorceresses join the battle.	\N
+98	The Longest Journey	1999	M	8.9	April Ryan is a young visual-arts student in Venice, Newport. She's been having some strange dreams lately, but little does she know about the important role she'll have in changing the future.	\N
+99	System Shock 2	1999	M	8.9	An agent is deployed on a mission to explore a distant planet, but instead wakes up from his cryosleep five months later only to discover that the ship's artificial intelligence has been corrupted and the humans infected by an alien race.	\N
+100	StarCraft: Brood War	1998	T	9	After the events of StarCraft (1998) the Protoss try to unite their divided race while still fighting the weakened Zerg which is also attacked by human expedition from Earth.	\N
 \.
 
 
@@ -1068,7 +1264,7 @@ SELECT pg_catalog.setval('public.star_id_seq', 1, false);
 -- Name: videogame_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.videogame_id_seq', 76, true);
+SELECT pg_catalog.setval('public.videogame_id_seq', 100, true);
 
 
 --
@@ -1189,13 +1385,6 @@ ALTER TABLE ONLY public.videogame
 
 ALTER TABLE ONLY public.videogame_platform
     ADD CONSTRAINT videogame_platform_pkey PRIMARY KEY (videogame_id, platform_id);
-
-
---
--- Name: videogame rating_check_trigger; Type: TRIGGER; Schema: public; Owner: postgres
---
-
-CREATE TRIGGER rating_check_trigger BEFORE INSERT OR UPDATE ON public.videogame FOR EACH ROW EXECUTE FUNCTION public.check_rating_range();
 
 
 --
