@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Adrena-Line",
+    "park": "Six Flags Qiddiya City",
+    "type": "Steel",
+    "design": "Suspended",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "name": "Aerozuum",
+    "park": "Bondinhos Canela",
+    "type": "Steel",
+    "design": "Suspended",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "name": "AlpenFury",
+    "park": "Canada's Wonderland",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-12"
+  },
+  {
+    "name": "Andromeda Base",
+    "park": "Genting SkyWorlds",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "name": "Antares",
+    "park": "Conny-Land",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-31"
+  },
+  {
+    "name": "Aquila",
+    "park": "Mandoria",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-01-19"
+  },
+  {
+    "name": "Ashara: Goddess of Fire",
+    "park": "BON Luxury Theme Park",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "name": "Attack of the Aswang",
+    "park": "Pradera Islands Park",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "name": "Aurora",
+    "park": "Hossoland",
+    "type": "Steel",
+    "design": "Suspended",
+    "status": "Operating",
+    "opened": "2025-06-27"
+  },
+  {
+    "name": "Balade Enchantée",
+    "park": "Ch'ti Parc",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-05"
+  },
+  {
+    "name": "Beach Rescue Racer",
+    "park": "SeaWorld San Antonio",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-03-08"
+  },
+  {
+    "name": "Big Air Coaster",
+    "park": "Animália Park",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "name": "Big Bad Wolf: The Wolf’s Revenge",
+    "park": "Busch Gardens Williamsburg",
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Operating",
+    "opened": "2025-05-23"
+  },
+  {
+    "name": "Big LEGO Coaster",
+    "park": "Legoland Shanghai",
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Operating",
+    "opened": "2025-07-05"
+  },
+  {
+    "name": "Bolt",
+    "park": "Skytropolis Indoor Theme Park",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "name": "Boomerang",
+    "park": "Balalyk Park",
+    "type": "Steel",
+    "design": "Wing",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "name": "Braus & Saus",
+    "park": "Potts Park",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-12"
+  },
+  {
+    "name": "Brush Creek Holl'r",
+    "park": "Brush Creek Falls Resort",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-04"
+  },
+  {
+    "name": "Bulderbaan",
+    "park": "Bommelwereld",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-10-01"
+  },
+  {
+    "name": "Capybara Coaster",
+    "park": "Nagai Uminote Park Soleil Hill",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-03"
+  },
+  {
+    "name": "Cétautomatix",
+    "park": "Parc Astérix",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "name": "Chenille",
+    "park": "Fermy Land",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-19"
+  },
+  {
+    "name": "Chicken Coop",
+    "park": "Banana Beach",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "name": "Chicken Coop",
+    "park": "Prishtina Park",
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-07-24"
+  }
+]
