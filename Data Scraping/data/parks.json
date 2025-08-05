@@ -1,0 +1,1359 @@
+[
+  {
+    "id": 21275,
+    "name": "Six Flags Qiddiya City",
+    "location": {
+      "city": "Al Muzahimiyah",
+      "region": "Ar Riyadh",
+      "country": "Saudi Arabia"
+    }
+  },
+  {
+    "id": 22189,
+    "name": "Bondinhos Canela",
+    "location": {
+      "city": "Canela",
+      "region": "Rio Grande do Sul",
+      "country": "Brazil"
+    }
+  },
+  {
+    "id": 4539,
+    "name": "Canada's Wonderland",
+    "location": {
+      "city": "Vaughan",
+      "region": "Ontario",
+      "country": "Canada"
+    }
+  },
+  {
+    "id": 4977,
+    "name": "Genting SkyWorlds",
+    "location": {
+      "city": "Genting Highlands",
+      "region": "Pahang",
+      "country": "Malaysia"
+    }
+  },
+  {
+    "id": 5951,
+    "name": "Conny-Land",
+    "location": {
+      "city": "Lipperswil",
+      "region": "Thurgau",
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": 17863,
+    "name": "Mandoria",
+    "location": {
+      "city": "Rzgów",
+      "region": "Łódzkie",
+      "country": "Poland"
+    }
+  },
+  {
+    "id": 20617,
+    "name": "BON Luxury Theme Park",
+    "location": {
+      "city": "Las Jarretaderas",
+      "region": "Nayarit",
+      "country": "Mexico"
+    }
+  },
+  {
+    "id": 19898,
+    "name": "Pradera Islands Park",
+    "location": {
+      "city": "Lubao",
+      "region": "Pampanga",
+      "country": "Philippines"
+    }
+  },
+  {
+    "id": 20757,
+    "name": "Hossoland",
+    "location": {
+      "city": "Brojce",
+      "region": "Zachodniopomorskie",
+      "country": "Poland"
+    }
+  },
+  {
+    "id": 19561,
+    "name": "Ch'ti Parc",
+    "location": {
+      "city": "Avion",
+      "region": "Hauts-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "id": 4601,
+    "name": "SeaWorld San Antonio",
+    "location": {
+      "city": "San Antonio",
+      "region": "Texas",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 18057,
+    "name": "Animália Park",
+    "location": {
+      "city": "Cotia",
+      "region": "São Paulo",
+      "country": "Brazil"
+    }
+  },
+  {
+    "id": 4548,
+    "name": "Busch Gardens Williamsburg",
+    "location": {
+      "city": "Williamsburg",
+      "region": "Virginia",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 19273,
+    "name": "Legoland Shanghai",
+    "location": {
+      "city": "Qingpu",
+      "region": "Shanghai",
+      "country": "China"
+    }
+  },
+  {
+    "id": 5232,
+    "name": "Skytropolis Indoor Theme Park",
+    "location": {
+      "city": "Genting Highlands",
+      "region": "Pahang",
+      "country": "Malaysia"
+    }
+  },
+  {
+    "id": 22337,
+    "name": "Balalyk Park",
+    "location": null
+  },
+  {
+    "id": 4879,
+    "name": "Potts Park",
+    "location": {
+      "city": "Minden",
+      "region": "North Rhine-Westphalia",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 21709,
+    "name": "Brush Creek Falls Resort",
+    "location": {
+      "city": "Princeton",
+      "region": "West Virginia",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 20875,
+    "name": "Bommelwereld",
+    "location": {
+      "city": "Groenlo",
+      "region": "Gelderland",
+      "country": "Netherlands"
+    }
+  },
+  {
+    "id": 22728,
+    "name": "Nagai Uminote Park Soleil Hill",
+    "location": {
+      "city": "Yokosuka",
+      "region": "Kanagawa",
+      "country": "Japan"
+    }
+  },
+  {
+    "id": 4790,
+    "name": "Parc Astérix",
+    "location": {
+      "city": "Plailly",
+      "region": "Hauts-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "id": 19017,
+    "name": "Fermy Land",
+    "location": {
+      "city": "Orcet",
+      "region": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    }
+  },
+  {
+    "id": 5761,
+    "name": "Banana Beach",
+    "location": {
+      "city": "Dhahran",
+      "region": "Eastern Province",
+      "country": "Saudi Arabia"
+    }
+  },
+  {
+    "id": 22545,
+    "name": "Prishtina Park",
+    "location": {
+      "city": "Pristina",
+      "region": "Pristina",
+      "country": "Kosovo"
+    }
+  },
+  {
+    "id": 5455,
+    "name": "Storybook Land",
+    "location": {
+      "city": "Egg Harbor Township",
+      "region": "New Jersey",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 18828,
+    "name": "Cotaland",
+    "location": {
+      "city": "Austin",
+      "region": "Texas",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 22743,
+    "name": "City Forum",
+    "location": {
+      "city": "Clarksville",
+      "region": "Tennessee",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 5142,
+    "name": "Safari Land",
+    "location": {
+      "city": "Villa Park",
+      "region": "Illinois",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 22737,
+    "name": "Fantawild National Colors Spring and Autumn",
+    "location": {
+      "city": "Ziyang",
+      "region": "Sichuan",
+      "country": "China"
+    }
+  },
+  {
+    "id": 4793,
+    "name": "Mirabilandia",
+    "location": {
+      "city": "Savio",
+      "region": "Emilia-Romagna",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 4647,
+    "name": "Quassy Amusement Park",
+    "location": {
+      "city": "Middlebury",
+      "region": "Connecticut",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 4739,
+    "name": "Steel Pier",
+    "location": {
+      "city": "Atlantic City",
+      "region": "New Jersey",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 6300,
+    "name": "Jin Ying Amusement Park",
+    "location": {
+      "city": "Guangzhou",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 4862,
+    "name": "Brean Theme Park",
+    "location": {
+      "city": "Somerset",
+      "region": "England",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 22653,
+    "name": "Xingmei Amusement Park",
+    "location": {
+      "city": "Zhongshan",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 5137,
+    "name": "Beijing Shijingshan Amusement Park",
+    "location": {
+      "city": "Shijingshan",
+      "region": "Beijing",
+      "country": "China"
+    }
+  },
+  {
+    "id": 17569,
+    "name": "Universal Epic Universe",
+    "location": {
+      "city": "Orlando",
+      "region": "Florida",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 14026,
+    "name": "Peppa Pig Theme Park",
+    "location": {
+      "city": "North Richland Hills",
+      "region": "Texas",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 5113,
+    "name": "Jardin d'Acclimatation",
+    "location": {
+      "city": "Paris",
+      "region": "Île-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "id": 13367,
+    "name": "Edelwies",
+    "location": {
+      "city": "Neukirchen",
+      "region": "Bavaria",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 4968,
+    "name": "Yomiuriland",
+    "location": {
+      "city": "Inagi",
+      "region": "Tokyo",
+      "country": "Japan"
+    }
+  },
+  {
+    "id": 22823,
+    "name": "Springfields Fun Park & Pony Centre",
+    "location": {
+      "city": "Cornwall",
+      "region": "England",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 13160,
+    "name": "ErlebnisBocksBerg",
+    "location": {
+      "city": "Goslar",
+      "region": "Lower Saxony",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 21412,
+    "name": "Font-Romeu Pyrénées 2000",
+    "location": {
+      "city": "Pyrénées-Orientales",
+      "region": "Occitanie",
+      "country": "France"
+    }
+  },
+  {
+    "id": 20463,
+    "name": "Karls Erlebnis-Dorf Loxstedt",
+    "location": {
+      "city": "Bremerhaven",
+      "region": "Bremen",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 17263,
+    "name": "LandErlebnis Janßen",
+    "location": {
+      "city": "Westerstede",
+      "region": "Lower Saxony",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 16018,
+    "name": "Festival Land",
+    "location": {
+      "city": "Ajman",
+      "region": "Ajman",
+      "country": "United Arab Emirates"
+    }
+  },
+  {
+    "id": 9583,
+    "name": "Guangzhou Zoological Garden",
+    "location": {
+      "city": "Guangzhou",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 6148,
+    "name": "Lunapark Fréjus",
+    "location": {
+      "city": "Fréjus",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    }
+  },
+  {
+    "id": 17529,
+    "name": "Lost Island Theme Park",
+    "location": {
+      "city": "Waterloo",
+      "region": "Iowa",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 5745,
+    "name": "Aquashow Family Park",
+    "location": {
+      "city": "Quarteira",
+      "region": "Faro",
+      "country": "Portugal"
+    }
+  },
+  {
+    "id": 4534,
+    "name": "Six Flags Great Adventure",
+    "location": {
+      "city": "Jackson",
+      "region": "New Jersey",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 22919,
+    "name": "Guangxinxing Baby Playground",
+    "location": {
+      "city": "Changsha",
+      "region": "Hunan",
+      "country": "China"
+    }
+  },
+  {
+    "id": 4535,
+    "name": "Six Flags Over Georgia",
+    "location": {
+      "city": "Austell",
+      "region": "Georgia",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 21879,
+    "name": "Fun City",
+    "location": {
+      "city": "Estes Park",
+      "region": "Colorado",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 4890,
+    "name": "Serengeti-Park",
+    "location": {
+      "city": "Hodenhagen",
+      "region": "Lower Saxony",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 19364,
+    "name": "Hastings Pier",
+    "location": {
+      "city": "East Sussex",
+      "region": "England",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 5591,
+    "name": "Fantasiana",
+    "location": {
+      "city": "Strasswalchen",
+      "region": "Salzburg",
+      "country": "Austria"
+    }
+  },
+  {
+    "id": 19393,
+    "name": "Mattel Adventure Park",
+    "location": {
+      "city": "Glendale",
+      "region": "Arizona",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 19049,
+    "name": "Silk Road Paradise",
+    "location": {
+      "city": "Xianyang",
+      "region": "Shaanxi",
+      "country": "China"
+    }
+  },
+  {
+    "id": 4883,
+    "name": "Panorama Park Sauerland",
+    "location": {
+      "city": "Kirchhundem",
+      "region": "North Rhine-Westphalia",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 21225,
+    "name": "Park Rozrywki Kyrnica Morska",
+    "location": {
+      "city": "Krynica Morska",
+      "region": "Pomorskie",
+      "country": "Poland"
+    }
+  },
+  {
+    "id": 4628,
+    "name": "Aztlán Parque Urbano",
+    "location": null
+  },
+  {
+    "id": 20452,
+    "name": "Historic Hawes Farms",
+    "location": {
+      "city": "Anderson",
+      "region": "California",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 21894,
+    "name": "Union Station",
+    "location": {
+      "city": "St. Louis",
+      "region": "Missouri",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 17706,
+    "name": "Fantasy Valley",
+    "location": {
+      "city": "Xiangyang",
+      "region": "Hubei",
+      "country": "China"
+    }
+  },
+  {
+    "id": 20350,
+    "name": "T-Rex Park São Paulo",
+    "location": {
+      "city": "São Paulo",
+      "region": "São Paulo",
+      "country": "Brazil"
+    }
+  },
+  {
+    "id": 6276,
+    "name": "Fééryland",
+    "location": {
+      "city": "Tournehem-sur-la-Hem",
+      "region": "Hauts-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "id": 22361,
+    "name": "VinWonders Grand Park",
+    "location": {
+      "city": "District 9",
+      "region": "Ho Chi Minh",
+      "country": "Vietnam"
+    }
+  },
+  {
+    "id": 12557,
+    "name": "Legoland Korea",
+    "location": {
+      "city": "Chuncheon",
+      "region": "Gangwon-do",
+      "country": "South Korea"
+    }
+  },
+  {
+    "id": 4847,
+    "name": "Walibi Belgium",
+    "location": {
+      "city": "Walloon Brabant",
+      "region": "Wallonia",
+      "country": "Belgium"
+    }
+  },
+  {
+    "id": 22969,
+    "name": "Saffori Land",
+    "location": {
+      "city": "Riyadh",
+      "region": "Ar Riyadh",
+      "country": "Saudi Arabia"
+    }
+  },
+  {
+    "id": 22981,
+    "name": "Bendito Cacao Resort & Spa",
+    "location": {
+      "city": "Campos do Jordão",
+      "region": "São Paulo",
+      "country": "Brazil"
+    }
+  },
+  {
+    "id": 21786,
+    "name": "Massanutten Family Adventure Park",
+    "location": {
+      "city": "Massanutten",
+      "region": "Virginia",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 4926,
+    "name": "Wiener Prater",
+    "location": {
+      "city": "Vienna",
+      "region": "Vienna",
+      "country": "Austria"
+    }
+  },
+  {
+    "id": 4749,
+    "name": "Jolly Roger Amusement Park",
+    "location": {
+      "city": "Ocean City",
+      "region": "Maryland",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 22478,
+    "name": "Big Banana Fun Park",
+    "location": {
+      "city": "Coffs Harbour",
+      "region": "New South Wales",
+      "country": "Australia"
+    }
+  },
+  {
+    "id": 22634,
+    "name": "Pokeyland",
+    "location": {
+      "city": "Féy",
+      "region": "Grand Est",
+      "country": "France"
+    }
+  },
+  {
+    "id": 5211,
+    "name": "Star World - Nanhu Amusement Park",
+    "location": {
+      "city": "Guangzhou",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22255,
+    "name": "Pigeon Forge Racing Coaster",
+    "location": {
+      "city": "Pigeon Forge",
+      "region": "Tennessee",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 4544,
+    "name": "Kings Dominion",
+    "location": {
+      "city": "Doswell",
+      "region": "Virginia",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 22260,
+    "name": "Kaleidoscope Park",
+    "location": {
+      "city": "Belgorod",
+      "region": "Belgorod",
+      "country": "Russia"
+    }
+  },
+  {
+    "id": 4811,
+    "name": "Clarence Pier",
+    "location": {
+      "city": "Hampshire",
+      "region": "England",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 22992,
+    "name": "Kiddieland",
+    "location": {
+      "city": "Antrim",
+      "region": "Northern Ireland",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 23013,
+    "name": "Eurasia",
+    "location": null
+  },
+  {
+    "id": 21222,
+    "name": "Sea Park Sarbsk",
+    "location": {
+      "city": "Sarbsk",
+      "region": "Pomorskie",
+      "country": "Poland"
+    }
+  },
+  {
+    "id": 21864,
+    "name": "Coco Park",
+    "location": {
+      "city": "Saint-Avold",
+      "region": "Grand Est",
+      "country": "France"
+    }
+  },
+  {
+    "id": 21135,
+    "name": "Silberbergbahn Bodenmais",
+    "location": {
+      "city": "Bodenmais",
+      "region": "Bavaria",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 4529,
+    "name": "Cedar Point",
+    "location": {
+      "city": "Sandusky",
+      "region": "Ohio",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 5492,
+    "name": "Universal Studios Japan",
+    "location": {
+      "city": "Osaka",
+      "region": "Osaka",
+      "country": "Japan"
+    }
+  },
+  {
+    "id": 4542,
+    "name": "Carowinds",
+    "location": {
+      "city": "Charlotte",
+      "region": "North Carolina",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 4812,
+    "name": "Fantasy Island",
+    "location": {
+      "city": "Lincolnshire",
+      "region": "England",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 15194,
+    "name": "Chanba National Wetland Park",
+    "location": {
+      "city": "Xi'an",
+      "region": "Shaanxi",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22768,
+    "name": "VinWonders Vũ Yên",
+    "location": {
+      "city": "Thủy Nguyên",
+      "region": "Hải Phòng",
+      "country": "Vietnam"
+    }
+  },
+  {
+    "id": 22421,
+    "name": "Starland Sportsplex & Fun Park",
+    "location": {
+      "city": "Hanover",
+      "region": "Massachusetts",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 5401,
+    "name": "Didi'Land",
+    "location": {
+      "city": "Morsbronn-les-Bains",
+      "region": "Grand Est",
+      "country": "France"
+    }
+  },
+  {
+    "id": 22371,
+    "name": "Frankie's Fun Park",
+    "location": {
+      "city": "Greenville",
+      "region": "South Carolina",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 4996,
+    "name": "Japan Monkey Park",
+    "location": {
+      "city": "Inuyama",
+      "region": "Aichi",
+      "country": "Japan"
+    }
+  },
+  {
+    "id": 22748,
+    "name": "YoYoland",
+    "location": {
+      "city": "Udon Thani",
+      "region": "Udon Thani",
+      "country": "Thailand"
+    }
+  },
+  {
+    "id": 6359,
+    "name": "New Jesolandia",
+    "location": {
+      "city": "Jesolo",
+      "region": "Veneto",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 6754,
+    "name": "Lewa Adventure",
+    "location": {
+      "city": "Xianyang",
+      "region": "Shaanxi",
+      "country": "China"
+    }
+  },
+  {
+    "id": 21318,
+    "name": "Seven Yanbu",
+    "location": {
+      "city": "Yanbu",
+      "region": "Al Madinah",
+      "country": "Saudi Arabia"
+    }
+  },
+  {
+    "id": 22988,
+    "name": "Tiger Park",
+    "location": {
+      "city": "Shunyi",
+      "region": "Beijing",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22757,
+    "name": "Malibu Jack's",
+    "location": {
+      "city": "North Richland Hills",
+      "region": "Texas",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 22951,
+    "name": "Malibu Jack's",
+    "location": {
+      "city": "Thornton",
+      "region": "Colorado",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 22674,
+    "name": "Xin Xi Tong Paradise",
+    "location": {
+      "city": "Jiangmen",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22671,
+    "name": "Candy Fruit Amusement Park",
+    "location": {
+      "city": "Guangzhou",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 19050,
+    "name": "Fantázia Liptov Park",
+    "location": {
+      "city": "Liptovský Mikuláš",
+      "region": "Žilina",
+      "country": "Slovakia"
+    }
+  },
+  {
+    "id": 5217,
+    "name": "Mer de Sable",
+    "location": {
+      "city": "Ermenonville",
+      "region": "Hauts-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "id": 4976,
+    "name": "Sunway Lagoon",
+    "location": {
+      "city": "Subang Jaya",
+      "region": "Selangor",
+      "country": "Malaysia"
+    }
+  },
+  {
+    "id": 11420,
+    "name": "Winnoland",
+    "location": {
+      "city": "Saint-Pierre-du-Perray",
+      "region": "Île-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "id": 22719,
+    "name": "Wisconsin Dells Mountain Coaster",
+    "location": {
+      "city": "Baraboo",
+      "region": "Wisconsin",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 4530,
+    "name": "Six Flags Great America",
+    "location": {
+      "city": "Gurnee",
+      "region": "Illinois",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 4754,
+    "name": "Santa's Village",
+    "location": {
+      "city": "Bracebridge",
+      "region": "Ontario",
+      "country": "Canada"
+    }
+  },
+  {
+    "id": 4794,
+    "name": "Walibi Holland",
+    "location": {
+      "city": "Biddinghuizen",
+      "region": "Flevoland",
+      "country": "Netherlands"
+    }
+  },
+  {
+    "id": 19161,
+    "name": "Happy Valley",
+    "location": {
+      "city": "Xi'an",
+      "region": "Shaanxi",
+      "country": "China"
+    }
+  },
+  {
+    "id": 21410,
+    "name": "Atzmännig",
+    "location": {
+      "city": "Eschenbach",
+      "region": "St. Gallen",
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": 17817,
+    "name": "Legoland Sichuan",
+    "location": {
+      "city": "Meishan",
+      "region": "Sichuan",
+      "country": "China"
+    }
+  },
+  {
+    "id": 14134,
+    "name": "Sun World Bà Nà Hills",
+    "location": {
+      "city": "Hòa Vang",
+      "region": "Đà Nẵng",
+      "country": "Vietnam"
+    }
+  },
+  {
+    "id": 20680,
+    "name": "Yueqing Happy Park",
+    "location": {
+      "city": "Wenzhou",
+      "region": "Zhejiang",
+      "country": "China"
+    }
+  },
+  {
+    "id": 20940,
+    "name": "China Hiin City",
+    "location": {
+      "city": "Ningbo",
+      "region": "Zhejiang",
+      "country": "China"
+    }
+  },
+  {
+    "id": 20519,
+    "name": "Chimelong Qingyuan International Forest Resort",
+    "location": {
+      "city": "Qingyuan",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 18708,
+    "name": "4D Farm",
+    "location": {
+      "city": "Cullman",
+      "region": "Alabama",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 21773,
+    "name": "GAST Conference & Wellness City Resort",
+    "location": {
+      "city": "Debiri",
+      "region": "Tigray",
+      "country": "Ethiopia"
+    }
+  },
+  {
+    "id": 21374,
+    "name": "Wonderla Amusement Park Chennai",
+    "location": {
+      "city": "Illalur",
+      "region": "Tamil Nadu",
+      "country": "India"
+    }
+  },
+  {
+    "id": 4871,
+    "name": "Plopsaland Deutschland",
+    "location": {
+      "city": "Hassloch",
+      "region": "Rhineland-Palatinate",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 22042,
+    "name": "Grouse Mountain",
+    "location": {
+      "city": "North Vancouver",
+      "region": "British Columbia",
+      "country": "Canada"
+    }
+  },
+  {
+    "id": 8697,
+    "name": "Squirrel Kingdom",
+    "location": {
+      "city": "Taizhou",
+      "region": "Zhejiang",
+      "country": "China"
+    }
+  },
+  {
+    "id": 5715,
+    "name": "Toy Kingdom",
+    "location": {
+      "city": "Tamano",
+      "region": "Okayama",
+      "country": "Japan"
+    }
+  },
+  {
+    "id": 22253,
+    "name": "Malibu Park",
+    "location": {
+      "city": "Gagra",
+      "region": "Abkhazia",
+      "country": "Georgia"
+    }
+  },
+  {
+    "id": 5166,
+    "name": "Happy Valley",
+    "location": {
+      "city": "Shenzhen",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 17949,
+    "name": "Lunapark Volgograd",
+    "location": {
+      "city": "Volgograd",
+      "region": "Volgograd",
+      "country": "Russia"
+    }
+  },
+  {
+    "id": 22430,
+    "name": "Jinyang Lake Happy World",
+    "location": {
+      "city": "Taiyuan",
+      "region": "Shanxi",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22445,
+    "name": "Panzhou Happy World",
+    "location": {
+      "city": "Liupanshui",
+      "region": "Guizhou",
+      "country": "China"
+    }
+  },
+  {
+    "id": 6737,
+    "name": "Jinping Park",
+    "location": {
+      "city": "Taizhou",
+      "region": "Zhejiang",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22450,
+    "name": "Ji’an Happy World",
+    "location": {
+      "city": "Ji'An",
+      "region": "Jiangxi",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22476,
+    "name": "New Saniro Airport Sports Complex",
+    "location": {
+      "city": "Wadumalla",
+      "region": "Sabaragamuwa",
+      "country": "Sri Lanka"
+    }
+  },
+  {
+    "id": 8992,
+    "name": "Shantou Blue Mercury Happy World",
+    "location": {
+      "city": "Shantou",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22667,
+    "name": "Meiyuan Little Doctor Parent-Child Paradise",
+    "location": {
+      "city": "Jieyang",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22694,
+    "name": "Little Yellow Duck Theme Park",
+    "location": {
+      "city": "Huai'an",
+      "region": "Jiangsu",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22701,
+    "name": "Little Yellow Duck Theme Park",
+    "location": {
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country": "China"
+    }
+  },
+  {
+    "id": 18867,
+    "name": "Chocolate Kingdom",
+    "location": {
+      "city": "Qingyuan",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 5227,
+    "name": "De Waarbeek",
+    "location": {
+      "city": "Hengelo",
+      "region": "Overijssel",
+      "country": "Netherlands"
+    }
+  },
+  {
+    "id": 22774,
+    "name": "Wildpark Lüneburger Heide",
+    "location": {
+      "city": "Hanstedt",
+      "region": "Lower Saxony",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 9172,
+    "name": "Jiulong Park",
+    "location": {
+      "city": "Zhangzhou",
+      "region": "Fujian",
+      "country": "China"
+    }
+  },
+  {
+    "id": 22786,
+    "name": "Hawksnest Adventures",
+    "location": {
+      "city": "Seven Devils",
+      "region": "North Carolina",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 5999,
+    "name": "Flamingo Park",
+    "location": {
+      "city": "East Sussex",
+      "region": "England",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 22853,
+    "name": "1869 China Giant Panda Ecological World",
+    "location": {
+      "city": "Ya'an",
+      "region": "Sichuan",
+      "country": "China"
+    }
+  },
+  {
+    "id": 4602,
+    "name": "Canobie Lake Park",
+    "location": {
+      "city": "Salem",
+      "region": "New Hampshire",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 5252,
+    "name": "Sun Park",
+    "location": {
+      "city": "Chaoyang",
+      "region": "Beijing",
+      "country": "China"
+    }
+  },
+  {
+    "id": 9307,
+    "name": "Märchenwald Steiermark",
+    "location": {
+      "city": "Sankt Georgen ob Judenburg",
+      "region": "Styria",
+      "country": "Austria"
+    }
+  },
+  {
+    "id": 22996,
+    "name": "Hi Space",
+    "location": null
+  },
+  {
+    "id": 22999,
+    "name": "Siri Cafe Ranong",
+    "location": null
+  }
+]
