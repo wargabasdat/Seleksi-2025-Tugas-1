@@ -1,78 +1,145 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2025 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# Seleksi Tahap 2 Asisten Basis Data 2025
+# ETL Project: Data Scraping, Database Modeling, and Data Storing
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## 1. Author
+- **Nama:**  Bryan Ho
+- **NIM:** 13523029
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+---
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## 2. Deskripsi Proyek
+Proyek ini bertujuan untuk melakukan web scraping data buku-buku terbaik di dunia dari situs **The Greatest Books**. Data yang berhasil dikumpulkan mencakup judul, penulis, tahun terbit, negara asal, genre, subjek, dan atribut lainnya.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+Data yang telah dinormalisasi kemudian disimpan dan dikelola menggunakan RDBMS **MariaDB**.
 
+Topik ini dipilih karena data buku memiliki struktur relasional yang kaya dan menarik untuk dimodelkan. Selain itu, topik ini memberikan tantangan dalam menangani relasi many-to-many (antara buku dengan language, genre, dan subjek) serta memberikan wawasan mengenai karya-karya literatur terbaik.
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+---
 
+## 3. Cara Penggunaan
 
+Berikut adalah panduan untuk menjalankan proyek ini.
 
+### Prasyarat
+- Python
+- MariaDB
+- Library Python yang tercantum dalam file `requirements.txt`.
+
+### Langkah-langkah
+1.  **Clone Repositori**
+    ```bash
+    git clone https://github.com/bry-ho/Seleksi-2025-Tugas-1.git 
+    ```
+
+2.  **Install Library yang Dibutuhkan**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Setup Database Operasional**
+    - Buat sebuah database baru di RDBMS Anda dengan nama `books_db`.
+    - Jalankan script `schema.sql` yang ada di folder `Data Storing/src/` untuk membuat semua tabel dan relasi yang dibutuhkan.
+
+4.  **Menjalankan Scraper**
+    - Script ini akan mengambil data dari web dan menyimpannya ke dalam beberapa file JSON di dalam folder `Data Scraping/data/`
+    - Pastikan Anda berada di direktori `Data Scraping/src/` sebelum menjalankan script.
+    ```bash
+    python scraper.py
+    ```
+
+5.  **Memasukkan Procedure dan Trigger ke Database**
+    - Pada RDBMS Anda, jalankan script `procedure.sql` dan `trigger.sql` yang ada di folder `Data Storing/src/` untuk menambahkan logika bisnis tambahan ke dalam database.
+
+6.  **Memasukkan Data ke Database**
+    - Script ini akan membaca file-file JSON dan memasukkan datanya ke dalam database yang telah Anda siapkan.
+    - Pastikan Anda berada di direktori `Data Storing/src/` dan sesuaikan koneksi database yang ada di program `Data Storing/src/insert_data.py` sebelum menjalankan script.
+    ```bash
+    python insert_data.py
+    ```
+
+7.  **Setup dan Load Data Warehouse**
+    - Buat sebuah database baru di RDBMS Anda dengan nama `books_dw`.
+    - Jalankan script `schema.sql` yang ada di folder `Data Warehouse/src/` untuk membuat semua dimension table dan fact table.
+    - Jalankan script ETL yang berada di folder `Data Warehouse/src/` untuk memindahkan dan mentransformasi data dari books_db ke books_dw.
+    ```bash
+    python load_data.py
+    ```
+
+---
+
+## 4. Struktur File JSON
+Data hasil scraping dinormalisasi dan dipisahkan ke dalam beberapa file untuk menjaga integritas dan menghindari redundansi. Berikut adalah struktur filenya:
+- **`authors.json`**: Daftar semua penulis.
+- **`books.json`**: Data utama setiap buku, berisi foreign key ke tabel lain.
+- **`genres.json`**: Daftar semua genre.
+- **`subjects.json`**: Daftar semua subjek.
+- **`languages.json`**: Daftar semua bahasa.
+- **`types.json`**: Daftar tipe buku.
+- **`lengths.json`**: Daftar kategori panjang buku.
+- **`countries.json`**: Daftar negara asal buku ditulis.
+- **`book_genres.json`**: Tabel perantara untuk relasi many-to-many antara buku dan genre.
+- **`book_subjects.json`**: Tabel perantara untuk relasi many-to-many antara buku dan subjek.
+- **`book_languages.json`**: Tabel perantara untuk relasi many-to-many antara buku dan bahasa.
+
+---
+
+## 5. Desain Database (ERD & Diagram Relasional)
+
+### Entity-Relationship Diagram (ERD)
+Diagram ini menggambarkan desain konseptual dari database.
+![ERD](<Data Storing/design/ERD.png>)
+
+### Diagram Relasional
+Diagram ini adalah skema fisik operational database yang diimplementasikan di **MariaDB**.
+![Diagram Relasional](<Data Storing/design/relational_diagram.png>)
+
+### Star Schema
+Diagram ini adalah skema fisik data warehouse yang diimplementasikan di **MariaDB**.
+![Star Schema](<Data Warehouse/design/star_schema.png>)
+
+---
+
+## 6. Proses Translasi ERD ke Diagram Relasional
+Proses translasi dari ERD menjadi skema relasional fisik dilakukan melalui langkah-langkah berikut:
+1.  **Entitas menjadi Tabel**: Setiap entitas pada ERD (seperti `Book`, `Author`, `Genre`, dll) diubah menjadi sebuah tabel di database.
+2.  **Atribut menjadi Kolom**: Setiap atribut dari entitas (seperti `title` pada `Book` atau `author_name` pada `Author`) diubah menjadi kolom pada tabel yang bersangkutan dengan tipe data yang sesuai (`VARCHAR`, `INT`, `FLOAT`, dll.).
+3.  **Identifier menjadi Primary Key**: Atribut unik dari setiap entitas (seperti `book_id` atau `author_id`) dijadikan **Primary Key** pada tabelnya.
+4.  **Relasi One-to-Many**: Relasi ini diimplementasikan dengan menambahkan **Foreign Key** pada tabel di sisi "many". Contohnya, `author_id` ditambahkan di tabel `Book` untuk merujuk ke tabel `Author`.
+5.  **Relasi Many-to-Many**: Relasi ini diimplementasikan dengan membuat **tabel perantara (junction table)** baru. Contohnya, relasi antara `Book` dan `Genre` diimplementasikan dengan membuat tabel `BookGenres` yang berisi `book_id` dan `genre_id` sebagai foreign key.
+
+---
+
+## 7. Screenshot Program
+
+### Proses Scraping
+![Proses Scraping](<Data Scraping/screenshot/scraping_process.png>)
+
+### Proses Memasukkan Data ke Database
+![Proses Insert Data](<Data Storing/screenshot/insert_data_process.png>)
+
+### Proses Mentransformasikan Data ke Data Warehouse
+![Proses Load Data](<Data Warehouse/screenshot/load_data_process.png>)
+
+### Bukti Data di RDBMS (Contoh Query)
+Berikut adalah bukti bahwa data berhasil disimpan dan dapat di-query dari database.
+1. Operational Database
+- Top 10 highest rated books
+![Query SELECT FROM WHERE](<Data Storing/screenshot/query_highest_rated_books.png>)
+- Authors with multiple books
+![Query SELECT FROM WHERE](<Data Storing/screenshot/query_author_with_multiple_books.png>)
+
+2. Data Warehouse
+- Average rating of books per country
+![Query SELECT FROM WHERE](<Data Warehouse/screenshot/query_average_rating_books_per_country.png>)
+- Top 5 genres with the highest average rank
+![Query SELECT FROM WHERE](<Data Warehouse/screenshot/query_genres_with_the_highest_average_rank.png>)
+---
+
+## 8. Referensi
+- **Sumber Data:** [The Greatest Books](https://thegreatestbooks.org/v/table)
+- **Library Python:**
+  - `selenium`
+  - `beautifulsoup4`
+  - `mysql-connector-python` 
+- **Tools:**
+  - MariaDB
