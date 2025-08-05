@@ -16,6 +16,20 @@ conn = psycopg2.connect(
 
 cur = conn.cursor()
 
+cur.execute("DELETE FROM cast_credit")
+cur.execute("DELETE FROM director_credit")
+cur.execute("DELETE FROM videogame")
+cur.execute("DELETE FROM star")
+cur.execute("DELETE FROM director")
+
+# Reset sequence untuk table videogame, director, dan star
+cur.execute("ALTER SEQUENCE videogame_id_seq RESTART WITH 1")
+cur.execute("ALTER SEQUENCE director_id_seq RESTART WITH 1")
+cur.execute("ALTER SEQUENCE star_id_seq RESTART WITH 1")
+
+
+print("Seluruh data lama telah dihapus. Memulai proses insert data baru...\n")
+
 # Load JSON files
 with open(os.path.join(DATA_DIR, 'directors_videogames.json'), 'r', encoding='utf-8') as f:
     directors_data = json.load(f)
