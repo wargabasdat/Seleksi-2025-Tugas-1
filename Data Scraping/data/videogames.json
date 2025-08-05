@@ -1104,5 +1104,378 @@
             174,
             175
         ]
+    },
+    {
+        "title": "76. Super Smash Bros. Melee",
+        "year": "2001",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Smash Bros. installment for the GameCube with fast-paced, highly competitive and technical gameplay of realtime chess and hype using various Nintendo characters, with simple controls yet deep mechanics.",
+        "directors": [
+            65
+        ],
+        "stars": [
+            176,
+            168,
+            16
+        ]
+    },
+    {
+        "title": "77. Super Metroid",
+        "year": "1994",
+        "age rating": "E",
+        "rating": "9.1",
+        "description": "Samus Aran returns to the brooding planet Zebes to recover the last metroid from the Space Pirates.",
+        "directors": [
+            66
+        ],
+        "stars": [
+            177,
+            178
+        ]
+    },
+    {
+        "title": "78. Half-Life 2: Episode Two",
+        "year": "2007",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Gordon Freeman, along with the help of human and non-human allies, continues his fight against the ruthless alien force known as the Combine.",
+        "directors": [
+            21
+        ],
+        "stars": [
+            51,
+            179,
+            180
+        ]
+    },
+    {
+        "title": "79. Final Fantasy VI",
+        "year": "1994",
+        "age rating": "T",
+        "rating": "9.1",
+        "description": "A mysterious woman joins a group of mercenaries in order to find out about her destiny and means of saving the world from an evil madman.",
+        "directors": [
+            67,
+            10
+        ],
+        "stars": []
+    },
+    {
+        "title": "80. The Curse of Monkey Island",
+        "year": "1997",
+        "age rating": "K-A",
+        "rating": "9.1",
+        "description": "After unwittingly turning his true love Elaine into solid gold with a cursed engagement ring, Guybrush Threepwood must find a map, a ship and a crew, sail to Blood Island and track down an uncursed diamond ring to reverse the curse.",
+        "directors": [
+            68,
+            69
+        ],
+        "stars": [
+            71,
+            73,
+            72
+        ]
+    },
+    {
+        "title": "81. Shenmue",
+        "year": "1999",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Ryo, a respected Japanese student sees his father killed in front of his own eyes. He sets out to find the man in charge of his fathers death and the mystery of who and why?",
+        "directors": [
+            70,
+            71
+        ],
+        "stars": [
+            181,
+            182,
+            183
+        ]
+    },
+    {
+        "title": "82. Indiana Jones and the Fate of Atlantis",
+        "year": "1992",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Indiana Jones must fight the nazis again in search for Atlantis and a newly discovered mineral of unbelievable power, the Orichalcum.",
+        "directors": [
+            72
+        ],
+        "stars": [
+            184,
+            185,
+            186
+        ]
+    },
+    {
+        "title": "83. Metal Gear: Ghost Babel",
+        "year": "2000",
+        "age rating": "E",
+        "rating": "9.0",
+        "description": "In this non-canonical sequel to Metal Gear Solid, Solid Snake is called upon from his home in Alaska to infiltrate an enemy base searching for Metal Gear.",
+        "directors": [
+            73
+        ],
+        "stars": []
+    },
+    {
+        "title": "84. Batman: Arkham Knight",
+        "year": "2015",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "With his back against the wall, Batman turns to his closest allies to help him save Gotham City from the clutches of Scarecrow and the Arkham Knight's army. A familiar face also returns to give The Dark Knight a message he cannot ignore.",
+        "directors": [
+            16
+        ],
+        "stars": [
+            187,
+            188,
+            4
+        ]
+    },
+    {
+        "title": "85. Super Smash Bros. Ultimate",
+        "year": "2018",
+        "age rating": "E10+",
+        "rating": "8.8",
+        "description": "Super Smash Bros. Ultimate for the Nintendo Switch brings back every fighter in the history of the series, adds newcomers and over 100 stages, and introduces a new adventure mode called \"World of Light''.",
+        "directors": [
+            65
+        ],
+        "stars": [
+            189,
+            190,
+            191
+        ]
+    },
+    {
+        "title": "86. Yakuza 0",
+        "year": "2015",
+        "age rating": "M",
+        "rating": "8.9",
+        "description": "Kiryu and Majima, both Yakuza's who are in different cities in Japan in 1988, as the fate of the two characters become intertwined in a gritty, violent, and often touching narrative.",
+        "directors": [
+            74,
+            75
+        ],
+        "stars": [
+            192,
+            193,
+            194
+        ]
+    },
+    {
+        "title": "87. Uncharted 3: Drake's Deception",
+        "year": "2011",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Treasure hunter Nathan Drake embarks on a quest in search of the Atlantis of the Sands while battling an ancient, sinister organization.",
+        "directors": [
+            20,
+            76
+        ],
+        "stars": [
+            25,
+            26,
+            46
+        ]
+    },
+    {
+        "title": "88. Metal Gear Solid 2: Sons of Liberty",
+        "year": "2001",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "Two years after the death of Solid Snake, a rookie FOX-HOUND agent, on his first mission, infiltrates an offshore decontamination facility to rescue the President.",
+        "directors": [
+            5
+        ],
+        "stars": [
+            13,
+            195,
+            196
+        ]
+    },
+    {
+        "title": "89. Call of Duty 4: Modern Warfare",
+        "year": "2007",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "The Call of Duty series returns this time into a modern day setting. The player takes control of a character nicknamed \"Soap,\" for the majority of the campaign and will need to progress through many modern warfare scenarios.",
+        "directors": [
+            77
+        ],
+        "stars": [
+            197,
+            198,
+            199
+        ]
+    },
+    {
+        "title": "90. Super Mario Odyssey",
+        "year": "2017",
+        "age rating": "E10+",
+        "rating": "9.0",
+        "description": "Mario must travel to worlds unknown in order to stop Bowser from marrying Princess Peach.",
+        "directors": [
+            78
+        ],
+        "stars": [
+            200,
+            16,
+            201
+        ]
+    },
+    {
+        "title": "91. South Park: The Stick of Truth",
+        "year": "2014",
+        "age rating": "M",
+        "rating": "8.8",
+        "description": "As the New Kid, discover the lost Stick of Truth, and earn your place at the side of Stan, Kyle, Cartman and Kenny as their new friend.",
+        "directors": [
+            79,
+            80,
+            81
+        ],
+        "stars": [
+            202,
+            203,
+            204
+        ]
+    },
+    {
+        "title": "92. The Legend of Zelda: Twilight Princess",
+        "year": "2006",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Link, a young man from a small farming village, finds Hyrule is being consumed by an otherworldly twilight. Guided by a strange pixie named Midna, he endeavors to return light to the land and confront the usurper king Zant.",
+        "directors": [
+            6
+        ],
+        "stars": [
+            205,
+            206,
+            207
+        ]
+    },
+    {
+        "title": "93. Super Mario Galaxy",
+        "year": "2007",
+        "age rating": "E",
+        "rating": "9.1",
+        "description": "When Princess Peach is abducted as part of Bowser's galaxy creation scheme, stalwart plumber Mario must leap to her rescue, with the help of new celestial friends and powers.",
+        "directors": [
+            8
+        ],
+        "stars": [
+            168,
+            201,
+            208
+        ]
+    },
+    {
+        "title": "94. The Legend of Zelda: The Wind Waker",
+        "year": "2002",
+        "age rating": "E",
+        "rating": "9.0",
+        "description": "After his sister gets kidnapped from their peaceful island, a young boy aims to emulate the Hero of Time by saving her.",
+        "directors": [
+            6
+        ],
+        "stars": [
+            209,
+            210,
+            211
+        ]
+    },
+    {
+        "title": "95. Day of the Tentacle",
+        "year": "1993",
+        "age rating": "E",
+        "rating": "8.9",
+        "description": "A disembodied tentacle is accidentally exposed to nuclear waste, giving it human abilities and an ambition to take over the world.",
+        "directors": [
+            82,
+            45
+        ],
+        "stars": [
+            212,
+            184,
+            186
+        ]
+    },
+    {
+        "title": "96. Baldur's Gate",
+        "year": "1998",
+        "age rating": "T",
+        "rating": "8.9",
+        "description": "The main character, ward of mystical monk Gorion, whose name, sex, race and class are defined by the players, leaves his order's keep for the first time and starts a journey to discover his true identity. But someone wants him dead.",
+        "directors": [
+            24
+        ],
+        "stars": [
+            62,
+            213,
+            108
+        ]
+    },
+    {
+        "title": "97. Diablo II",
+        "year": "2000",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "Evil has survived. Diablo, the Lord of Terror, now seeks to free his demonic brothers. The armies of Heaven are forbidden to interfere with his plan, so an Amazon, a Barbarian, a Necromancer, a Paladin and a Sorceresses join the battle.",
+        "directors": [],
+        "stars": [
+            214,
+            215,
+            216
+        ]
+    },
+    {
+        "title": "98. The Longest Journey",
+        "year": "1999",
+        "age rating": "M",
+        "rating": "8.9",
+        "description": "April Ryan is a young visual-arts student in Venice, Newport. She's been having some strange dreams lately, but little does she know about the important role she'll have in changing the future.",
+        "directors": [
+            83,
+            84
+        ],
+        "stars": [
+            217,
+            218,
+            219
+        ]
+    },
+    {
+        "title": "99. System Shock 2",
+        "year": "1999",
+        "age rating": "M",
+        "rating": "8.9",
+        "description": "An agent is deployed on a mission to explore a distant planet, but instead wakes up from his cryosleep five months later only to discover that the ship's artificial intelligence has been corrupted and the humans infected by an alien race.",
+        "directors": [
+            49
+        ],
+        "stars": [
+            220,
+            221,
+            222
+        ]
+    },
+    {
+        "title": "100. StarCraft: Brood War",
+        "year": "1998",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "After the events of StarCraft (1998) the Protoss try to unite their divided race while still fighting the weakened Zerg which is also attacked by human expedition from Earth.",
+        "directors": [
+            85
+        ],
+        "stars": [
+            170,
+            223,
+            224
+        ]
     }
 ]

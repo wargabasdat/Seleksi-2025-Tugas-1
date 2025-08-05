@@ -254,5 +254,89 @@
     {
         "id": 64,
         "name": "Martin Hollis"
+    },
+    {
+        "id": 65,
+        "name": "Masahiro Sakurai"
+    },
+    {
+        "id": 66,
+        "name": "Yoshio Sakamoto"
+    },
+    {
+        "id": 67,
+        "name": "Hiroyuki Itô"
+    },
+    {
+        "id": 68,
+        "name": "Jonathan Ackley"
+    },
+    {
+        "id": 69,
+        "name": "Larry Ahern"
+    },
+    {
+        "id": 70,
+        "name": "Keiji Okayasu"
+    },
+    {
+        "id": 71,
+        "name": "Yu Suzuki"
+    },
+    {
+        "id": 72,
+        "name": "Hal Barwood"
+    },
+    {
+        "id": 73,
+        "name": "Shinta Nojiri"
+    },
+    {
+        "id": 74,
+        "name": "Kazuki Hosokawa"
+    },
+    {
+        "id": 75,
+        "name": "Toshihiro Nagoshi"
+    },
+    {
+        "id": 76,
+        "name": "Justin Richmond"
+    },
+    {
+        "id": 77,
+        "name": "Jason West"
+    },
+    {
+        "id": 78,
+        "name": "Kenta Motokura"
+    },
+    {
+        "id": 79,
+        "name": "Zane Lyon"
+    },
+    {
+        "id": 80,
+        "name": "Chris Parker"
+    },
+    {
+        "id": 81,
+        "name": "Chris 'Crispy' Brion"
+    },
+    {
+        "id": 82,
+        "name": "Dave Grossman"
+    },
+    {
+        "id": 83,
+        "name": "Didrik Tollefsen"
+    },
+    {
+        "id": 84,
+        "name": "Ragnar Tørnquist"
+    },
+    {
+        "id": 85,
+        "name": "Matthew Samia"
     }
 ]
