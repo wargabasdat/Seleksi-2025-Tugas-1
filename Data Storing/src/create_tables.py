@@ -52,7 +52,8 @@ create_statements = [
         age_rating VARCHAR(20),
         rating FLOAT,
         description TEXT,
-        country_id INTEGER REFERENCES country(id)
+        country_id INTEGER REFERENCES country(id),
+        extracted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
     """,
 

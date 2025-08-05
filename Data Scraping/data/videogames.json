@@ -1477,5 +1477,23 @@
             223,
             224
         ]
+    },
+    {
+        "title": "Half-Life: Alyx",
+        "year": "2020",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "Set between the events of Half-Life and Half-Life 2, Alyx Vance and her father Eli secretly mount a resistance to the brutal occupation of Earth by the alien Combine.",
+        "directors": [85],
+        "stars": [170]
+    },
+    {
+        "title": "dummy(2)",
+        "year": "2020",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "Set between the events of Half-Life and Half-Life 2, Alyx Vance and her father Eli secretly mount a resistance to the brutal occupation of Earth by the alien Combine.",
+        "directors": [85],
+        "stars": [170]
     }
 ]

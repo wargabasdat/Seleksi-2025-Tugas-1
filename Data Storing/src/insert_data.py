@@ -1,34 +1,23 @@
 import psycopg2
 import json
 import os
-import json
+from datetime import datetime
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 DATA_DIR = os.path.join(BASE_DIR, 'Data Scraping', 'data')
+extracted_time = datetime.now()
 
 # Koneksi ke PostgreSQL
 conn = psycopg2.connect(
     host="localhost",
     database="videogames_db", 
     user="postgres",
-    password="1234"  
+    password="1234"
 )
 
 cur = conn.cursor()
 
-cur.execute("DELETE FROM cast_credit")
-cur.execute("DELETE FROM director_credit")
-cur.execute("DELETE FROM videogame")
-cur.execute("DELETE FROM star")
-cur.execute("DELETE FROM director")
-
-# Reset sequence untuk table videogame, director, dan star
-cur.execute("ALTER SEQUENCE videogame_id_seq RESTART WITH 1")
-cur.execute("ALTER SEQUENCE director_id_seq RESTART WITH 1")
-cur.execute("ALTER SEQUENCE star_id_seq RESTART WITH 1")
-
-
-print("Seluruh data lama telah dihapus. Memulai proses insert data baru...\n")
+print("Memulai proses insert/update data...\n")
 
 # Load JSON files
 with open(os.path.join(DATA_DIR, 'directors_videogames.json'), 'r', encoding='utf-8') as f:
@@ -40,39 +29,54 @@ with open(os.path.join(DATA_DIR, 'stars_videogames.json'), 'r', encoding='utf-8'
 with open(os.path.join(DATA_DIR, 'videogames.json'), 'r', encoding='utf-8') as f:
     videogames_data = json.load(f)
 
-# Insert directors
+# Insert / update directors
 for director in directors_data:
     cur.execute("""
         INSERT INTO director (id, director_name)
         VALUES (%s, %s)
-        ON CONFLICT (id) DO NOTHING;
+        ON CONFLICT (id) DO UPDATE SET director_name = EXCLUDED.director_name;
     """, (director['id'], director['name']))
 
-# Insert stars
+# Insert / update stars
 for star in stars_data:
     cur.execute("""
         INSERT INTO star (id, star_name)
         VALUES (%s, %s)
-        ON CONFLICT (id) DO NOTHING;
+        ON CONFLICT (id) DO UPDATE SET star_name = EXCLUDED.star_name;
     """, (star['id'], star['name']))
 
-# Insert videogames dan relasi ke cast_credit dan director_credit
+# Insert / update videogames dan relasi
 for game in videogames_data:
     cur.execute("""
-        INSERT INTO videogame (title, year, age_rating, rating, description)
-        VALUES (%s, %s, %s, %s, %s)
-        RETURNING id;
+        INSERT INTO videogame (title, year, age_rating, rating, description, extracted_at)
+        VALUES (%s, %s, %s, %s, %s, %s)
+        ON CONFLICT (title, year) DO UPDATE
+        SET age_rating = EXCLUDED.age_rating,
+            rating = EXCLUDED.rating,
+            description = EXCLUDED.description,
+            extracted_at = EXCLUDED.extracted_at;
     """, (
         game['title'],
         game['year'],
         game['age rating'],
         float(game['rating']) if game['rating'] else None,
-        game['description']
+        game['description'],
+        extracted_time
     ))
-    
-    videogame_id = cur.fetchone()[0]
 
-    # Insert into director_credit
+    # Ambil ID
+    cur.execute("""
+        SELECT id FROM videogame WHERE title = %s AND year = %s;
+    """, (game['title'], game['year']))
+    result = cur.fetchone()
+
+    if result:
+        videogame_id = result[0]
+    else:
+        print(f" Gagal mendapatkan ID untuk: {game['title']} ({game['year']})")
+        continue
+
+    # Insert director_credit (hindari duplikat)
     for director_id in game['directors']:
         cur.execute("""
             INSERT INTO director_credit (videogame_id, director_id)
@@ -80,7 +84,7 @@ for game in videogames_data:
             ON CONFLICT DO NOTHING;
         """, (videogame_id, director_id))
 
-    # Insert into cast_credit
+    # Insert cast_credit (hindari duplikat)
     for star_id in game['stars']:
         cur.execute("""
             INSERT INTO cast_credit (videogame_id, star_id)
@@ -88,9 +92,9 @@ for game in videogames_data:
             ON CONFLICT DO NOTHING;
         """, (videogame_id, star_id))
 
-# Simpan perubahan dan tutup koneksi
+# Simpan dan tutup koneksi
 conn.commit()
 cur.close()
 conn.close()
 
-print("\nData berhasil dimasukkan ke database.")
+print("\nData berhasil dimasukkan / diperbarui di database.")
