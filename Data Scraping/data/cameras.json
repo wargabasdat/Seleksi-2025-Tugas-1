@@ -1,0 +1,1002 @@
+[
+    {
+        "camera_id": 1,
+        "name": "Hasselblad X1D-50c",
+        "brand": "Hasselblad",
+        "model": "X1D-50c",
+        "launch_date": "2016-06-22",
+        "launch_price_usd": 8995,
+        "sensor_format": "Medium Format",
+        "pixel_depth_mp": 50
+    },
+    {
+        "camera_id": 2,
+        "name": "Pentax 645Z",
+        "brand": "Pentax",
+        "model": "645Z",
+        "launch_date": "2014-04-15",
+        "launch_price_usd": 8499,
+        "sensor_format": "Medium Format",
+        "pixel_depth_mp": 51.4
+    },
+    {
+        "camera_id": 3,
+        "name": "Leica M11",
+        "brand": "Leica",
+        "model": "M11",
+        "launch_date": "2022-01-13",
+        "launch_price_usd": 8350,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 60.3
+    },
+    {
+        "camera_id": 4,
+        "name": "Nikon Z7II",
+        "brand": "Nikon",
+        "model": "Z7II",
+        "launch_date": "2020-10-14",
+        "launch_price_usd": 3399,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 45.75
+    },
+    {
+        "camera_id": 5,
+        "name": "Nikon D850",
+        "brand": "Nikon",
+        "model": "D850",
+        "launch_date": "2017-08-23",
+        "launch_price_usd": 3300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 45.7
+    },
+    {
+        "camera_id": 6,
+        "name": "Panasonic Lumix DC-S1R",
+        "brand": "Panasonic",
+        "model": "Lumix DC-S1R",
+        "launch_date": "2019-02-01",
+        "launch_price_usd": 3700,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 47.3
+    },
+    {
+        "camera_id": 7,
+        "name": "Sony A7R V",
+        "brand": "Sony",
+        "model": "A7R V",
+        "launch_date": "2022-10-26",
+        "launch_price_usd": 3900,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 60
+    },
+    {
+        "camera_id": 8,
+        "name": "Sony A7R III",
+        "brand": "Sony",
+        "model": "A7R III",
+        "launch_date": "2017-10-25",
+        "launch_price_usd": 3200,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 42.4
+    },
+    {
+        "camera_id": 9,
+        "name": "Nikon Z7",
+        "brand": "Nikon",
+        "model": "Z7",
+        "launch_date": "2018-08-23",
+        "launch_price_usd": 3400,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 45.7
+    },
+    {
+        "camera_id": 10,
+        "name": "Sony A7R IV",
+        "brand": "Sony",
+        "model": "A7R IV",
+        "launch_date": "2019-07-16",
+        "launch_price_usd": 3500,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 61.2
+    },
+    {
+        "camera_id": 11,
+        "name": "Nikon Z8",
+        "brand": "Nikon",
+        "model": "Z8",
+        "launch_date": "2023-05-25",
+        "launch_price_usd": 4000,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 45.7
+    },
+    {
+        "camera_id": 12,
+        "name": "Nikon Z9",
+        "brand": "Nikon",
+        "model": "Z9",
+        "launch_date": "2021-12-24",
+        "launch_price_usd": 5999,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 45.7
+    },
+    {
+        "camera_id": 13,
+        "name": "Sony A1",
+        "brand": "Sony",
+        "model": "A1",
+        "launch_date": "2021-01-26",
+        "launch_price_usd": 6499,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 50.1
+    },
+    {
+        "camera_id": 14,
+        "name": "Sony A7R II",
+        "brand": "Sony",
+        "model": "A7R II",
+        "launch_date": "2015-06-10",
+        "launch_price_usd": 3198,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 42.4
+    },
+    {
+        "camera_id": 15,
+        "name": "Nikon D810",
+        "brand": "Nikon",
+        "model": "D810",
+        "launch_date": "2014-06-26",
+        "launch_price_usd": 3300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 36.3
+    },
+    {
+        "camera_id": 16,
+        "name": "Sony A7IV",
+        "brand": "Sony",
+        "model": "A7IV",
+        "launch_date": "2021-12-23",
+        "launch_price_usd": 2800,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 33
+    },
+    {
+        "camera_id": 17,
+        "name": "Sony Cyber-shot DSC-RX1R II",
+        "brand": "Sony",
+        "model": "Cyber-shot DSC-RX1R II",
+        "launch_date": "2015-10-14",
+        "launch_price_usd": 3300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 42.4
+    },
+    {
+        "camera_id": 18,
+        "name": "Canon EOS R3",
+        "brand": "Canon",
+        "model": "EOS R3",
+        "launch_date": "2021-09-14",
+        "launch_price_usd": 5999,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.1
+    },
+    {
+        "camera_id": 19,
+        "name": "Leica Q2",
+        "brand": "Leica",
+        "model": "Q2",
+        "launch_date": "2019-03-07",
+        "launch_price_usd": 5000,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 47.3
+    },
+    {
+        "camera_id": 20,
+        "name": "Nikon D800E",
+        "brand": "Nikon",
+        "model": "D800E",
+        "launch_date": "2012-02-07",
+        "launch_price_usd": 3300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 36.3
+    },
+    {
+        "camera_id": 21,
+        "name": "Pentax K-1",
+        "brand": "Pentax",
+        "model": "K-1",
+        "launch_date": "2016-02-17",
+        "launch_price_usd": 1800,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 36.4
+    },
+    {
+        "camera_id": 22,
+        "name": "Sony A7 III",
+        "brand": "Sony",
+        "model": "A7 III",
+        "launch_date": "2018-02-27",
+        "launch_price_usd": 2000,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 23,
+        "name": "Canon EOS R5",
+        "brand": "Canon",
+        "model": "EOS R5",
+        "launch_date": "2020-07-30",
+        "launch_price_usd": 4499,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 45
+    },
+    {
+        "camera_id": 24,
+        "name": "Leica SL2-S",
+        "brand": "Leica",
+        "model": "SL2-S",
+        "launch_date": "2020-12-10",
+        "launch_price_usd": 4895,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.6
+    },
+    {
+        "camera_id": 25,
+        "name": "Nikon Z6",
+        "brand": "Nikon",
+        "model": "Z6",
+        "launch_date": "2018-08-23",
+        "launch_price_usd": 2000,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.5
+    },
+    {
+        "camera_id": 26,
+        "name": "Nikon D800",
+        "brand": "Nikon",
+        "model": "D800",
+        "launch_date": "2012-02-07",
+        "launch_price_usd": 2999,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 36.3
+    },
+    {
+        "camera_id": 27,
+        "name": "Panasonic Lumix DC-S1",
+        "brand": "Panasonic",
+        "model": "Lumix DC-S1",
+        "launch_date": "2019-02-01",
+        "launch_price_usd": 2500,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 28,
+        "name": "Sony A7C",
+        "brand": "Sony",
+        "model": "A7C",
+        "launch_date": "2020-11-01",
+        "launch_price_usd": 1799,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 29,
+        "name": "Sony A7R",
+        "brand": "Sony",
+        "model": "A7R",
+        "launch_date": "2013-10-16",
+        "launch_price_usd": 2300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 36
+    },
+    {
+        "camera_id": 30,
+        "name": "Nikon Z6II",
+        "brand": "Nikon",
+        "model": "Z6II",
+        "launch_date": "2020-10-14",
+        "launch_price_usd": 1995,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.5
+    },
+    {
+        "camera_id": 31,
+        "name": "Nikon D610",
+        "brand": "Nikon",
+        "model": "D610",
+        "launch_date": "2013-10-08",
+        "launch_price_usd": 1999,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24
+    },
+    {
+        "camera_id": 32,
+        "name": "Nikon D600",
+        "brand": "Nikon",
+        "model": "D600",
+        "launch_date": "2012-09-13",
+        "launch_price_usd": 2100,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.3
+    },
+    {
+        "camera_id": 33,
+        "name": "Panasonic Lumix DCS5",
+        "brand": "Panasonic",
+        "model": "Lumix DCS5",
+        "launch_date": "2021-02-09",
+        "launch_price_usd": 1999,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 34,
+        "name": "Canon EOS R8",
+        "brand": "Canon",
+        "model": "EOS R8",
+        "launch_date": "2023-02-08",
+        "launch_price_usd": 1499,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 35,
+        "name": "Nikon D750",
+        "brand": "Nikon",
+        "model": "D750",
+        "launch_date": "2014-09-12",
+        "launch_price_usd": 2300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.3
+    },
+    {
+        "camera_id": 36,
+        "name": "Pixii Max",
+        "brand": "Pixii",
+        "model": "Max",
+        "launch_date": "2024-11-01",
+        "launch_price_usd": 3999,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.5
+    },
+    {
+        "camera_id": 37,
+        "name": "Sony a9 II",
+        "brand": "Sony",
+        "model": "a9 II",
+        "launch_date": "2019-10-03",
+        "launch_price_usd": 4500,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 38,
+        "name": "Sony Cyber-shot DSC-RX1",
+        "brand": "Sony",
+        "model": "Cyber-shot DSC-RX1",
+        "launch_date": "2012-09-12",
+        "launch_price_usd": 2800,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.3
+    },
+    {
+        "camera_id": 39,
+        "name": "Sony a9",
+        "brand": "Sony",
+        "model": "a9",
+        "launch_date": "2017-04-19",
+        "launch_price_usd": 4500,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 40,
+        "name": "Sony SLT Alpha 99 II",
+        "brand": "Sony",
+        "model": "SLT Alpha 99 II",
+        "launch_date": "2016-09-19",
+        "launch_price_usd": 3200,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 42.4
+    },
+    {
+        "camera_id": 41,
+        "name": "Canon  EOS-1D X Mark III",
+        "brand": "Canon",
+        "model": " EOS-1D X Mark III",
+        "launch_date": "2020-01-07",
+        "launch_price_usd": 6500,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 20.1
+    },
+    {
+        "camera_id": 42,
+        "name": "Canon EOS 5D Mark IV",
+        "brand": "Canon",
+        "model": "EOS 5D Mark IV",
+        "launch_date": "2016-08-25",
+        "launch_price_usd": 3500,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 30.4
+    },
+    {
+        "camera_id": 43,
+        "name": "Phase One IQ180 Digital Back",
+        "brand": "Phase One",
+        "model": "IQ180 Digital Back",
+        "launch_date": "2011-01-24",
+        "launch_price_usd": 42490,
+        "sensor_format": "Medium Format",
+        "pixel_depth_mp": 80
+    },
+    {
+        "camera_id": 44,
+        "name": "Sony Cyber-shot DSC-RX1R",
+        "brand": "Sony",
+        "model": "Cyber-shot DSC-RX1R",
+        "launch_date": "2013-06-27",
+        "launch_price_usd": 2800,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.3
+    },
+    {
+        "camera_id": 45,
+        "name": "Canon EOS R6",
+        "brand": "Canon",
+        "model": "EOS R6",
+        "launch_date": "2020-08-27",
+        "launch_price_usd": 2499,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 20.1
+    },
+    {
+        "camera_id": 46,
+        "name": "Pixii A1571",
+        "brand": "Pixii",
+        "model": "A1571",
+        "launch_date": "2021-09-27",
+        "launch_price_usd": 2999,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 26
+    },
+    {
+        "camera_id": 47,
+        "name": "Sony A7 II",
+        "brand": "Sony",
+        "model": "A7 II",
+        "launch_date": "2014-11-20",
+        "launch_price_usd": 1600,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.3
+    },
+    {
+        "camera_id": 48,
+        "name": "Sony A7",
+        "brand": "Sony",
+        "model": "A7",
+        "launch_date": "2013-10-16",
+        "launch_price_usd": 1700,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24
+    },
+    {
+        "camera_id": 49,
+        "name": "Canon EOS R",
+        "brand": "Canon",
+        "model": "EOS R",
+        "launch_date": "2018-09-05",
+        "launch_price_usd": 2300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 30.3
+    },
+    {
+        "camera_id": 50,
+        "name": "Nikon D4s",
+        "brand": "Nikon",
+        "model": "D4s",
+        "launch_date": "2014-02-25",
+        "launch_price_usd": 6500,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 16.2
+    },
+    {
+        "camera_id": 51,
+        "name": "Nikon Df",
+        "brand": "Nikon",
+        "model": "Df",
+        "launch_date": "2013-11-05",
+        "launch_price_usd": 2749,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 16.2
+    },
+    {
+        "camera_id": 52,
+        "name": "Nikon D4",
+        "brand": "Nikon",
+        "model": "D4",
+        "launch_date": "2012-01-06",
+        "launch_price_usd": 5999,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 16.2
+    },
+    {
+        "camera_id": 53,
+        "name": "Phase One P65 Plus",
+        "brand": "Phase One",
+        "model": "P65 Plus",
+        "launch_date": "2008-07-14",
+        "launch_price_usd": 39900,
+        "sensor_format": "Medium Format",
+        "pixel_depth_mp": 60.5
+    },
+    {
+        "camera_id": 54,
+        "name": "Sony SLT Alpha 99",
+        "brand": "Sony",
+        "model": "SLT Alpha 99",
+        "launch_date": "2012-09-12",
+        "launch_price_usd": 2800,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.3
+    },
+    {
+        "camera_id": 55,
+        "name": "Canon  EOS-1D X Mark II",
+        "brand": "Canon",
+        "model": " EOS-1D X Mark II",
+        "launch_date": "2016-02-02",
+        "launch_price_usd": 6000,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 20.2
+    },
+    {
+        "camera_id": 56,
+        "name": "Leica SL (Typ 601)",
+        "brand": "Leica",
+        "model": "SL (Typ 601)",
+        "launch_date": "2015-10-20",
+        "launch_price_usd": 7450,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24
+    },
+    {
+        "camera_id": 57,
+        "name": "Nikon D5",
+        "brand": "Nikon",
+        "model": "D5",
+        "launch_date": "2016-01-06",
+        "launch_price_usd": 6500,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 20.8
+    },
+    {
+        "camera_id": 58,
+        "name": "Nikon D3X",
+        "brand": "Nikon",
+        "model": "D3X",
+        "launch_date": "2008-12-01",
+        "launch_price_usd": 9172,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.5
+    },
+    {
+        "camera_id": 59,
+        "name": "Canon EOS 5DS",
+        "brand": "Canon",
+        "model": "EOS 5DS",
+        "launch_date": "2015-02-06",
+        "launch_price_usd": 3700,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 50.6
+    },
+    {
+        "camera_id": 60,
+        "name": "Nikon D7200",
+        "brand": "Nikon",
+        "model": "D7200",
+        "launch_date": "2015-03-02",
+        "launch_price_usd": 1200,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 61,
+        "name": "Phase One P40 Plus",
+        "brand": "Phase One",
+        "model": "P40 Plus",
+        "launch_date": "2009-04-29",
+        "launch_price_usd": 19500,
+        "sensor_format": "Medium Format",
+        "pixel_depth_mp": 40
+    },
+    {
+        "camera_id": 62,
+        "name": "Samsung NX500",
+        "brand": "Samsung",
+        "model": "NX500",
+        "launch_date": "2015-02-05",
+        "launch_price_usd": 800,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 28
+    },
+    {
+        "camera_id": 63,
+        "name": "Sony A9 III",
+        "brand": "Sony",
+        "model": "A9 III",
+        "launch_date": "2023-11-08",
+        "launch_price_usd": 5999,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.6
+    },
+    {
+        "camera_id": 64,
+        "name": "Sony A7S",
+        "brand": "Sony",
+        "model": "A7S",
+        "launch_date": "2014-04-06",
+        "launch_price_usd": 2499,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 12.2
+    },
+    {
+        "camera_id": 65,
+        "name": "Canon EOS 5DS R",
+        "brand": "Canon",
+        "model": "EOS 5DS R",
+        "launch_date": "2015-02-06",
+        "launch_price_usd": 3900,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 50.6
+    },
+    {
+        "camera_id": 66,
+        "name": "DJI Zenmuse X7",
+        "brand": "DJI",
+        "model": "Zenmuse X7",
+        "launch_date": "2017-10-11",
+        "launch_price_usd": 2700,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24
+    },
+    {
+        "camera_id": 67,
+        "name": "Leica M10",
+        "brand": "Leica",
+        "model": "M10",
+        "launch_date": "2017-01-18",
+        "launch_price_usd": 6895,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24
+    },
+    {
+        "camera_id": 68,
+        "name": "Nikon D7500",
+        "brand": "Nikon",
+        "model": "D7500",
+        "launch_date": "2017-04-12",
+        "launch_price_usd": 1250,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 20.9
+    },
+    {
+        "camera_id": 69,
+        "name": "Nikon D3400",
+        "brand": "Nikon",
+        "model": "D3400",
+        "launch_date": "2016-08-17",
+        "launch_price_usd": 650,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 70,
+        "name": "Sony A7SIII",
+        "brand": "Sony",
+        "model": "A7SIII",
+        "launch_date": "2020-07-28",
+        "launch_price_usd": 3499,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 12.1
+    },
+    {
+        "camera_id": 71,
+        "name": "Canon EOS RP",
+        "brand": "Canon",
+        "model": "EOS RP",
+        "launch_date": "2019-02-14",
+        "launch_price_usd": 1300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 26
+    },
+    {
+        "camera_id": 72,
+        "name": "Canon EOS 6D Mark II",
+        "brand": "Canon",
+        "model": "EOS 6D Mark II",
+        "launch_date": "2017-06-29",
+        "launch_price_usd": 2000,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 26.2
+    },
+    {
+        "camera_id": 73,
+        "name": "Leica Q Typ 116",
+        "brand": "Leica",
+        "model": "Q Typ 116",
+        "launch_date": "2015-06-10",
+        "launch_price_usd": 4250,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 74,
+        "name": "Sony A6500",
+        "brand": "Sony",
+        "model": "A6500",
+        "launch_date": "2016-10-06",
+        "launch_price_usd": 1400,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 75,
+        "name": "Sony A6300",
+        "brand": "Sony",
+        "model": "A6300",
+        "launch_date": "2016-02-03",
+        "launch_price_usd": 1000,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 76,
+        "name": "Sony A7S II",
+        "brand": "Sony",
+        "model": "A7S II",
+        "launch_date": "2015-09-11",
+        "launch_price_usd": 3000,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 12.2
+    },
+    {
+        "camera_id": 77,
+        "name": "Leica M Typ 240",
+        "brand": "Leica",
+        "model": "M Typ 240",
+        "launch_date": "2012-09-17",
+        "launch_price_usd": 6950,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 24
+    },
+    {
+        "camera_id": 78,
+        "name": "Nikon D5600",
+        "brand": "Nikon",
+        "model": "D5600",
+        "launch_date": "2016-11-10",
+        "launch_price_usd": 700,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 79,
+        "name": "Nikon D500",
+        "brand": "Nikon",
+        "model": "D500",
+        "launch_date": "2016-01-06",
+        "launch_price_usd": 2000,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 20.9
+    },
+    {
+        "camera_id": 80,
+        "name": "Nikon D5500",
+        "brand": "Nikon",
+        "model": "D5500",
+        "launch_date": "2015-01-06",
+        "launch_price_usd": 900,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 81,
+        "name": "Nikon D5200",
+        "brand": "Nikon",
+        "model": "D5200",
+        "launch_date": "2012-11-06",
+        "launch_price_usd": 897,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.1
+    },
+    {
+        "camera_id": 82,
+        "name": "Nikon D5300",
+        "brand": "Nikon",
+        "model": "D5300",
+        "launch_date": "2013-10-17",
+        "launch_price_usd": 800,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 83,
+        "name": "Nikon D7100",
+        "brand": "Nikon",
+        "model": "D7100",
+        "launch_date": "2013-02-21",
+        "launch_price_usd": 1200,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.1
+    },
+    {
+        "camera_id": 84,
+        "name": "Samsung NX1",
+        "brand": "Samsung",
+        "model": "NX1",
+        "launch_date": "2014-09-15",
+        "launch_price_usd": 1500,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 28.2
+    },
+    {
+        "camera_id": 85,
+        "name": "Sony A6400",
+        "brand": "Sony",
+        "model": "A6400",
+        "launch_date": "2019-01-15",
+        "launch_price_usd": 900,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 86,
+        "name": "Canon EOS 6D",
+        "brand": "Canon",
+        "model": "EOS 6D",
+        "launch_date": "2012-09-17",
+        "launch_price_usd": 2099,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 20.2
+    },
+    {
+        "camera_id": 87,
+        "name": "Canon EOS 1Dx",
+        "brand": "Canon",
+        "model": "EOS 1Dx",
+        "launch_date": "2011-10-18",
+        "launch_price_usd": 6800,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 18.1
+    },
+    {
+        "camera_id": 88,
+        "name": "Nikon D3300",
+        "brand": "Nikon",
+        "model": "D3300",
+        "launch_date": "2014-01-07",
+        "launch_price_usd": 650,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 89,
+        "name": "Nikon D3s",
+        "brand": "Nikon",
+        "model": "D3s",
+        "launch_date": "2009-10-14",
+        "launch_price_usd": 5510,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 12.1
+    },
+    {
+        "camera_id": 90,
+        "name": "Pentax K-5 II",
+        "brand": "Pentax",
+        "model": "K-5 II",
+        "launch_date": "2012-09-11",
+        "launch_price_usd": 999,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 16.3
+    },
+    {
+        "camera_id": 91,
+        "name": "Pentax K-5 IIs",
+        "brand": "Pentax",
+        "model": "K-5 IIs",
+        "launch_date": "2012-09-11",
+        "launch_price_usd": 1199,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 16.3
+    },
+    {
+        "camera_id": 92,
+        "name": "Pentax K5",
+        "brand": "Pentax",
+        "model": "K5",
+        "launch_date": "2010-09-20",
+        "launch_price_usd": 1600,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 16.3
+    },
+    {
+        "camera_id": 93,
+        "name": "Pentax 645D",
+        "brand": "Pentax",
+        "model": "645D",
+        "launch_date": "2010-03-01",
+        "launch_price_usd": 9400,
+        "sensor_format": "Medium Format",
+        "pixel_depth_mp": 40
+    },
+    {
+        "camera_id": 94,
+        "name": "Sony A6600",
+        "brand": "Sony",
+        "model": "A6600",
+        "launch_date": "2019-08-28",
+        "launch_price_usd": 1200,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 95,
+        "name": "Sony SLT Alpha 77 II",
+        "brand": "Sony",
+        "model": "SLT Alpha 77 II",
+        "launch_date": "2014-05-01",
+        "launch_price_usd": 1200,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.3
+    },
+    {
+        "camera_id": 96,
+        "name": "Sony A6000",
+        "brand": "Sony",
+        "model": "A6000",
+        "launch_date": "2014-02-12",
+        "launch_price_usd": 799,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.3
+    },
+    {
+        "camera_id": 97,
+        "name": "Canon EOS 5D Mark III",
+        "brand": "Canon",
+        "model": "EOS 5D Mark III",
+        "launch_date": "2012-03-02",
+        "launch_price_usd": 3499,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 22.3
+    },
+    {
+        "camera_id": 98,
+        "name": "Nikon D3200",
+        "brand": "Nikon",
+        "model": "D3200",
+        "launch_date": "2012-04-19",
+        "launch_price_usd": 699,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.2
+    },
+    {
+        "camera_id": 99,
+        "name": "Nikon D3",
+        "brand": "Nikon",
+        "model": "D3",
+        "launch_date": "2007-08-23",
+        "launch_price_usd": 4300,
+        "sensor_format": "Full Frame",
+        "pixel_depth_mp": 12.1
+    },
+    {
+        "camera_id": 100,
+        "name": "Sony NEX-7",
+        "brand": "Sony",
+        "model": "NEX-7",
+        "launch_date": "2011-08-24",
+        "launch_price_usd": 1720,
+        "sensor_format": "APS-C",
+        "pixel_depth_mp": 24.3
+    }
+]
