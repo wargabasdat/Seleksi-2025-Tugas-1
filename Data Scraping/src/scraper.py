@@ -112,7 +112,7 @@ def get_episode_details(detail_url):
         details['comments'] = comments
 
     except requests.exceptions.RequestException as e:
-        print(f"  -> Error scraping episode details: {e}")
+        print(f"Error scraping episode details: {e}")
     return details
 
 # scrape people involved in the episode (cast n crew)
@@ -156,7 +156,7 @@ def get_people_involved(url, person_type, status):
                 people_list.append(person_data)
 
     except requests.exceptions.RequestException as e:
-        print(f"  -> Error scraping {person_type}: {e}")
+        print(f"Error scraping {person_type}: {e}")
     return people_list
 
 # process a single episode stub
@@ -236,7 +236,7 @@ if __name__ == "__main__":
                         print(f"Processed {i+1}/{total_episodes} episodes")
                 except Exception as e:
                     stub = future_to_stub[future]
-                    print(f"  Error processing {stub['title']}: {e}")
+                    print(f"Error processing {stub['title']}: {e}")
 
         all_episodes.sort(key=lambda x: x['episode_id'])
         all_casts.sort(key=lambda x: (x['episode_id'], x['status'], x['actor']))
