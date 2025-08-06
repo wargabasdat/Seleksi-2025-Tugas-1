@@ -57,14 +57,6 @@ Berikut adalah panduan untuk menjalankan proyek ini.
     python insert_data.py
     ```
 
-7.  **Setup dan Load Data Warehouse**
-    - Buat sebuah database baru di RDBMS Anda dengan nama `books_dw`.
-    - Jalankan script `schema.sql` yang ada di folder `Data Warehouse/src/` untuk membuat semua dimension table dan fact table.
-    - Jalankan script ETL yang berada di folder `Data Warehouse/src/` untuk memindahkan dan mentransformasi data dari books_db ke books_dw.
-    ```bash
-    python load_data.py
-    ```
-
 ---
 
 ## 4. Struktur File JSON
@@ -93,10 +85,6 @@ Diagram ini menggambarkan desain konseptual dari database.
 Diagram ini adalah skema fisik operational database yang diimplementasikan di **MariaDB**.
 ![Diagram Relasional](<Data Storing/design/relational_diagram.png>)
 
-### Star Schema
-Diagram ini adalah skema fisik data warehouse yang diimplementasikan di **MariaDB**.
-![Star Schema](<Data Warehouse/design/star_schema.png>)
-
 ---
 
 ## 6. Proses Translasi ERD ke Diagram Relasional
@@ -109,7 +97,28 @@ Proses translasi dari ERD menjadi skema relasional fisik dilakukan melalui langk
 
 ---
 
-## 7. Screenshot Program
+## 7. Bonus
+### Setup dan Load Data Warehouse
+- Buat sebuah database baru di RDBMS Anda dengan nama `books_dw`.
+- Jalankan script `schema.sql` yang ada di folder `Data Warehouse/src/` untuk membuat semua dimension table dan fact table.
+- Jalankan script ETL yang berada di folder `Data Warehouse/src/` untuk memindahkan dan mentransformasi data dari books_db ke books_dw.
+```bash
+python load_data.py
+```
+
+### Desain Data Warehouse (Star Schema)
+Diagram ini adalah skema fisik data warehouse yang diimplementasikan di **MariaDB**.
+![Star Schema](<Data Warehouse/design/star_schema.png>)
+
+### Automated Scheduling
+Untuk menjaga agar data selalu ter-update, keseluruhan proses dari scraping hingga loading data warehouse dapat diotomatisasi menggunakan penjadwal tugas. Proses otomasi ini menggabungkan semua langkah (scraping, data storing, dan ETL data warehouse) ke dalam satu script utama yang kemudian dijalankan secara berkala oleh **Windows Task Scheduler**.
+
+Berikut adalah bukti bahwa pipeline telah berjalan pada dua waktu yang berbeda.
+![Automated Scheduling](<Data Warehouse/screenshot/automated_scheduling_timestamp.png>)
+
+---
+
+## 8. Screenshot Program
 
 ### Proses Scraping
 ![Proses Scraping](<Data Scraping/screenshot/scraping_process.png>)
@@ -135,7 +144,7 @@ Berikut adalah bukti bahwa data berhasil disimpan dan dapat di-query dari databa
 ![Query SELECT FROM WHERE](<Data Warehouse/screenshot/query_genres_with_the_highest_average_rank.png>)
 ---
 
-## 8. Referensi
+## 9. Referensi
 - **Sumber Data:** [The Greatest Books](https://thegreatestbooks.org/v/table)
 - **Library Python:**
   - `selenium`
