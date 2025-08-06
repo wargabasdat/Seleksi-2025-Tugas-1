@@ -153,7 +153,7 @@ def insert_subjects(cursor, subjects_data):
 #     print(f"Inserted {cursor.rowcount} books")
 
 def insert_books_with_procedure(cursor, books_data, book_languages_data, book_genres_data, book_subjects_data):
-    """Insert books data using CreateNewBook procedure with relationships"""
+    """Insert books data using UpsertBook procedure with relationships"""
     
     # Create lookup dictionaries for relationships
     book_languages_map = {}

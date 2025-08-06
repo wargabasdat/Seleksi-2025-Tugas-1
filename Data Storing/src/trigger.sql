@@ -8,7 +8,7 @@ BEGIN
     -- Check if we're inside the procedure by looking for a session variable
     IF @allow_book_insert IS NULL OR @allow_book_insert != 1 THEN
         SIGNAL SQLSTATE '45000' 
-        SET MESSAGE_TEXT = 'Direct INSERT into Book table is not allowed. Use CreateNewBook procedure instead.';
+        SET MESSAGE_TEXT = 'Direct INSERT into Book table is not allowed. Use UpsertBook procedure instead.';
     END IF;
 END //
 

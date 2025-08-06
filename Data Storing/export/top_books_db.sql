@@ -311,7 +311,7 @@ BEGIN
     
     IF @allow_book_insert IS NULL OR @allow_book_insert != 1 THEN
         SIGNAL SQLSTATE '45000' 
-        SET MESSAGE_TEXT = 'Direct INSERT into Book table is not allowed. Use CreateNewBook procedure instead.';
+        SET MESSAGE_TEXT = 'Direct INSERT into Book table is not allowed. Use UpsertBook procedure instead.';
     END IF;
 END */;;
 DELIMITER ;
@@ -3001,6 +3001,143 @@ INSERT INTO `type` VALUES
 (4,'Religious');
 /*!40000 ALTER TABLE `type` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping routines for database 'books_db'
+--
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `UpsertBook` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_general_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `UpsertBook`(
+    IN p_rank INT,
+    IN p_title VARCHAR(255),
+    IN p_year INT,
+    IN p_pages VARCHAR(255),
+    IN p_avg_rating FLOAT,
+    IN p_type_id INT,
+    IN p_length_id INT,
+    IN p_author_id INT,
+    IN p_country_id INT,
+    IN p_language_ids VARCHAR(255),
+    IN p_genre_ids VARCHAR(255),
+    IN p_subject_ids VARCHAR(255)
+)
+BEGIN
+    DECLARE v_book_id INT;
+    DECLARE current_id INT;
+    DECLARE remaining_ids TEXT;
+    DECLARE comma_pos INT;
+    
+    
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION
+    BEGIN
+        SET @allow_book_insert = NULL; 
+        ROLLBACK;
+        RESIGNAL;
+    END;
+
+    
+    SELECT book_id INTO v_book_id
+    FROM Book
+    WHERE title = p_title AND author_id = p_author_id
+    LIMIT 1;
+
+    START TRANSACTION;
+
+    IF v_book_id IS NOT NULL THEN
+        
+        UPDATE Book
+        SET 
+            rank = p_rank,
+            year = p_year,
+            pages = p_pages,
+            avg_rating = p_avg_rating,
+            type_id = p_type_id,
+            length_id = p_length_id,
+            country_id = p_country_id
+        WHERE book_id = v_book_id;
+
+        
+        DELETE FROM BookLanguages WHERE book_id = v_book_id;
+        DELETE FROM BookGenres WHERE book_id = v_book_id;
+        DELETE FROM BookSubjects WHERE book_id = v_book_id;
+
+    ELSE
+        
+        SET @allow_book_insert = 1;
+
+        INSERT INTO Book(rank, title, year, pages, avg_rating, type_id, length_id, author_id, country_id)
+        VALUES(p_rank, p_title, p_year, p_pages, p_avg_rating, p_type_id, p_length_id, p_author_id, p_country_id);
+        
+        SET @allow_book_insert = NULL;
+        
+        SET v_book_id = LAST_INSERT_ID();
+    END IF;
+    
+    IF p_language_ids IS NOT NULL AND p_language_ids != '' THEN
+        SET remaining_ids = CONCAT(p_language_ids, ',');
+        WHILE LENGTH(remaining_ids) > 0 DO
+            SET comma_pos = LOCATE(',', remaining_ids);
+            IF comma_pos > 0 THEN
+                SET current_id = CAST(TRIM(SUBSTRING(remaining_ids, 1, comma_pos - 1)) AS UNSIGNED);
+                IF current_id > 0 THEN
+                    INSERT INTO BookLanguages(book_id, language_id) VALUES(v_book_id, current_id);
+                END IF;
+                SET remaining_ids = SUBSTRING(remaining_ids, comma_pos + 1);
+            ELSE
+                SET remaining_ids = '';
+            END IF;
+        END WHILE;
+    END IF;
+
+    
+    IF p_genre_ids IS NOT NULL AND p_genre_ids != '' THEN
+        SET remaining_ids = CONCAT(p_genre_ids, ',');
+        WHILE LENGTH(remaining_ids) > 0 DO
+            SET comma_pos = LOCATE(',', remaining_ids);
+            IF comma_pos > 0 THEN
+                SET current_id = CAST(TRIM(SUBSTRING(remaining_ids, 1, comma_pos - 1)) AS UNSIGNED);
+                IF current_id > 0 THEN
+                    INSERT INTO BookGenres(book_id, genre_id) VALUES(v_book_id, current_id);
+                END IF;
+                SET remaining_ids = SUBSTRING(remaining_ids, comma_pos + 1);
+            ELSE
+                SET remaining_ids = '';
+            END IF;
+        END WHILE;
+    END IF;
+    
+    
+    IF p_subject_ids IS NOT NULL AND p_subject_ids != '' THEN
+        SET remaining_ids = CONCAT(p_subject_ids, ',');
+        WHILE LENGTH(remaining_ids) > 0 DO
+            SET comma_pos = LOCATE(',', remaining_ids);
+            IF comma_pos > 0 THEN
+                SET current_id = CAST(TRIM(SUBSTRING(remaining_ids, 1, comma_pos - 1)) AS UNSIGNED);
+                IF current_id > 0 THEN
+                    INSERT INTO BookSubjects(book_id, subject_id) VALUES(v_book_id, current_id);
+                END IF;
+                SET remaining_ids = SUBSTRING(remaining_ids, comma_pos + 1);
+            ELSE
+                SET remaining_ids = '';
+            END IF;
+        END WHILE;
+    END IF;
+
+    COMMIT;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -3011,4 +3148,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2025-08-04 23:18:00
+-- Dump completed on 2025-08-06 20:45:31
