@@ -1,0 +1,78 @@
+[
+    {
+        "country_id": 1,
+        "country_name": "American"
+    },
+    {
+        "country_id": 2,
+        "country_name": "Argentinian"
+    },
+    {
+        "country_id": 3,
+        "country_name": "Austrian"
+    },
+    {
+        "country_id": 4,
+        "country_name": "British"
+    },
+    {
+        "country_id": 5,
+        "country_name": "Colombian"
+    },
+    {
+        "country_id": 6,
+        "country_name": "Czech"
+    },
+    {
+        "country_id": 7,
+        "country_name": "Dutch"
+    },
+    {
+        "country_id": 8,
+        "country_name": "French"
+    },
+    {
+        "country_id": 9,
+        "country_name": "German"
+    },
+    {
+        "country_id": 10,
+        "country_name": "Greek"
+    },
+    {
+        "country_id": 11,
+        "country_name": "Indian"
+    },
+    {
+        "country_id": 12,
+        "country_name": "Irish"
+    },
+    {
+        "country_id": 13,
+        "country_name": "Italian"
+    },
+    {
+        "country_id": 14,
+        "country_name": "Jewish"
+    },
+    {
+        "country_id": 15,
+        "country_name": "Multiple"
+    },
+    {
+        "country_id": 16,
+        "country_name": "Nigerian"
+    },
+    {
+        "country_id": 17,
+        "country_name": "Roman"
+    },
+    {
+        "country_id": 18,
+        "country_name": "Russian"
+    },
+    {
+        "country_id": 19,
+        "country_name": "Spanish"
+    }
+]

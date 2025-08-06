@@ -1,0 +1,270 @@
+[
+    {
+        "genre_id": 1,
+        "genre_name": "20th century"
+    },
+    {
+        "genre_id": 2,
+        "genre_name": "Absurdist"
+    },
+    {
+        "genre_id": 3,
+        "genre_name": "Adventure"
+    },
+    {
+        "genre_id": 4,
+        "genre_name": "Allegorical"
+    },
+    {
+        "genre_id": 5,
+        "genre_name": "Anthologies"
+    },
+    {
+        "genre_id": 6,
+        "genre_name": "Banned books"
+    },
+    {
+        "genre_id": 7,
+        "genre_name": "Children's books"
+    },
+    {
+        "genre_id": 8,
+        "genre_name": "Coming of age"
+    },
+    {
+        "genre_id": 9,
+        "genre_name": "Crime"
+    },
+    {
+        "genre_id": 10,
+        "genre_name": "Cultural"
+    },
+    {
+        "genre_id": 11,
+        "genre_name": "Dark"
+    },
+    {
+        "genre_id": 12,
+        "genre_name": "Dark Humor"
+    },
+    {
+        "genre_id": 13,
+        "genre_name": "Diaries & Journals"
+    },
+    {
+        "genre_id": 14,
+        "genre_name": "Drama"
+    },
+    {
+        "genre_id": 15,
+        "genre_name": "Dystopian"
+    },
+    {
+        "genre_id": 16,
+        "genre_name": "Existentialist"
+    },
+    {
+        "genre_id": 17,
+        "genre_name": "Experimental"
+    },
+    {
+        "genre_id": 18,
+        "genre_name": "Family & Relationships"
+    },
+    {
+        "genre_id": 19,
+        "genre_name": "Fantasy"
+    },
+    {
+        "genre_id": 20,
+        "genre_name": "Fiction"
+    },
+    {
+        "genre_id": 21,
+        "genre_name": "Folklore & Fairy Tales"
+    },
+    {
+        "genre_id": 22,
+        "genre_name": "Good and evil"
+    },
+    {
+        "genre_id": 23,
+        "genre_name": "Gothic"
+    },
+    {
+        "genre_id": 24,
+        "genre_name": "Hard Boiled"
+    },
+    {
+        "genre_id": 25,
+        "genre_name": "High Fantasy"
+    },
+    {
+        "genre_id": 26,
+        "genre_name": "Historical fiction"
+    },
+    {
+        "genre_id": 27,
+        "genre_name": "Horror"
+    },
+    {
+        "genre_id": 28,
+        "genre_name": "Humor"
+    },
+    {
+        "genre_id": 29,
+        "genre_name": "Literary Fiction"
+    },
+    {
+        "genre_id": 30,
+        "genre_name": "Magical Realism"
+    },
+    {
+        "genre_id": 31,
+        "genre_name": "Memoir"
+    },
+    {
+        "genre_id": 32,
+        "genre_name": "Middle Grade"
+    },
+    {
+        "genre_id": 33,
+        "genre_name": "Modernist"
+    },
+    {
+        "genre_id": 34,
+        "genre_name": "Mystery"
+    },
+    {
+        "genre_id": 35,
+        "genre_name": "Mythological"
+    },
+    {
+        "genre_id": 36,
+        "genre_name": "Nonfiction"
+    },
+    {
+        "genre_id": 37,
+        "genre_name": "Pastoral"
+    },
+    {
+        "genre_id": 38,
+        "genre_name": "Picaresque"
+    },
+    {
+        "genre_id": 39,
+        "genre_name": "Plays"
+    },
+    {
+        "genre_id": 40,
+        "genre_name": "Poetry"
+    },
+    {
+        "genre_id": 41,
+        "genre_name": "Political"
+    },
+    {
+        "genre_id": 42,
+        "genre_name": "Postmodern"
+    },
+    {
+        "genre_id": 43,
+        "genre_name": "Psychological"
+    },
+    {
+        "genre_id": 44,
+        "genre_name": "Realistic Fiction"
+    },
+    {
+        "genre_id": 45,
+        "genre_name": "Regency"
+    },
+    {
+        "genre_id": 46,
+        "genre_name": "Religion & Spirituality"
+    },
+    {
+        "genre_id": 47,
+        "genre_name": "Romance"
+    },
+    {
+        "genre_id": 48,
+        "genre_name": "Sagas"
+    },
+    {
+        "genre_id": 49,
+        "genre_name": "Sailors & The Sea"
+    },
+    {
+        "genre_id": 50,
+        "genre_name": "Satire"
+    },
+    {
+        "genre_id": 51,
+        "genre_name": "Science fiction"
+    },
+    {
+        "genre_id": 52,
+        "genre_name": "Short Story Collection"
+    },
+    {
+        "genre_id": 53,
+        "genre_name": "Social & Cultural Fiction"
+    },
+    {
+        "genre_id": 54,
+        "genre_name": "Speculative Fiction"
+    },
+    {
+        "genre_id": 55,
+        "genre_name": "Supernatural"
+    },
+    {
+        "genre_id": 56,
+        "genre_name": "Surreal"
+    },
+    {
+        "genre_id": 57,
+        "genre_name": "Technical"
+    },
+    {
+        "genre_id": 58,
+        "genre_name": "Tragedy"
+    },
+    {
+        "genre_id": 59,
+        "genre_name": "Travel"
+    },
+    {
+        "genre_id": 60,
+        "genre_name": "True crime"
+    },
+    {
+        "genre_id": 61,
+        "genre_name": "Victorian"
+    },
+    {
+        "genre_id": 62,
+        "genre_name": "Young adult"
+    },
+    {
+        "genre_id": 63,
+        "genre_name": "epic"
+    },
+    {
+        "genre_id": 64,
+        "genre_name": "metafiction"
+    },
+    {
+        "genre_id": 65,
+        "genre_name": "military fiction"
+    },
+    {
+        "genre_id": 66,
+        "genre_name": "noir"
+    },
+    {
+        "genre_id": 67,
+        "genre_name": "philosophical"
+    }
+]

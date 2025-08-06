@@ -1,0 +1,62 @@
+[
+    {
+        "language_id": 1,
+        "language_name": "Ancient greek"
+    },
+    {
+        "language_id": 2,
+        "language_name": "Arabic"
+    },
+    {
+        "language_id": 3,
+        "language_name": "Czech"
+    },
+    {
+        "language_id": 4,
+        "language_name": "Dutch"
+    },
+    {
+        "language_id": 5,
+        "language_name": "English"
+    },
+    {
+        "language_id": 6,
+        "language_name": "French"
+    },
+    {
+        "language_id": 7,
+        "language_name": "German"
+    },
+    {
+        "language_id": 8,
+        "language_name": "Hebrew"
+    },
+    {
+        "language_id": 9,
+        "language_name": "Italian"
+    },
+    {
+        "language_id": 10,
+        "language_name": "Latin"
+    },
+    {
+        "language_id": 11,
+        "language_name": "Middle english"
+    },
+    {
+        "language_id": 12,
+        "language_name": "Russian"
+    },
+    {
+        "language_id": 13,
+        "language_name": "Spanish"
+    },
+    {
+        "language_id": 14,
+        "language_name": "aramaic"
+    },
+    {
+        "language_id": 15,
+        "language_name": "greek"
+    }
+]
