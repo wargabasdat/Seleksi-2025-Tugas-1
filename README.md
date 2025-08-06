@@ -74,7 +74,7 @@ Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *
 
 2. Intall library di cmd
 ```sh
-    $ pip install selenium
+    $ pip install request
     $ pip install beutifulsoup4
 ```
 
@@ -82,7 +82,6 @@ Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *
     - Intall pada halaman (https://chromedriver.chromium.org/downloads)
     - Pastikan bahwa __Chrome, ChromeDriver, dan Python__ memiliki versi yang sama (64 bit/ 32 bit)
     - Masukkan path ChromeDriver tersebut ke dalam *Environment Variables*
-    - Ikuti langkah-langkah pada video berikut jika menemui bug : <a href="https://www.youtube.com/watch?v=ijT2sLVdnPM"> Fix Selenium</a>
 
 4. Buka folder hasil cloning
 ```sh
@@ -91,7 +90,7 @@ Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *
 
 5. Jalankan program 
 ```sh
-    $ scraping.py
+    $ feedspot_scraper.py
 ```
 
 ### Data Storing
@@ -111,12 +110,12 @@ Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *
 
 3. Buka folder hasil cloning
 ```sh
-    $ cd Seleksi-2025-Tugas-1/Data Scraping/src
+    $ cd Seleksi-2025-Tugas-1/Data Storing/src
 ```
 
 4. Jalankan program 
 ```sh
-    $ storing.py
+    $ insert_mindfulness.py
 ```
 
 5. Export database tersebut dalam formal SQL
@@ -125,64 +124,32 @@ Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *
 ```
 
 ## JSON Structure
-Berikut adalah *6 instance* data JSON yang dihasilkan:
-1. `produk.json`
+Berikut adalah *2 instance* data JSON yang dihasilkan:
+1. `channels.json`
 ```json
 {
-    "ID_prod": "8992761136208",
-    "nama_prod": "Pulpy Orange",
-    "harga_prod": "13600",
-    "terjual_prod": "50",
-    "kat_prod": "Minuman Rasa Buah",
-    "nama_sup": "PT COCA-COLA BOTTLING INDONESIA"
+    "youtube_channel_link": "https://www.youtube.com/channel/UCbuENEBzQ69QKmfX2iumnFA/videos",
+    "channel_name": "Yogapalooza with Bari Koral",
+    "youtuber_name": "Bari Koral",
+    "type_of_channel": "Influencer",
+    "since": "Apr 2009",
+    "description": "Discover a wonderful world of beloved songs and magical activities that make it easy to teach yoga and mindfulness to children through music. Bari Koral                     is a widely recognized kids yoga expert and popular recording artist.ABOUT BARI KORALEvery day, thousands of children, parents and teachers around the                       world are learning and enjoying the benefits of yoga and mindfulness with Bari. Bari's songs and approachable yoga and mindfulness curriculum are used                       on a regular basis around the world. She is considered a pioneer in the world of kids yoga. To date, she has presented to over 100,000..."
 }
 ```
 
-2. `diskon_prod.json`
+2. `youtubers.json`
 ```json
 {
-    "ID_prod": "8995151170042",
-    "nama_prod": "Mustika Ratu Gula Asem B",
-    "harga_prod_norm": "7100",
-    "harga_prod_disc": "4970",
-    "terjual_prod": 0,
-    "kat_prod": "Minuman Dalam Kemasan",
-    "nama_sup": "PT MUSTIKA RATU TBK",
-    "nama_prom": "Diskon Produk Sidomuncul Rtd"
+    "youtuber_name": "Bari Koral",
+    "gender": "Female",
+    "email": "****@gmail.com",
+    "youtube_subscribers": 707000,
+    "facebook_followers": 3400,
+    "instagram_followers": 6300,
+    "type": "Macro"
 }
 ```
 
-3. `normal_prod.json`
-```json
-{
-    "ID_prod": "089686010947"
-}
-```
-
-4. `promo.json`
-```json
-{
-    "nama_prom": "Free Ongkir (Min. 300,000)",
-    "rentang_prom": "2024-12-31"
-}
-```
-
-5. `potongan_prom.json`
-```json
-{
-    "nama_prom": "Diskon Produk Ashitaki Mi"
-}
-```
-
-6. `normal_prom.json`
-```json
-{
-    "nama_prom": "Free Ongkir (Min. 300,000)",
-    "sisa_prom": "253",
-    "jumlah_prom": "10000",
-    "kode_prom": "FREESHIPPING2024"
-}
-```
 
 ## Database Structure
 ### Entity Relationship Diagram
@@ -203,110 +170,20 @@ Pemetaan entitas menjadi relasi berarti mengubah representasi entitas dalam mode
 a) *Strong Entity*
 
 *Strong Entity* adalah entitas yang bisa berdiri sendiri dan memiliki *Primary Key* sendiri.
-- *Produk* = (__id_prod__, nama_prod, harga_prod, terjual_prod, kat_prod, berat_prod, nama_sup)
-- *Pelanggan* = (__id_pel__, nama_pel, nomor_pel, email)
-- *Promo* = (__nama_prom__, rentang_prom)
-- *Keranjang* = (__id_ker__, date_ker, time_ker)
-
-`one-to-one Relationship`
-
-Cara translasi nya adalah dengan membawa PK dari salah satu sisi sebagai FK di sisi lain yang paling sesuai (bebas)
-<div align="center">
-  <img src="Data Storing/design/one-to-one.png" width="600"/>
-</div>
-
-- *Transaksi* = (__id_tran__, jenis_tran, id_ker)
-
-FK:
-- *Transaksi*(id_ker) --> *Keranjang*(id_ker)
-
-b) *Weak Entity*
-
-*Weak Entity* adalah entitas yang tidak bisa berdiri sendiri dan bergantung pada entitas lain, serta memiliki __*diskriminator*__ (contohnya adalah atribut "Urutan" pada tabel "Orders").
-<div align="center">
-  <img src="Data Storing/design/Weak-Entity.png" width="600"/>
-</div>
-
-
-- *Orders* = (__id_ker__, __urutan__, kuantitas, id_prod)
-
-FK:
-- *Orders*(id_ker) --> *Keranjang*(id_ker)
-- *Orders*(id_prod) --> *Produk*(id_prod) (*One-to-many*)
+- *youtubers* = (__youtuber_name__, gender, email, youtube_subscribers, facebook_followers, instagram_followers, type)
+- *channels* = (__youtube_channel_link__, channel_name, description, type_of_channel, since)
 
 #### __2. Pemetaan *relationship* menjadi relasi__
 
 Pemetaan relationship menjadi relasi berarti mengubah representasi hubungan antar entitas dalam model data menjadi tabel dalam database relasional.
 
-a) Pemetaan `many-to-many relationship` menjadi relasi
+a) Pemetaan `one-to-one relationship` menjadi relasi
 
-Cara translasi nya adalah dengan membuat relationship antara kedua tabel menjadi entitas baru yang mengandung PK dari kedua belah sisi
-<div align="center">
-  <img src="Data Storing/design/many-to-many.png" width="600"/>
-</div>
+Cara translasi ini adalah dengan membawa PK dari sisi "one" (satu) ke sisi "one" (satu) sebagai FK. Dalam kasus ini, satu youtuber hanya dapat memiliki satu channels. Maka, youtuber_name yang merupakan PK dari youtubers akan menjadi FK di channels.
 
-- *Digunakan* = (__id_prod__, __nama_prom__)
+- *channels* = (youtube_channel_link (PK), channel_name, description, type_of_channel, since, youtuber_name (FK))
+- *youtubers* = (youtuber_name (PK), gender, email, youtube_subscribers, facebook_followers, instagram_followers, type)
 
-FK:
-- *Digunakan*(id_prod) --> *Produk*(id_prod)
-- *Digunakan*(nama_prom) --> *Promo*(nama_prom)
-
-b) Pemetaan *ternary relationship* menjadi relasi
-
-Relasi ternary melibatkan tiga entitas dan direpresentasikan dengan tabel yang mencakup ketiga entitas tersebut. Hubungan antara ketiga entitas tersebut akan dibuat menjadi entitas baru yang memiliki PK dari entitas denngan sisi many dan FK dari ketiga entitas.
-
-<div align="center">
-  <img src="Data Storing/design/ternary.png" width="600"/>
-</div>
-
-- *Pesanan* = (__id_prod__, __id_ker__, id_pel)
-
-FK:
-- *Pesanan*(id_prod) --> *Produk*(id_prod)
-- *Pesanan*(id_ker) --> *Keranjang*(id_ker)
-- *Pesanan*(id_pel) --> *Pelanggan*(id_pel)
-
-#### __3. Pemetaan *specialization/ generalization* menjadi relasi__
-
-Specialization/generalization adalah konsep di mana entitas dapat dibagi menjadi sub-entitas yang lebih spesifik atau digabungkan menjadi entitas yang lebih umum.
-
-<div align="center">
-  <img src="Data Storing/design/specialization.png" width="600"/>
-</div>
-
-- *Diskon_prod* = (__id_prod__, nama_prom, harga_disc)
-- *Normal_prom* = (__nama_prom__, sisa_prom, jumlah_prom, kode_prom)
-
-`One-To-Many Relationship`
-
-Cara translasi nya adalah dengan membawa PK dari sisi One sebagai FK di sisi Many
-
-<div align="center">
-  <img src="Data Storing/design/one-to-many.png" width="600"/>
-</div>
-
-- *Normal_prod* = (__id_prod__)
-- *Potongan_prom* = (__nama_prom__)
-
-FK:
-- *Diskon_prod*(id_prod) --> *Produk*(id_prod)
-- *Diskon_prod*(nama_prom) --> *Potongan_prom*(nama_prom) (*One-to-many*)
-- *Normal_prod*(id_prod) --> *Produk*(id_prod)
-- *Potongan_prom*(nama_prom) --> *Promo*(nama_prom)
-- *Normal_prom*(nama_prom) --> *Promo*(nama_prom)
-
-__4. Pemetaan *composit attributes* menjadi relasi__
-
-Atribut multivalued adalah atribut yang dapat memiliki lebih dari satu nilai untuk satu entitas. Dalam database relasional, atribut ini biasanya dipecah menjadi tabel terpisah.
-
-<div align="center">
-  <img src="Data Storing/design/composit.png" width="600"/>
-</div>
-
-- *Alamat_pel* = (__id_pel__, __al_jalan__, __al_NoR__)
-
-FK:
-- *Alamat_pel*(id_pel) --> *Pelanggan*(id_pel)
 
 
 ## Screenshot
@@ -396,11 +273,10 @@ Data yang ada juga memberikan kesimpulan perusahaan mana saja yang paling banyak
 
 
 ## Reference
-1. [Borma Dago Website](https://www.bormadago.com/)
-2. [Dokumentasi Selenium](https://selenium-python.readthedocs.io/)
-3. [Dokumentasi Beautifulsoup4](https://beautiful-soup-4.readthedocs.io/)
-4. [Dokumentasi psycopg2](https://pypi.org/project/psycopg2/)
-5. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
+1. [Feedspot Website](https://videos.feedspot.com/mindfulness_youtube_channels/)
+2. [Dokumentasi Beautifulsoup4](https://beautiful-soup-4.readthedocs.io/)
+3. [Dokumentasi psycopg2](https://pypi.org/project/psycopg2/)
+4. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
 
 ## Author
 Kevin Azra - 18223029
