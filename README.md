@@ -189,7 +189,7 @@ Cara translasi ini adalah dengan membawa PK dari sisi "one" (satu) ke sisi "one"
 ## Screenshot
 ### Tampilan *Website*
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_website.png" width="600"/>
+  <img width="1917" height="878" alt="image" src="https://github.com/user-attachments/assets/d138bcc2-3a82-4d8d-8e4e-857dbd48cc82" />
 </div>
 
 ### Data Scrapping & Pre-processing
