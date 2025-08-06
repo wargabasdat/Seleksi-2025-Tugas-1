@@ -1,78 +1,242 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2025 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
-
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
-
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
-
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
-
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+<div align="center">
+  <h1>Seleksi Warga Basdat 2025</h1>
+  <h3>ETL Project – Video Game Database</h3>
+  <p><em>This project was developed for <strong>Seleksi Warga Basdat 2025</strong></em></p>
+  <p>
+    <img src="https://img.shields.io/badge/Status-Completed-green?style=flat-square" alt="Status"/>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+    <img src="https://img.shields.io/badge/Task_Scheduler-Windows-blue?style=flat-square&logo=windows&logoColor=white" alt="Task Scheduler"/>
+  </p>
+  <img src="Data Warehouse/design/SchemaDataWarehouse_VideoGames.png" alt="Relational Schema" width="600"/>
+</div>
 
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+## 👤 Author
+- **Nama**: Heleni Gratia Meitrina Tampubolon
+- **NIM**: 13523107
 
 
 
+## 📘 Deskripsi Proyek
+
+Proyek ini merupakan implementasi ETL (Extract, Transform, Load) dari data video game yang diambil dari web IMDb Video Games. Data mencakup informasi video game seperti judul, tahun rilis, rating, age rating, deskripsi, sutradara, dan aktor. Data kemudian disimpan dalam PostgreSQL dengan desain RDBMS terstruktur.
+
+**Alasan pemilihan topik:**
+Topik video game dipilih karena memiliki:
+- Struktur data yang memiliki banyak atribut dan cocok untuk relasi antar entitas.
+- Popularitas dan relevansi bagi pengguna internet modern.
+- Sumber data terbuka dari IMDb.
+
+
+## ⚙️ Cara Menjalankan Scraper & Insert Data
+
+### 1. Scraping Data
+Scraper mengambil data dari web IMDb menggunakan `DataScraping_VideoGames.ipynb`.
+
+Untuk menjalankan scraper, ikuti langkah berikut:
+
+Buka notebook menggunakan salah satu IDE berikut:
+- Jupyter Notebook / Jupyter Lab
+- VS Code (dengan extension Jupyter)
+- Google Colab (bisa langsung buka file .ipynb)
+
+Lalu jalankan semua sel dengan opsi "Run All" (biasanya di toolbar atas).
+
+### 2. Menyimpan ke Database
+Setelah proses scraping selesai, akan dihasilkan tiga file JSON berikut di folder Data Scraping/data/:
+- videogames.json
+- directors_videogames.json
+- stars_videogames.json
+
+File JSON ini nantinya akan digunakan pada proses insert_data.py untuk menyimpan ke dalam database PostgreSQL.
+```bash
+cd Data Storing/src
+python3 create_tables.py
+python3 insert_data.py
+```
+## 📂 Struktur File JSON
+
+#### videogames.json
+Berisi daftar video game beserta metadata dan relasinya terhadap sutradara dan pemeran. Setiap elemen di dalam array JSON ini memiliki struktur sebagai berikut:
+```bash
+{
+  "title": "Red Dead Redemption II",
+  "year": "2018",
+  "age rating": "M",
+  "rating": "9.7",
+  "description": "Follows outlaw Arthur Morgan and his gang...",
+  "directors": [],
+  "stars": [1, 2, 3]
+}
+```
+Penjelasan:
+- title: Judul dari video game.
+- year: Tahun rilis.
+- age rating: Rating usia dari game tersebut (misal: M, T, E).
+- rating: Skor rating IMDb (dalam format string, akan diubah ke float saat dimasukkan ke DB).
+- description: Ringkasan cerita / sinopsis game.
+- directors: List berisi ID direktur game (merujuk ke directors_videogames.json).
+- stars: List berisi ID aktor / pengisi suara utama (merujuk ke stars_videogames.json).
+
+
+#### directors_videogames.json
+Berisi daftar director/sutradara video game yang muncul dalam videogames.json.
+```bash
+{
+  "id": 1,
+  "name": "Neil Druckmann"
+}
+
+```
+Penjelasan:
+- id: ID unik untuk director.
+- name: Nama lengkap director.
+
+#### stars_videogames.json
+Berisi daftar pemeran utama atau pengisi suara dari video game.
+```bash
+{
+  "id": 1,
+  "name": "Benjamin Byron Davis"
+}
+```
+Penjelasan:
+- id: ID unik untuk aktor.
+- name: Nama lengkap pemeran/pengisi suara.
+
+Struktur ini mencerminkan relasi many-to-many antara entitas videogame - star dan videogame - director, yang kemudian direpresentasikan di RDBMS menggunakan tabel relasi cast_credit dan director_credit.
+
+## 🗂️ Struktur ERD & Diagram Relasional RDBMS
+
+####  Entity-Relationship Diagram (ERD)
+<img src="Data Storing/design/ERD_VideoGame.png" alt="Relational Schema" width="600"/>
+
+####  Diagram Relasional
+<img src="Data Storing/design/Diagram Relasional_VideoGame.png" alt="Relational Schema" width="600"/>
+
+Penjelasan:
+
+- videogame: Entitas utama yang berisi informasi seputar video game seperti judul, tahun rilis, deskripsi, rating, dan sebagainya.
+- director dan star: Entitas yang menyimpan data individu yang berperan sebagai sutradara dan pemeran utama.
+- director_credit dan cast_credit: Tabel relasi many-to-many yang menghubungkan video game dengan para sutradara (director) dan pemeran (star).
+Relasi:
+- Satu video game bisa memiliki banyak star dan director, dan sebaliknya satu star/director bisa terlibat di banyak videogame.
+Oleh karena itu, digunakan dua tabel penghubung (cast_credit dan director_credit) untuk menyimpan relasi many-to-many.
+
+## 🔄 Proses Translasi ERD ke Diagram Relasional
+Proses translasi dari ERD (Entity Relationship Diagram) ke model relasional dilakukan melalui langkah-langkah berikut:
+1. Entitas menjadi Tabel
+
+Setiap entitas dalam ERD seperti Videogame, Director, dan Star diterjemahkan menjadi tabel dalam basis data relasional dengan nama yang sama.
+
+2. Setiap atribut dalam entitas menjadi kolom di tabel. 
+
+Seperti atribut title, year, dan rating pada entitas Videogame menjadi kolom title, year, rating dalam tabel videogame.
+
+3. Primary Key
+
+Masing-masing tabel diberikan primary key, seperti id pada tabel videogame, director, dan star.
+
+4. Relasi Many-to-Many
+
+Relasi many-to-many antara Videogame dan Director, serta antara Videogame dan Star, tidak bisa langsung direpresentasikan di RDBMS. Oleh karena itu, dibentuk tabel relasi:
+- director_credit(videogame_id, director_id)
+- cast_credit(videogame_id, star_id)
+Setiap tabel relasi ini menyimpan pasangan foreign key yang menunjuk ke primary key di masing-masing entitas yang terhubung.
+
+5. Foreign Key
+
+Kolom foreign key digunakan untuk menjaga integritas data antar tabel:
+
+- director_credit.director_id mengacu ke director.id
+
+- cast_credit.star_id mengacu ke star.id
+
+- director_credit.videogame_id dan cast_credit.videogame_id mengacu ke videogame.id
+
+6. Normalisasi
+
+Struktur data dinormalisasi minimal hingga 3NF (Third Normal Form) untuk menghindari redundansi data dan menjaga integritas.Seperti, informasi direktur dan aktor dipisah dalam tabel tersendiri sehingga tidak perlu diulang pada setiap entri game.
+
+## 📸 Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="Data Storing/screenshot/director_credit_first.png" alt=" Director Credit " width="300"/>
+        <br><b>Director Credit Table</b>
+      </td>
+      <td align="center">
+        <img src="Data Storing/screenshot/star_first.png" alt="Star" width="300"/>
+        <br><b>Star Table</b>
+      </td>
+      <td align="center">
+        <img src="Data Warehouse/screenshot/top_directors_by_avg_rating.png.png" alt="Top Director" width="300"/>
+        <br><b>Top Directors by Average Rating</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## ⏰ Penjadwalan Otomatis
+Untuk mendukung pembaruan data secara berkala, proses insert/update data ke database dijadwalkan secara otomatis menggunakan Task Scheduler di Windows. Hal ini memastikan data selalu diperbarui tanpa perlu menjalankan skrip secara manual.
+
+Menjalankan di Windows:
+1. Buka Task Scheduler di Windows.
+2. Klik Create Task.
+Beri nama dan deskripsi task (misalnya: Update VideoGame Database).
+3. Pilih Daily sebagai frekuensi di section Trigger. Pilih juga jam kapan task dijalankan.
+4. Pada bagian Action, pilih Start a program.
+5. Klik Browse, lalu pilih file automatic.bat yang terletak pada:
+```bash
+Data Warehouse/src/automatic.bat
+```
+6. Isikan path dari folder tempat file .bat berada di bagian Start in (optional).
+7. Klik OK untuk menyelesaikan pembuatan task.
+8. Verifikasi Task
+Task akan muncul di daftar Task Scheduler Library.
+9. Klik kanan pada task, kemudian Run untuk mengetes apakah proses berjalan lancar.
+10. Data di database seharusnya terupdate tanpa menimbulkan redundansi.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="Data Warehouse/screenshot/task_scheduler.png" alt=" Director Credit " width="300"/>
+        <br><b>Task Scheduler</b>
+      </td>
+      <td align="center">
+        <img src="Data Warehouse/screenshot/scheduler.png" alt="Star" width="300"/>
+        <br><b>At Database (using dummy data added to json file)</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+Dengan proses ini, pembaruan data dilakukan secara otomatis dan efisien tanpa perlu intervensi manual. Timestamp pada kolom extracted_at juga mencatat waktu ekstraksi terbaru untuk setiap data yang diperbarui.
+
+## 📚 Referensi
+📦 Library yang Digunakan
+- selenium: untuk melakukan web scraping berbasis browser.
+
+- bs4 / BeautifulSoup: untuk parsing konten HTML dari halaman web.
+
+- requests: untuk melakukan permintaan HTTP ke situs web.
+
+- re: untuk pencocokan dan pembersihan teks menggunakan regex.
+
+- json: untuk manipulasi dan penyimpanan data JSON.
+
+- time: untuk penundaan dalam scraping.
+
+- datetime: untuk mencatat waktu ekstraksi data.
+
+- psycopg2: untuk koneksi dan interaksi dengan database PostgreSQL.
+
+- os: untuk navigasi sistem file.
+
+🌐 Sumber Data
+
+IMDb List: https://www.imdb.com/list/ls507147151/
