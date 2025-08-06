@@ -54,7 +54,13 @@ for game in videogames_data:
         SET age_rating = EXCLUDED.age_rating,
             rating = EXCLUDED.rating,
             description = EXCLUDED.description,
-            extracted_at = EXCLUDED.extracted_at;
+            extracted_at = CASE
+                WHEN videogame.age_rating IS DISTINCT FROM EXCLUDED.age_rating
+                  OR videogame.rating IS DISTINCT FROM EXCLUDED.rating
+                  OR videogame.description IS DISTINCT FROM EXCLUDED.description
+                THEN EXCLUDED.extracted_at
+                ELSE videogame.extracted_at
+            END;
     """, (
         game['title'],
         game['year'],
