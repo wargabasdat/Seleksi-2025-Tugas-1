@@ -75,7 +75,7 @@ def get_variants_detail(driver, url):
             variants_list.append({
                 "variant_id": variant_id,
                 "product_id": product_id,
-                "name": name,
+                "variant_name": name,
                 "availability": availability,
                 "color": color
             })
