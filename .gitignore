@@ -1,0 +1,19 @@
+# MacOS cache
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode / IDE config
+.vscode/
+.idea/
+
+# Log & temp
+*.log
+*.tmp
+
+# Binary
+*.exe
+*.bin
+*.dll
