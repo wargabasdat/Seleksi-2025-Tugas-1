@@ -53,6 +53,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 -- CREATE TRIGGER check_subscribers_before_insert_update
+CREATE TRIGGER check_followers_before_insert_update
 BEFORE INSERT OR UPDATE ON youtubers
 FOR EACH ROW
 EXECUTE FUNCTION ensure_positive_followers();
