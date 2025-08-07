@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.service import Service
 
 sys.path.append(os.path.join(os.path.dirname(__file__)))
 from extractor.genre import GenreExtractor
+from extractor.playlist import PlaylistExtractor
 
 class SpotifyScraper:
     """Main scraper class for extracting Spotify data
@@ -33,9 +34,11 @@ class SpotifyScraper:
 
         self.start_url = start_url
         self.genres: List[Dict[str, str]] = []
+        self.playlists: List[Dict[str, str]] = []
         
         self.browser = self._initialize_browser(chromedriver_path, chrome_path)
         self.genre_extractor = GenreExtractor(self.browser)
+        self.playlist_extractor = PlaylistExtractor(self.browser)
         
         
         self.browser.get(self.start_url)
@@ -124,6 +127,58 @@ class SpotifyScraper:
             logging.error(f"[Genre] Error saving genres: {str(e)}")
             raise
 
+    def _process_playlist(self, playlist_limit: Optional[int] = None) -> None:
+        """Extract and save playlist data from genres
+        
+        Args:
+            playlist_limit: Maximum number of playlists to extract from each genre
+        
+        Raises:
+            WebDriverException: If browser automation fails
+            Exception: If any step in the playlist extraction process fails
+        """
+
+        if not self.genres:
+            logging.warning("[Playlist] No genres available for playlist extraction")
+            return
+        
+        playlist_file = "Data Scraping/data/playlist.json"
+        if os.path.exists(playlist_file):
+            logging.info(f"[Playlist] File {playlist_file} already exists, loading existing data")
+            try:
+                import json
+                with open(playlist_file, 'r', encoding='utf-8') as f:
+                    self.playlists = json.load(f)
+                print(f"\n[Main] Loaded {len(self.playlists)} existing playlists from file")
+                return
+            except Exception as e:
+                logging.warning(f"[Playlist] Failed to load existing file, will re-extract: {str(e)}")
+        
+        try:
+            self.playlists = self.playlist_extractor.get_data(self.genres, playlist_limit)
+        except Exception as e:
+            logging.error(f"[Playlist] {str(e)}")
+            raise
+        
+        if not self.playlists:
+            print("No playlists found!")
+            return
+        
+        print(f"\n[Main] Total playlists found: {len(self.playlists)}")
+        
+        print(f"\n[Main] Sample playlists:")
+        for playlist in self.playlists[:5]:
+            print(f"- {playlist['name']} (Type: {playlist.get('type', 'Unknown')})")
+        
+        if len(self.playlists) > 5:
+            print(f"... and {len(self.playlists) - 5} more\n")
+        
+        try:
+            self.playlist_extractor.save_to_json("Data Scraping/data/playlist.json")
+        except Exception as e:
+            logging.error(f"[Playlist] Error saving playlists: {str(e)}")
+            raise
+
     def _generate_summary(self) -> None:
         """Generate a summary report of all extracted data"""
         try:
@@ -131,22 +186,37 @@ class SpotifyScraper:
                 f.write("=== SPOTIFY DATA EXTRACTION SUMMARY ===\n\n")
                 
                 f.write(f"Total Genres: {len(self.genres) if self.genres else 0}\n\n")
+                
+                if self.playlists and self.genres:
+                    f.write("Playlist Count by Genre:\n")
+                    f.write("-" * 50 + "\n")
+                    
+                    genre_playlist_count = {}
+                    for playlist in self.playlists:
+                        genre_id = playlist.get('genre_id')
+                        if genre_id:
+                            genre_playlist_count[genre_id] = genre_playlist_count.get(genre_id, 0) + 1
+                    
+                    for genre in self.genres:
+                        genre_id = genre['genre_id']
+                        genre_name = genre['name']
+                        playlist_count = genre_playlist_count.get(genre_id, 0)
+                        f.write(f"{genre_name:<30} | {playlist_count:>3} playlists\n")
+                    
+                    f.write("-" * 50 + "\n")
+                    f.write(f"Total Playlists: {len(self.playlists)}\n\n")
 
             logging.info("[Main] Summary saved to summary.txt")
             
         except Exception as e:
             logging.warning(f"[Main] Failed to generate summary: {str(e)}")
 
-    def run(self, chosen_playlists: Optional[List[str]] = None, playlist_limit: Optional[int] = None, song_limit: Optional[int] = None) -> None:
+    def run(self, playlist_limit: Optional[int] = None) -> None:
         """Run the complete scraping process
         
         Args:
-            chosen_playlists: List of playlist names to filter for detailed extraction.
-                             If None or empty, extracts all playlists found.
             playlist_limit: Maximum number of playlists to extract from each genre.
                            If None, extracts all playlists found.
-            song_limit: Maximum number of songs to extract from each playlist.
-                       If None, extracts all songs found.
         
         Orchestrates the full Spotify data extraction workflow
         
@@ -159,6 +229,10 @@ class SpotifyScraper:
             logging.info("[Main] Starting genre extraction...")
             self._process_genre()
             logging.info("[Main] Genre extraction completed successfully")
+
+            logging.info("[Main] Starting playlist extraction...")
+            self._process_playlist(playlist_limit)
+            logging.info("[Main] Playlist extraction completed successfully")
 
         except WebDriverException as e:
             logging.error(f"[Main - WebDriverException] {str(e)}")
