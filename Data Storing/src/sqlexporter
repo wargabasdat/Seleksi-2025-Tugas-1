@@ -1,0 +1,234 @@
+import json
+import os
+
+def clean_data(data):
+    """Fungsi untuk membersihkan dan memformat data untuk penyisipan SQL."""
+    if isinstance(data, str):
+        cleaned_data = data.replace("'", "''")
+        return "'" + cleaned_data + "'"
+    elif isinstance(data, list):
+        json_string = json.dumps(data)
+        cleaned_data = json_string.replace("'", "''")
+        return "'" + cleaned_data + "'"
+    elif data is None:
+        return 'NULL'
+    else:
+        return str(data)
+
+def main():
+    # Menentukan path relatif ke folder file JSON
+    DATA_DIR = os.path.join(os.pardir, os.pardir, 'Data Scraping', 'data')
+
+    # Periksa apakah semua file JSON yang dibutuhkan ada di awal
+    required_files = {
+        "companies_data.json": os.path.join(DATA_DIR, "companies_data.json"),
+        "new_authors_data": os.path.join(DATA_DIR, "new_authors_data"),
+        "manhwa_data.json": os.path.join(DATA_DIR, "manhwa_data.json"),
+        "genres_data.json": os.path.join(DATA_DIR, "genres_data.json"),
+        "characters_data.json": os.path.join(DATA_DIR, "characters_data.json")
+    }
+
+    loaded_data = {}
+    for name, path in required_files.items():
+        if not os.path.exists(path):
+            print(f"ERROR: File tidak ditemukan: {path}. Mohon periksa kembali jalur file Anda. Pastikan skrip ini dijalankan dari folder 'src'.")
+            return
+        with open(path, 'r', encoding='utf-8') as f:
+            loaded_data[name] = json.load(f)
+
+    # Menentukan skema tabel dan pemetaan data
+    table_definitions = {
+        "Company": {
+            "columns": {"id_company": "INT PRIMARY KEY AUTO_INCREMENT", "company_name": "VARCHAR(255)"},
+            "file_key": "companies_data.json",
+            "data_map": {"Company Name": "company_name"}
+        },
+        "Author": {
+            "columns": {"id_author": "INT PRIMARY KEY AUTO_INCREMENT", "given_name": "VARCHAR(255)", "family_name": "VARCHAR(255)", "birthday": "VARCHAR(255)", "website": "VARCHAR(255)", "member_favorites": "INT", "published_manga": "JSON", "id_company": "INT", "id_mentor": "INT"},
+            "file_key": "new_authors_data",
+            "data_map": {"Given Name": "given_name", "Family Name": "family_name", "Birthday": "birthday", "Website": "website", "Member Favorites": "member_favorites", "Published Manga": "published_manga"}
+        },
+        "Illustrator": {
+            "columns": {"id_author": "INT PRIMARY KEY", "art_style": "VARCHAR(255)", "software_tools": "VARCHAR(255)", "portfolio_url": "VARCHAR(255)"},
+            "file_key": None
+        },
+        "Writer": {
+            "columns": {"id_author": "INT PRIMARY KEY", "writing_style": "VARCHAR(255)", "dominant_genre": "VARCHAR(255)"},
+            "file_key": None
+        },
+        "Author_Phone": {
+            "columns": {"id_author": "INT", "phone_number": "VARCHAR(255) PRIMARY KEY"},
+            "file_key": None
+        },
+        "Manhwa": {
+            "columns": {"id_manhwa": "INT PRIMARY KEY AUTO_INCREMENT", "title": "VARCHAR(255)", "status": "VARCHAR(255)", "serialization": "JSON", "themes": "JSON", "id_company": "INT"},
+            "file_key": "manhwa_data.json",
+            "data_map": {"Title": "title", "Status": "status", "Serialization": "serialization", "Themes": "themes"}
+        },
+        "Genre": {
+            "columns": {"id_genre": "INT PRIMARY KEY AUTO_INCREMENT", "genre_name": "VARCHAR(255)", "description": "TEXT"},
+            "file_key": "genres_data.json",
+            "data_map": {"Genre Name": "genre_name", "Description": "description"}
+        },
+        "User": {
+            "columns": {"id_user": "INT PRIMARY KEY AUTO_INCREMENT", "username": "VARCHAR(255)", "email": "VARCHAR(255)", "gender": "VARCHAR(255)", "birthday": "VARCHAR(255)"},
+            "file_key": None
+        },
+        "Character": {
+            "columns": {"id_character": "INT PRIMARY KEY AUTO_INCREMENT", "character_name": "VARCHAR(255)", "role": "VARCHAR(255)", "mangaography": "JSON", "member_favorites": "INT", "description": "TEXT"},
+            "file_key": "characters_data.json",
+            "data_map": {"Character Name": "character_name", "Role": "role", "Mangaography": "mangaography", "Member Favorites": "member_favorites", "Description": "description"}
+        },
+        "Episode": {
+            "columns": {"id_episode": "INT PRIMARY KEY AUTO_INCREMENT", "id_manhwa": "INT", "no_episode": "INT", "title_episode": "VARCHAR(255)", "release_date": "VARCHAR(255)"},
+            "file_key": None
+        },
+        "Menulis": {
+            "columns": {"id_manhwa": "INT", "id_author": "INT"},
+            "file_key": None
+        },
+        "Kategori": {
+            "columns": {"id_manhwa": "INT", "id_genre": "INT"},
+            "file_key": None
+        },
+        "Peran": {
+            "columns": {"id_manhwa": "INT", "id_character": "INT"},
+            "file_key": None
+        },
+        "Rating": {
+            "columns": {"id_user": "INT", "id_manhwa": "INT", "rating": "DECIMAL(3, 2)", "date_rating": "VARCHAR(255)"},
+            "file_key": None
+        }
+    }
+
+    sql_output = []
+
+    sql_output.append("-- Menonaktifkan pemeriksaan kunci asing untuk mencegah kesalahan penyisipan karena ketergantungan")
+    sql_output.append("SET FOREIGN_KEY_CHECKS = 0;")
+    sql_output.append("\n-- Hapus tabel yang ada untuk memastikan dasar yang bersih")
+    for table_name in reversed(table_definitions.keys()):
+        sql_output.append(f"DROP TABLE IF EXISTS `{table_name}`;")
+    sql_output.append("\n-- Buat tabel\n")
+
+    for table_name, definition in table_definitions.items():
+        columns = ", ".join([f"`{col}` {col_type}" for col, col_type in definition["columns"].items()])
+        sql_output.append(f"CREATE TABLE `{table_name}` ({columns});")
+
+    companies_data = loaded_data["companies_data.json"]
+    authors_data = loaded_data["new_authors_data"]
+    manhwa_data = loaded_data["manhwa_data.json"]
+    characters_data = loaded_data["characters_data.json"]
+    genres_data = loaded_data["genres_data.json"]
+    
+    company_name_to_id = {c["Company Name"]: i + 1 for i, c in enumerate(companies_data)}
+    author_name_to_id = {a['Given Name']: i + 1 for i, a in enumerate(authors_data)}
+    manhwa_title_to_id = {m['Title']: i + 1 for i, m in enumerate(manhwa_data)}
+    character_name_to_id = {c['Character Name']: i + 1 for i, c in enumerate(characters_data) if c.get('Character Name')}
+    genre_name_to_id = {g['Genre Name']: i + 1 for i, g in enumerate(genres_data) if g.get('Genre Name')}
+
+    for table_name in ["Company", "Author", "Manhwa", "Genre", "Character"]:
+        definition = table_definitions[table_name]
+        sql_output.append(f"\n-- Data untuk tabel {table_name} --\n")
+        
+        if definition["file_key"]:
+            data = loaded_data[definition["file_key"]]
+            values_list_batch = []
+
+            for i, item in enumerate(data, 1):
+                insert_values = [i]
+                
+                if table_name == "Manhwa":
+                    serialization_list = item.get("Serialization", [])
+                    id_company = "NULL"
+                    if serialization_list and serialization_list[0] in company_name_to_id:
+                        id_company = company_name_to_id[serialization_list[0]]
+                    insert_values.append(id_company)
+                
+                if "data_map" in definition:
+                    for json_key, db_col in definition["data_map"].items():
+                        if db_col != "id_company":
+                            insert_values.append(item.get(json_key))
+                
+                values_tuple = ", ".join([clean_data(v) for v in insert_values])
+                values_list_batch.append(f"({values_tuple})")
+
+            insert_columns = [f"`id_{table_name.lower()}`"]
+            if table_name == "Manhwa":
+                insert_columns.append("`id_company`")
+            if "data_map" in definition:
+                for db_col in definition["data_map"].values():
+                    if db_col != "id_company":
+                        insert_columns.append(f"`{db_col}`")
+            
+            columns_str = ", ".join(insert_columns)
+            sql = f"INSERT INTO `{table_name}` ({columns_str}) VALUES\n" + ",\n".join(values_list_batch) + ";"
+            sql_output.append(sql)
+
+    sql_output.append("\n-- Data untuk tabel penghubung --\n")
+    
+    # Menulis
+    sql_output.append("\n-- Data untuk tabel Menulis --\n")
+    menulis_values = []
+    for manhwa_id, manhwa in enumerate(manhwa_data, 1):
+        for author_name in manhwa.get("Authors", []):
+            author_id = author_name_to_id.get(author_name)
+            if author_id:
+                menulis_values.append(f"({manhwa_id}, {author_id})")
+    
+    if menulis_values:
+        sql_output.append(f"INSERT INTO `Menulis` (`id_manhwa`, `id_author`) VALUES\n" + ",\n".join(menulis_values) + ";")
+
+    # Kategori
+    sql_output.append("\n-- Data untuk tabel Kategori --\n")
+    kategori_values = []
+    for manhwa_id, manhwa in enumerate(manhwa_data, 1):
+        for genre_name in manhwa.get("Genres", []):
+            genre_id = genre_name_to_id.get(genre_name)
+            if genre_id:
+                kategori_values.append(f"({manhwa_id}, {genre_id})")
+    
+    if kategori_values:
+        sql_output.append(f"INSERT INTO `Kategori` (`id_manhwa`, `id_genre`) VALUES\n" + ",\n".join(kategori_values) + ";")
+
+    # Peran
+    sql_output.append("\n-- Data untuk tabel Peran --\n")
+    peran_values = []
+    for char_id, character in enumerate(characters_data, 1):
+        mangaography_list = character.get("Mangaography")
+        if isinstance(mangaography_list, list):
+            for manhwa_title in mangaography_list:
+                manhwa_id = manhwa_title_to_id.get(manhwa_title)
+                if manhwa_id:
+                    peran_values.append(f"({manhwa_id}, {char_id})")
+    
+    if peran_values:
+        sql_output.append(f"INSERT INTO `Peran` (`id_manhwa`, `id_character`) VALUES\n" + ",\n".join(peran_values) + ";")
+    
+    sql_output.append("\n-- Tambahkan batasan kunci asing --\n")
+    sql_output.append("ALTER TABLE `Author` ADD FOREIGN KEY (`id_company`) REFERENCES `Company` (`id_company`);")
+    sql_output.append("ALTER TABLE `Author` ADD FOREIGN KEY (`id_mentor`) REFERENCES `Author` (`id_author`);")
+    sql_output.append("ALTER TABLE `Illustrator` ADD FOREIGN KEY (`id_author`) REFERENCES `Author` (`id_author`);")
+    sql_output.append("ALTER TABLE `Writer` ADD FOREIGN KEY (`id_author`) REFERENCES `Author` (`id_author`);")
+    sql_output.append("ALTER TABLE `Author_Phone` ADD FOREIGN KEY (`id_author`) REFERENCES `Author` (`id_author`);")
+    sql_output.append("ALTER TABLE `Manhwa` ADD FOREIGN KEY (`id_company`) REFERENCES `Company` (`id_company`);")
+    sql_output.append("ALTER TABLE `Episode` ADD FOREIGN KEY (`id_manhwa`) REFERENCES `Manhwa` (`id_manhwa`);")
+    sql_output.append("ALTER TABLE `Menulis` ADD FOREIGN KEY (`id_manhwa`) REFERENCES `Manhwa` (`id_manhwa`);")
+    sql_output.append("ALTER TABLE `Menulis` ADD FOREIGN KEY (`id_author`) REFERENCES `Author` (`id_author`);")
+    sql_output.append("ALTER TABLE `Kategori` ADD FOREIGN KEY (`id_manhwa`) REFERENCES `Manhwa` (`id_manhwa`);")
+    sql_output.append("ALTER TABLE `Kategori` ADD FOREIGN KEY (`id_genre`) REFERENCES `Genre` (`id_genre`);")
+    sql_output.append("ALTER TABLE `Peran` ADD FOREIGN KEY (`id_manhwa`) REFERENCES `Manhwa` (`id_manhwa`);")
+    sql_output.append("ALTER TABLE `Peran` ADD FOREIGN KEY (`id_character`) REFERENCES `Character` (`id_character`);")
+    sql_output.append("ALTER TABLE `Rating` ADD FOREIGN KEY (`id_user`) REFERENCES `User` (`id_user`);")
+    sql_output.append("ALTER TABLE `Rating` ADD FOREIGN KEY (`id_manhwa`) REFERENCES `Manhwa` (`id_manhwa`);")
+
+    sql_output.append("\n-- Mengaktifkan kembali pemeriksaan kunci asing --")
+    sql_output.append("SET FOREIGN_KEY_CHECKS = 1;")
+    
+    output_path = os.path.join(os.pardir, 'manhwa.sql')
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write("\n".join(sql_output))
+
+    print(f"File SQL 'manhwa.sql' berhasil dibuat di: {output_path}")
+
+if __name__ == "__main__":
+    main()
