@@ -1,0 +1,3931 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.4
+-- Dumped by pg_dump version 17.5 (Postgres.app)
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- Name: Order; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public."Order" (
+    order_id character varying NOT NULL,
+    order_date date,
+    cart_id character varying,
+    account_email character varying
+);
+
+
+ALTER TABLE public."Order" OWNER TO postgres;
+
+--
+-- Name: account; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.account (
+    account_email character varying NOT NULL,
+    name character varying,
+    cart_id character varying
+);
+
+
+ALTER TABLE public.account OWNER TO postgres;
+
+--
+-- Name: account_address; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.account_address (
+    address_id integer NOT NULL,
+    account_email character varying,
+    street character varying,
+    district character varying,
+    city character varying,
+    province character varying,
+    zip_code character varying,
+    country character varying
+);
+
+
+ALTER TABLE public.account_address OWNER TO postgres;
+
+--
+-- Name: account_address_address_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE public.account_address_address_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE public.account_address_address_id_seq OWNER TO postgres;
+
+--
+-- Name: account_address_address_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE public.account_address_address_id_seq OWNED BY public.account_address.address_id;
+
+
+--
+-- Name: account_phone; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.account_phone (
+    account_email character varying NOT NULL,
+    phone_number character varying NOT NULL
+);
+
+
+ALTER TABLE public.account_phone OWNER TO postgres;
+
+--
+-- Name: cart; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.cart (
+    cart_id character varying NOT NULL,
+    quantity integer,
+    product_id character varying
+);
+
+
+ALTER TABLE public.cart OWNER TO postgres;
+
+--
+-- Name: categories; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.categories (
+    category_id character varying NOT NULL,
+    name character varying
+);
+
+
+ALTER TABLE public.categories OWNER TO postgres;
+
+--
+-- Name: contains; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.contains (
+    cart_id character varying NOT NULL,
+    product_id character varying NOT NULL
+);
+
+
+ALTER TABLE public.contains OWNER TO postgres;
+
+--
+-- Name: discount_products; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.discount_products (
+    product_id character varying NOT NULL,
+    normal_price numeric
+);
+
+
+ALTER TABLE public.discount_products OWNER TO postgres;
+
+--
+-- Name: measurements; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.measurements (
+    measurement_id integer NOT NULL,
+    product_id character varying,
+    size_name character varying,
+    details text
+);
+
+
+ALTER TABLE public.measurements OWNER TO postgres;
+
+--
+-- Name: measurements_measurement_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE public.measurements_measurement_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE public.measurements_measurement_id_seq OWNER TO postgres;
+
+--
+-- Name: measurements_measurement_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE public.measurements_measurement_id_seq OWNED BY public.measurements.measurement_id;
+
+
+--
+-- Name: normal_products; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.normal_products (
+    product_id character varying NOT NULL
+);
+
+
+ALTER TABLE public.normal_products OWNER TO postgres;
+
+--
+-- Name: payment; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.payment (
+    payment_id character varying NOT NULL,
+    payment_date date,
+    payment_method character varying,
+    amount numeric,
+    order_id character varying
+);
+
+
+ALTER TABLE public.payment OWNER TO postgres;
+
+--
+-- Name: products; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.products (
+    product_id character varying NOT NULL,
+    name character varying,
+    description text,
+    material text,
+    size character varying,
+    price numeric,
+    image_url text,
+    category_id character varying
+);
+
+
+ALTER TABLE public.products OWNER TO postgres;
+
+--
+-- Name: variants; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.variants (
+    variant_id character varying NOT NULL,
+    variant_name character varying,
+    availability character varying,
+    color character varying,
+    product_id character varying
+);
+
+
+ALTER TABLE public.variants OWNER TO postgres;
+
+--
+-- Name: account_address address_id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.account_address ALTER COLUMN address_id SET DEFAULT nextval('public.account_address_address_id_seq'::regclass);
+
+
+--
+-- Name: measurements measurement_id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.measurements ALTER COLUMN measurement_id SET DEFAULT nextval('public.measurements_measurement_id_seq'::regclass);
+
+
+--
+-- Data for Name: Order; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public."Order" (order_id, order_date, cart_id, account_email) FROM stdin;
+\.
+
+
+--
+-- Data for Name: account; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.account (account_email, name, cart_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: account_address; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.account_address (address_id, account_email, street, district, city, province, zip_code, country) FROM stdin;
+\.
+
+
+--
+-- Data for Name: account_phone; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.account_phone (account_email, phone_number) FROM stdin;
+\.
+
+
+--
+-- Data for Name: cart; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.cart (cart_id, quantity, product_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: categories; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.categories (category_id, name) FROM stdin;
+C001	Dress
+C002	Top
+C003	Outerwear
+C004	Card
+C005	Pants
+C006	Skirt
+C007	Overall
+C008	Accesories
+C009	Blanket
+C010	Cushion
+C011	Vests
+\.
+
+
+--
+-- Data for Name: contains; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.contains (cart_id, product_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: discount_products; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.discount_products (product_id, normal_price) FROM stdin;
+8843368071407	750000.0
+8897161363695	650000.0
+8913099194607	700000.0
+8294607487215	500000.0
+8897112965359	700000.0
+8913102569711	800000.0
+8913498046703	625000.0
+7955609616623	595000.0
+8959261671663	725000.0
+8773299405039	950000.0
+8253781967087	789000.0
+8114155389167	789000.0
+7946294001903	575000.0
+8218770833647	625000.0
+7471421260015	500000.0
+8913633804527	595000.0
+8742187466991	600000.0
+8307532005615	595000.0
+8913104109807	495000.0
+8913631740143	595000.0
+8037925126383	650000.0
+8252028420335	1300000.0
+8234756931823	995000.0
+8818175770863	495000.0
+8145623580911	650000.0
+8196275405039	665000.0
+8196307550447	700000.0
+8145477468399	695000.0
+8196294607087	700000.0
+7947446321391	450000.0
+8742181306607	600000.0
+8791912448239	900000.0
+8196115693807	650000.0
+8198585417967	975000.0
+8897163395311	650000.0
+8625233592559	500000.0
+8667287453935	550000.0
+8901383880943	789000.0
+8145302880495	695000.0
+8329480503535	725000.0
+8843368300783	750000.0
+8773307990255	685000.0
+8982852108527	650000.0
+7605187739887	675000.0
+8773325816047	695000.0
+8840007319791	1100000.0
+8625230577903	500000.0
+8005185241327	595000.0
+8773366907119	675000.0
+8218769981679	995000.0
+8897272807663	475000.0
+8791875551471	420000.0
+8006360498415	350000.0
+8843356078319	550000.0
+8665221693679	485000.0
+8329474244847	665000.0
+8196280549615	665000.0
+8005193531631	580000.0
+8959790874863	685000.0
+8005164826863	600000.0
+8951255498991	525000.0
+8269638271215	995000.0
+8773322178799	695000.0
+8329483780335	675000.0
+8036455907567	585000.0
+8211518947567	775000.0
+8792566825199	420000.0
+8196090462447	590000.0
+8329477685487	665000.0
+8773329977583	475000.0
+8959305777391	385000.0
+8959266095343	725000.0
+8913120493807	685000.0
+8818180620527	495000.0
+8842757177583	685000.0
+8295196754159	525000.0
+8145540219119	525000.0
+8773339513071	475000.0
+8498254676207	600000.0
+8742172721391	535000.0
+8959789039855	680000.0
+8498257625327	600000.0
+8329482731759	725000.0
+8196244504815	575000.0
+8625234739439	500000.0
+7946311041263	465000.0
+8792600543471	495000.0
+8984622891247	675000.0
+8959791071471	695000.0
+8196312072431	950000.0
+8211517767919	775000.0
+8773378048239	675000.0
+8843365155055	750000.0
+8196303847663	665000.0
+8005190975727	595000.0
+8665202065647	550000.0
+8196095443183	590000.0
+8792600772847	495000.0
+8329462743279	1200000.0
+8196097474799	550000.0
+8947915292911	475000.0
+7471348252911	780000.0
+8840010432751	550000.0
+7975350730991	495000.0
+7740224897263	665000.0
+8791861231855	900000.0
+7894083371247	585000.0
+8959790022895	1500000.0
+8843362861295	595000.0
+8664891523311	550000.0
+8667288961263	550000.0
+8897159463151	650000.0
+8842758521071	685000.0
+8843364073711	595000.0
+8253784785135	789000.0
+8773355765999	550000.0
+7947448090863	450000.0
+8295198327023	525000.0
+8218799669487	675000.0
+8913076879599	695000.0
+8842747052271	585000.0
+8947918569711	750000.0
+8196111565039	665000.0
+8198584860911	975000.0
+8665228214511	485000.0
+7867716829423	625000.0
+8196252336367	575000.0
+8218759266543	650000.0
+7946305274095	675000.0
+8211469664495	650000.0
+8742223577327	685000.0
+7740223979759	665000.0
+8913528520943	650000.0
+7946305732847	675000.0
+7946308813039	585000.0
+8295197442287	525000.0
+8818180096239	495000.0
+7975349747951	595000.0
+8742178029807	535000.0
+\.
+
+
+--
+-- Data for Name: measurements; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.measurements (measurement_id, product_id, size_name, details) FROM stdin;
+1	8196303847663	ALL SIZE	{'bust': '84-100 cm', 'waist': '80-100 cm', 'length': '115 cm', 'armhole': '45 cm'}
+2	7739103543535	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '116 cm', 'armhole': '48 cm', 'sleeve length': '57 cm'}
+3	8901383880943	XS	{'waist': '66 - 72 cm', 'hip': '80 - 86 cm', 'length': '100 cm', 'thigh': '48 - 52 cm', 'front/back rise': '28 cm/38 cm'}
+4	8901383880943	SMALL	{'waist': '70 - 76 cm', 'hip': '84 - 90 cm', 'length': '102 cm', 'thigh': '50 - 54 cm', 'front/back rise': '28 cm/38 cm'}
+5	8901383880943	MEDIUM	{'waist': '74 - 80 cm', 'hip': '88 - 94 cm', 'length': '104 cm', 'thigh': '52 - 56 cm', 'front/back rise': '30 cm/40 cm'}
+6	8751853666543	SMALL	{'waist': '66 cm', 'hip': '94 cm', 'length': '35,5 cm', 'front/back rise': '33 cm/40,5 cm'}
+7	8751853666543	MEDIUM	{'waist': '70 cm', 'hip': '98 cm', 'length': '36,5 cm', 'front/back rise': '34 cm/41,5 cm'}
+8	8751853666543	LARGE	{'waist': '76 cm', 'hip': '102 cm', 'length': '37,5 cm', 'front/back rise': '35 cm/42,5 cm'}
+9	8211467174127	ALL SIZE	{'bust': '96-106 cm', 'waist': '90-100 cm', 'length': '54 cm', 'armhole': '48 cm', 'sleeve length': '25 cm'}
+10	7975351681263	ALL SIZE	{'bust': '106 cm', 'waist': '122 cm', 'length': '66cm', 'armhole': '48 cm'}
+11	8114152145135	ALL SIZE	{'bust': '90 cm', 'waist': '87 cm', 'length': '84 cm', 'sleeve length': '32\\xa0cm', 'armhole': '52 cm'}
+12	9024434798831	SMALL	{'waist': '68 cm', 'hip': '92 cm', 'thigh': '58 cm', 'front/back rise': '28 cm/38 cm', 'length': '49 cm'}
+13	9024434798831	MEDIUM	{'waist': '72 cm', 'hip': '96 cm', 'thigh': '60 cm', 'front/back rise': '28,5 cm/38,5 cm', 'length': '50 cm'}
+14	9024434798831	LARGE	{'waist': '76 cm', 'hip': '100 cm', 'thigh': '62 cm', 'front/back rise': '29 cm/39 cm', 'length': '51 cm'}
+15	7455669780719	ALL SIZE	{'waist': '60 - 100 cm', 'hip': '100 cm', 'length': '81 cm'}
+16	8843358404847	ALL SIZE	{'bust': '134 cm', 'waist': '134 cm', 'armhole': '40 cm', 'length': '69 cm', 'scarf width x length': '26 cm x 117 cm'}
+17	8843353587951	ALL SIZE	{'bust': '92 cm', 'waist': '86 cm', 'armhole': '54 cm', 'sleeve length': '62 cm', 'length': '58 cm'}
+18	8116765851887	ALL SIZE	{'bust': '88 cm', 'waist': '80 cm', 'length': '58 cm', 'armhole': '46 cm', 'sleeve length': '59 cm'}
+19	8218772832495	ALL SIZE	{'bust': '90 cm', 'waist': '86 cm', 'length': '48 cm', 'sleeve length': '38 cm', 'armhole': '44 cm'}
+20	7950403731695	1 ( S FIT TO L )	{'bust': '102cm', 'waist': '100cm', 'length': '65cm', 'sleeve length': '57cm', 'armhole': '46cm'}
+21	7950403731695	2 ( L FIT TO XXL )	{'bust': '120cm', 'waist': '120cm', 'length': '74cm', 'sleeve length': '60cm', 'armhole': '50cm'}
+22	8329468575983	ALL SIZE	{'bust': '90 cm', 'waist': '86 cm', 'length': '90 cm (include strap)', 'armhole': '58 cm', 'sleeve length': '26 cm'}
+23	8114154406127	SMALL	{'waist': '66-70 cm', 'hip': '85-93 cm', 'length': '104 cm'}
+24	8114154406127	MEDIUM	{'waist': '68-72 cm', 'hip': '89-97 cm', 'length': '105 cm'}
+25	8114154406127	LARGE	{'waist': '72-76 cm', 'hip': '91-99 cm', 'length': '106 cm'}
+26	8110077346031	1	{'bust': '84 cm', 'waist': '84 cm', 'length': '52 cm', 'armhole': '52 cm'}
+27	8110077346031	2	{'bust': '90 cm', 'waist': '88 cm', 'length': '55 cm', 'armhole': '56 cm'}
+28	9024393019631	1	{'bust': '102 cm', 'waist': '102 cm', 'length': '65 cm', 'sleeve length': '38 cm', 'armhole': '65 cm'}
+29	9024393019631	2	{'bust': '110 cm', 'waist': '110 cm', 'length': '70 cm', 'sleeve length': '42 cm', 'armhole': '71 cm'}
+30	7455707070703	ALL SIZE	{'bust': 'up to 100 cm', 'waist': 'up to 100 cm', 'length': '108 cm', 'armhole': '50cm'}
+31	8196095443183	SMALL	{'waist': '60-76 cm', 'hip': '86-100 cm', 'length': '101 cm', 'thigh circumference': '54 cm', 'front rise': '30 cm', 'front/back rise': '37 cm'}
+32	8196095443183	MEDIUM	{'waist': '66-82 cm', 'hip': '90-104 cm', 'length': '102 cm', 'thigh circumference': '56 cm', 'front rise': '30 cm', 'front/back rise': '38 cm'}
+33	8196095443183	LARGE	{'waist': '70-86 cm', 'hip': '94-108 cm', 'length': '103 cm', 'thigh circumference': '58 cm', 'front rise': '30 cm', 'front/back rise': '38 cm'}
+34	8897163395311	1	{'bust': '82 cm', 'waist': '78 cm', 'armhole': '40 cm', 'sleeve length': '28 cm', 'length': '55 cm'}
+35	8897163395311	2	{'bust': '92 cm', 'waist': '88 cm', 'armhole': '46 cm', 'sleeve length': '30 cm', 'length': '60 cm'}
+36	8792571707631	1	{'bust': '98 cm', 'waist': '98 cm', 'length': '56 cm', 'armhole': '54 cm', 'sleeve length': '27 cm'}
+37	8792571707631	2	{'bust': '104 cm', 'waist': '104 cm', 'length': '57,5 cm', 'armhole': '56 cm', 'sleeve length': '28 cm'}
+38	8742187466991	SMALL	{'waist': '66 - 84 cm', 'hip': '94 - 104 cm', 'length': '91 cm'}
+39	8742187466991	MEDIUM	{'waist': '72 - 90 cm', 'hip': '100 - 110 cm', 'length': '92,5 cm'}
+40	8773325816047	1	{'waist': '64 - 80 cm', 'hip': '108 cm', 'length': '100 cm'}
+41	8773325816047	2	{'waist': '70 - 86 cm', 'hip': '114 cm', 'length': '100 cm'}
+42	7455674138863	ALL SIZE	{'waist': '60 - 100 cm', 'hip': 'up to 100 cm', 'length': '81 cm'}
+43	8842741317871	1	{'bust': '92 cm', 'waist': '92 cm', 'length': '54 cm', 'armhole': '44 cm', 'sleeve length': '16 cm'}
+44	8842741317871	2	{'bust': '98 cm', 'waist': '98 cm', 'length': '56 cm', 'armhole': '46 cm', 'sleeve length': '17 cm'}
+45	8304613720303	ALL SIZE	{'bust': '78 - 96 cm', 'waist': '74 - 92 cm', 'length': '117 cm', 'armhole': '42 cm'}
+46	7740234367215	ALL SIZE	{'waist': '70-94cm', 'hip': '96cm', 'length': '100cm'}
+47	8030772199663	ALL SIZE	{'bust': '116cm', 'waist': '116cm', 'length': '53cm', 'sleeve length': '59cm', 'armhole': '52cm'}
+48	7946280599791	1	{'waist': '62-84 cm', 'hip': 'up to 94 cm', 'length': '100 cm'}
+49	7946280599791	2	{'waist': '66-90 cm', 'hip': 'up to 98 cm', 'length': '100 cm'}
+50	7605207531759	ALL SIZE	{'bust': 'Up to 120 cm', 'waist': '120 cm', 'length': '108 cm', 'armhole': '51 cm', 'sleeve length': '60 cm'}
+51	9024386564335	SMALL	{'waist': '66 cm - 72 cm', 'hip': '96 cm', 'thigh': '60 cm', 'length': '102 cm', 'front/back rise': '30 cm/39 cm'}
+52	9024386564335	MEDIUM	{'waist': '70 cm - 76 cm', 'hip': '100 cm', 'thigh': '62 cm', 'length': '103 cm', 'front/back rise': '30,5 cm/39,5 cm'}
+53	9024386564335	LARGE	{'waist': '74 cm - 80 cm', 'hip': '104 cm', 'thigh': '64 cm', 'length': '104 cm', 'front/back rise': '31 cm/40 cm'}
+54	8986672595183	SMALL	{'bust': '103 cm', 'waist': '68 cm', 'length': '58 cm (from center back)', 'armhole': '42 cm'}
+55	8986672595183	MEDIUM	{'bust': '107 cm', 'waist': '72 cm', 'length': '59 cm (from center back)', 'armhole': '44 cm'}
+56	8986672595183	LARGE	{'bust': '111 cm', 'waist': '76 cm', 'length': '60 cm (from center back)', 'armhole': '46 cm'}
+57	8036433690863	ALL SIZE	{'bust': '100 cm', 'waist': '78 cm', 'length': '60 cm', 'sleeve length': '53 cm', 'armhole': '42 cm'}
+58	7947446321391	ALL SIZE	{'waist': '68-90 cm', 'hip': '92 cm', 'length': '42 cm'}
+59	8198588858607	ALL SIZE	{'bust': '90 cm', 'waist': '90 cm', 'length': '43 cm', 'armhole': '44 cm', 'sleeve length': '65 cm'}
+60	8667284996335	SMALL	{'bust': '92 cm', 'waist': '92 cm', 'length': '55 cm', 'sleeve length': '15 cm', 'armhole': '46 cm'}
+61	8667284996335	MEDIUM	{'bust': '100 cm', 'waist': '100 cm', 'length': '58 cm', 'sleeve length': '16 cm', 'armhole': '48 cm'}
+62	8667284996335	LARGE	{'bust': '104 cm', 'waist': '104 cm', 'length': '60 cm', 'sleeve length': '17 cm', 'armhole': '50 cm'}
+63	8818177605871	ALL SIZE	{'bust': '74 cm - 102 cm', 'waist': '70 cm - 98 cm', 'armhole': '40 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+64	8196079255791	S	{'bust': '70-82 cm', 'waist': '68-80 cm', 'length': '50 cm', 'sleeve length': '18 cm', 'armhole': '39 cm'}
+65	8196079255791	M	{'bust': '75-87 cm', 'waist': '73-85 cm', 'length': '51 cm', 'sleeve length': '18 cm', 'armhole': '40 cm'}
+66	8196079255791	L	{'bust': '80-92 cm', 'waist': '78-90 cm', 'length': '52 cm', 'sleeve length': '19 cm', 'armhole': '41 cm'}
+67	7946287939823	ALL SIZE	{'bust': '84-100 cm', 'waist': '80-95cm', 'length': '124 cm', 'sleeve length': '22 cm', 'armhole': '46 cm'}
+68	8269578535151	1	{'bust': '84 cm', 'waist': '80 cm', 'length': '50 cm', 'armhole': '48 cm'}
+69	8269578535151	2	{'bust': '96 cm', 'waist': '92 cm', 'length': '55 cm', 'armhole': '52 cm'}
+70	9000474935535	SMALL	{'bust': '92 cm', 'waist': '92 cm', 'length': '55 cm', 'armhole': '46 cm', 'sleeve length': '15 cm'}
+71	9000474935535	MEDIUM	{'bust': '100 cm', 'waist': '100 cm', 'length': '58 cm', 'armhole': '48 cm', 'sleeve length': '16 cm'}
+72	8307535905007	S	{'waist': '66 - 76 cm', 'hip': '88 cm', 'length': '111 cm'}
+73	8307535905007	M	{'waist': '70 - 80 cm', 'hip': '92 cm', 'length': '112 cm'}
+74	8307535905007	L	{'waist': '74 - 84 cm', 'hip': '96 cm', 'length': '113 cm'}
+75	8329452749039	SMALL	{'waist': '68-72 cm', 'hip': '85-89 cm', 'thigh': '50-54 cm', 'front/back rise': '30.5/38.5 cm', 'length': '104 cm'}
+76	8329452749039	MEDIUM	{'waist': '71-75 cm', 'hip': '88-92 cm', 'thigh': '54-58 cm', 'front/back rise': '31/39 cm', 'length': '105 cm'}
+77	8329452749039	LARGE	{'waist': '74-78 cm', 'hip': '91-95 cm', 'thigh': '56-60 cm', 'front/back rise': '31.5/39.5 cm', 'length': '106 cm'}
+78	7571085983983	ALL SIZE	{'waist': '70 cm', 'hip': 'up to 98 cm', 'length': '72.5 cm'}
+79	9024429129967	ALL SIZE	{'bust': '104 cm', 'waist': '104 cm', 'length': '50 cm', 'sleeve length': '57 cm', 'armhole': '46 cm'}
+80	8742181306607	SMALL	{'waist': '66 - 84 cm', 'hip': '94 - 104 cm', 'length': '91 cm'}
+81	8742181306607	MEDIUM	{'waist': '72 - 90 cm', 'hip': '100 - 110 cm', 'length': '92,5 cm'}
+82	8289518747887	ALL SIZE	{'bust': '102 cm', 'waist': '112 cm', 'length': '85 cm', 'armhole': '53 cm'}
+83	8082170609903	ALL SIZE	{'bust': '88 cm', 'waist': '80 cm', 'length': '58 cm', 'armhole': '46 cm', 'sleeve length': '59 cm'}
+84	8218757071087	1	{'bust': '90 cm', 'waist': '100 cm', 'length': '82 cm', 'armhole': '54 cm'}
+85	8218757071087	2	{'bust': '100 cm', 'waist': '110 cm', 'length': '84 cm', 'armhole': '58 cm'}
+86	9024411500783	1	{'bust': '94 cm', 'waist': '110 cm', 'length': '61 cm', 'armhole': '54 cm'}
+87	9024411500783	2	{'bust': '100 cm', 'waist': '116 cm', 'length': '63 cm', 'armhole': '56 cm'}
+88	8006360498415	ALL SIZE	{'bust': '100 cm', 'waist': '98 cm', 'length': '62 cm', 'armhole': '50 cm'}
+89	9024378372335	SMALL	{'waist': '66 cm - 72 cm', 'hip': '96 cm', 'thigh': '60 cm', 'length': '102 cm', 'front/back rise': '30 cm/39 cm'}
+90	9024378372335	MEDIUM	{'waist': '70 cm - 76 cm', 'hip': '100 cm', 'thigh': '62 cm', 'length': '103 cm', 'front/back rise': '30,5 cm/39,5 cm'}
+91	9024378372335	LARGE	{'waist': '74 cm - 80 cm', 'hip': '104 cm', 'thigh': '64 cm', 'length': '104 cm', 'front/back rise': '31 cm/40 cm'}
+92	8860267086063	ALL SIZE	{'bust': '90 cm', 'waist': '78 cm', 'length': '62 cm', 'armhole': '58 cm', 'sleeve length': '62 cm'}
+93	8751873523951	SMALL	{'waist': '66 cm', 'hip': '94 cm', 'thigh': '62 cm', 'length': '102 cm', 'front/back rise': '30 cm/39 cm'}
+94	8751873523951	MEDIUM	{'waist': '70 cm', 'hip': '98 cm', 'thigh': '64 cm', 'length': '103 cm', 'front/back rise': '30,5 cm/39,5 cm'}
+95	8751873523951	LARGE	{'waist': '76 cm', 'hip': '102 cm', 'thigh': '66 cm', 'length': '104 cm', 'front/back rise': '31 cm/40 cm'}
+96	9024408715503	1	{'bust': '94 cm', 'waist': '110 cm', 'length': '61 cm', 'armhole': '54 cm'}
+97	9024408715503	2	{'bust': '100 cm', 'waist': '116 cm', 'length': '63 cm', 'armhole': '56 cm'}
+98	8664861278447	1	{'bust': '84 cm', 'waist': '74 cm', 'length': '60 cm', 'armhole': '46 cm'}
+99	8664861278447	2	{'bust': '90 cm', 'waist': '80 cm', 'length': '61 cm', 'armhole': '48 cm'}
+100	8060710191343	1	{'bust': '92 cm', 'waist': '88 cm', 'length': '40 cm', 'sleeve length': '16 cm', 'armhole': '43 cm'}
+101	8060710191343	2	{'bust': '100 cm', 'waist': '96 cm', 'length': '44 cm', 'sleevength': '18 cm', 'armhole': '47 cm'}
+102	8101851758831	1	{'bust': '80 cm', 'waist': '80 cm', 'length': '52 cm', 'sleeve length': '58 cm', 'armhole': '45 cm', 'center front length': '32 cm'}
+103	8101851758831	2CARDIGAN	{'bust': '86 cm', 'waist': '86 cm', 'length': '53 cm', 'sleeve length': '58 cm', 'armhole': '47 cm', 'center front length': '33 cm'}
+104	8196312072431	ALL SIZE	{'bust': '88-106 cm', 'waist': '66-92 cm', 'length': '102 cm', 'sleeve length': '52 cm', 'armhole': '42 cm', 'hip': '90-106 cm', 'thigh circumference': '54 cm', 'front rise': '34 cm', 'front/back rise': '40 cm'}
+105	7946296885487	ALL SIZE	{'bust': '120 cm', 'waist': '110 cm', 'length': '66 cm'}
+106	9000428863727	ALL SIZE	{'bust': '128 cm', 'waist': '86 cm', 'length': '56 cm', 'armhole': '56 cm', 'sleeve length': '47 cm'}
+107	8773339513071	ALL SIZE	{'bust': '76 cm - 100 cm', 'waist': '62 cm - 86 cm', 'length': '68 cm', 'armhole': '40 cm', 'sleeve length': '62 cm'}
+108	7740497690863	ALL SIZE	{'waist': '64-94 cm', 'hip': '92 cm', 'length': '42 cm'}
+109	8604408971503	ALL SIZE	{'size': '52 cm x 24 cm'}
+110	8843356078319	1	{'waist': '68 cm', 'hip': '100 cm', 'length': '37 cm'}
+111	8843356078319	2	{'waist': '74 cm', 'hip': '106 cm', 'length': '38 cm'}
+112	7455651135727	ALL SIZE	{'bust': 'up to 90 cm', 'waist': '84cm', 'length': '48cm', 'armhole': '47cm'}
+113	8843362861295	SMALL	{'waist': '62 - 72 cm', 'hip': '94 cm', 'thigh': '62 cm', 'length': '90 cm', 'front/back rise': '33 cm/42 cm'}
+114	8843362861295	MEDIUM	{'waist': '66 cm - 76 cm', 'hip': '98 cm', 'thigh': '64 cm', 'length': '90 cm', 'front/back rise': '33,5 cm/42,5 cm'}
+115	8843362861295	LARGE	{'waist': '70 cm - 80 cm', 'hip': '102 cm', 'thigh': '66 cm', 'length': '91 cm', 'front/back rise': '34 cm/43 cm'}
+116	8060434252015	ALL SIZE	{'bust': '120 cm', 'waist': '122 cm', 'length': '73 cm', 'sleeve length': '18 cm', 'armhole': '50 cm'}
+117	8060419571951	ALL SIZE	{'bust': '120 cm', 'waist': '122 cm', 'length': '73 cm', 'sleeve length': '18 cm', 'armhole': '50 cm'}
+118	8252046409967	1	{'bust': '96 cm', 'waist': '80 cm', 'length': '54 cm', 'armhole': '40 cm', 'sleeve length': '55 cm'}
+119	8252046409967	2	{'bust': '104 cm', 'waist': '88 cm', 'length': '56 cm', 'armhole': '43 cm', 'sleeve\\xa0length': '56\\xa0cm'}
+120	8818180620527	ALL SIZE	{'bust': '74 cm - 102 cm', 'waist': '70 cm - 98 cm', 'armhole': '40 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+121	8005193531631	ALL SIZE	{'waist': '68-110 cm', 'hip': 'up to 120 cm', 'length': '100 cm'}
+122	8792586879215	ALL SIZE	{'bust': '94 cm', 'waist': '98 cm', 'armhole': '48 cm', 'length': '115 cm'}
+123	8196136599791	ALL SIZE	{'bust': '112 cm', 'waist': '110 cm', 'length': '50 cm', 'sleeve length': '62 cm', 'armhole': '52 cm'}
+124	7833922961647	ALL SIZE	{'waist': '66-90 cm', 'hip': 'up to 98 cm', 'length': '96 cm'}
+125	8986673447151	ALL SIZE	{'bust': '90 cm', 'waist': '76 cm', 'length': '60 cm', 'armhole': '58 cm', 'sleeve length': '62 cm'}
+126	8860247261423	1	{'bust': '90 cm', 'waist': '78 cm', 'length': '62 cm (from center)', 'armhole': '48 cm', 'sleeve length': '20 cm'}
+127	8860247261423	2	{'bust': '96 cm', 'waist': '84 cm', 'length': '64 cm (from center)', 'armhole': '51 cm', 'sleeve length': '21 cm'}
+128	7696634478831	ALL SIZE	{'bust': '110 cm', 'waist': '110 cm', 'length': '70 cm', 'armhole': '50 cm', 'sleeve length': '77 cm'}
+129	8947907100911	ALL SIZE	{'bust': '100 cm', 'waist': '104 cm', 'armhole': '54 cm', 'sleeve length': '16 cm', 'length': '63 cm'}
+130	8947918569711	SMALL	{'waist': '70 - 80 cm', 'hip': '86 - 96 cm', 'thigh': '54 - 58 cm', 'front/back rise': '27/37 cm', 'length': '100 cm'}
+131	8947918569711	MEDIUM	{'waist': '74 - 84 cm', 'hip': '92 - 102 cm', 'thigh': '60\\xa0 - 64 cm', 'front/back rise': '27/37 cm', 'length': '102 cm'}
+132	8947918569711	LARGE	{'waist': '78 - 88 cm', 'hip': '96 - 106 cm', 'thigh': '64 - 68 cm', 'front/back rise': '29/38 cm', 'length': '104 cm'}
+133	8824999379183	ALL SIZE	{'bust': '114 cm', 'waist': '118 cm', 'armhole': '62 cm', 'sleeve length': '46 cm', 'front length/back length': '75/80 cm'}
+134	8145104994543	ALL SIZE	{'bust': '90 cm', 'waist': '90 cm', 'length': '43 cm', 'armhole': '44 cm', 'sleeve length': '65 cm'}
+135	8211469664495	ALL SIZE	{'bust': '120 cm', 'waist': '116 cm', 'length': '60 cm', 'sleeve length': '53 cm', 'armhole': '44 cm (drop shoulder)'}
+136	8110093336815	ALL SIZE	{'bust': '90 cm', 'waist': '86 cm', 'length': '48 cm', 'sleeve length': '38 cm', 'armhole': '44 cm'}
+137	7471339405551	ALL SIZE	{'bust': 'up to 95 cm', 'waist': 'up to 90 cm', 'length': '70 cm', 'sleeve length': '28.5 cm', 'armhole': '45 cm'}
+138	7823908372719	ALL SIZE	{'bust': '100 cm (up to 120 cm)', 'waist': '100 cm (up to 120 cm)', 'length': '68 cm', 'armhole': '48 cm', 'sleeve length': '20 cm'}
+139	8269638271215	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '44 cm', 'armhole': '48 cm', 'sleeve length': '59 cm'}
+140	8823420420335	SMALL	{'bust': '85 cm', 'waist': '78 cm', 'armhole': '45 cm', 'length': '65 cm'}
+141	8823420420335	MEDIUM	{'bust': '91 cm', 'waist': '84 cm', 'armhole': '47 cm', 'length': '66 cm'}
+142	8823420420335	LARGE	{'bust': '97 cm', 'waist': '90 cm', 'armhole': '49 cm', 'length': '67 cm'}
+143	8897219920111	ALL SIZE	{'bust': '70 - 90 cm', 'waist': '60 - 80 cm', 'armhole': '40 cm', 'length': '52 cm'}
+144	8773378048239	ALL SIZE	{'bust': '92 cm', 'waist': '106 cm', 'length': '130 cm', 'armhole': '54 cm'}
+145	7946310025455	1 ( S FIT TO L )	{'bust': '102cm', 'waist': '100cm', 'length': '65cm', 'sleeve length': '57cm', 'armhole': '46cm'}
+146	7946310025455	2 ( L FIT TO XXL )	{'bust': '120cm', 'waist': '120cm', 'length': '74cm', 'sleeve length': '60cm', 'armhole': '50cm'}
+147	7471338193135	ALL SIZE	{'waist': '62 - 90 cm', 'hip': '130 cm', 'length': '67 cm'}
+148	8913520754927	ALL SIZE	{'bust': '98 cm', 'waist': '96 cm', 'armhole': '45 cm', 'sleeve length': '52 cm', 'length': '50 cm'}
+149	8233619161327	ALL SIZE	{'bust': '110 cm', 'waist': '108 cm', 'length': '74 cm', 'sleeve length': '60 cm', 'armhole': '50 cm'}
+150	7471330623727	ALL SIZE	{'bust': 'up to 95 cm', 'waist': 'up to 90 cm', 'length': '70 cm', 'sleeve length': '28.5 cm', 'armhole': '45 cm'}
+151	9024434340079	ALL SIZE	{'bust': '102 cm', 'waist': '92 cm', 'length': '117 cm', 'sleeve opening': '35 cm'}
+152	8329480503535	1	{'waist': '66 cm', 'hip': '94 cm', 'length': '80 cm'}
+153	8329480503535	2	{'waist': '72 cm', 'hip': '100 cm', 'length': '81 cm'}
+154	8076514394351	1	{'bust': '80 cm', 'waist': '80 cm', 'length': '52 cm', 'sleeve length': '58 cm', 'armhole': '45 cm', 'center front length': '32 cm'}
+155	8076514394351	2CARDIGAN	{'bust': '86 cm', 'waist': '86 cm', 'length': '53 cm', 'sleeve length': '58 cm', 'armhole': '47 cm', 'center front length': '33 cm'}
+156	8030801264879	ALL SIZE	{'bust': '102cm', 'waist': '96cm', 'length': '68cm', 'sleeve length': '64cm', 'armhole': '52cm'}
+157	7946302947567	ALL SIZE	{'bust': '116 cm', 'waist': '112 cm', 'length': '71 cm', 'sleevelength from shoulder': '76 cm', 'armhole': '50 cm'}
+158	8901385748719	ALL SIZE	{'bust': '100 cm', 'waist': '90 cm', 'length': '60 cm', 'armhole': '46 cm', 'sleeve length': '51 cm'}
+159	8773329977583	ALL SIZE	{'bust': '94 cm - 112 cm', 'waist': '74 cm - 92 cm', 'length': '64 cm', 'armhole': '40 cm', 'sleeve length': '59 cm'}
+160	8896420839663	ALL SIZE	{'bust': '100 cm', 'waist': '104 cm', 'armhole': '54 cm', 'sleeve length': '16 cm', 'length': '63 cm'}
+161	7959651221743	ALL SIZE	{'bust': '68 cm', 'waist': '66 cm', 'length': '44 cm', 'sleeve length': '16 cm', 'armhole': '35 cm'}
+162	8060443361519	ALL SIZE	{'bust': '100cm', 'waist': '100cm', 'length': '45cm', 'sleeve length': '17cm', 'armhole': '47cm'}
+163	7696641097967	ALL SIZE	{'bust': '74-100 cm', 'waist': '74-95 cm', 'armhole': '50 cm', 'sleeve length': '24 cm', 'length': '125 cm'}
+164	7823893364975	ALL SIZE	{'small': 'Waist: 70 cm', 'hip': '102 cm', 'length': '33 cm', 'medium': 'Waist: 76 cm'}
+165	7455655362799	ALL SIZE	{'waist': '64-100 cm', 'hip': '78-96 cm', 'length': '88 cm'}
+166	8842747052271	1	{'bust': '90 cm', 'waist': '90 cm', 'armhole': '46 cm', 'length': '55 cm'}
+167	8842747052271	2	{'bust': '98 cm', 'waist': '98 cm', 'armhole': '48 cm', 'length': '57 cm'}
+168	8234756931823	ALL SIZE	{'bust': '110 cm', 'waist': '108 cm', 'length': '74 cm', 'sleeve length': '60 cm', 'armhole': '50 cm'}
+169	8145623580911	1	{'waist': '70 cm', 'hip': '110 cm', 'length': '100 cm', 'front rise': '31 cm', 'front/back rise': '40 cm'}
+170	8145623580911	2	{'waist': '80 cm', 'hip': '118 cm', 'length': '102 cm', 'front rise': '31 cm', 'front/back rise': '40 cm'}
+171	8825018679535	ALL SIZE	{'width x length': '96 cm x 90 cm'}
+172	9024418152687	1	{'waist': '64 cm - 72 cm', 'hip': '92 cm', 'length': '33 cm', 'thigh': '64 cm', 'front/back rise': '27 cm/32 cm'}
+173	9024418152687	2	{'waist': '70 cm - 78 cm', 'hip': '98 cm', 'length': '35 cm', 'thigh': '66 cm', 'front/back rise': '28 cm/33 cm'}
+174	9000432763119	1	{'bust': '88 cm', 'waist': '84 cm', 'length': '123 cm', 'armhole': '64 cm'}
+175	9000432763119	2	{'bust': '94 cm', 'waist': '90 cm', 'length': '125 cm', 'armhole': '66 cm'}
+176	7455707791599	ALL SIZE	{'bust': 'up to 100 cm', 'waist': 'up to 100 cm', 'length': '108 cm', 'armhole': '50cm'}
+177	8913076879599	SMALL	{'bust': '84 cm', 'waist': '80 cm (adjustable back buckle)', 'armhole': '44 cm', 'length': '64 cm'}
+178	8913076879599	MEDIUM	{'bust': '88 cm', 'waist': '84 cm (adjustable back buckle)', 'armhole': '45 cm', 'length': '65 cm'}
+179	8913076879599	LARGE	{'bust': '92 cm', 'waist': '88 cm (adjustable back buckle)', 'armhole': '46 cm', 'length': '66 cm'}
+180	8791849566447	ALL SIZE	{'bust': '108 cm', 'waist': '108 cm', 'armhole': '60 cm', 'sleeve length': '58 cm', 'length': '56 cm'}
+181	8082188796143	SMALL	{'waist': '60-76 cm', 'hip': '86-100 cm', 'length': '101 cm', 'thigh circumference': '54 cm', 'front rise': '30 cm', 'front/back rise': '37 cm'}
+182	8082188796143	MEDIUM	{'waist': '66-82 cm', 'hip': '90-104 cm', 'length': '102 cm', 'thigh circumference': '56 cm', 'front rise': '30 cm', 'front/back rise': '38 cm'}
+183	8082188796143	LARGE	{'waist': '70-86 cm', 'hip': '94-108 cm', 'length': '103 cm', 'thigh circumference': '58 cm', 'front rise': '30 cm', 'front/back rise': '38 cm'}
+184	8082188796143	XL	{'waist': '76-92 cm', 'hip': '100-112 cm', 'length': '104 cm', 'thigh circumference': '60 cm', 'front rise': '30 cm', 'front/back rise': '39 cm'}
+185	7955609616623	ALL SIZE	{'bust': '120 cm', 'waist': '110 cm', 'length': '66 cm'}
+186	8860169437423	1	{'bust': '84 cm', 'waist': '88 cm', 'length': '70 cm', 'armhole': '52 cm'}
+187	8860169437423	2	{'bust': '92 cm', 'waist': '96 cm', 'length': '71 cm', 'armhole': '54 cm'}
+188	8211497844975	ALL SIZE	{'bust': '80-90 cm', 'waist': '74-84 cm', 'length': '62 cm', 'armhole': '42 cm', 'sleeve length': '55 cm'}
+189	8107692392687	ALL SIZE	{'bust': '84 cm', 'waist': '86 cm', 'length': '42 cm', 'armhole': '50 cm'}
+190	8818183438575	ALL SIZE	{'bust': '72 cm - 100 cm', 'waist': '64 cm - 92 cm', 'armhole': '45 cm', 'length': '57 cm'}
+191	9024432537839	ALL SIZE	{'bust': '102 cm', 'waist': '92 cm', 'length': '117 cm', 'sleeve opening': '35 cm'}
+192	7471328526575	ALL SIZE	{'bust': 'up to 110 cm', 'waist': 'up to 110 cm', 'length': '70 cm', 'sleeve length': '51 cm', 'armhole': '43 cm'}
+193	8196097474799	1	{'bust': '94 cm', 'waist': '94 cm', 'length': '54 cm', 'sleeve length': '44 cm', 'armhole': '44\\xa0cm'}
+194	8196097474799	2	{'bust': '102 cm', 'waist': '102 cm', 'length': '58 cm', 'sleeve length': '47 cm', 'armhole': '46 cm'}
+195	7637780922607	ALL SIZE	{'waist': 'up to 136 cm', 'hip': 'up to 160 cm', 'length': '84 cm'}
+196	8037925126383	ALL SIZE	{'bust': '120 cm', 'waist': '120 cm', 'front length': '69 cm', 'center back length': '83,5 cm', 'sleeve length': '58 cm', 'armhole': '58 cm'}
+197	7605187739887	ALL SIZE	{'bust': 'Up to 105 cm', 'waist': '93 cm', 'length': '57 cm', 'armhole': '52 cm', 'circumgerence': 'Up to 105 cm'}
+198	8307522339055	ALL SIZE	{'bust': '70 - 100 cm', 'waist': '74 - 110 cm', 'length': '56 cm', 'armhole': '42 cm'}
+199	8252030943471	ALL SIZE	{'bust': '100 cm', 'waist': '90 cm', 'length': '72 cm', 'armhole': '50 cm', 'sleeve length': '58 cm'}
+200	8218753532143	ALL SIZE	{'bust': '106 cm', 'waist': '100 cm', 'length': '54 cm', 'armhole': '40 cm', '': '41 cm'}
+201	8036433953007	ALL SIZE	{'bust': '100 cm', 'waist': '95 cm', 'length': '50cm', 'sleeve length': '53cm'}
+202	9000475689199	SMALL	{'bust': '92 cm', 'waist': '92 cm', 'length': '55 cm', 'armhole': '46 cm', 'sleeve length': '15 cm'}
+203	9000475689199	MEDIUM	{'bust': '100 cm', 'waist': '100 cm', 'length': '58 cm', 'armhole': '48 cm', 'sleeve length': '16 cm'}
+204	8211456950511	1	{'bust': '84 cm', 'waist': '84 cm', 'length': '52 cm', 'armhole': '52 cm'}
+205	8211456950511	2	{'bust': '90 cm', 'waist': '88 cm', 'length': '55 cm', 'armhole': '56 cm'}
+206	9000439841007	1	{'waist': '66 cm - 76 cm', 'hip': '85 cm - 95 cm', 'length': '90 cm'}
+207	9000439841007	2	{'waist': '72 cm - 82 cm', 'hip': '91 cm - 101 cm', 'length': '91 cm'}
+208	8959266095343	ALL SIZE	{'bust': '88 cm', 'waist': '86 cm', 'length': '64 cm', 'armhole': '49 cm'}
+209	8081686429935	ALL SIZE	{'bust': '86-94 cm', 'waist': '88-96 cm', 'length': '71 cm', 'armhole': '50 cm'}
+210	8860229992687	ALL SIZE	{'bust': '96 cm', 'waist': '104 cm', 'length': '66 cm', 'armhole': '44 cm', 'sleeve length': '14 cm'}
+211	8498254676207	SMALL	{'waist': '70 cm', 'hip': '94 cm', 'length': '92 cm'}
+212	8498254676207	MEDIUM	{'waist': '76 cm', 'hip': '100 cm', 'length': '93 cm'}
+213	8498254676207	LARGE	{'waist': '82 cm', 'hip': '106 cm', 'length': '94 cm'}
+214	8913534157039	SMALL	{'waist': '66 cm - 84 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '107 cm', 'front/back rise': '30 cm/39 cm'}
+597	8082171461871	1	{'waist': '64 - 92 cm', 'hip': '92 cm', 'length': '106 cm'}
+215	8913534157039	MEDIUM	{'waist': '70 cm - 88 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+216	8913534157039	LARGE	{'waist': '74 cm - 92 cm', 'hip': '104 cm', 'thigh': '68 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+217	9024412516591	SMALL	{'waist': '66 cm - 84 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '107 cm', 'front/back rise': '30 cm/39 cm'}
+218	9024412516591	MEDIUM	{'waist': '70 cm - 88 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+219	9024412516591	LARGE	{'waist': '74 cm - 92 cm', 'hip': '104 cm', 'thigh': '68 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+220	8145602543855	1	{'bust': '62-82 cm', 'waist': '62-82 cm', 'length': '50 cm', 'sleeve length': '27 cm', 'armhole': '38 cm'}
+221	8145602543855	2	{'bust': '72-92 cm', 'waist': '72-92 cm', 'length': '53 cm', 'sleeve length': '30 cm', 'armhole': '40 cm'}
+222	8082187518191	1	{'bust': '92 cm', 'waist': '102 cm', 'length': '81 cm', 'armhole': '48 cm'}
+223	8082187518191	2	{'bust': '100 cm', 'waist': '110 cm', 'length': '86 cm', 'armhole': '54 cm'}
+224	8959278416111	1	{'bust': '84 cm', 'waist': '84 cm', 'length': '53 cm', 'armhole': '44 cm'}
+225	8959278416111	2	{'bust': '88 cm', 'waist': '88 cm', 'length': '53 cm', 'armhole': '45 cm'}
+226	7455664865519	ALL SIZE	{'waist': '64-100 cm', 'hip': '78-96 cm', 'length': '88 cm'}
+227	7823883698415	ALL SIZE	{'bust': '136 cm', 'waist': '126 cm', 'length': '77 cm', 'sleeve length': '43 cm', 'armhole': '52 cm'}
+228	8913102569711	1	{'bust': '92 cm', 'waist': '96 cm', 'armhole': '50 cm', 'sleeve length': '58 cm', 'length': '68 cm'}
+229	8913102569711	2	{'bust': '100 cm', 'waist': '104 cm', 'armhole': '54 cm', 'sleeve length': '60 cm', 'length': '70 cm'}
+230	8030781243631	S	{'bust': '96 cm', 'waist': '88 cm', 'length': '72\\xa0cm', 'sleeve length': '59 cm', 'armhole': '46 cm'}
+231	8030781243631	M	{'bust': '100 cm', 'waist': '92 cm', 'length': '73\\xa0cm', 'sleeve length': '59\\xa0cm', 'armhole': '47 cm'}
+232	8030781243631	L	{'bust': '104\\xa0cm', 'waist': '96 cm', 'length': '74 cm', 'sleeve length': '59 cm', 'armhole': '48 cm'}
+233	7113857138866	ALL SIZE	{'bust': '160 cm', 'length': '61 cm', 'armhole': '32 cm'}
+234	8329477685487	1	{'bust': '86 cm', 'waist': '94 cm', 'front length/back length': '62 cm/68 cm', 'armhole': '50 cm'}
+235	8329477685487	2	{'bust': '92 cm', 'waist': '100 cm', 'front length/back length': '63 cm/69 cm', 'armhole': '53 cm'}
+236	8843357225199	1	{'bust': '84 cm', 'waist': '78 cm', 'armhole': '47 cm', 'front length/back length': '70 cm/65 cm'}
+237	8843357225199	2	{'bust': '90 cm', 'waist': '84 cm', 'armhole': '49 cm', 'front length/back length': '71 cm/66 cm'}
+238	8005223088367	ALL SIZE	{'bust': '88 cm', 'waist': '94 cm', 'length': '80 cm', 'armhole': '50 cm'}
+239	8860255420655	1	{'bust': '96 cm', 'waist': '112 cm', 'armhole': '46 cm', 'length': '59 cm'}
+240	8860255420655	2	{'bust': '102 cm', 'waist': '118 cm', 'armhole': '49 cm', 'length': '61 cm'}
+241	8307526140143	1	{'bust': '85 cm', 'waist': '80 cm', 'length': '81 cm', 'armhole': '48 cm'}
+242	8307526140143	2	{'bust': '95 cm', 'waist': '90 cm', 'length': '83 cm', 'armhole': '52 cm'}
+243	8252042903791	1	{'bust': '90 cm', 'waist': '76 cm', 'length': '60 cm', 'armhole': '48 cm', 'sleeve length': '23 cm'}
+244	8252042903791	2	{'bust': '98 cm', 'waist': '84 cm', 'length': '63 cm', 'armhole': '50 cm', 'sleeve length': '23 cm'}
+245	8145244520687	S	{'waist': '68 cm', 'hip': '94 cm', 'length': '98 cm'}
+246	8145244520687	M	{'waist': '72 cm', 'hip': '100 cm', 'length': '98 cm'}
+247	8145244520687	L	{'waist': '76 cm', 'hip': '104 cm', 'length': '98 cm'}
+248	7739081359599	ALL SIZE	{'waist': '64-84 cm', 'hip': '92 cm', 'length': '106 cm'}
+249	8294599164143	ALL SIZE	{'bust': '82-100 cm', 'waist': '80-98 cm', 'length': '59 cm', 'armhole': '42 cm', 'sleeve length': '59 cm'}
+250	8294592512239	ALL SIZE	{'bust': '82-100 cm', 'waist': '80-98 cm', 'length': '59 cm', 'armhole': '42 cm', 'sleeve length': '59 cm'}
+251	8959790022895	1	{'bust': '82 cm', 'waist': '74 cm', 'length': '114 cm', 'armhole': '48 cm'}
+252	8959790022895	2	{'bust': '88 cm', 'waist': '80 cm', 'length': '116 cm', 'armhole': '50 cm'}
+253	8196081352943	S	{'bust': '70-82 cm', 'waist': '68-80 cm', 'length': '50 cm', 'sleeve length': '55 cm', 'armhole': '39\\xa0cm'}
+254	8196081352943	M	{'bust': '75-87 cm', 'waist': '73-85 cm', 'length': '51 cm', 'sleeve length': '55 cm', 'armhole': '40 cm'}
+255	8196081352943	L	{'bust': '80-92 cm', 'waist': '78-90 cm', 'length': '52 cm', 'sleeve length': '56 cm', 'armhole': '41 cm'}
+256	8498257625327	SMALL	{'waist': '70 cm', 'hip': '94 cm', 'length': '92 cm'}
+257	8498257625327	MEDIUM	{'waist': '76 cm', 'hip': '100 cm', 'length': '93 cm'}
+258	8498257625327	LARGE	{'waist': '82 cm', 'hip': '106 cm', 'length': '94 cm'}
+259	8773307990255	1	{'waist': '70 cm', 'hip': '94 cm', 'length': '79 cm'}
+260	8773307990255	2	{'waist': '76 cm', 'hip': '100 cm', 'length': '81 cm'}
+261	8060699902191	1	{'bust': '92 cm', 'waist': '88 cm', 'length': '40 cm', 'sleeve length': '16 cm', 'armhole': '43 cm'}
+262	8060699902191	2	{'bust': '100 cm', 'waist': '96 cm', 'length': '44 cm', 'sleevength': '18 cm', 'armhole': '47 cm'}
+263	8913520197871	ALL SIZE	{'bust': '80 cm - 90 cm', 'waist': '72 cm - 82 cm', 'armhole': '45 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+264	8913121149167	ALL SIZE	{'bust': '144 cm', 'waist': '146 cm', 'armhole': '48 cm', 'sleeve length': '48 cm', 'front length/back length': '48 cm/60 cm'}
+265	7696632578287	ALL SIZE	{'waist': '64-94 cm', 'hip': '92 cm', 'length': '42 cm'}
+266	8107680661743	1	{'bust': '84 cm', 'waist': '84 cm', 'length': '52 cm', 'armhole': '52 cm'}
+267	8107680661743	2	{'bust': '90 cm', 'waist': '88 cm', 'length': '55 cm', 'armhole': '56 cm'}
+268	8825016811759	ALL SIZE	{'width x length': '96 cm x 90 cm'}
+269	8792594546927	ALL SIZE	{'bust': '74 cm - 102 cm', 'waist': '70 cm - 98 cm', 'armhole': '40 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+270	8114153816303	ALL SIZE	{'bust': '110 cm', 'waist': '126 cm', 'length': '80 cm', 'sleeve length': '62 cm', 'armhole': '48 cm'}
+271	8667288600815	SMALL	{'bust': '96 cm', 'waist': '96 cm', 'length': '70 cm', 'sleeve length': '20 cm', 'armhole': '52 cm'}
+272	8667288600815	MEDIUM	{'bust': '104 cm', 'waist': '104 cm', 'length': '73 cm', 'sleeve length': '22 cm', 'armhole': '54 cm'}
+273	8667288600815	LARGE	{'bust': '112 cm', 'waist': '112 cm', 'length': '76 cm', 'sleeve length': '24 cm', 'armhole': '56 cm'}
+274	7719008534767	ALL SIZE	{'waist': '66-100 cm', 'hip': '92 cm', 'length': '82 cm'}
+275	8060728180975	ALL SIZE	{'waist': '68 up to 108 cm', 'hip': '104 to 116 cm', 'length': '102 cm'}
+276	7471421260015	ALL SIZE	{'bust': 'up to 110 cmWaist: 112 cmLength: 67 cmSleevelength: 58 cmArmhole: 49 cm'}
+277	8498656149743	SMALL	{'waist': '68 cm', 'hip': '96 cm', 'length': '36 cm', 'front rise': '35 cm', 'front/back rise': '45 cm'}
+278	8498656149743	MEDIUM	{'waist': '74 cm', 'hip': '102 cm', 'length': '37 cm', 'front rise': '35.5 cm', 'front/back rise': '45.5 cm'}
+279	8498656149743	LARGE	{'waist': '80 cm', 'hip': '108 cm', 'length': '38 cm', 'front rise': '36 cm', 'front/back rise': '46 cm'}
+280	7833926992111	ALL SIZE	{'bust': 'up to 120 cm', 'waist': 'up to 120 cm', 'length': '96 cm', 'armhole': '47 cm'}
+281	8825005506799	ALL SIZE	{'width x length': '96 cm x 90 cm'}
+282	8824610586863	1	{'bust': '84 cm', 'waist': '88 cm', 'armhole': '50 cm', 'length': '81 cm (from strap)'}
+283	8824610586863	2	{'bust': '90 cm', 'waist': '94 cm', 'armhole': '52 cm', 'length': '82 cm (from strap)'}
+284	7455630426351	ALL SIZE	{'bust': '112cm', 'waist': '108cm', 'length': '53cm', 'sleeve length': '47cm', 'armhole': '35cm'}
+285	8843359682799	SMALL	{'waist': '64 cm - 84 cm', 'hip': '94 cm', 'thigh': '64 cm', 'length': '108 cm', 'front/back rise': '30 cm/39 cm'}
+286	8843359682799	MEDIUM	{'waist': '68 cm - 88 cm', 'hip': '98 cm', 'thigh': '66 cm', 'length': '108 cm', 'front/back rise': '31 cm/40 cm'}
+287	8843359682799	LARGE	{'waist': '72 cm - 92 cm', 'hip': '102 cm', 'thigh': '68 cm', 'length': '109 cm', 'front/back rise': '32 cm/41 cm'}
+288	8196294607087	ALL SIZE	{'bust': '110 cm', 'waist': '104 cm', 'length': '118 cm', 'sleeve length': '52 cm', 'armhole': '48 cm'}
+289	8823421108463	SMALL	{'bust': '85 cm', 'waist': '78 cm', 'armhole': '45 cm', 'length': '65 cm'}
+290	8823421108463	MEDIUM	{'bust': '91 cm', 'waist': '84 cm', 'armhole': '47 cm', 'length': '66 cm'}
+291	8823421108463	LARGE	{'bust': '97 cm', 'waist': '90 cm', 'armhole': '49 cm', 'length': '67 cm'}
+292	7571098894575	ALL SIZE	{'bust': '130 cm', 'waist': '130 cm', 'length': '76 cm', 'sleeve length': '60 cm', 'armhole': '50 cm'}
+293	8959791071471	SMALL	{'waist': '66 cm', 'hip': '94 cm', 'length': '82 cm'}
+294	8959791071471	MEDIUM	{'waist': '70 cm', 'hip': '98 cm', 'length': '83 cm'}
+295	8145497325807	ALL SIZE	{'bust': '106 cm', 'waist': '110 cm', 'front length': '75 cm', 'back length': '80 cm', 'armhole': '58 cm'}
+296	9000450851055	SMALL	{'waist': '68 cm', 'hip': '94 cm', 'thigh': '58 cm', 'length': '105 cm', 'front/back rise': '29 cm/41 cm'}
+297	9000450851055	MEDIUM	{'waist': '72 cm', 'hip': '98 cm', 'thigh': '60 cm', 'length': '105 cm', 'front/back rise': '29,5 cm/41,5 cm'}
+298	9000450851055	LARGE	{'waist': '76 cm', 'hip': '102 cm', 'thigh': '62 cm', 'length': '105 cm', 'front/back rise': '30 cm/42 cm'}
+299	8843352211695	ALL SIZE	{'bust': '102 cm', 'waist': '98 cm', 'armhole': '52 cm', 'sleeve length': '28 cm', 'length': '56 cm'}
+300	8289522614511	ALL SIZE	{'bust': '102 cm', 'waist': '112 cm', 'length': '85 cm', 'armhole': '53 cm'}
+301	7605183971567	ALL SIZE	{'bust': 'Up to 140 cm', 'waist': '136 cm', 'length': '85 cm', 'armhole': '55 cm', 'sleeve length': '49 cm'}
+302	8742223577327	SMALL	{'bust': '82 cm', 'waist': '70 cm', 'hip': '94 cm', 'length': '78 cm', 'armhole': '42 cm'}
+303	8742223577327	MEDIUM	{'bust': '88 cm', 'waist': '76 cm', 'hip': '100 cm', 'length': '80 cm', 'armhole': '45 cm'}
+304	8742223577327	LARGE	{'bust': '94 cm', 'waist': '82 cm', 'hip': '106 cm', 'length': '82 cm', 'armhole': '48 cm'}
+305	8896417726703	ALL SIZE	{'bust': '102 cm', 'waist': '103 cm', 'length': '62 cm', 'armhole': '48 cm', 'sleeve length': '6 cm'}
+306	7471298543855	ALL SIZE	{'bust': 'up to 125 cm', 'waist': '120 cm', 'length': '61 cm', 'sleeve length': '33 cm', 'armhole': '47 cm'}
+307	8792602640623	ALL SIZE	{'bust': '72 cm - 100 cm', 'waist': '64 cm - 92 cm', 'armhole': '45 cm', 'length': '57 cm'}
+308	8842742759663	1	{'bust': '92 cm', 'waist': '92 cm', 'length': '54 cm', 'armhole': '44 cm', 'sleeve length': '16 cm'}
+309	8842742759663	2	{'bust': '98 cm', 'waist': '98 cm', 'length': '56 cm', 'armhole': '46 cm', 'sleeve length': '17 cm'}
+310	7113856024754	ALL SIZE	{'bust': '160 cm', 'length': '61 cm', 'armhole': '32 cm'}
+311	8145558438127	ALL SIZE	{'bust': '80-92 cm', 'waist': '66-80 cm', 'length': '60 cm', 'armhole': '44 cm', 'sleeve length': '61 cm'}
+312	7975349747951	ALL SIZE	{'bust': '120 cm', 'waist': '110 cm', 'length': '66 cm'}
+313	7740273590511	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '50 cm', 'armhole': '44 cm', 'sleeve length': '19 cm'}
+314	8742218367215	SMALL	{'waist': '64 - 90 cm', 'hip': '76 - 100 cm', 'length': '93 cm'}
+315	8742218367215	MEDIUM	{'waist': '68 - 94 cm', 'hip': '80 - 104 cm', 'length': '93 cm'}
+316	8742218367215	LARGE	{'waist': '74 - 100 cm', 'hip': '86 - 110 cm', 'length': '94 cm'}
+317	7110613631154	ALL SIZE	{'bust': '116 cm', 'length': '50 cm', 'sleeve length': '30 cm', 'armhole': '50 cm'}
+318	8145580327151	1	{'bust': '62-82 cm', 'waist': '62-82 cm', 'length': '50 cm', 'sleeve length': '27 cm', 'armhole': '38 cm'}
+319	8145580327151	2	{'bust': '72-92 cm', 'waist': '72-92 cm', 'length': '53 cm', 'sleeve length': '30 cm', 'armhole': '40 cm'}
+320	8294602703087	ALL SIZE	{'bust': '100-114 cm', 'waist': '100-114 cm', 'length': '62 cm', 'armhole': '46 cm', 'sleeve length': '17.5 cm'}
+321	7947448090863	ALL SIZE	{'waist': '68-90 cm', 'hip': '92 cm', 'length': '42 cm'}
+322	7867716829423	ALL SIZE	{'bust': '110 cm', 'waist': '106 cm', 'length': '68 cm', 'armhole': '48 cm', 'sleeve length': '62 cm'}
+323	8625233592559	SMALL	{'bust': '86 - 120 cm', 'waist': '80 - 116 cm', 'length': '60 cm', 'sleeve length': '18 cm', 'armhole': '45 cm'}
+324	8625233592559	MEDIUM	{'bust': '90 - 124 cm', 'waist': '84 - 118 cm', 'length': '62 cm', 'sleeve length': '19 cm', 'armhole': '46 cm'}
+325	8896420479215	SMALL	{'waist': '68 cm', 'hip': '96 cm', 'thigh': '68 cm', 'front/back rise': '31 cm/41 cm', 'length': '104 cm'}
+598	8082171461871	2	{'waist': '70 - 102 cm', 'hip': '102 cm', 'length': '107 cm'}
+326	8896420479215	MEDIUM	{'waist': '72 cm', 'hip': '100 cm', 'thigh': '70 cm', 'front/back rise': '32 cm/42 cm', 'length': '105 cm'}
+327	8896420479215	LARGE	{'waist': '76 cm', 'hip': '104 cm', 'thigh': '72 cm', 'front/back rise': '33 cm/43 cm', 'length': '106 cm'}
+328	8896420479215	XL	{'waist': '85 cm', 'hip': '116 cm', 'thigh': '74 cm', 'front/back rise': '33 cm/43 cm', 'length': '106 cm'}
+329	8252043657455	SMALL	{'bust': '85 cm', 'waist': '70 cm', 'hip': '110 cm', 'length': '118 cm', 'armhole': '45 cm'}
+330	8252043657455	MEDIUM	{'bust': '89 cm', 'waist': '74 cm', 'hip': '114 cm', 'length': '120 cm', 'armhole': '47 cm'}
+331	8252043657455	LARGE	{'bust': '93 m', 'waist': '78 cm', 'hip': '118 cm', 'length': '122 cm', 'armhole': '49 cm'}
+332	8145570005231	ALL SIZE	{'bust': '80-92 cm', 'waist': '66-80 cm', 'length': '60 cm', 'armhole': '44 cm', 'sleeve length': '61 cm'}
+333	8986659750127	SMALL	{'bust': '103 cm', 'waist': '68 cm', 'length': '58 cm (from center back)', 'armhole': '42 cm'}
+334	8986659750127	MEDIUM	{'bust': '107 cm', 'waist': '72 cm', 'length': '59 cm (from center back)', 'armhole': '44 cm'}
+335	8986659750127	LARGE	{'bust': '111 cm', 'waist': '76 cm', 'length': '60 cm (from center back)', 'armhole': '46 cm'}
+336	8211473334511	ALL SIZE	{'bust': '102 cm', 'waist': '112 cm', 'length': '66 cm', 'armhole': '46 cm'}
+337	8211451150575	SMALL	{'waist': '70 cm', 'hip': '92 cm', 'length': '38 cm'}
+338	8211451150575	MEDIUM	{'waist': '76 cm', 'hip': '98 cm', 'length': '40 cm'}
+339	8843361583343	SMALL	{'waist': '64 cm - 84 cm', 'hip': '94 cm', 'thigh': '64 cm', 'length': '108 cm', 'front/back rise': '30 cm/39 cm'}
+340	8843361583343	MEDIUM	{'waist': '68 cm - 88 cm', 'hip': '98 cm', 'thigh': '66 cm', 'length': '108 cm', 'front/back rise': '31 cm/40 cm'}
+341	8843361583343	LARGE	{'waist': '72 cm - 92 cm', 'hip': '102 cm', 'thigh': '68 cm', 'length': '109 cm', 'front/back rise': '32 cm/41 cm'}
+342	8196075585775	S	{'bust': '70-82 cm', 'waist': '68-80 cm', 'length': '50 cm', 'sleeve length': '18 cm', 'armhole': '39 cm'}
+343	8196075585775	M	{'bust': '75-87 cm', 'waist': '73-85 cm', 'length': '51 cm', 'sleeve length': '18 cm', 'armhole': '40 cm'}
+344	8196075585775	L	{'bust': '80-92 cm', 'waist': '78-90 cm', 'length': '52 cm', 'sleeve length': '19 cm', 'armhole': '41 cm'}
+345	8196107469039	ALL SIZE	{'bust': 'up to 115 cm', 'waist': 'up to 115 cm', 'length': '56 cm', 'sleeve length': '54 cm', 'armhole': '44 cm'}
+346	9024432341231	ALL SIZE	{'bust': '78 cm - 90 cm', 'waist': '72 cm - 84 cm', 'length': '54 cm', 'armhole': '46 cm'}
+347	8107687051503	ALL SIZE	{'bust': '92 cm', 'waist': '88 cm', 'length': '66 cm', 'sleeve length': '28 cm', 'armhole': '54 cm'}
+348	8498426675439	1	{'bust': '78 cm - 88 cm', 'waist': '74 cm - 84 cm', 'length': '43 cm', 'armhole': '42 cm', 'sleeve length': '26 cm'}
+349	8498426675439	2	{'bust': '84 cm - 94 cm', 'waist': '84 cm - 94 cm', 'length': '47 cm', 'armhole': '44 cm', 'sleeve length': '29 cm'}
+350	8860273606895	SMALL	{'waist': '66 cm - 86 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '108 cm', 'front/back rise': '30 cm/39 cm'}
+351	8860273606895	MEDIUM	{'waist': '70 cm - 90 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '108 cm', 'front/back rise': '31 cm/40 cm'}
+352	8252003090671	ALL SIZE	{'bust': '94 cm', 'waist': '72 cm', 'length': '84 cm', 'armhole': '54 cm', 'hip': '108 cm'}
+353	7605186199791	ALL SIZE	{'bust': 'Up to 106 cm', 'waist': '105 cm', 'length': '65 cm', 'armhole': '49 cm', 'sleeve length': '57 cm'}
+354	8913521967343	ALL SIZE	{'bust': '94 cm', 'waist': '92 cm', 'armhole': '44 cm', 'sleeve length': '55 cm', 'length': '50 cm'}
+355	7113830465714	ALL SIZE	{'waist': '68 - 100 cm', 'hips': '78 - 96 cm', 'length': '106 cm'}
+356	8913498046703	SMALL	{'bust': '80 cm', 'waist': '74 cm', 'armhole': '45 cm', 'length': '66 cm'}
+357	8913498046703	MEDIUM	{'bust': '84 cm', 'waist': '78 cm', 'armhole': '46 cm', 'length': '67,5 cm'}
+358	8913498046703	LARGE	{'bust': '90 cm', 'waist': '84 cm', 'armhole': '47 cm', 'length': '69 cm'}
+359	8897161363695	1	{'bust': '82 cm', 'waist': '78 cm', 'armhole': '40 cm', 'sleeve length': '28 cm', 'length': '55 cm'}
+360	8897161363695	2	{'bust': '92 cm', 'waist': '88 cm', 'armhole': '46 cm', 'sleeve length': '30 cm', 'length': '60 cm'}
+361	8110077575407	SMALL	{'waist': '66 cm', 'hip': '94 cm', 'length': '47 cm'}
+362	8110077575407	MEDIUM	{'waist': '72 cm', 'hip': '100 cm', 'length': '49 cm'}
+363	8110077575407	LARGE	{'waist': '78 cm', 'hip': '106 cm', 'length': '51 cm'}
+364	7947525685487	ALL SIZE	{'bust': '120 cm', 'waist': '132 cm', 'length': '84 cm', 'armhole': '55 cm', 'sleeve length': '27 cm'}
+365	8145529307375	ALL SIZE	{'bust': '102 cm', 'waist': '102 cm', 'length': '42 cm', 'armhole': '44 cm', 'sleeve length': '56 cm'}
+366	8316165914863	1	{'bust': '96 cm', 'waist': '80 cm', 'length': '54 cm', 'armhole': '40 cm', 'sleeve length': '55 cm'}
+367	8316165914863	2	{'bust': '104 cm', 'waist': '88 cm', 'length': '56 cm', 'armhole': '43 cm', 'sleeve\\xa0length': '56\\xa0cm'}
+368	8198585417967	ALL SIZE	{'bust': '114 cm', 'waist': '114 cm', 'length': '75 cm', 'sleeve length': '60 cm', 'armhole': '56 cm'}
+369	8307538493679	S	{'waist': '66 - 76 cm', 'hip': '88 cm', 'length': '111 cm'}
+370	8307538493679	M	{'waist': '70 - 80 cm', 'hip': '92 cm', 'length': '112 cm'}
+371	8307538493679	L	{'waist': '74 - 84 cm', 'hip': '96 cm', 'length': '113 cm'}
+372	8840005157103	ALL SIZE	{'bust': '96 cm', 'waist': '100 cm', 'length from center front': '145 cm'}
+373	8030790746351	SMALL	{'waist': '64 cm', 'hip': '85 cm', 'length': '104 cm'}
+374	8030790746351	MEDIUM	{'waist': '66 cm', 'hip': '87 cm', 'length': '105 cm'}
+375	8030790746351	LARGE	{'waist': '70 cm', 'hip': '91 cm', 'length': '106 cm'}
+376	8030790746351	EXTRA LARGE	{'waist': '74 cm', 'hip': '95 cm', 'length': '107 cm'}
+377	8842757177583	ALL SIZE	{'bust': '108 cm', 'waist': '106 cm', 'armhole': '48 cm', 'sleeve length': '56 cm', 'length': '60 cm'}
+378	7946305274095	ALL SIZE	{'bust': '74-100 cm', 'waist': '74-95 cm', 'armhole': '50 cm', 'sleeve length': '24 cm', 'length': '125 cm'}
+379	8196252336367	1	{'bust': '85 cm', 'waist': '82 cm', 'length': '45 cm', 'armhole': '48 cm'}
+380	8196252336367	2	{'bust': '95 cm', 'waist': '92 cm', 'length': '50 cm', 'armhole': '52 cm'}
+381	9001313435887	ALL SIZE	{'bust': '116 cm', 'waist': '116 cm', 'armhole': '30 cm - 45 cm (dropped shoulder)', 'sleeve length': '43 cm', 'length': '62 cm'}
+382	8145136746735	1	{'bust': '82 cm', 'waist': '76 cm', 'length': '65 cm', 'armhole': '46 cm'}
+383	8145136746735	2	{'bust': '90 cm', 'waist': '82 cm', 'length': '66 cm', 'armhole': '47 cm'}
+384	8082175787247	1	{'bust': '92 cm', 'waist': '125 cm', 'length': '131 cm', 'armhole': '60 cm'}
+385	8082175787247	2	{'bust': '100 cm', 'waist': '130 cm', 'length': '132 cm', 'armhole': '64 cm'}
+386	8116764836079	ALL SIZE	{'bust': '120 cm', 'waist': '110 cm', 'length': '66 cm'}
+387	8823407837423	ALL SIZE	{'bust': '112 cm', 'waist': '112 cm', 'armhole': '60 cm', 'sleeve length': '57 cm', 'puffer length': '60 cm', 'inner vest length': '63 cm'}
+388	9000450130159	SMALL	{'waist': '68 cm', 'hip': '98 cm', 'thigh': '62 cm', 'length': '100 cm', 'front/back rise': '27 cm/37 cm'}
+389	9000450130159	MEDIUM	{'waist': '72 cm', 'hip': '102 cm', 'thigh': '64 cm', 'length': '101 cm', 'front/back rise': '27,5 cm/37,5 cm'}
+390	9000450130159	LARGE	{'waist': '76 cm', 'hip': '106 cm', 'thigh': '66 cm', 'length': '102 cm', 'front/back rise': '28 cm/38 cm'}
+391	8145540219119	ALL SIZE	{'bust': '90-100 cm', 'waist': '76-90 cm', 'length': '55 cm', 'armhole': '42 cm', 'sleeve length': '64 cm'}
+392	8625230577903	SMALL	{'bust': '86 - 120 cm', 'waist': '80 - 116 cm', 'length': '60 cm', 'sleeve length': '18 cm', 'armhole': '45 cm'}
+393	8625230577903	MEDIUM	{'bust': '90 - 124 cm', 'waist': '84 - 118 cm', 'length': '62 cm', 'sleeve length': '19 cm', 'armhole': '46 cm'}
+394	8196307550447	ALL SIZE	{'bust': '110 cm', 'waist': '104 cm', 'length': '118 cm', 'sleeve length': '52 cm', 'armhole': '48 cm'}
+395	8896426836207	1	{'bust': '84 cm', 'waist': '82 cm (adjustable back belt)', 'armhole': '42 cm', 'length': '61 cm'}
+396	8896426836207	2	{'bust': '92 cm', 'waist': '90 cm (adjustable back belt)', 'armhole': '45 cm', 'length': '63 cm'}
+397	9000453538031	SMALL	{'bust': '92 cm', 'waist': '92 cm', 'length': '55 cm', 'armhole': '46 cm', 'sleeve length': '15 cm'}
+398	9000453538031	MEDIUM	{'bust': '100 cm', 'waist': '100 cm', 'length': '58 cm', 'armhole': '48 cm', 'sleeve length': '16 cm'}
+399	8842758521071	ALL SIZE	{'bust': '108 cm', 'waist': '106 cm', 'armhole': '48 cm', 'sleeve length': '56 cm', 'length': '60 cm'}
+400	8306798756079	1	{'bust': '98 cm', 'waist': '78 cm', 'length': '53 cm', 'armhole': '46 cm', 'sleeve length': '23 cm'}
+401	8306798756079	2	{'bust': '106 cm', 'waist': '84 cm', 'length': '55 cm', 'armhole': '51 cm', 'sleeve length': '24 cm'}
+402	7946299474159	ALL SIZE	{'bust': '92 cm', 'waist': '96 cm', 'length': '88 cm', 'armhole': '54 cm', 'sleeve length': '50 cm'}
+403	8005286330607	ALL SIZE	{'bust': '98 cm', 'waist': '96 cm', 'length': '55 cm', 'armhole': '48 cm', 'sleeve length': '61 cm'}
+404	8102668370159	ALL SIZE	{'bust': '104 cm', 'waist': '104 cm', 'length': '45 cm', 'sleeve length': '17,5 cm', 'armhole': '50 cm'}
+405	7947445764335	ALL SIZE	{'bust': '144 cm', 'waist': '140 cm', 'length': '70 cm', 'sleeve length': '45 cm', 'armhole': '46 cm'}
+406	7790791557359	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '116 cm', 'armhole': '48 cm', 'sleeve length': '57 cm'}
+407	8824632770799	SMALL	{'waist': '68 - 78 cm', 'hip': '86 - 96 cm', 'thigh': '56 - 60 cm', 'front/back rise': '29/39 cm', 'length': '103 cm'}
+408	8824632770799	MEDIUM	{'waist': '72 - 82 cm', 'hip': '90 - 100 cm', 'thigh': '58 - 62 cm', 'front/back rise': '30/40 cm', 'length': '104 cm'}
+409	8824632770799	LARGE	{'waist': '76 - 86 cm', 'hip': '94 - 104 cm', 'thigh': '60-64 cm', 'front/back rise': '31/41 cm', 'length': '105 cm'}
+410	8824629395695	SMALL	{'waist': '66 - 76 cm', 'hip': '82 - 92 cm', 'thigh': '54 - 58 cm', 'front/back rise': '29/39 cm', 'length': '103 cm'}
+411	8824629395695	MEDIUM	{'waist': '70 - 80 cm', 'hip': '86 - 96 cm', 'thigh': '56 - 60 cm', 'front/back rise': '30/40 cm', 'length': '104 cm'}
+412	8824629395695	LARGE	{'waist': '74 - 84 cm', 'hip': '90 - 100 cm', 'thigh': '58 - 62 cm', 'front/back rise': '31/41 cm', 'length': '105 cm'}
+413	8252041363695	1	{'bust': '82-86 cm', 'waist': '70-74 cm', 'length': '57 cm', 'armhole': '46 cm'}
+414	8252041363695	2	{'bust': '88-92 cm', 'waist': '76-80 cm', 'length': '58 cm', 'armhole': '50 cm'}
+415	8824607637743	SMALL	{'waist': '68 cm', 'hip': '96 cm', 'thigh': '70 cm', 'front/back rise': '33/41 cm', 'length': '34 cm'}
+416	8824607637743	MEDIUM	{'waist': '74 cm', 'hip': '102 cm', 'thigh': '72 cm', 'front/back rise': '34/42 cm', 'length': '35 cm'}
+417	8824607637743	LARGE	{'waist': '80 cm', 'hip': '108 cm', 'thigh': '74 cm', 'front/back rise': '35/43 cm', 'length': '36 cm'}
+418	9024434962671	SMALL	{'waist': '68 cm', 'hip': '102 cm', 'length': '81 cm'}
+419	9024434962671	MEDIUM	{'waist': '72 cm', 'hip': '106 cm', 'length': '83 cm'}
+420	9024434962671	LARGE	{'waist': '76 cm', 'hip': '110 cm', 'length': '85 cm'}
+421	8082187976943	1 :	{'waist': '68 cm', 'hip': '92 cm', 'length': '36 cm'}
+422	8082187976943	2 :	{'waist': '74 cm', 'hip': '100 cm', 'length': '37 cm'}
+423	9024414122223	1	{'bust': '94 cm', 'waist': '110 cm', 'length': '61 cm', 'armhole': '54 cm'}
+424	9024414122223	2	{'bust': '100 cm', 'waist': '116 cm', 'length': '63 cm', 'armhole': '56 cm'}
+425	8196244504815	1	{'bust': '85 cm', 'waist': '82 cm', 'length': '45 cm', 'armhole': '48 cm'}
+426	8196244504815	2	{'bust': '95 cm', 'waist': '92 cm', 'length': '50 cm', 'armhole': '52 cm'}
+427	8060725362927	ALL SIZE	{'waist': '68 up to 108 cm', 'hip': '104 to 116 cm', 'length': '102 cm'}
+428	7946308813039	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '62 cm', 'sleeve length': '22 cm', 'armhole': '45 cm'}
+429	8896418152687	SMALL	{'waist': '68 cm', 'hip': '96 cm', 'thigh': '68 cm', 'front/back rise': '31 cm/41 cm', 'length': '104 cm'}
+430	8896418152687	MEDIUM	{'waist': '72 cm', 'hip': '100 cm', 'thigh': '70 cm', 'front/back rise': '32 cm/42 cm', 'length': '105 cm'}
+431	8896418152687	LARGE	{'waist': '76 cm', 'hip': '104 cm', 'thigh': '72 cm', 'front/back rise': '33 cm/43 cm', 'length': '106 cm'}
+432	8896418152687	XL	{'waist': '85 cm', 'hip': '116 cm', 'thigh': '74 cm', 'front/back rise': '33 cm/43 cm', 'length': '106 cm'}
+433	7946279420143	ALL SIZE	{'bust': '106 cm', 'waist': '102 cm', 'length': '70 cm', 'sleeve length': '64 cm', 'armhole': '50 cm'}
+434	7696639983855	ALL SIZE	{'bust': '100 cm', 'waist': '98 cm', 'length': '62 cm', 'armhole': '50 cm'}
+435	7804254978287	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '116 cm', 'armhole': '48 cm', 'sleeve length': '57 cm'}
+436	8082186469615	ALL SIZE	{'bust': '108 cm', 'waist': '112 cm', 'front length': '49 cm', 'back length': '60 cm', 'sleeve length': '58 cm', 'armhole': '48 cm'}
+437	8825020252399	ALL SIZE	{'bust': '102 cm', 'waist': '92 cm', 'armhole': '40 cm', 'sleeve length': '48 cm', 'length': '57 cm', 'scarf width x length': '10 x 185 cm'}
+438	7455634784495	ALL SIZE	{'bust': '112cm', 'waist': '108cm', 'length': '53cm', 'sleeve length': '47cm', 'armhole': '35cm'}
+439	7946306158831	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '50 cm', 'armhole': '44 cm', 'sleeve length': '19\\xa0cm'}
+440	8082171101423	1	{'waist': '64 - 92 cm', 'hip': '92 cm', 'length': '106 cm'}
+441	8082171101423	2	{'waist': '70 - 102 cm', 'hip': '102 cm', 'length': '107 cm'}
+442	8253784785135	SMALL	{'waist': '64 cm', 'hip': '85 cm', 'length': '103 cm'}
+443	8253784785135	MEDIUM	{'waist': '66 cm', 'hip': '87 cm', 'length': '104 cm'}
+444	8253784785135	LARGE	{'waist': '70 cm', 'hip': '91 cm', 'length': '105 cm'}
+445	7696629530863	ALL SIZE	{'bust': '120 cm', 'length': '70 cm', 'armhole': '50 cm'}
+446	8604417097967	ALL SIZE	{'size': '52 cm x 24 cm'}
+447	8498614468847	ALL SIZE	{'bust': '66 cm - 92 cm', 'waist': '60 cm - 86 cm', 'length': '108 cm', 'armhole': '36 cm', 'shoulder circumference': '68 cm - 114 cm'}
+448	8304605561071	ALL SIZE	{'bust': '96 - 112 cm', 'waist': '92 - 108 cm', 'length': '52 cm', 'sleeve length': '22 cm', 'armhole': '44 cm'}
+449	8294600245487	ALL SIZE	{'bust': '82-100 cm', 'waist': '80-98 cm', 'length': '59 cm', 'armhole': '42 cm', 'sleeve length': '59 cm'}
+450	8005217485039	ALL SIZE	{'bust': '88 cm', 'waist': '94 cm', 'length': '80 cm', 'armhole': '50 cm'}
+451	7947445043439	ALL SIZE	{'bust': '144 cm', 'waist': '140 cm', 'length': '70 cm', 'sleeve length': '45 cm', 'armhole': '46 cm'}
+452	8742178029807	1	{'bust': '86 cm', 'waist': '88 cm', 'length from center front': '56,5 cm'}
+453	8742178029807	2	{'bust': '92 cm', 'waist': '94 cm', 'length from center front': '58 cm'}
+454	8860251521263	1	{'bust': '90 cm', 'waist': '78 cm', 'length': '62 cm (from center)', 'armhole': '48 cm', 'sleeve length': '20 cm'}
+455	8860251521263	2	{'bust': '96 cm', 'waist': '84 cm', 'length': '64 cm (from center)', 'armhole': '51 cm', 'sleeve length': '21 cm'}
+456	8329441050863	1	{'bust': '96 cm', 'waist': '66 cm', 'length': '92 cm', 'armhole': '46 cm', 'sleeve length': '60 cm', 'hip': '90 cm'}
+457	8329441050863	2	{'bust': '104 cm', 'waist': '72 cm', 'length': '94 cm', 'armhole': '50 cm', 'sleeve length': '62 cm', 'hip': '96 cm'}
+458	9024394625263	1	{'bust': '102 cm', 'waist': '102 cm', 'length': '65 cm', 'sleeve length': '38 cm', 'armhole': '65 cm'}
+459	9024394625263	2	{'bust': '110 cm', 'waist': '110 cm', 'length': '70 cm', 'sleeve length': '42 cm', 'armhole': '71 cm'}
+460	8211495256303	S	{'waist': '66 cm', 'hip': '98 cm', 'length': '80 cm'}
+461	8211495256303	M	{'waist': '72 cm', 'hip': '104 cm', 'length': '82 cm'}
+462	8211495256303	L	{'waist': '78 cm', 'hip': '110 cm', 'length': '84 cm'}
+463	7571084181743	ALL SIZE	{'waist': '70 cm', 'hip': 'up to 98 cm', 'length': '72.5 cm'}
+464	8792600772847	ALL SIZE	{'bust': '74 cm - 102 cm', 'waist': '70 cm - 98 cm', 'armhole': '40 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+465	8947900711151	1	{'bust': '84 cm', 'waist': '82 cm (adjustable back belt)', 'armhole': '42 cm', 'length': '61 cm'}
+466	8947900711151	2	{'bust': '92 cm', 'waist': '90 cm (adjustable back belt)', 'armhole': '45 cm', 'length': '63 cm'}
+467	8843365155055	1	{'bust': '90 cm', 'waist': '94 cm', 'armhole': '47 cm', 'sleeve length': '21 cm', 'length': '80 cm'}
+468	8843365155055	2	{'bust': '96 cm', 'waist': '100 cm', 'armhole': '49 cm', 'sleeve length': '23 cm', 'length': '82 cm'}
+469	8791861231855	1	{'bust': '96 cm', 'waist': '94 cm', 'armhole': '54 cm', 'sleeve length': '63 cm', 'length': '56 cm'}
+470	8791861231855	2	{'bust': '104 cm', 'waist': '102 cm', 'armhole': '56 cm', 'sleeve length': '65 cm', 'length': '58 cm'}
+471	9000415723759	ALL SIZE	{'bust': '102 cm - 107 cm', 'waist': '76 cm - 81 cm', 'length': '48 cm', 'armhole': '40 cm - 50 cm', 'sleeve length': '59 cm'}
+472	8913631740143	SMALL	{'waist': '62 - 72 cm', 'hip': '94 cm', 'thigh': '62 cm', 'length': '90 cm', 'front/back rise': '33 cm/42 cm'}
+473	8913631740143	MEDIUM	{'waist': '66 cm - 76 cm', 'hip': '98 cm', 'thigh': '64 cm', 'length': '90 cm', 'front/back rise': '33,5 cm/42,5 cm'}
+474	8913631740143	LARGE	{'waist': '70 cm - 80 cm', 'hip': '102 cm', 'thigh': '66 cm', 'length': '91 cm', 'front/back rise': '34 cm/43 cm'}
+475	8145607033071	1	{'waist': '66 cm', 'hip': '98 cm', 'length': '78 cm'}
+476	8145607033071	2	{'waist': '74 cm', 'hip': '110 cm', 'length': '80 cm'}
+477	8860267315439	1	{'bust': '98 cm', 'waist': '78 cm', 'length': '53 cm', 'armhole': '46 cm', 'sleeve length': '23 cm'}
+478	8860267315439	2	{'bust': '106 cm', 'waist': '84 cm', 'length': '55 cm', 'armhole': '51 cm', 'sleeve length': '24 cm'}
+479	8329483780335	ALL SIZE	{'bust': '114 cm', 'waist': '150 cm', 'length': '83 cm', 'armhole': '50 cm', 'sleeve length': '66 cm'}
+480	8211432308975	1	{'bust': '88-96 cm', 'waist': '72-80 cm', 'length': '49 cm', 'armhole': '42 cm', 'sleeve length': '21 cm'}
+481	8211432308975	2	{'bust': '98-106 cm', 'waist': '92-100 cm', 'length': '50 cm', 'armhole': '44 cm', 'sleeve\\xa0length': '21\\xa0cm'}
+482	8986642317551	1	{'bust': '85 cm', 'waist': '85 cm', 'length': '52 cm', 'armhole': '50 cm'}
+483	8986642317551	2	{'bust': '91 cm', 'waist': '91 cm', 'length': '54 cm', 'armhole': '52 cm'}
+484	9000442331375	SMALL	{'waist': '66 cm - 84 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '105 cm', 'front/back rise': '30 cm/39 cm'}
+485	9000442331375	MEDIUM	{'waist': '70 cm - 88 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '105 cm', 'front/back rise': '31 cm/40 cm'}
+486	9000442331375	LARGE	{'waist': '74 cm - 92 cm', 'hip': '104 cm', 'thigh': '68 cm', 'length': '106 cm', 'front/back rise': '31 cm/40 cm'}
+487	8218770833647	1	{'bust': '90 cm', 'waist': '76 cm', 'length': '60 cm', 'armhole': '48 cm', 'sleeve length': '23 cm'}
+488	8218770833647	2	{'bust': '98 cm', 'waist': '84 cm', 'length': '63 cm', 'armhole': '50 cm', 'sleeve length': '23 cm'}
+489	8498646155503	1	{'bust': '98 cm', 'waist': '100 cm', 'length': '67 cm', 'armhole': '54 cm', 'sleeve length': '60 cm'}
+490	8498646155503	2	{'bust': '106 cm', 'waist': '108 cm', 'length': '68 cm', 'armhole': '56 cm', 'sleeve length': '61 cm'}
+491	7740223979759	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '118 cm', 'armhole': '50 cm', 'sleeve length': '58 cm'}
+492	8913121313007	ALL SIZE	{'bust': '90 cm', 'waist': '94 cm', 'armhole': '60 cm', 'sleeve length': '29 cm', 'length': '67 cm'}
+493	8959791005935	SMALL	{'waist': '66 cm - 84 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '107 cm', 'front/back rise': '30 cm/39 cm'}
+494	8959791005935	MEDIUM	{'waist': '70 cm - 88 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+495	8959791005935	LARGE	{'waist': '74 cm - 92 cm', 'hip': '104 cm', 'thigh': '68 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+496	8913633804527	SMALL	{'waist': '62 - 72 cm', 'hip': '94 cm', 'thigh': '62 cm', 'length': '90 cm', 'front/back rise': '33 cm/42 cm'}
+497	8913633804527	MEDIUM	{'waist': '66 cm - 76 cm', 'hip': '98 cm', 'thigh': '64 cm', 'length': '90 cm', 'front/back rise': '33,5 cm/42,5 cm'}
+498	8913633804527	LARGE	{'waist': '70 cm - 80 cm', 'hip': '102 cm', 'thigh': '66 cm', 'length': '91 cm', 'front/back rise': '34 cm/43 cm'}
+499	9024381223151	SMALL	{'bust': '94 cm', 'waist': '94 cm', 'length': '67 cm', 'armhole': '48 cm'}
+500	9024381223151	MEDIUM	{'bust': '98 cm', 'waist': '98 cm', 'length': '68 cm', 'armhole': '50 cm'}
+501	9024381223151	LARGE	{'bust': '102 cm', 'waist': '102 cm', 'length': '69 cm', 'armhole': '52 cm'}
+502	8005190975727	ALL SIZE	{'bust': '120 cm', 'waist': '110 cm', 'length': '66 cm'}
+503	8110093533423	ALL SIZE	{'bust': '90 cm', 'waist': '86 cm', 'length': '48 cm', 'sleeve length': '38 cm', 'armhole': '44\\xa0cm'}
+504	7946298261743	ALL SIZE	{'bust': '120 cm', 'waist': '110 cm', 'length': '66 cm'}
+505	8114155389167	SMALL	{'waist': '66-70 cm', 'hip': '85-93 cm', 'length': '104 cm'}
+506	8114155389167	MEDIUM	{'waist': '68-72 cm', 'hip': '89-97 cm', 'length': '105 cm'}
+507	8114155389167	LARGE	{'waist': '72-76 cm', 'hip': '91-99 cm', 'length': '106 cm'}
+508	8329482731759	1	{'waist': '66 cm', 'hip': '94 cm', 'length': '80 cm'}
+509	8329482731759	2	{'waist': '72 cm', 'hip': '100 cm', 'length': '81 cm'}
+510	8823411376367	ALL SIZE	{'bust': '112 cm', 'waist': '112 cm', 'armhole': '60 cm', 'sleeve length': '57 cm', 'puffer length': '60 cm', 'inner vest length': '63 cm'}
+511	8196275405039	1	{'waist': '70 cm', 'hip': '102 cm', 'thigh circumference': '60 cm', 'length': '104 cm', 'front rise': '30 cm', 'front/back rise': '40 cm'}
+512	8196275405039	2	{'waist': '80 cm', 'hip': '110 cm', 'thigh circumference': '62 cm', 'length': '104 cm', 'front rise': '30 cm', 'front/back rise': '40 cm'}
+513	7455663685871	ALL SIZE	{'waist': '64-100 cm', 'hip': '78-96 cm', 'length': '88 cm'}
+514	8604127068399	1 (1 - 2 YEAR OLD)	{'bust': '62 cm', 'length': '45 cm', 'armhole': '28 cm', 'sleeve length': '29 cm', 'waist': '36 - 56 cm', 'hip': '66 cm'}
+515	8604127068399	2 (2 - 3 YEAR OLD)	{'bust': '66 cm', 'length': '48 cm', 'armhole': '29 cm', 'sleeve length': '30 cm', 'waist': '40 - 60 cm', 'hip': '70 cm'}
+516	8604127068399	3 (3-4 YEAR OLD)	{'bust': '70 cm', 'length': '51 cm', 'armhole': '30 cm', 'sleeve length': '32 cm', 'waist': '44 - 64 cm', 'hip': '74 cm'}
+517	8604127068399	4 (4 - 5 YEAR OLD)	{'bust': '74 cm', 'length': '54 cm', 'armhole': '32 cm', 'sleeve length': '34 cm', 'waist': '48 - 68 cm', 'hip': '78 cm'}
+518	7975351189743	ALL SIZE	{'bust': '116 cm', 'waist': '110 cm', 'front length': '69 cm', 'center back length': '83,5 cm', 'sleeve length': '58 cm', 'armhole': '58 cm'}
+519	8842759536879	ALL SIZE	{'bust': '112 cm', 'waist': '116 cm', 'armhole': '52 cm', 'sleeve length': '50 cm', 'length': '65 cm'}
+520	7719007650031	ALL SIZE	{'waist': '66-100 cm', 'hip': '92 cm', 'length': '82 cm'}
+521	8329446097135	1	{'bust': '82 cm', 'waist': '70 cm', 'length': '61 cm', 'armhole': '45 cm'}
+522	8329446097135	2	{'bust': '90 cm', 'waist': '78 cm', 'length': '63 cm', 'armhole': '50 cm'}
+523	8329436856559	ALL SIZE	{'bust': '100 cm', 'waist': '104 cm', 'length': '72 cm', 'armhole': '46 cm', 'sleeve length': '68 cm'}
+524	8005183471855	ALL SIZE	{'bust': '110 cm', 'waist': '110 cm', 'length': '82 cm', 'armhole': '53 cm', 'sleeve length': '59 cm'}
+525	9001307111663	ALL SIZE	{'bust': '112 cm', 'waist': '116 cm', 'armhole': '52 cm', 'sleeve length': '50 cm', 'length': '65 cm'}
+526	8269648298223	ALL SIZE	{'bust': '106 cm', 'waist': '104 cm', 'length': '54 cm', 'armhole': '48 cm', 'sleeve length': '58 cm'}
+527	7471319777519	ALL SIZE	{'waist': '66-90 cm', 'hip': 'up to 98 cm', 'length': '96 cm'}
+528	7894083371247	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '62 cm', 'sleeve length': '22 cm', 'armhole': '45 cm'}
+529	9024401899759	SMALL	{'bust': '96 cm', 'waist': '68 cm', 'length': '59 cm', 'sleeve length': '19 cm', 'armhole': '54 cm'}
+530	9024401899759	MEDIUM	{'bust': '100 cm', 'waist': '72 cm', 'length': '60 cm', 'sleeve length': '20 cm', 'armhole': '56 cm'}
+531	9024401899759	LARGE	{'bust': '104 cm', 'waist': '76 cm', 'length': '61 cm', 'sleeve length': '21 cm', 'armhole': '58 cm'}
+532	8145477468399	1	{'bust': '90 cm', 'waist': '82 cm', 'length': '66 cm', 'armhole': '43 cm', 'sleeve length': '52 cm'}
+533	8145477468399	2	{'bust': '102 cm', 'waist': '94 cm', 'length': '71 cm', 'armhole': '48 cm', 'sleeve length': '53 cm'}
+534	8060711141615	1	{'bust': '92 cm', 'waist': '88 cm', 'length': '40 cm', 'sleeve length': '16 cm', 'armhole': '43 cm'}
+535	8060711141615	2	{'bust': '100 cm', 'waist': '96 cm', 'length': '44 cm', 'sleevength': '18 cm', 'armhole': '47 cm'}
+536	8498246156527	SMALL	{'bust': '86 cm', 'waist': '78 cm', 'length': '69 cm', 'armhole': '44 cm'}
+537	8498246156527	MEDIUM	{'bust': '92 cm', 'waist': '84 cm', 'length': '70 cm', 'armhole': '46 cm'}
+538	8498246156527	LARGE	{'bust': '98 cm', 'waist': '90 cm', 'length': '71 cm', 'armhole': '48 cm'}
+539	8498633998575	SMALL	{'bust': '80 cm - 100 cm', 'waist': '72 cm - 92 cm', 'length': '62 cm', 'armhole': '40 cm', 'sleeve length': '61 cm'}
+540	8498633998575	MEDIUM	{'bust': '84 cm - 104 cm', 'waist': '76 cm - 96 cm', 'length': '64 cm', 'armhole': '44 cm', 'sleeve length': '62 cm'}
+541	8498633998575	LARGE	{'bust': '88 cm - 108 cm', 'waist': '82 cm - 102 cm', 'length': '66 cm', 'armhole': '46 cm', 'sleeve length': '63 cm'}
+542	8913091494127	1	{'waist': '76 cm', 'hip': '107 cm', 'thigh': '68 cm', 'length': '31 cm', 'front/back rise': '25 cm/36 cm'}
+543	8913091494127	2	{'waist': '82 cm', 'hip': '113 cm', 'thigh': '71 cm', 'length': '32 cm', 'front/back rise': '27 cm/38 cm'}
+544	8897112965359	SMALL	{'bust': '86 cm', 'waist': '76 cm', 'armhole': '48 cm', 'length': '68 cm'}
+545	8897112965359	MEDIUM	{'bust': '90 cm', 'waist': '80 cm', 'armhole': '50 cm', 'length': '69 cm'}
+546	8897112965359	LARGE	{'bust': '94 cm', 'waist': '84 cm', 'armhole': '52 cm', 'length': '70 cm'}
+547	7946306486511	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '50 cm', 'armhole': '44 cm', 'sleeve length': '19\\xa0cm'}
+548	8773299405039	ALL SIZE	{'bust': '108 cm', 'waist': '104 cm', 'length': '74 cm', 'armhole': '52 cm', 'sleeve length': '60 cm'}
+549	7946298622191	ALL SIZE	{'waist': '68-110 cm', 'hip': 'up to 120 cm', 'length': '100 cm'}
+550	8984622891247	ALL SIZE	{'bust': '90 cm', 'waist': '100 cm', 'armhole': '50 cm', 'length': '68 cm'}
+551	8196122083567	ALL SIZE	{'bust': '120 cm', 'waist': '116 cm', 'length': '60 cm', 'sleeve length': '53 cm', 'armhole': '44 cm (drop shoulder)'}
+552	8986641989871	1	{'bust': '85 cm', 'waist': '85 cm', 'length': '52 cm', 'armhole': '50 cm'}
+553	8986641989871	2	{'bust': '91 cm', 'waist': '91 cm', 'length': '54 cm', 'armhole': '52 cm'}
+554	8218752418031	ALL SIZE	{'bust': '100 cm', 'waist': '92 cm', 'length': '50 cm', 'armhole': '45 cm', 'sleeve length': '52 cm'}
+555	7471329968367	ALL SIZE	{'bust': 'up to 110 cm', 'waist': 'up to 110 cm', 'length': '70 cm', 'sleeve length': '51 cm', 'armhole': '43 cm'}
+556	8114155880687	ALL SIZE	{'bust': '90 cm', 'waist': '86 cm', 'length': '48 cm', 'sleeve length': '38 cm', 'armhole': '44 cm'}
+557	7894084976879	ALL SIZE	{'bust': '115 cm', 'waist': '115 cm', 'length': '62 cm', 'sleeve length': '27 cm', 'armhole': '61 cm'}
+558	7946305732847	ALL SIZE	{'bust': '74-100 cm', 'waist': '74-95 cm', 'armhole': '50 cm', 'sleeve length': '24 cm', 'length': '125 cm'}
+559	8773366907119	ALL SIZE	{'bust': '92 cm', 'waist': '106 cm', 'length': '130 cm', 'armhole': '54 cm'}
+560	7954349326575	ALL SIZE	{'bust': '110 cm', 'waist': '110 cm', 'length': '64 cm', 'armhole': '50 cm', 'sleeve length': '57 cm'}
+561	8818183930095	ALL SIZE	{'bust': '72 cm - 100 cm', 'waist': '64 cm - 92 cm', 'armhole': '45 cm', 'length': '57 cm'}
+562	8823413145839	ALL SIZE	{'bust': '112 cm', 'waist': '112 cm', 'armhole': '60 cm', 'sleeve length': '57 cm', 'puffer length': '60 cm', 'inner vest length': '63 cm'}
+563	8220534472943	ALL SIZE	{'waist': '70 cm', 'hip': '100 cm', 'length': '37 cm', 'front/back rise': '34/44 cm', 'thigh circumference': '70 cm'}
+564	7946301767919	1	{'bust': '92 cm', 'waist': '80 cm', 'length': '88 cm', 'armhole': '50 cm', 'sleeve length': '24 cm'}
+565	7946301767919	2	{'bust': '100 cm', 'waist': '88 cm', 'length': '90 cm', 'armhole': '50 cm', 'sleeve length': '24 cm'}
+566	8030789697775	S	{'bust': '96 cm', 'waist': '88 cm', 'length': '72 cm', 'sleeve length': '59 cm', 'armhole': '46 cm'}
+567	8030789697775	M	{'bust': '100 cm', 'waist': '92 cm', 'length': '73 cm', 'sleeve length': '59 cm', 'armhole': '47 cm'}
+568	8030789697775	L	{'bust': '104 cm', 'waist': '96 cm', 'length': '74 cm', 'sleeve length': '5 9cm', 'armhole': '48 cm'}
+569	8959305777391	ALL SIZE	{'bust': '94 cm - 112 cm', 'waist': '74 cm - 92 cm', 'length': '64 cm', 'armhole': '40 cm', 'sleeve length': '59 cm'}
+570	8843352703215	ALL SIZE	{'bust': '92 cm', 'waist': '86 cm', 'armhole': '54 cm', 'sleeve length': '62 cm', 'length': '58 cm'}
+571	8253781967087	SMALL	{'waist': '64 cm', 'hip': '85 cm', 'length': '104 cm'}
+572	8253781967087	MEDIUM	{'waist': '66 cm', 'hip': '87 cm', 'length': '105 cm'}
+573	8253781967087	LARGE	{'waist': '70 cm', 'hip': '91 cm', 'length': '106 cm'}
+574	9000451834095	SMALL	{'bust': '92 cm', 'waist': '92 cm', 'length': '55 cm', 'armhole': '46 cm', 'sleeve length': '15 cm'}
+575	9000451834095	MEDIUM	{'bust': '100 cm', 'waist': '100 cm', 'length': '58 cm', 'armhole': '48 cm', 'sleeve length': '16 cm'}
+576	8818180096239	ALL SIZE	{'bust': '74 cm - 102 cm', 'waist': '70 cm - 98 cm', 'armhole': '40 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+577	8005163450607	SMALL	{'waist': '65 cm', 'hip': '88 cm', 'thigh': '52 cm', 'front/back rise': '30 cm/37 cm', 'length': '105 cm'}
+578	8005163450607	MEDIUM	{'waist': '70 cm', 'hip': '94 cm', 'thigh': '56 cm', 'front/back rise': '30 cm/38 cm', 'length': '105 cm'}
+579	8005163450607	LARGE	{'waist': '74 cm', 'hip': '98 cm', 'thigh': '58 cm', 'front/back rise': '30 cm/38 cm', 'length': '105 cm'}
+580	8252031893743	1	{'bust': '82-86 cm', 'waist': '70-74 cm', 'length': '57 cm', 'armhole': '46 cm'}
+581	8252031893743	2	{'bust': '88-92 cm', 'waist': '76-80 cm', 'length': '58 cm', 'armhole': '50 cm'}
+582	7605188755695	ALL SIZE	{'bust': 'Up to 120 cm', 'waist': '120 cm', 'length': '68.5 cm', 'armhole': '77 cm', 'sleeve length': '25 cm'}
+583	8742172721391	1	{'bust': '86 cm', 'waist': '88 cm', 'length from center front': '56,5 cm'}
+584	8742172721391	2	{'bust': '92 cm', 'waist': '94 cm', 'length from center front': '58 cm'}
+585	8792577900783	SMALL	{'waist': '68 - 76 cm', 'hip': '86 - 94 cm', 'length': '94 cm', 'front/back rise': '30/38 cm', 'thigh': '54 cm'}
+586	8792577900783	MEDIUM	{'waist': '72 - 80 cm', 'hip': '90 - 98 cm', 'length': '95 cm', 'front/back rise': '31/39 cm', 'thigh': '56 cm'}
+587	8792577900783	LARGE	{'waist': '76 - 84 cm', 'hip': '94 - 102 cm', 'length': '96 cm', 'front/back rise': '32/40 cm', 'thigh': '58cm'}
+588	8307532562671	1	{'bust': '96 cm', 'waist': '66 cm', 'length': '92 cm', 'armhole': '46 cm', 'sleeve length': '60 cm', 'hip': '90 cm'}
+589	8307532562671	2	{'bust': '104 cm', 'waist': '72 cm', 'length': '94 cm', 'armhole': '50 cm', 'sleeve length': '62 cm', 'hip': '96 cm'}
+590	8060442575087	1 (XS-S)	{'waist': '66cm up to 71cm', 'hip': '88cm up to 93cm', 'length': '99cm'}
+591	8060442575087	2 (M-L)	{'waist': '72cm up to 78cm', 'hip': '94cm up to 100cm', 'length': '100cm'}
+592	7471348252911	ALL SIZE	{'bust': 'up to 130 cm (adjustable)', 'length': '80 cm', 'waist': 'up to 90 cm ( with belt )'}
+593	8843368071407	1	{'bust': '90 cm', 'waist': '94 cm', 'armhole': '47 cm', 'sleeve length': '21 cm', 'length': '80 cm'}
+594	8843368071407	2	{'bust': '96 cm', 'waist': '100 cm', 'armhole': '49 cm', 'sleeve length': '23 cm', 'length': '82 cm'}
+595	8751920742639	1	{'bust': '94 cm', 'waist': '100 cm', 'length': '51 cm', 'armhole': '48 cm'}
+596	8751920742639	2	{'bust': '100 cm', 'waist': '106 cm', 'length': '53 cm', 'armhole': '51 cm'}
+599	8843364073711	SMALL	{'waist': '62 - 72 cm', 'hip': '94 cm', 'thigh': '62 cm', 'length': '90 cm', 'front/back rise': '33 cm/42 cm'}
+600	8843364073711	MEDIUM	{'waist': '66 cm - 76 cm', 'hip': '98 cm', 'thigh': '64 cm', 'length': '90 cm', 'front/back rise': '33,5 cm/42,5 cm'}
+601	8843364073711	LARGE	{'waist': '70 cm - 80 cm', 'hip': '102 cm', 'thigh': '66 cm', 'length': '91 cm', 'front/back rise': '34 cm/43 cm'}
+602	8106582376687	ALL SIZE	{'bust': '114cm', 'waist': '112cm', 'length': '68cm', 'sleeve length': '59cm', 'armhole': '47cm'}
+603	8196225892591	ALL SIZE	{'bust': '112 cm', 'waist': '110 cm', 'length': '50 cm', 'sleeve length': '62 cm', 'armhole': '52 cm'}
+604	8773349146863	1	{'bust': '86 cm', 'waist': '84 cm', 'armhole': '52 cm', 'length': '48 cm'}
+605	8773349146863	2	{'bust': '94 cm', 'waist': '92 cm', 'armhole': '55 cm', 'length': '50 cm'}
+606	8218797605103	S	{'waist': '68 cm', 'hip': '94 cm', 'length': '98 cm'}
+607	8218797605103	M	{'waist': '72 cm', 'hip': '100 cm', 'length': '98 cm'}
+608	8218797605103	L	{'waist': '76 cm', 'hip': '104 cm', 'length': '98 cm'}
+609	8196115693807	ALL SIZE	{'bust': '120 cm', 'waist': '116 cm', 'length': '60 cm', 'sleeve length': '53 cm', 'armhole': '44 cm (drop shoulder)'}
+610	7455718047983	ALL SIZE	{'bust': '120 cm', 'waist': '120 cm', 'length': '76 cm', 'armhole': '50 cm'}
+611	7740496183535	ALL SIZE	{'bust': '120 cm', 'length': '70 cm', 'armhole': '50 cm'}
+612	8791875551471	1	{'waist': '76 cm', 'hip': '98 cm', 'thigh': '68 cm', 'front/back rise': '24,5 cm/34,5 cm', 'length': '27 cm'}
+613	8791875551471	2	{'waist': '82 cm', 'hip': '104 cm', 'thigh': '71 cm', 'front/back rise': '25,5 cm/35,5 cm', 'length': '28 cm'}
+614	8913120493807	SMALL	{'waist': '64 cm - 68 cm', 'hip': '82 cm - 86 cm (15 cm from waistline)', 'length': '95 cm'}
+615	8913120493807	MEDIUM	{'waist': '68 cm - 72 cm', 'hip': '86 cm - 90 cm (15 cm from waistline)', 'length': '95 cm'}
+616	8913120493807	LARGE	{'waist': '72 cm - 76 cm', 'hip': '90 cm - 94 cm (15 cm from waistline)', 'length': '95 cm'}
+617	7696637067503	ALL SIZE	{'bust': '120 cm', 'waist': '140 cm', 'length': '93 cm', 'armhole': '47 cm', 'sleeve length': '48 cm'}
+618	8036455907567	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '62 cm', 'sleeve length': '22 cm', 'armhole': '45 cm'}
+619	8211487719663	1	{'bust': '98 cm', 'waist': '88 cm', 'length': '66 cm', 'armhole': '48 cm', 'sleeve length': '21 cm'}
+620	8211487719663	2	{'bust': '106 cm', 'waist': '94 cm', 'length': '69 cm', 'armhole': '49 cm', 'sleeve length': '23 cm'}
+621	8307519521007	ALL SIZE	{'bust': '70 - 100 cm', 'waist': '74 - 110 cm', 'length': '56 cm', 'armhole': '42 cm'}
+622	8005163122927	SMALL	{'waist': '65 cm', 'hip': '88 cm', 'thigh': '52 cm', 'front/back rise': '30 cm/37 cm', 'length': '105 cm'}
+623	8005163122927	MEDIUM	{'waist': '70 cm', 'hip': '94 cm', 'thigh': '56 cm', 'front/back rise': '30 cm/38 cm', 'length': '105 cm'}
+624	8005163122927	LARGE	{'waist': '74 cm', 'hip': '98 cm', 'thigh': '58 cm', 'front/back rise': '30 cm/38 cm', 'length': '105 cm'}
+625	7471335211247	ALL SIZE	{'waist': '62 - 90 cm', 'hip': '130 cm', 'length': '67 cm'}
+626	8005161746671	1	{'waist': '66 cm', 'hip': '88 cm', 'length': '102 cm'}
+627	8005161746671	2	{'waist': '72 cm', 'hip': '94 cm', 'length': '103 cm'}
+628	8211516424431	ALL SIZE	{'bust': '80-90 cm', 'waist': '74-84 cm', 'length': '62 cm', 'armhole': '42 cm', 'sleeve length': '55 cm'}
+629	7455675351279	ALL SIZE	{'waist': '60 - 100 cm', 'hip': 'up to 100 cm', 'length': '81 cm'}
+630	7605183250671	ALL SIZE	{'bust': '160 cm', 'length': '61 cm', 'armhole': '32 cm'}
+631	8218759266543	1	{'bust': '84 cm', 'waist': '80 cm', 'length': '50 cm', 'armhole': '48 cm'}
+632	8218759266543	2	{'bust': '96 cm', 'waist': '92 cm', 'length': '55 cm', 'armhole': '52 cm'}
+633	8005292622063	1	{'bust': '88 cm', 'waist': '94 cm', 'length': '84 cm', 'armhole': '45 cm', 'sleeve length': '20 cm'}
+634	8005292622063	2	{'bust': '94 cm', 'waist': '100 cm', 'length': '85 cm', 'armhole': '48 cm'}
+635	8304600350959	ALL SIZE	{'bust': '100 cm', 'waist': '92 cm', 'length': '60 cm', 'armhole': '49 cm', 'sleeve length': '52 cm'}
+636	8947908444399	ALL SIZE	{'bust': '100 cm', 'waist': '104 cm', 'armhole': '54 cm', 'sleeve length': '16 cm', 'length': '63 cm'}
+637	7823880028399	ALL SIZE	{'bust': '112 cm', 'waist': '112 cm', 'length': '70 cm', 'sleeve length': '58 cm', 'armhole': '56 cm'}
+638	8030804115695	ALL SIZE	{'bust': '84 cm', 'waist': '84 cm', 'length': '56 cm', 'sleeve length': '33 cm', 'armhole': '46 cm'}
+639	8005185241327	ALL SIZE	{'bust': '120 cm', 'waist': '110 cm', 'length': '66 cm'}
+640	8604421816559	ALL SIZE	{'size': '120 cm x 120 cm'}
+641	9024414941423	SMALL	{'waist': '66 cm - 84 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '107 cm', 'front/back rise': '30 cm/39 cm'}
+642	9024414941423	MEDIUM	{'waist': '70 cm - 88 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+643	9024414941423	LARGE	{'waist': '74 cm - 92 cm', 'hip': '104 cm', 'thigh': '68 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+644	7696638836975	ALL SIZE	{'waist': '70-94cm', 'hip': '96cm', 'length': '100cm'}
+645	9024410321135	1	{'bust': '94 cm', 'waist': '110 cm', 'length': '61 cm', 'armhole': '54 cm'}
+646	9024410321135	2	{'bust': '100 cm', 'waist': '116 cm', 'length': '63 cm', 'armhole': '56 cm'}
+647	8082175328495	1	{'bust': '92 cm', 'waist': '125 cm', 'length': '131 cm', 'armhole': '60 cm'}
+648	8082175328495	2	{'bust': '100 cm', 'waist': '130 cm', 'length': '132 cm', 'armhole': '64 cm'}
+649	7571094995183	ALL SIZE	{'waist': '65-86 cm', 'hip': 'up to 100 cm', 'thigh': '58 cm', 'length': '98 cm'}
+650	8897119682799	1	{'bust': '82 - 90 cm', 'waist': '82 cm - 90 cm', 'length': '65 cm', 'armhole': '52 cm'}
+651	8897119682799	2	{'bust': '90 - 98 cm', 'waist': '90 cm - 98 cm', 'length': '65 cm', 'armhole': '56 cm'}
+652	8860261515503	ALL SIZE	{'bust': '90 cm', 'waist': '78 cm', 'length': '62 cm', 'armhole': '58 cm', 'sleeve length': '62 cm'}
+653	8329474244847	1	{'bust': '86 cm', 'waist': '94 cm', 'front length/back length': '62 cm/68 cm', 'armhole': '50 cm'}
+654	8329474244847	2	{'bust': '92 cm', 'waist': '100 cm', 'front length/back length': '63 cm/69 cm', 'armhole': '53 cm'}
+655	9000438857967	1	{'bust': '88 cm', 'waist': '84 cm', 'length': '123 cm', 'armhole': '64 cm'}
+656	9000438857967	2	{'bust': '94 cm', 'waist': '90 cm', 'length': '125 cm', 'armhole': '66 cm'}
+657	8211420152047	1	{'bust': '98 cm', 'waist': '96 cm', 'length': '60 cm', 'armhole': '42 cm', 'sleeve length': '50 cm'}
+658	8211420152047	2	{'bust': '110 cm', 'waist': '108 cm', 'length': '60 cm', 'armhole': '46 cm', 'sleeve length': '50 cm'}
+659	8005164826863	1	{'bust': '82 cm', 'waist': '86 cm', 'length': '118 cm', 'armhole': '44 cm'}
+660	8005164826863	2	{'bust': '90 cm', 'waist': '96 cm', 'length': '119 cm', 'armhole': '52 cm'}
+661	7946285646063	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '67 cm', 'sleeve length': '22 cm', 'armhole': '48 cm'}
+662	8295198327023	SMALL	{'bust': '84 - 118 cm', 'waist': '80 - 116 cm', 'length': '58 cm', 'sleeve length': '58 cm', 'armhole': '40 cm'}
+663	8295198327023	MEDIUM	{'bust': '88 - 122 cm', 'waist': '84 - 118 cm', 'length': '60 cm', 'sleeve length': '59 cm', 'armhole': '42 cm'}
+664	8843349459183	ALL SIZE	{'bust': '112 cm', 'waist': '116 cm', 'armhole': '52 cm', 'sleeve length': '50 cm', 'length': '65 cm'}
+665	8791912448239	1	{'bust': '96 cm', 'waist': '94 cm', 'armhole': '54 cm', 'sleeve length': '63 cm', 'length': '56 cm'}
+666	8791912448239	2	{'bust': '104 cm', 'waist': '102 cm', 'armhole': '56 cm', 'sleeve length': '65 cm', 'length': '58 cm'}
+667	9024416547055	1	{'bust': '94 cm', 'waist': '94 cm', 'length': '46,5 cm', 'armhole': '48 cm', 'sleeve length': '17 cm'}
+668	9024416547055	2	{'bust': '100 cm', 'waist': '100 cm', 'length': '48,5 cm', 'armhole': '50 cm', 'sleeve length': '18 cm'}
+669	8218785054959	S	{'waist': '70 cm', 'hip': '92 cm', 'length': '38 cm'}
+670	8218785054959	M	{'waist': '76 cm', 'hip': '98 cm', 'length': '40 cm'}
+671	8840020263151	ALL SIZE	{'bust': '98 cm', 'waist': '144 cm', 'armhole': '48 cm', 'length': '81 cm'}
+672	7471316467951	ALL SIZE	{'waist': '66-90 cm', 'hip': 'up to 98 cm', 'length': '96 cm'}
+673	8110085439727	SMALL	{'waist': '64 cm', 'hip': '85 cm', 'length': '104 cm'}
+674	8110085439727	MEDIUM	{'waist': '66 cm', 'hip': '87 cm', 'length': '105 cm'}
+675	8110085439727	LARGE	{'waist': '70 cm', 'hip': '91 cm', 'length': '106 cm'}
+676	8304619421935	ALL SIZE	{'bust': '78 - 96 cm', 'waist': '74 - 92 cm', 'length': '117 cm', 'armhole': '42 cm'}
+677	8959296176367	1	{'bust': '84 cm', 'waist': '84 cm', 'length': '53 cm', 'armhole': '44 cm'}
+678	8959296176367	2	{'bust': '88 cm', 'waist': '88 cm', 'length': '53 cm', 'armhole': '45 cm'}
+679	9000412872943	ALL SIZE	{'bust': '87 cm', 'waist': '90 cm', 'length': '58 cm', 'armhole': '50 cm', 'sleeve length': '66 cm'}
+680	7739069858031	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '74 cm', 'armhole': '51 cm', 'sleeve length': '60 cm'}
+681	8604404187375	1 (1 - 2 YEAR OLD)	{'bust': '62 cm', 'length': '45 cm', 'armhole': '28 cm', 'sleeve length': '29 cm', 'waist': '36 - 56 cm', 'hip': '66 cm'}
+682	8604404187375	2 (2 - 3 YEAR OLD)	{'bust': '66 cm', 'length': '48 cm', 'armhole': '29 cm', 'sleeve length': '30 cm', 'waist': '40 - 60 cm', 'hip': '70 cm'}
+683	8604404187375	3 (3-4 YEAR OLD)	{'bust': '70 cm', 'length': '51 cm', 'armhole': '30 cm', 'sleeve length': '32 cm', 'waist': '44 - 64 cm', 'hip': '74 cm'}
+684	8604404187375	4 (4 - 5 YEAR OLD)	{'bust': '74 cm', 'length': '54 cm', 'armhole': '32 cm', 'sleeve length': '34 cm', 'waist': '48 - 68 cm', 'hip': '78 cm'}
+685	8060729688303	ALL SIZE	{'bust': 'up to 115 cm', 'waist': 'up to 115 cm', 'length': '73 cm', 'sleeve length': '60 cm', 'armhole': '60 cm'}
+686	8860253061359	1	{'bust': '96 cm', 'waist': '112 cm', 'armhole': '46 cm', 'length': '59 cm'}
+687	8860253061359	2	{'bust': '102 cm', 'waist': '118 cm', 'armhole': '49 cm', 'length': '61 cm'}
+688	9000439218415	1	{'waist': '66 cm - 76 cm', 'hip': '85 cm - 95 cm', 'length': '90 cm'}
+689	9000439218415	2	{'waist': '72 cm - 82 cm', 'hip': '91 cm - 101 cm', 'length': '91 cm'}
+690	8947915292911	ALL SIZE	{'bust': '94 cm - 112 cm', 'waist': '74 cm - 92 cm', 'length': '64 cm', 'armhole': '40 cm', 'sleeve length': '59 cm'}
+691	7975350730991	ALL SIZE	{'bust': '88 cm', 'waist': '94 cm', 'length': '80 cm', 'armhole': '50 cm'}
+692	8295196754159	SMALL	{'bust': '84 - 118 cm', 'waist': '80 - 116 cm', 'length': '58 cm', 'sleeve length': '58 cm', 'armhole': '40 cm'}
+693	8295196754159	MEDIUM	{'bust': '88 - 122 cm', 'waist': '84 - 118 cm', 'length': '60 cm', 'sleeve length': '59 cm', 'armhole': '42 cm'}
+694	8269638762735	1	{'bust': '90 cm', 'waist': '100 cm', 'length': '82 cm', 'armhole': '54 cm'}
+695	8269638762735	2	{'bust': '100 cm', 'waist': '110 cm', 'length': '84 cm', 'armhole': '58 cm'}
+696	8860227698927	1	{'bust': '84 cm', 'waist': '88 cm', 'length': '70 cm', 'armhole': '52 cm'}
+697	8860227698927	2	{'bust': '92 cm', 'waist': '96 cm', 'length': '71 cm', 'armhole': '54 cm'}
+698	8218791477487	S	{'waist': '70 cm', 'hip': '92 cm', 'length': '38 cm'}
+699	8218791477487	M	{'waist': '76 cm', 'hip': '98 cm', 'length': '40 cm'}
+700	8982852108527	ALL SIZE	{'bust': '104 cm', 'waist': '96 cm', 'length': '56 cm', 'armhole': '50 cm', 'sleeve length': '52 cm'}
+701	8752246128879	SMALL	{'bust': '86 cm', 'waist': '86 cm', 'armhole': '46 cm', 'length': '55 cm'}
+702	8752246128879	MEDIUM	{'bust': '90 cm', 'waist': '90 cm', 'armhole': '48 cm', 'length': '57 cm'}
+703	8752246128879	LARGE	{'bust': '96 cm', 'waist': '96 cm', 'armhole': '50 cm', 'length': '59 cm'}
+704	8211261653231	ALL SIZE	{'bust': '98 cm', 'waist': '92 cm', 'length': '62 cm', 'armhole': '54 cm', 'sleeve length': '65 cm'}
+705	8986676429039	ALL SIZE	{'bust': '90 cm', 'waist': '76 cm', 'length': '60 cm', 'armhole': '58 cm', 'sleeve length': '62 cm'}
+706	8110097236207	ALL SIZE	{'bust': '88 cm', 'waist': '88 cm', 'length': '45 cm', 'sleeve length': '22 cm', 'armhole': '48 cm'}
+707	8198584860911	ALL SIZE	{'bust': '114 cm', 'waist': '114 cm', 'length': '75 cm', 'sleeve length': '60 cm', 'armhole': '56 cm'}
+708	8211461472495	ALL SIZE	{'bust': '80-92 cm', 'waist': '66-80 cm', 'length': '60 cm', 'armhole': '44 cm', 'sleeve length': '61 cm'}
+709	8752245506287	1	{'bust': '92 cm', 'waist': '92 cm', 'length': '54 cm', 'armhole': '44 cm', 'sleeve length': '16 cm'}
+710	8752245506287	2	{'bust': '98 cm', 'waist': '98 cm', 'length': '56 cm', 'armhole': '46 cm', 'sleeve length': '17 cm'}
+711	8897272807663	ALL SIZE	{'bust': '76 cm - 100 cm', 'waist': '62 cm - 86 cm', 'length': '68 cm', 'armhole': '40 cm', 'sleeve length': '62 cm'}
+712	7455591432431	ALL SIZE	{'bust': '112cm', 'waist': '108cm', 'length': '53cm', 'sleeve length': '47cm', 'armhole': '35cm'}
+713	8897159463151	1	{'bust': '82 cm', 'waist': '78 cm', 'armhole': '40 cm', 'sleeve length': '28 cm', 'length': '55 cm'}
+714	8897159463151	2	{'bust': '92 cm', 'waist': '88 cm', 'armhole': '46 cm', 'sleeve length': '30 cm', 'length': '60 cm'}
+715	8498260541679	SMALL	{'waist': '66 cm / 72 cm (with adjustable button)', 'hip': '108 cm', 'length': '106 cm', 'front rise': '32,5 cm', 'front/back rise': '42,5 cm'}
+716	8498260541679	MEDIUM	{'waist': '70 cm / 76 cm (with adjustable button)', 'hip': '112 cm', 'length': '107,5 cm', 'front rise': '33 cm', 'front/back rise': '43 cm'}
+717	8498260541679	LARGE	{'waist': '74 cm / 80 cm (with adjustable button)', 'hip': '116 cm', 'length': '108,5 cm', 'front rise': '33,5 cm', 'front/back rise': '43,5 cm'}
+718	8196111565039	ALL SIZE	{'waist': '66 cm up to 96 cm', 'hip': '104 cm', 'length': '91 cm'}
+719	8252026028271	1	{'bust': '96 cm', 'waist': '76 cm', 'hip': '98 cm', 'length': '81 cm', 'armhole': '48 cm', 'sleeve length': '21 cm'}
+720	8252026028271	2	{'bust': '104 cm', 'waist': '84 cm', 'hip': '106 cm', 'length': '83 cm', 'armhole': '50 cm', 'sleeve length': '22 cm'}
+721	8145133732079	ALL SIZE	{'bust': '90 cm', 'waist': '90 cm', 'length': '43 cm', 'armhole': '44 cm', 'sleeve length': '65 cm'}
+722	8060379463919	1	{'bust': '88 cm', 'waist': '94 cm', 'length': '84 cm', 'armhole': '45 cm', 'sleeve length': '20 cm'}
+723	8060379463919	2	{'': 'cm', 'waist': '100 cm', 'length': '85 cm', 'armhole': '48 cm', 'sleeve length': '20 cm'}
+724	8211438960879	ALL SIZE	{'bust': '100 cm', 'waist': '84 cm', 'length': '58 cm', 'armhole': '46 cm', 'sleeve length': '53 cm'}
+725	8742027264239	1	{'bust': '84 cm', 'waist': '94 cm', 'length from strap': '134 cm'}
+726	8742027264239	2	{'bust': '90 cm', 'waist': '100 cm', 'length from strap': '135,5 cm'}
+727	8840010432751	ALL SIZE	{'bust': '88 - 95 cm', 'waist': '89 cm', 'length': '65 cm', 'armhole': '46 cm'}
+728	8060403974383	ALL SIZE	{'bust': 'up to 115 cm', 'waist': 'up to 115 cm', 'length': '56 cm', 'sleeve length': '54 cm', 'armhole': '44 cm'}
+729	9001294102767	ALL SIZE	{'bust': '112 cm', 'waist': '116 cm', 'armhole': '52 cm', 'sleeve length': '50 cm', 'length': '65 cm'}
+730	8158401396975	1	{'bust': '80 cm', 'waist': '80 cm', 'length': '52 cm', 'sleeve length': '58 cm', 'armhole': '45 cm', 'center front length': '32 cm'}
+731	8158401396975	2CARDIGAN	{'bust': '86 cm', 'waist': '86 cm', 'length': '53 cm', 'sleeve length': '58 cm', 'armhole': '47 cm', 'center front length': '33 cm'}
+732	9024430080239	1	{'bust': '96 cm', 'waist': '88 cm', 'length': '52 cm', 'sleeve length': '58 cm', 'armhole': '45 cm'}
+733	9024430080239	2	{'bust': '104 cm', 'waist': '90 cm', 'length': '53 cm', 'sleeve length': '58 cm', 'armhole': '47 cm'}
+734	8233622012143	ALL SIZE	{'bust': '110 cm', 'waist': '108 cm', 'length': '74 cm', 'sleeve length': '60 cm', 'armhole': '50 cm'}
+735	8604419555567	ALL SIZE	{'size': '120 cm x 120 cm'}
+736	7740224897263	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '118 cm', 'armhole': '50 cm', 'sleeve length': '58 cm'}
+737	8005294457071	ALL SIZE	{'bust': '80-92cm', 'waist': '72 cm', 'length': '53 cm', 'sleeve length': '54 cm', 'armhole': '46 cm'}
+738	8196237132015	1	{'bust': '98 cm', 'waist': '92 cm', 'length': '68 cm', 'sleeve length': '60 cm', 'armhole': '50 cm'}
+739	8196237132015	2	{'bust': '104 cm', 'waist': '100 cm', 'length': '68 cm', 'sleeve length': '61 cm', 'armhole': '52 cm'}
+740	7946294001903	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '67 cm', 'sleeve length': '22 cm', 'armhole': '48 cm'}
+741	7833906741487	ALL SIZE	{'bust': 'up to 115 cm', 'waist': 'up to 120 cm', 'length': '59 cm', 'armhole': '50 cm'}
+742	7823901360367	ALL SIZE	{'bust': '106 cm', 'waist': '110 cm', 'length': '45 cm', 'sleeve length': '21.5 cm', 'armhole': '50 cm'}
+743	8060384837871	ALL SIZE	{'waist': '66cm up to 96cm', 'hip': '104cm', 'length': '91cm'}
+744	8897190887663	ALL SIZE	{'bust': '70 - 90 cm', 'waist': '60 - 80 cm', 'armhole': '40 cm', 'length': '52 cm'}
+745	8860281962735	1	{'bust': '96 cm', 'waist': '112 cm', 'armhole': '46 cm', 'length': '81 cm'}
+746	8860281962735	2	{'bust': '102 cm', 'waist': '118 cm', 'armhole': '49 cm', 'length': '83 cm'}
+747	8081767465199	1	{'bust': '80 cm', 'waist': '80 cm', 'length': '52 cm', 'sleeve length': '58 cm', 'armhole': '45 cm', 'center front length': '32 cm'}
+748	8081767465199	2CARDIGAN	{'bust': '86 cm', 'waist': '86 cm', 'length': '53 cm', 'sleeve length': '58 cm', 'armhole': '47 cm', 'center front length': '33 cm'}
+749	8252047950063	ALL SIZE	{'bust': '88 cm', 'waist': '80 cm', 'length': '58 cm', 'armhole': '46 cm', 'sleeve length': '59 cm'}
+750	8792600543471	ALL SIZE	{'bust': '74 cm - 102 cm', 'waist': '70 cm - 98 cm', 'armhole': '40 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+751	8218799669487	S	{'waist': '68 cm', 'hip': '94 cm', 'length': '98 cm'}
+752	8218799669487	M	{'waist': '72 cm', 'hip': '100 cm', 'length': '98 cm'}
+753	8218799669487	L	{'waist': '76 cm', 'hip': '104 cm', 'length': '98 cm'}
+754	8897200947439	ALL SIZE	{'bust': '70 - 90 cm', 'waist': '60 - 80 cm', 'armhole': '40 cm', 'length': '52 cm'}
+755	8196280549615	ALL SIZE	{'bust': '84-100 cm', 'waist': '80-100 cm', 'length': '115 cm', 'armhole': '45 cm'}
+756	8752243933423	1	{'bust': '94 cm', 'waist': '100 cm', 'length': '51 cm', 'armhole': '48 cm'}
+757	8752243933423	2	{'bust': '100 cm', 'waist': '106 cm', 'length': '53 cm', 'armhole': '51 cm'}
+758	8294597918959	ALL SIZE	{'bust': '82-100 cm', 'waist': '80-98 cm', 'length': '59 cm', 'armhole': '42 cm', 'sleeve length': '59 cm'}
+759	8110107197679	SMALL	{'waist': '58 - 88 cm', 'hip': '72 - 94 cm', 'length': '91 cm'}
+760	8110107197679	MEDIUM	{'waist': '60 - 96 cm', 'hip': '76 - 100 cm', 'length': '92 cm'}
+761	8110107197679	LARGE	{'waist': '66 - 102 cm', 'hip': '82 - 106 cm', 'length': '93 cm'}
+762	8101854544111	1	{'bust': '80 cm', 'waist': '80 cm', 'length': '52 cm', 'sleeve length': '58 cm', 'armhole': '45 cm', 'center front length': '32 cm'}
+763	8101854544111	2CARDIGAN	{'bust': '86 cm', 'waist': '86 cm', 'length': '53 cm', 'sleeve length': '58 cm', 'armhole': '47 cm', 'center front length': '33 cm'}
+764	8498523111663	ALL SIZE	{'bust': '90 cm', 'waist': '90 cm', 'length': '46 cm', 'armhole': '50 cm', 'sleeve length': '59 cm'}
+765	8959261671663	ALL SIZE	{'bust': '88 cm', 'waist': '86 cm', 'length': '64 cm', 'armhole': '49 cm'}
+766	8667282800879	SMALL	{'bust': '92 cm', 'waist': '92 cm', 'length': '55 cm', 'sleeve length': '15 cm', 'armhole': '46 cm'}
+767	8667282800879	MEDIUM	{'bust': '100 cm', 'waist': '100 cm', 'length': '58 cm', 'sleeve length': '16 cm', 'armhole': '48 cm'}
+768	8667282800879	LARGE	{'bust': '104 cm', 'waist': '104 cm', 'length': '60 cm', 'sleeve length': '17 cm', 'armhole': '50 cm'}
+769	8498263556335	SMALL	{'waist': '66 cm / 72 cm (with adjustable button)', 'hip': '108 cm', 'length': '106 cm', 'front rise': '32,5 cm', 'front/back rise': '42,5 cm'}
+770	8498263556335	MEDIUM	{'waist': '70 cm / 76 cm (with adjustable button)', 'hip': '112 cm', 'length': '107,5 cm', 'front rise': '33 cm', 'front/back rise': '43 cm'}
+771	8498263556335	LARGE	{'waist': '74 cm / 80 cm (with adjustable button)', 'hip': '116 cm', 'length': '108,5 cm', 'front rise': '33,5 cm', 'front/back rise': '43,5 cm'}
+772	8625224155375	SMALL	{'bust': '86 - 120 cm', 'waist': '80 - 116 cm', 'length': '60 cm', 'sleeve length': '18 cm', 'armhole': '45 cm'}
+773	8625224155375	MEDIUM	{'bust': '90 - 124 cm', 'waist': '84 - 118 cm', 'length': '62 cm', 'sleeve length': '19 cm', 'armhole': '46 cm'}
+774	8625234739439	SMALL	{'bust': '86 - 120 cm', 'waist': '80 - 116 cm', 'length': '60 cm', 'sleeve length': '18 cm', 'armhole': '45 cm'}
+775	8625234739439	MEDIUM	{'bust': '90 - 124 cm', 'waist': '84 - 118 cm', 'length': '62 cm', 'sleeve length': '19 cm', 'armhole': '46 cm'}
+776	8792566825199	1	{'waist': '76 cm', 'hip': '98 cm', 'thigh': '68 cm', 'front/back rise': '24,5 cm/34,5 cm', 'length': '27 cm'}
+777	8792566825199	2	{'waist': '82 cm', 'hip': '104 cm', 'thigh': '71 cm', 'front/back rise': '25,5 cm/35,5 cm', 'length': '28 cm'}
+778	8005216600303	ALL SIZE	{'bust': '88 cm', 'waist': '94 cm', 'length': '80 cm', 'armhole': '50 cm'}
+779	7823886057711	ALL SIZE	{'small': 'Waist: 70 cm', 'hip': '108 cm', 'length': '39 cm', 'medium': 'Waist: 76 cm'}
+780	8843346510063	ALL SIZE	{'bust': '112 cm', 'waist': '116 cm', 'armhole': '52 cm', 'sleeve length': '50 cm', 'length': '65 cm'}
+781	8060715663599	ALL SIZE	{'waist': '68 up to 108 cm', 'hip': '104 to 116 cm', 'length': '102 cm'}
+782	8005296390383	ALL SIZE	{'waist': '64-90 cm', 'hip': '100 cm', 'length': '66 cm'}
+783	8818184356079	ALL SIZE	{'bust': '72 cm - 100 cm', 'waist': '64 cm - 92 cm', 'armhole': '45 cm', 'length': '57 cm'}
+784	7946289217775	1	{'waist': '62-84 cm', 'hip': 'up to 94 cm', 'length': '100 cm'}
+785	7946289217775	2	{'waist': '66-90 cm', 'hip': 'up to 98 cm', 'length': '100 cm'}
+786	9000474640623	SMALL	{'bust': '92 cm', 'waist': '92 cm', 'length': '55 cm', 'armhole': '46 cm', 'sleeve length': '15 cm'}
+787	9000474640623	MEDIUM	{'bust': '100 cm', 'waist': '100 cm', 'length': '58 cm', 'armhole': '48 cm', 'sleeve length': '16 cm'}
+788	8742191628527	ALL SIZE	{'bust': '74 - 104 cm', 'waist': '64 - 94 cm', 'armhole': '36 - 46 cm', 'sleeve length': '20 cm', 'length': '73 cm'}
+789	8896416710895	ALL SIZE	{'bust': '102 cm', 'waist': '103 cm', 'length': '62 cm', 'armhole': '48 cm', 'sleeve length': '6 cm'}
+790	8145215291631	S	{'waist': '68 cm', 'hip': '94 cm', 'length': '98 cm'}
+791	8145215291631	M	{'waist': '72 cm', 'hip': '100 cm', 'length': '98 cm'}
+792	8145215291631	L	{'waist': '76 cm', 'hip': '104 cm', 'length': '98 cm'}
+793	7740271165679	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '50 cm', 'armhole': '44 cm', 'sleeve length': '19 cm'}
+794	7823875801327	ALL SIZE	{'bust': '112 cm', 'waist': '112 cm', 'length': '50 cm', 'armhole': '52 cm', 'sleeve length': '60 cm'}
+795	8897139572975	1	{'waist': '66 - 100 cm', 'hip': '120 cm', 'length': '79 cm'}
+796	8897139572975	2	{'waist': '70 - 110 cm', 'hip': '124 cm', 'length': '80 cm'}
+797	8843350245615	ALL SIZE	{'bust': '70 - 100 cm', 'waist': '74 - 110 cm', 'length': '56 cm', 'armhole': '42 cm'}
+798	8825021530351	1	{'bust': '86 cm', 'waist': '88 cm', 'armhole': '46 cm', 'length': '57 cm'}
+799	8825021530351	2	{'bust': '92 cm', 'waist': '94 cm', 'armhole': '48 cm', 'length': '60 cm'}
+800	7455679119599	ALL SIZE	{'bust': 'up to 100 cm', 'waist': 'up to 100 cm', 'length': '108 cm', 'armhole': '50cm'}
+801	8825017958639	ALL SIZE	{'bust': '102 cm', 'waist': '92 cm', 'armhole': '40 cm', 'sleeve length': '48 cm', 'length': '57 cm', 'scarf width x length': '10 x 185 cm'}
+802	8060442214639	ALL SIZE	{'bust': '60 up to 100 cm', 'waist': '56 up to 100 cm', 'sleeve length': '51 cm', 'length': '49 cm', 'armhole': '46 cm'}
+803	7946294395119	ALL SIZE	{'bust': '84-100 cm', 'waist': '80-95cm', 'length': '124 cm', 'sleeve length': '22 cm', 'armhole': '46 cm'}
+804	8664908923119	SMALL	{'waist': '68 cm', 'hip': '96 cm', 'length': '35 cm', 'front rise': '34 cm', 'front/back rise': '44 cm'}
+805	8664908923119	MEDIUM	{'waist': '74 cm', 'hip': '102 cm', 'length': '36 cm', 'front rise': '34,5 cm', 'front/back rise': '44,5 cm'}
+806	8664908923119	LARGE	{'waist': '80 cm', 'hip': '108 cm', 'length': '37 cm', 'front rise': '35 cm', 'front/back rise': '45 cm'}
+807	8843351294191	ALL SIZE	{'bust': '102 cm', 'waist': '98 cm', 'armhole': '52 cm', 'sleeve length': '28 cm', 'length': '56 cm'}
+808	8005163909359	1	{'bust': '82 cm', 'waist': '86 cm', 'length': '118 cm', 'armhole': '44 cm'}
+809	8005163909359	2	{'bust': '90 cm', 'waist': '96 cm', 'length': '119 cm', 'armhole': '52 cm'}
+810	8083256148207	ALL SIZE	{'bust': '88 cm', 'waist': '80 cm', 'length': '58 cm', 'armhole': '46 cm', 'sleeve length': '59 cm'}
+811	7571081887983	ALL SIZE	{'bust': '130 cm', 'waist': '130 cm', 'length': '73 cm', 'sleeve length': '53 cm', 'armhole': '54 cm'}
+812	8252028420335	ALL SIZE	{'bust': '96 cm', 'waist': '100 cm', 'length': '62 cm', 'sleeve length': '58 cm', 'armhole': '52 cm'}
+813	8218769981679	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '44 cm', 'armhole': '48 cm', 'sleeve length': '59 cm'}
+814	8823412785391	ALL SIZE	{'bust': '112 cm', 'waist': '112 cm', 'armhole': '60 cm', 'sleeve length': '57 cm', 'puffer length': '60 cm', 'inner vest length': '63 cm'}
+815	7975350173935	ALL SIZE	{'waist': '68-110 cm', 'hip': 'up to 120 cm', 'length': '100 cm'}
+816	7975352533231	ALL SIZE	{'bust': '102 cm', 'wasit': '114 cm', 'length': '63 cm', 'sleeve length': '30 cm', 'armhole': '51 cm'}
+817	8913099194607	1	{'bust': '92 cm', 'waist': '86 cm', 'armhole': '52 cm', 'sleeve length': '23 cm', 'length': '57 cm'}
+818	8913099194607	2	{'bust': '98 cm', 'waist': '92 cm', 'armhole': '54 cm', 'sleeve length': '24 cm', 'length': '58,5 cm'}
+819	8294588940527	ALL SIZE	{'bust': '84-96 cm', 'waist': '76-88 cm', 'length': '58 cm', 'armhole': '45 cm', 'sleeve length': '16.5 cm'}
+820	9024321257711	SMALL	{'bust': '94 cm', 'waist': '94 cm', 'length': '67 cm', 'armhole': '48 cm'}
+821	9024321257711	MEDIUM	{'bust': '98 cm', 'waist': '98 cm', 'length': '68 cm', 'armhole': '50 cm'}
+822	9024321257711	LARGE	{'bust': '102 cm', 'waist': '102 cm', 'length': '69 cm', 'armhole': '52 cm'}
+823	9000424341743	ALL SIZE	{'bust': '116 cm', 'waist': '94 cm', 'length': '58 cm', 'armhole': '50 cm', 'sleeve length': '54 cm'}
+824	8218779877615	ALL SIZE	{'bust': '120 cm', 'waist': '116 cm', 'length': '60 cm', 'sleeve length': '53 cm', 'armhole': '44 cm (drop shoulder)'}
+825	8843359191279	ALL SIZE	{'bust': '134 cm', 'waist': '134 cm', 'armhole': '40 cm', 'length': '69 cm', 'scarf width x length': '26 cm x 117 cm'}
+826	8117392638191	ALL SIZE	{'bust': '98 cm', 'waist': '96 cm', 'length': '55 cm', 'armhole': '48 cm', 'sleeve length': '61 cm'}
+827	9000418803951	ALL SIZE	{'bust': '78 cm - 90 cm', 'waist': '72 cm - 84 cm', 'length': '54 cm', 'armhole': '46 cm'}
+828	8897118044399	SMALL	{'waist': '66 cm - 84 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '107 cm', 'front/back rise': '30 cm/39 cm'}
+829	8897118044399	MEDIUM	{'waist': '70 cm - 88 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+830	8897118044399	LARGE	{'waist': '74 cm - 92 cm', 'hip': '104 cm', 'thigh': '68 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+831	7471245328623	ALL SIZE	{'bust': 'up to 125 cm', 'waist': '120 cm', 'length': '61 cm', 'sleeve length': '33 cm', 'armhole': '47 cm'}
+832	8220544205039	S	{'waist': '66 cm', 'hip': '90 cm', 'length': '40 cm'}
+833	8220544205039	M	{'waist': '70 cm', 'hip': '95 cm', 'length': '40 cm'}
+834	8220544205039	L	{'waist': '72 cm', 'hip': '100\\xa0cm', 'length': '40\\xa0cm'}
+835	8791886528751	ALL SIZE	{'bust': '108 cm', 'waist': '108 cm', 'armhole': '60 cm', 'sleeve length': '58 cm', 'length': '56 cm'}
+836	8081694392559	ALL SIZE	{'bust': '98-112 cm', 'waist': '88-102 cm', 'length': '56 cm', 'sleeve length': '56 cm', 'armhole': '45 cm'}
+837	8752242000111	SMALL	{'waist': '70 - 76 cm', 'hip': '92 - 98 cm', 'thigh': '56 - 60 cm', 'front/back rise': '27 cm/35 cm', 'length': '104 cm'}
+838	8752242000111	MEDIUM	{'waist': '74 - 80 cm', 'hip': '96 - 102 cm', 'thigh': '60 - 64 cm', 'front/back rise': '27,5 cm/35,5 cm', 'length': '105 cm'}
+839	8752242000111	LARGE	{'waist': '80 - 86 cm', 'hip': '102 - 108 cm', 'thigh': '64 - 68 cm', 'front/back rise': '28 cm/36 cm', 'length': '106 cm'}
+840	8006371049711	ALL SIZE	{'bust': '100 cm', 'waist': '98 cm', 'length': '62 cm', 'armhole': '50 cm'}
+841	8158407131375	1	{'bust': '80 cm', 'waist': '80 cm', 'length': '52 cm', 'sleeve length': '58 cm', 'armhole': '45 cm', 'center front length': '32 cm'}
+842	8158407131375	2CARDIGAN	{'bust': '86 cm', 'waist': '86 cm', 'length': '53 cm', 'sleeve length': '58 cm', 'armhole': '47 cm', 'center front length': '33 cm'}
+843	8959789039855	ALL SIZE	{'bust': '90 cm', 'waist': '96 cm', 'length': '86 cm', 'armhole': '50 cm'}
+844	8196090462447	SMALL	{'waist': '60-76 cm', 'hip': '88-100 cm', 'length': '97 cm', 'thigh circumference': '56 cm', 'front rise': '30 cm', 'front/back rise': '37 cm'}
+845	8196090462447	MEDIUM	{'waist': '66-82 cm', 'hip': '92-104 cm', 'length': '98 cm', 'thigh circumference': '58 cm', 'front rise': '30 cm', 'front/back rise': '38 cm'}
+846	8196090462447	LARGE	{'waist': '70-86 cm', 'hip': '96-108 cm', 'length': '98 cm', 'thigh circumference': '60 cm', 'front rise': '30 cm', 'front/back rise': '38 cm'}
+847	8196090462447	XL	{'waist': '76-92 cm', 'hip': '102-114 cm', 'length': '99 cm', 'thigh circumference': '62 cm', 'front rise': '30 cm', 'front/back rise': '39 cm'}
+848	8959790874863	SMALL	{'waist': '66 cm - 84 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '107 cm', 'front/back rise': '30 cm/39 cm'}
+849	8959790874863	MEDIUM	{'waist': '70 cm - 88 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+850	8959790874863	LARGE	{'waist': '74 cm - 92 cm', 'hip': '104 cm', 'thigh': '68 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+851	8792597070063	ALL SIZE	{'bust': '74 cm - 102 cm', 'waist': '70 cm - 98 cm', 'armhole': '40 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+852	8986619150575	ALL SIZE	{'bust': '110 cm', 'waist': '112 cm', 'length': '76 cm', 'armhole': '59 cm', 'sleeve length': '60 cm'}
+853	8773322178799	SMALL	{'waist': '62 - 68 cm', 'hip': '90 - 96 cm', 'thigh': '64 cm', 'front/back rise': '33/43 cm', 'length': '102 cm'}
+854	8773322178799	MEDIUM	{'waist': '64 - 70 cm', 'hip': '94 - 100 cm', 'thigh': '66 cm', 'front/back rise': '34/44 cm', 'length': '103 cm'}
+855	8773322178799	LARGE	{'waist': '68 - 74 cm', 'hip': '98 - 104 cm', 'thigh': '68 cm', 'front/back rise': '35/45 cm', 'length': '104 cm'}
+856	8773355765999	1	{'bust': '92 cm', 'waist': '92 cm', 'length': '50 cm', 'armhole': '44 cm'}
+857	8773355765999	2	{'bust': '98 cm', 'waist': '98 cm', 'length': '51,5 cm', 'armhole': '46 cm'}
+858	8986641760495	ALL SIZE	{'bust': '110 cm', 'waist': '112 cm', 'length': '76 cm', 'armhole': '59 cm', 'sleeve length': '60 cm'}
+859	8818175770863	ALL SIZE	{'bust': '74 cm - 102 cm', 'waist': '70 cm - 98 cm', 'armhole': '40 cm', 'sleeve length': '58 cm', 'length': '58 cm'}
+860	8498232885487	SMALL	{'bust': '86 cm', 'waist': '78 cm', 'length': '69 cm', 'armhole': '44 cm'}
+861	8498232885487	MEDIUM	{'bust': '92 cm', 'waist': '84 cm', 'length': '70 cm', 'armhole': '46 cm'}
+862	8498232885487	LARGE	{'bust': '98 cm', 'waist': '90 cm', 'length': '71 cm', 'armhole': '48 cm'}
+863	9000475033839	SMALL	{'bust': '92 cm', 'waist': '92 cm', 'length': '55 cm', 'armhole': '46 cm', 'sleeve length': '15 cm'}
+864	9000475033839	MEDIUM	{'bust': '100 cm', 'waist': '100 cm', 'length': '58 cm', 'armhole': '48 cm', 'sleeve length': '16 cm'}
+865	7894084026607	ALL SIZE	{'bust': '115 cm', 'waist': '115 cm', 'length': '62 cm', 'sleeve length': '27 cm', 'armhole': '61 cm'}
+866	8792602018031	ALL SIZE	{'bust': '72 cm - 100 cm', 'waist': '64 cm - 92 cm', 'armhole': '45 cm', 'length': '57 cm'}
+867	8959788941551	ALL SIZE	{'bust': '124 cm', 'waist': '88 cm', 'length': '52 cm', 'armhole': '40 cm', 'sleeve length': '49 cm'}
+868	8818185371887	ALL SIZE	{'bust': '72 cm - 100 cm', 'waist': '64 cm - 92 cm', 'armhole': '45 cm', 'length': '57 cm'}
+869	8825022447855	1	{'bust': '86 cm', 'waist': '88 cm', 'armhole': '46 cm', 'length': '57 cm'}
+870	8825022447855	2	{'bust': '92 cm', 'waist': '94 cm', 'armhole': '48 cm', 'length': '60 cm'}
+871	8005165023471	ALL SIZE	{'bust': '110 cm', 'waist': '110 cm', 'length': '82 cm', 'armhole': '53 cm', 'sleeve length': '59 cm'}
+872	8196086137071	SMALL	{'waist': '60-76 cm', 'hip': '88-100 cm', 'length': '97 cm', 'thigh circumference': '56 cm', 'front rise': '30 cm', 'front/back rise': '37 cm'}
+873	8196086137071	MEDIUM	{'waist': '66-82 cm', 'hip': '92-104 cm', 'length': '98 cm', 'thigh circumference': '58 cm', 'front rise': '30 cm', 'front/back rise': '38 cm'}
+874	8196086137071	LARGE	{'waist': '70-86 cm', 'hip': '96-108 cm', 'length': '98 cm', 'thigh circumference': '60 cm', 'front rise': '30 cm', 'front/back rise': '38 cm'}
+875	8196086137071	XL	{'waist': '76-92 cm', 'hip': '102-114 cm', 'length': '99 cm', 'thigh circumference': '62 cm', 'front rise': '30 cm', 'front/back rise': '39 cm'}
+876	8081704911087	ALL SIZE	{'waist': '64-100 cm', 'hip': '96-112 cm', 'length': '38 cm'}
+877	8329462743279	ALL SIZE	{'bust': '100 cm', 'waist': '106 cm', 'length': '83 cm', 'armhole': '54 cm', 'sleeve length': '62 cm'}
+878	8498266865903	ALL SIZE	{'bust': '116 cm', 'waist': '112 cm', 'hem': '118 cm', 'length': '75 cm', 'armhole': '59 cm', 'sleeve length': '61 cm'}
+879	8211518947567	ALL SIZE	{'bust': '84-94 cm', 'waist': '72-82 cm', 'length': '88 cm', 'armhole': '40 cm'}
+880	9024397902063	SMALL	{'bust': '96 cm', 'waist': '68 cm', 'length': '59 cm', 'sleeve length': '19 cm', 'armhole': '54 cm'}
+881	9024397902063	MEDIUM	{'bust': '100 cm', 'waist': '72 cm', 'length': '60 cm', 'sleeve length': '20 cm', 'armhole': '56 cm'}
+882	9024397902063	LARGE	{'bust': '104 cm', 'waist': '76 cm', 'length': '61 cm', 'sleeve length': '21 cm', 'armhole': '58 cm'}
+883	8211517767919	ALL SIZE	{'bust': '84-94 cm', 'waist': '72-82 cm', 'length': '88 cm', 'armhole': '40 cm'}
+884	8329471492335	ALL SIZE	{'bust': '90 cm', 'waist': '86 cm', 'length': '90 cm (include strap)', 'armhole': '58 cm', 'sleeve length': '26 cm'}
+885	8196265967855	1	{'waist': '70 cm', 'hip': '102 cm', 'thigh circumference': '60 cm', 'length': '104 cm', 'front rise': '30 cm', 'front/back rise': '40 cm'}
+886	8196265967855	2	{'waist': '80 cm', 'hip': '110 cm', 'thigh circumference': '62 cm', 'length': '104 cm', 'front rise': '30 cm', 'front/back rise': '40 cm'}
+887	7113846784178	ALL SIZE	{'waist': '68-120 cm', 'hip': '106 cm', 'length': '37 cm'}
+888	8117368979695	ALL SIZE	{'bust': '112 cm', 'waist': '112 cm', 'length': '49 cm', 'sleeve length': '56 cm', 'armhole': '58 cm'}
+889	8825023037679	1	{'bust': '86 cm', 'waist': '88 cm', 'armhole': '46 cm', 'length': '57 cm'}
+890	8825023037679	2	{'bust': '92 cm', 'waist': '94 cm', 'armhole': '48 cm', 'length': '60 cm'}
+891	7946313138415	1	{'waist': '64-84 cm', 'hip': 'up to 94 cm', 'length': '95 cm'}
+892	7946313138415	2	{'waist': '68-90 cm', 'hip': 'up to 98 cm', 'length': '96 cm'}
+893	8030793269487	SMALL	{'waist': '64 cm', 'hip': '85 cm', 'length': '104 cm'}
+894	8030793269487	MEDIUM	{'waist': '66 cm', 'hip': '87 cm', 'length': '105 cm'}
+895	8030793269487	LARGE	{'waist': '70 cm', 'hip': '91 cm', 'length': '106 cm'}
+896	8030793269487	EXTRA LARGE	{'waist': '74 cm', 'hip': '95 cm', 'length': '107\\xa0cm'}
+897	8082189746415	SMALL	{'waist': '58 - 88 cm', 'hip': '72 - 94 cm', 'length': '91 cm'}
+898	8082189746415	MEDIUM	{'waist': '60 - 96 cm', 'hip': '76 - 100 cm', 'length': '92 cm'}
+899	8082189746415	LARGE	{'waist': '66 - 102 cm', 'hip': '82 - 106 cm', 'length': '93 cm'}
+900	8667287453935	SMALL	{'bust': '96 cm', 'waist': '96 cm', 'length': '70 cm', 'sleeve length': '20 cm', 'armhole': '52 cm'}
+901	8667287453935	MEDIUM	{'bust': '104 cm', 'waist': '104 cm', 'length': '73 cm', 'sleeve length': '22 cm', 'armhole': '54 cm'}
+902	8667287453935	LARGE	{'bust': '112 cm', 'waist': '112 cm', 'length': '76 cm', 'sleeve length': '24 cm', 'armhole': '56 cm'}
+903	8110093631727	ALL SIZE	{'bust': '88 cm', 'waist': '88 cm', 'length': '45 cm', 'sleeve length': '22 cm', 'armhole': '48 cm'}
+904	8825001378031	ALL SIZE	{'bust': '114 cm', 'waist': '118 cm', 'armhole': '62 cm', 'sleeve length': '46 cm', 'front length/back length': '75/80 cm'}
+905	8060731719919	ALL SIZE	{'bust': 'up to 115 cm', 'waist': 'up to 115 cm', 'length': '73 cm', 'sleeve length': '60 cm', 'armhole': '60 cm'}
+906	8913528520943	ALL SIZE	{'bust': '82 cm - 90 cm', 'waist': '92 cm - 100 cm', 'armhole': '41 cm', 'length': '86 cm'}
+907	8211476185327	S	{'waist': '66 cm', 'hip': '90 cm', 'thigh': '60 cm', 'front/back rise': '33/43 cm', 'length': '100 cm'}
+908	8211476185327	M	{'waist': '70 cm', 'hip': '94 cm', 'thigh': '62 cm', 'front/back rise': '33,5/43,5 cm', 'length': '100 cm'}
+909	8211476185327	L	{'waist': '74 cm', 'hip': '98 cm', 'thigh': '64 cm', 'front/back rise': '33,5/43,5 cm', 'length': '100 cm'}
+910	7975353975023	1 :	{'waist': '66-90 cm', 'hip': '90 cm', 'length': '40 cm'}
+911	8110077411567	ALL SIZE	{'bust': '84 cm', 'waist': '86 cm', 'length': '42 cm', 'armhole': '50 cm'}
+912	8498622595311	ALL SIZE	{'bust': '94 cm - 112 cm', 'waist': '74 cm - 92 cm', 'length': '64 cm', 'armhole': '40 cm', 'sleeve length': '59 cm'}
+913	8060379136239	ALL SIZE	{'bust': '98 cm', 'waist': '96 cm', 'length': '55 cm', 'armhole': '48 cm', 'sleeve length': '61 cm'}
+914	8083253723375	ALL SIZE	{'bust': '88 cm', 'waist': '80 cm', 'length': '58 cm', 'armhole': '46 cm', 'sleeve length': '59 cm'}
+915	8101884526831	ALL SIZE	{'bust': '96-102 cm', 'waist': '96-102 cm', 'length': '49 cm', 'sleeve length': '22 cm', 'armhole': '46 cm'}
+916	8860235137263	ALL SIZE	{'bust': '96 cm', 'waist': '104 cm', 'length': '66 cm', 'armhole': '44 cm', 'sleeve length': '14 cm'}
+917	9001309339887	ALL SIZE	{'bust': '116 cm', 'waist': '116 cm', 'armhole': '30 cm - 45 cm (dropped shoulder)', 'sleeve length': '43 cm', 'length': '62 cm'}
+918	7739104919791	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '116 cm', 'armhole': '48 cm', 'sleeve length': '57 cm'}
+919	8114152866031	ALL SIZE	{'bust': '100 cm', 'waist': '104 cm', 'length': '52 cm', 'armhole': '48 cm', 'sleeve length': '59 cm'}
+920	8211400392943	ALL SIZE	{'bust': '98 cm', 'waist': '92 cm', 'length': '62 cm', 'armhole': '54 cm', 'sleeve length': '65 cm'}
+921	8006504284399	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '62 cm', 'sleeve length': '22 cm', 'armhole': '45 cm'}
+922	8840007319791	1	{'bust': '68 cm - 84 cm', 'waist': '60 cm - 74 cm', 'length': '76 cm', 'hip': '86 cm - 100 cm'}
+923	8840007319791	2	{'bust': '72 cm - 88 cm', 'waist': '64 cm - 78 cm', 'length': '79 cm', 'hip': '90 cm - 104 cm'}
+924	7767167729903	ALL SIZE	{'bust': '120 cm', 'waist': '124 cm', 'length': '76 cm', 'armhole': '60 cm', '': '72 cm'}
+925	8843368300783	1	{'bust': '90 cm', 'waist': '94 cm', 'armhole': '47 cm', 'sleeve length': '21 cm', 'length': '80 cm'}
+926	8843368300783	2	{'bust': '96 cm', 'waist': '100 cm', 'armhole': '49 cm', 'sleeve length': '23 cm', 'length': '82 cm'}
+927	8843354669295	1	{'waist': '68 cm', 'hip': '100 cm', 'length': '37 cm'}
+928	8843354669295	2	{'waist': '74 cm', 'hip': '106 cm', 'length': '38 cm'}
+929	8030794580207	ALL SIZE	{'bust': '96 cm', 'waist': '94 cm', 'length': '82 cm', 'sleeve length': '20 cm', 'armhole': '46 cm'}
+930	8792612339951	ALL SIZE	{'bust': '72cm - 100 cm', 'waist': '64 cm - 92 cm', 'armhole': '45 cm', 'length': '57 cm'}
+931	8824609833199	1	{'bust': '90 cm', 'waist': '90 cm', 'armhole': '48 cm', 'sleeve length': '18 cm', 'length': '57 cm'}
+932	8824609833199	2	{'bust': '98 cm', 'waist': '98 cm', 'armhole': '51 cm', 'sleeve length': '20 cm', 'length': '59 cm'}
+933	7740221128943	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '118 cm', 'armhole': '50 cm', 'sleeve length': '58 cm'}
+934	8843362238703	SMALL	{'waist': '64 cm - 84 cm', 'hip': '94 cm', 'thigh': '64 cm', 'length': '108 cm', 'front/back rise': '30 cm/39 cm'}
+935	8843362238703	MEDIUM	{'waist': '68 cm - 88 cm', 'hip': '98 cm', 'thigh': '66 cm', 'length': '108 cm', 'front/back rise': '31 cm/40 cm'}
+936	8843362238703	LARGE	{'waist': '72 cm - 92 cm', 'hip': '102 cm', 'thigh': '68 cm', 'length': '109 cm', 'front/back rise': '32 cm/41 cm'}
+937	8913104109807	1	{'waist': '76 cm', 'hip': '107 cm', 'thigh': '68 cm', 'length': '31 cm', 'front/back rise': '25 cm/36 cm'}
+938	8913104109807	2	{'waist': '82 cm', 'hip': '113 cm', 'thigh': '71 cm', 'length': '32 cm', 'front/back rise': '27 cm/38 cm'}
+939	8792612241647	ALL SIZE	{'bust': '72 cm - 100 cm', 'waist': '64 cm - 92 cm', 'armhole': '45 cm', 'length': '57 cm'}
+940	8986668531951	SMALL	{'bust': '103 cm', 'waist': '68 cm', 'length': '58 cm (from center back)', 'armhole': '42 cm'}
+941	8986668531951	MEDIUM	{'bust': '107 cm', 'waist': '72 cm', 'length': '59 cm (from center back)', 'armhole': '44 cm'}
+942	8986668531951	LARGE	{'bust': '111 cm', 'waist': '76 cm', 'length': '60 cm (from center back)', 'armhole': '46 cm'}
+943	7894080979183	ALL SIZE	{'bust': '100 cm', 'waist': '100 cm', 'length': '62 cm', 'sleeve length': '22 cm', 'armhole': '45 cm'}
+944	8294607487215	ALL SIZE	{'bust': '100-114 cm', 'waist': '100-114 cm', 'length': '62 cm', 'armhole': '46 cm', 'sleeve length': '17.5 cm'}
+945	8145302880495	1	{'bust': '90 cm', 'waist': '82 cm', 'length': '66 cm', 'armhole': '43 cm', 'sleeve length': '52 cm'}
+946	8145302880495	2	{'bust': '102 cm', 'waist': '94 cm', 'length': '71 cm', 'armhole': '48 cm', 'sleeve length': '53 cm'}
+947	8860280324335	SMALL	{'waist': '66 cm - 84 cm', 'hip': '96 cm', 'thigh': '64 cm', 'length': '107 cm', 'front/back rise': '30 cm/39 cm'}
+948	8860280324335	MEDIUM	{'waist': '70 cm - 88 cm', 'hip': '100 cm', 'thigh': '66 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+949	8860280324335	LARGE	{'waist': '74 cm - 92 cm', 'hip': '104 cm', 'thigh': '68 cm', 'length': '107 cm', 'front/back rise': '31 cm/40 cm'}
+\.
+
+
+--
+-- Data for Name: normal_products; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.normal_products (product_id) FROM stdin;
+8252031893743
+8896420479215
+8114152866031
+8030793269487
+8101851758831
+8110097236207
+8664379425007
+7947445043439
+8897190887663
+8825016811759
+8006504284399
+8196225892591
+8843358404847
+7975351189743
+7946313138415
+8986672595183
+8498246156527
+8329436856559
+8959791005935
+8823420420335
+8823421108463
+8211461472495
+8005163909359
+8664988549359
+8913521967343
+8329468575983
+7739104919791
+7894126461167
+8005157617903
+8037940429039
+8117368979695
+8145570005231
+9024414941423
+8218753532143
+8294599164143
+8498622595311
+7894080979183
+8081694392559
+9024432537839
+8114152145135
+8030772199663
+8145244520687
+7946289217775
+8825021530351
+8101884526831
+7719008534767
+7739081359599
+8498633998575
+7950403731695
+8218772144367
+8196122083567
+9000453538031
+8060379463919
+8036433690863
+8896418152687
+8792577900783
+8081686429935
+8030790746351
+8860251521263
+8252043657455
+8218779877615
+8307538493679
+8005294457071
+7451870724335
+8825036570863
+8005158142191
+8082188796143
+8060442575087
+8897219920111
+8667285913839
+8196265967855
+8211495256303
+7571094995183
+8665184633071
+8824609833199
+7471338193135
+8158401396975
+9000475033839
+8824629395695
+8304600350959
+9024418152687
+8667282800879
+8060711141615
+7894084026607
+8158407131375
+8110077411567
+7894089662703
+8913520754927
+8947908444399
+8005163450607
+8947907100911
+8307526140143
+7823901360367
+8959278416111
+7975352533231
+8252047950063
+8006371049711
+7954349326575
+8083253723375
+8860169437423
+8792602018031
+7696638836975
+8751873523951
+8005165023471
+7571085983983
+7946279420143
+8211438960879
+8986676429039
+8145607033071
+7696634478831
+7637780922607
+7823875801327
+8082186469615
+8196079255791
+9024414122223
+7804254978287
+8030781243631
+8304619421935
+8110077346031
+8913121313007
+8773349146863
+8005292622063
+8843362238703
+8860267086063
+7455634784495
+8667288600815
+8060419571951
+8106582376687
+8082175787247
+7894087794927
+8082187518191
+7833922961647
+9024430080239
+8986642317551
+8269648298223
+8196084859119
+8307522339055
+8664908923119
+9000424341743
+8665129943279
+7113830465714
+9024394625263
+8498426675439
+8060729688303
+8211432308975
+8252042903791
+8498646155503
+8665146589423
+8218785054959
+9000442331375
+7471319777519
+8060715663599
+8752243933423
+7739069858031
+9024378372335
+7894111125743
+9001313435887
+7823886057711
+7894084976879
+7946310025455
+7605183971567
+8498614468847
+8082189746415
+8211487719663
+7823883698415
+8211473334511
+8060731719919
+8843349459183
+8823412785391
+8269578535151
+8825018679535
+8792594546927
+8083256148207
+7946285646063
+7471335211247
+8498266865903
+8860280324335
+8947900711151
+7455718047983
+8986673447151
+9000474640623
+7740221128943
+8986659750127
+9000474935535
+8664974557423
+8116764836079
+8825017958639
+8860247261423
+7605207531759
+8114153816303
+8036455252207
+8752246128879
+7975352762607
+8896420839663
+9024434962671
+7823880028399
+8304613720303
+8842741317871
+8818185371887
+7605183250671
+8030794580207
+8082171101423
+8913509810415
+9000412872943
+8792946508015
+7113857138866
+8498523111663
+9000451834095
+8604408971503
+9024401899759
+8825021006063
+8840005157103
+8825022447855
+8913534157039
+8664840143087
+8860281962735
+8218752418031
+8843357225199
+7471298543855
+8252046409967
+8294602703087
+8110077575407
+8110093336815
+8220534472943
+8005183471855
+8791849566447
+8005216600303
+8252003090671
+8860229992687
+8665208684783
+7113846784178
+8307535905007
+8752245506287
+7696637067503
+8664861278447
+8060379136239
+7455651135727
+8825001378031
+8665134366959
+8823413145839
+8145580327151
+9000432763119
+7571081887983
+8751920742639
+8110107197679
+7946298622191
+8316165914863
+8824607637743
+8060443361519
+8101855527151
+8667284996335
+8792571707631
+7451739914479
+9000415723759
+8825005506799
+8145558438127
+8896416710895
+8913121149167
+7471328526575
+7946294395119
+7455707070703
+8742027264239
+8897139572975
+8196075585775
+8604419555567
+8211497844975
+8665156616431
+7605186199791
+8294592512239
+8145215291631
+8843361583343
+8289522614511
+8005157290223
+9024429129967
+8005223088367
+8843346510063
+8625224155375
+8196107469039
+8218757071087
+8030804115695
+8792597070063
+7605188755695
+8110085439727
+8897119682799
+8823407837423
+8498263556335
+7696639983855
+9024434340079
+9000439841007
+7739103543535
+8742005244143
+8665120866543
+8792586879215
+8294596313327
+8959788941551
+7455630426351
+8060384837871
+7946296885487
+8269638762735
+8294597918959
+7455655362799
+8307519521007
+8843350245615
+8792612241647
+9024408715503
+7455707791599
+7975353712879
+7740271165679
+8081767465199
+8604127068399
+8329452749039
+8145529307375
+8792581144815
+8498656149743
+9024412516591
+9000438857967
+8030801264879
+9000475689199
+8005217485039
+7946306486511
+7946287939823
+8986668531951
+7823893364975
+8329466183919
+8742218367215
+9024381223151
+8211261653231
+8101854544111
+8211451150575
+8117392638191
+8116765851887
+8196237132015
+8107687051503
+8329441050863
+8825023037679
+8037959925999
+8252030943471
+9000428863727
+7823908372719
+7975350173935
+8843359191279
+8145104994543
+8145602543855
+8196136599791
+9000450851055
+7696629530863
+7455664865519
+8842759536879
+7571098894575
+8076514394351
+8860261515503
+8218791477487
+8860267315439
+8294588940527
+7571084181743
+8060434252015
+7946306158831
+7719007650031
+8082175328495
+8218772832495
+8959296176367
+8060699902191
+7471245328623
+8252041363695
+7975351681263
+8145497325807
+8145133732079
+8110093631727
+8842742759663
+8294600245487
+8307532562671
+8145136746735
+8060725362927
+7833926992111
+8818184356079
+7946301767919
+8218797605103
+9001294102767
+8211420152047
+8145089691887
+8196081352943
+8082171461871
+8102668370159
+7946299474159
+8114155880687
+7455679119599
+8107680661743
+8604404187375
+8036433953007
+8843352703215
+8823411376367
+8211456950511
+8005296390383
+9000439218415
+7894087074031
+8824999379183
+7455675351279
+7113856024754
+7471329968367
+8913091494127
+7110613631154
+8110093533423
+9001309339887
+8329471492335
+8791886528751
+8082187976943
+8060442214639
+8114154406127
+8913520197871
+8220544205039
+8986641760495
+7946302947567
+8818183930095
+8752242000111
+8196086137071
+9024432341231
+8604417097967
+7947445764335
+8060728180975
+8860255420655
+9024393019631
+8306798756079
+8304605561071
+7455591432431
+7894093758703
+7471330623727
+8211400392943
+8005157945583
+7833906741487
+8082170609903
+7959651221743
+8107692392687
+8965256806639
+7740497690863
+7455674138863
+8986619150575
+7946280599791
+8329446097135
+8211516424431
+8604421816559
+8498316607727
+8742191628527
+9024321257711
+7975353975023
+8233622012143
+8897118044399
+8030812864751
+8211467174127
+8198588858607
+7471339405551
+8289518747887
+7471316467951
+8843352211695
+8498232885487
+8824610586863
+8060403974383
+8896426836207
+8860273606895
+8843351294191
+8005286330607
+8081704911087
+8498485231855
+8252026028271
+7767167729903
+8792602640623
+7696632578287
+7946298261743
+7975352140015
+9001307111663
+9024434798831
+9024411500783
+7696641097967
+8030789697775
+7455669780719
+8818183438575
+8825019891951
+8824632770799
+8986641989871
+8897200947439
+8896417726703
+7740273590511
+8005161746671
+8843354669295
+9024410321135
+8843359682799
+9024386564335
+8860253061359
+8233619161327
+7455663685871
+9024397902063
+8843353587951
+8860235137263
+8825020252399
+9000450130159
+9000418803951
+8751853666543
+8860227698927
+8211476185327
+9024416547055
+7947525685487
+8792612339951
+7740234367215
+8840020263151
+8498260541679
+8005163122927
+8818177605871
+7740496183535
+8060710191343
+7790791557359
+8901385748719
+\.
+
+
+--
+-- Data for Name: payment; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.payment (payment_id, payment_date, payment_method, amount, order_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: products; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.products (product_id, name, description, material, size, price, image_url, category_id) FROM stdin;
+8252031893743	Ruby Top Red	Cut and sewn from our all time favorite premium Japanese polyester fabric, we put a tweak to a simple tanktop by giving a puffed peplum panels on the side. Playful yet still simple, perfect to throw on for simple events or night out with friends!Model : 175 cm	100% Japanese made Premium Polyester	1, 2	595000.0	http://dumaofficial.com/cdn/shop/files/RubyTopRed.jpg?v=1706001577	C003
+8896420479215	Riri Pants | Dark Denim	These barrel-leg denim pants are designed for comfort and style, featuring a high-waisted fit and a slightly curved silhouette. The dark-wash denim gives them a timeless, polished look, while the unique panel stitching at the bottom adds a distinctive touch. The relaxed fit ensures ease of movement, making them perfect for both casual outings and stylish everyday wear.	100% Cotton	Small, Medium, Large, XL	700000.0	http://dumaofficial.com/cdn/shop/files/RIRIPANTSDARKDENIM-2.jpg?v=1740439538	C005
+8114152866031	Khaye Shirt Navy	Transition from summer with our short boxy shirt decorated with all-over floral embroidery. With long sleeves and front button fastening, it is scalloped at the bottom and sleeves a bit puffed. This refreshing style can be worn with your favorite bottoms from mini skirt to long denim pants!	50% Cotton, 50% Polyester	All Size	600000.0	http://dumaofficial.com/cdn/shop/files/KhayeShirtNavy-2.jpg?v=1695000776	C002
+8030793269487	Lesley Jeans Black	Denim trousers is a definite staple for your wardrobe, especially this pair as they're comfortable and fits like a glove. This pair is shaped for a flared silhouette with full-length legs and slits at cuffs that will make your legs looks super long and slim. They're crafted from a stretch cotton denim for lightness and comfort it won't feel like your wearing jeans at all!	100% Cotton	S, M, L, XL	789000.0	http://dumaofficial.com/cdn/shop/files/buttonsilver2.jpg?v=1683007165	C005
+8101851758831	Kano Set Fuchsia	Our cropped cardigan and adjustable tank top set is a seasonless essential that can be worn as a set or separates. Lightweight knitwear pieces, with point collar and button front fastening cardigan, completed with an adjustable strap basic tanktop. Perfect for any look you're going for any time of day!	100% Cotton	1, 2	600000.0	http://dumaofficial.com/cdn/shop/files/DAN-20230615-DUMA-810.jpg?v=1692592949	C002
+8110097236207	Monet Top Navy	Cropped polo shirt with a shape inspired by sportswear look. Knitted in a fancy wave pattern the perfect cropped length, smartened up with pointed collar, gold buttons and scalooped edges. Crafted with Viscose yarns for fluidity and signature pink color perfect to spice up your everyday wardrobe.	85% Viscose, 15% Nylon	All Size	650000.0	http://dumaofficial.com/cdn/shop/files/MonetTopNavy-2.jpg?v=1693836187	C002
+8843368071407	Marda Dress | Camel	Chic and versatile, this mini shirt dress is a wardrobe essential. Featuring a button-down front with covered buttons for a sleek look, it’s designed with a box-pleated skirt that adds structure and movement. The matching fabric belt with a buckle detail cinches the silhouette for a flattering, polished look. Perfect for both casual and dressy occasions, this dress combines timeless style with modern sophistication.	100% Polyester	1, 2	637500.0	http://dumaofficial.com/cdn/shop/files/MARDADRESSCAMEL-1_e8d47b65-3cd2-46e5-9c6b-e972f3ed6dae.jpg?v=1734420753	C001
+8897161363695	Acma Shirt Top | Black	This knit top exudes elegance with its soft drape and smooth texture, offering both comfort and sophistication. Featuring a notched collar and button-down front, it blends classic tailoring with a relaxed, modern feel. The half sleeves provide a balanced look, making it suitable for both warm and transitional weather. The subtly fitted silhouette enhances the figure while maintaining ease of movement, and the split hem detail at the front adds a contemporary touch. Easily style this top with tailored trousers for a polished look or paired with denim for effortless chic.	Rayon Blend	1, 2	520000.0	http://dumaofficial.com/cdn/shop/files/ACMASHIRTTOPBLACK-1.jpg?v=1740366090	C002
+8664379425007	Oson Outer | Denim Blue	Turn effortless cool with our Oson Denim Outer. This slightly cropped denim jacket features a boxy fit and contrast seam stitching for a modern appeal. The deep blue colorway and button detailing add a sophisticated edge. Pair with the Remmy Skort | Denim Blue or Agatha Shorts | Denim Blue for the perfect stylish set.	100% Polyester	ALL SIZE	800000.0	http://dumaofficial.com/cdn/shop/files/OSONDENIMBLAZERBLUE-1.jpg?v=1720522408	C003
+8913099194607	Asner Houndstooth Blazer | White Multi	This black and white houndstooth top features a structured, short-sleeve design with a button-up front. The high neckline and tailored fit give it a polished and sophisticated look, making it a versatile piece for both formal and casual styling. Pair it with our Rum Houndstooth Shorts for a coordinated set, or our Balestra Skirt for an elegant contrast.	Poly Blend	1, 2	560000.0	http://dumaofficial.com/cdn/shop/files/AsnerHoundstoothBlazer.jpg?v=1741855039	C003
+7947445043439	Malachi Sparkly Sweater Navy	A Set of oversized sweater and shorts is a classic knitwear with a shimmering twist, perfect to bring you the festive holiday mood. Crafted from soft cotton and lurex blend, the sweater is cut to a relaxed fit with drop shoulders, shorts are pull on with elastic band. Definately the perfect choice of outfit for your homey get-together this upcoming holidays season.	95% chenille 5% polyethylene	All Size	600000.0	http://dumaofficial.com/cdn/shop/products/MalachiSweaterNavy_4_e63ea6eb-ee05-4f3c-9371-78b18afd2413.jpg?v=1670551840	C002
+8897190887663	Iggy Top | Black	Elevate your everyday style with our Iggy Top! Crafted from soft and stretch viscose yarn with ribbed detailing, this top exudes a modern and effortless appeal. This tank design features an off-center placket with tonal buttons, and a flattering, form-hugging fit. Pair it with your favorite high-waisted jeans for a casual-chic look or layer it under a blazer for a polished finish—versatile and stylish, it's a must-have staple for any wardrobe.	Soft Viscose	ALL SIZE (Fit To L)	450000.0	http://dumaofficial.com/cdn/shop/files/IGGYTOPBLACK-6.jpg?v=1740458264	C002
+8825016811759	MMEHUILLET FOR DUMA - Hwi Scarf | White	Crafted from soft structured cotton, this hybrid poncho doubles as a scarf that can be draped over the shoulder for an effortless look. Secured with a single button on one shoulder that you can accessorize with our clip-on buttons. The dynamic silhouette and timeless color palette offer endless styling potential.	100% Cotton	All Size	650000.0	http://dumaofficial.com/cdn/shop/files/HwiScarfWhite-2.jpg?v=1732724974	C003
+8006504284399	Maya Blazer Grey	Knitted from soft cotton yarns into the perfect blazer top design and silhouette, finished with shoulder pads and covered buttons. Something you never knew you needed in your capsule wardrobe. Undeniably comfortable, suitable for formal or business casual events, keeps you looking professional yet comfortable for your important meetings. Can't forget how perfect it looks as an outer too! This piece will be your best purchase yet!	100% COTTON	All Size	585000.0	http://dumaofficial.com/cdn/shop/products/MayaTopGrey.jpg?v=1677143694	C002
+8196225892591	Oslo Blazer Beige	This cropped blazer is crafted with both the perfect silhouette and style, and the most delicate tailoring. Crafted from premium Japanese polyester, it's cut in an oversized boxy shape that's enhanced by the lightly padded shoulders. Additional	100% Japanese made Premium Polyester	ALL SIZE (FIT TO L)	875000.0	http://dumaofficial.com/cdn/shop/files/OsloBlazerBeige.jpg?v=1700779086	C003
+8843358404847	Bruni Top | Dark Brown	Channeling a modern refinement, this deep brown top is crafted from premium Japanese polyester that’s soft and stretchy. It’s cut in an oversized shape with a bias-cut scarf detail to fasten around your neck or drape it effortlessly over your shoulder.	100% Japanese made Premium Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/BRUNITOPDARKBROWN-2.jpg?v=1734484605	C002
+7975351189743	Mudan Blazer Red	Tailored from smooth and lustrous satin print fabric in a double-breasted, slightly oversized silhouette. It has a face framing peak lapels with a structured tailoring front body design, and a relaxed shirt silhouette design on the back. Perfectly comfortable to wear yet still appropriate for formal occasions. Finished with Chinese button	100% Polyester	All Size	675000.0	http://dumaofficial.com/cdn/shop/products/MudanBlazerRed.jpg?v=1673497112	C002
+7946313138415	Rafa Pants Green	Knitted from soft cotton yarns into the perfect christmas color pointelle knit pattern, this high waisted knit palazzo pants features a high rise, flared style and a relaxed fit. This pants is equally comfortable and fashionable, perfect for your get togethers this holiday season! Pair it with our Rami Cardigan to create an effortlessly chic outfit for your year end festivities!	100% Cotton	1 &amp; 2	665000.0	http://dumaofficial.com/cdn/shop/products/RafaPantsGreen_4.jpg?v=1670552032	C005
+8986672595183	Verra Top | Black	This top features soft drapes across the front that create a flattering, elegant shape. It’s designed with shoulder padding to give structure and a bold silhouette. The added buttoned shoulder detail gives it a modern, tailored touch. A perfect mix of strong and feminine.	100% Polyester	Small, Medium, Large	700000.0	http://dumaofficial.com/cdn/shop/files/VERRATOPBLACK1.jpg?v=1750786047	C002
+8294607487215	BELINDA | Regular Fit Extreme Soft in White	A very versatile and classic t-shirt, offered in classic white. Crafted from a special cotton blend that’s soft to the touch, this classic crew neck top is cut for a neat fit with the perfect length.	100 % Cotton Blend	All Size (Fit to XL)	450000.0	http://dumaofficial.com/cdn/shop/files/LEN01114-edit.jpg?v=1708999379	C002
+8498246156527	Carolina Vest Grey	Focusing on classic tailoring this season, this waistcoat is meticulously crafted from premium polyester blend suiting fabric and designed with a contoured waist and a rounded hem for a more feminine touch. Style it with wide-legged trousers or midi skirt for the perfect clean girl look!	100% Polyester	S, M, LMeasurement :	625000.0	http://dumaofficial.com/cdn/shop/files/CAROLINAVESTGREY-3.jpg?v=1715741507	C002
+8329436856559	Rosette Blazer Pink	A must have special silhouette this season. We create this outer with artful tailoring and updated design elements. Designed with a boxy fit, the perfect pink shade, soft collared neckline, and the statement draped large 3D floral fabric. The perfect crowd pleaser piece!	100% Japanese made Premium Polyester	ALL SIZE	1200000.0	http://dumaofficial.com/cdn/shop/files/RosetteBlazerPink_2a0346cc-6121-4a56-8410-f32abdc31e03.jpg?v=1711037505	C003
+8959791005935	Tan Pants | Dark Brown	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Premium Polyester	Small, Medium, Large	685000.0	http://dumaofficial.com/cdn/shop/files/TANPANTSDARKBROWN-1.jpg?v=1747646736	C005
+8823420420335	MMEHUILLET FOR DUMA - Seonyul Top | White Multi	Seonyul Top combines classic sophistication with a modern twist. Featuring a structured collar that exudes an elegant, polished look while the peplum design flatteringly accentuates the waist. Crafted from custom-made tweed, the fabric boasts vibrant multi-colored stripes that adds a playful element to the timeless texture. Wear it as it is or add a little bling with our clip-on buttons, this top seamlessly merges fashion-forward style with tailored elegance.	100% Polyester	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/SeonyulTopWhite-2.jpg?v=1732725721	C002
+8823421108463	MMEHUILLET FOR DUMA - Seonyul Top | Green	Seonyul Top combines classic sophistication with a modern twist. Featuring a structured collar that exudes an elegant, polished look while the peplum design flatteringly accentuates the waist. Wear it as it is or add a little bling with our clip-on buttons, this top seamlessly merges fashion-forward style with tailored elegance.	100% Polyester	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/SeonyulTopGreen-2.jpg?v=1732725653	C002
+8211461472495	Bronte Top Maroon	Our best-selling Bronte top in a special holiday color! This long-sleeved top is one of the essential piece created for our newest collection. It’s crafted from soft breathable cotton with a touch of stretch and features a draped square neck top and bolero style fitted sleeves. Easily style with your go to pants for an elevated look in seconds.	100% Cotton	ALL SIZE	475000.0	http://dumaofficial.com/cdn/shop/files/BronteTopMaroon.jpg?v=1701949525	C002
+8897112965359	Matchia Top | Green Multi	This sleeveless tweed top combines classic elegance with a modern touch, featuring a tweed fabric in a chic checkered pattern. The covered button closure adds a refined touch, while the rounded hem with a front slit enhances movement and creates a flattering, elongated look. Whether paired with tailored trousers for a professional setting or styled with denim for a casual yet refined look, this tweed top is a wardrobe essential for effortless sophistication.	Poly Blend	Small, Medium, Large	560000.0	http://dumaofficial.com/cdn/shop/files/MATCHIATOP-5.jpg?v=1741927670	C002
+8005163909359	Elia Dress Bone	Designed from a lightweight fluid woven shirting fabric, this scoop neck tank top dress featuring panels that creates the perfect a-line fit with slimming silhouette is definitely a wardrobe staple for you all year round!	100% Japanese made Premium Polyester	1, 2	600000.0	http://dumaofficial.com/cdn/shop/products/EliaDressBone-2.jpg?v=1677200769	C001
+8664988549359	Malia Knit Dress | Navy	Channeling this season's key trend of dropped-waist silhouettes, we designed and knitted this dress from soft and stretchy nylon fabric and has a form-fitting top half and flared mini skirt, with on-tone stripe textures for a more modern appeal.	100% Nylon	ALL SIZE	685000.0	http://dumaofficial.com/cdn/shop/files/MALIADRESSNAVY-2.jpg?v=1720522351	C001
+8196079255791	Remy Tee Grey	An essential everyday fitted t-shirt, designed with a crew neck fit and a buttery soft feel. Perfect to wear alone or as a layering piece, this body-hugging tee is a must for everyone's capsule wardrobe!	90% Polyester, 10% Elastane	S, M, L	285000.0	http://dumaofficial.com/cdn/shop/files/RemyTeeGrey.jpg?v=1700779596	C002
+8913521967343	Ruche Cardigan | Cream	This cream-colored knit top knitted from the softest viscose yarns is cozy yet stylish. It features a ruffled trim along the button-up front, decorated with pearl-like buttons for an elegant touch. The ruffles also accent the hem and cuffs, adding a feminine charm. With its classic round neckline and comfortable fit, this cardigan that also doubles as a top is perfect for both casual and dressy outfits.	Soft Viscose	ALL SIZEMeasurement :	685000.0	http://dumaofficial.com/cdn/shop/files/RucheCardiganCream-4.jpg?v=1741924975	C003
+8329468575983	Ara Dress Black	Our Ara dress is designed with a laid back silhouette, perfect for attending your Ramadhan festivities, our to use for everyday styling. Crafted from our special lace brocade, this dress is a free flowing piece, featuring front button openings and accentuated sleeves, and includes an inner cotton dress.	100% Polyester	ALL SIZE	1500000.0	http://dumaofficial.com/cdn/shop/files/AraDressBlack.jpg?v=1711026496	C001
+7739104919791	Julian Dress Brown	Knitted from very soft and elastic viscose yarns, this relaxed fit shirt dress features a straight fit and front pocket flaps for a laid-back, casual silhouette. The sleeve cuff and buttons	SOFT VISCOSE	ALL SIZE	665000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard2.jpg?v=1657767965	C001
+7894126461167	Shilpa Dress Denim Blue	Mini dress made from 100% Tencel denim. It's shaped to a voluminous silhouette with the perfectly constructed boat neckline that gives a feminine touch, and finiished with dainty shell buttons fastening. Style it with a hat and sandals on warm days, or your favorite pair of sneakers on a casual errands day!	100% TENCEL	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/products/ShilpaDenim_2.jpg?v=1666741920	C001
+8005157617903	Orca Shirt Black	An elevated wardrobe staple, this structured short sleeve shirt is cut from a premium stretc fabric, finished with side slit, pointed flat collar, front button fastening and the perfect contouring slim fit for an effortless look. Complete the look by pairing it with our Martis flared pants for an effortless polished look.	100% Japanese made Premium Polyester	1, 2	675000.0	http://dumaofficial.com/cdn/shop/products/OrcaShirtBlack.jpg?v=1677143358	C002
+8037940429039	Yanza Dress Navy	In efforts of combining the comfort of knits, the elegance of printed silk, and unrestricted silhouette, we've created this dress for all the women out there. Long sleeve midi dress with basic crew neck, soft cotton knit and lustrous satin fabric combination, loose relaxed fit, slit on hem. Perfect for an easy throw on outfit!	Knit: 100% CottonPrint Fabric: 100% Polyester	ALL SIZE	700000.0	http://dumaofficial.com/cdn/shop/products/YanzaNavy1.jpg?v=1681273384	C001
+8913102569711	Orega Blazer | Black Multi	This black and white tweed blazer features a classic checkered pattern with a structured silhouette. It has a notched lapel, a single-button closure, and two front pockets with frayed trim	Poly Blend	1, 2	720000.0	http://dumaofficial.com/cdn/shop/files/OregaBlazerBlack.jpg?v=1741855069	C003
+8117368979695	Vallen Outer Pink	Designed for a minimal look with our signature japanese preminum polyester fabric in a limited edition pink color, this jacket has a perfectly cropped silhouette and tailored fit with a special touch of gold button closure in the center front of the jacket. Perfect to throw on all year round!	100% Japanese made Premium Polyester	ALL SIZE	625000.0	http://dumaofficial.com/cdn/shop/files/VallenOuterPink.jpg?v=1695117414	C002
+8145570005231	Bronte Top Brown	This long-sleeved top is one of the essential piece created for our newest collection. It’s crafted from soft breathable cotton with a touch of stretch and features a draped square neck top and bolero style fitted sleeves. Easily style with your go to pants for an elevated look in seconds.	100% Cotton	All Size	475000.0	http://dumaofficial.com/cdn/shop/files/BronteTopBrown.jpg?v=1697776183	C002
+9024414941423	Tan Pants | Pink	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium	685000.0	http://dumaofficial.com/cdn/shop/files/TanPantsPink1.jpg?v=1753698350	C005
+8218753532143	Carli Knit Sweater Grey	Expertly crafted knit sweater in two-tone twisted yarns prefect for the holidays. This seamless sweater is made from premium cotton yarns that's equal part soft and breathable. It's designed with a thick ribbed turtle neck and a ribbed hem for subtle structure.	100% Cotton	ALL SIZE	625000.0	http://dumaofficial.com/cdn/shop/files/CarliKnitSweaterGrey-2.jpg?v=1702572309	C003
+8294599164143	ROSA | Slim Fit Crew Neck in Black	A wardrobe staple offered in classic black, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	All Size (Fit to Large)	525000.0	http://dumaofficial.com/cdn/shop/files/LEN01444-edit.jpg?v=1709004757	C002
+8913498046703	Budan Top | Black	This sleeveless black top features a structured, tailored fit with a button-up front and a subtle flare at the waist, creating an elegant silhouette. Its minimalist design makes it a versatile staple, perfect for pairing with wide-leg trousers, our Tan Pants | Black or a sleek pencil skirt for a refined look.	Poly Blend	Small, Medium, Large	562500.0	http://dumaofficial.com/cdn/shop/files/BudanTopBlack.jpg?v=1741855281	C002
+8498622595311	Sienna Draped Top Black | BACK IN STOCK	Crafted from Soft Buttery knit blend with a fluid hand feel, this black blouse is designed with drapes, fitted sleeves, and a mock neckline. Style it with tailored trousers and kitten heels for the perfect polished look!	90% Polyester, 10% Elastane	ALL SIZE	475000.0	http://dumaofficial.com/cdn/shop/files/SIENNA_TOP_BLACK-5_29e2f62a-e916-446e-9ef7-c2d043af6023.jpg?v=1745991533	C002
+7894080979183	Maya Blazer White	Knitted from soft cotton yarns into the perfect blazer top design and silhouette, finished with shoulder pads and covered buttons. Something you never knew you needed in your capsule wardrobe. Undeniably comfortable, suitable for formal or business casual events, keeps you looking professional yet comfortable for your important meetings. Can't forget how perfect it looks as an outer too! This piece will be your best purchase yet!	100% COTTON	All Size	585000.0	http://dumaofficial.com/cdn/shop/products/MayaWhite_3.jpg?v=1666743049	C002
+8081694392559	Balma Cardigan Navy	Knitted from soft cotton yarns, this tartan plaid cardigan is designed for a slim fit, with a deep v-neckline and fastened with a row of tonal buttons for a uniform finish. It's a wardrobe essential that can be styled multiple ways to create different looks. Pair it with our Kai Shorts for an easy preppy chic look.	100% COTTON	All Size	625000.0	http://dumaofficial.com/cdn/shop/files/BalmaCardiganNavy1.png?v=1688920908	C002
+7955609616623	Ansel Cardigan Green	Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!	Soft Viscose	All Size	535500.0	http://dumaofficial.com/cdn/shop/products/AnselCardiganGreen.jpg?v=1670990565	C002
+9024432537839	Bianna Dress | White	PREORDER 14 WORKING DAYS A classic button-up shirt dress, but designed better and classier. Bianna Dress features a flattering pleated waist that adds graceful movement and structure to the silhouette, a piece that can transition effortlessly from work to weekend. The look is completed with a detachable vegan leather belt that cinches the waist for a defined shape. Fully-lined for comfort and free movement in any kind of occasions.	73% Polyester, 27% Nylon	ALL SIZE	785000.0	http://dumaofficial.com/cdn/shop/files/BiannaDressWhite5.jpg?v=1753852572	C001
+8114152145135	Yarra Dress Navy	This lightweight mini dress is all ruffles and puffs with endless feminine	50% Cotton, 50% Polyester	All Size	700000.0	http://dumaofficial.com/cdn/shop/files/YarraDressNavy-3.jpg?v=1695000721	C001
+8030772199663	Ross Tweed Blazer Blue	Crafted from luxurious tweed fabric, this blazer will make you stand out! Shaped for a double-breasted silhouette, it has a subtly cropped body with a boxy fit and a straight-cut raw hem. Throw it over your plain everyday basics to elevate your look in seconds!	60% Wool Blend, 35% Cotton, 5% Nylon	ALL SIZE	985000.0	http://dumaofficial.com/cdn/shop/products/RossTweedBlazerBlue-3.jpg?v=1680152062	C003
+8145244520687	Morris Pants Beige	A staple pants that everyone needs in their capsule wardrobe. This pant is crafted from stretch premium Japanese polyester fabric and designed as a straight silhouette that taper down the legs and with ankle-length hems, finished with front patch pocket	100% Japanese made Premium Polyester	S, M, L	650000.0	http://dumaofficial.com/cdn/shop/files/MorrisPantsBeige.jpg?v=1697702531	C005
+8959261671663	Quinn Top | Black	This sleeveless top features a sharp tailored collar and a clean front with a hidden side zipper. The standout detail is its open back with a soft, sculptural drape, adding a bold yet elegant touch. Easy to dress up or down, it pairs perfectly with tailored pants or a sleek skirt for a modern, refined look.	100% Japanese made Premium Polyester	ALL SIZE	652500.0	http://dumaofficial.com/cdn/shop/files/QUINNTOPBLACK-1.jpg?v=1747639365	C002
+7946289217775	Chala Pants Red	Get cozy and festive this christmas with our Chala Pants! Knitted from soft cotton yarn into the perfect palazzo knit pants, featuring a high rise, wide leg and a relaxed fit. Pair it with our Cheri Shirt or Molly Cardigan for the ultimate holiday outfit for your festivities!	100% Cotton	1 &amp; 2	665000.0	http://dumaofficial.com/cdn/shop/products/ChalaPantsRed_2.jpg?v=1670387106	C005
+8825021530351	MMEHUILLET FOR DUMA - Daon Top | Black	A must-have piece to add to your capsule wardrobe, Daon Top is the very definition of everyday wear. Knitted from soft yarns into a unique crochet texture, this piece blends both comfort and style into a loose, but flattering fit in neutral color palette. Adorn it with our clip-on rhinestone buttons for a more elevated look that can easily transition from day to night.	100% Polyester	1, 2	650000.0	http://dumaofficial.com/cdn/shop/files/DaonTopBlack.jpg?v=1732724622	C002
+8101884526831	Nika Top Black	Knitted from soft cotton yarns, our Nika Top is an everyday staple perfect to throw on for different occasions throughout your week. With a boxy, cropped fit and front button fastenings, it is equally elegant, chic and comfortable for your everyday wear!	100% Cotton	All Size	600000.0	http://dumaofficial.com/cdn/shop/files/Duma4731-edit1.jpg?v=1692614379	C002
+8773299405039	Galgot Blazer | Black	Focusing on classic tailoring this fall, our leather blazer is crafted with our best-selling leather fabric, and featuring a collarless neckline with most focus on the slimmer fitting, completed with single breasted front button fastening and back vents for comfort movements. Pair it with our Harmel Skirt | Black for the perfect put-together fall outfit.	100% Polyester	ALL SIZEMeasurement :	807500.0	http://dumaofficial.com/cdn/shop/files/EDITERArtboard8.jpg?v=1729132990	C003
+7719008534767	Leya Pants Navy	Cullote pants knitted from soft and elastic viscose yarns featuring a mid-rise, cropped length, and straight fit, perfect for a casual, everyday look. Pair it with our best-selling Dali Top for a matching set!	SOFT VISCOSE	All Size	495000.0	http://dumaofficial.com/cdn/shop/products/Artboard9_505991f6-cfdd-4a6f-8928-1bbcd271dfd9.png?v=1656463544	C005
+7739081359599	Logan Pants Grey	Long Palazzo pants with elastic waistband and the perfect monochrome pattern, with its perfectly relaxed fit and length that gives the slimmest and ellongated leg effect. Easy to style and comfortable to wear, this is definitely a perfect pair for your everyday!	97% Polyamide 3% Elastane	ALL SIZE	680000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard91.jpg?v=1657771259	C005
+8498633998575	Vanya Stripe T-Shirt	Crafted from lyocell-blend that has a soft and fluid touch this long-sleeved T-shirt is cut for a streamlined slim fit, ideal for daily or layering purposes. A true wardrobe essential, it's offered in navy stripes that can easily complement most pieces in your wardrobe.	100% Lyocell Blend	S, M, L	525000.0	http://dumaofficial.com/cdn/shop/files/VANYALONGSLEEVETSHIRT-3.jpg?v=1715740450	C002
+7950403731695	Rami Cardi Tosca	Knitted from soft cotton yarns into the perfect christmas color pointelle knit pattern! Snug and comfy, this cardigan will be the perfect company for your holiday festivities! Pair it with our priya shorts as a set for a homey look, or with our Rafa Pants for a more put together look this holiday season!	100% Cotton	1 &amp; 2	650000.0	http://dumaofficial.com/cdn/shop/products/RAMITOSCA5.jpg?v=1670553553	C003
+8218772144367	Sully Maxi Dress Black	With this dress, we reimpreted classic tailoring into a more modern route. Tailored pants inspired maxi dress crafted from premium Japanese polyester, A-line loose silhouette, slit down the middle, and a sew-ed in mesh t-shirt on top. The perfect understated option for an end of year event.	100% Japanese made Premium Polyester	ALL SIZE	700000.0	http://dumaofficial.com/cdn/shop/files/SullyMaxiDressBlack.jpg?v=1702537264	C001
+8196122083567	Laurent Vest Cardigan Black	An elevated two-in-one piece featuring an oversized cardigan and a sewn-in vest top inside to keep you warm and stylish during your travelling days. Pair it with our best selling Pralu pants for a comfy and minimalistic, stylish look.	Soft Viscose	ALL SIZE (FIT TO XL)	650000.0	http://dumaofficial.com/cdn/shop/files/LaurentVestCardiBlack.jpg?v=1700778153	C003
+9000453538031	Eve T-shirt | Cedar	PREORDER 25 WORKING DAYS A classic everyday T-shirt, offered in cedar. Designed with a classic crew neckline and a flattering straight cut, this top is crafted from a silky-soft rayon blend with a touch of stretch for maximum comfort and versatility. The clean silhouette hits at the ideal length to pair with just about anything.	56,5% Rayon, 31,2% Polyamide, 12,3% Spandex	Small, Medium	495000.0	http://dumaofficial.com/cdn/shop/files/EVET-SHIRTCEDAR2.jpg?v=1750852767	C002
+8253781967087	Lesley Jeans Sand	Denim trousers is a definite staple for your wardrobe, especially this pair as they're comfortable and fits like a glove. This pair is shaped for a flared silhouette with full-length legs and slits at cuffs that will make your legs looks super long and slim. They're crafted from a stretch cotton denim for lightness and comfort it won't feel like your wearing jeans at all!	100% Cotton	S, M, L	552300.0	http://dumaofficial.com/cdn/shop/files/LesleyJeansSand.jpg?v=1706096384	C005
+8060379463919	Chantal Dress White	Knitted from pure cotton yarns into the perfect straight fit mini shirt dress. Featuring front pearl buttons closure, Hand stitches	100% Cotton	1 and 2	785000.0	http://dumaofficial.com/cdn/shop/files/ChantalDressWhite-2.jpg?v=1685034367	C001
+8036433690863	Malha Puffy Shirt White	This shirt is a versatile staple, elevated with some of our signature design	100% Tencel	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/products/MalhaShirtWhite.jpg?v=1681097006	C002
+8896418152687	Riri Pants | Light Denim	These barrel-leg denim pants are designed for comfort and style, featuring a high-waisted fit and a slightly curved silhouette. The medium-wash denim gives them a timeless, classic look, while the unique panel stitching at the bottom adds a distinctive touch. The relaxed fit ensures ease of movement, making them perfect for both casual outings and stylish everyday wear.	100% Cotton	Small, Medium, Large, XL	700000.0	http://dumaofficial.com/cdn/shop/files/RIRIPANTSLIGHTDENIM-2.jpg?v=1740439565	C005
+8792577900783	Mandez Pants | Denim Blue	The newest addition to our denim pants collection, Mandez Pants | Denim Blue is a pair of versatile straight pants that’s going to match any top you have. Made from stretchy medium-weight washed denim, this piece accentuates your legs in just the right places. Completed with a bit of washed effect that gives dimension and detail to this pants of the season.	70% cotton, 27% viscose, 3% elastane	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/ERINADENIMSHIRT-2_0b053d73-b4ea-4b0a-b6d9-079ff72332c0.jpg?v=1729137486	C005
+8081686429935	Azia Top Cream	Beautifully knitted vest made from 100% recycled polyester designed in a contoured fit completed with black scallop trimmings and fastened with horn buttons, creating a sophisticated look. Pair it with our Pralu Pants or Mare Skort to get an effortlessly chic summer look.	Recycled Polyester	All Size (Fit to M)	725000.0	http://dumaofficial.com/cdn/shop/files/AziaTopCream2.png?v=1688954972	C002
+8030790746351	Lesley Jeans Denim	Denim trousers is a definite staple for your wardrobe, especially this pair as they're comfortable and fits like a glove. This pair is shaped for a flared silhouette with full-length legs and slits at cuffs that will make your legs looks super long and slim. They're crafted from a stretch cotton denim for lightness and comfort it won't feel like your wearing jeans at all!	100% Cotton	S, M, L, XL	789000.0	http://dumaofficial.com/cdn/shop/products/LesleyJeansDenim-3.jpg?v=1680152157	C005
+8860251521263	Wang Top | Mustard	The very definition of edgy elegance — Wang Top features a cinched waist that accentuates your silhouette flatteringly. The design showcases a unique wavy placket, adding a touch of contemporary flair. Made from a structured fabric with slight sheen, it offers both sophistication and edge. Adorned with a row of unique handmade floral appliqués with snap buttons as the front opening, Wang Top is a gorgeous head-turner for that long-awaited special occasion.	100% Polyester	1, 2	725000.0	http://dumaofficial.com/cdn/shop/files/WANGTOPMUSTARD-2.jpg?v=1736913980	C002
+8252043657455	Hua Dress Red	Inspired by Chinese floral petals, this simple stretch neoprene dress has a fitted body and an A-line skirt, with intricate floral petal	100% Polyester	S, M, L	800000.0	http://dumaofficial.com/cdn/shop/files/HuaDressRed.jpg?v=1705996339	C001
+8114155389167	Gilia Jeans Denim Dark Blue	Inspired by the '70s, our Gilia Jeans is designed with a high-rise waist and wide bootcut hems. Finished with two front pockets and two back pockets, washed to the perfect light denim blue shade with fading at thighs to feel the vintage vibe. The perfect new pair of jeans that you definitely need to get your hands on!	Cotton Spadex	Small, Medium, Large	710100.0	http://dumaofficial.com/cdn/shop/files/GILIA_JEANS_DENIM_DARK_BLUE-3.jpg?v=1748527509	C005
+8218779877615	Laurent Cardigan Vest Tosca	Our best selling Laurent vest cardigan in a limited edition color! An elevated two-in-one piece featuring an oversized cardigan and a sewn-in vest top inside to keep you warm and stylish during your travelling days. Pair it with our best selling Pralu pants for a comfy and minimalistic, stylish look.	Soft Viscose	ALL SIZE (FIT TO XL)	650000.0	http://dumaofficial.com/cdn/shop/files/LaurentVestCardiTosca.jpg?v=1702537058	C002
+8307538493679	Garnet Maxi Skirt Navy	Our take in creating the perfect maxi skirt, cut from silky premium satin fabric and the perfect dark navy hue. It is shaped to hug the waist and hip perfectly, flows to a flared hem, and finished with an elasticated internal waistband.	100% POLYESTER	S, M, L	575000.0	http://dumaofficial.com/cdn/shop/files/GarnetMaxiSkirtNavy.jpg?v=1710166046	C006
+8005294457071	Nadine Top Black	Crafted from soft cotton yarns, this lightweight knit top is accentuated with diagonal stitch line and scalloped edge	100% Cotton	All Size ( Fit To Medium )	550000.0	http://dumaofficial.com/cdn/shop/products/NadineTopBlack-6.jpg?v=1680152729	C003
+7451870724335	Congratulations Card	Congratulate your special someone with this card ! Paper size : A6 Notes: Information:1. Kindly Please chat our customer service for additional notes2. If there is no custom text, the gift card will be sent in Blank card	\N	A6	10000.0	http://dumaofficial.com/cdn/shop/products/Artboard4_81325608-de28-4639-8ba3-dc366363cbe6.jpg?v=1637311764	C004
+7946294001903	Cheri Shirt Red	Boxy cut shirt knitted from soft cotton yarns in the most perfect shades of christmas! The perfect mix of feminine and boyish, cozy and put together look. Comfortable to wear, easy to style. Pair it with our Chala Pants this holidays season fro the perfect cozy christmas outfit to attend your year end festivities.	100% COTTON	All Size	287500.0	http://dumaofficial.com/cdn/shop/products/CheriShirtRed_4.jpg?v=1670555597	C002
+8825036570863	MMEHUILLET FOR DUMA - Blind Box Button	SHIPMENT: 26-27 December 2024 Indulge in the thrill of discovery with our Detachable Floral Button Blind Box! Each box contains 10 unique, randomly selected buttons, featuring a dazzling array of rhinestone floral designs in various colors. From soft pastels to bold hues, every button offers a chic, customizable accent for your wardrobe. Inner button’s size = up to 14 mm / 1.4 cm	\N	\N	850000.0	http://dumaofficial.com/cdn/shop/files/Photo-ProductArtboard-40.png?v=1732770893	C008
+8218770833647	Peggy Peplum Top Black	Classically romantic style with a dose of vintage charm, this peplum top is cut from premium Japanese made polyester for its structure and tailored feel. It has a blazer collar, a row of gold heart buttons and a flattering peplum. Pair it with jeans for a timeless date night look, or switch to our Glacer mini skirt for your next holiday party!	100% Japanese made Premium Polyester	1, 2	562500.0	http://dumaofficial.com/cdn/shop/files/PeggyPeplumTopBlack.jpg?v=1702537346	C002
+7471421260015	Peter Tencel Shirt	Button Up Shirt with rouned collar, pleated	TENCEL™ Modal	ALL SIZE	250000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.44.10_1.jpg?v=1638927171	C002
+8005158142191	Sofia Top Brown	Designed from a premium stretch woven fabric, this open collar sleeveless top features oversized lapels with a deep-v-neck, bust darts and panels to highlight the silhouette and front snap button closure and hidden side pockets for a clean look with elevated comfort.	100% Japan made Polyester	1, 2	650000.0	http://dumaofficial.com/cdn/shop/products/SofiaTopBrown-2.jpg?v=1677201261	C002
+8913633804527	Crimson Pants | Beige	Stay effortlessly stylish with these barrel-leg cropped pants, designed for both comfort and versatility. The relaxed silhouette features a flattering high rise and a unique elasticized waistband at the back for an easy, flexible fit. Perfect for casual days or dressing up with heels, these pants offer a modern, laid-back vibe to elevate any outfit.	Cotton Poly Blend	Small, Medium, Large	416500.0	http://dumaofficial.com/cdn/shop/files/CrimsonPantsCream-6.jpg?v=1741926347	C005
+8742187466991	Mimosa Satin Skirt | Blue	The popular ankle-length satin skirt, redefined by us. Crafted from silky smooth satin fabric in the prettiest turquoise blue shade, Mimosa Satin Skirt | Blue flows down your silhouette elegantly. Prioritizing comfort and ease, we created this skirt with a side zipper opening and elasticated waistband. And as the final touch is a beautiful Iris flower to achieve that simple yet significant look.	100% Polyester	Small, Medium	510000.0	http://dumaofficial.com/cdn/shop/files/MIMOSASATINSKIRTBLUE-5_c226f2ba-7532-4d7e-b897-a8938dd8d0bb.jpg?v=1724885530	C006
+8307532005615	Ruby Top White	Cut and sewn from our all time favorite premium Japanese polyester fabric, we put a tweak to a simple tanktop by giving a puffed peplum panels on the side. Playful yet still simple, perfect to throw on for simple events or casual day out with friends!	100% Japanese made Premium Polyester	1, 2	416500.0	http://dumaofficial.com/cdn/shop/files/RubyTopWhite.jpg?v=1710166292	C002
+8082188796143	Pralu Pants Black | BACK IN STOCK	Our Pralu Pants is crafted for a flared fit that complements every body type! This pants surely does the trick of elongating your legs and creating the most flattering fit out of a women's legs, not to mention its super soft and stretchy fabric. Certainly a must have in everyone's wardrobe essential.	90% Polyester, 10% Elastane	S, M, L, XL	590000.0	http://dumaofficial.com/cdn/shop/files/PRALUPANTSBLACK-2.jpg?v=1745989517	C005
+8060442575087	Becca Maxi Skirt White	A must have, wardrobe essential for the upcoming season. Denim skirt made of soft and stretchy denim that's left at a natural white color, shaped for a slimming and elongating fit and featuring back slit, belt loops, and hook and bar closure. Embrace the '90s denim-on-denim look by wearing it with the matching Rubie crop shirt.	97% Cotton, 3% Spandex	1 (XS-S), 2(M-L)	675000.0	http://dumaofficial.com/cdn/shop/files/BeccaMaxiSkirtWhite.jpg?v=1685003204	C006
+8897219920111	Iggy Top | Olive	Elevate your everyday style with our Iggy Top! Crafted from soft and stretch viscose yarn with ribbed detailing, this top exudes a modern and effortless appeal. This tank design features an off-center placket with tonal buttons, and a flattering, form-hugging fit. Pair it with your favorite high-waisted jeans for a casual-chic look or layer it under a blazer for a polished finish—versatile and stylish, it's a must-have staple for any wardrobe.	Soft Viscose	ALL SIZE (Fit To L)	450000.0	http://dumaofficial.com/cdn/shop/files/IGGYTOPOLIVE-6.jpg?v=1740458001	C002
+8667285913839	FIONA  | Regular Fit Crew Neck T-shirt in Olive	A classic everyday T-shirt, offered in olive green. Crafted from a special cotton blend that’s soft to the touch, this versatile crew neck top is cut for a straight cut with the perfect length to pair with just about anything.	100 % Cotton Blend	Small, Medium, Large	495000.0	http://dumaofficial.com/cdn/shop/files/FionaOlive-2.jpg?v=1720506017	C002
+8196265967855	Vesper Pants Brown	Crafted from premium Japanese polyester fabric, we have take a quiter approach to the utility trend and made the perfect seasonless cargo pants for you. Shaped with wide legs, panel detailings, and enlarged signature cargo pockets on the either leg. Style them with the coordinating vest.	100% Japanese made Premium Polyester	1, 2	665000.0	http://dumaofficial.com/cdn/shop/files/VesperPantsBrown.jpg?v=1700779739	C005
+8913104109807	Gome Shorts | Black Multi	Designed with a mid-waist and tailored fit, these classic checked pattern tweed shorts offer a chic silhouette that transitions seamlessly from day to night. With added fray	Poly Blend	1, 2	445500.0	http://dumaofficial.com/cdn/shop/files/GomeShortsBlack.jpg?v=1741855095	C005
+8211495256303	Aubrey Denim Midi Skirt	We took the classic appeal of one of our best selling skirts and turn it into this voluminous flared midi skirt. Crafted from rigid cotton denim and shaped with cut panels to get the a more exaggerated flare, finished with contrast stitchings and front button fastenings.	100% Cotton	S, M, L	725000.0	http://dumaofficial.com/cdn/shop/files/AubreyDenimMidiSkirt.jpg?v=1701935413	C006
+7571094995183	Dupone Pants | Sorbet Tone	High Waisted Knit Palazzo pants featuring a high rise, flared style and a relaxed fit. Knitted from soft cotton yarns with the perfect color combination and the perfect fitting silhouette. This pants is equally comfortable and fashionable, perfect for any occasion!	100% Cotton	S -M , M - L	665000.0	http://dumaofficial.com/cdn/shop/products/Artboard93_1a854984-5681-4f4e-a981-fa4b9e35ce4d.png?v=1645669910	C005
+8913631740143	Crimson Pants | White	Stay effortlessly stylish with these barrel-leg cropped pants, designed for both comfort and versatility. The relaxed silhouette features a flattering high rise and a unique elasticized waistband at the back for an easy, flexible fit. Perfect for casual days or dressing up with heels, these pants offer a modern, laid-back vibe to elevate any outfit.	Cotton Poly Blend	Small, Medium, Large	416500.0	http://dumaofficial.com/cdn/shop/files/CrimsonPantsWhite-3.jpg?v=1741926196	C005
+8665184633071	Lucca Linen Vest | White	Elevate your look this summer with our Lucca Linen Vest. Crafted from our pinstripe linen fabrication, this style forms a figure-hugging silhouette with a tailored finish. The sleeveless vest is defined by its deep U-shape neckline and princess lines for a more cinched figure. This natural white and black pinstripe top secures with front button closure and curved front hem. Pair it with the Ralf Linen Pants or Alba Linen Skirt for an easy vacation outfit.	100% Linen	Small, Medium, Large	550000.0	http://dumaofficial.com/cdn/shop/files/LUCCALINENVESTWHITE-5.jpg?v=1720522323	C002
+8037925126383	Chai Blazer Shirt Navy	Tailored from smooth and lustrous satin print fabric in a double-breasted, slightly oversized silhouette. It has a face framing peak lapels with a structured tailoring front body design, and a relaxed shirt silhouette design on the back. Perfectly comfortable to wear yet still appropriate for formal occasions.	100% Polyester	ALL SIZE	585000.0	http://dumaofficial.com/cdn/shop/products/ChaiNavy1.jpg?v=1681272956	C002
+8824609833199	MMEHUILLET FOR DUMA - Sona Outer | White Multi	Introducing Sona Outer, a multifunction outer/top with a relaxed and contemporary boxy fit. Its short sleeves make this outer an ideal piece for layering over both casual and dressy outfits, and the single button opening adds up on the unique	100% Polyester	1, 2	700000.0	http://dumaofficial.com/cdn/shop/files/SonaOuterWhite-2.jpg?v=1732725404	C003
+7471338193135	Gale Skirt Navy	Knit Skirt with three ribbing styles that gets wider from the waist to the hem, which flatters one's figure perfectly! Knitted from soft cotton yarns, with comfortable elastic waistband and A-line silhouette. Pair it with our Marilou Top for the most sophisticated, elegant look this holiday season!	100% Cotton	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at17.25.34_1.jpg?v=1638893503	C006
+8158401396975	Kano Set Light Blue	Our cropped cardigan and adjustable tank top set is a seasonless essential that can be worn as a set or separates. Lightweight knitwear pieces, with point collar and button front fastening cardigan, completed with an adjustable strap basic tanktop. Perfect for any look you're going for any time of day!	100% Cotton	1, 2	600000.0	http://dumaofficial.com/cdn/shop/files/KanoSetLightBlue.jpg?v=1698311425	C002
+8252028420335	Rohe Tweed Outer Red	Meticulous craftmanship brings unparalleled elegance. Featuring an old-fashioned Chinese coin purse for a symbol of good fortune this CNY season. This jacket has a straight boxy silhouette to give it a youthful feel, and finished with perfect tailoring and covered buttons front closure. Model : 175 cm	100% Wool	ALL SIZE	780000.0	http://dumaofficial.com/cdn/shop/files/RoheeTweedOuter.jpg?v=1706001671	C003
+9000475033839	Eve T-shirt | Black	PREORDER 25 WORKING DAYS A classic everyday T-shirt, offered in classic black. Designed with a classic crew neckline and a flattering straight cut, this top is crafted from a silky-soft rayon blend with a touch of stretch for maximum comfort and versatility. The clean silhouette hits at the ideal length to pair with just about anything.	56,5% Rayon, 31,2% Polyamide, 12,3% Spandex	Small, Medium	495000.0	http://dumaofficial.com/cdn/shop/files/EVET-SHIRTBLACK1.jpg?v=1750785504	C002
+8824629395695	MMEHUILLET FOR DUMA - Baram Pants | Denim Blue	A pair of versatile pants to wear on repeat, Baram Pants was thoughtfully designed with a straight-leg silhouette that provides a timeless and flattering look. The soft and stretchy denim offers freedom of movement all day, everyday. Detailed with small front pockets that add functionality and a touch of uniqueness to the overall look. Pair it with any top in your wardrobe, or wear it as a set with our Sunsu Shirt.	70% cotton, 27% viscose, 3% elastane	Small, Medium, Large	750000.0	http://dumaofficial.com/cdn/shop/files/BaramPantsDenimBlue.jpg?v=1732725272	C005
+8234756931823	Grego Leather Blazer Blue	The silhouette of this leather jacket is inspired by the classic pea coats. Tailored with a double-breasted closure, it's crafted from buttery faux leather and shaped with softly padded shoulders, notch lapels, and a full lining for easy layering. For a complete set, wear with our matching Glacer Skirt.	100% Polyester	All Size	696500.0	http://dumaofficial.com/cdn/shop/files/LeatherBlazerBlue.jpg?v=1704530946	C002
+8304600350959	Estelle Cardigan Navy | BACK IN STOCK	Knitted from soft cotton yarns with sophisticated flower	100% Cotton	ALL SIZEMeasurement :	615000.0	http://dumaofficial.com/cdn/shop/files/EstelleCardiganNavy.jpg?v=1710165623	C003
+9024418152687	Vento Short | Blue Multi	Vento short was designed with a beachy spirit in mind — featuring fun denim blue and cream stripes and a breathable crochet knit texture. Cut in a flattering boxy silhouette with a soft stretch waist, this piece is easy to wear from sunrise to sundown. Whether you’re lounging poolside or strolling by the coast, this piece slips effortlessly into your summer escape wardrobe. Pair it with our Iroco Top for a cute, coordinated look, or mix it with Cielo Shirt for a more laid-back vibe.	Recycled Polyester	1, 2	585000.0	http://dumaofficial.com/cdn/shop/files/VentoShortBlueMulti1.jpg?v=1753852772	C005
+8667282800879	FIONA  | Regular Fit Crew Neck T-shirt in White	A classic everyday T-shirt, offered in classic white. Crafted from a special cotton blend that’s soft to the touch, this versatile crew neck top is cut for a straight cut with the perfect length to pair with just about anything.	100 % Cotton Blend	Small, Medium, Large	495000.0	http://dumaofficial.com/cdn/shop/files/FIONATOPWHITE-5.jpg?v=1745991899	C002
+8818175770863	Ang T-Shirt | Black	Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a black tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	445500.0	http://dumaofficial.com/cdn/shop/files/AngT-ShirtBlack-1.png?v=1731576096	C002
+8145623580911	Harlow Pants Black	Crafted from premium Japanese polyester, this pants gives you two silhouettes - a wide legged and a jogger fit, depending on the adjustment of the hem button. Designed to sit mid waist, they are finished in classic black and elevated with belt loops, front pleats and centre folds for tailored style.	100% Japanese made Premium Polyester	1, 2	325000.0	http://dumaofficial.com/cdn/shop/files/HarlowPantsBlack.jpg?v=1697775884	C005
+8060711141615	Ira Crop T-shirt White	Crafted from a sustainable premium Japanese polyester fabric that is luxuriously soft and cooling, this crop top is has the perfect fit with a straight cut, round neck and clean finishing. Pair it with the cargo pants for a cool and stylish look that provides all day comfort!	75% Polyester, 25% Cotton	1, 2	525000.0	http://dumaofficial.com/cdn/shop/files/IraCropTshirtWhite-3.jpg?v=1685033743	C002
+7894084026607	Dorka Polo White	﻿This striped polo shirt is knitted from soft cotton yarns into a the perfectly boxy and oversized fit. A seasonless and casual piece that you'll find yourself getting too attatched to all year round. Pair it with your favorite denim pants for a casual day out!	100% COTTON	All Size	650000.0	http://dumaofficial.com/cdn/shop/products/DorkaWhite_2.jpg?v=1666604151	C002
+8158407131375	Kano Set Sage	Our cropped cardigan and adjustable tank top set is a seasonless essential that can be worn as a set or separates. Lightweight knitwear pieces, with point collar and button front fastening cardigan, completed with an adjustable strap basic tanktop. Perfect for any look you're going for any time of day!	100% Cotton	1, 2	600000.0	http://dumaofficial.com/cdn/shop/files/KanoSetSage.jpg?v=1698311525	C002
+8110077411567	Marion Top White Denim	Matching sets are key for the upcoming season, and the cropped length of this sleeveless top balances the coordinating mini skirt. It is crafted from washed dark blue denim and designed with halter neck and pointed collar, front button fastenings and banded waist. Wear it as a pair with our Khanyo skirt.	100% Cotton	All Size (Fit to M)	550000.0	http://dumaofficial.com/cdn/shop/files/MarionTopWhite.jpg?v=1695111191	C002
+8196275405039	Vesper Pants Blue	Crafted from premium Japanese polyester fabric, we have take a quiter approach to the utility trend and made the perfect seasonless cargo pants for you. Shaped with wide legs, panel detailings, and enlarged signature cargo pockets on the either leg. Style them with the coordinating vest.	100% Japanese made Premium Polyester	1, 2	465500.0	http://dumaofficial.com/cdn/shop/files/VesperPantsBlue.jpg?v=1700779670	C005
+7894089662703	Kano Set White	Our cropped cardigan and adjustable tank top set is a seasonless essential that can be worn as a set or separates. Lightweight knitwear pieces, with point collar and button front fastening cardigan, completed with an adjustable strap basic tanktop. Perfect for any look you're going for any time of day!	100% COTTON	ALL SIZE ( FIT TO MEDIUM )	600000.0	http://dumaofficial.com/cdn/shop/products/KanoWhite_e3246a5d-b331-47b8-80a7-c4f56c574615.jpg?v=1666604537	C002
+8913520754927	Chena Cardigan | Black	This elegant black knit cardigan features a timeless round neckline, chic button	Nylon Blend	ALL SIZEMeasurement :	685000.0	http://dumaofficial.com/cdn/shop/files/ChenaCardiganBlack-2.jpg?v=1741925175	C003
+8947908444399	Pufu Blouse | Blue	This elegant soft Tencel top is a timeless piece that effortlessly blends femininity and sophistication. Featuring delicately pleated flutter sleeves, it adds a touch of volume and grace to the silhouette. The V-neckline with a subtle keyhole cutout and loop button closure creates a refined yet modern detail. Designed in a lightweight, breathable fabric, this top is perfect for both casual and polished looks, making it an essential addition to any wardrobe.	100% Tencel	ALL SIZE	525000.0	http://dumaofficial.com/cdn/shop/files/PUFUBLOUSEBLUE-5.jpg?v=1745989342	C002
+8005163450607	Martis Flared Pants | Black	Cut from premium stretch woven fabric in a high-rise, flared silhouette, these floor-length pants are fitted at the hips and thigh and flared at hem, creating the perfect elongated legs. This pants will be an essential piece in your wardrobe as they're comfortable but still look put together.	100% Japanese made Premium Polyester	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/MARTISPANTSBLACK-4.jpg?v=1745991307	C005
+8947907100911	Pufu Blouse | Pink	This elegant soft Tencel top is a timeless piece that effortlessly blends femininity and sophistication. Featuring delicately pleated flutter sleeves, it adds a touch of volume and grace to the silhouette. The V-neckline with a subtle keyhole cutout and loop button closure creates a refined yet modern detail. Designed in a lightweight, breathable fabric, this top is perfect for both casual and polished looks, making it an essential addition to any wardrobe.	100% Tencel	ALL SIZE	525000.0	http://dumaofficial.com/cdn/shop/files/PUFUBLOUSEPINK-3.jpg?v=1745989433	C002
+8307526140143	Camille Dress Yellow	From our Rosette Collection, this mini dress is shaped for a contoured fit, enhanced by the gathered neckline. We sculpted 3D flower petals on the dress to add a special touch to this simple mini dress.	100% Japanese made Premium Polyester	1, 2	750000.0	http://dumaofficial.com/cdn/shop/files/CamilleDressYellow.jpg?v=1710165594	C001
+7823901360367	Gigi Denim Top	Feminine and chic cropped shirt in the perfect denim shade and boxy fit, finished with an extra touch of shoulder pads that gives a slight masculinity style. Perfect for dailywear, brunches with the ladies, or to more formal dinners. Pair it with our Haylee Skort to build a clean and polished outfit in seconds!	70% Rayon, 30% Polyester	ALL SIZE	485000.0	http://dumaofficial.com/cdn/shop/products/gigi9.jpg?v=1662687449	C002
+8959278416111	Carlo Top | Dark Grey	This sleeveless top features a structured, tailored silhouette with a sharp collar and clean lines. The front opens with a concealed zipper to maintain a minimalist, polished look. Crafted in a textured knit, it subtly hugs the body without clinging, ending in a neat hemline. Versatile and understated, it pairs effortlessly with wide-leg trousers, or our A-line skirt for a sophisticated ensemble.	100% COTTON	1, 2	585000.0	http://dumaofficial.com/cdn/shop/files/CARLOTOPDARKGREY-1.jpg?v=1747640229	C002
+8196307550447	Faye Knit Outer Navy	Made from a loosely knitted rib texture using soft rayon yarns, this maxi cardigan coat has a fluid silhouette with notched collar and an open front. Wear it with the matching dress to elevate your lounge/travel wear.	92% Rayon, 8% Nylon	ALL SIZE (FIT TO L)	455000.0	http://dumaofficial.com/cdn/shop/files/FayeOuterNavy.jpg?v=1700777578	C003
+7975352533231	Suri Top Green	Satin Floral Flowy Top with A-line body silhouette, Adjustable puffed sleeves and covered buttons detailing. The perfect daily top that can easily be dressed up or down. Elevate your simple look by pairing it with our Yuma Skirt to attend your upcoming cny festivities!	100% Polyester	ALL SIZE	585000.0	http://dumaofficial.com/cdn/shop/products/SuriTopGreen.jpg?v=1673496713	C002
+8145477468399	Yeta Cardigan Beige	Tight texture knit made from soft cotton yarns, this double breasted cardigan has deep V-neck, contoured silhouette that envelops the body and balanced by relaxed sleeves. Doubles as a top, this piece is perfect for last minute outfit plannings, day to night looks, and keeping you as sophisticate as ever.	100% Cotton	1, 2	590750.0	http://dumaofficial.com/cdn/shop/files/YetaCardiganBeige.jpg?v=1697785650	C003
+8252047950063	Galena Cardigan Maroon	This V-neck cardigan is knitted from customer's all time favorite soft viscose yarns. Designed for a contoured fit, it has neat ribbed trims and fasted with a row of horn buttons for a sleek finish. It's most definitely a wardrobe essential that will stay with you for a very long time. Model : 175 cm	Soft Viscose	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/files/GalenaCardiganMaroon.jpg?v=1705990800	C003
+8196294607087	Faye Knit Outer White	Made from a loosely knitted rib texture using soft rayon yarns, this maxi cardigan coat has a fluid silhouette with notched collar and an open front. Wear it with the matching dress to elevate your lounge/travel wear.	92% Rayon, 8% Nylon	ALL SIZE (FIT TO L)	455000.0	http://dumaofficial.com/cdn/shop/files/FayeOuterWhite.jpg?v=1700777650	C003
+8006371049711	Eli Top Dark Grey	escription Knitted from soft cotton yarns, this utterly comfy knit top will easily become a staple in every women's wardrobe. As a loungewear or for going out, this top has a very versatile style that you can pair it with any bottom you can possibly think of.	100% Cotton	ALL SIZE	350000.0	http://dumaofficial.com/cdn/shop/products/EliTopGrey-3.jpg?v=1677201588	C002
+7954349326575	Bea Pleats Cardigan Olive	Showcasing our newest pleating technique, our Bea Pleats Cardigan is minimally tailored to a loose yet slimming-fit silhouette, completed with flattering V-neckline and side pockets. Easy to throw on to embolden your everyday outfit, makes you look put together in seconds!	100% Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/products/BEAOLIVE3.jpg?v=1670821189	C002
+8083253723375	Galena Cardigan Navy	This V-neck cardigan is knitted from customer's all time favorite soft viscose yarns. Designed for a contoured fit, it has neat ribbed trims and fasted with a row of horn buttons for a sleek finish. It's most definitely a wardrobe essential that will stay with you for a very long time.	Soft Viscose	All Size	600000.0	http://dumaofficial.com/cdn/shop/files/GalenaCardiganArtboard7.jpg?v=1689081563	C002
+8860169437423	Fuqi Top | Sage	A fusion of modern design and traditional influences. Designed with a refined Chinese collar, the halter neckline adds a distinctive touch with its high, mandarin-inspired style. The top’s silhouette gracefully transitions into a fit-and-flare design, contouring the bodice for a flattering fit. Completed with a back zipper opening for an easy and comfortable wear.	100% Polyester	1, 2	675000.0	http://dumaofficial.com/cdn/shop/files/FUQITOPSAGE-1.jpg?v=1736841696	C002
+8792602018031	Jennie Tanktop | Taupe	An essential for your daily wardrobe, especially those warmer days. Offered in a warm brown tone, it’s crafted from soft lyocell blend and has a streamlined slim fit with endless styling opportunities - wear it alone or layered under shirts and blazers.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	395000.0	http://dumaofficial.com/cdn/shop/files/JENNIETANKTOPTAUPE-3.jpg?v=1729052579	C002
+7696638836975	Toja Pants Black	Basic pair of pants that you never know you needed! Knitted from soft cotton yarns into the perfect long black pants silhouette, completed with drawstring	100% Cotton	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/products/toja6.jpg?v=1654826677	C005
+8751873523951	Blanc Pants | Denim White	PREORDER 5 WORKING DAYS The perfect pair of straight pants, constructed from a dense white denim to achieve that structured but casual look. A cut that’s going to elongate your legs, combined with the refined denim material, Blanc Pants | Denim White is a versatile staple that’s easy to style and suitable for any season.	70% Cotton, 30% Polyester	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/BLANCWHITEDENIMPANTS.jpg?v=1725937999	C005
+8005165023471	Callan Shirt Dress Bone	Open collar shirt dress featuring an oversized fit, elongated profile, front patch pockets, concealed front button closure and a fluid silhouette for a relaxed take on tailoring. Wear it as it is for a shirt dress look, or layer over your basic go to outfit for an effortless business casual look.	100% Japan made Premium Polyester	All Size	700000.0	http://dumaofficial.com/cdn/shop/products/CallanShirtDressBone.jpg?v=1677142239	C002
+7571085983983	Bagnu Skirt Light Blue	Pleated Rayon Denim Skirt with a classic and modern silhouette. The pleats dart will make one’s body line looks slim, and the restrained pleats give a luxurious feeling. Completed with side zipper fastening, knee-covering length, and A-line silhouette. This skirt is definitely easy to style with any top and creates an elegant look effortlessly in no time!	70% Rayon, 30% Polyester	S-M , M-L	650000.0	http://dumaofficial.com/cdn/shop/products/Artboard52_c28f70be-295c-4edb-ab84-6cb2024d9f88.png?v=1645669349	C006
+7947446321391	Elfie Sparkly Shorts Maroon	Crafted from soft cotton and lurex blend, shorts are pull on with elastic band. Definitely the perfect choice of outfit for your homey get-together this upcoming holidays season.	95% chenille 5% polyethylene	All Size	135000.0	http://dumaofficial.com/cdn/shop/products/MalachiSweaterRed_5.jpg?v=1670551693	C005
+7946279420143	Molly Cardigan Grey	Get cozy and chic all year round with our Molly Cardigan! Knitted from soft cotton materinal into the most elegant fit and beautifully knitted chenille knit pattern in the perfect Christmas shades, this piece is definitely going to be a crowd pleaser anywhere you go! Pair it with our Chala Pants to get an effortless everyday look in seconds!	100% Cotton	All Size	625000.0	http://dumaofficial.com/cdn/shop/products/MollyCardiganGrey_2.jpg?v=1670388463	C003
+8742181306607	Mimosa Satin Skirt | Black	The popular ankle-length satin skirt, redefined by us. Crafted from silky smooth satin fabric, Mimosa Satin Skirt | Black flows down your silhouette elegantly. Prioritizing comfort and ease, we created this skirt with a side zipper opening and elasticated waistband. And as the final touch is a beautiful Peony flower to achieve that simple yet significant look.	100% Polyester	Small, Medium	510000.0	http://dumaofficial.com/cdn/shop/files/MIMOSASATINSKIRTBLACK-4.jpg?v=1724754267	C006
+8211438960879	Cleo Metallic Cardigan Gold | BACK IN STOCK	Specially knitted with metallic threads to welcome you to the festive season, this cardigan is shaped for a relaxed fit, designed with deep V neckline, ribbed waistband, and completed with sparkly buttons front closure. Can easily pairs with any bottom for your upcoming festivities!	60% Cotton, 40% Polyester	ALL SIZE	645000.0	http://dumaofficial.com/cdn/shop/files/CleoMetallicCardiGold.jpg?v=1701935589	C002
+8986676429039	Getta Cardigan | Olive	SHIPMENT 14 JULY 2025 Wrap yourself in effortless elegance with this soft viscose cardigan, designed for both comfort and style. Featuring a flattering V-neckline and a waist that accentuates your silhouette, this piece brings a refined touch to your day-to-day outfits. Added with a row of vegan leather buttons, for a touch of subtle quirk to this timeless knit.	Soft Viscose	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/files/GETTACARDIGANOLIVE2.jpg?v=1750835921	C003
+8145607033071	Cannolo Skirt Black	This classic midi skirt is made from soft viscose yarns that will last you a lifetime in your capsule wardrobe. It’s offered in timeless black shade and designed with a comfortable thick elasticated waist that flares out to a softly draped A-line hem. Easy to style with any top and definitely elevates any look while staying comfortable!	Soft Viscose	1, 2	625000.0	http://dumaofficial.com/cdn/shop/files/CannoloSkirtBlack.jpg?v=1697775906	C006
+7696634478831	Ganuli Shirt White	Basic button down shirt with v-neckline, flat collar and batwing sleeves. The soft fabric makes this shirt the perfect office attire for your work from office days, keeping you comfy all day while still looking presentable! Pair it with our Toja pants to look effortlessly put together while staying comfortable.	70% Rayon, 30% Polyester	ALL SIZE ( FIT TO M )	500000.0	http://dumaofficial.com/cdn/shop/products/ganuli4.jpg?v=1654826435	C002
+7637780922607	Kamala Skirt Blue	Crafted from soft Tencel fabric, our Kamala Skirt is cut to sit at the slimmest part of your frame, with elastics that makes it comfortable to wear, and flals to a flared midi hemline. Style it with our Acra Top to create an effortless look in seconds!	TENCEL™	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2022-08-23at13.57.31_98e58c43-096e-4b92-a228-836f1650d1a7.jpg?v=1661239097	C006
+7823875801327	Pareo Leather Jacket Brown	Sleek and Luxuriously timeless, our leather jacket is cast in a versatile brown shade and cut to a cropped boxy profile with a pointed collar and three button fastenings through the front and curved hemline. Easy to style and highly versatile, you can easily pull off both informal and formal events!	Vegan Leather 100% Polyester	All Size	750000.0	http://dumaofficial.com/cdn/shop/products/pareo2.jpg?v=1662687871	C003
+8082186469615	Rhoda Top White	This shirt is our contemporary take of a wardrobe essential. Crafted from soft cotton twill fabric, it's shaped for a relaxed fit and has a rounded collar, front panel detail, gathering around the shoulder and back yoke, and slightly puffed sleeves and fastened with gold buttons. Pairs easily with any bottom you have in your wardrobe!	100% Cotton	All Size	575000.0	http://dumaofficial.com/cdn/shop/files/RhodaTopWhite3.png?v=1688954543	C002
+9024414122223	Agea Top | Pink	PREORDER 10 WORKING DAYS Classic but memorable. An A-line cut top in smooth and luxurious fabric that enhances its minimalist appeal. Designed with a clean round neckline and halter cut, Agea is a versatile top that can be worn in any kind of occasions – be it a casual brunch with the girls or a long-awaited dinner date. Pair this flowy piece with our best-selling Tan Pants for a chic, matching set look.	100% Polyester	1, 2	590000.0	http://dumaofficial.com/cdn/shop/files/AgeaTopPink1.jpg?v=1753698181	C002
+7804254978287	Julian Dress Navy	Knitted from very soft and elastic viscose yarns, this relaxed fit shirt dress features a straight fit and front pocket flaps for a laid-back, casual silhouette. The sleeve cuff and buttons	SOFT VISCOSE	ALL SIZE	665000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2022-08-23at13.57.53_bb327a67-a77a-451a-bb11-10c564b5fe3f.jpg?v=1661239446	C001
+8791912448239	Sonnet Jacket | Brown	Jumping into this fall’s suede trend, but with our own twist. This jacket is tailored into a neat slim-fit that still gives space for comfort and movement. Detailed with scooped neckline that exudes elegance and stylish front buckle opening. Sonnet Jacket | Brown is fully-lined and carefully tailored to achieve a structured, luxurious look.	100% Polyester	1, 2Measurement :	720000.0	http://dumaofficial.com/cdn/shop/files/SONNETJACKETBROWN-5.jpg?v=1729052957	C003
+8030781243631	Buckham Blazer White	There's nothing like a good pair of classic blazer that will stay in your wardrobe staple for a very long time. This one in classic White is shaped for a contouring fit with lightly padded shoulders and darts at the front and back to define the waist. This double-breasted blazer is tailored with high peak lapels. and a pair of front flap pockets. Perfect to throw over any outfit to make you look effortlessly put together!	100% Polyester	S, M, L	850000.0	http://dumaofficial.com/cdn/shop/products/BuckhamBlazerWhite.jpg?v=1680145819	C002
+8196115693807	Laurent Vest Cardigan Grey	An elevated two-in-one piece featuring an oversized cardigan and a sewn-in vest top inside to keep you warm and stylish during your travelling days. Pair it with our best selling Pralu pants for a comfy and minimalistic, stylish look.	Soft Viscose	ALL SIZE (FIT TO XL)	390000.0	http://dumaofficial.com/cdn/shop/files/LaurentVestCardiGrey.jpg?v=1700778307	C003
+8304619421935	Aster Dress White	Knitted from soft and elastic cotton fabric into an intricate pointelle pattern detail in classic white, this dress is shaped to a contoured fit that flows down to a slightly flared hem. Perfect for everyday, or even some special occasions!	100% RANY	ALL SIZEMeasurement :	695000.0	http://dumaofficial.com/cdn/shop/files/AsterDressWhite-2.jpg?v=1710170359	C001
+8110077346031	Vanka Top Black	Carefully knitted with the classic tailoring priciple to achieve the silhouette of this waistcoat. With the perfect halter neck design and beautifully contoured waist, completed with front button fastenings and welt pocket flap designs. A classic piece that will complement your body really well!	100% Cotton	1, 2	525000.0	http://dumaofficial.com/cdn/shop/files/VankaTopBlack.jpg?v=1693879875	C002
+8198585417967	Caba Blazer Black	Our Caba Blazer is a special tailoring piece that features a collarless neckline, wide padded shoulders, and a single-breasted close. Offered in the perfect deep black shade that's precisely color-matched to the coordinating Harlow Pants.	100% Japan made Premium Polyester	ALL SIZE	487500.0	http://dumaofficial.com/cdn/shop/files/WhatsAppImage2024-03-30at11.40.11.jpg?v=1711773828	C002
+8897163395311	Acma Shirt Top | Dark Brown	This knit top exudes elegance with its soft drape and smooth texture, offering both comfort and sophistication. Featuring a notched collar and button-down front, it blends classic tailoring with a relaxed, modern feel. The half sleeves provide a balanced look, making it suitable for both warm and transitional weather. The subtly fitted silhouette enhances the figure while maintaining ease of movement, and the split hem detail at the front adds a contemporary touch. Easily style this top with tailored trousers for a polished look or paired with denim for effortless chic.	Rayon Blend	1, 2	520000.0	http://dumaofficial.com/cdn/shop/files/ACMASHIRTTOPDARKBROWN-6.jpg?v=1740458288	C002
+8913121313007	Aluba Top | Navy	This classic navy top is effortlessly stylish and comfortable. It features a relaxed, flowy silhouette with a playful peplum detail for a flattering shape. The short puff sleeves add a touch of femininity, while the soft fabric makes it perfect for all-day wear. A versatile piece that pairs well with both casual and dressy outfits! Pair it with our Protea Skirt | Navy for an easy elegant look!	100% Nylon	ALL SIZEMeasurement :	675000.0	http://dumaofficial.com/cdn/shop/files/AlubaTopNavy.jpg?v=1741855257	C002
+8773349146863	Petto Vest | Black	Inspired by classic tailoring, our Petto Vest | Black is designed with a double-breasted, slightly cropped silhouette, made sleeveless for a more relaxed fit. Easy to throw on and pair with your favorite pants this fall season!	100% Cotton	1, 2	650000.0	http://dumaofficial.com/cdn/shop/files/FDA057A1-844C-436A-9837-C2294DEE58AB.jpg?v=1727750090	C002
+8625233592559	MICOLE | Slim Fit Crew Neck in Grey	A wardrobe staple offered in cool grey shade, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	Small, Medium	400000.0	http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6717-edit.jpg?v=1718842286	C002
+8005292622063	Chantal Dress Black	Knitted from pure cotton yarns into the perfect straight fit mini shirt dress. Featuring front pearl buttons closure, Hand stitches	100% Cotton	1 and 2	785000.0	http://dumaofficial.com/cdn/shop/products/ChantalDress-2.jpg?v=1677199937	C001
+8843362238703	Sorrel Pants | Maroon	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium, Large	595000.0	http://dumaofficial.com/cdn/shop/files/SORRELPANTSMAROON-2.jpg?v=1734484650	C005
+8860267086063	Luna Cardigan Top | Black	Combining comfort and charm, we gave this soft, buttery viscose cardigan our own special touch. Adorned with delicate floral appliqués with snap buttons that add its feminine appeal, and completed with slightly volumized sleeves that give a flattering contrast to its cinched waist. Luna Cardigan Top is both pretty and easy to wear all-day long to your red bao hunting sessions (or any event, really).	Soft Viscose	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/files/LUNACARDIGANTOPBLACK-2.jpg?v=1736900191	C003
+8665208684783	Ralf Linen Pants | White	A versatile addition to your summer pants edit, the Ralf Linen Pants is a relaxed take on traditional suiting. The delicate black and natural white pinstripe colourway features a high-rise silhouette with straight legs. The classic design features belt loops and front button closures. A perfect addition to your summer days, pair it with the Lucca Linen Vest for effortless styling.	100% Linen	Small, Medium, Large	630000.0	http://dumaofficial.com/cdn/shop/files/RALFLINENPANTSWHITE-2.jpg?v=1720522466	C005
+7455634784495	Arlet Top Blue	Knit top made from a slub-melange, ribbed cotton knit that is feminine and attractive. With its long, flared out sleeves that covers the palm of our hand, its V-neckline cut that accentuate one's collarbone and its cropped, straight fit, this top screams elegance and comfort in the most perfect way. Our Arlet Top can be styled in so many different ways; as a top or as a cardigan! Pair it with our Jola Pants for a casual look, or our Paloma Dress for a more sophisticated look.	100% Cotton	All Size	550000.0	http://dumaofficial.com/cdn/shop/products/Artboard71.png?v=1637732182	C002
+8667288600815	BERT  | Regular MEN Fit Crew Neck t-shirt in Black	A light everyday T-shirt, offered in classic black. Crafted from a special cotton blend that’s soft to the touch, it has a classic shape that sits neatly with room for movement through the chest and arms.	100 % Cotton Blend	Small, Medium, Large	550000.0	http://dumaofficial.com/cdn/shop/files/BertBlack-Front.jpg?v=1720576004	C002
+8060419571951	Nello Unisex Tshirt White	Crafted from a soft cotton in an off-white hue, this essential T-shirt is cut for an oversized fit with a dropped shoulder for a relaxed silhouette. The minimal stitching adds a timeless finish, perfect for your capsule wardrobe.	75% Polyester, 25% Cotton	ALL SIZE (FIT TO XL)	595000.0	http://dumaofficial.com/cdn/shop/files/NelloTshirtWhite.jpg?v=1685003332	C003
+8106582376687	Peppa Cardigan Black	Knitted from soft cotton yarns, our Peppa Cardigan is made from our crowd favorite cardigan fitting with beautiful wavy patterns and stripe hem	100% Cotton	All Size	650000.0	http://dumaofficial.com/cdn/shop/files/Duma4662-1-edit1.jpg?v=1693382740	C003
+8082175787247	Tropez Dress Tosca	A modern slip dress with flattering halter neckline that embodies ease and elegance with a volumious a-line drape all in a luminous ombré sliky satin blend. This maxi dress will make an elegant addition to your summer wardrobe.	100% polyester	1, 2	675000.0	http://dumaofficial.com/cdn/shop/files/TropezDressTosca1.png?v=1688920555	C001
+8667287453935	BERT  | Regular MEN Fit Crew Neck t-shirt in White	A light everyday T-shirt, offered in classic white. Crafted from a special cotton blend that’s soft to the touch, it has a classic shape that sits neatly with room for movement through the chest and arms.	100 % Cotton Blend	Small, Medium, Large	467500.0	http://dumaofficial.com/cdn/shop/files/BertWhite-Front.jpg?v=1720576014	C002
+7894087794927	Dianne Cardigan Black	Soft and structured, this cardigan has a relaxed silhouette and casual striped pattern throughout. It is finished with covered button fastenings and the perfect cropped length. A very special piece perfect for versatile styling and easy layering.	100% COTTON	All Size	625000.0	http://dumaofficial.com/cdn/shop/products/AnneBlack_2.jpg?v=1666604068	C002
+8082187518191	Ruston Dress Black	This straight cut mini dress-slash-top is made from our premium japanese stretch polyester. It has side tweed button	100% Japan made Polyester	1 &amp; 2	675000.0	http://dumaofficial.com/cdn/shop/files/RustonDressBlack2.png?v=1688954247	C001
+7833922961647	Piaca Pants Blue Multi	High Waisted Knit Palazzo pants featuring a high rise, flared style and a relaxed fit. This pants is eqully comfortable and fashionable, perfect for any occasion! Pair it with our Sonya Tank Top to create an effortlessly chic outfit in less than 5 minutes.	100% Cotton	SMALL, MEDIUM	665000.0	http://dumaofficial.com/cdn/shop/products/pianapants3.jpg?v=1663292405	C005
+9024430080239	Greno Cardigan Top  | Blue	Our Greno Cardigan Top is a seasonless essential that every wardrobe need. Lightweight knitwear pieces, with point collar and button front fastening cardigan. Perfect for any look you're going for any time of day!	100% COTTON	1, 2	525000.0	http://dumaofficial.com/cdn/shop/files/GrenoTopBlue2.jpg?v=1753852806	C002
+8986642317551	Eloise Top | Black	A sleeveless crochet top featuring a boxy silhouette and rounded neckline. Detailed with front buttons and contrast hand-stitched detail for a refined, artisanal touch. This piece brings texture and polish—perfect for pairing with denim for a casual statement or styled with the matching skirt for a coordinated set.	Recycled Polyester	1, 2	685000.0	http://dumaofficial.com/cdn/shop/files/ELOISETOPBLACK1.jpg?v=1750852301	C002
+8269648298223	Amore Knit Cardigan Pink	Inspired by this season of love, this cardigan is knitted from soft cotton yarns, and with a fuzzy texture. this cardigan is shaped for a relaxed fit, designed with V neckline and completed with gold heart button front closure.	100% Cotton	ALL SIZE	585000.0	http://dumaofficial.com/cdn/shop/files/CardiganPinkKancingHati.jpg?v=1707104490	C003
+8196084859119	Orson Tee Grey	This super soft and buttery long sleeve tee is your perfect everyday or travel wear. Lightweight and breathable, especially designed to fit close to your body without being constrictive or overly warm, this long sleeve tee is works perfectly on its own or as a layering piece.	90% Polyester, 10% Elastane	S, M, L	325000.0	http://dumaofficial.com/cdn/shop/files/OrsonTeeGrey.jpg?v=1700779040	C002
+8307522339055	Peony Top Black	Inspired by the blossoming of flowers, this knit top is made with structured flounce hem detail that gives off a playful elegance. Knitted from soft cotton yarns in classic black, it is shaped into a contoured fit body and blooming hem.	100% Cotton	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/PeonyTopBlack-7.jpg?v=1710230001	C002
+8664908923119	Agatha Shorts | Denim Blue	Upgrade your summer shorts edit with the Agatha Shorts | Denim Blue. Crafted from our soft denim fabric this shorts has a relazed A-line silhouette, front pocket	100% Polyester	Small, Medium, Large	550000.0	http://dumaofficial.com/cdn/shop/files/AGATHADENIMSHORTS-1.jpg?v=1720522004	C005
+9000424341743	Anolo Jacket | White	Add a modern twist to a classic staple with this utilitarian cotton twill jacket, that features a sleek zipper opening and functional pockets. The structured material is balanced with its relaxed cut and elasticated bottom that gives it a stylish, slightly puffy silhouette. An ideal piece for your long-awaited traveling plan – be it for that Insta-worthy airport outfit, or to tackle a cold, windy weather.	100% Cotton	ALL SIZE	950000.0	http://dumaofficial.com/cdn/shop/files/ANOLOJACKETWHITE2.jpg?v=1750851776	C003
+8665129943279	Thoma Vest Top | Medium Stripe	Carefully knitted with the classic tailoring principle to achieve the silhouette of this waistcoat. Stripe knit pattern that is perfect for the summertime, complemented with the perfect halter neck design and beautifully contoured waist, completed with front button fastenings and welt pocket flap designs. A classic piece that will complement your body really well!	Cotton Poly Blend	1, 2	550000.0	http://dumaofficial.com/cdn/shop/files/THOMAVESTTOP_BIGSTRIPE_-3.jpg?v=1720522510	C002
+8860229992687	Lim Top | Sage	A clean-cut top with A-line silhouette that features an elegant combination of modernity and tradition. This piece is designed with puffed cap sleeves that add a touch of flattering contrast to its high collar. The standout feature is a pair of artisanal mandarin buttons — crafted in an intricate design, adding a decorative and functional detail. Made from high-quality structured satin, Lim Top offers a luxurious feel and a slight sheen for that special occasion.	100% Polyester	ALL SIZE	725000.0	http://dumaofficial.com/cdn/shop/files/LIMTOPSAGE-1.jpg?v=1736841829	C002
+7113830465714	Grata Pants Black	Through the handmade knitting process involved, each piece undergoes a natural twist of yarns that are uniquely different. Making an exclusive "twist" in every piece, specially for you. High-waisted flared pants made from a slub-melange cotton knit. With the additional slit detailings, and the flared leg silhouette, this pants will undoubtedly make your legs look longer and slender. Pair it with our Parson Top, you can easily create an effortless chic look in seconds!	100% Cotton	ALL SIZE ( Fit To Medium )	665000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-10-29at21.50.43_2.jpg?v=1635696727	C005
+8901383880943	Gilia Jeans | Denim White	Inspired by the '70s, our Gilia Jeans is designed with a high-rise waist and wide bootcut hems. Finished with two front pockets and two back pockets, this pair comes in a crisp white wash for a fresh, timeless look. The perfect new pair of jeans that you definitely need to get your hands on!	Cotton Spandex	Small, Medium	631200.0	http://dumaofficial.com/cdn/shop/files/GILIAJEANSDENIMWHITE-3.jpg?v=1740546560	C005
+9024394625263	Cielo Shirt | White	Relaxed yet refined, this loose boxy shirt is a modern staple with timeless appeal. Designed with a clean stand collar and wide raglan sleeves, it offers a softly structured silhouette that drapes effortlessly on the body. The airy fit provides ease of movement, while the minimal detailing keeps the look contemporary.	100% Tencel	1, 2	625000.0	http://dumaofficial.com/cdn/shop/files/CieloShortWhite1.jpg?v=1753694648	C002
+8145302880495	Yeta Cardigan Black	Tight texture knit made from soft cotton yarns, this double breasted cardigan has deep V-neck, contoured silhouette that envelops the body and balanced by relaxed sleeves. Doubles as a top, this piece is perfect for last minute outfit plannings, day to night looks, and keeping you as sophisticate as ever.	100% Cotton	1, 2	382250.0	http://dumaofficial.com/cdn/shop/files/YetaCardiganBlack-2.jpg?v=1697702576	C002
+8329480503535	Natia Skirt Pink	An elegant addition to the collection, our Natia Midi Skirt is designed with box pleats that sinches the waist perfectly and falls to a fuller, volumous skirt. Our special brocade fabrication adds an extra tecture to this structured style, midi length and hidden zipper help polished off this silhouette. Pair it with our matching Florence top for the perfect look!	60% Polyester, 40% Cotton	1, 2	435000.0	http://dumaofficial.com/cdn/shop/files/NatiaSkirtPink.jpg?v=1711027270	C006
+8843368300783	Marda Dress | Grey	Chic and versatile, this mini shirt dress is a wardrobe essential. Featuring a button-down front with covered buttons for a sleek look, it’s designed with a box-pleated skirt that adds structure and movement. The matching fabric belt with a buckle detail cinches the silhouette for a flattering, polished look. Perfect for both casual and dressy occasions, this dress combines timeless style with modern sophistication.	100% Polyester	1, 2	450000.0	http://dumaofficial.com/cdn/shop/files/MARDADRESSGREY-1.jpg?v=1734420715	C001
+8498426675439	Miguel Polo Top Black	Reworking the classic polo shirt with our own touch for the season ahead. Offered in classic black, it's crafted from fine polyester yarns to created a structured fit. Design	100% Polyester	1, 2	625000.0	http://dumaofficial.com/cdn/shop/files/MIGUELPOLOTOPBLACK-5_5da7ca94-d3c2-41eb-bdd5-98280cae302e.jpg?v=1715741099	C002
+8773307990255	Harmel Skirt | Black	Focusing on classic tailoring this fall season, this midi skirt is crafted from premium vegan leather fabric with a paneled construction precisely cut in a slim, straight silhouette that perfectly elongates the figure. Finished with back invisible zipper opening and back slit for easy walking. Pair it with our Sienna Top | White for the perfectly elegant fall outfit.	100% Polyester	1, 2Measurement :	582500.0	http://dumaofficial.com/cdn/shop/files/HarmelSkirtBlack-2.jpg?v=1729132955	C006
+8060729688303	Pella Oversized Blazer Charcoal	Designed using premium polyester fabric from Japan, this double-breasted blazer is a classic wardrobe staple to carry you through the seasons. Crafted as an oversized fit and fully lined for easy layering featuring front flapped welt pockets and covered buttons.	100% Japan made Premium Polyester	ALL SIZE (FIT TO XL)	850000.0	http://dumaofficial.com/cdn/shop/files/PellaBlazerBlack-2.jpg?v=1685033629	C003
+8211432308975	Galvan Sparkly Top Black	A simple yet flattering top crafted with metallic threads and shaped for a relaxed fit. Designed with ribbed hemline that sinched the waist and slightly puffed sleeves. Perfect top to throw on this holiday season.	60% Cotton, 40% Polyester	1, 2	500000.0	http://dumaofficial.com/cdn/shop/files/GalvanSparklyTop.jpg?v=1701935610	C003
+8252042903791	Peggy Top Red	Classically romantic style with a dose of vintage charm, this peplum top is cut from premium Japanese made polyester for its structure and tailored feel. It has a blazer collar, a row of fancy diamond buttons and a flattering peplum. The red shade made it perfect to wear to your CNY festivities!Model : 175 cm	100% Japanese made Premium Polyester	1, 2	625000.0	http://dumaofficial.com/cdn/shop/files/PeggyTopRed.jpg?v=1705996391	C003
+8498646155503	Portia Outer White	Outer of our dreams! Putting our own twist on a classic jacket silhouette, we've added frills to the front pockets for a more sophisticated element. Crafted from premium Japanese polyester twill in classic white, this is a definite must have! Pair it with our Tilda shorts for the perfect Sunday brunch look!	100% Japanese Polyester	1, 2	800000.0	http://dumaofficial.com/cdn/shop/files/PORTIAOUTERWHITE-4.jpg?v=1715740211	C003
+8665146589423	Mina Knit Top | White	Our summertime favorite, this top is knitted with a crochet pattern for its relaxed charm, with a special touch of black hand-stitched	Cotton Poly Blend	1, 2	665000.0	http://dumaofficial.com/cdn/shop/files/MINATOPWHITE-4.jpg?v=1720522373	C002
+8218785054959	Glacer Leather Skirt Maroon	Headline your party season outfits with this leather mini skirt! It's crafted from high quality faux leather and designed with simple A-line silhouette and hidden side zipper. Complement this special mini by styling it with our holiday limited color tops!	100% Polyester	S, M	600000.0	http://dumaofficial.com/cdn/shop/files/GlacerSkirtMaroon.jpg?v=1702536925	C006
+8982852108527	Gaze Cardigan | White Multi	This cardigan features a unique geometric-inspired pattern throughout the body, contrasted by oversized ribbed trims along the cuffs and hem. The wide ribbing continues into a bold V-neckline that adds structure and definition to the relaxed silhouette. A statement piece that’s both cozy and polished.	100% Cotton	ALL SIZEMeasurement :	585000.0	http://dumaofficial.com/cdn/shop/files/GAZECARDIGAN-1.jpg?v=1750071925	C003
+9000442331375	Inna Pants | White	Elevate your look with these effortlessly chic high-waisted flowy pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester (matte finish)	Small, Medium, Large	685000.0	http://dumaofficial.com/cdn/shop/files/INNAPANTSWHITE1.jpg?v=1750823832	C005
+7471319777519	Carol Pants Grey	Get cozy and festive this christmas with our Carol Pants Navy! Knitted from soft cotton yarn into the perfect palazzo knit pants, featuring a high rise, wide leg and a relaxed fit. Pair it with our Noel Top or Jolly Cardigan for the ultimate holiday outfit for your festivities!	100% Cotton	SMALL, MEDIUM	665000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.42.13_1.jpg?v=1638860450	C005
+8060715663599	Cho Cargo Pants Dark Navy	Crafted from a sustainable premium Japanese polyester fabric that is luxuriously soft and cooling, this cargo sweatpants are cut for a relaxed fit with a comfortable elasticated waistband with drawstrings, cargo detailings on each leg, and side seam pockets. Pair it with the matching crop t-shirt for a chic and comfy everyday look!	75% Polyester, 25% Cotton	ALL SIZE (FIT TO XL)	725000.0	http://dumaofficial.com/cdn/shop/files/ChoCargoPantsDarkNavy.jpg?v=1685002882	C005
+8752243933423	Rugosa Top | Denim Blue	Bringing back the 80’s unforgettable style with this sleeveless denim top that can be worn as a set with our line of denim pants. We incorporated handmade frays into the neckline and hem of this boxy-cut top, crafted from soft, washed blue denim for a comfortable daily wear. Completed with a back slit opening and a classic round neck, Rugosa Top | Denim Blue is the very definition of simple, but not basic.	97% Cotton, 3% Elastane	1, 2	495000.0	http://dumaofficial.com/cdn/shop/files/E33595F1-C2AA-4933-A214-6E67EB8D662D.jpg?v=1725869075	C002
+7739069858031	Capole Blazer Grey	A modern v-neck blazer featuring an oversized silhouette, pocket flaps and cuff-less sleeves. Crafted from the perfect monochrome pattern scuba fabric into the most ideal oversize, relaxed fit suitable for your day to night, office to ladies night out!	97% Polyamide 3% Elastane	All Size	700000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard105.jpg?v=1657771346	C002
+7605187739887	Odin Vest Tweed Cream	Sleeveless tweed vest with covered buttons, elastic waist bandings and chest pockets. Its design, fabric, and color bring both lady-like and contemporary silhouette, perfect for any women, for any occasion!	60% Wool Blend, 35% Cotton, 5% Nylon	ALL SIZE	492750.0	http://dumaofficial.com/cdn/shop/products/ODIN4.jpg?v=1648171949	C003
+8773325816047	Laya Skirt | White	This denim maxi skirt is inspired from the essence of traditional tailoring, and the casual character of a denim fabric. Cut into an A-line silhouette with front pleated panels, unique belt loop shape, and elastic waistband for additional comfort.	70% Cotton, 30% Polyester	1, 2Measurement :	486500.0	http://dumaofficial.com/cdn/shop/files/LayaSkirtWhite-4.jpg?v=1729132678	C006
+8840007319791	Protea Set | Navy	This elegant two-piece knit set features a strapless bandeau top with a flattering peplum detail and a high-waisted flared mini skirt, creating a timeless and sophisticated silhouette. Made from premium knit fabric in a classic deep navy, it offers both structure and comfort, perfect for formal events, evening parties, or upscale gatherings. Wear it as a complete set for a polished look or mix and match with your wardrobe staples for versatile styling.	100% Nylon	1, 2Measurement :	550000.0	http://dumaofficial.com/cdn/shop/files/IMG_7930.jpg?v=1733997435	C001
+9024378372335	Sante Pants | White	An essential for the sunny weather, this pair of straight-linen pants are a must-have for those who adore clean and minimalist aesthetic. Crafted from breathable, natural linen, it features a soft, full-length breezy lining for added comfort. The elasticated waistband offers a flexible, pull-on fit – perfect for everyday wear or an impromptu summer escape.	100% Linen	Small, Medium, Large	665000.0	http://dumaofficial.com/cdn/shop/files/SantePantsWhite1.jpg?v=1753692687	C005
+7894111125743	Alfie Pants Denim Blue	High-waisted denim pants with an elastic waistband and straight-leg design. Made from soft 100% tencel denim fabric, completed with side pockets and tied belt in matching fabric. This will most definately be the most comfortable pair of denim pants you'll ever own, not to mention how flattering it will look on you!	100% TENCEL	1 &amp; 2	650000.0	http://dumaofficial.com/cdn/shop/products/AlfieDenim_3.jpg?v=1666742037	C005
+9001313435887	Mod Hoodie | White	This hoodie featuring a clean silhouette, wide tonal drawstrings, and a unique button-up opening at the neckline for a subtle, elevated twist. The soft viscose keeps you cozy, while the roomy front pocket adds function without sacrificing form. It’s the perfect blend of laid-back comfort and minimal chic — ideal for traveling in style.	Soft Viscose	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/files/MODHOODIEWHITE1.jpg?v=1750823790	C003
+7823886057711	Nora Leather Shorts Brown	PREORDER 14 - 18 WORKING DAYS Short leather pants cast in a versatile brown shade, completed with belt loops, side slant pockets, and pleats at waist. With it’s a-line silhouette and concealed zip, button and hook fastening, this pants looks sleek and polished, easy to pair with any basics for any occasions.	Vegan Leather 100% Polyester	SMALL, MEDIUM	500000.0	http://dumaofficial.com/cdn/shop/products/gigi5_b5349ec7-a8c0-4044-9baf-82e7a0415a0c.jpg?v=1662687595	C003
+7894084976879	Dorka Polo Black	This striped polo shirt is knitted from soft cotton yarns into a the perfectly boxy and oversized fit. A seasonless and casual piece that you'll find yourself getting too attatched to all year round. Pair it with your favorite denim pants for a casual day out!	100% COTTON	All Size	650000.0	http://dumaofficial.com/cdn/shop/products/DorkaBlack.jpg?v=1666604130	C002
+8625230577903	MICOLE | Slim Fit Crew Neck in Beige	A wardrobe staple offered in a neutral oatmeal color, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	Small, Medium	400000.0	http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6758-edit.jpg?v=1718842187	C002
+8005185241327	Ansel Cardigan Navy	Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!	Soft Viscose	All Size	505750.0	http://dumaofficial.com/cdn/shop/products/AnselCardiganNavy.jpg?v=1677142085	C002
+7946310025455	Rami Cardi Green	Knitted from soft cotton yarns into the perfect christmas color pointelle knit pattern! Snug and comfy, this cardigan will be the perfect company for your holiday festivities! Pair it with our priya shorts as a set for a homey look, or with our Rafa Pants for a more put together look this holiday season!	100% Cotton	1 &amp; 2	650000.0	http://dumaofficial.com/cdn/shop/products/RamiCardiganGreen_4.jpg?v=1670552171	C003
+8773366907119	Olam Dress | White	Crafted from crisp cotton blend fabric, this white shirt dress is inspired by elements of workwear but made our way. Featuring a pointed collar, front button closure, A-line fit, and a flattering halter neckline. Perfect to throw on this fall season!	70% Cotton, 30% Polyester	ALL SIZE	405000.0	http://dumaofficial.com/cdn/shop/files/OlamDressWhite.jpg?v=1729132619	C001
+7605183971567	Zannu Tweed Outer	Modern Tailored Coat made of tweed fabric with a cool tone color combination of blue, black, grey, and white that creates a classic yet elegant mood. Designed with an oversized fit, 7/8 sleeves, hidden pocket and a clean cut, this is the perfect outer to grab and go on any occasion.	60% Wool Blend, 35% Cotton, 5% Nylon	ALL SIZE	795000.0	http://dumaofficial.com/cdn/shop/products/ZANNUTWEEDNAVY.jpg?v=1648172286	C003
+8498614468847	Ulla Dress Black	We've made the perfect little black dress for you, mixing comfort and style. Knitted from soft viscose yarns, this off shoulder dress hugs your body and compliments it perfectly. Slim-fitting and flares to a perfect midi length. Perfect for a date night!	Soft Viscose	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/files/ULLADRESSBLACK-3.jpg?v=1715741023	C001
+8082189746415	Izbel Jeans White	Our Izbel jeans fit slim through the hips and thighs before falling to cropped, flared cuffs. Made from natural denim with a hint of stretch, they have a high-rise, raw cut waist and tailored with front &amp; back darts to get that perfect fit.	Cotton Spandex	S, M, L	665000.0	http://dumaofficial.com/cdn/shop/files/IzbelJeansWhite4.png?v=1688954127	C005
+8218769981679	Lumi Tweed Outer Black	Immensely wearable yet loaded with glamour, this jacket is cut from black sparkly tweed. It has an effortlessly boxy fit but is cropped to flatter your form. Pair it with our Apollo Denim Pants to give a more laid back look, or our Morris metallic pants for your upcoming holiday party!	100% Polyester	ALL SIZE	696500.0	http://dumaofficial.com/cdn/shop/files/LumiTweedOuterBlack.jpg?v=1702537453	C003
+8211487719663	Gwen Denim Blazer	Expertly tailored denim short sleeve blazer with nipped-in waist, padded shoulders, and single breasted close. Meticulously designed for a simple and sophisticated look, pairs perfectly with our Aubrey denim midi skirt.	100% Cotton	1, 2	685000.0	http://dumaofficial.com/cdn/shop/files/GwenDenimBlazer.jpg?v=1701935430	C002
+7823883698415	Josie Shirt White	Our best selling classic boxy-cut oversized shirt but with a twist! Made from soft Tencel fabric and featuring front cut-out	100% Tencel	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/products/josie1.jpg?v=1662434281	C002
+8211473334511	Sabina Denim Top	Reversible A-line top with relaxed silhouette. Allows you to choose between v-neckline or a round neckline, it's basically two in one! Pair it with our Apollo pants for an easy chic denim-on-denim look.	100% Cotton	ALL SIZE (FIT TO L)	550000.0	http://dumaofficial.com/cdn/shop/files/SabinaDenimTop.jpg?v=1701935463	C002
+8060731719919	Pella Oversized Blazer Brown	Designed using premium polyester fabric from Japan, this double-breasted blazer is a classic wardrobe staple to carry you through the seasons. Crafted as an oversized fit and fully lined for easy layering featuring front flapped welt pockets and covered buttons.	100% Japan made Premium Polyester	ALL SIZE (FIT TO XL)	850000.0	http://dumaofficial.com/cdn/shop/files/PellaBlazerBrown-2.jpg?v=1685033572	C003
+8843349459183	Garland Sweater | Beige	Shawl Neckline Sweater with multiple styling options, made from a mid-weight cotton knitting and featuring an intricate rib stitch. It has an oversized fit for casual sophistication. Pair it with our Sorrel satin pants for a comfortable yet stylish holiday/ airport fit.	100% Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/GARLANDSWEATERBEIGE-1.jpg?v=1734424099	C003
+8823412785391	MMEHUILLET FOR DUMA - Seoul Puffer | Green	The perfect blend of warmth and versatility, Seoul Puffer features a lightweight yet insulating design, with a smooth, quilted exterior. The real highlight is the detachable knit vest inside — a chic, textured layer that provides extra warmth. Whether you’re braving the cold or layering up for a more polished outfit, this jacket offers ultimate flexibility and a pop of color to brighten your winter wardrobe.	100% Polyester	ALL SIZE	1750000.0	http://dumaofficial.com/cdn/shop/files/SeoulPufferGreen.jpg?v=1732726662	C003
+8269578535151	Veste Tweed Vest Pink	Taking inspiration from traditional suiting, we created this special vest that is perfect for this season of love. Crafted from luxe and sparkly tweed and has a deep V-neckline, shaping darts, and a row of fancy gold floral buttons. Pairs perfectly with any bottoms you can think of!	100% Polyester	1, 2	650000.0	http://dumaofficial.com/cdn/shop/files/VesteTweedVestPink.jpg?v=1707087666	C002
+8825018679535	MMEHUILLET FOR DUMA - Hwi Scarf | Dark Grey	Crafted from soft structured cotton, this hybrid poncho doubles as a scarf that can be draped over the shoulder for an effortless look. Secured with a single button on one shoulder that you can accessorize with our clip-on buttons. The dynamic silhouette and timeless color palette offer endless styling potential.	100% Cotton	All Size	650000.0	http://dumaofficial.com/cdn/shop/files/HwiScarfDarkGrey-3.jpg?v=1732724816	C003
+8792594546927	Ang T-Shirt | Beige	Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a warm taupe tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	495000.0	http://dumaofficial.com/cdn/shop/files/ANGTSHIRTBEIGE-2_6a92ec31-5c75-49b1-943a-e2da3280a3b7.jpg?v=1729131415	C002
+8083256148207	Galena Cardigan Grey	This V-neck cardigan is knitted from customer's all time favorite soft viscose yarns. Designed for a contoured fit, it has neat ribbed trims and fasted with a row of horn buttons for a sleek finish. It's most definitely a wardrobe essential that will stay with you for a very long time.	Soft Viscose	All Size	600000.0	http://dumaofficial.com/cdn/shop/files/GalenaCardiganArtboard3.jpg?v=1689081527	C002
+8897272807663	Kairi Top | White	Crafted from soft buttery knit blend with a fluid hand feel, this asymmetrical blouse is designed with drapes, fitted sleeves, and one shoulder silhouette. Style it with tailored skirts or trousers and kitten heels for the perfect fall outfit!	90% Polyester, 10% Elastane	ALL SIZE	380000.0	http://dumaofficial.com/cdn/shop/files/KAIRITOPWHITE-1.jpg?v=1741927123	C002
+7946285646063	Cheri Shirt Grey	Boxy cut shirt knitted from soft cotton yarns in the most perfect shades of christmas! The perfect mix of feminine and boyish, cozy and put together look. Comfortable to wear, easy to style. Pair it with our Chala Pants for a chic and effortless everyday look!	100% COTTON	All Size	575000.0	http://dumaofficial.com/cdn/shop/products/CheriShirtGrey_5.jpg?v=1670553405	C002
+7471335211247	Gale Skirt Maroon	Knit Skirt with three ribbing styles that gets wider from the waist to the hem, which flatters one's figure perfectly! Knitted from soft cotton yarns, with comfortable elastic waistband and A-line silhouette. Pair it with our Marilou Top for the most sophisticated, elegant look this holiday season!	100% Cotton	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.42.51_1.jpg?v=1638923952	C006
+8791875551471	Ochre Shorts | Sand	Designed with a mid-waist and tailored fit, these shorts offer a chic silhouette that transitions seamlessly from day to night. Dress it up with our matching suede jacket in warm hues, or down with a casual tee—these suede shorts are your go-to piece for stylish fall layering.	100% Polyester	1, 2Measurement :	357000.0	http://dumaofficial.com/cdn/shop/files/OCHRESHORTSSAND-5.jpg?v=1729052933	C005
+8006360498415	Eli Top Red	Knitted from soft cotton yarns, this utterly comfy knit top will easily become a staple in every women's wardrobe. As a loungewear or for going out, this top has a very versatile style that you can pair it with any bottom you can possibly think of.	100% Cotton	ALL SIZE	140000.0	http://dumaofficial.com/cdn/shop/products/DAN-DUMA20230110-CATALOGUE2-13.jpg?v=1677132937	C002
+8498266865903	Matteau Blazer Navy Stripe	This double collar blazer is specially designed with a deconstructed element, to create two different looks with one. Crafted from premium suiting polyester, this blazer has a boxy oversized silhouette and front button closures. The shirt collar is detachable with button fastenings. Casual and smart in one blazer, perfect for you girl bosses!	100% Polyester	ALL SIZEMeasurement :	895000.0	http://dumaofficial.com/cdn/shop/files/MATTEAUBLAZERNAVYSTRIPE-3.jpg?v=1715741294	C003
+8843356078319	Remmy Skort | Grey	Our best-selling Remmy Skort, now in new colors and fabric, perfect for the winter season! It has an A-line silhouette knife pleats and an inner shorts for effortless movements. Pair it with your favorite sweater for a cozy winter fit.	100% Polyester	1, 2	467500.0	http://dumaofficial.com/cdn/shop/files/REMMYSKORTGREY-1.jpg?v=1734421798	C006
+8860280324335	Tan Pants | Cream	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium, Large	685000.0	http://dumaofficial.com/cdn/shop/files/Tan_Pants_Cream_1.jpg?v=1753696584	C005
+8947900711151	Jorja Top | Black	This sleeveless structured top exudes sophistication with its high mandarin collar and sleek tailored fit. Designed in a rich black hue, it features a statement gold button closure that adds a touch of elegance and refinement. The flap pockets enhance its polished appeal, while the subtly curved hem provides a flattering silhouette. Perfect for both formal and chic casual looks, this top pairs effortlessly with tailored trousers or denim for a versatile, fashion-forward ensemble.	100% Japanese made Premium Polyester	1, 2	750000.0	http://dumaofficial.com/cdn/shop/files/JORJATOPBLACK-1.jpg?v=1745989072	C002
+8665221693679	Alba Linen Skirt | White	Mini Skirt crafted from our pinstripe linen fabrication, our Alba Linen Skirt is an essential piece for your staple summer wardrobe. Designed to sit mid-waist, this skirt exudes classic sophistication as it is cut straight and finishes upper-mid thigh. It features a waistband, belt hoops and secures with a center zip fly.	100% Linen	Small, Medium, Large	242500.0	http://dumaofficial.com/cdn/shop/files/ALBALINENSKIRTWHITE-2.jpg?v=1720522066	C006
+7455718047983	Charli Top White	Sleeveless Oversized Shirt that doubles as an outer vest. Chic and comfortable, sporty yet sophisticated. With a relaxed silhouete, waistband to define your waist, and a front opening, this is the perfect top to wear to many different events and style it any way! Pair it with our Noor Skirt for a feminine look, or our Jola Pant for a casual everyday look.	100% Tencel	ALL SIZE	525000.0	http://dumaofficial.com/cdn/shop/products/Artboard36_1.png?v=1637806213	C002
+8986673447151	Getta Cardigan | Dark Brown	Wrap yourself in effortless elegance with this soft viscose cardigan, designed for both comfort and style. Featuring a flattering V-neckline and a waist that accentuates your silhouette, this piece brings a refined touch to your day-to-day outfits. Added with a row of vegan leather buttons, for a touch of subtle quirk to this timeless knit.	Soft Viscose	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/files/GETTACARDIGANDARKBROWN1.jpg?v=1750786028	C003
+9000474640623	Eve T-shirt | Taupe	PREORDER 25 WORKING DAYS A classic everyday T-shirt, offered in taupe. Designed with a classic crew neckline and a flattering straight cut, this top is crafted from a silky-soft rayon blend with a touch of stretch for maximum comfort and versatility. The clean silhouette hits at the ideal length to pair with just about anything.	56,5% Rayon, 31,2% Polyamide, 12,3% Spandex	Small, Medium	495000.0	http://dumaofficial.com/cdn/shop/files/EVET-SHIRTTAUPE1.jpg?v=1750785569	C002
+7740221128943	Marin Cardigan Black	Knitted from very soft and elastic viscose yarns, this calf-length cardigan with v-neckline, front button closure and side slit is a must have in every women's wardrobe. With its relaxed fit, its very easy to style with any outfit or for any occasions.	SOFT VISCOSE	ALL SIZE	665000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard75.jpg?v=1657770965	C001
+8986659750127	Verra Top | Ochre	This top features soft drapes across the front that create a flattering, elegant shape. It’s designed with shoulder padding to give structure and a bold silhouette. The added buttoned shoulder detail gives it a modern, tailored touch. A perfect mix of strong and feminine.	100% Polyester	Small, Medium, Large	700000.0	http://dumaofficial.com/cdn/shop/files/VERRATOPOCHRE2.jpg?v=1750835859	C002
+9000474935535	Eve T-shirt | Soft Beige	PREORDER 25 WORKING DAYS A classic everyday T-shirt, offered in soft beige. Designed with a classic crew neckline and a flattering straight cut, this top is crafted from a silky-soft rayon blend with a touch of stretch for maximum comfort and versatility. The clean silhouette hits at the ideal length to pair with just about anything.	56,5% Rayon, 31,2% Polyamide, 12,3% Spandex	Small, Medium	495000.0	http://dumaofficial.com/cdn/shop/files/EVET-SHIRTSOFTBEIGE1.jpg?v=1750785533	C002
+8664974557423	Bardi Shirt | Denim Blue	An elevated wardrobe staple, this structured short sleeve shirt is cut from our soft denim fabric, finished with side slit, pointed flat collar, front button fastening and the perfect contouring slim fit for an effortless look. Complete the look by pairing it with our Agatha Shorts | Denim Blue for the perfect easy summer look!	100% Polyester	1, 2	675000.0	http://dumaofficial.com/cdn/shop/files/BARDIDENIMSHIRT-4.jpg?v=1720522085	C002
+8329474244847	Florence Top Pink	The Florence top in our special brocade fabrication is a sweet addition to our collection. This silhouette is designed to be a relaxed fit with A-line body and front draped peplum detail and perfectly shaped slight halter neckline. Pair it with our Natia skirt for the perfect look!	60% Polyester, 40% Cotton	1, 2	399000.0	http://dumaofficial.com/cdn/shop/files/FlorenceTopPink.jpg?v=1711026915	C002
+8116764836079	Ansel Cardigan Black	Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!	Soft Viscose	All Size	595000.0	http://dumaofficial.com/cdn/shop/files/AnselCardiBlack.jpg?v=1695005008	C002
+8196280549615	Idris Knit Dress White	Made from a loosely knitted rib texture using soft rayon yarns, this maxi dress has a relaxed tank silhouette that contours down the body beautifully. Wear it with the matching cardigan to get the perfect travelling look.	92% Rayon, 8% Nylon	ALL SIZE (FIT TO L)	399000.0	http://dumaofficial.com/cdn/shop/files/IdrisDressWhite.jpg?v=1700777788	C001
+8005193531631	Jetro Pants Navy	Flowing, straight-cut knit pants made from soft viscose yarn, this pants definitely call for sophisticated working-from-home (or anywhere) luxurious loungewear. Just the perfect thing for you when you want to feel pulled together. Pair it with our Ansel Cardi for a complete upscale loungewear look!	Soft Viscose	All Size	493000.0	http://dumaofficial.com/cdn/shop/products/JetroPantsNavy-2.jpg?v=1677200297	C005
+8825017958639	MMEHUILLET FOR DUMA - Olbit Cardigan | White	SHIPMENT JANUARY The kind of cardigan you would snuggle in with, this piece was knitted from the softest and comfiest viscose yarns. Versatile with a touch of unexpected twist, it can be styled both as a regular and asymmetrical cardigan, with its adjustable side buttons. Completed with a flattering deep V-neckline and detachable chic scarf, Olbit Cardigan is definitely an unforgettable scene-stealer.	Soft Viscose	All Size	725000.0	http://dumaofficial.com/cdn/shop/files/OlbitCardiganWhite-6.jpg?v=1732724891	C003
+8860247261423	Wang Top | Sage	The very definition of edgy elegance — Wang Top features a cinched waist that accentuates your silhouette flatteringly. The design showcases a unique wavy placket, adding a touch of contemporary flair. Made from a structured fabric with slight sheen, it offers both sophistication and edge. Adorned with a row of unique handmade floral appliqués with snap buttons as the front opening, Wang Top is a gorgeous head-turner for that long-awaited special occasion.	100% Polyester	1, 2	725000.0	http://dumaofficial.com/cdn/shop/files/WANGTOPSAGE-1.jpg?v=1736914111	C002
+7605207531759	Shayla Dress White	Elegant Wrap Style Dress with V-Neckline, Relaxed Collar, and Pleated	70% Rayon, 30% Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/products/SHAYLA1.jpg?v=1648172067	C002
+8959790874863	Tan Pants | Burgundy	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Premium Polyester	Small, Medium, Large	616500.0	http://dumaofficial.com/cdn/shop/files/TANPANTSBURGUNDY-1.jpg?v=1747646400	C005
+8114153816303	Merman Dress White	This dress is crafted from intricate cotton embroidery impeccably made for a seasonless look. It's offered in a fresh white hue and a contrasting poplin collar and cuffs expertly tailored in an oversized silhouette. The lace creates an uneven hem for a special touch.	50% Cotton, 50% Polyester	All Size	700000.0	http://dumaofficial.com/cdn/shop/files/MermanDressWhite.jpg?v=1694581505	C001
+8036455252207	Toja Pants Fuchsia	Basic pair of pants that you never know you needed! Knitted from soft cotton yarns into the perfect long white pants silhouette that gives your legs an ellongated effect, completed with drawstring	100% Cotton	1 (S-M), 2 (M-L)	650000.0	http://dumaofficial.com/cdn/shop/products/7edaaba0-e72a-4a11-baec-4054e141dff3.jpg?v=1681103994	C005
+8752246128879	Aqui Knit Top | Black	Inspired by the Aquilegia flower that symbolizes aspiration, this piece was created for the trend-setters and risk-takers. Knitted from structured but soft 100% cotton yarn in a relaxed, boxy cut that’s suitable for all body types. The contrasting flower in feminine hues is cute and daring at the same time, making it a one-of-a-kind top that stands out from the mainstream crowd.	100% Cotton	Small, Medium, Large	585000.0	http://dumaofficial.com/cdn/shop/files/FF863216-2FF8-40AA-8EA5-2BEF2DAE3FA6.jpg?v=1725868846	C002
+7975352762607	Yuma Skirt Green	Satin Floral Midi Skirt with A-line silhouette, featuring hidden elastic waistband, and subtle back darts. With its subtle sheen, this is the perfect skirt to wear for any scenario, from daily wear to more formal occasions. Elevate your simple look by pairing it with our Suri Top to attend your upcoming cny festivities!	100% Polyester	All Size	600000.0	http://dumaofficial.com/cdn/shop/products/YumaSkirtGreen.jpg?v=1673496627	C006
+8896420839663	Pufu Blouse | White	This elegant soft Tencel top is a timeless piece that effortlessly blends femininity and sophistication. Featuring delicately pleated flutter sleeves, it adds a touch of volume and grace to the silhouette. The V-neckline with a subtle keyhole cutout and loop button closure creates a refined yet modern detail. Designed in a lightweight, breathable fabric, this top is perfect for both casual and polished looks, making it an essential addition to any wardrobe.	100% Tencel	ALL SIZE	525000.0	http://dumaofficial.com/cdn/shop/files/PUFU_BLOUSE_WHITE-1.jpg?v=1745910160	C002
+9024434962671	Possa Skirt | White	This Possa Skirt is one of those pieces that feels special without trying too hard. Made from a crisp, airy fabric that moves beautifully, it has a soft A-line shape that flatters and flows. It’s the kind of skirt you’ll reach for when you want to look put-together but still feel effortless—perfect with a simple tank for brunch, or dressed up with heels for dinner out. Either way, it’s a piece that speaks softly but stands out.	73% Polyester, 27% Nylon	Small, Medium, Large	650000.0	http://dumaofficial.com/cdn/shop/files/PossaSkirtWhite2.jpg?v=1753843203	C006
+7823880028399	Arzel Blazer Denim	Double Breasted Oversized Blazer dusted in the perfect denim shade and tailored to a boxy silhouette with brown leather side seam	70% Rayon, 30% Polyester	All Size	700000.0	http://dumaofficial.com/cdn/shop/products/arzel8.jpg?v=1662689702	C002
+8005164826863	Elia Dress Brown	Designed from a lightweight fluid woven shirting fabric, this scoop neck tank top dress featuring panels that creates the perfect a-line fit with slimming silhouette is definitely a wardrobe staple for you all year round!	100% Japanese made Premium Polyester	1, 2	540000.0	http://dumaofficial.com/cdn/shop/products/EliaDressBrown-2.jpg?v=1677200717	C001
+8304613720303	Aster Dress Navy	Knitted from soft and airy cotton fabric into an intricate pointelle pattern detail in the perfect navy hue, this dress is shaped to a contoured fit that flows down to a slightly flared hem. Perfect for everyday, or even some special occasions!	100% Cotton	ALL SIZEMeasurement :	695000.0	http://dumaofficial.com/cdn/shop/files/AsterDressNavy-6.jpg?v=1710170323	C001
+8842741317871	Doglas Tee | White	Making our basic fit white tee extra special this holiday season with our special print! Knitted from soft 100% Cotton yarn in a relaxed, cropped cut for maximum comfort in daily wear. Pair it with your favorite pair of bottom for your next cozy Christmas gatherings.	100% Cotton	1, 2	475000.0	http://dumaofficial.com/cdn/shop/files/DOGLASTEE-5.jpg?v=1734492930	C002
+8818185371887	Jennie Tanktop | Charcoal	An essential for your daily wardrobe, especially those warmer days. Offered in a charcoal tone, it’s crafted from soft lyocell blend and has a streamlined slim fit with endless styling opportunities - wear it alone or layered under shirts and blazers.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	395000.0	http://dumaofficial.com/cdn/shop/files/JennieTanktopCharchoal-5.png?v=1731576990	C002
+7605183250671	Dali Top Brown	This top is an essential for everyone's capsule wardrobe! Simple design, with soft knitted fabric, and the perfect shades of neutral color. You can easily style this top with any pair of bottoms you have at home or pair it with our Grata Pant for a lazy day ootd!	Soft Viscose	All Size	395000.0	http://dumaofficial.com/cdn/shop/products/Artboard27_b44b1eeb-10e4-4046-bbc5-d0aaae530d6f.png?v=1648172242	C002
+8030794580207	Bergo Mini Dress Navy	Short Stripes blazer knit dress crafted from soft cotton yarns, featuring a double-breasted design with lapel and covered buttons, contrast collar, and short sleeves. Perfect to throw on this spring season!	100% Cotton	All Size ( Fit To Large )	775000.0	http://dumaofficial.com/cdn/shop/products/BergoDressNavy-3.jpg?v=1680152702	C001
+8082171101423	Capri Pants Pink	Instantly polished and as equally comfortable, our ombré silky satin pants slips on with a flat front and thin elasticized waistband and hidden drawstrings for covert ease, Its slim straight leg falls with a lightweight drape will fits flatteringly on any legs.	100% Polyester	1, 2	595000.0	http://dumaofficial.com/cdn/shop/files/CapriPantsPink3.png?v=1688954776	C005
+8913509810415	Aluba Top | Cream	This cream-colored top is effortlessly stylish and comfortable. It features a relaxed, flowy silhouette with a playful peplum detail for a flattering shape. The short puff sleeves add a touch of femininity, while the soft fabric makes it perfect for all-day wear. A versatile piece that pairs well with both casual and dressy outfits! Pair it with our Tan Pants | Cream for an easy elegant look!	100% Nylon	ALL SIZEMeasurement :	675000.0	http://dumaofficial.com/cdn/shop/files/AlubaTopCream.jpg?v=1741856331	C002
+9000412872943	Mellow Set | Butter	PREORDER 25 WORKING DAYS This butter-yellow set features a soft, lightweight knit fabric that feels airy and comfortable on the skin. The set consists of a sleeveless inner tank and a matching long-sleeve cardigan with a front button closure, giving it a coordinated yet relaxed look. Whether worn together or styled separately, it offers a fresh, effortless elegance ideal for daily wear or travel.	100% Lyocell	ALL SIZE	775000.0	http://dumaofficial.com/cdn/shop/files/MELLOWSETBUTTER7.jpg?v=1750851664	C002
+8792946508015	Ora Top | White	This asymmetrical one-shoulder top might just be the comfiest and chicest piece you’ll ever have. Its ruched	90% Polyester, 10% Elastane	ALL SIZE (Fit to L)	455000.0	http://dumaofficial.com/cdn/shop/files/ORATOPWHITE-3.jpg?v=1729088034	C002
+7113857138866	Dali Top Grey	This top is an essential for everyone's capsule wardrobe! Simple design, with soft knitted fabric, and the perfect shades of neutral color. You can easily style this top with any pair of bottoms you have at home or pair it with our Grata Pant for a lazy day ootd!	Soft Viscose	All Size	395000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-10-29at21.50.58.jpg?v=1635698787	C002
+8498523111663	Errie Shirt Vest Tencel White	A two-in-one situation, this crop shirt is crafted from soft and crisp tencel fabric and designed uniquely like a layered top. Featuring cropped shirt with a sewn-in vest inside. Classic and stylish, the perfect addition to your wardrobe.	100% Tencel	ALL SIZE	545000.0	http://dumaofficial.com/cdn/shop/files/ERRIESHIRTVESTTENCELWHITE-2.jpg?v=1715599706	C002
+8951255498991	Greno Cardigan Top  | Dark Grey	Our Greno Cardigan Top is a seasonless essential that every wardrobe need. Lightweight knitwear pieces, with point collar and button front fastening cardigan. Perfect for any look you're going for any time of day!	100% COTTON	1, 2	472500.0	http://dumaofficial.com/cdn/shop/files/KANOSETDARKGREY-4.jpg?v=1747788372	C003
+9000451834095	Eve T-shirt | Pink	PREORDER 25 WORKING DAYS A classic everyday T-shirt, offered in pink. Designed with a classic crew neckline and a flattering straight cut, this top is crafted from a silky-soft rayon blend with a touch of stretch for maximum comfort and versatility. The clean silhouette hits at the ideal length to pair with just about anything.	56,5% Rayon, 31,2% Polyamide, 12,3% Spandex	Small, Medium	495000.0	http://dumaofficial.com/cdn/shop/files/EVET-SHIRTSOFTPINK2.jpg?v=1750852703	C002
+8604408971503	Daisy Cuddle Pillow Pink	A bed is not a slumber when there is nothing to embrace and cuddle with. But that is no longer the case with our cuddle pillows! Made in 100% cotton, our cuddle pillows are designed in perfect size and shape to stay closely to you anywhere you want them to. Hold them fondly because separation will be hard. Plus, a good night sleep is only a cuddle away — is there anything better than that?	Made in 100% cotton and 95% TENCEL™️ fabric	ALL SIZE	215000.0	http://dumaofficial.com/cdn/shop/files/Daisy_Pillow_Pink-5_e11911f4-f7cd-4460-a24b-64d1da21a1a2.jpg?v=1718080211	C010
+9024401899759	Shiba Top | Dark Brown	PREORDER 10 WORKING DAYS Meet Shiba Top, a blouse that can seamlessly transition from day to night occasions. Detailed with ruched waist and boat-neck cut, hugging your body flatteringly. Its side zipper opening and lining maintain the clean look of this contemporary top, and the structured yet smooth fabric keeps this piece’s carefully-designed silhouette in perfect shape.	100% Japanese made Premium Polyester	Small, Medium, Large	625000.0	http://dumaofficial.com/cdn/shop/files/EliaTop1.jpg?v=1753696230	C002
+8825021006063	MMEHUILLET FOR DUMA - Olbit Cardigan | Black	The kind of cardigan you would snuggle in with, this piece was knitted from the softest and comfiest viscose yarns. Versatile with a touch of unexpected twist, it can be styled both as a regular and asymmetrical cardigan, with its adjustable side buttons. Completed with a flattering deep V-neckline and detachable chic scarf, Olbit Cardigan is definitely an unforgettable scene-stealer.	Soft Viscose	ALL SIZE	725000.0	http://dumaofficial.com/cdn/shop/files/OlbitCardiganBlack.jpg?v=1732724682	C003
+8269638271215	Lumi Tweed Outer Pink	Immensely wearable yet loaded with glamour, this jacket is cut from pink sparkly tweed. It has an effortlessly boxy fit but is cropped to flatter your form. Pair it with our Glacer Leather Skirt for your dinner dates or Gilia Denim Jeans for your Valentines dinner!	100% Polyester	ALL SIZE	696500.0	http://dumaofficial.com/cdn/shop/files/LumiOuterTweedPink.jpg?v=1707101809	C003
+8840005157103	Dahlia Dress | Navy Multi	This stunning floral maxi dress features a halter neckline with delicate crossover straps, flowing into a loose, layered silhouette that exudes effortless elegance. Adorned with vibrant pink and white florals on a deep navy base print, the tiered ruffles add movement and a romantic touch, making it perfect for garden parties, summer weddings, or special occasions. Light and airy, this dress offers comfort and style for any event, while its flattering cut ensures a graceful and feminine look.	100% POLYESTER	ALL SIZEMeasurement :	950000.0	http://dumaofficial.com/cdn/shop/files/IMG_7927.jpg?v=1733997487	C001
+8825022447855	MMEHUILLET FOR DUMA - Daon Top | Brown	A must-have piece to add to your capsule wardrobe, Daon Top is the very definition of everyday wear. Knitted from soft yarns into a unique crochet texture, this piece blends both comfort and style into a loose, but flattering fit in neutral color palette. Adorn it with our clip-on rhinestone buttons for a more elevated look that can easily transition from day to night.	100% Polyester	1, 2	650000.0	http://dumaofficial.com/cdn/shop/files/DaonTopBrown-2.jpg?v=1732724578	C002
+8913534157039	Tan Pants | Black	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium, Large	685000.0	http://dumaofficial.com/cdn/shop/files/Tan_Pants_Black_1.jpg?v=1753697576	C005
+8664840143087	Oson Outer | Denim White	Turn effortless cool with our Oson Denim Outer. This slightly cropped denim jacket features a boxy fit and contrast seam stitching for a modern appeal. The natural white colorway and button detailing add a definition to a classic piece. Pair with our Tilda Shorts for a chic modern look.	100% Polyester	ALL SIZE	800000.0	http://dumaofficial.com/cdn/shop/files/OSONDENIMBLAZERWHITE-2.jpg?v=1720522448	C003
+8860281962735	Zhupao Dress | Maroon	An effortlessly chic tweed dress that combines traditional elegance with modern tailoring. The high-neck collar adds a touch of refinement, while the structured A-line silhouette flatters the figure and ensures comfort for all-day wear. Adorned with one-of-a-kind pearl Chinese buttons that guarantee praises from your aunties and cousins.	100% Polyester	1, 2	800000.0	http://dumaofficial.com/cdn/shop/files/ZHUPAODRESS-1.jpg?v=1736842056	C001
+8218752418031	Blanca Knit Cardigan Grey	This luxurious soft cardigan will be your new wardrobe staple this season. Crafted with premium soft cotton yarns, twisting two colors into the prefect texture. It has a boxy silhouette with deep V-neckline and double breasted closure completed with fancy gold buttons. Definitely a timeless piece.	100% Cotton	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/BlancaKnitCardiganGrey.jpg?v=1702537683	C003
+8773322178799	Curka Pants | White	Made from soft and stretchy denim in clear white, these pants are shaped with a high-rise waist and wide legs that effortlessly flows down your feet. Finished with our two front pocket styling that modernize the classic codes of denim.	Cotton Spandex	Small, Medium, LargeMeasurement :	590750.0	http://dumaofficial.com/cdn/shop/files/CurkaPantsWhite-2.jpg?v=1729132904	C005
+8843357225199	Jareth Top | Brown Multi	Our Jareth Tweed Top is designed for a sophisticated, yet flattering fit. Crafted from our special festive tweed fabrication, with classic silhouettes of high neckline and subtly flared hemline, along with our special gold buttons front openings for added elegance.	100% Polyester	1, 2	700000.0	http://dumaofficial.com/cdn/shop/files/JARETHTOP-1.jpg?v=1734421683	C002
+8329483780335	Isabel Dress Yellow	Our Isabel dress is crafted from a crisp cotton fabrication, in a calm butter yellow hue. Perfect for every day styling, featuring full length sleeves, collared neckline, adjustable waist belt and soft pleats toward the hem. Pair with a simple heel for a complete look.	100% Cotton	ALL SIZE	337500.0	http://dumaofficial.com/cdn/shop/files/IsabelDressYellow-2.jpg?v=1711073342	C001
+7471298543855	Noel Top Navy	Get cozy this Christmas with our Noel Top Navy! Knitted from soft cotton yarn into the perfect holiday sweater for you! Pull-over style with slightly balooned sleeves, ribbed hem and sleeves cuffs. Pair it with our Carol Pants for the ultimate holiday outfit for your festivities!	100% Cotton	All Size	550000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.42.52.jpg?v=1638860135	C002
+8252046409967	Jiana Knit Top Maroon	Knitted from soft cotton yarns, this cardigan/top features a deep v-neckline, contoured waistline and delicate peplum	100% Cotton	1, 2	650000.0	http://dumaofficial.com/cdn/shop/files/JianaKnitTopMaroon.jpg?v=1705991126	C002
+8294602703087	BELINDA | Regular Fit Extreme Soft in Pink	A very versatile and classic t-shirt, offered in a subtle pink hue. Crafted from a special cotton blend that’s soft to the touch, this classic crew neck top is cut for a neat fit with the perfect length.	100 % Cotton Blend	All Size (Fit to XL)	500000.0	http://dumaofficial.com/cdn/shop/files/LEN01008-edit.jpg?v=1709010828	C002
+8110077575407	Khanyo Skirt Dark Denim	The exagreated flare silhouette is the focal point of this skater skirt. Designed for a mini length that sits just above the knee, it features a few cut panels with contrast stitchings, front button fastenings and panel waist detail. Wear it as a set with our Marion Denim top.	100% Cotton	S, M, L	625000.0	http://dumaofficial.com/cdn/shop/files/MarionKhanyoDarkDenim-3_c044d145-fcce-4721-935a-1515a4775d24.jpg?v=1693822213	C002
+8110093336815	Jane Cardigan Navy	This cardigan has a minimal design with fancy wave knit pattern. Offered in timeless navy, it features a basic crew neck, two hook button closure, and scalloped edges. It's shaped for a slim fit with a cropped body and sleeves, perfect for wearing with high-waisted trousers.	85% Viscose, 15% Nylon	All Size	675000.0	http://dumaofficial.com/cdn/shop/files/JaneCardiganNavy-2.jpg?v=1693822148	C002
+8220534472943	Andy Shorts Army Green	A timeless classic silhouette shorts designed to fit all kinds. They have a comfortable high waist that falls to an A-line shape for both comfort and a flattering cut, and short hemlines to create a leg-lengthening effect. Perfect match to all your tops!	100% Polyester	\N	550000.0	http://dumaofficial.com/cdn/shop/files/AndyShortsArmyGreen-2.jpg?v=1702572161	C005
+8005183471855	Callan Shirt Dress Brown	Open collar shirt dress featuring an oversized fit, elongated profile, front patch pockets, concealed front button closure and a fluid silhouette for a relaxed take on tailoring. Wear it as it is for a shirt dress look, or layer over your basic go to outfit for an effortless business casual look.	100% Japanese made Premium Polyester	All Size	700000.0	http://dumaofficial.com/cdn/shop/products/CallanShirtDressBrown.jpg?v=1677142513	C002
+8791849566447	Dalmar Jacket | Sand	Dalmar Jacket | Sand is the perfect addition to your fall wardrobe. Crafted from soft, premium suede, it boasts a rich texture that enhances its timeless appeal. The warm, earthy tones are ideal for the season, easily complementing cozy knits and denim. With a boxy fit that flatters any silhouette, it features a classic button-up front and functional pockets for added practicality.	100% Polyester	ALL SIZEMeasurement :	900000.0	http://dumaofficial.com/cdn/shop/files/DALMARJACKETSAND-5_8c1f7ac6-cf6d-442d-9c5e-9ae89001d408.jpg?v=1729052367	C003
+8005216600303	Milla Vest Black	Our Milla Vest has a looser, straight cut made from soft viscose yarns and with front button down closure. A simple, timeless piece that can be worn solo or be layered over a tank or tee as you like! Pair it with our Jetro Pants for an easy elevated daily look!	SOFT VISCOSE	ALL SIZE	495000.0	http://dumaofficial.com/cdn/shop/products/MillaVestBlack-4.jpg?v=1677200183	C007
+8252003090671	Xin Jacquard Set Floral Multi	Cropped halter top with midi pleated skirt set in a Chinese floral watercolor print jacquard, something special for this CNY season. The top features a Chinese collar and boxy cropped silhouette for a more youthful look, while the skirt features box pleats to sinch in the waist perfectly. Model : 175 cm	100% Cotton	1, 2	1500000.0	http://dumaofficial.com/cdn/shop/files/XinJacquardSet.jpg?v=1706001752	C002
+7113846784178	Fran Shorts Black	Through the handmade knitting process involved, each piece undergoes a natural twist of yarns that are uniquely different. Making an exclusive "twist" in every piece, specially for you.Easy pull-on shorts with flared body, perfect for lounging around! Made from a slub-melange cotton knit, this shorts is different from the other knit shorts you see out there! Perfectly soft and comfortable, fits any body type. Pair it with our Parson Top to make it look effortlessly put together on your lazy days.	100% Cotton	ALL SIZE  ( fit to Large )	450000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-10-29at21.50.50.jpg?v=1635697469	C005
+8307535905007	Garnet Maxi Skirt Pink	Our take in creating the perfect maxi skirt, cut from silky premium satin fabric and the perfect pink shade. It is shaped to hug the waist and hip perfectly, flows to a flared hem, and finished with an elasticated internal waistband.	100% POLYESTER	S, M, L	575000.0	http://dumaofficial.com/cdn/shop/files/GarnetMaxiSkirtPink.jpg?v=1710166074	C006
+8752245506287	Orchid Knit Tee | White	Taking the basic white tee to the next level, we gave our own twist to this staple piece. Knitted from soft 100% cotton yarn in a relaxed, cropped cut for maximum comfort in daily wear. And as the cherry on top is a printed pink Orchid flower that symbolizes love and beauty — definitely a subtle but memorable detail.	100% Cotton	1, 2	475000.0	http://dumaofficial.com/cdn/shop/files/56ACF790-A857-42E2-A37C-114A80A30ABF.jpg?v=1725868997	C002
+7696637067503	Rotto Dress White	Crafted from soft and sustainable tencel fabric, this midi shirt dress has front panels nad softly pleated body that creats a flared, A-line hem. The flat collar and sight pockets make it feel equally smart and effortless. Perfect for your daily, clean, put-together look.	100% TENCEL	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/products/rotto2.jpg?v=1654825752	C001
+8664861278447	Denise Vest | Denim Blue	Our Denise Denim Vest is designed for a sophisticated, yet flattering fit. Crafted from our newest special denim fabrication, with classic silhouettes of high neckline and subtly flared hemline, along with our special gold flower buttons front openings for added elegance. Wear it as a set with the Remmy Skort | Denim Blue or Agatha Shorts | Denim Blue.	100% Polyester	1, 2	695000.0	http://dumaofficial.com/cdn/shop/files/DANISETOP-5.jpg?v=1745990026	C002
+8060379136239	Bahia Outer White	Knitted from pure cotton yarns shaped for a classic fit with a cropped hem that works particularly well with any bottoms you have. It has a close round neck, Hand stitching patch pocket	100% Cotton	ALL SIZE	750000.0	http://dumaofficial.com/cdn/shop/files/BahiaCardiganWhite-2.jpg?v=1685002840	C003
+7455651135727	Piccolo Vest Black	V-neck Vest Top made from a slub-melange, ribbed cotton knit that is both edgy and feminine at once. With its unbalanced hemline, cropped fit, and slim fitting, this top is perfect for when you want to feel comfortable but looks like you put all the effort to your outfit! Pair it with our Jola Pants to look more edgy, or our Noor Skirt for a more feminine look.	100% Cotton	All Size fit to Medium	500000.0	http://dumaofficial.com/cdn/shop/products/Artboard16_44703175-66b3-481d-b15d-c4bf92c11203.png?v=1637806806	C011
+8825001378031	MMEHUILLET FOR DUMA - Sunsu Shirt | Denim White	Made from soft cotton-corduroy, this half-placket shirt has a pointed collar, cropped sleeves, concealed buttons and a curved stepped hem. Style it with our Baram Pants for a polished all-white look.	100% Cotton	All Size	650000.0	http://dumaofficial.com/cdn/shop/files/SunsuShirtWhite-5.jpg?v=1732725074	C002
+8665134366959	June Tanktop | Medium Stripe	Knitted from soft cotton poly blend with a touch of stretch, this slim fit tank top is an essential on warmer days. Its navy blue and white stripes will enhance neutral outfits and has endless styling opportunities. Wear it alone or layered under shirts and blazers, pair it with denim or linen pants for the perfect summer fits.	Cotton Poly Blend	1, 2	445000.0	http://dumaofficial.com/cdn/shop/files/JUNETANKTOPNAVY-4.jpg?v=1720522230	C002
+8823413145839	MMEHUILLET FOR DUMA - Seoul Puffer | White	The perfect blend of warmth and versatility, Seoul Puffer features a lightweight yet insulating design, with a smooth, quilted exterior. The real highlight is the detachable knit vest inside — a chic, textured layer that provides extra warmth. Whether you’re braving the cold or layering up for a more polished outfit, this jacket offers ultimate flexibility and a pop of color to brighten your winter wardrobe.	100% Polyester	ALL SIZE	1750000.0	http://dumaofficial.com/cdn/shop/files/SeoulPufferWhite.jpg?v=1732726689	C003
+8145580327151	Ripa Top Black	Made from ribbed cotton yarn with a touch of stretch, this slim-fit top is an essential for your capsule wardrobe. It has endless styling possibilities, and the cut-out design gives it an extra edge and unique point to your outfit.	100% Cotton	1, 2	495000.0	http://dumaofficial.com/cdn/shop/files/RipaTopBlack.jpg?v=1697775960	C002
+9000432763119	Thasa Dress | Dark Brown	This halter-neck dark brown midi dress features a clean, minimalist silhouette. Crafted from a silky satin-finish fabric, it drapes beautifully on the body, creating a flattering and timeless look. The back is secured with a delicate button closure. Can be worn on its own for a effortless statement or styled with an outer layer for a more layered, contemporary feel—perfect for both day and night occasions.	100% Polyester	1, 2	725000.0	http://dumaofficial.com/cdn/shop/files/THASADRESSDARKBROWN1.jpg?v=1750785869	C001
+7571081887983	Pia Oversized Tencel Shirt	Classic oversized shirt with a boxy cut made from soft Tencel fabric. Featuring button detailings around the body and adjustable panel in the back waistline, to be styled into different looks. Perfect for a day to night outfit, from casual to dressy in no time!	100% Tencel	ALL SIZE	575000.0	http://dumaofficial.com/cdn/shop/products/Artboard33_d29a08a8-2751-47d4-9e55-eb0aefc7024b.png?v=1645668989	C002
+8036455907567	Maya Blazer Fuchsia	Knitted from soft cotton yarns into the perfect blazer top design and silhouette, finished with shoulder pads and covered buttons. Something you never knew you needed in your capsule wardrobe. Undeniably comfortable, suitable for formal or business casual events, keeps you looking professional yet comfortable for your important meetings. Can't forget how perfect it looks as an outer too! This piece will be your best purchase yet!	100% COTTON	All Size	409500.0	http://dumaofficial.com/cdn/shop/products/MayaFuchsia3.jpg?v=1681104130	C002
+8211518947567	Trixie Dress Green	A special mini dress for this holiday season! This dress is shaped for a slim fit enhanced by the ribbed waist detail at the bodice, and flares out to a sculpted peplum mini skirt. Design	100% Nylon	ALL SIZE	465000.0	http://dumaofficial.com/cdn/shop/files/TrixieDressGreen-2.jpg?v=1701967693	C001
+8751920742639	Rugosa Top | Denim White	Bringing back the 80’s unforgettable style with this sleeveless denim top that can be worn as a set with our line of denim pants. We incorporated handmade frays into the neckline and hem of this boxy-cut top, crafted from cotton-blend white denim for a comfortable daily wear. Completed with a back slit opening and a classic round neck, Rugosa Top | Denim White is the very definition of simple, but not basic.	70% Cotton, 30% Polyester	1, 2	495000.0	http://dumaofficial.com/cdn/shop/files/RUGOSAWHITEDENIMTOP-1.jpg?v=1725938138	C002
+8110107197679	Izbel Jeans Black	Our Izbel jeans fit slim through the hips and thighs before falling to cropped, flared cuffs. Made from natural denim with a hint of stretch, they have a high-rise, raw cut waist and tailored with front &amp; back darts to get that perfect fit.	Cotton Spandex	S, M, L	665000.0	http://dumaofficial.com/cdn/shop/files/IzbelPantsBlack.jpg?v=1693816295	C005
+7946298622191	Jetro Pants Red	Flowing, straight-cut knit pants made from soft viscose yarn, this pants definitely call for sophisticated working-from-home (or anywhere) luxurious loungewear. Just the perfect thing for you when you want to feel pulled together. Pair it with our Ansel Cardi for a complete upscale loungewear look!	Soft Viscose	All Size	522000.0	http://dumaofficial.com/cdn/shop/products/JemaPantsRed_3.jpg?v=1670552626	C005
+8316165914863	Jiana Knit Top Navy	Knitted from soft cotton yarns, this cardigan/top features a deep v-neckline, contoured waistline and delicate peplum	100% Cotton	1, 2	650000.0	http://dumaofficial.com/cdn/shop/files/JianaTopNavy.jpg?v=1710211586	C002
+8824607637743	MMEHUILLET FOR DUMA - Haru Shorts | Green	A tweed A-line shorts with cinched waistband that sits comfortably on the waist, ensuring a flattering fit for all body types. Completed with buttons detail that can be worn with our clip-on buttons and front pockets that offer practical functionality. Wear it as a set with our Seonyul Top for a chic but timeless look.	100% Polyester	Small, Medium, Large	600000.0	http://dumaofficial.com/cdn/shop/files/HaruShortsGreen-2.jpg?v=1732725524	C005
+8060443361519	Rubie Crop Denim Shirt White	Crafted from a sustainable blend of soft cotton fabric with added stretch for comfort, this crop denim shirt is cut for a relaxed fit and has a classic pointed collar, back box pleat and neat buttoned blacket. The cropped length will pair perfectly with your favorite high-waisted trousers, or to pair with our matching Becca maxi skirt.	97% Cotton, 3% Spandex	ALL SIZE (FIT TO L)	575000.0	http://dumaofficial.com/cdn/shop/files/RubieDenimShirtWhite-5.jpg?v=1685034094	C006
+8101855527151	Baltra Skirt Black	This black knit midi skirt is made from heavyweight pure cotton yarns that will last years in your wardrobe. It's designed with a comfortable elasticated waist and flares out to a softly draped A-line hem.	100% Cotton	All Size	665000.0	http://dumaofficial.com/cdn/shop/files/Duma4641-1-edit3.jpg?v=1692595531	C003
+8667284996335	FIONA  | Regular Fit Crew Neck T-shirt in Black	A classic everyday T-shirt, offered in classic black. Crafted from a special cotton blend that’s soft to the touch, this versatile crew neck top is cut for a straight cut with the perfect length to pair with just about anything.	100 % Cotton Blend	Small, Medium, Large	495000.0	http://dumaofficial.com/cdn/shop/files/FIONATOPBLACK-3.jpg?v=1745990296	C002
+8792571707631	Erina Shirt | Denim Blue	A staple for the fall, Erina Shirt | Denim Blue was created with comfort and utility in mind. Made from medium-weight washed denim in blue, this boxy shirt holds just the perfect structure to give that minimalist look, while still having the softness and stretch that you need for day-to-day activities. Pair it with our matching Mandez Pants | Denim Blue to achieve a chic denim-on-denim outfit!	70% cotton, 27% viscose, 3% elastane	1, 2	585000.0	http://dumaofficial.com/cdn/shop/files/ERINADENIMSHIRT-1_6d063a62-a148-4de9-8d09-2527f123fffc.jpg?v=1729137384	C002
+7451739914479	Christmas Card	Wish Merry Christmas to your special someone with this card ! paper size : A6 Notes:1. Kindly Please chat our customer service for additional notes2. If there is no custom text, the gift card will be sent in Blank card	\N	A6	10000.0	http://dumaofficial.com/cdn/shop/products/2_56d67a07-bc94-4f4a-9ec2-b9759ace8f0a.png?v=1669894854	C004
+9000415723759	Hana Cardigan | Soft Pink	Light, airy, and effortlessly feminine, this pointelle cardigan is the perfect layering piece for the warmer weather. Crafted with delicate openwork knit and pretty shell buttons, it offers breathable comfort while adding a touch of texture to any outfit. A relaxed fit piece that’s perfect for your next brunch or summer getaway.	100% Cotton	ALL SIZE	525000.0	http://dumaofficial.com/cdn/shop/files/HANACARDIGANSOFTPINK6.jpg?v=1750851898	C003
+8825005506799	MMEHUILLET FOR DUMA - Hwi Scarf | Dark Brown	Crafted from soft structured cotton, this hybrid poncho doubles as a scarf that can be draped over the shoulder for an effortless look. Secured with a single button on one shoulder that you can accessorize with our clip-on buttons. The dynamic silhouette and timeless color palette offer endless styling potential.	100% Cotton	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/files/HwiScarfDarkBrown.jpg?v=1732725028	C003
+8145558438127	Bronte Top Black	This long-sleeved top is one of the essential piece created for our newest collection. It’s crafted from soft breathable cotton with a touch of stretch and features a draped square neck top and bolero style fitted sleeves. Easily style with your go to pants for an elevated look in seconds.	100% Cotton	All Size	475000.0	http://dumaofficial.com/cdn/shop/files/BronteTopBlack.jpg?v=1697776330	C002
+8896416710895	Giara Top | Light Denim	This denim top features a classic button-down front with metallic buttons. It has a micro sleeve, round neckline and an A-line silhouette, giving it a casual yet polished look. The medium-wash denim fabric provides a vintage appeal, making it a versatile piece that can be worn with your favorite bottoms or with our matching Riri Pants | Light Denim.	100% Cotton	ALL SIZE	500000.0	http://dumaofficial.com/cdn/shop/files/GIARATOPLIGHTDENIM-6.jpg?v=1740458511	C002
+8913121149167	Kilari Shirt | White	This crisp white button-up shirt features a modern, boxy silhouette with a mandarin collar and oversized patch pockets for a contemporary utilitarian look. The oversized fit with the perfect cropped length and structured fabric make it a versatile staple—perfect for pairing with tailored trousers or a sleek skirt for a polished ensemble.	100% Cotton	ALL SIZE	525000.0	http://dumaofficial.com/cdn/shop/files/KilariShirtWhite-7.jpg?v=1741925795	C002
+7471328526575	Jolly Cardigan Navy	Get cozy this holiday season with our Jolly Cardigan! Knitted from soft cotton material into the perfectly elegant fit and beautifully curved hem and sleeves	100% Cotton	All Size	625000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.42.52_2.jpg?v=1638864382	C003
+7946294395119	Anora Dress Red	Knitted with soft cotton yarns, this lightweight straight maxi dress comes in the perfect christmas shade. It's designed perfectly to complement all body types with its perfect silhouette. The pointed collar, button closure down the center front and micro chenille zigzag knit pattern are smart finishing touches to complete this dress. Can be styled univversally as a dress, top, or even as an outer!	100% Cotton	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/products/AnoraDressRed_2.jpg?v=1670552912	C001
+7455707070703	Paloma Dress Blue	Knit dress made from a slub-melange, ribbed cotton knit that is simple yet flattering. With its low round neck that accentuates the collarbone, its straight fit, side slit and midi length, this is the perfect casual dress for you! Pair it with our Arlet Top to create an effortless elegant look!	100% Cotton	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/products/Artboard74.png?v=1637737003	C001
+8742027264239	Iris Satin Dress | Blue	Another addition of a classic statement dress to your wardrobe, Iris Satin Dress | Blue was created by our mesmerism of the elegant Iris flower. Cut in a simple yet chic A-line silhouette with dainty straps to hold the minimalist straight neckline. Adorned with a head-turner single red flower on both sides of this silky satin dress, you can walk confidently to any event and become the talk of the town.	100% Polyester	1, 2	685000.0	http://dumaofficial.com/cdn/shop/files/IRISSATINDRESSBLUE-7_61c0147f-73ca-40f8-b08a-de79d3b7917c.jpg?v=1724885584	C001
+8897139572975	Lori Skirt | Olive Multi	Designed in a flowy, A-line silhouette, this midi-length skirt offers a graceful and flattering fit. The knit fabric provides stretch and comfort, making it ideal for all-day wear. The balanced combination of bold and neutral tones makes it a statement piece while remaining versatile enough for both casual and semi-formal occasions. Pair it with the matching Zimma Top | Olive Multi for an effortlessly chic outfit.	100% Cotton	1, 2	665000.0	http://dumaofficial.com/cdn/shop/files/LORISKIRT-3.jpg?v=1741927364	C006
+8196075585775	Remy Tee Black	An essential everyday fitted t-shirt, designed with a crew neck fit and a buttery soft feel. Perfect to wear alone or as a layering piece, this body-hugging tee is a must for everyone's capsule wardrobe!	90% Polyester, 10% Elastane	S, M, L	285000.0	http://dumaofficial.com/cdn/shop/files/RemyTeeBlack.jpg?v=1700779467	C002
+8604419555567	Cosmos Throw Blanket Pink	A snuggly blanket to keep you warm and comfortable, and yet light enough for travel-ready. Printed with beautiful hand-drawn illustrations on one side and covered with simple colors at the other side, our throw blanket is an essential collection that you can take anywhere — carrying the comfort of your homy bed everywhere you go.	Made in 100% cotton and 95% TENCEL™️ fabric	ALL SIZE	595000.0	http://dumaofficial.com/cdn/shop/files/CosmosPink.jpg?v=1718079741	C009
+8211497844975	Gala Top Red	Sculpted peplum knit top that looks like an art piece, designed specially for you this holiday season. Designed with a v-neckline and front button closure, and shaped to a fitted waist and flared peplum bottom, it is definitely one simple yet flattering piece to wear to your upcoming holiday festivities.	100% Nylon	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/GalaTopRed.jpg?v=1701935304	C002
+8665156616431	Alani Knit Dress | White	Dress of the season, this midi dress knitted from soft cotton poly blend yarns with our best selling wavy knit pattern in natural white, has an elegant halter neckline with black contrast strapline, and an A-line silhouette for a relaxed summer fit.	Cotton Poly Blend	ALL SIZE	700000.0	http://dumaofficial.com/cdn/shop/files/ALANIDRESSWHITE-4.jpg?v=1720522026	C001
+7605186199791	Jemma Tweed Black	Tweed Jacket with subtle glitter design that creates an overall feminine and classy mood. It is designed cleanly with a no collar round neck and covered buttons. Perfect outer to be worn either casually or to elevate an outfit.	60% Wool Blend, 35% Cotton, 5% Nylon	ALL SIZE	700000.0	http://dumaofficial.com/cdn/shop/products/JEMMA3.jpg?v=1648181075	C003
+8294592512239	ROSA | Slim Fit Crew Neck in Blue	A wardrobe staple offered in a soft blue hue, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	All Size (Fit to Large)	525000.0	http://dumaofficial.com/cdn/shop/files/LEN01379-edit.jpg?v=1708999772	C002
+8145215291631	Morris Pants Black	A staple pants that everyone needs in their capsule wardrobe. This pant is crafted from stretch premium Japanese polyester fabric and designed as a straight silhouette that taper down the legs and with ankle-length hems, finished with front patch pocket	100% Japanese made Premium Polyester	S, M, L	650000.0	http://dumaofficial.com/cdn/shop/files/MorrisPantsBlack.jpg?v=1697702510	C005
+8843361583343	Sorrel Pants | Black	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium, Large	595000.0	http://dumaofficial.com/cdn/shop/files/SORRELPANTSBLACK-2.jpg?v=1734493373	C005
+8289522614511	Heather Leather Dress Maroon	This mini dress is a refined take on our best selling leather. Shaped in an A-line silhouette, it's designed with a rounded neckline and side slip pockets in classic maroon hue.	100% Polyester	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/Artboard5_1.png?v=1708574557	C001
+8005157290223	Orca Shirt Brown	An elevated wardrobe staple, this structured short sleeve shirt is cut from a premium stretc fabric, finished with side slit, pointed flat collar, front button fastening and the perfect contouring slim fit for an effortless look. Complete the look by pairing it with our Martis flared pants for an effortless polished look.	100% Japanese made Premium Polyester	1, 2	675000.0	http://dumaofficial.com/cdn/shop/products/OrcaShirtBrown.jpg?v=1677143421	C002
+9024429129967	Positano Cardigan | Cream	Cozy up in this crocheted cardigan, designed with a boxy fit for effortless layering and laid-back charm. Featuring pretty contrasting scallop edges, that add a modern twist to a timeless texture. Completed with front patch pockets and horn buttons that serve both as	100% Cotton	ALL SIZE	785000.0	http://dumaofficial.com/cdn/shop/files/PositanoCardiganCream1.jpg?v=1753701327	C003
+8005223088367	Milla Vest Grey	Our Milla Vest has a looser, straight cut made from soft viscose yarns and with front button down closure. A simple, timeless piece that can be worn solo or be layered over a tank or tee as you like! Pair it with our Jetro Pants for an easy elevated daily look!	SOFT VISCOSE	ALL SIZE	495000.0	http://dumaofficial.com/cdn/shop/products/MillaVestGrey-2.jpg?v=1677200003	C007
+8843346510063	Garland Sweater | Nutmeg	Shawl Neckline Sweater with multiple styling options, made from a mid-weight cotton knitting and featuring an intricate rib stitch. It has an oversized fit for casual sophistication. Pair it with our Sorrel satin pants for a comfortable yet stylish holiday/ airport fit.	100% Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/GARLANDSWEATERNUTMEG-1.jpg?v=1734424306	C003
+8625224155375	MICOLE | Slim Fit Crew Neck in Blue	A wardrobe staple offered in a soft blue hue, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	Small, Medium	500000.0	http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6644-edit.jpg?v=1718842224	C002
+8196107469039	Brea Zip Up Sweater Black	This relaxed zip up jumper is crafted from soft rayon, twisted to create a comfy knit. The laid-back piece is completed with high ribbed neckline, dropped shoulders, ribbed waistband and loose sleeves. Pair it with our Nehru jogger Pants for the perfect airport/ lounge outfit!	100% RAYON	ALL SIZE (FIT TO XL)	675000.0	http://dumaofficial.com/cdn/shop/files/BreaSweaterBlack-4.jpg?v=1700799082	C003
+8218757071087	Rebecca Tweed Dress Black	Join the festive season with this sparkling mini dress cut from sequin tweed. It features a halter neckline, A-line silhouette, and a row of fancy gold floral buttons. Pair it with your favorite pair of heels and some statement earrings and you're good to go to your next holiday party!	100% Polyester	1, 2	725000.0	http://dumaofficial.com/cdn/shop/files/RebeccaTweedDress.jpg?v=1702537560	C001
+8030804115695	Nada Top Navy	A soft knitted T-shirt great fir your daily fits, with an added puffed sleeve twist. This top comes in a navy blue shade and has a wide, ribbed neckline.	Soft Viscose	All Size ( Stretchy Slim Fit )	475000.0	http://dumaofficial.com/cdn/shop/products/NadaTopNavy-3.jpg?v=1680145921	C002
+8792566825199	Ochre Shorts | Brown	Designed with a mid-waist and tailored fit, these shorts offer a chic silhouette that transitions seamlessly from day to night. Dress it up with our matching suede jacket in warm hues, or down with a casual tee—these suede shorts are your go-to piece for stylish fall layering.	100% Polyester	1, 2Measurement :	357000.0	http://dumaofficial.com/cdn/shop/files/OCHRESHORTS-1.jpg?v=1729052832	C005
+8792597070063	Ang T-Shirt | Nutmeg	Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a rich nutmeg hue, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	495000.0	http://dumaofficial.com/cdn/shop/files/ANGT-SHIRTNUTMEG-4.jpg?v=1729052304	C002
+7605188755695	Karie Tencel White	Soft Tencel Shirt with extended collar, v-neckline, and big flare sleeves. This top fits perfectly on any body type and pairs easily with any bottoms.	100% Tencel	ALL SIZE	500000.0	http://dumaofficial.com/cdn/shop/products/KARIE2.jpg?v=1648172188	C002
+8110085439727	Lesley Jeans White	Denim trousers is a definite staple for your wardrobe, especially this pair as they're comfortable and fits like a glove. This pair is shaped for a flared silhouette with full-length legs and slits at cuffs that will make your legs looks super long and slim. They're crafted from a stretch cotton denim for lightness and comfort it won't feel like your wearing jeans at all!	Cotton Spandex	S, M, L	789000.0	http://dumaofficial.com/cdn/shop/files/LesleyJeanWhite.jpg?v=1693808761	C005
+8897119682799	Zimma Top | Olive Multi	This sleeveless knit top features a chic vertical stripe pattern in shades of olive green, black, and white, creating a visually elongated silhouette. It has a flattering V-neckline with a button-down front, adding a touch of elegance and versatility. The soft, breathable knit fabric ensures comfort, while the slightly relaxed fit makes it an effortless piece for layering or wearing on its own. The subtle front slit detail enhances movement and gives a modern edge to the design.	100% Cotton	1, 2	525000.0	http://dumaofficial.com/cdn/shop/files/ZIMMATOP-5.jpg?v=1740458140	C002
+8823407837423	MMEHUILLET FOR DUMA - Seoul Puffer | Pink	The perfect blend of warmth and versatility, Seoul Puffer features a lightweight yet insulating design, with a smooth, quilted exterior. The real highlight is the detachable knit vest inside — a chic, textured layer that provides extra warmth. Whether you’re braving the cold or layering up for a more polished outfit, this jacket offers ultimate flexibility and a pop of color to brighten your winter wardrobe.	100% Polyester	ALL SIZE	1750000.0	http://dumaofficial.com/cdn/shop/files/SeoulPufferPink.jpg?v=1732726571	C003
+8498263556335	Harper Pants Grey	Crafted from premium polyester blend suiting fabric, these baggy trousers have pleats through the front to elongate the wide legs and two button	100% Polyester	S, M, LMeasurement :	650000.0	http://dumaofficial.com/cdn/shop/files/HARPERPANTSGREY-2.jpg?v=1715741368	C005
+8196090462447	Larra Pants Grey	The comfiest wardrobe staple, designed with our favorite ultra-soft jersey fabric. This straight-leg pant style features a stretch waistband making it comfortable to wear all day long! Wear it as a set with our Remy t-shirt for an easy travel ootd!	90% Polyester, 10% Elastane	S, M, L, XL	295000.0	http://dumaofficial.com/cdn/shop/files/LarraPantsGrey.jpg?v=1700777919	C005
+7696639983855	Eli Top Black	Knitted from soft cotton yarns, this utterly comfy knit top will easily become a staple in every women's wardrobe. As a loungewear or for going out, this top has a very versatile style that you can pair it with any bottom you can possibly think of.	100% Cotton	ALL SIZE	350000.0	http://dumaofficial.com/cdn/shop/products/eli4.jpg?v=1654770890	C002
+8329477685487	Florence Top Mint	The Florence top in our special brocade fabrication is a sweet addition to our collection. This silhouette is designed to be a relaxed fit with A-line body and front draped peplum detail and perfectly shaped slight halter neckline. Pair it with our Natia skirt for the perfect look!	60% Polyester, 40% Cotton	1, 2	399000.0	http://dumaofficial.com/cdn/shop/files/FlorenceTopMint.jpg?v=1711026832	C002
+8773329977583	Sienna Top | White	Crafted from soft buttery knit blend with a fluid hand feel, this white blouse is designed with drapes, fitted sleeves, and a mock neckline. Style it with tailored skirts or trousers and kitten heels for the perfect polished look!	90% Polyester, 10% Elastane	ALL SIZE	427500.0	http://dumaofficial.com/cdn/shop/files/SIENNATOPWHITE-2.jpg?v=1727772539	C002
+9024434340079	Bianna Dress | Khaki	PREORDER 14 WORKING DAYS A classic button-up shirt dress, but designed better and classier. Bianna Dress features a flattering pleated waist that adds graceful movement and structure to the silhouette, a piece that can transition effortlessly from work to weekend. The look is completed with a detachable vegan leather belt that cinches the waist for a defined shape. Fully-lined for comfort and free movement in any kind of occasions.	73% Polyester, 27% Nylon	ALL SIZE	785000.0	http://dumaofficial.com/cdn/shop/files/BiannaDressKhaki4.jpg?v=1753853214	C001
+9000439841007	Andia Skirt | Black	A crochet midi skirt with a straight, clean-cut silhouette. Made from soft, breathable knit with a comfortable elastic waistband. The hem is finished with contrast hand-stitched detail for a unique, crafted touch. Easy to wear as a set with the matching top or styled on its own with simple basics.	Recycled Polyester	1, 2	695000.0	http://dumaofficial.com/cdn/shop/files/ANDIASKIRTBLACK1.jpg?v=1750785805	C006
+7739103543535	Julian Dress Black	Knitted from very soft and elastic viscose yarns, this relaxed fit shirt dress features a straight fit and front pocket flaps for a laid-back, casual silhouette. The sleeve cuff and buttons	SOFT VISCOSE	ALL SIZE	665000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard81.jpg?v=1657771069	C001
+8742005244143	Prairie Satin Dress | Black	Inspired by the sophisticated Peony flower, this dress was crafted carefully from silky smooth satin fabric. A silhouette taken from our best-selling Tropez dress that will flow and sway beautifully when it’s worn, Prairie Satin Dress | Black is the very definition of an elevated summer piece. Completed with a classic round neck cut and back slit opening, this beauty will be so easy to slip into for your special occasion.	100% Polyester	1, 2	685000.0	http://dumaofficial.com/cdn/shop/files/PRAIRIESATINDRESSBLACK-5.jpg?v=1724754436	C001
+8665120866543	Kayla Vest Top | Small Stripe	Carefully knitted with the classic tailoring principle to achieve the silhouette of this waistcoat. Stripe knit pattern that is perfect for the summertime, complemented with the perfect halter neck design and beautifully contoured waist, completed with front button fastenings and welt pocket flap designs. A classic piece that will complement your body really well!	Cotton Poly Blend	1, 2	550000.0	http://dumaofficial.com/cdn/shop/files/KAYLAVESTTOP_SMALLSTRIPE_-6.jpg?v=1720522250	C002
+8792586879215	Suade Dress | Brown	Crafted from soft suede, this dress offers a sleek silhouette that effortlessly combines elegance and comfort. The rich, earthy tones are perfect for the season, while the sleeveless design makes it ideal for layering. Cut to a straight fit that flatters all body types, with clean lines to ensure a sophisticated, modern look. Completed with a thin belt for versatile styling and functional side pockets.	100% Polyester	ALL SIZEMeasurement :	700000.0	http://dumaofficial.com/cdn/shop/files/SUADEDRESSBROWN-4_6d8c3518-3dc9-467f-bd8c-dd2ae2c31528.jpg?v=1729137574	C001
+8959305777391	Sienna Ease Top | Burgundy	Crafted from soft buttery knit blend with a fluid hand feel, this burgundy blouse is designed with drapes, fitted sleeves, and a mock neckline. Style it with tailored skirts or trousers and kitten heels for the perfect polished look!	95% Polyester, 5% Elastane	ALL SIZE	346500.0	http://dumaofficial.com/cdn/shop/files/SIENNAEASEBURGUNDY-6.jpg?v=1747875489	C002
+8959266095343	Quinn Top | Beige	This sleeveless top features a sharp tailored collar and a clean front with a hidden side zipper. The standout detail is its open back with a soft, sculptural drape, adding a bold yet elegant touch. Easy to dress up or down, it pairs perfectly with tailored pants or a sleek skirt for a modern, refined look.	100% Japanese made Premium Polyester	ALL SIZE	652500.0	http://dumaofficial.com/cdn/shop/files/QUINNTOPBEIGE-5.jpg?v=1747881264	C002
+8294596313327	ROSA | Slim Fit Crew Neck in Beige	A wardrobe staple offered in a neutral beige hue, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	All Size (Fit to Large)	525000.0	http://dumaofficial.com/cdn/shop/files/LEN01084-edit.jpg?v=1709002771	C002
+8959788941551	Lerro Cardigan | Black	Black knit cardigan features a clean and relaxed silhouette. The sleeves have subtle gathers to add volume, while the V-neck front is finished with unique leather buttons. A versatile piece for effortless layering — easy to pair with any bottoms.	Soft Viscose	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/files/LERROCARDIGAN-1.jpg?v=1747798857	C003
+7455630426351	Arlet Top Red	Knit top made from a slub-melange, ribbed cotton knit that is feminine and attractive. With its long, flared out sleeves that covers the palm of our hand, its V-neckline cut that accentuate one's collarbone and its cropped, straight fit, this top screams elegance and comfort in the most perfect way. Our Arlet Top can be styled in so many different ways; as a top or as a cardigan! Pair it with our Jola Pants for a casual look, or our Paloma Dress for a more sophisticated look.	100% Cotton	All Size	550000.0	http://dumaofficial.com/cdn/shop/products/Artboard46_e0c2bdf2-d4ac-48f5-9430-7d04eac8d0b8.png?v=1637746962	C002
+8060384837871	Nehru Jogger Pants White	These jogger-style off white trousers are made from finely knitted soft rayon. A relaxed fit that taper slightly towards the ribbed hem, and with a comfortable elasticated waist for all day wear. Complete the look with our Brea Zip Up sweater.	100% RAYON	ALL SIZE (FIT TO XL)	665000.0	http://dumaofficial.com/cdn/shop/files/NehruJoggerPantsWhite.jpg?v=1685003550	C005
+7946296885487	Ansel Cardigan Camel	Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!	Soft Viscose	All Size	595000.0	http://dumaofficial.com/cdn/shop/products/AnselCardiganCamel_Edited.jpg?v=1670560963	C002
+8913120493807	Balestra Skirt | Black	This black maxi skirt features a high-waisted design with a wide, fitted bustier style waistband that accentuates the silhouette. The flowing, gathered fabric creates a graceful and elegant look, making it perfect for both casual and dressy occasions. Its versatile style pairs well with various tops for effortless styling.	Poly Blend	Small, Medium, Large	616500.0	http://dumaofficial.com/cdn/shop/files/BalestraSkirtBlack-2.jpg?v=1741926124	C006
+8269638762735	Rebecca Tweed Dress Pink	Join the season of love with this sparkling mini dress cut from sequin tweed. It features a halter neckline, A-line silhouette, and a row of fancy gold floral buttons. Pair it with your favorite pair of heels and some statement earrings and you're good to go on your special date night!	100% Polyester	1, 2	725000.0	http://dumaofficial.com/cdn/shop/files/RebeccaTweedDressPink.jpg?v=1707102219	C001
+8294597918959	ROSA | Slim Fit Crew Neck in Pink	A wardrobe staple offered in a subtle pink hue, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	All Size (Fit to Large)	525000.0	http://dumaofficial.com/cdn/shop/files/LEN01428-edit.jpg?v=1709004647	C002
+8818180620527	Ang T-Shirt | White	Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a white tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	396000.0	http://dumaofficial.com/cdn/shop/files/AngT-ShirtWhite-2.png?v=1731576624	C002
+7455655362799	Jola Pants Black	A must-have pant made of slub-melange, ribbed cotton knit, perfect for going out or lounging around. Featuring a mid-rise, cropped length, and straight fit, perfect for a casual, everyday look. Pair it with our Piccolo Top or a simple white shirt and you're ready to get going!	100% Cotton	All Size ( Fit to Large )	650000.0	http://dumaofficial.com/cdn/shop/products/Artboard8_1347b6c0-0967-4247-b5cd-e1b38f240258.png?v=1637736541	C005
+8307519521007	Peony Top Pink	Inspired by the blossoming of flowers, this knit top is made with structured flounce hem detail that gives off a playful elegance. Knitted from soft cotton yarns in the perfect pink shade, it is shaped into a contoured fit body and blooming hem.	100% Cotton	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/PeonyTopPink-6.jpg?v=1710230023	C002
+8843350245615	Peony Top | Maroon	Inspired by the blossoming of flowers, this knit top is made with structured flounce hem detail that gives off a playful elegance. Knitted from soft cotton yarns in the perfect maroon shade, it is shaped into a contoured fit body and blooming hem.	100% Cotton	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/PEONYTOPMAROON-1_bcb7c8c6-bd18-4d7b-8094-178017910b2d.jpg?v=1736935846	C002
+8792612241647	Jennie Tanktop | Olive	An essential for your daily wardrobe, especially those warmer days. Offered in a rich olive hue, it’s crafted from soft lyocell blend and has a streamlined slim fit with endless styling opportunities - wear it alone or layered under shirts and blazers.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	395000.0	http://dumaofficial.com/cdn/shop/files/JENNIETANKTOPOLIVE-3.jpg?v=1729052555	C002
+9024408715503	Agea Top | Cream	Classic but memorable. An A-line cut top in smooth and luxurious fabric that enhances its minimalist appeal. Designed with a clean round neckline and halter cut, Agea is a versatile top that can be worn in any kind of occasions – be it a casual brunch with the girls or a long-awaited dinner date. Pair this flowy piece with our best-selling Tan Pants for a chic, matching set look.	100% Polyester	1, 2	590000.0	http://dumaofficial.com/cdn/shop/files/AgeaTopCream3.jpg?v=1753853466	C002
+7455707791599	Paloma Dress Red	Knit dress made from a slub-melange, ribbed cotton knit that is simple yet flattering. With its low round neck that accentuates the collarbone, its straight fit, side slit and midi length, this is the perfect casual dress for you! Pair it with our Arlet Top to create an effortless elegant look!	100% Cotton	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/products/Artboard53_63ace701-43ca-4588-88b5-96269442df3b.png?v=1637770545	C001
+8842757177583	Hoho Sweater | Maroon Multi	Stay festive and comfortable this season with our fair-isle sweater in intricate Christmas jacquard motif and the perfect oversized fit. Comes in two colors, it’s the prefect pick for family gatherings, or twinning with someone special this holiday season.	100% Cotton	ALL SIZE	342500.0	http://dumaofficial.com/cdn/shop/files/HOHOSWEATERMAROONMULTI-1.jpg?v=1734424632	C003
+7975353712879	Maesa Cardigan Black	Pattern Knit Cardigan with black lis detail all around and front button down. With slightly cropped and straight boxy silhouette, this cardigan is perfect to level up your monochromatic daily look. You can also easily create an effortlessly elegant look by pairing it with out Trompa mini skirt.	100% COTTON	All Size	675000.0	http://dumaofficial.com/cdn/shop/products/MaesaCardiganBlack.jpg?v=1673496079	C002
+7740271165679	Darcie Top White	Knitted from soft cotton yarns, this v-neck top has a flattering curved yet relaxed fit and femine ruffle	100% COTTON	All Size	525000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard18.jpg?v=1657767372	C002
+8295196754159	RACHEL | Slim Fit Scoop Neck in Black	A wardrobe staple offered in classic black, it’s crafted from soft and stretch lyocell and has a streamlined slim fit and flattering scoop neckline that's ideal for your everyday wear.	100 % Lyocell Blend	Small, Medium	472500.0	http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6850-edit.jpg?v=1718841949	C002
+8081767465199	Kano Set Tosca	Our cropped cardigan and adjustable tank top set is a seasonless essential that can be worn as a set or separates. Lightweight knitwear pieces, with point collar and button front fastening cardigan, completed with an adjustable strap basic tanktop. Perfect for any look you're going for any time of day!	100% Cotton	1, 2	600000.0	http://dumaofficial.com/cdn/shop/files/KanoSetTosca2.png?v=1688954844	C002
+8604127068399	Daffodil Girl Pajamas Pink	A reversible set of pajamas made in 100% cotton. With a spread of beautiful blooms all over the scallop collar and frill hem	Made in 100% cotton	1, 2, 3, 4	495000.0	http://dumaofficial.com/cdn/shop/files/DaffodilPJPink-4.jpg?v=1718097850	C002
+8329452749039	Rowa Pants Denim Blue	Denim pants cut from stretch denim fabric washed into the perfect cool blue shade, this pants is designed with a high-rise, full length, and the perfect flared fit finished with front and back pockets. Pair it with our Danica top for a chic denim-on-denim look!	100% Cotton	S, M, L	675000.0	http://dumaofficial.com/cdn/shop/files/RowaPantsDenimBlue_ff3c58a0-bca1-44d0-bc14-81da379465aa.jpg?v=1711037434	C005
+8145540219119	Ford Top Olive	This ribbed shirt is crafted with soft and breathable rayon yarn, shaped for a feminine and slimming silhouette, and offered in unique olive shade. It’s designed with a pointed collar, special shell buttons, long sleeves and the perfect cropped length.	90% Rayon, 10% Polyamide	All Size	420000.0	http://dumaofficial.com/cdn/shop/files/FordTopOlive.jpg?v=1697785585	C002
+8145529307375	Lancet Crop Shirt White	This shirt is our take of a wardrobe staple. Crafted from soft and breathable white Tencel fabric, it’s cut for a relaxed fit with classic pointed collar and subtly statement front pockets. The cropped length will pair perfectly with any high-waisted pants.	100% Tencel	All Size	550000.0	http://dumaofficial.com/cdn/shop/files/LancetShirtWhite.jpg?v=1697785610	C002
+8792581144815	Suade Dress | Sand	Crafted from soft suede, this dress offers a sleek silhouette that effortlessly combines elegance and comfort. The rich, earthy tones are perfect for the season, while the sleeveless design makes it ideal for layering. Cut to a straight fit that flatters all body types, with clean lines to ensure a sophisticated, modern look. Completed with a thin belt for versatile styling and functional side pockets.	100% Polyester	ALL SIZEMeasurement :	700000.0	http://dumaofficial.com/cdn/shop/files/SUADEDRESSSAND-5_93750e94-c2b7-47dc-9c1e-3ea9264d054b.jpg?v=1729137718	C001
+8498656149743	Tilda Shorts White	A timeless classic silhouette shorts designed to fit all kinds. Offered in classic white, they have a comfortable high waist that falls to an A-line shape for both comfort and a flattering cut, and short hemlines to create a leg-lengthening effect. Perfect match to all your tops!	100% Polyester	S, M, L	525000.0	http://dumaofficial.com/cdn/shop/files/TILDASHORTSWHITE-5.jpg?v=1720601012	C005
+9024412516591	Tan Pants | Cedar	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium, Large	685000.0	http://dumaofficial.com/cdn/shop/files/TanPantsCedar1.jpg?v=1753698011	C005
+9000438857967	Thasa Dress | Black	This halter-neck black midi dress features a clean, minimalist silhouette. Crafted from a silky satin-finish fabric, it drapes beautifully on the body, creating a flattering and timeless look. The back is secured with a delicate button closure. Can be worn on its own for a effortless statement or styled with an outer layer for a more layered, contemporary feel—perfect for both day and night occasions.	100% Polyester	1, 2	725000.0	http://dumaofficial.com/cdn/shop/files/THASADRESSBLACK1.jpg?v=1750785844	C001
+8030801264879	Voyage Blazer Navy	Knitted from soft cotton yarns, this double-breasted stripes knit cardigan has a classic blazer collar, straight fit, front pockets and covered buttons. This blazer style knit cardigan is a classic wardrobe staple to carry you through different seasons over the years!	100% COTTON	ALL SIZE	725000.0	http://dumaofficial.com/cdn/shop/products/VoyageBlazerNavy-2.jpg?v=1680151991	C002
+8773339513071	Kairi Top | Black	Crafted from soft buttery knit blend with a fluid hand feel, this asymmetrical blouse is designed with drapes, fitted sleeves, and one shoulder silhouette. Style it with tailored skirts or trousers and kitten heels for the perfect fall outfit!	90% Polyester, 10% Elastane	ALL SIZE	427500.0	http://dumaofficial.com/cdn/shop/files/DE8B88EE-6D98-4814-A9CA-E55EB0D5D347.jpg?v=1727768404	C002
+9000475689199	Eve T-shirt | White	PREORDER 25 WORKING DAYS A classic everyday T-shirt, offered in white. Designed with a classic crew neckline and a flattering straight cut, this top is crafted from a silky-soft rayon blend with a touch of stretch for maximum comfort and versatility. The clean silhouette hits at the ideal length to pair with just about anything.	56,5% Rayon, 31,2% Polyamide, 12,3% Spandex	Small, Medium	495000.0	http://dumaofficial.com/cdn/shop/files/EVET-SHIRTWHITE5.jpg?v=1750852564	C002
+8498254676207	Pragh Skirt Navy Stripe	Focusing on classic tailoring, this midi skirt is crafted from premium polyester blend suiting fabric and precisely cut in a slim, straight silhouette that perfectly elongates the figure. Finished with back invisible zipper opening, two front welt pockets, and back slit for easy walking.	100% Polyester	S, M, LMeasurement :	300000.0	http://dumaofficial.com/cdn/shop/files/PRAGHSKIRTNAVYSTRIPE-1.jpg?v=1715599974	C006
+8005217485039	Milla Vest Camel	Our Milla Vest has a looser, straight cut made from soft viscose yarns and with front button down closure. A simple, timeless piece that can be worn solo or be layered over a tank or tee as you like! Pair it with our Jetro Pants for an easy elevated daily look!	SOFT VISCOSE	ALL SIZE	495000.0	http://dumaofficial.com/cdn/shop/products/MillaVestCamel-3.jpg?v=1677200093	C007
+7946306486511	Darcie Top Maroon	Knitted from soft cotton yarns, this v-neck top has a flattering curved yet relaxed fit and femine ruffle	100% COTTON	All Size	525000.0	http://dumaofficial.com/cdn/shop/products/DarcieTopMaroon_3.jpg?v=1670331546	C002
+7946287939823	Anora Dress Grey	Knitted with soft cotton yarns, this lightweight straight maxi dress comes in the perfect monochrome shade. It's designed perfectly to complement all body types with its perfect silhouette. The pointed collar, button closure down the center front and micro chenille zigzag knit pattern are smart finishing touches to complete this dress. Can be styled univversally as a dress, top, or even as an outer!	100% Cotton	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/products/AnoraDressGrey_3.jpg?v=1670553320	C001
+8986668531951	Verra Top | Olive	This top features soft drapes across the front that create a flattering, elegant shape. It’s designed with shoulder padding to give structure and a bold silhouette. The added buttoned shoulder detail gives it a modern, tailored touch. A perfect mix of strong and feminine.	100% Polyester	Small, Medium, Large	700000.0	http://dumaofficial.com/cdn/shop/files/VERRATOPOLIVE1.jpg?v=1750786069	C002
+8742172721391	Fleur Satin Top | Black	A piece to remember, this halter-neck satin top with an easy A-line fit is casual but not basic. Sewn carefully from silky smooth satin fabric and completed with dainty neck straps opening, Fleur Satin Top | Black is the kind of piece you would reach out to for that long-awaited summer getaway. With a beautiful Peony flower as the cherry on top, you will most definitely be the trend-setter of the season.	100% Polyester	1, 2	454750.0	http://dumaofficial.com/cdn/shop/files/FLEURSATINTOPBLACK-4.jpg?v=1724754340	C002
+8959789039855	Rue Dress | Black	A minimalist sleeveless A-line mini dress featuring a sharp V-neckline and structured collar. Crafted in a clean fabric, it offers a tailored silhouette that flatters the upper body and gently flares out towards the hem. This piece combines modern sophistication with timeless appeal—perfect for styling with boots, heels, or layering under outerwear.	100% Japanese made Premium Polyester	ALL SIZE	612000.0	http://dumaofficial.com/cdn/shop/files/RUEDRESSBLACK-2.jpg?v=1747788019	C001
+7823893364975	Haylee Skort Denim	Mid-Waist Skort with inner shorts and skirt style overlay, cut from soft rayon fabrin in the perfect denim hue. Feminine and Chic silhouette with V-cut waist that gives a sinched waist figure. Pair it with our Gigi Crop Top to build a clean and stylish outfit in seconds!	70% Rayon, 30% Polyester	SMALL, MEDIUM	495000.0	http://dumaofficial.com/cdn/shop/products/haylee2.jpg?v=1662687536	C003
+8498257625327	Pragh Skirt Grey	Focusing on classic tailoring, this midi skirt is crafted from premium polyester blend suiting fabric and precisely cut in a slim, straight silhouette that perfectly elongates the figure. Finished with back invisible zipper opening, two front welt pockets, and back slit for easy walking.	100% Polyester	S, M, LMeasurement :	300000.0	http://dumaofficial.com/cdn/shop/files/PRAGHSKIRTGREY-4.jpg?v=1715741448	C006
+8329466183919	Ara Dress White	Our Ara dress is designed with a laid back silhouette, perfect for attending your Ramadhan festivities, our to use for everyday styling. Crafted from our special lace brocade, this dress is a free flowing piece, featuring front button openings and accentuated sleeves, and includes an inner cotton dress.	100% Polyester	ALL SIZE	1500000.0	http://dumaofficial.com/cdn/shop/files/AraDressWhite.jpg?v=1711026686	C001
+8329482731759	Natia Skirt Mint	An elegant addition to the collection, our Natia Midi Skirt is designed with box pleats that sinches the waist perfectly and falls to a fuller, volumous skirt. Our special brocade fabrication adds an extra tecture to this structured style, midi length and hidden zipper help polished off this silhouette. Pair it with our matching Florence top for the perfect look!	60% Polyester, 40% Cotton	1, 2	435000.0	http://dumaofficial.com/cdn/shop/files/NatiaSkirtMint-2.jpg?v=1711073392	C006
+8742218367215	Olga Skirt | Black	Are you searching for a skirt that would hug your body comfortably and flatteringly? Say no more, Olga Skirt | Black is here for your daily need of a versatile bottom that’s not only easy to wear, but also stylish. Crafted from a soft and stretchy fabric in an ankle-length fit, this skirt elongates your silhouette, all the while allowing you to move freely.	90% Polyester, 10% Elastane	Small, Medium, Large	535000.0	http://dumaofficial.com/cdn/shop/files/OLGASKIRTBLACK-3.jpg?v=1724753586	C006
+9024381223151	Kyma Top | Black	Effortless and easy to wear, this breezy sleeveless top is crafted from breathable, lightweight linen – perfect for warm-weather days. Designed with a relaxed, loose fit for all-day comfort, it features a flattering V-neckline adorned with pretty ruffles, adding a touch of feminine charm. Wear it with your favorite pair of jeans or our matching Sante Pants for a chic, cruise-ready look.	100% Linen	Small, Medium, Large	650000.0	http://dumaofficial.com/cdn/shop/files/KymaTopBlack5.jpg?v=1753853816	C002
+8211261653231	Esther Ruffle Cardigan White	Our special ribbed cardigan that is designed with a v-neckline and front button closure and shaped for a streamlined slim fit and ruffle	85% Raylon, 10% Polyester, 5% Nylon	ALL SIZE (FIT TO L)	675000.0	http://dumaofficial.com/cdn/shop/files/EstherRuffleCardiWhite.jpg?v=1701935735	C003
+8101854544111	Kano Set Navy	Our cropped cardigan and adjustable tank top set is a seasonless essential that can be worn as a set or separates. Lightweight knitwear pieces, with point collar and button front fastening cardigan, completed with an adjustable strap basic tanktop. Perfect for any look you're going for any time of day!	100% Cotton	1, 2	600000.0	http://dumaofficial.com/cdn/shop/files/DAN-20230615-DUMA-1158.jpg?v=1692594514	C002
+8211451150575	Glacer Leather Skirt Silver	Headline your party season outfits with this metallic mini skirt! It's crafted from high quality silver leather and designed with simple a-line silhouette and hidden side zipper. Complement this special mini by styling it with our metallic knit pieces.	100% Polyester	S, M, L	600000.0	http://dumaofficial.com/cdn/shop/files/GlacerSkirtSilver.jpg?v=1701935568	C006
+8117392638191	Bahia Outer Navy	Knitted from pure cotton yarns shaped for a classic fit with a cropped hem that works particularly well with any bottoms you have. It has a close round neck, Hand stitching patch pocket	100% Cotton	ALL SIZEMeasurement :	750000.0	http://dumaofficial.com/cdn/shop/files/LEN03038-editcopy.jpg?v=1695367682	C002
+8116765851887	Galena Cardigan Black	This V-neck cardigan is knitted from customer's all time favorite soft viscose yarns. Designed for a contoured fit, it has neat ribbed trims and fasted with a row of horn buttons for a sleek finish. It's most definitely a wardrobe essential that will stay with you for a very long time.	Soft Viscose	All Size	600000.0	http://dumaofficial.com/cdn/shop/files/GalenaCardiBlack-3.jpg?v=1695006788	C002
+8196237132015	Rowan Blazer Brown	A classic tailoring piece crafted from premium Japanese polyester fabric, this blazer features a boxy fit, single-breasted silhouette, peak lapels, pocket at front, and front button closure. Perfect to throw on any day over your simple basics to elevate the look in seconds.	100% Japanese made Premium Polyester	1, 2	725000.0	http://dumaofficial.com/cdn/shop/files/RowanBlazerBrown.jpg?v=1700779616	C003
+8107687051503	Cola Polo Top Navy	An elevated wardrobe staple, this contoured short sleeve polo shirt is cut from premium stretch fabric, finished with fancy gold buttons, pointed flat collar, and the perfect contouring slim fit for an effortless look, offered in timeless navy shade.	100% Japanese made Premium Polyester	All Size	675000.0	http://dumaofficial.com/cdn/shop/files/ColaTopNavy.jpg?v=1693804592	C002
+8329441050863	Freya Set Blue	A perfect set consisting of a cropped shirt and voluminous midi skirt, in a cool blue shade. The cropped shirt is designed with a puffed sleeves and boxy fit, finished with concealed front buttons. The skirt is shaped in an A-line silhouette with a corset waist detail that contours the waist perfectly and a concealed zip closure.	100% Cotton	1, 2	1250000.0	http://dumaofficial.com/cdn/shop/files/FreyaSetBlue.jpg?v=1711026966	C002
+8825023037679	MMEHUILLET FOR DUMA - Daon Top | White	A must-have piece to add to your capsule wardrobe, Daon Top is the very definition of everyday wear. Knitted from soft yarns into a unique crochet texture, this piece blends both comfort and style into a loose, but flattering fit in neutral color palette. Adorn it with our clip-on rhinestone buttons for a more elevated look that can easily transition from day to night.	100% Polyester	1, 2	650000.0	http://dumaofficial.com/cdn/shop/files/DaonTopWhite-6.jpg?v=1732724492	C002
+8037959925999	Yanza Dress Pink	In efforts of combining the comfort of knits, the elegance of printed silk, and unrestricted silhouette, we've created this dress for all the women out there. Long sleeve midi dress with basic crew neck, soft cotton knit and lustrous satin fabric combination, loose relaxed fit, slit on hem. Perfect for an easy throw on outfit!	Knit: 100% CottonPrint Fabric: 100% Polyester	ALL SIZE	700000.0	http://dumaofficial.com/cdn/shop/products/YanzaPink1.jpg?v=1681273723	C001
+8252030943471	Mona Blazer Red	This blazer of ours was perfectly crafted seamlessly, combining contemporary and timeless tailoring elements. Featuring a traditional silhouette, it is perfected with peak lapels, flapped pockets, and waist- shaping darts for a sophisticated look. Comes in red, this is perfect to throw on over your CNY outfit. Model : 175 cm	100% Japanese made Premium Polyester	ALL SIZE	800000.0	http://dumaofficial.com/cdn/shop/files/MonaBlazerRed.jpg?v=1706001620	C003
+9000428863727	Perr Jacket | Khaki	This jacket features a clean, minimalist silhouette with subtle utility	100% Japanese made Premium Polyester	ALL SIZE	950000.0	http://dumaofficial.com/cdn/shop/files/PERRJACKETKHAKI6.jpg?v=1750835738	C003
+7823908372719	Jimi Shirt Blue	Boxy cut shirt knitted from soft cotton yarns in a fresh blue-ish ue pattern. The Perfect mix of feminine and boyish look. Comfortable to wear, easy to style. From bikini cover-up to workwearm this shirt will be your new favorite grab-and-go kinda top!	100% Cotton	All Size	575000.0	http://dumaofficial.com/cdn/shop/products/jimi3.jpg?v=1663292247	C002
+7975350173935	Jetro Pants Orange	Flowing, straight-cut knit pants made from soft viscose yarn, this pants definitely call for sophisticated working-from-home (or anywhere) luxurious loungewear. Just the perfect thing for you when you want to feel pulled together. Pair it with our Ansel Cardi for a complete upscale loungewear look!	Soft Viscose	All Size	580000.0	http://dumaofficial.com/cdn/shop/products/JetroPantsOrange.jpg?v=1673497290	C005
+8843359191279	Bruni Top | Black	Channeling a modern refinement, this classic black top is crafted from premium Japanese polyester that’s soft and stretchy. It’s cut in an oversized shape with a bias-cut scarf detail to fasten around your neck or drape it effortlessly over your shoulder.	100% Japanese made Premium Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/BRUNITOPBLACK-2.jpg?v=1734484628	C002
+8145104994543	Frank Cropped Blazer Dark Olive	Crafted from premium Japanese polyester, this single-breasted blazer in chic dark olive, is expertly tailored with defined padded shoulders, folded over wide sleeves, and the perfect cropped length. Highlight the ultra cropped length by styling it with our Harlow pants.	100% Japanese made Premium Polyester	All Size	700000.0	http://dumaofficial.com/cdn/shop/files/FrankCroppedBlazerOlive-4.jpg?v=1697697700	C003
+8196244504815	Maray Vest Top Brown	Inspired from traditional suiting, we designed this vest with a v-neckline, adjustable belt tab, and a row of tonal buttons into the perfect fit. Style it with our Vesper pants as a set, or with your favorite maxi skirts or jeans.	100% Japanese made Premium Polyester	1, 2	402500.0	http://dumaofficial.com/cdn/shop/files/MarayVestBrown.jpg?v=1700778817	C002
+8625234739439	MICOLE | Slim Fit Crew Neck in Navy	A wardrobe staple offered in classic navy, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	Small, Medium	400000.0	http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6893-edit.jpg?v=1718842415	C002
+8145602543855	Ripa Top Beige	Made from ribbed cotton yarn with a touch of stretch, this slim-fit top is an essential for your capsule wardrobe. It has endless styling possibilities, and the cut-out design gives it an extra edge and unique point to your outfit.	100% Cotton	1, 2	495000.0	http://dumaofficial.com/cdn/shop/files/RipaTopBeige.jpg?v=1697775925	C003
+8196136599791	Oslo Blazer Black	This cropped blazer is crafted with both the perfect silhouette and style, and the most delicate tailoring. Crafted from premium Japanese polyester, it's cut in an oversized boxy shape that's enhanced by the lightly padded shoulders. Additional	100% Japanese made Premium Polyester	ALL SIZE (FIT TO L)	875000.0	http://dumaofficial.com/cdn/shop/files/OsloBlazerBlack-3.jpg?v=1700779133	C003
+9000450851055	Oso Pants | Black	Tailored in a clean straight cut, feature front patch pockets and a rectangular buckle belt. Crafted from a structured fabric for a polished silhouette, offer a modern, utilitarian update to classic tailoring. Effortlessly versatile, can be paired with anything from relaxed knits to sharp shirting.	100% Japanese made Premium Polyester	Small, Medium, Large	700000.0	http://dumaofficial.com/cdn/shop/files/OSOPANTSBLACK1.jpg?v=1750785659	C005
+7946311041263	Priya Shorts Green	Knitted from soft cotton yarns into the perfect christmas color pointelle knit pattern, this easy pull-on shorts styles perfectly with any clothing piece you can think of! Pair it with our Rami Cardigan to make you look effortlessly chic for a cozy get together this holiday season!	100% Cotton	ALL SIZE	279000.0	http://dumaofficial.com/cdn/shop/products/PriyaShortsGreen.jpg?v=1670331275	C005
+7696629530863	Calya Cardigan Grey	Our Calya Knitted Cardigan will definitely be your new favorite on the go outer! Soft and comfy, this cardigan will be the perfect company for your daily errands, office attire, or even to hang out and chill with friends! Pair it with our Petra shorts as a set for a lazy day outfit, or our Toja pants for a more put-together casual look!	100% Cotton	All Size	625000.0	http://dumaofficial.com/cdn/shop/products/calya10.jpg?v=1654826494	C003
+7455664865519	Jola Pants Red	A must-have pant made of slub-melange, ribbed cotton knit, perfect for going out or lounging around. Featuring a mid-rise, cropped length, and straight fit, perfect for a casual, everyday look. Pair it with our Piccolo Top or a simple white shirt and you're ready to get going!	100% Cotton	All Size ( Fit to Large )	650000.0	http://dumaofficial.com/cdn/shop/products/Artboard41_c9e9af9f-ec69-4fd1-9a75-dccf3258bfc3.png?v=1637736585	C005
+8792600543471	Ang T-Shirt | Maroon	Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a chic maroon tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	247500.0	http://dumaofficial.com/cdn/shop/files/ANGT-SHIRTMAROON-2_3bc6e297-9aa6-4dcf-874a-712b22761271.jpg?v=1729131193	C002
+8842759536879	Garland Sweater | Dark Brown	Shawl Neckline Sweater with multiple styling options, made from a mid-weight cotton knitting and featuring an intricate rib stitch. It has an oversized fit for casual sophistication. Pair it with our Sorrel satin pants for a comfortable yet stylish holiday/ airport fit.	100% Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/GARLANDSWEATERDARKBROWN-1.jpg?v=1734424401	C003
+8984622891247	Selna Tweed Vest | White Multi	A classic oversized tweed vest that features a fun, modern twist with its relaxed silhouette and frayed finish. Made from premium textured tweed, Selna Tweed Vest is a versatile piece that can be worn both as a top and an outer. Its neat tailoring and lining highlight this vest’s premium craftsmanship that makes it all the more timeless.	Poly Blend	ALL SIZEMeasurement :	607500.0	http://dumaofficial.com/cdn/shop/files/SELNATWEED-1.jpg?v=1750314105	C003
+7571098894575	Massey Cardigan | Sorbet Tone	Knitted from soft cotton yarns, this oversized fit cardigan is perfect for your daily look! Completed with front button openings, Black ripped bands and the perfect color combination, this is the perfect outer for you to spice up your monochromatic outfit.	100% Cotton	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/products/Artboard70_9073e55e-d104-40bb-91bb-50c8a4dd6ef0.png?v=1645670128	C003
+8959791071471	Elene Skirt | Beige	High-waisted midi skirt featuring a structured A-line silhouette. Designed with a subtle front flap overlay and an off-center button closure for a modern twist on a classic shape. Made from smooth, medium-weight fabric that drapes beautifully for a flattering fit—perfect for both casual and polished looks.	100% Japanese made Premium Polyester	Small, Medium	625500.0	http://dumaofficial.com/cdn/shop/files/ELENESKIRTBEIGE-7.jpg?v=1747787723	C006
+8076514394351	Kano Set Pink	Our cropped cardigan and adjustable tank top set is a seasonless essential that can be worn as a set or separates. Lightweight knitwear pieces, with point collar and button front fastening cardigan, completed with an adjustable strap basic tanktop. Perfect for any look you're going for any time of day!	100% Cotton	1, 2	600000.0	http://dumaofficial.com/cdn/shop/files/KanoSetPink.jpg?v=1687759107	C002
+8860261515503	Luna Cardigan Top | Maroon	Combining comfort and charm, we gave this soft, buttery viscose cardigan our own special touch. Adorned with delicate floral appliqués with snap buttons that add its feminine appeal, and completed with slightly volumized sleeves that give a flattering contrast to its cinched waist. Luna Cardigan Top is both pretty and easy to wear all-day long to your red bao hunting sessions (or any event, really).	Soft Viscose	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/files/LUNACARDIGANTOPMAROON-2.jpg?v=1736900179	C003
+8218791477487	Glacer Leather Skirt Blue	Headline your party season outfits with this leather mini skirt! It's crafted from high quality faux leather and designed with simple A-line silhouette and hidden side zipper. Complement this special mini by styling it with our holiday collection tops!	100% Polyester	S, M	600000.0	http://dumaofficial.com/cdn/shop/files/GlacerSkirtBlue-2.jpg?v=1702572229	C006
+8860267315439	Geum Top | Red Multi	Make a statement in this charming knitted top with intricate red floral jacquard. The soft, lightweight cotton yarns ensure a comfortable fit, while the short, slightly puffed sleeves balance out its cropped, relaxed fit. The floral patterns were carefully knitted, creating a textured look that pairs beautifully with both casual and dressy outfits. Whether styled with high-waisted trousers or a flowing skirt, this top is perfect to uniquely elevate your outfit.	100% Cotton	1, 2	585000.0	http://dumaofficial.com/cdn/shop/files/GEUMTOP-2.jpg?v=1736913732	C002
+8196312072431	Anders Knit Set Black	Elevate your downtime/travel wardrobe with our Anders knit set. Crafted from soft and stretchy rayon and shaped for an easy-going and minimalistic silhouette. Regular fit cardigan top with a neat flat collar, and stretch rib waistband and relaxed fit pants.	92% Rayon, 8% Nylon	ALL SIZE (FIT TO L)	760000.0	http://dumaofficial.com/cdn/shop/files/AndersKnitSet.jpg?v=1700777409	C003
+8294588940527	JANICE | Clean Cut Two Tone	Crafted from a special cotton blend that’s soft to the touch, this short sleeve top is cut for a close fit with the perfect length and contrasting neck and sleeve hem.	100 % Cotton Blend	All Size (Fit to Large)	500000.0	http://dumaofficial.com/cdn/shop/files/Untitled-1Artboard7_12bd0263-daec-41ed-a589-70ae15db2c09.jpg?v=1709003052	C002
+7571084181743	Bagnu Skirt Dark Blue	Pleated Rayon Denim Skirt with a classic and modern silhouette. The pleats dart will make one’s body line looks slim, and the restrained pleats give a luxurious feeling. Completed with side zipper fastening, knee-covering length, and A-line silhouette. This skirt is definitely easy to style with any top and creates an elegant look effortlessly in no time!	70% Rayon, 30% Polyester	S-M , M-L	650000.0	http://dumaofficial.com/cdn/shop/products/Artboard45_c56c63fc-b6a1-46f3-9373-d4d968f96ee4.png?v=1645669187	C006
+8060434252015	Nello Unisex Tshirt Black	Crafted from a soft cotton in an off-white hue, this essential T-shirt is cut for an oversized fit with a dropped shoulder for a relaxed silhouette. The minimal stitching adds a timeless finish, perfect for your capsule wardrobe.	75% Polyester, 25% Cotton	ALL SIZE (FIT TO XL)	595000.0	http://dumaofficial.com/cdn/shop/files/NelloTshirtBlack-2.jpg?v=1685034219	C002
+7946306158831	Darcie Top Green	Knitted from soft cotton yarns, this v-neck top has a flattering curved yet relaxed fit and femine ruffle	100% COTTON	All Size	525000.0	http://dumaofficial.com/cdn/shop/products/DarcieTopGreen_2.jpg?v=1670552280	C002
+7719007650031	Leya Pants Black	Cullote pants knitted from soft and elastic viscose yarns featuring a mid-rise, cropped length, and straight fit, perfect for a casual, everyday look. Pair it with our best-selling Dali Top for a matching set!	SOFT VISCOSE	All Size	495000.0	http://dumaofficial.com/cdn/shop/products/Artboard4_7c7cc0dc-8c53-4166-8ce3-8ece154ed9c9.png?v=1656463598	C005
+8211517767919	Trixie Dress Red	A special mini dress for this holiday season! This dress is shaped for a slim fit enhanced by the ribbed waist detail at the bodice, and flares out to a sculpted peplum mini skirt. Design	100% Nylon	ALL SIZE	465000.0	http://dumaofficial.com/cdn/shop/files/TrixieDressRed_74554754-939e-45ed-876e-1e30eacc678f.jpg?v=1706097474	C001
+8082175328495	Tropez Dress Pink	A modern slip dress with flattering halter neckline that embodies ease and elegance with a volumious a-line drape all in a luminous ombré sliky satin blend. This maxi dress will make an elegant addition to your summer wardrobe.	100% polyester	1, 2	675000.0	http://dumaofficial.com/cdn/shop/files/TropezDressPink1.png?v=1688920698	C001
+8773378048239	Olam Dress | Brown	Crafted from crisp and airy polyester fabric, this brown shirt dress is inspired by elements of workwear but made our way. Featuring a pointed collar, front button closure, A-line fit, and a flattering halter neckline. Perfect to throw on this fall season!	100% Polyester	ALL SIZE	337500.0	http://dumaofficial.com/cdn/shop/files/EDITERArtboard17.jpg?v=1729132495	C001
+8218772832495	Jane Cardigan Red	Our best selling Jane Cardigan in special holiday color! This cardigan has a minimal design with fancy wave knit pattern. It features a basic crew neck, two hook button closure, and scalloped edges. It's shaped for a slim fit with a cropped body and sleeves, perfect for wearing with high-waisted trousers.	85% Viscose, 15% Nylon	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/JaneCardiganRed-2.jpg?v=1702572250	C003
+8843365155055	Marda Dress | Dark Brown	Chic and versatile, this mini shirt dress is a wardrobe essential. Featuring a button-down front with covered buttons for a sleek look, it’s designed with a box-pleated skirt that adds structure and movement. The matching fabric belt with a buckle detail cinches the silhouette for a flattering, polished look. Perfect for both casual and dressy occasions, this dress combines timeless style with modern sophistication.	100% Japanese made Premium Polyester	1, 2	637500.0	http://dumaofficial.com/cdn/shop/files/MARDADRESSDARKBROWN-2.jpg?v=1734420790	C001
+8959296176367	Carlo Top | Dark Brown	This sleeveless top features a structured, tailored silhouette with a sharp collar and clean lines. The front opens with a concealed zipper to maintain a minimalist, polished look. Crafted in a textured knit, it subtly hugs the body without clinging, ending in a neat hemline. Versatile and understated, it pairs effortlessly with wide-leg trousers, or our A-line skirt for a sophisticated ensemble.	100% COTTON	1, 2	585000.0	http://dumaofficial.com/cdn/shop/files/CARLOTOPDARKBROWN-1.jpg?v=1747881281	C002
+8060699902191	Ira Crop T-shirt Dark Navy	Crafted from a sustainable premium Japanese polyester fabric that is luxuriously soft and cooling, this crop top is has the perfect fit with a straight cut, round neck and clean finishing. Pair it with the cargo pants for a cool and stylish look that provides all day comfort!	75% Polyester, 25% Cotton	1, 2	525000.0	http://dumaofficial.com/cdn/shop/files/IraCropTshirtDarkNavy-3.jpg?v=1685033854	C002
+7471245328623	Noel Top Grey	Get cozy this Christmas with our Noel Top Grey! Knitted from soft cotton yarn into the perfect holiday sweater for you! Pull-over style with slightly balooned sleeves, ribbed hem and sleeves cuffs. Pair it with our Carol Pants for the ultimate holiday outfit for your festivities!	100% Cotton	ALL SIZE	550000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.41.57_1.jpg?v=1638863072	C002
+8196303847663	Idris Knit Dress Navy	Made from a loosely knitted rib texture using soft rayon yarns, this maxi dress has a relaxed tank silhouette that contours down the body beautifully. Wear it with the matching cardigan to get the perfect travelling look.	92% Rayon, 8% Nylon	ALL SIZE (FIT TO L)	432250.0	http://dumaofficial.com/cdn/shop/files/IdrisDressNavy.jpg?v=1700777720	C001
+8252041363695	Ruby Top Black	Cut and sewn from our all time favorite premium Japanese polyester fabric, we put a tweak to a simple tanktop by giving a puffed peplum panels on the side. Playful yet still simple, perfect to throw on for simple events or night out with friends!Model : 175 cm	100% Japanese made Premium Polyester	1, 2	595000.0	http://dumaofficial.com/cdn/shop/files/RubyTopBlack.jpg?v=1706001483	C002
+7975351681263	Nina Top Red	Sleeveless Satin Print Top with standing collar and hidden side seam pleats that give a slimmer arm silhouette and fluidity to the body. Fits perfectly on any body type and easy to style with anything. Finished with chinese buttons, a cherry on top perfect for your CNY festivities oufit!	100% Polyester	All Size	565000.0	http://dumaofficial.com/cdn/shop/products/NinaTopRed.jpg?v=1673497801	C002
+8145497325807	Gamo Shirt White	Our Gamo sleeveless muscle shirt is crafted from pure tencel fabric in a crisp white hue, that drapes effortlessly over the body and has an oversized silhouette that’s enhanced by the padded shoulders, curved panel	100% Tencel	All Size	575000.0	http://dumaofficial.com/cdn/shop/files/GamoShirtWhite.jpg?v=1697785632	C002
+8145133732079	Frank Cropped Blazer Blue	Crafted from premium Japanese polyester, this single-breasted blazer in our special blue shade, is expertly tailored with defined padded shoulders, folded over wide sleeves, and the perfect cropped length. Highlight the ultra cropped length by styling it with our Harlow pants.	100% Japanese made Premium Polyester	All Size	700000.0	http://dumaofficial.com/cdn/shop/files/FrankCroppedBlazerBlue-2.jpg?v=1697697646	C003
+8110093631727	Monet Top Pink	Cropped polo shirt with a shape inspired by sportswear look. Knitted in a fancy wave pattern the perfect cropped length, smartened up with pointed collar, gold buttons and scalooped edges. Crafted with Viscose yarns for fluidity and signature pink color perfect to spice up your everyday wardrobe.	85% Viscose, 15% Nylon	All Size	650000.0	http://dumaofficial.com/cdn/shop/files/MonetTopPink-2.jpg?v=1693879939	C002
+8005190975727	Ansel Cardigan Grey	Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!	Soft Viscose	All Size	505750.0	http://dumaofficial.com/cdn/shop/products/AnselCardiganGrey.jpg?v=1677142063	C002
+8842742759663	Cocktail Tee | White	Making our basic fit white tee extra special this holiday season with our special print! Knitted from soft 100% Cotton yarn in a relaxed, cropped cut for maximum comfort in daily wear. Pair it with your favorite pair of bottom for your next cozy Christmas gatherings.	100% Cotton	1, 2	475000.0	http://dumaofficial.com/cdn/shop/files/COCKTAILTEE-1.jpg?v=1734424866	C002
+8665202065647	Lucca Linen Vest | Pink	Elevate your look this summer with our Lucca Linen Vest. Crafted from our pinstripe linen fabrication, this style forms a figure-hugging silhouette with a tailored finish. The sleeveless vest is defined by its deep U-shape neckline and princess lines for a more cinched figure. This blush pink and black pinstripe top secures with front button closure and curved front hem. Pair it with the matching Alba Linen Skirt for an easy vacation outfit.	100% Linen	Small, Medium, Large	440000.0	http://dumaofficial.com/cdn/shop/files/LUCCALINENVESTPINK-2.jpg?v=1720522270	C002
+8294600245487	ROSA | Slim Fit Crew Neck in Dark Grey	A wardrobe staple offered in a rich dark grey hue, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.	100 % Lyocell Blend	All Size (Fit to Large)	525000.0	http://dumaofficial.com/cdn/shop/files/Untitled-1Artboard2_1fa6c992-3fc7-4d6d-a31a-c7663cc49a72.jpg?v=1709002084	C002
+8307532562671	Freya Set Pink	A perfect set consisting of a cropped shirt and voluminous midi skirt, in an elegant pink shade. The cropped shirt is designed with a puffed sleeves and boxy fit, finished with concealed front buttons. The skirt is shaped in an A-line silhouette with a corset waist detail that contours the waist perfectly and a concealed zip closure.	100% Cotton	1, 2	1250000.0	http://dumaofficial.com/cdn/shop/files/FreyaSetPink.jpg?v=1710166000	C002
+8196095443183	Pralu Pants Grey	Our Pralu Pants is crafted for a flared fit that complements every body type! This pants surely does the trick of elongating your legs and creating the most flattering fit out of a women's legs, not to mention its super soft and stretchy fabric. Certainly a must have in everyone's wardrobe essential.	90% Polyester, 10% Elastane	S, M, L	354000.0	http://dumaofficial.com/cdn/shop/files/PraluPantsGrey.jpg?v=1700779304	C005
+8145136746735	Pranko Top | Black	Feminine and classic, this top is one that all women needs in their closet. Crafted from stretch premium Japanese polyester fabric, with pointed collar, contoured silhouette, and a flattering full peplum, finished with a row of our special gold buttons, this top will definitely last you a lifetime without ever going out of trend.	100% Japanese made Premium Polyester	1, 2	625000.0	http://dumaofficial.com/cdn/shop/files/PANKO_TOP_BLACK-1.jpg?v=1745914688	C002
+8060725362927	Cho Cargo Pants Taupe	Crafted from a sustainable premium Japanese polyester fabric that is luxuriously soft and cooling, this cargo sweatpants are cut for a relaxed fit with a comfortable elasticated waistband with drawstrings, cargo detailings on each leg, and side seam pockets. Pair it with the matching crop t-shirt for a chic and comfy everyday look!	75% Polyester, 25% Cotton	ALL SIZE (FIT TO XL)	725000.0	http://dumaofficial.com/cdn/shop/files/IraCropTshirtTaupe_134cff9c-3691-4a6a-aada-ef712c72a2e6.jpg?v=1685069291	C005
+7833926992111	Yamila Dress Blue	Midi dress knitted from a soft cotton yarn into a fresh blue-ish hue pattern and a flattering straight, v-neck silhouette that compliments all body types. Pair it with our Arzel Blazer for brunches with your girlfriends or casual meetings!	100% Cotton	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/products/yamila1.jpg?v=1663292460	C001
+8792600772847	Ang T-Shirt | Dark Brown	Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a warm dark brown tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	445500.0	http://dumaofficial.com/cdn/shop/files/ANGT-SHIRTDARKBROWN-2.jpg?v=1729052254	C002
+8818184356079	Jennie Tanktop | Beige	An essential for your daily wardrobe, especially those warmer days. Offered in a beige tone, it’s crafted from soft lyocell blend and has a streamlined slim fit with endless styling opportunities - wear it alone or layered under shirts and blazers.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	395000.0	http://dumaofficial.com/cdn/shop/files/JennieTanktopBeige-2.png?v=1731576945	C002
+7946301767919	Lily Velvet Dress Black	Short dual-material dress with velvet shawl collar, cross-over fastening, velvet buttons down the front, sinched waist and flared mini skirt, perfect for your year end holiday events!	95% Polyester, 5% Elastane	1 &amp; 2	675000.0	http://dumaofficial.com/cdn/shop/products/LilyVelvetDress_4.jpg?v=1670552523	C001
+8218797605103	Morris Leather Pants Brown	A staple pants that everyone needs in their capsule wardrobe. This pant is crafted from the perfect brown shade faux leather fabric and designed as a straight silhouette that taper down the legs and with ankle-length hems, finished with front patch pocket	100% Polyester	S, M, L	675000.0	http://dumaofficial.com/cdn/shop/files/MorrisLeatherPantsBrown-2.jpg?v=1702572186	C005
+9001294102767	Garland Sweater | Grey	Shawl neckline sweater with multiple styling options, made from a mid-weight cotton knitting and featuring an intricate rib stitch. It has an oversized fit for casual sophistication. Pair it with our Sorrel Satin Pants for a comfortable yet stylish holiday/airport fit.	100% Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/GARLANDSWEATERGREY2.jpg?v=1750836156	C003
+8329462743279	Noten Outer Yellow	The perfect outer for you this spring season! Crafted from our all time favorite premium Japanese made polyester fabrication in the most elegant pastel yellow hue, this outer has a boxy A-line silhouette with regular collar, snap button openings and 3D floral	100% Japanese made Premium Polyester	ALL SIZE	1080000.0	http://dumaofficial.com/cdn/shop/files/NotenOuterYellow-2.jpg?v=1711073486	C003
+8196097474799	Piper Top Black	This cropped sleeve top is designed for an elevated essential piece that can double as lounge or smart wear. Crafted from premium cotton yarns and cut for a boxy fit and 3/4 length sleeves, creating a chic yet comfy fit.	100% COTTON	1, 2	412500.0	http://dumaofficial.com/cdn/shop/files/PiperTopBlack.jpg?v=1700779194	C002
+8947915292911	Sienna Top | Dark Brown	Crafted from soft buttery knit blend with a fluid hand feel, this dark brown blouse is designed with drapes, fitted sleeves, and a mock neckline. Style it with tailored skirts or trousers and kitten heels for the perfect polished look!	90% Polyester, 10% Elastane	ALL SIZE	427500.0	http://dumaofficial.com/cdn/shop/files/SIENNATOPDARKBROWN-5.jpg?v=1747798938	C002
+7471348252911	Marley Outerwear Maroon	This tailored sleeveless knit outer is designed to be the versatile piece for your wardrobe, it can be worn anytime and perfect for your everyday pieces. The leather belt detail at the waist is meant to enhance a woman's curve. You can pair it with our Neta pants to create a smart casual look.	65% Acrylic 35% Viscose	All Size	663000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.43.32_2.jpg?v=1638868075	C003
+8211420152047	Dazzle Sparkly Cardigan Black | BACK IN STOCK	Specially knitted with metallic threads to welcome you to the festive season, this cardigan is shaped for a relaxed fit, designed with V neckline and completed with sparkly buttons front closure. Can easily pairs with any bottom for your upcoming festivities!	60% Cotton, 40% Polyester	1, 2	725000.0	http://dumaofficial.com/cdn/shop/files/DazzleSparklyCardigan.jpg?v=1701935658	C003
+8145089691887	Frank Cropped Blazer Black	Crafted from premium Japanese polyester, this single-breasted blazer in timeless black, is expertly tailored with defined padded shoulders, folded over wide sleeves, and the perfect cropped length. Highlight the ultra cropped length by styling it with our Harlow pants.	100% Japanese made Premium Polyester	All Size	700000.0	http://dumaofficial.com/cdn/shop/files/FrankCroppedBlazerBlack.jpg?v=1697697741	C003
+8196081352943	Orson Tee Black	This super soft and buttery long sleeve tee is your perfect everyday or travel wear. Lightweight and breathable, especially designed to fit close to your body without being constrictive or overly warm, this long sleeve tee is works perfectly on its own or as a layering piece.	90% Polyester, 10% Elastane	S, M, L	325000.0	http://dumaofficial.com/cdn/shop/files/OrsonTeeBlack.jpg?v=1709030613	C002
+8840010432751	Poppy Scarf Top | Navy Multi	Elevate your wardrobe with this elegant halter-neck top, featuring a delicate floral print. Designed with a draped neckline and a keyhole detail for added sophistication. The back showcases a long flowy panel that adds movement and drama to your look. Perfect for pairing with tailored trousers or skirts for a polished look.	100% POLYESTER	ALL SIZEMeasurement :	467500.0	http://dumaofficial.com/cdn/shop/files/IMG_7928.jpg?v=1733997246	C002
+7975350730991	Milla Vest Orange	Our Milla Vest has a looser, straight cut made from soft viscose yarns and with front button down closure. A simple, timeless piece that can be worn solo or be layered over a tank or tee as you like! Pair it with or Jetro Pants this upcoming CNY season!	SOFT VISCOSE	ALL SIZE	445500.0	http://dumaofficial.com/cdn/shop/products/MillaVestOrange-2.jpg?v=1673499656	C007
+8082171461871	Capri Pants Tosca	Instantly polished and as equally comfortable, our ombré silky satin pants slips on with a flat front and thin elasticized waistband and hidden drawstrings for covert ease, Its slim straight leg falls with a lightweight drape will fits flatteringly on any legs.	100% Polyester	1, 2	595000.0	http://dumaofficial.com/cdn/shop/files/CapriPantsTosca2.png?v=1688954732	C005
+8102668370159	Biya Crop Denim Shirt White	Crafted from a sustainable blend of soft cotton fabric with added stretch for comfort, this crop denim shirt is cut for a relaxed fit and has a classic pointed collar, back box pleat and neat buttoned blacket. The cropped length will pair perfectly with your favorite high-waisted trousers, or to pair with our matching Becca maxi skirt.	100% Cotton	ALL SIZE (FIT TO L)	615000.0	http://dumaofficial.com/cdn/shop/files/Duma4447-1-edit1.jpg?v=1692771218	C002
+7946299474159	Coco Tweed Dress Black Multi	Short tweed dress with a V-shaped neckline, long sleeves with a slightly flared hem, a faux button placket and faux pockets perfect for your year end holiday events!	60% Wool Blend, 35% Cotton, 5% Nylon	All Size	700000.0	http://dumaofficial.com/cdn/shop/products/CocoDress_4.jpg?v=1670332685	C001
+8114155880687	Jane Cardigan White	This cardigan has a minimal design with fancy wave knit pattern. Offered in timeless navy, it features a basic crew neck, two hook button closure, and scalloped edges. It's shaped for a slim fit with a cropped body and sleeves, perfect for wearing with high-waisted trousers.	85% Viscose, 15% Nylon	All Size	675000.0	http://dumaofficial.com/cdn/shop/files/JaneCardiganWhite.jpg?v=1694581340	C002
+7455679119599	Paloma Dress Black	Knit dress made from a slub-melange, ribbed cotton knit that is simple yet flattering. With its low round neck that accentuates the collarbone, its straight fit, side slit and midi length, this is the perfect casual dress for you! Pair it with our Arlet Top to create an effortless elegant look!	100% Cotton	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/products/Artboard1_0d14a643-4317-490c-ae62-850c4d2be1e7.png?v=1637736923	C001
+8107680661743	Vanka Top Pink	Carefully knitted with the classic tailoring priciple to achieve the silhouette of this waistcoat. With the perfect halter neck design and beautifully contoured waist, completed with front button fastenings and welt pocket flap designs. A classic piece that will complement your body really well!	100% Cotton	1, 2	525000.0	http://dumaofficial.com/cdn/shop/files/VankaTopPink.jpg?v=1693804498	C002
+8604404187375	Daffodil Girl Pajamas Blue	A reversible set of pajamas made in 100% cotton. With a spread of beautiful blooms all over the scallop collar and frill hem	Made in 100% cotton	1, 2, 3, 4	495000.0	http://dumaofficial.com/cdn/shop/files/DaffodilPJBlue-2.jpg?v=1718080332	C002
+7740224897263	Marin Cardigan White	Knitted from very soft and elastic viscose yarns, this calf-length cardigan with v-neckline, front button closure and side slit is a must have in every women's wardrobe. With its relaxed fit, its very easy to style with any outfit or for any occasions.	SOFT VISCOSE	ALL SIZE	532000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard20.jpg?v=1657770880	C001
+8036433953007	Olika Knit Cardigan Top	Knitted from soft cotton yarns, this long sleeve top has a flattering, curved yet relaxed fit. Finished with a feminine ruffle detail at hem, it's perfect for a day-to-night look! Pair it with our Baroka skirt for an elegant yet comfortable look this Ramadan season!	100% Cotton	ALL SIZE (FIT TO L)	575000.0	http://dumaofficial.com/cdn/shop/products/OlikaCardiganBlack-4.jpg?v=1681103152	C003
+8843352703215	Claus Cardigan With Rhinestones | Maroon	This elegant cable knit cardigan is a perfect blend of cozy and chic for this festive season. Featuring a timeless V-neckline and intricate cable detailing, it’s elevated with sparkling bedazzled appliqué around the neckline for a touch of glamour. The hook-and-eye closures add a delicate finish, making it versatile enough to wear open or closed. Perfect for layering over dresses or pairing with your favorite pair of bottom for a polished, standout look. Please note: the appliqué design may vary slightly from the picture, making each piece uniquely yours.	100% Cotton	ALL SIZE (Fit To M)	750000.0	http://dumaofficial.com/cdn/shop/files/CLAUSCARDIGANWITHRHINESTONESMAROON-5.jpg?v=1734492876	C003
+8823411376367	MMEHUILLET FOR DUMA - Seoul Puffer | Blue	The perfect blend of warmth and versatility, Seoul Puffer features a lightweight yet insulating design, with a smooth, quilted exterior. The real highlight is the detachable knit vest inside — a chic, textured layer that provides extra warmth. Whether you’re braving the cold or layering up for a more polished outfit, this jacket offers ultimate flexibility and a pop of color to brighten your winter wardrobe.	100% Polyester	ALL SIZE	1750000.0	http://dumaofficial.com/cdn/shop/files/SeoulPufferBlue.jpg?v=1732726597	C003
+8211456950511	Vanka Top Maroon	Our best-selling Vanka top in a special holiday color! Carefully knitted with the classic tailoring principle to achieve the silhouette of this waistcoat. With the perfect halter neck design and beautifully contoured waist, completed with front button fastenings and welt pocket flap designs. A classic piece that will complement your body really well!	100% Cotton	1, 2	525000.0	http://dumaofficial.com/cdn/shop/files/VankaTopMaroon.jpg?v=1701935550	C002
+8791861231855	Sonnet Jacket | Sand	Jumping into this fall’s suede trend, but with our own twist. This jacket is tailored into a neat slim-fit that still gives space for comfort and movement. Detailed with scooped neckline that exudes elegance and stylish front buckle opening. Sonnet Jacket | Sand is fully-lined and carefully tailored to achieve a structured, luxurious look.	100% Polyester	1, 2Measurement :	720000.0	http://dumaofficial.com/cdn/shop/files/SONNETJACKETSAND-5.jpg?v=1729052984	C003
+8005296390383	Moneta Skirt Black	This black knit midi skirt is made from heavyweight pure cotton yarns that will last years in your wardrobe. It's designed with a comfortable elasticated waist and flares out to a softly draped A-line hem.	100% Cotton	All Size	599000.0	http://dumaofficial.com/cdn/shop/products/NadineTopBlack_c24c9312-c805-4c8e-b53f-ce9a9c5a7dfc.jpg?v=1680148358	C003
+9000439218415	Andia Skirt | Cream	A crochet midi skirt with a straight, clean-cut silhouette. Made from soft, breathable knit with a comfortable elastic waistband. The hem is finished with contrast hand-stitched detail for a unique, crafted touch. Easy to wear as a set with the matching top or styled on its own with simple basics.	Recycled Polyester	1, 2	695000.0	http://dumaofficial.com/cdn/shop/files/ANDIASKIRTCREAM1.jpg?v=1750785824	C006
+7894087074031	Dianne Cardigan White	Soft and structured, this cardigan has a relaxed silhouette and casual striped pattern throughout. It is finished with covered button fastenings and the perfect cropped length. A very special piece perfect for versatile styling and easy layering.	100% COTTON	All Size	625000.0	http://dumaofficial.com/cdn/shop/products/AnneWhite_4.jpg?v=1666604101	C002
+8824999379183	MMEHUILLET FOR DUMA - Sunsu Shirt | Denim Blue	Made from soft washed denim, this half-placket shirt has a pointed collar, cropped sleeves, concealed buttons and a curved stepped hem. Style it with our Baram Pants for a cool denim-on-denim look.	100% Cotton	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/files/SunsuShirtBlue-6.jpg?v=1732725127	C002
+7455675351279	Noor Skirt Red	A kint skirt made of a slub-melange, ribbed cotton handmade knit. It features a midi length, A-line silhouette, and a slimming knit pattern, a perfect go to piece for your day to night look! Pair it with our Arlet Top for an effortlessly elegant and sophisticated look.	100% Cotton	All Size	665000.0	http://dumaofficial.com/cdn/shop/products/Artboard38_c02f3557-8770-402d-b8f3-dd4b0d0cb4d7.png?v=1637736805	C006
+7894083371247	Maya Blazer Black	Knitted from soft cotton yarns into the perfect blazer top design and silhouette, finished with shoulder pads and covered buttons. Something you never knew you needed in your capsule wardrobe. Undeniably comfortable, suitable for formal or business casual events, keeps you looking professional yet comfortable for your important meetings. Can't forget how perfect it looks as an outer too! This piece will be your best purchase yet!	100% COTTON	All Size	526500.0	http://dumaofficial.com/cdn/shop/products/MayaBlack_6.jpg?v=1666742721	C002
+7113856024754	Dali Top Black	This top is an essential for everyone's capsule wardrobe! Simple design, with soft knitted fabric, and the perfect shades of neutral color. You can easily style this top with any pair of bottoms you have at home or pair it with our Grata Pant for a lazy day ootd!	Soft Viscose	All Size	395000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-11-01at10.30.26.jpg?v=1635737762	C002
+7471329968367	Jolly Cardigan Grey	Get cozy this holiday season with our Jolly Cardigan! Knitted from soft cotton material into the perfectly elegant fit and beautifully curved hem and sleeves	100% Cotton	All Size	625000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.42.14_2.jpg?v=1638864505	C003
+8913091494127	Rum Houndstooth Shorts | White Multi	Cut from a classic houndstooth pattern tweed and designed with a mid-waist and tailored fit, these shorts offer a chic silhouette that transitions seamlessly from day to night. Dress it up with our matching Polan Houndstooth Top, or down with a casual tee—these tweed shorts are your new go-to piece for stylish layering.	Poly Blend	1, 2	475000.0	http://dumaofficial.com/cdn/shop/files/RumHoundstoothShorts.jpg?v=1741855005	C005
+8959790022895	Verso Trench Vest Dress | Beige	Sleeveless trench-inspired dress crafted in a structured beige fabric, featuring a flattering A-line silhouette. The double-breasted front with fabric-covered buttons adds a tailored touch, while the soft collar and flared hem offer movement and elegance. It is fully lined, providing a clean finish that also allows it to be worn open as a sophisticated outer layer over other outfits. Wear it buttoned up as a dress or layer it over blouses, shirts, or dresses for a polished outerwear look.	100% Japanese made Premium Polyester	1, 2	1350000.0	http://dumaofficial.com/cdn/shop/files/VERSOTRENCHVESTDRESSBEIGE-1.jpg?v=1747798530	C001
+8843362861295	Crimson Pants | Maroon	Stay effortlessly stylish with these barrel-leg cropped pants, designed for both comfort and versatility. The relaxed silhouette features a flattering high rise and a unique elasticized waistband at the back for an easy, flexible fit. Perfect for casual days or dressing up with heels, these pants offer a modern, laid-back vibe to elevate any outfit.	Cotton Poly Blend	Small, Medium, Large	416500.0	http://dumaofficial.com/cdn/shop/files/Artboard5.png?v=1734497736	C005
+7110613631154	Parson Top Black	Through the handmade knitting process involved, each piece undergoes a natural twist of yarns that are uniquely different. Making an exclusive "twist" in every piece, specially for you. Inspired by our top selling Potar Top, we created this comfortable, knit version that will surely fit any body comfortably! Made from a slub-melange cotton knit, this top is completed with a relaxed fit and a soft handfeel. Pair it with our Fran Shorts to lounge around, or our Grata Pant for a more put-together look.	100% Cotton	\N	550000.0	http://dumaofficial.com/cdn/shop/products/Artboard3_5c23876b-8063-4721-897f-a563884d67ee.png?v=1635739433	C002
+8110093533423	Jane Cardigan Pink	This cardigan has a minimal design with fancy wave knit pattern. Offered in timeless navy, it features a basic crew neck, two hook button closure, and scalloped edges. It's shaped for a slim fit with a cropped body and sleeves, perfect for wearing with high-waisted trousers.	85% Viscose, 15% Nylon	All Size	675000.0	http://dumaofficial.com/cdn/shop/files/JaneCardiganPink.jpg?v=1693880044	C002
+9001309339887	Mod Hoodie | Black	This hoodie featuring a clean silhouette, wide tonal drawstrings, and a unique button-up opening at the neckline for a subtle, elevated twist. The soft viscose keeps you cozy, while the roomy front pocket adds function without sacrificing form. It’s the perfect blend of laid-back comfort and minimal chic — ideal for traveling in style.	Soft Viscose	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/files/MODHOODIEBLACK2.jpg?v=1750836128	C003
+8329471492335	Ara Dress Taupe	Our Ara dress is designed with a laid back silhouette, perfect for attending your Ramadhan festivities, our to use for everyday styling. Crafted from our special lace brocade, this dress is a free flowing piece, featuring front button openings and accentuated sleeves, and includes an inner cotton dress.	100% Polyester	ALL SIZE	1500000.0	http://dumaofficial.com/cdn/shop/files/AraDressTaupe_b17e0718-983e-4199-9092-fea23bcd54ac.jpg?v=1711073438	C001
+8791886528751	Dalmar Jacket | Brown	Dalmar Jacket | Brown is the perfect addition to your fall wardrobe. Crafted from soft, premium suede, it boasts a rich texture that enhances its timeless appeal. The warm, earthy tones are ideal for the season, easily complementing cozy knits and denim. With a boxy fit that flatters any silhouette, it features a classic button-up front and functional pockets for added practicality.	100% Polyester	ALL SIZEMeasurement :	900000.0	http://dumaofficial.com/cdn/shop/files/DALMARJACKETBROWN-3.jpg?v=1729052327	C003
+8082187976943	Mare Skort Black	Our Mare black mini skort is crafted from our favorite premium japanese stretch polyester. It’s cut to a high-rise waist and A-line tailored silhouette with built-in shorts and hidden side zipper. The prefect bottom for your wardrobe essential this summer!	100% Japan made Polyester	1, 2	625000.0	http://dumaofficial.com/cdn/shop/files/MareSkortBlack4.png?v=1688954216	C003
+8060442214639	Corrin Sweater Set Grey	Finely knitted from a lightweight cotton yarn, this sweater set is the perfect two-in-one package for your capsule wardrobe! Comes with the perfect ribbed-knit tank that falls right around your hip and a loose-fitting, semi sheer deep v-neck sweater perfect for layering.	100% COTTON	ALL SIZE (FIT TO L)	700000.0	http://dumaofficial.com/cdn/shop/files/CorrinSweaterSetGrey-2.jpg?v=1685034167	C002
+8114154406127	Gilia Jeans Denim Light Blue	Inspired by the '70s, our Gilia Jeans is designed with a high-rise waist and wide bootcut hems. Finished with two front pockets and two back pockets, washed to the perfect light denim blue shade with fading at thighs to feel the vintage vibe. The perfect new pair of jeans that you definately need to get your hands on!	Cotton Spadex	S, M, L	789000.0	http://dumaofficial.com/cdn/shop/files/GiliaPantsLightBlue.jpg?v=1694581262	C005
+8913520197871	Josette Peplum Top | Black	This elegant classic black top features a fitted bodice with a flattering peplum hem that adds a feminine touch. Made from a soft viscose fabric, it has a classic round neckline and long sleeves, making it perfect for both casual and dressy occasions. A versatile piece that pairs beautifully with trousers or skirts for a polished look. Pair it with our Tan Pants | Black for a clean, effortless look.	Soft Viscose	ALL SIZEMeasurement :	565000.0	http://dumaofficial.com/cdn/shop/files/JosetteTopBlack.jpg?v=1741856384	C002
+8220544205039	Blair Skort Grey	Our take on preppy 90s dressing, this skort is cut from soft flannel fabric for its tailored fit and soft textural feel. Its flattering high-waisted cut is accented by two front buttons, and is finished with an A-line silhouette, asymmetrical seam, and box pleats.	100% Polyester	S, M, L	575000.0	http://dumaofficial.com/cdn/shop/files/BlairSkortGrey-2.jpg?v=1702572147	C005
+8664891523311	Remmy Skort | Denim Blue	This season's wardrobe staple, our Remmy Skort | Denim Blue is cut and sewn from our newest denim fabrication in a deep blue colorway. It has an A-line silhouette knife pleats and an inner shorts for effortless movements. Pair it with our Denise Vest | Denim Blue for a sophisticated summer fit.	100% Polyester	1, 2	467500.0	http://dumaofficial.com/cdn/shop/files/REMMYDENIMSKORT-2.jpg?v=1720522490	C006
+8986641760495	Ozora Top | Black	This convertible button-up top offers a modern, versatile silhouette with thoughtful construction. Designed with high symmetrical neckline and soft structure, it can be styled in multiple ways—buttoned-up as a shirt or open as an outer layer. A timeless staple with a twist—perfect for day-to-night wear and effortless layering.	72% Polyester, 28% Nylon	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/files/OZORABLACK7.jpg?v=1750835766	C002
+7946302947567	Corla Shirt White	Our best selling shirt cutting with a festive twist! Basic button down shirt with badwing sleeves and ruffles collar. Perfect for layering with your christmas sweaters or cardigans. Pair it with our Molly Cardigan this holiday season for the perfect festive look!	100% Polyester	ALL SIZE	525000.0	http://dumaofficial.com/cdn/shop/products/Untitled-1Artboard7.jpg?v=1670552484	C002
+8818183930095	Jennie Tanktop | White	An essential for your daily wardrobe, especially those warmer days. Offered in a white tone, it’s crafted from soft lyocell blend and has a streamlined slim fit with endless styling opportunities - wear it alone or layered under shirts and blazers.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	395000.0	http://dumaofficial.com/cdn/shop/files/JennieTanktopWhite-3.png?v=1731577013	C002
+8752242000111	Baya Pants | Denim Blue	A wide-leg jeans for the chic and stylish, crafted from stretchy medium-weight washed denim. Detailed with handmade frayed waistline and hem, Baya Pants | Denim Blue is the kind of jeans you won’t be able to find anywhere else. The silhouette was especially designed to elongate your legs for a more flattering look. Baya Pants | Denim Blue is a versatile staple that can be styled with any top or worn as a set with our Rugosa Top | Denim Blue.	97% Cotton, 3% Elastane	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/75CC8632-B52A-4504-BBBE-D6E3C9DE9D3A.jpg?v=1725869390	C005
+8196086137071	Larra Pants Black | BACK IN STOCK	The comfiest wardrobe staple, designed with our favorite ultra-soft jersey fabric. This straight-leg pant style features a stretch waistband making it comfortable to wear all day long! Wear it as a set with our Remy t-shirt for an easy travel ootd!	90% Polyester, 10% Elastane	S, M, L, XL	590000.0	http://dumaofficial.com/cdn/shop/files/LARRAPANTSBLACK-5_9c78439d-0962-4acc-9873-2e0386a299a3.jpg?v=1745990521	C005
+9024432341231	Rhima Top | Butter	This timeless knit top with a classic round neckline and streamlined silhouette is a must-have wardrobe staple for any weather. Designed in a pretty soft pink shade, it offers both minimalist elegance and a touch of subtle femininity. Its lightweight, breathable cotton material makes it perfect for layering, or wearing on its own.	100% Cotton	ALL SIZE	350000.0	http://dumaofficial.com/cdn/shop/files/RhimaTopButter5.jpg?v=1753853423	C002
+8604417097967	Daisy Cuddle Pillow Blue	A bed is not a slumber when there is nothing to embrace and cuddle with. But that is no longer the case with our cuddle pillows! Made in 100% cotton, our cuddle pillows are designed in perfect size and shape to stay closely to you anywhere you want them to. Hold them fondly because separation will be hard. Plus, a good night sleep is only a cuddle away — is there anything better than that?	Made in 100% cotton and 95% TENCEL™️ fabric	ALL SIZE	215000.0	http://dumaofficial.com/cdn/shop/files/DaisyPillowBlue.jpg?v=1718079889	C010
+7947445764335	Malachi Sparkly Sweater Maroon	A Set of oversized sweater and shorts is a classic knitwear with a shimmering twist, perfect to bring you the festive holiday mood. Crafted from soft cotton and lurex blend, the sweater is cut to a relaxed fit with drop shoulders, shorts are pull on with elastic band. Definately the perfect choice of outfit for your homey get-together this upcoming holidays season.	95% chenille 5% polyethylene	All Size	600000.0	http://dumaofficial.com/cdn/shop/products/MalachiSweaterRed_3.jpg?v=1670551787	C002
+8667288961263	BERT  | Regular MEN Fit Crew Neck t-shirt in Olive	A light everyday T-shirt, offered in classic olive green. Crafted from a special cotton blend that’s soft to the touch, it has a classic shape that sits neatly with room for movement through the chest and arms.	100 % Cotton Blend	Small, Medium, Large	385000.0	http://dumaofficial.com/cdn/shop/files/BertOlive-Front.jpg?v=1720575987	C002
+8060728180975	Cho Cargo Pants White	Crafted from a sustainable premium Japanese polyester fabric that is luxuriously soft and cooling, this cargo sweatpants are cut for a relaxed fit with a comfortable elasticated waistband with drawstrings, cargo detailings on each leg, and side seam pockets. Pair it with the matching crop t-shirt for a chic and comfy everyday look!	75% Polyester, 25% Cotton	ALL SIZE (FIT TO XL)	725000.0	http://dumaofficial.com/cdn/shop/files/ChoCargoPantsWhite.jpg?v=1684999533	C005
+8860255420655	Gou Top | Maroon	An unforgettable 2-toned tweed top that features a refined Mandarin collar and pretty pearl buttons. Its A-line silhouette that was tailored from structured, lined fabric, provides a flattering and comfortable fit for a sleek yet relaxed look. With sumptuous tweed fabric that adds depth and richness, Gou Top is perfect for that long-awaited events and dinners. Pair it with our Tan Pants or a flowing skirt for an effortlessly chic ensemble.	100% Polyester	1, 2	700000.0	http://dumaofficial.com/cdn/shop/files/GOUTOP-1.jpg?v=1736841762	C002
+9024393019631	Cielo Shirt | Butter	Relaxed yet refined, this loose boxy shirt is a modern staple with timeless appeal. Designed with a clean stand collar and wide raglan sleeves, it offers a softly structured silhouette that drapes effortlessly on the body. The airy fit provides ease of movement, while the minimal detailing keeps the look contemporary.	100% Cotton	1, 2	625000.0	http://dumaofficial.com/cdn/shop/files/CieloShirtButter1.jpg?v=1753694388	C002
+8306798756079	Leila Top | BACK IN STOCK	A simple yet flattering top knitted from soft cotton yarns with intricate flower cutout	100% Cotton	1, 2	585000.0	http://dumaofficial.com/cdn/shop/files/LeilaTopPink-6.jpg?v=1711083429	C002
+8304605561071	Flor Top Navy	A simple yet flattering top knitted from soft cotton yarns with sophisticated flower	100% Cotton	ALL SIZEMeasurement :	585000.0	http://dumaofficial.com/cdn/shop/files/FlorTopNavy-2.jpg?v=1710170285	C002
+8897159463151	Acma Shirt Top | Taupe	This knit top exudes elegance with its soft drape and smooth texture, offering both comfort and sophistication. Featuring a notched collar and button-down front, it blends classic tailoring with a relaxed, modern feel. The half sleeves provide a balanced look, making it suitable for both warm and transitional weather. The subtly fitted silhouette enhances the figure while maintaining ease of movement, and the split hem detail at the front adds a contemporary touch. Easily style this top with tailored trousers for a polished look or paired with denim for effortless chic.	Rayon Blend	1, 2	520000.0	http://dumaofficial.com/cdn/shop/files/ACMASHIRTTOPTAUPE-1.jpg?v=1740375455	C002
+7455591432431	Arlet Top Black	Knit top made from a slub-melange, ribbed cotton knit that is feminine and attractive. With its long, flared out sleeves that covers the palm of our hand, its V-neckline cut that accentuate one's collarbone and its cropped, straight fit, this top screams elegance and comfort in the most perfect way. Our Arlet Top can be styled in so many different ways; as a top or as a cardigan! Pair it with our Jola Pants for a casual look, or our Paloma Dress for a more sophisticated look.	100% Cotton	All Size	550000.0	http://dumaofficial.com/cdn/shop/products/Artboard27.png?v=1637746867	C002
+7894093758703	Kano Set Grey	Our cropped cardigan and adjustable tank top set is a seasonless essential that can be worn as a set or separates. Lightweight knitwear pieces, with point collar and button front fastening cardigan, completed with an adjustable strap basic tanktop. Perfect for any look you're going for any time of day!	100% COTTON	ALL SIZE ( FIT TO MEDIUM )	600000.0	http://dumaofficial.com/cdn/shop/products/KanoGrey_2.jpg?v=1666742151	C002
+8842758521071	Hoho Sweater | Green Multi	Stay festive and comfortable this season with our fair-isle sweater in intricate Christmas jacquard motif and the perfect oversized fit. Comes in two colors, it’s the prefect pick for family gatherings, or twinning with someone special this holiday season.	100% Cotton	ALL SIZE	342500.0	http://dumaofficial.com/cdn/shop/files/HOHOSWEATERGREENMULTI-1.jpg?v=1734424541	C003
+7471330623727	Marilou Top Navy	Structured top with contoured waistline, perfect for a formal event, or a regular day out! Knitted from soft cotton yarns, this is as cozy as it is sophisticated. Pair it with our Gale Skirt to get the perfectly elegant look this holiday season!	100% Cotton	All Size	525000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.43.51_1.jpg?v=1638861282	C002
+8211400392943	Esther Ruffle Cardigan Black	Our special ribbed cardigan is designed with a v-neckline and front button closure and shaped for a streamlined slim fit and ruffle	85% Raylon, 10% Polyester, 5% Nylon	ALL SIZE (FIT TO L)	675000.0	http://dumaofficial.com/cdn/shop/files/EstherRuffleCardiBlack.jpg?v=1701935677	C003
+8005157945583	Sofia Top Bone	Designed from a premium stretch woven fabric, this open collar sleeveless top features oversized lapels with a deep-v-neck, bust darts and panels to highlight the silhouette and front snap button closure and hidden side pockets for a clean look with elevated comfort.	100% Japan made Premium Polyester	1, 2	650000.0	http://dumaofficial.com/cdn/shop/products/SofiaTopBone.jpg?v=1677143504	C002
+7833906741487	Sonya Top Blue	Sleeveless top knitted from soft cotton yarns into a fresh blue-ish hue pattern and the perfectly flattering silhouette of low round neckline, a-line body, and scalloped edge. Pair it with our Piaca Pants for an effortlessly chic outfit in seconds!	100% Cotton	ALL SIZE	450000.0	http://dumaofficial.com/cdn/shop/products/sonya10.jpg?v=1663292341	C002
+8843364073711	Crimson Pants | Brown	Stay effortlessly stylish with these barrel-leg cropped pants, designed for both comfort and versatility. The relaxed silhouette features a flattering high rise and a unique elasticized waistband at the back for an easy, flexible fit. Perfect for casual days or dressing up with heels, these pants offer a modern, laid-back vibe to elevate any outfit.	Cotton Poly Blend	Small, Medium, Large	416500.0	http://dumaofficial.com/cdn/shop/files/CRIMSONPANTSBROWN-4.jpg?v=1734497802	C005
+8082170609903	Galena Cardigan Tosca	This V-neck cardigan is knitted from customer's all time favorite soft viscose yarns. Designed for a contoured fit, it has neat ribbed trims and fasted with a row of horn buttons for a sleek finish. It's most definitely a wardrobe essential that will stay with you for a very long time.	Soft Viscose	All Size	600000.0	http://dumaofficial.com/cdn/shop/files/GalenaCardiganTosca2.png?v=1688920883	C002
+7959651221743	Jack Polo Navy Multi	Pattern Knitted Polo made out of soft cotton yarns that will surely feel snug and cozy. This top is perfect for your little ones to leave the house looking all preppy and adorable!	100% Cotton	\N	350000.0	http://dumaofficial.com/cdn/shop/products/KidsArtboard8.jpg?v=1671417156	C007
+8107692392687	Marion Top Dark Denim	Matching sets are key for the upcoming season, and the cropped length of this sleeveless top balances the coordinating mini skirt. It is crafted from washed dark blue denim and designed with halter neck and pointed collar, front button fastenings and banded waist. Wear it as a pair with our Khanyo skirt.	100% Cotton	All Size (Fit to M)	550000.0	http://dumaofficial.com/cdn/shop/files/MarionKhanyoDarkDenim-2.jpg?v=1693879979	C002
+8965256806639	Greeting Card	Celebrate your loved one's special day with our Greeting Cards Size : B5 Cards Notes :1. Kindly Please chat our customer service for additional notes2. If there is no custom text, the gift card will be sent in blank card	\N	B5 Cards	10000.0	http://dumaofficial.com/cdn/shop/files/IMG_5312.png?v=1747893361	C004
+8253784785135	Lesley Jeans Brown	Denim trousers is a definite staple for your wardrobe, especially this pair as they're comfortable and fits like a glove. This pair is shaped for a flared silhouette with full-length legs and slits at cuffs that will make your legs looks super long and slim. They're crafted from a stretch cotton denim for lightness and comfort it won't feel like your wearing jeans at all!	100% Cotton	S, M, L	552300.0	http://dumaofficial.com/cdn/shop/files/WhatsAppImage2024-03-27at10.45.43.jpg?v=1711511341	C005
+7740497690863	Panna Pants Multi	Knitted from soft cotton yarns, our Panna shorts is the perfect loungewear shorts for you! Easy pull-on shorts with fun wave pattern and a monochromatic color palette, it styles perfectly with any clothing piece you can think of! Pair it with our Cara Cardigan to make you look effortlessly chic on your lazy days.	100% Cotton	ALL SIZE	450000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard34.jpg?v=1657770610	C005
+7455674138863	Noor Skirt Blue	A kint skirt made of a slub-melange, ribbed cotton handmade knit. It features a midi length, A-line silhouette, and a slimming knit pattern, a perfect go to piece for your day to night look! Pair it with our Arlet Top for an effortlessly elegant and sophisticated look.	100% Cotton	All Size ( Fit To Large )	665000.0	http://dumaofficial.com/cdn/shop/products/Artboard57.png?v=1637748316	C006
+8986619150575	Ozora Top | Soft Beige	This convertible button-up top offers a modern, versatile silhouette with thoughtful construction. Designed with high symmetrical neckline and soft structure, it can be styled in multiple ways—buttoned-up as a shirt or open as an outer layer. A timeless staple with a twist—perfect for day-to-night wear and effortless layering.	72% Polyester, 28% Nylon	ALL SIZE	600000.0	http://dumaofficial.com/cdn/shop/files/OZORASOFTBEIGE7.jpg?v=1750835800	C002
+7946280599791	Chala Pants Grey	Get cozy and chic all year round with our Chala Pants! Knitted from soft cotton yarn into the perfect palazzo knit pants, featuring a high rise, wide leg and a relaxed fit. Pair it with our Cheri Shirt or Molly Cardigan for a chic and effortless everyday look!	100% Cotton	1 &amp; 2	665000.0	http://dumaofficial.com/cdn/shop/products/ChalaPantsGrey2.jpg?v=1670561045	C005
+8329446097135	Danica Top Denim Blue | BACK IN STOCK	Feminine and classic, this top is one that all women needs in their closet. Crafted from stretch denim fabric washed into the perfect cool blue shade, with pointed collar, contoured silhouette, and a flattering full peplum, finished with a row of our special gold flower buttons, this top will definitely last you a lifetime without ever going out of trend.	100% Cotton	1 , 2	625000.0	http://dumaofficial.com/cdn/shop/files/DanicaTopDenimBlue.jpg?v=1711026753	C002
+8211516424431	Gala Top Green	Sculpted peplum knit top that looks like an art piece, designed specially for you this holiday season. Designed with a v-neckline and front button closure, and shaped to a fitted waist and flared peplum bottom, it is definitely one simple yet flattering piece to wear to your upcoming holiday festivities.	100% Nylon	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/GalaTopGreen.jpg?v=1701935267	C002
+8604421816559	Cosmos Throw Blanket Blue	A snuggly blanket to keep you warm and comfortable, and yet light enough for travel-ready. Printed with beautiful hand-drawn illustrations on one side and covered with simple colors at the other side, our throw blanket is an essential collection that you can take anywhere — carrying the comfort of your homy bed everywhere you go.	Made in 100% cotton and 95% TENCEL™️ fabric	ALL SIZE	595000.0	http://dumaofficial.com/cdn/shop/files/CosmosBlue.jpg?v=1718079656	C009
+8498316607727	Tanya Tanktop Black	A refined staple made for your capsule wardrobe. This modern tank top is knitted from fine polyester yarns with subtle ribbing	100% Polyester	ALL SIZE	425000.0	http://dumaofficial.com/cdn/shop/files/TANYATANKTOPBLACK-7.jpg?v=1715741228	C002
+8742191628527	Ora Top | Black	This asymmetrical one-shoulder top might just be the comfiest and chicest piece you’ll ever have. Its ruched	90% Polyester, 10% Elastane	ALL SIZE (Fit to L)	455000.0	http://dumaofficial.com/cdn/shop/files/ORATOPBLACK-3.jpg?v=1724754211	C002
+8773355765999	Vitto Top | Black	Taking inspiration from classic suiting, our Vitto Top | Black is buttoned up the front to meet a close-fitting crew neckline. Cropped for a slightly relaxed silhouette, this sleeveless style is crafted with our premium polyester fabric that looks crisp, has a slight shine, and keeps you comfortable year round.	100% Polyester	1, 2	495000.0	http://dumaofficial.com/cdn/shop/files/C859F583-05E1-4A45-A19F-F755EC7302AE.jpg?v=1727749951	C002
+7947448090863	Elfie Sparkly Shorts Navy	Crafted from soft cotton and lurex blend, shorts are pull on with elastic band. Definitely the perfect choice of outfit for your homey get-together this upcoming holidays season.	95% chenille 5% polyethylene	All Size	270000.0	http://dumaofficial.com/cdn/shop/products/MalachiSweaterNavy_5.jpg?v=1670330916	C005
+9024321257711	Kyma Top | White	Effortless and easy to wear, this breezy sleeveless top is crafted from breathable, lightweight linen – perfect for warm-weather days. Designed with a relaxed, loose fit for all-day comfort, it features a flattering V-neckline adorned with pretty ruffles, adding a touch of feminine charm. Wear it with your favorite pair of jeans or our matching Sante Pants for a chic, cruise-ready look.	100% Linen	Small, Medium, Large	650000.0	http://dumaofficial.com/cdn/shop/files/KymaTopWhite1.jpg?v=1753686672	C002
+7975353975023	Trompa Skirt Black	Pattern Knit Mini Skirt with A-line silhouette that gives a youthful elegant look and hidden elastic waistband that snatched your waist in the most perfect way. Pair it with our Maesa Cardi for the perfect sophisticated look!'	100% COTTON	1, 2	525000.0	http://dumaofficial.com/cdn/shop/products/TrompaSkirtBlack.jpg?v=1673495874	C006
+8233622012143	Grego Leather Blazer Brown	The silhouette of this leather jacket is inspired by the classic pea coats. Tailored with a double-breasted closure, it's crafted from buttery faux leather and shaped with softly padded shoulders, notch lapels, and a full lining for easy layering. For a complete set, wear with our matching Morris Pants.	100% Polyester	All Size	995000.0	http://dumaofficial.com/cdn/shop/files/LeatherBlazerBrown.jpg?v=1704431533	C002
+8897118044399	Tan Pants | Olive	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium, Large	685000.0	http://dumaofficial.com/cdn/shop/files/TAN_PANTS_OLIVE_1.jpg?v=1750843337	C005
+8030812864751	Sofia Top Black	Designed from a premium stretch woven fabric, this open collar sleeveless top features oversized lapels with a deep-v-neck, bust darts and panels to highlight the silhouette and front snap button closure and hidden side pockets for a clean look with elevated comfort.	100% Japan made Premium Polyester	1, 2	650000.0	http://dumaofficial.com/cdn/shop/products/SofiaTopBlack-2.jpg?v=1680151864	C002
+8211467174127	Danielle Top Maroon	Our best-selling Danielle Top in a limited edition holiday color! Zigzag Knit Top made from finely knitted cotton yarns, great for your daily fits. Designed in a relaxed silhouette, with puffed sleeves and added ruffle sleeve hem	100% Cotton	ALL SIZE	625000.0	http://dumaofficial.com/cdn/shop/files/DanielleTopMaroon.jpg?v=1701935499	C002
+8198588858607	Frank Cropped Blazer Brown	Crafted from premium Japanese polyester, this single-breasted blazer in chic dark brown, is expertly tailored with defined padded shoulders, folded over wide sleeves, and the perfect cropped length. Highlight the ultra cropped length by styling it with our Harlow pants.	100% Japanese made Premium Polyester	ALL SIZE	700000.0	http://dumaofficial.com/cdn/shop/files/FrankBlazerBrown.jpg?v=1700801450	C003
+7471339405551	Marilou Top Maroon	Structured top with contoured waistline, perfect for a formal event, or a regular day out! Knitted from soft cotton yarns, this is as cozy as it is sophisticated. Pair it with our Gale Skirt to get the perfectly elegant look this holiday season!	100% Cotton	All Size	525000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.42.28_3.jpg?v=1638861365	C002
+8289518747887	Heather Leather Dress Brown	This mini dress is a refined take on our best selling leather. Shaped in an A-line silhouette, it's designed with a rounded neckline and side slip pockets in classic brown hue.	100% Polyester	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/Artboard2_2.png?v=1708571463	C001
+7471316467951	Carol Pants Navy	Get cozy and festive this christmas with our Carol Pants Navy! Knitted from soft cotton yarn into the perfect palazzo knit pants, featuring a high rise, wide leg and a relaxed fit. Pair it with our Noel Top or Jolly Cardigan for the ultimate holiday outfit for your festivities!	100% Cotton	S -M , M - L	665000.0	http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at17.54.37_3.jpg?v=1638923722	C005
+8843352211695	Dorothy Top | Navy	Add a touch of elegance to your wardrobe with this classic cable knit top. Featuring a flattering V-neckline and a front closure adorned with sparkling diamond-shaped buttons, this piece blends timeless style with a hint of glamour. Perfect for layering or wearing on its own, it’s a versatile choice for both casual and dressy occasions.	100% Cotton	ALL SIZE	625000.0	http://dumaofficial.com/cdn/shop/files/DOROTHYTOPNAVY-1_2c44b405-7e34-48b3-b037-20ff142f0860.jpg?v=1734422462	C002
+8498232885487	Carolina Vest Navy Stripe	Focusing on classic tailoring this season, this waistcoat is meticulously crafted from premium polyester blend suiting fabric and designed with a contoured waist and a rounded hem for a more feminine touch. Style it with wide-legged trousers or midi skirt for the perfect clean girl look!	100% Polyester	S, M, LMeasurement :	625000.0	http://dumaofficial.com/cdn/shop/files/CAROLINAVESTNAVYSTRIPE-2.jpg?v=1715741573	C002
+8824610586863	MMEHUILLET FOR DUMA - Oreum Dress | White Multi	A combination of sophistication and modern glam, Oreum Dress features a straight neckline and rhinestone-adorned shoulder straps. Cut in a classic A-line silhouette that flatteringly hugs the body and completed with a back zipper opening that ensures an easy fit. Perfect for an evening out or a special occasion, this dress effortlessly blends elegance with contemporary style.	100% Polyester	1, 2	800000.0	http://dumaofficial.com/cdn/shop/files/OreumDressWhite-2.jpg?v=1732725335	C001
+8295198327023	RACHEL | Slim Fit Scoop Neck in Dark Grey	A wardrobe staple offered in a subdued dark grey shade, it’s crafted from soft and stretch lyocell and has a streamlined slim fit and flattering scoop neckline that's ideal for your everyday wear.	100 % Lyocell Blend	Small, Medium	420000.0	http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6867-edit.jpg?v=1718842069	C002
+8060403974383	Brea Zip Up Sweater	This relaxed zip up jumper is crafted from soft rayon, twisted to create a comfy knit. The laid-back piece is completed with high ribbed neckline, dropped shoulders, ribbed waistband and loose sleeves. Pair it with our Nehru jogger Pants for the perfect airport/ lounge outfit!	100% RAYON	ALL SIZE (FIT TO XL)	675000.0	http://dumaofficial.com/cdn/shop/files/BreaZipSweaterWhite-3.jpg?v=1685034307	C005
+8218799669487	Morris Leather Pants Silver	Jumpstart the party season with this fun metallic pants! This pant is crafted from the perfect metallic silver faux leather fabric and designed as a straight silhouette that taper down the legs and with ankle-length hems, finished with front patch pocket	100% Polyester	S, M, L	506250.0	http://dumaofficial.com/cdn/shop/files/MorrisPantsSilver-2.jpg?v=1702572175	C005
+7975352140015	Marmo Pants Red	Our Marmo satin pants are printed with our special geometric pattern and fits high-waisted with an elasticated waistband and have relaxed legs that fall to tapered hems. Pair yours with the matching Mudan Blazer and strappy heels for a statement look.	100% Polyester	Size 1, Size 2	650000.0	http://dumaofficial.com/cdn/shop/products/MarmoPantsRed.jpg?v=1673496960	C005
+8896426836207	Jorja Top | Dark Brown	This sleeveless structured top exudes sophistication with its high mandarin collar and sleek tailored fit. Designed in a rich dark brown hue, it features a statement gold button closure that adds a touch of elegance and refinement. The flap pockets enhance its polished appeal, while the subtly curved hem provides a flattering silhouette. Perfect for both formal and chic casual looks, this top pairs effortlessly with tailored trousers or denim for a versatile, fashion-forward ensemble.	100% Japanese made Premium Polyester	1, 2	750000.0	http://dumaofficial.com/cdn/shop/files/JORJATOPBROWN-1.jpg?v=1745991438	C002
+8913076879599	Polan Houndstooth Top | White Multi	This sleeveless structured top exudes sophistication with its high mandarin collar and sleek tailored fit. Designed in a classic houndstooth pattern tweed, it features a front covered button closure that adds a touch of elegance and refinement. The flap pockets enhance its polished appeal, while the subtly curved hem provides a flattering silhouette. Perfect for both formal and chic casual looks, this top pairs effortlessly with our matching Rum Houndstooth Shorts, or our Balestra Skirt for a more elegant look.	Poly Blend	Small, Medium, Large	625500.0	http://dumaofficial.com/cdn/shop/files/PolanHoundstoothTop.jpg?v=1741854979	C002
+8860273606895	Sorrel Pants | Cherry Red	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium	595000.0	http://dumaofficial.com/cdn/shop/files/SORRELPANTSCHERRY-2.jpg?v=1736914611	C005
+8843351294191	Dorothy Top | Maroon	Add a touch of elegance to your wardrobe with this classic cable knit top. Featuring a flattering V-neckline and a front closure adorned with sparkling diamond-shaped buttons, this piece blends timeless style with a hint of glamour. Perfect for layering or wearing on its own, it’s a versatile choice for both casual and dressy occasions.	100% Cotton	ALL SIZE	625000.0	http://dumaofficial.com/cdn/shop/files/DOROTHYTOPMAROON-3_83af8631-5c26-4544-ab79-0321c4344d47.jpg?v=1734484376	C002
+8842747052271	Dachshund Vest | Black - Red	Bringing a festive twist to our best-selling knit top this season. Knitted from structured but soft 100% cotton yarn in a relaxed, boxy cut that’s suitable for all body types. The contrasting dachshund puppy in Christmas hat, embroidered in fully chenille yarn adds extra festive points that will definitely make you stand out in the crowd! What's even better, you can twin with your family and friends in this top!	100% Cotton	1, 2	351000.0	http://dumaofficial.com/cdn/shop/files/DACHSHUNDTOPBLACK-RED-5.jpg?v=1734494355	C002
+8947918569711	Baram Pants | Black	A pair of versatile pants to wear on repeat, Baram Pants was thoughtfully designed with a straight-leg silhouette that provides a timeless and flattering look. The soft and stretchy denim offers freedom of movement all day, everyday. Detailed with small front pockets that add functionality and a touch of uniqueness to the overall look. Pair it with any top in your wardrobe, or wear it as a set with our Sunsu Shirt.	70% cotton, 27% viscose, 3% elastane	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/files/BARAMPANTSBLACK-5_9cae9066-d46b-4125-b5d5-4b795d8aca1e.jpg?v=1745989270	C005
+8005286330607	Bahia Outer Black	Knitted from pure cotton yarns shaped for a classic fit with a cropped hem that works particularly well with any bottoms you have. It has a close round neck, Hand stitching patch pocket	100% Cotton	ALL SIZE	750000.0	http://dumaofficial.com/cdn/shop/products/BahiaOuterBlack-6.jpg?v=1677199813	C002
+8081704911087	Kai Shorts Navy	Knitted from soft cotton yarns, this easy pull-on tartan plaid shorts styles perfectly with any clothing piece you can think of! They're shaped for a classic cut with comfortable elastic waistbands. For a complete set, pair it with our Balma Cardigan.	100% COTTON	All Size	475000.0	http://dumaofficial.com/cdn/shop/files/KaiShortsNavy1.png?v=1688920786	C005
+8498485231855	Miguel Polo Top Grey	Reworking the classic polo shirt with our own touch for the season ahead. Offered in cool grey, it's crafted from fine polyester yarns to created a structured fit. Design	100% Polyester	1, 2	625000.0	http://dumaofficial.com/cdn/shop/files/MIGUELPOLOTOPGREY-2.jpg?v=1715741162	C002
+8252026028271	Samara Jacquard Dress Floral Multi	SHIPMENT (1-3 February 2024) Giving our own tweak to traditional tailoring, this dress has short sharp sleeves, the perfect mini length and contoured waist that gives the perfect hourglass figure. Featuring a Chinese floral watercolor print jacquard to make it the perfect simple outfit for this CNY season. Model : 175 cm	100% Cotton	1, 2	950000.0	http://dumaofficial.com/cdn/shop/files/SamaraJacquardDress.jpg?v=1706001713	C001
+7767167729903	Ganuli Shirt Blue	Basic button down shirt with v-neckline, flat collar and batwing sleeves. The soft fabric makes this shirt the perfect office attire for your work from office days, keeping you comfy all day while still looking presentable! Pair it with our Toja pants to look effortlessly put together while staying comfortable.	100% TENCEL	Reguler, Oversized	525000.0	http://dumaofficial.com/cdn/shop/products/CATALOGUE17AUG_GANULIBLUEArtboard19.jpg?v=1659348002	C002
+8196111565039	Nehru Jogger Pants Black	These jogger-style off white trousers are made from finely knitted soft rayon. A relaxed fit that taper slightly towards the ribbed hem, and with a comfortable elasticated waist for all day wear. Complete the look with our Brea Zip Up sweater.	100% RAYON	ALL SIZE (FIT TO XL)	565250.0	http://dumaofficial.com/cdn/shop/files/BreaSweaterBlack_0d57e2db-0ded-4cd1-a80c-2fb18354ea7c.jpg?v=1700799128	C005
+8792602640623	Jennie Tanktop | Maroon	An essential for your daily wardrobe, especially those warmer days. Offered in a chic maroon tone, it’s crafted from soft lyocell blend and has a streamlined slim fit with endless styling opportunities - wear it alone or layered under shirts and blazers.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	395000.0	http://dumaofficial.com/cdn/shop/files/JENNIETANKTOPMAROON-4_dbeae847-77ba-4fb5-ae77-a2dc491183f2.jpg?v=1729130876	C002
+7696632578287	Petra Shorts Grey	Knitted from soft cotton yarns, our Petra shorts is the perfect loungewear shorts for you! Easy pull-on shorts with fun wave pattern and a monochromatic color palette, it styles perfectly with any clothing piece you can think of! Pair it with our Calya Cardigan to make you look effortlessly chic on your lazy days.	100% Cotton	ALL SIZE	450000.0	http://dumaofficial.com/cdn/shop/products/petra4.jpg?v=1654826969	C005
+7946298261743	Ansel Cardigan Red	Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!	Soft Viscose	All Size	595000.0	http://dumaofficial.com/cdn/shop/products/AnselCardiganRed.jpg?v=1670552691	C002
+9001307111663	Garland Sweater | Black	Shawl neckline sweater with multiple styling options, made from a mid-weight cotton knitting and featuring an intricate rib stitch. It has an oversized fit for casual sophistication. Pair it with our Sorrel Satin Pants for a comfortable yet stylish holiday/airport fit.	100% Polyester	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/files/GARLANDSWEATERBLACK1.jpg?v=1750823749	C003
+8198584860911	Caba Blazer Ginger Brown	Our Caba Blazer is a special tailoring piece that features a collarless neckline, wide padded shoulders, and a single-breasted close. Offered in the perfect autumn shade of ginger brown that's precisely color-matched to the coordinating Harlow Pants.	100% Japan made Premium Polyester	ALL SIZE	487500.0	http://dumaofficial.com/cdn/shop/files/transitArtboard1.jpg?v=1700800216	C003
+9024434798831	Naxos Shorts | Dark Denim	Naxos Shorts is a straight cut silhouette with timeless classic blue denim shade and structured fabric make these shorts perfect for stylish everyday wear. The unique waistband detail makes this piece not just functional, but also an edgy and modern statement.	80% Cotton, 17% Rayon, 3% Spandex	Small, Medium, Large	600000.0	http://dumaofficial.com/cdn/shop/files/NaxosShortsDarkDenim4.jpg?v=1753843301	C005
+9024411500783	Agea Top | Cedar	Classic but memorable. An A-line cut top in smooth and luxurious fabric that enhances its minimalist appeal. Designed with a clean round neckline and halter cut, Agea is a versatile top that can be worn in any kind of occasions – be it a casual brunch with the girls or a long-awaited dinner date. Pair this flowy piece with our best-selling Tan Pants for a chic, matching set look.	100% Polyester	1, 2	590000.0	http://dumaofficial.com/cdn/shop/files/AgeaTopCedar1.jpg?v=1753697743	C002
+7696641097967	Zuru Dress Navy	Knitted with soft cotton yarns, this lightweight straight maxi dress comes in classic navy. It's designed to perfectly compliment all body types with its perfect silhouette. The pointed collar, button closure down the center front and ribbed texture are smart finishing touches to complete this dress. Can be styled universally, as a dress, top, or even as an outer!	100% Cotton	ALL SIZE	675000.0	http://dumaofficial.com/cdn/shop/products/zuru1.jpg?v=1654771054	C001
+8030789697775	Buckham Blazer Black	There's nothing like a good pair of classic blazer that will stay in your wardrobe staple for a very long time. This one in classic black is shaped for a contouring fit with lightly padded shoulders and darts at the front and back to define the waist. This double-breasted blazer is tailored with high peak lapels. and a pair of front flap pockets. Perfect to throw over any outfit to make you look effortlessly put together!	100% Polyester	S, M, L	850000.0	http://dumaofficial.com/cdn/shop/products/BuckhamBlazerBlack-3.jpg?v=1680152047	C002
+7455669780719	Noor Skirt Black	A knit skirt made of a slub-melange, ribbed cotton handmade knit. It features a midi length, A-line silhouette, and a slimming knit pattern, a perfect go to piece for your day to night look! Pair it with our Arlet Top for an effortlessly elegant and sophisticated look.	100% Cotton	All Size ( Fit To Large )	665000.0	http://dumaofficial.com/cdn/shop/products/Artboard10_96aa7ecf-1623-4121-a89a-9ae02c455a53.png?v=1637736641	C006
+8818183438575	Jennie Tanktop | Black	An essential for your daily wardrobe, especially those warmer days. Offered in a black tone, it’s crafted from soft lyocell blend and has a streamlined slim fit with endless styling opportunities - wear it alone or layered under shirts and blazers.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	395000.0	http://dumaofficial.com/cdn/shop/files/JennieTanktopBlack-1.png?v=1731576967	C002
+8825019891951	MMEHUILLET FOR DUMA - Hwi Scarf | Taupe	Crafted from soft structured cotton, this hybrid poncho doubles as a scarf that can be draped over the shoulder for an effortless look. Secured with a single button on one shoulder that you can accessorize with our clip-on buttons. The dynamic silhouette and timeless color palette offer endless styling potential.	100% Cotton	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/files/HwiScarfTaupe.jpg?v=1732724769	C003
+8824632770799	MMEHUILLET FOR DUMA - Baram Pants | Denim White	A pair of versatile pants to wear on repeat, Baram Pants was thoughtfully designed with a straight-leg silhouette that provides a timeless and flattering look. The soft and stretchy denim offers freedom of movement all day, everyday. Detailed with small front pockets that add functionality and a touch of uniqueness to the overall look. Pair it with any top in your wardrobe, or wear it as a set with our Sunsu Shirt.	70% cotton, 27% viscose, 3% elastane	Small, Medium, Large	750000.0	http://dumaofficial.com/cdn/shop/files/BaramPantsWhite-2.jpg?v=1732725198	C005
+8665228214511	Alba Linen Skirt | Pink	Mini Skirt crafted from our pinstripe linen fabrication, our Alba Linen Skirt is an essential piece for your staple summer wardrobe. Designed to sit mid-waist, this skirt exudes classic sophistication as it is cut straight and finishes upper-mid thigh. It features a waistband, belt hoops and secures with a center zip fly.	100% Linen	Small, Medium, Large	242500.0	http://dumaofficial.com/cdn/shop/files/ALBALINENSKIRTPINK-4.jpg?v=1720522045	C006
+7867716829423	Malo Sweater Grey	Crafted from soft cotton fabric, this zip-up cardigan is cut for a relaxed fit and features a feminine wave pattern, ribbed hem finishing, and a statement oversized collar. Perfect to accompany u throughout your daily activities! Pairs perfectly with our Petra shorts.	100% Cotton	All Size	562500.0	http://dumaofficial.com/cdn/shop/products/Artboard1_834f0147-7b00-4b04-81d0-9b2482c3158d.png?v=1664889167	C003
+8196252336367	Maray Vest Top Blue	Inspired from traditional suiting, we designed this vest with a v-neckline, adjustable belt tab, and a row of tonal buttons into the perfect fit. Style it with our Vesper pants as a set, or with your favorite maxi skirts or jeans.	100% Japanese made Premium Polyester	1, 2	402500.0	http://dumaofficial.com/cdn/shop/files/MarayVestBlue.jpg?v=1700778711	C002
+8986641989871	Eloise Top | Cream	A sleeveless crochet top featuring a boxy silhouette and rounded neckline. Detailed with front buttons and contrast hand-stitched detail for a refined, artisanal touch. This piece brings texture and polish—perfect for pairing with denim for a casual statement or styled with the matching skirt for a coordinated set.	Recycled Polyester	1, 2	685000.0	http://dumaofficial.com/cdn/shop/files/ELOISETOPCREAM4.jpg?v=1750900218	C002
+8897200947439	Iggy Top | White	Elevate your everyday style with our Iggy Top! Crafted from soft and stretch viscose yarn with ribbed detailing, this top exudes a modern and effortless appeal. This tank design features an off-center placket with tonal buttons, and a flattering, form-hugging fit. Pair it with your favorite high-waisted jeans for a casual-chic look or layer it under a blazer for a polished finish—versatile and stylish, it's a must-have staple for any wardrobe.	Soft Viscose	ALL SIZE (Fit To L)	450000.0	http://dumaofficial.com/cdn/shop/files/IGGYTOPWHITE-1.jpg?v=1740366032	C002
+8218759266543	Veste Tweed Vest Black	Taking inspiration from traditional suiting, we created this special vest that is perfect for this holiday season. Crafted from luxe and sparkly tweed and has a deep V-neckline, shaping darts, and a row of fancy gold floral buttons. Pairs perfectly with any bottoms you can think of!	100% Polyester	1, 2	585000.0	http://dumaofficial.com/cdn/shop/files/VesteTweedVest.jpg?v=1702537508	C002
+7946305274095	Zuru Dress Green	Knitted with soft cotton yarns, this lightweight straight maxi dress comes in holiday green. It's designed to perfectly compliment all body types with its perfect silhouette. The pointed collar, button closure down the center front and ribbed texture are smart finishing touches to complete this dress. Can be styled universally, as a dress, top, or even as an outer!	100% Cotton	ALL SIZE	337500.0	http://dumaofficial.com/cdn/shop/products/ZuruDressGreen_5.jpg?v=1670552410	C001
+8896417726703	Giara Top | Dark Denim	This denim top features a classic button-down front with metallic buttons. It has a micro sleeve, round neckline and an A-line silhouette, giving it a casual yet polished look. The dark-wash denim fabric provides a sleek and sophisticated appeal with a slimming effect, making it a versatile piece that can be worn with your favorite bottoms or with our matching Riri Pants | Dark Denim.	100% Cotton	ALL SIZE	500000.0	http://dumaofficial.com/cdn/shop/files/GIARATOPDARKDENIM-3.jpg?v=1740549548	C002
+7740273590511	Darcie Top Black	Knitted from soft cotton yarns, this v-neck top has a flattering curved yet relaxed fit and femine ruffle	100% COTTON	All Size	525000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard62.jpg?v=1657770134	C002
+8211469664495	Laurent Vest Cardigan Red	Our Best Selling Laurent Vest Cardigan in a limited edition holiday color! An elevated two-in-one piece featuring an oversized cardigan and a sewn-in vest top inside to keep you warm and stylish during your travelling days. Pair it with our best selling Pralu pants for a comfy and minimalistic, stylish look.	Soft Viscose	ALL SIZE (FIT TO XL)	455000.0	http://dumaofficial.com/cdn/shop/files/LaurentVestCardiMaroon-3.jpg?v=1701995561	C003
+8742223577327	Petunia Dress | Black	A classic LBD that would make you bloom like a beautiful flower. Crafted from 100% Japanese-made premium polyester, this dress has a unique cut-and-sewn detail you’ve never seen before. It’s cinched at the waist, with a little bit of space for comfortable movements, then flares down prettily into a peplum mini skirt. Designed with a simple round-neck cut and a regular-fitting bodice to keep the whole look sophisticated.	100% Japanese made Premium Polyester	Small, Medium, Large	548500.0	http://dumaofficial.com/cdn/shop/files/PETUNIADRESSBLACK-5.jpg?v=1724753455	C001
+8005161746671	Martis Flared Pants Bone	Cut from premium stretch woven fabric in a high-rise, flared silhouette, these floor-length pants are fitted at the hips and thigh and flared at hem, creating the perfect elongated legs. This pants will be an essential piece in your wardrobe as they're comfortable but still look put together.	100% Japan made Premium Polyester	1, 2	675000.0	http://dumaofficial.com/cdn/shop/products/MartisPantsBone-2.jpg?v=1677201214	C005
+8843354669295	Remmy Skort | Camel	Our best-selling Remmy Skort, now in new colors and fabric, perfect for the winter season! It has an A-line silhouette knife pleats and an inner shorts for effortless movements. Pair it with your favorite sweater for a cozy winter fit.	100% Polyester	1, 2	550000.0	http://dumaofficial.com/cdn/shop/files/REMMYSKORTCAMEL-1.jpg?v=1734421866	C006
+7740223979759	Marin Cardigan Brown	Knitted from very soft and elastic viscose yarns, this calf-length cardigan with v-neckline, front button closure and side slit is a must have in every women's wardrobe. With its relaxed fit, its very easy to style with any outfit or for any occasions.	SOFT VISCOSE	ALL SIZE	532000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard7.jpg?v=1657770918	C001
+9024410321135	Agea Top | Black	Classic but memorable. An A-line cut top in smooth and luxurious fabric that enhances its minimalist appeal. Designed with a clean round neckline and halter cut, Agea is a versatile top that can be worn in any kind of occasions – be it a casual brunch with the girls or a long-awaited dinner date. Pair this flowy piece with our best-selling Tan Pants for a chic, matching set look.	100% Polyester	1, 2	590000.0	http://dumaofficial.com/cdn/shop/files/AgeaTopBlack2.jpg?v=1753853620	C002
+8843359682799	Sorrel Pants | Brown	Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.	100% Polyester	Small, Medium, Large	595000.0	http://dumaofficial.com/cdn/shop/files/SORRELPANTSBROWN-1.jpg?v=1734421490	C005
+9024386564335	Sante Pants | Black	An essential for the sunny weather, this pair of straight-linen pants are a must-have for those who adore clean and minimalist aesthetic. Crafted from breathable, natural linen, it features a soft, full-length breezy lining for added comfort. The elasticated waistband offers a flexible, pull-on fit – perfect for everyday wear or an impromptu summer escape.	100% Linen	Small, Medium, Large	665000.0	http://dumaofficial.com/cdn/shop/files/SantePantsBlack1.jpg?v=1753693681	C005
+8913528520943	Jaoni Dress | Black Multi	Elevate your wardrobe with this timeless black-and-white houndstooth knit dress. Designed with a classic A-line silhouette, this sleeveless dress offers a flattering fit that flows effortlessly. The soft yet structured knit fabric ensures all-day comfort, while the round neckline adds a touch of sophistication. Perfect for any occasion, from casual outings to chic evening gatherings, this versatile piece pairs beautifully with heels or flats.	100% Cotton	ALL SIZE	585000.0	http://dumaofficial.com/cdn/shop/files/JaoniDress-2.jpg?v=1741925305	C001
+8860253061359	Zhen Top | Maroon	An unforgettable luxurious velvet top that features a refined Mandarin collar and pretty pearl buttons. Its A-line silhouette that was tailored from structured, lined fabric, provides a flattering and comfortable fit for a sleek yet relaxed look. With sumptuous velvet fabric that adds depth and richness, Zhen Top is perfect for that long-awaited events and dinners. Pair it with our Tan pants or a flowing skirt for an effortlessly chic ensemble.	100% Polyester	1, 2	750000.0	http://dumaofficial.com/cdn/shop/files/ZHENTOP-3.jpg?v=1736913813	C002
+8233619161327	Grego Leather Blazer Maroon	The silhouette of this leather jacket is inspired by the classic pea coats. Tailored with a double-breasted closure, it's crafted from buttery faux leather and shaped with softly padded shoulders, notch lapels, and a full lining for easy layering. For a complete set, wear with our matching Glacer Skirt.	100% Polyester	All Size	995000.0	http://dumaofficial.com/cdn/shop/files/LeatherBlazerMaroon.jpg?v=1704431456	C002
+7455663685871	Jola Pants Blue	A must-have pant made of slub-melange, ribbed cotton knit, perfect for going out or lounging around. Featuring a mid-rise, cropped length, and straight fit, perfect for a casual, everyday look. Pair it with our Piccolo Top or a simple white shirt and you're ready to get going!	100% Cotton	All Size ( Fit to Large )	650000.0	http://dumaofficial.com/cdn/shop/products/Artboard62_a088283a-9991-4ef0-9435-880950a04fef.png?v=1637736457	C005
+9024397902063	Shiba Top | Butter	PREORDER 10 WORKING DAYS Meet Shiba Top, a blouse that can seamlessly transition from day to night occasions. Detailed with ruched waist and boat-neck cut, hugging your body flatteringly. Its side zipper opening and lining maintain the clean look of this contemporary top, and the structured yet smooth fabric keeps this piece’s carefully-designed silhouette in perfect shape.	100% Japanese made Premium Polyester	Small, Medium, Large	625000.0	http://dumaofficial.com/cdn/shop/files/EliaTopButter2.jpg?v=1753852870	C002
+7946305732847	Zuru Dress Maroon	Knitted with soft cotton yarns, this lightweight straight maxi dress comes in holiday maroon. It's designed to perfectly compliment all body types with its perfect silhouette. The pointed collar, button closure down the center front and ribbed texture are smart finishing touches to complete this dress. Can be styled universally, as a dress, top, or even as an outer!	100% Cotton	ALL SIZE	337500.0	http://dumaofficial.com/cdn/shop/products/ZuruDressMaroon_4.jpg?v=1670552370	C001
+8843353587951	Claus Cardigan With Rhinestones | Navy	This elegant cable knit cardigan is a perfect blend of cozy and chic for this festive season. Featuring a timeless V-neckline and intricate cable detailing, it’s elevated with sparkling bedazzled appliqué around the neckline for a touch of glamour. The hook-and-eye closures add a delicate finish, making it versatile enough to wear open or closed. Perfect for layering over dresses or pairing with your favorite pair of bottom for a polished, standout look. Please note: the appliqué design may vary slightly from the picture, making each piece uniquely yours.	100% Cotton	ALL SIZE (Fit To M)	750000.0	http://dumaofficial.com/cdn/shop/files/CLAUSCARDIGANWITHRHINESTONESNAVY-1.jpg?v=1734492671	C003
+8860235137263	Lim Top | Mustard	A clean-cut top with A-line silhouette that features an elegant combination of modernity and tradition. This piece is designed with puffed cap sleeves that add a touch of flattering contrast to its high collar. The standout feature is a pair of artisanal mandarin buttons — crafted in an intricate design, adding a decorative and functional detail. Made from high-quality structured satin, Lim Top offers a luxurious feel and a slight sheen for that special occasion.	100% Polyester	ALL SIZE	725000.0	http://dumaofficial.com/cdn/shop/files/LIMTOPMUSTARD-2.jpg?v=1736914166	C002
+8825020252399	MMEHUILLET FOR DUMA - Olbit Cardigan | Taupe	SHIPMENT JANUARY The kind of cardigan you would snuggle in with, this piece was knitted from the softest and comfiest viscose yarns. Versatile with a touch of unexpected twist, it can be styled both as a regular and asymmetrical cardigan, with its adjustable side buttons. Completed with a flattering deep V-neckline and detachable chic scarf, Olbit Cardigan is definitely an unforgettable scene-stealer.	Soft Viscose	ALL SIZE	725000.0	http://dumaofficial.com/cdn/shop/files/OlbitCardiganTaupe.jpg?v=1732724716	C003
+9000450130159	Fray Pants | Dark Denim	These straight-leg jeans are crafted from dark indigo denim with a structured fit and clean finish. Featuring a unique frayed waistband for a raw, modern edge, they offer a minimalist look with subtle detail. A versatile staple with classic pockets and a timeless cut.	80% Cotton, 17% Rayon, 3% Spandex	Small, Medium, Large	685000.0	http://dumaofficial.com/cdn/shop/files/FRAYDENIMPANTS3.jpg?v=1750836062	C005
+9000418803951	Rhima Top | Soft Pink	This timeless knit top with a classic round neckline and streamlined silhouette is a must-have wardrobe staple for any weather. Designed in a pretty soft pink shade, it offers both minimalist elegance and a touch of subtle femininity. Its lightweight, breathable cotton material makes it perfect for layering, or wearing on its own.	100% Cotton	ALL SIZE	350000.0	http://dumaofficial.com/cdn/shop/files/RHIMATOPSOFTPINK2.jpg?v=1750835966	C002
+8751853666543	Sophie Skort | Denim White	Introducing Sophie Skort | Denim White, a chic white denim mini skort that’s going to easily match any top in your wardrobe. Its medium-weight denim material holds the skort’s structure firmly and the built-in short pants inside ensures comfort in your daily activities. Completed with a front zipper opening and pockets detail for utility, this is definitely the kind of piece you’ll be wearing a thousand times and more.	70% Cotton, 30% Polyester	Small, Medium, Large	525000.0	http://dumaofficial.com/cdn/shop/files/3656E2D3-B4E2-4C86-90F9-A560A879F913.jpg?v=1725878475	C006
+8860227698927	Fuqi Top | Maroon	A fusion of modern design and traditional influences. Designed with a refined Chinese collar, the halter neckline adds a distinctive touch with its high, mandarin-inspired style. The top’s silhouette gracefully transitions into a fit-and-flare design, contouring the bodice for a flattering fit. Completed with a back zipper opening for an easy and comfortable wear.	100% Polyester	1, 2	675000.0	http://dumaofficial.com/cdn/shop/files/FUQITOPMAROON-1_1.jpg?v=1736841660	C002
+7946308813039	Maya Blazer Maroon	Knitted from soft cotton yarns into the perfect blazer top design and silhouette, finished with shoulder pads and covered buttons. Something you never knew you needed in your capsule wardrobe. Undeniably comfortable, suitable for formal or business casual events, keeps you looking professional yet comfortable for your important meetings. The perfect work outfit for you this festive season!	100% COTTON	All Size	409500.0	http://dumaofficial.com/cdn/shop/products/MayaTopMaroon_4.jpg?v=1670331472	C002
+8211476185327	Apollo Denim Pants	We designed these jeans with laid back silhouette in mind. High-rise and cut with loose, straight legs, they’re crafted from rigid cotton denim that'll slightly stretchy and will hold it's shape. Perfect for a casual everyday fit.	100% Cotton	S, M, L	695000.0	http://dumaofficial.com/cdn/shop/files/ApolloDenimPants-3.jpg?v=1702002537	C005
+8295197442287	RACHEL | Slim Fit Scoop Neck in Grey	A wardrobe staple offered in cool grey shade, it’s crafted from soft and stretch lyocell and has a streamlined slim fit and flattering scoop neckline that's ideal for your everyday wear.	100 % Lyocell Blend	Small, Medium	472500.0	http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6569-edit.jpg?v=1718842125	C002
+9024416547055	Iroco Top | Blue Multi	Summer is for playful patterns. Iroco Top was designed with a beach look in mind, with its fun denim blue - cream stripes and crochet texture. Cut in a boxy silhouette and completed with a chic one-button opening, this piece will surely fit in your summer escape wardrobe. Pair it with our Naxos for a casual, laid-back outfit, or with Vento Short for a cute, matching set look.	Recycled Polyester	1, 2	700000.0	http://dumaofficial.com/cdn/shop/files/IrocoTopBlueMulti2.jpg?v=1753852650	C002
+7947525685487	Ginza Mini Dress Green	Crafted from soft tencel fabric in everyone's go to white shade, this mini shirt dress has fitted shoulders and an A-line silhouette. The concealed placket, front panel detail, and pointed collar make it feel equally smart and effortless. Versatile piece you can wear as a dress, outer, or even tunic!	TENCEL MODAL	ALL SIZE	575000.0	http://dumaofficial.com/cdn/shop/products/GinzaDressSage_2.jpg?v=1670330775	C001
+8792612339951	Jennie Tanktop | Dark Brown	An essential for your daily wardrobe, especially those warmer days. Offered in a rich dark brown tone, it’s crafted from soft lyocell blend and has a streamlined slim fit with endless styling opportunities - wear it alone or layered under shirts and blazers.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	395000.0	http://dumaofficial.com/cdn/shop/files/JENNIETANKTOPDARKBROWN-2.jpg?v=1729052512	C002
+7740234367215	Toja Pants White	Basic pair of pants that you never know you needed! Knitted from soft cotton yarns into the perfect long white pants silhouette that gives your legs an ellongated effect, completed with drawstring	100% Cotton	ALL SIZE	650000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard60.jpg?v=1657770811	C005
+8818180096239	Ang T-Shirt | Grey	Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a grey tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	396000.0	http://dumaofficial.com/cdn/shop/files/AngT-ShirtGrey-3.png?v=1731576603	C002
+7975349747951	Ansel Cardigan Orange	Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!	SOFT VISCOSE	All Size	297500.0	http://dumaofficial.com/cdn/shop/products/AnselCardiganOrange.jpg?v=1673497378	C002
+8840020263151	Gerbera Dress With Floral Appliqués | Red	An elevated version of our Gerbera Dress, this one is filled with intricate 3D floral and sequin appliques delicately handstitched throughout the design. Featuring a high neckline, a flattering A-line silhouette, and a sleeveless cut, it offers a perfect blend of sophistication and glamour. The shimmering sequin	100% Japanese made Premium Polyester	ALL SIZE	1750000.0	http://dumaofficial.com/cdn/shop/files/GERBERADRESSRED_WithFloralAppliques_-1.jpg?v=1736858933	C001
+8498260541679	Harper Pants Navy Stripe	Crafted from premium polyester blend suiting fabric, these baggy trousers have pleats through the front to elongate the wide legs and two button	100% Polyester	S, M, LMeasurement :	650000.0	http://dumaofficial.com/cdn/shop/files/HARPERPANTSNAVYSTRIPE-8.jpg?v=1715741407	C005
+8742178029807	Fleur Satin Top | Blue	A piece to remember, this halter-neck satin top with an easy A-line fit is casual but not basic. Sewn carefully from silky smooth satin fabric and completed with dainty neck straps opening, Fleur Satin Top | Blue is the kind of piece you would reach out to for that long-awaited summer getaway. With a beautiful Iris flower as the cherry on top, you will most definitely be the trend-setter of the season.	100% Polyester	1, 2	454750.0	http://dumaofficial.com/cdn/shop/files/FLEURSATINTOPBLUE-5_5dc88083-0b0d-4644-8382-869ddff2e39b.jpg?v=1724885487	C002
+8005163122927	Martis Flared Pants Brown	Cut from premium stretch woven fabric in a high-rise, flared silhouette, these floor-length pants are fitted at the hips and thigh and flared at hem, creating the perfect elongated legs. This pants will be an essential piece in your wardrobe as they're comfortable but still look put together.	100% Japan made Premium Polyester	Small, Medium, Large	675000.0	http://dumaofficial.com/cdn/shop/products/MartisPantsBrown-2.jpg?v=1677200877	C005
+8818177605871	Ang T-Shirt | Blue Grey	Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a blue grey tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.	76% Lyocell, 19% Wool, 5% Spandex	ALL SIZE (Fit to L)	495000.0	http://dumaofficial.com/cdn/shop/files/AngT-ShirtBlueGrey-2.png?v=1731576148	C002
+7740496183535	Cara Cardigan Multi	Our Cara Knitted Cardigan will definitely be your new favorite on the go outer! Soft and comfy, this cardigan will be the perfect company for your daily errands, office attire, or even to hang out and chill with friends! Pair it with our Panna shorts as a set for a lazy day outfit, or our Toja pants for a more put-together casual look!	100% Cotton	All Size	625000.0	http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard38.jpg?v=1657773075	C003
+8060710191343	Ira Crop T-shirt Taupe	Crafted from a sustainable premium Japanese polyester fabric that is luxuriously soft and cooling, this crop top is has the perfect fit with a straight cut, round neck and clean finishing. Pair it with the cargo pants for a cool and stylish look that provides all day comfort!	75% Polyester, 25% Cotton	1, 2	525000.0	http://dumaofficial.com/cdn/shop/files/IraCropTshirtTaupe-5.jpg?v=1685033808	C002
+7790791557359	Julian Dress Grey	Knitted from very soft and elastic viscose yarns, this relaxed fit shirt dress features a straight fit and front pocket flaps for a laid-back, casual silhouette. The sleeve cuff and buttons	SOFT VISCOSE	ALL SIZE	665000.0	http://dumaofficial.com/cdn/shop/products/CATALOGUE17AUG_GANULIBLUEArtboard29.jpg?v=1660705980	C001
+8901385748719	Ariel Cardigan Grey	Knitted from soft cotton yarns with sophisticated flower	100% Cotton	ALL SIZEMeasurement :	650000.0	http://dumaofficial.com/cdn/shop/files/ARIELCARDIGANGREY-1_e0cbe726-8bab-4102-b68d-cc3cd94cf589.jpg?v=1745990162	C003
+\.
+
+
+--
+-- Data for Name: variants; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.variants (variant_id, variant_name, availability, color, product_id) FROM stdin;
+46549384757487	Size 1 / Black	InStock	Black	8986642317551
+46549384790255	Size 2 / Black	InStock	Black	8986642317551
+44136493842671	Size S / Black	OutOfStock	Black	8145215291631
+44136493875439	Size M / Black	OutOfStock	Black	8145215291631
+44136513175791	Size L / Black	OutOfStock	Black	8145215291631
+44553781838063	All size / Beige	OutOfStock	Beige	8294596313327
+46124927582447	All Size / #2B3856	OutOfStock	#2B3856	8843353587951
+44253617029359	All Size / Black	OutOfStock	Black	8198585417967
+43793305272559	All Size / Red	OutOfStock	Red	8006360498415
+43040041205999	All Size / Black	OutOfStock	Black	7740273590511
+46315771298031	All Size / White	OutOfStock	White	8913121149167
+46063414640879	All Size / #c9b9ad	OutOfStock	#c9b9ad	8825019891951
+46270361174255	Size Small / #000042	OutOfStock	#000042	8896420479215
+46270361207023	Size Medium / #000042	OutOfStock	#000042	8896420479215
+46270361239791	Size Large / #000042	OutOfStock	#000042	8896420479215
+46328188829935	Size XL / #000042	OutOfStock	#000042	8896420479215
+44136269119727	All Size / #2C3109	OutOfStock	#2C3109	8145104994543
+45076697415919	Size 1 / Black	OutOfStock	Black	8498426675439
+45076956905711	Size 2 / Black	OutOfStock	Black	8498426675439
+44246415966447	Size 1 / #366AA4	OutOfStock	#366AA4	8196275405039
+44246415999215	Size 2 / #366AA4	OutOfStock	#366AA4	8196275405039
+44304810639599	Size 1 / Black	OutOfStock	Black	8218770833647
+44304811327727	Size 2 / Black	OutOfStock	Black	8218770833647
+46573580583151	Size 1 / Black	InStock	Black	9000438857967
+46573580615919	Size 2 / Black	InStock	Black	9000438857967
+42496742228207	All Size / White	OutOfStock	White	7571081887983
+45808864067823	Size 1 / #FBFBFB	OutOfStock	#FBFBFB	8752245506287
+45808864100591	Size 2 / #FBFBFB	OutOfStock	#FBFBFB	8752245506287
+43989013233903	1 / #ff96cb	OutOfStock	#ff96cb	8076514394351
+43989013627119	2 / #ff96cb	OutOfStock	#ff96cb	8076514394351
+46549488500975	All Size / #572E19	InStock	#572E19	8986673447151
+46662841336047	Size Small / #F7CAC9	OutOfStock	#F7CAC9	9024414941423
+46662841368815	Size Medium / #F7CAC9	OutOfStock	#F7CAC9	9024414941423
+46667799855343	Size Large / #F7CAC9	OutOfStock	#F7CAC9	9024414941423
+43953581064431	All Size / White	OutOfStock	White	8060728180975
+46063411986671	All Size / Grey	OutOfStock	Grey	8825018679535
+44308620771567	Size S / Grey	OutOfStock	Grey	8220544205039
+44308620804335	Size M / Grey	OutOfStock	Grey	8220544205039
+44308631486703	Size L / Grey	OutOfStock	Grey	8220544205039
+43645302407407	All Size / Maroon	OutOfStock	Maroon	7947445764335
+46573587497199	Size 1 / Black	InStock	Black	9000439841007
+46573587529967	Size 2 / Black	InStock	Black	9000439841007
+45527314923759	Size Small / #FFFFF3	OutOfStock	#FFFFF3	8665208684783
+45527314956527	Size Medium / #FFFFF3	OutOfStock	#FFFFF3	8665208684783
+45527314989295	Size Large / #FFFFF3	OutOfStock	#FFFFF3	8665208684783
+46414078279919	Size Small / Black	OutOfStock	Black	8947918569711
+46414078312687	Size Medium / Black	OutOfStock	Black	8947918569711
+46414078345455	Size Large / Black	OutOfStock	Black	8947918569711
+43952829497583	All Size / White	OutOfStock	White	8060403974383
+42146372845807	All Size / #02064a	OutOfStock	#02064a	7471338193135
+42146394603759	All Size / Maroon	OutOfStock	Maroon	7471348252911
+44660251951343	All Size / #FFFFE7	OutOfStock	#FFFFE7	8329483780335
+45972973256943	All Size / #371d10	OutOfStock	#371d10	8792612339951
+43040682246383	All Size / #02064a	OutOfStock	#02064a	7740497690863
+46270334402799	Size Small / #186AB4	OutOfStock	#186AB4	8896418152687
+46270348165359	Size Medium / #186AB4	OutOfStock	#186AB4	8896418152687
+46270348198127	Size Large / #186AB4	OutOfStock	#186AB4	8896418152687
+46328189452527	Size XL / #186AB4	OutOfStock	#186AB4	8896418152687
+45075919405295	All Size / Black	OutOfStock	Black	8498316607727
+46063415492847	Size 1 / Black	OutOfStock	Black	8825021530351
+46063425093871	Size 2 / Black	OutOfStock	Black	8825021530351
+43039856361711	All Size / Black	OutOfStock	Black	7740221128943
+44136539980015	Size S / Beige	OutOfStock	Beige	8145244520687
+44136540012783	Size M / Beige	OutOfStock	Beige	8145244520687
+44136540045551	Size L / Beige	OutOfStock	Beige	8145244520687
+46270381457647	Size 1 / #371d10	OutOfStock	#371d10	8896426836207
+46270387945711	Size 2 / #371d10	OutOfStock	#371d10	8896426836207
+44244945928431	All Size / Black	OutOfStock	Black	8196111565039
+44075334140143	All Size / Black	OutOfStock	Black	8116765851887
+44137330704623	Size 1 / Black	OutOfStock	Black	8145607033071
+44137352102127	Size 2 / Black	OutOfStock	Black	8145607033071
+42145903968495	All Size / #02064a	OutOfStock	#02064a	7471298543855
+43790340292847	1 / Black	OutOfStock	Black	8005157617903
+43790340325615	2 / Black	OutOfStock	Black	8005157617903
+44246311502063	Size 1 / #996633	OutOfStock	#996633	8196244504815
+44246311534831	Size 2 / #996633	OutOfStock	#996633	8196244504815
+43642729070831	Size 1 / Green	OutOfStock	Green	7946310025455
+43645550493935	Size 2 / Green	OutOfStock	Green	7946310025455
+44137177809135	All Size / #857663	OutOfStock	#857663	8145540219119
+46315766841583	Size Small / Black	OutOfStock	Black	8913120493807
+46315766874351	Size Medium / Black	OutOfStock	Black	8913120493807
+46315769364719	Size Large / Black	OutOfStock	Black	8913120493807
+46270364451055	All Size / White	OutOfStock	White	8896420839663
+43037231972591	All Size / Black	OutOfStock	Black	7739103543535
+44137361506543	Size 1 / Black	OutOfStock	Black	8145623580911
+44137361539311	Size 2 / Black	OutOfStock	Black	8145623580911
+43514886324463	All Size / Black	OutOfStock	Black	7894084976879
+44536057692399	Small / #996633	OutOfStock	#996633	8289518747887
+44536083546351	Medium / #996633	OutOfStock	#996633	8289518747887
+44536083579119	Large / #996633	OutOfStock	#996633	8289518747887
+45890150695151	All Size / White	OutOfStock	White	8773329977583
+46124926304495	All Size / Maroon	OutOfStock	Maroon	8843352703215
+46124963102959	Size 1 / #C19A6B	OutOfStock	#C19A6B	8843368071407
+46124963135727	Size 2 / #C19A6B	OutOfStock	#C19A6B	8843368071407
+45890209906927	Size 1 / Black	OutOfStock	Black	8773355765999
+45890209939695	Size 2 / Black	OutOfStock	Black	8773355765999
+43642727432431	All Size / Maroon	OutOfStock	Maroon	7946308813039
+44659816399087	Size 1 / #80BEE4	OutOfStock	#80BEE4	8329441050863
+44659816431855	Size 2 / #80BEE4	OutOfStock	#80BEE4	8329441050863
+45968880959727	All Size / #996633	OutOfStock	#996633	8791886528751
+43672707793135	Size 1 (1-2 yo) / Black	OutOfStock	Black	7959651221743
+43672707825903	Size 2 (2-3yo) / Black	OutOfStock	Black	7959651221743
+43672707858671	Size 3 (3-4yo) / Black	OutOfStock	Black	7959651221743
+45077002485999	Size 1 / Light Grey	OutOfStock	Light Grey	8498485231855
+45077080047855	Size 2 / Light Grey	OutOfStock	Light Grey	8498485231855
+44597327757551	Size 1 / #FFFFE7	OutOfStock	#FFFFE7	8307526140143
+44597327790319	Size 2 / #FFFFE7	OutOfStock	#FFFFE7	8307526140143
+46573584220399	Size 1 / #F3F2EC	InStock	#F3F2EC	9000439218415
+46573584253167	Size 2 / #F3F2EC	InStock	#F3F2EC	9000439218415
+43953540071663	Size 1 / #000026	OutOfStock	#000026	8060699902191
+43953546232047	Size 2 / #000026	OutOfStock	#000026	8060699902191
+44536085840111	Small / Maroon	OutOfStock	Maroon	8289522614511
+44536094195951	Medium / Maroon	OutOfStock	Maroon	8289522614511
+44536094228719	Large / Maroon	OutOfStock	Maroon	8289522614511
+45890137522415	Size 1 / White	OutOfStock	White	8773325816047
+45890137555183	Size 2 / White	OutOfStock	White	8773325816047
+44660201292015	Size 1 / #D2F6DE	OutOfStock	#D2F6DE	8329477685487
+44660216398063	Size 2 / #D2F6DE	OutOfStock	#D2F6DE	8329477685487
+44304881549551	Size S / #36A5B2	OutOfStock	#36A5B2	8218791477487
+44304881582319	Size M / #36A5B2	OutOfStock	#36A5B2	8218791477487
+43642731397359	All Size / Green	OutOfStock	Green	7946311041263
+43645309354223	All Size / Navy	OutOfStock	Navy	7947448090863
+43790491910383	All Size / Black	OutOfStock	Black	8005216600303
+44246203105519	All Size / Beige	OutOfStock	Beige	8196225892591
+46315601232111	Size 1 / White	InStock	White	8913099194607
+46315601264879	Size 2 / White	OutOfStock	White	8913099194607
+44062111039727	Small / White	OutOfStock	White	8110085439727
+44062111072495	Medium / White	OutOfStock	White	8110085439727
+44062111105263	Large / White	OutOfStock	White	8110085439727
+44075332272367	All Size / Black	OutOfStock	Black	8116764836079
+43040655409391	All Size / #02064a	OutOfStock	#02064a	7740496183535
+44304765714671	Size 1 / Black	OutOfStock	Black	8218757071087
+44304778887407	Size 2 / Black	OutOfStock	Black	8218757071087
+44244923121903	All Size / Black	OutOfStock	Black	8196107469039
+43039905120495	SM / White	OutOfStock	White	7740234367215
+43039905153263	ML / White	OutOfStock	White	7740234367215
+45972796801263	All Size / #FFEEBD	OutOfStock	#FFEEBD	8792581144815
+46170764476655	Size Small / #A20000	OutOfStock	#A20000	8860273606895
+46170764509423	Size Medium / #A20000	OutOfStock	#A20000	8860273606895
+44660225540335	Size 1 / Pink	OutOfStock	Pink	8329480503535
+44660225573103	Size 2 / Pink	OutOfStock	Pink	8329480503535
+45533403611375	Size Small / Black	OutOfStock	Black	8667284996335
+45533403644143	Size Medium / Black	OutOfStock	Black	8667284996335
+45533403676911	Size Large / Black	OutOfStock	Black	8667284996335
+42922253058287	All Size / #02064a	OutOfStock	#02064a	7696641097967
+45972743487727	Size 1 / #996633	OutOfStock	#996633	8792566825199
+45972743520495	Size 2 / #996633	OutOfStock	#996633	8792566825199
+43790411694319	All size / #CCC6AC	OutOfStock	#CCC6AC	8005183471855
+46170774798575	Size 1 / #5C0000	OutOfStock	#5C0000	8860281962735
+46170774831343	Size 2 / #5C0000	InStock	#5C0000	8860281962735
+45773956219119	Size Small / #C8ECF4	OutOfStock	#C8ECF4	8742187466991
+45773956251887	Size Medium / #C8ECF4	OutOfStock	#C8ECF4	8742187466991
+46124928303343	Size 1 / #C19A6B	OutOfStock	#C19A6B	8843354669295
+46124928336111	Size 2 / #C19A6B	OutOfStock	#C19A6B	8843354669295
+44289398538479	All Size / Red	OutOfStock	Red	8211497844975
+42146368159983	All Size / Maroon	OutOfStock	Maroon	7471335211247
+45413226348783	Size Small / Light Grey	OutOfStock	Light Grey	8625233592559
+45413226381551	Size Medium / Light Grey	OutOfStock	Light Grey	8625233592559
+46124945506543	Size Small / Maroon	OutOfStock	Maroon	8843362238703
+46124945539311	Size Medium / Maroon	OutOfStock	Maroon	8843362238703
+46124945572079	Size Large / Maroon	OutOfStock	Maroon	8843362238703
+43281641308399	All Size / #2B3856	OutOfStock	#2B3856	7823880028399
+45533395583215	Size Small / White	OutOfStock	White	8667282800879
+45533403119855	Size Medium / White	OutOfStock	White	8667282800879
+45533403152623	Size Large / White	OutOfStock	White	8667282800879
+44597335589103	Size 1 / White	OutOfStock	White	8307532005615
+44597335621871	Size 2 / White	OutOfStock	White	8307532005615
+46662737658095	Size Small / White	InStock	White	9024378372335
+46662737690863	Size Medium / White	InStock	White	9024378372335
+46662737723631	Size Large / White	InStock	White	9024378372335
+44352442302703	All Size / #996633	OutOfStock	#996633	8233622012143
+44069824692463	All Size / #02064a	OutOfStock	#02064a	8114152145135
+45077279768815	All Size / White	OutOfStock	White	8498523111663
+44597317632239	All Size / Black	OutOfStock	Black	8307522339055
+45075583697135	Size Small / Grey	OutOfStock	Grey	8498257625327
+45075583729903	Size Medium / Grey	InStock	Grey	8498257625327
+45075583762671	Size Large / Grey	InStock	Grey	8498257625327
+42090490036463	All Size / #DE3636	OutOfStock	#DE3636	7455630426351
+46059334795503	All Size / White	InStock	White	8823413145839
+46124963660015	Size 1 / Grey	OutOfStock	Grey	8843368300783
+46124963692783	Size 2 / Grey	OutOfStock	Grey	8843368300783
+44482876539119	All Size / #F7CAC9	OutOfStock	#F7CAC9	8269638271215
+45413234901231	Size Small / #2B3856	OutOfStock	#2B3856	8625234739439
+45413234933999	Size Medium / #2B3856	OutOfStock	#2B3856	8625234739439
+46124919914735	All Size / Maroon	OutOfStock	Maroon	8843350245615
+43877918540015	All Size / #cdebf9	OutOfStock	#cdebf9	8030772199663
+46317303070959	All Size / Black	OutOfStock	Black	8913520197871
+46576949821679	All Size / #C0C0C0	InStock	#C0C0C0	9001294102767
+43952940253423	All Size / White	OutOfStock	White	8060443361519
+42075728937199	Christmas Tree / Blank Card	InStock	Blank Card	7451739914479
+42075799453935	Christmas Tree / Add Personal Notes	InStock	Add Personal Notes	7451739914479
+42075728969967	Abstract / Blank Card	InStock	Blank Card	7451739914479
+42075799486703	Abstract / Add Personal Notes	InStock	Add Personal Notes	7451739914479
+43896752636143	All Size / Navy	OutOfStock	Navy	8037925126383
+44244797358319	Size S / Light Grey	OutOfStock	Light Grey	8196090462447
+44244797554927	Size M / Light Grey	OutOfStock	Light Grey	8196090462447
+44244797587695	Size L / Light Grey	OutOfStock	Light Grey	8196090462447
+44244861354223	Size XL / Light Grey	OutOfStock	Light Grey	8196090462447
+44553786982639	All Size / DARK GREY	OutOfStock	DARK GREY	8294600245487
+46662839599343	Size 1 (Preorder 10 Working Days) / #F7CAC9	OutOfStock	#F7CAC9	9024414122223
+46662839632111	Size 2 (Preorder 10 Working Days) / #F7CAC9	OutOfStock	#F7CAC9	9024414122223
+45972758364399	Size 1 / #2B3856	OutOfStock	#2B3856	8792571707631
+45972758397167	Size 2 / #2B3856	OutOfStock	#2B3856	8792571707631
+43877960057071	Small / Black	OutOfStock	Black	8030793269487
+43877960089839	Medium / Black	OutOfStock	Black	8030793269487
+43877960122607	Large / Black	OutOfStock	Black	8030793269487
+43970323022063	Extra Large / Black	OutOfStock	Black	8030793269487
+44002330149103	Size 1 / Black	OutOfStock	Black	8082187518191
+44002330181871	Size 2 / Black	OutOfStock	Black	8082187518191
+42496840859887	All Size / #98b2d1	OutOfStock	#98b2d1	7571098894575
+46456309842159	Size 1 / #572E19	OutOfStock	#572E19	8959296176367
+46456309874927	Size 2 / #572E19	OutOfStock	#572E19	8959296176367
+43514872889583	All Size / Black	OutOfStock	Black	7894083371247
+46458544750831	Size Small / #572E19	OutOfStock	#572E19	8959791005935
+46458544783599	Size Medium / #572E19	OutOfStock	#572E19	8959791005935
+46458544816367	Size Large / #572E19	OutOfStock	#572E19	8959791005935
+46549383315695	All Size / Black	InStock	Black	8986641760495
+46317267255535	All Size / #FFF7E1	OutOfStock	#FFF7E1	8913509810415
+44590680637679	All Size / #2B3856	OutOfStock	#2B3856	8304613720303
+46063389573359	All Size / White	OutOfStock	White	8825001378031
+44289346568431	Size 1 / #000042	OutOfStock	#000042	8211487719663
+44289351483631	Size 2 / #000042	OutOfStock	#000042	8211487719663
+46061916324079	Size 1 / #FFFFF3	OutOfStock	#FFFFF3	8824609833199
+46061916356847	Size 2 / #FFFFF3	OutOfStock	#FFFFF3	8824609833199
+45527192109295	All Size / #FFFFF3	OutOfStock	#FFFFF3	8665156616431
+44289297940719	Size S / #000042	OutOfStock	#000042	8211476185327
+44289305706735	Size M / #000042	OutOfStock	#000042	8211476185327
+44289305739503	Size L / #000042	OutOfStock	#000042	8211476185327
+45075594543343	Size Small / #2B3856	OutOfStock	#2B3856	8498260541679
+45075594576111	Size Medium / #2B3856	OutOfStock	#2B3856	8498260541679
+45075594608879	Size Large / #2B3856	OutOfStock	#2B3856	8498260541679
+43790763819247	All Size / Black	OutOfStock	Black	8005294457071
+43790362181871	1 / #F3F2EC	OutOfStock	#F3F2EC	8005161746671
+43790362837231	2 / #F3F2EC	OutOfStock	#F3F2EC	8005161746671
+45527363485935	Size Small / Pink	OutOfStock	Pink	8665228214511
+45527363518703	Size Medium / Pink	InStock	Pink	8665228214511
+45527363551471	Size Large / Pink	OutOfStock	Pink	8665228214511
+43790374404335	1 / #F3F2EC	OutOfStock	#F3F2EC	8005163909359
+43790376632559	2 / #F3F2EC	OutOfStock	#F3F2EC	8005163909359
+44618520690927	Size 1 / Navy	OutOfStock	Navy	8316165914863
+44618520723695	Size 2 / Navy	OutOfStock	Navy	8316165914863
+46124930531567	Size 1 / Grey	OutOfStock	Grey	8843356078319
+46124930564335	Size 2 / Grey	OutOfStock	Grey	8843356078319
+45807942435055	Size Small / #FBFBFB	OutOfStock	#FBFBFB	8751853666543
+45807942467823	Size Medium / #FBFBFB	OutOfStock	#FBFBFB	8751853666543
+45807950954735	Size Large / #FBFBFB	OutOfStock	#FBFBFB	8751853666543
+43642735591663	Size 1 / Green	OutOfStock	Green	7946313138415
+43642735624431	Size 2 / Green	OutOfStock	Green	7946313138415
+42090568089839	#DE3636 / All Size	OutOfStock	All Size	7455664865519
+44590661730543	All Size / #2B3856	OutOfStock	#2B3856	8304605561071
+46063408677103	All Size / White	OutOfStock	White	8825016811759
+43220078592239	All Size / #02064a	OutOfStock	#02064a	7804254978287
+43642701611247	All Size / #C19A6B	OutOfStock	#C19A6B	7946296885487
+43952805118191	All Size / White	OutOfStock	White	8060384837871
+46270332502255	All Size / #000042	OutOfStock	#000042	8896417726703
+46272142901487	Size 1 / #c9b9ad	OutOfStock	#c9b9ad	8897159463151
+46272144867567	Size 2 / #c9b9ad	OutOfStock	#c9b9ad	8897159463151
+43713129316591	Allsize / #c64501	OutOfStock	#c64501	7975350173935
+44245043609839	All Size / Black	OutOfStock	Black	8196122083567
+44482877161711	Size 1 / #F7CAC9	OutOfStock	#F7CAC9	8269638762735
+44482877194479	Size 2 / #F7CAC9	OutOfStock	#F7CAC9	8269638762735
+43793315889391	All Size / Dark Grey	OutOfStock	Dark Grey	8006371049711
+42146314846447	All Size / #02064a	OutOfStock	#02064a	7471328526575
+45808030187759	Size Small (PREORDER 5 WORKING DAYS) / #FBFBFB	OutOfStock	#FBFBFB	8751873523951
+45808030220527	Size Medium (PREORDER 5 WORKING DAYS) / #FBFBFB	OutOfStock	#FBFBFB	8751873523951
+45808030253295	Size Large (PREORDER 5 WORKING DAYS) / #FBFBFB	OutOfStock	#FBFBFB	8751873523951
+46549383545071	Size 1 / #F3F2EC	InStock	#F3F2EC	8986641989871
+46549384265967	Size 2 / #F3F2EC	InStock	#F3F2EC	8986641989871
+46573483655407	All Size (Preorder 25 Working Days) / #FFFFE7	OutOfStock	#FFFFE7	9000412872943
+44482898526447	All Size / #ff96cb	OutOfStock	#ff96cb	8269648298223
+44659880853743	Size 1 / #80BEE4	OutOfStock	#80BEE4	8329446097135
+44659933479151	Size 2 / #80BEE4	OutOfStock	#80BEE4	8329446097135
+44136216101103	All Size / Black	OutOfStock	Black	8145089691887
+45527178019055	Size 1 / #FFFFF3	OutOfStock	#FFFFF3	8665146589423
+45527178051823	Size 2 / #FFFFF3	OutOfStock	#FFFFF3	8665146589423
+46317324533999	Size Small / Black	OutOfStock	Black	8913534157039
+46317324566767	Size Medium / Black	OutOfStock	Black	8913534157039
+46317324599535	Size Large / Black	OutOfStock	Black	8913534157039
+46170725122287	Size 1 / #A4A000	OutOfStock	#A4A000	8860251521263
+46170725155055	Size 2 / #A4A000	OutOfStock	#A4A000	8860251521263
+44062104748271	Small / #000042	OutOfStock	#000042	8110077575407
+44062158979311	Medium / #000042	OutOfStock	#000042	8110077575407
+44062159012079	Large / #000042	OutOfStock	#000042	8110077575407
+45773890388207	Size 1 / Black	OutOfStock	Black	8742172721391
+45773890420975	Size 2 / Black	OutOfStock	Black	8742172721391
+44289505362159	All Size / #4b5320	OutOfStock	#4b5320	8211516424431
+46458542686447	Size 1 / #ECCDBE	InStock	#ECCDBE	8959790022895
+46458543374575	Size 2 / #ECCDBE	InStock	#ECCDBE	8959790022895
+45328162849007	Size 1 / #F7CAC9	OutOfStock	#F7CAC9	8604127068399
+45328162881775	Size 2 / #F7CAC9	OutOfStock	#F7CAC9	8604127068399
+45328198893807	Size 3 / #F7CAC9	OutOfStock	#F7CAC9	8604127068399
+45328198926575	Size 4 / #F7CAC9	OutOfStock	#F7CAC9	8604127068399
+43037134520559	All Size / Grey	OutOfStock	Grey	7739069858031
+46414058029295	All Size / Light Blue	OutOfStock	Light Blue	8947908444399
+42075847917807	Blank Card	InStock	None	7451870724335
+42075847950575	Add Personal Notes	InStock	None	7451870724335
+46062004502767	Size Small / White	OutOfStock	White	8824632770799
+46062004535535	Size Medium / White	OutOfStock	White	8824632770799
+46062004568303	Size Large / White	OutOfStock	White	8824632770799
+46662826393839	Size 1 / Ready / #572E19	OutOfStock	#572E19	9024411500783
+46667929616623	Size 1 / Preorder 10 Working Days / #572E19	OutOfStock	#572E19	9024411500783
+46671901917423	Size 1 / Preorder 21 Working Days / #572E19	OutOfStock	#572E19	9024411500783
+46662826426607	Size 2 / Ready / #572E19	OutOfStock	#572E19	9024411500783
+46667929649391	Size 2 / Preorder 10 Working Days / #572E19	OutOfStock	#572E19	9024411500783
+46671901950191	Size 2 / Preorder 21 Working Days / #572E19	OutOfStock	#572E19	9024411500783
+42922250240239	SM / Black	OutOfStock	Black	7696638836975
+42935590027503	ML / Black	OutOfStock	Black	7696638836975
+46317586022639	Size Small / White	OutOfStock	White	8913631740143
+46317586055407	Size Medium / White	OutOfStock	White	8913631740143
+46317586088175	Size Large / White	OutOfStock	White	8913631740143
+43713140162799	Size 1 / Red	OutOfStock	Red	7975352140015
+43713140195567	Size 2 / Red	OutOfStock	Red	7975352140015
+45890176221423	All Size / Black	OutOfStock	Black	8773339513071
+43953577787631	All Size / #c9b9ad	OutOfStock	#c9b9ad	8060725362927
+44062161666287	Small / Black	OutOfStock	Black	8110107197679
+44062161699055	Medium / Black	OutOfStock	Black	8110107197679
+44062161731823	Large / Black	OutOfStock	Black	8110107197679
+42155149721839	SM / Light Grey	OutOfStock	Light Grey	7471319777519
+42155149754607	ML / Light Grey	OutOfStock	Light Grey	7471319777519
+45077796323567	All Size / Black	OutOfStock	Black	8498622595311
+46043755610351	All Size / Black	OutOfStock	Black	8818183438575
+43037170991343	All Size / Grey	OutOfStock	Grey	7739081359599
+46124923257071	All Size / #2B3856	OutOfStock	#2B3856	8843352211695
+41247811272882	All Size / Grey	OutOfStock	Grey	7113857138866
+43790518878447	All Size / Grey	OutOfStock	Grey	8005223088367
+46043736015087	All Size / #2B3856	OutOfStock	#2B3856	8818177605871
+45972914438383	All Size / Maroon	OutOfStock	Maroon	8792602640623
+43790379286767	All size / #F3F2EC	OutOfStock	#F3F2EC	8005165023471
+43893891793135	All Size / #ff0065	OutOfStock	#ff0065	8036455907567
+45972820001007	All Size / #996633	OutOfStock	#996633	8792586879215
+45974570205423	All Size / White	OutOfStock	White	8792946508015
+46270330011887	All Size / #186AB4	OutOfStock	#186AB4	8896416710895
+44426219094255	Size 1 / #556b2f	OutOfStock	#556b2f	8252003090671
+44426228302063	Size 2 / #556b2f	OutOfStock	#556b2f	8252003090671
+42090594173167	All Size / #80BEE4	OutOfStock	#80BEE4	7455674138863
+46414054457583	All Size / Pink	OutOfStock	Pink	8947907100911
+42090553573615	black / All Size	OutOfStock	All Size	7455655362799
+43953557733615	All Size / #000026	OutOfStock	#000026	8060715663599
+45527157047535	Size 1 / #2B3856	OutOfStock	#2B3856	8665134366959
+45527157080303	Size 2 / #2B3856	OutOfStock	#2B3856	8665134366959
+44304933290223	Size S / #C0C0C0	OutOfStock	#C0C0C0	8218799669487
+44304933322991	Size M / #C0C0C0	OutOfStock	#C0C0C0	8218799669487
+44304933355759	Size L / #C0C0C0	OutOfStock	#C0C0C0	8218799669487
+45890230255855	All Size / White	OutOfStock	White	8773366907119
+44244770029807	Size S / Black	OutOfStock	Black	8196086137071
+44244770062575	Size M / Black	OutOfStock	Black	8196086137071
+44244770095343	Size L / Black	OutOfStock	Black	8196086137071
+44244770128111	Size XL / Black	OutOfStock	Black	8196086137071
+43312083075311	SM / #D2EFF6	OutOfStock	#D2EFF6	7833922961647
+43312083108079	ML / #D2EFF6	OutOfStock	#D2EFF6	7833922961647
+46662590693615	Size Small  (Preorder 10 Working Days) / White	InStock	White	9024321257711
+46662592790767	Size Medium (Preorder 10 Working Days) / White	InStock	White	9024321257711
+46662592823535	Size Large  (Preorder 10 Working Days) / White	InStock	White	9024321257711
+43790415724783	All Size / Navy	OutOfStock	Navy	8005185241327
+42922230481135	All Size / White	OutOfStock	White	7696634478831
+46576970793199	All Size / White	InStock	White	9001313435887
+46124922241263	All Size / Maroon	OutOfStock	Maroon	8843351294191
+46315625054447	Size 1 / Black	InStock	Black	8913104109807
+46315625087215	Size 2 / Black	InStock	Black	8913104109807
+43642673758447	All Size / Grey	OutOfStock	Grey	7946279420143
+45527131160815	Size 1 / #336699	OutOfStock	#336699	8665120866543
+45527131193583	Size 2 / #336699	OutOfStock	#336699	8665120866543
+43281612112111	All Size / #996633	OutOfStock	#996633	7823875801327
+46063378497775	All Size / #13548F	OutOfStock	#13548F	8824999379183
+45075608273135	Size Small / Grey	OutOfStock	Grey	8498263556335
+45075608305903	Size Medium / Grey	OutOfStock	Grey	8498263556335
+45075608338671	Size Large / Grey	OutOfStock	Grey	8498263556335
+44001037910255	All Size / #F3F2EC	OutOfStock	#F3F2EC	8081686429935
+44426283909359	All Size / #DE3636	OutOfStock	#DE3636	8252028420335
+43953551671535	Size 1 / White	OutOfStock	White	8060711141615
+43953551704303	Size 2 / White	OutOfStock	White	8060711141615
+46458540916975	All Size / Black	InStock	Black	8959789039855
+43642686472431	All Size / Grey	OutOfStock	Grey	7946287939823
+42090587619567	All Size / Black	OutOfStock	Black	7455669780719
+43645548265711	All Size / #556b2f	OutOfStock	#556b2f	7947525685487
+43645303029999	All Size / Maroon	OutOfStock	Maroon	7947446321391
+46414044004591	Size 1 / Black	OutOfStock	Black	8947900711151
+46414044037359	Size 2 / Black	OutOfStock	Black	8947900711151
+44137218965743	All Size / Black	OutOfStock	Black	8145558438127
+43642682310895	All Size / Grey	OutOfStock	Grey	7946285646063
+46061996966127	Size Small / #13548F	OutOfStock	#13548F	8824629395695
+46061996998895	Size Medium / #13548F	OutOfStock	#13548F	8824629395695
+46061997031663	Size Large / #13548F	OutOfStock	#13548F	8824629395695
+46549495087343	All Size (Shipment 14 July 2025) / #5A6553	OutOfStock	#5A6553	8986676429039
+43896780718319	All Size / #FF0080	OutOfStock	#FF0080	8037940429039
+46456161665263	All Size / Black	InStock	Black	8959261671663
+43514910310639	All Size / Black	OutOfStock	Black	7894087794927
+45525206237423	All Size / #2B3856	OutOfStock	#2B3856	8664379425007
+43952938713327	ALLSIZE - FIT TO L / Grey	OutOfStock	Grey	8060442214639
+44244685816047	Size S / Black	OutOfStock	Black	8196075585775
+44244686373103	Size M / Black	OutOfStock	Black	8196075585775
+44244686405871	Size L / Black	OutOfStock	Black	8196075585775
+46315524882671	Size Small / White	InStock	White	8913076879599
+46315531469039	Size Medium / White	OutOfStock	White	8913076879599
+46315531501807	Size Large / White	InStock	White	8913076879599
+43893891596527	SM / #FF0080	OutOfStock	#FF0080	8036455252207
+43893891629295	ML / #FF0080	OutOfStock	#FF0080	8036455252207
+44253635543279	All Size / #996633	OutOfStock	#996633	8198588858607
+45533410099439	Size Small / White	OutOfStock	White	8667287453935
+45533410132207	Size Medium / White	OutOfStock	White	8667287453935
+45533410164975	Size Large / White	OutOfStock	White	8667287453935
+46121927082223	All Size / #1E2F13	InStock	#1E2F13	8842758521071
+43444235698415	All Size / Grey	OutOfStock	Grey	7867716829423
+45077762539759	All Size / Black	OutOfStock	Black	8498614468847
+43645301752047	All Size / Navy	OutOfStock	Navy	7947445043439
+46317316374767	All Size / Black	InStock	Black	8913528520943
+43651978100975	Size 1 / Black	OutOfStock	Black	7950403731695
+43651978133743	Size 2 / Black	OutOfStock	Black	7950403731695
+44137264546031	Size 1 / Black	OutOfStock	Black	8145580327151
+44137287254255	Size 2 / Black	OutOfStock	Black	8145580327151
+42922251419887	All Size / Black	OutOfStock	Black	7696639983855
+43121225695471	Reguler / Light Blue	OutOfStock	Light Blue	7767167729903
+43121235755247	Oversized / Light Blue	OutOfStock	Light Blue	7767167729903
+46662831505647	Size Small / #572E19 / Ready	OutOfStock	Ready	9024412516591
+46668101419247	Size Small / #572E19 / Preorder 10 Working Days	OutOfStock	Preorder 10 Working Days	9024412516591
+46671902343407	Size Small / #572E19 / Preorder 21 Working Days	OutOfStock	Preorder 21 Working Days	9024412516591
+46662831538415	Size Medium / #572E19 / Ready	OutOfStock	Ready	9024412516591
+46668101452015	Size Medium / #572E19 / Preorder 10 Working Days	OutOfStock	Preorder 10 Working Days	9024412516591
+46671902376175	Size Medium / #572E19 / Preorder 21 Working Days	InStock	Preorder 21 Working Days	9024412516591
+46662831571183	Size Large / #572E19 / Ready	OutOfStock	Ready	9024412516591
+46668101484783	Size Large / #572E19 / Preorder 10 Working Days	OutOfStock	Preorder 10 Working Days	9024412516591
+46671902408943	Size Large / #572E19 / Preorder 21 Working Days	OutOfStock	Preorder 21 Working Days	9024412516591
+46043749646575	All Size / White	OutOfStock	White	8818180620527
+43642721632495	All Size / Green	OutOfStock	Green	7946306158831
+43514917814511	ALLSIZE-FIT TO MEDIUM / White	OutOfStock	White	7894089662703
+46043720515823	All Size / Black	OutOfStock	Black	8818175770863
+43877985779951	All Size / Navy	OutOfStock	Navy	8030804115695
+43713148616943	All Size / #A5D7B7	OutOfStock	#A5D7B7	7975352762607
+46059349999855	Size Small / #FFFFF3	OutOfStock	#FFFFF3	8823420420335
+46059350032623	Size Medium / #FFFFF3	OutOfStock	#FFFFF3	8823420420335
+46059350360303	Size Large / #FFFFF3	OutOfStock	#FFFFF3	8823420420335
+46124947013871	Size Small / Maroon	OutOfStock	Maroon	8843362861295
+46124947046639	Size Medium / Maroon	OutOfStock	Maroon	8843362861295
+46124947079407	Size Large / Maroon	OutOfStock	Maroon	8843362861295
+43281812193519	All Size / #D2EFF6	OutOfStock	#D2EFF6	7823908372719
+46315569840367	Size 1 / White	OutOfStock	White	8913091494127
+46315569873135	Size 2 / White	OutOfStock	White	8913091494127
+44055854481647	All Size / Black	OutOfStock	Black	8106582376687
+43281723523311	S / #2B3856	OutOfStock	#2B3856	7823893364975
+43281796595951	M / #2B3856	OutOfStock	#2B3856	7823893364975
+45526578823407	Size Small / #2B3856	OutOfStock	#2B3856	8664908923119
+45526578856175	Size Medium / #2B3856	OutOfStock	#2B3856	8664908923119
+45526614376687	Size Large / #2B3856	OutOfStock	#2B3856	8664908923119
+46272509935855	All Size / White	InStock	White	8897272807663
+43790722597103	All size / Black	OutOfStock	Black	8005286330607
+43790378860783	1 / #CCC6AC	OutOfStock	#CCC6AC	8005164826863
+43790378893551	2 / #CCC6AC	OutOfStock	#CCC6AC	8005164826863
+44001053016303	All Size / Navy	OutOfStock	Navy	8081694392559
+44660162232559	Size 1 / Pink	OutOfStock	Pink	8329474244847
+44660181270767	Size 2 / Pink	OutOfStock	Pink	8329474244847
+46043756527855	All Size / White	OutOfStock	White	8818183930095
+46573632356591	Size Small / #000042	InStock	#000042	9000450130159
+46573632389359	Size Medium / #000042	InStock	#000042	9000450130159
+46573632422127	Size Large / #000042	InStock	#000042	9000450130159
+46544753918191	All Size / #565656	InStock	#565656	8984622891247
+44354898723055	All Size / #36A5B2	OutOfStock	#36A5B2	8234756931823
+44553776136431	All size / #A5DAF5	OutOfStock	#A5DAF5	8294592512239
+43514905264367	All Size / White	OutOfStock	White	7894087074031
+44069827150063	Small / #2B3856	InStock	#2B3856	8114155389167
+44069827215599	Medium / #2B3856	InStock	#2B3856	8114155389167
+44069827248367	Large / #2B3856	InStock	#2B3856	8114155389167
+46170684326127	Size 1 / Maroon	OutOfStock	Maroon	8860227698927
+46170684358895	Size 2 / Maroon	OutOfStock	Maroon	8860227698927
+43877937348847	Small / White	OutOfStock	White	8030781243631
+43877961302255	Medium / White	OutOfStock	White	8030781243631
+43877961335023	Large / White	OutOfStock	White	8030781243631
+46662900941039	All Size / #FFFFE7	InStock	#FFFFE7	9024432341231
+44002289090799	Size 1 / #ff96cb	OutOfStock	#ff96cb	8082171101423
+44002289123567	Size 2 / #ff96cb	OutOfStock	#ff96cb	8082171101423
+44136345862383	All Size / #366AA4	OutOfStock	#366AA4	8145133732079
+42090605773039	All Size / black	OutOfStock	black	7455679119599
+46124916932847	All Size / #c9b9ad	OutOfStock	#c9b9ad	8843349459183
+46170734493935	All Size / Maroon	OutOfStock	Maroon	8860261515503
+44062136074479	All Size / #121246	OutOfStock	#121246	8110097236207
+43642722648303	All Size / Maroon	OutOfStock	Maroon	7946306486511
+44590646264047	All Size / #2B3856	OutOfStock	#2B3856	8304600350959
+42922213474543	All Size / Grey	OutOfStock	Grey	7696629530863
+43312090710255	All Size / #D2EFF6	OutOfStock	#D2EFF6	7833926992111
+46124908118255	All Size / #996633	OutOfStock	#996633	8843346510063
+46458544390383	Size Small / #660033	OutOfStock	#660033	8959790874863
+46458544423151	Size Medium / #660033	OutOfStock	#660033	8959790874863
+46458544455919	Size Large / #660033	OutOfStock	#660033	8959790874863
+43659883282671	All Size / Olive	OutOfStock	Olive	7954349326575
+46662901530863	All Size (Preorder 14 Working Days) / White	InStock	White	9024432537839
+44002330312943	Size 1 / Black	OutOfStock	Black	8082187976943
+44002330345711	Size 2 / Black	OutOfStock	Black	8082187976943
+45773425475823	Size 1 / #C8ECF4	OutOfStock	#C8ECF4	8742027264239
+45773425508591	Size 2 / #C8ECF4	OutOfStock	#C8ECF4	8742027264239
+46121854337263	Size 1 / #FBFBFB	OutOfStock	#FBFBFB	8842741317871
+46121854370031	Size 2 / #FBFBFB	OutOfStock	#FBFBFB	8842741317871
+44289271988463	All Size / #DE3636	OutOfStock	#DE3636	8211469664495
+44556063703279	Size Small / Light Grey	OutOfStock	Light Grey	8295197442287
+45413296472303	Size Medium / Light Grey	OutOfStock	Light Grey	8295197442287
+44304914317551	Size S / #996633	OutOfStock	#996633	8218797605103
+44304914350319	Size M / #996633	OutOfStock	#996633	8218797605103
+44304921690351	Size L / #996633	OutOfStock	#996633	8218797605103
+46573646446831	Size Small (Preorder 25 Working Days) / #A48974	InStock	#A48974	9000453538031
+46573646479599	Size Medium (Preorder 25 Working Days) / #A48974	InStock	#A48974	9000453538031
+44246507454703	All Size / White	OutOfStock	White	8196294607087
+45972909293807	All Size / #ab936b	OutOfStock	#ab936b	8792602018031
+46043759411439	All Size / #4B4848	OutOfStock	#4B4848	8818185371887
+45968706109679	All Size / #FFEEBD	OutOfStock	#FFEEBD	8791849566447
+46662790906095	Size Small (Preorder 10 Working Days) / #FFFFE7	InStock	#FFFFE7	9024397902063
+46662790938863	Size Medium (Preorder 10 Working Days) / #FFFFE7	InStock	#FFFFE7	9024397902063
+46662793560303	Size Large (Preorder 10 Working Days) / #FFFFE7	OutOfStock	#FFFFE7	9024397902063
+45808190062831	Size 1 / #FBFBFB	OutOfStock	#FBFBFB	8751920742639
+45808190095599	Size 2 / #FBFBFB	OutOfStock	#FBFBFB	8751920742639
+46576965943535	All Size / Black	InStock	Black	9001309339887
+44005416763631	All Size / Navy	OutOfStock	Navy	8083253723375
+44076544721135	All Size / #2B3856	OutOfStock	#2B3856	8117392638191
+46662929907951	All Size (Preorder 14 Working Days) / #FFF8E5	InStock	#FFF8E5	9024434340079
+46407911571695	Size XS / White	InStock	White	8901383880943
+46282980032751	Size Small / White	OutOfStock	White	8901383880943
+46282980065519	Size Medium / White	OutOfStock	White	8901383880943
+46272079429871	Size Small / #77815c	OutOfStock	#77815c	8897118044399
+46272079462639	Size Medium / #77815c	OutOfStock	#77815c	8897118044399
+46272079495407	Size Large / #77815c	OutOfStock	#77815c	8897118044399
+43877952225519	Small / Black	OutOfStock	Black	8030789697775
+43877960646895	Medium / Black	OutOfStock	Black	8030789697775
+43877960679663	Large / Black	OutOfStock	Black	8030789697775
+43642702856431	All Size / Red	OutOfStock	Red	7946298622191
+43878007734511	1 / Black	OutOfStock	Black	8030812864751
+43878007767279	2 / Black	OutOfStock	Black	8030812864751
+46124940001519	Size Small / #5F2C09	OutOfStock	#5F2C09	8843359682799
+46124940034287	Size Medium / #5F2C09	OutOfStock	#5F2C09	8843359682799
+46124944916719	Size Large / #5F2C09	OutOfStock	#5F2C09	8843359682799
+43877955272943	Small / #7caac6	OutOfStock	#7caac6	8030790746351
+43877955338479	Medium / #7caac6	OutOfStock	#7caac6	8030790746351
+43877958189295	Large / #7caac6	OutOfStock	#7caac6	8030790746351
+43970321514735	Extra Large / #7caac6	OutOfStock	#7caac6	8030790746351
+44162903703791	1 / #AEE4B3	OutOfStock	#AEE4B3	8158407131375
+44162903736559	2 / #AEE4B3	OutOfStock	#AEE4B3	8158407131375
+44137321791727	Size 1 / Beige	OutOfStock	Beige	8145602543855
+44137321824495	Size 2 / Beige	OutOfStock	Beige	8145602543855
+41247752519858	Black	OutOfStock	None	7113846784178
+43877980340463	All size / #02064a	OutOfStock	#02064a	8030801264879
+44005419679983	All Size / Grey	OutOfStock	Grey	8083256148207
+46059334402287	All Size / #A5D7B7	InStock	#A5D7B7	8823412785391
+44659943375087	Small / #80BEE4	OutOfStock	#80BEE4	8329452749039
+44659943407855	Medium / #80BEE4	OutOfStock	#80BEE4	8329452749039
+44659943440623	Large / #80BEE4	OutOfStock	#80BEE4	8329452749039
+44426335060207	All Size / Maroon	OutOfStock	Maroon	8252047950063
+42611051561199	BLACK / ALL SIZE	OutOfStock	ALL SIZE	7605186199791
+44433337024751	Size Small / #996633	OutOfStock	#996633	8253784785135
+44433337057519	Size Medium / #996633	OutOfStock	#996633	8253784785135
+44433337090287	Size Large / #996633	OutOfStock	#996633	8253784785135
+44162897215727	1 / #A3D1FF	OutOfStock	#A3D1FF	8158401396975
+44162897248495	2 / #A3D1FF	OutOfStock	#A3D1FF	8158401396975
+44069828886767	All Size / White	OutOfStock	White	8114155880687
+46063442034927	All Size (SHIPMENT: 26-27 December) / Pink	OutOfStock	Pink	8825036570863
+43952800792815	Size 1 / White	OutOfStock	White	8060379463919
+43952800825583	Size 2 / White	OutOfStock	White	8060379463919
+46315771724015	All Size / #2B3856	OutOfStock	#2B3856	8913121313007
+46317303955695	All Size / Black	OutOfStock	Black	8913520754927
+44660128645359	All Size / #c9b9ad	OutOfStock	#c9b9ad	8329471492335
+44308600389871	Size S / #4b5320	OutOfStock	#4b5320	8220534472943
+44308600422639	Size M / #4b5320	OutOfStock	#4b5320	8220534472943
+43281665786095	All Size / White	OutOfStock	White	7823883698415
+43312032743663	All Size / #D2EFF6	OutOfStock	#D2EFF6	7833906741487
+44289211465967	Size 1 / Maroon	OutOfStock	Maroon	8211456950511
+44289220346095	Size 2 / Maroon	OutOfStock	Maroon	8211456950511
+45527302144239	Size Small / Pink	OutOfStock	Pink	8665202065647
+45527302177007	Size Medium / Pink	OutOfStock	Pink	8665202065647
+45527302209775	Size Large / Pink	OutOfStock	Pink	8665202065647
+44433326145775	Size Small / #FFEEBD	OutOfStock	#FFEEBD	8253781967087
+44433326178543	Size Medium / #FFEEBD	OutOfStock	#FFEEBD	8253781967087
+44433326211311	Size Large / #FFEEBD	OutOfStock	#FFEEBD	8253781967087
+44002293612783	Size 1 / #ff96cb	OutOfStock	#ff96cb	8082175328495
+44002293874927	Size 2 / #ff96cb	OutOfStock	#ff96cb	8082175328495
+42090563535087	All Size / #80BEE4	OutOfStock	#80BEE4	7455663685871
+46061916913903	Size 1 / #FFFFF3	OutOfStock	#FFFFF3	8824610586863
+46061916946671	Size 2 / #FFFFF3	OutOfStock	#FFFFF3	8824610586863
+45329246093551	All Size / #A5DAF5	OutOfStock	#A5DAF5	8604421816559
+46272200868079	All Size / Black	OutOfStock	Black	8897190887663
+46458540720367	All Size / Black	OutOfStock	Black	8959788941551
+45526476947695	Size 1 / #2B3856	OutOfStock	#2B3856	8664861278447
+45526535504111	Size 2 / #2B3856	OutOfStock	#2B3856	8664861278447
+46170726465775	Size 1 / #5C0000	OutOfStock	#5C0000	8860253061359
+46170726498543	Size 2 / #5C0000	OutOfStock	#5C0000	8860253061359
+44660243857647	Size 1 / #D2F6DE	OutOfStock	#D2F6DE	8329482731759
+44660243890415	Size 2 / #D2F6DE	OutOfStock	#D2F6DE	8329482731759
+43642719404271	All Size / Green	OutOfStock	Green	7946305274095
+42145605386479	All Size / Light Grey	OutOfStock	Light Grey	7471245328623
+44137104244975	All Size / White	OutOfStock	White	8145497325807
+46580046332143	All Size / #F7CAC9	OutOfStock	#F7CAC9	9000415723759
+46662745719023	Size Small (Preorder 10 Working Days) / Black	InStock	Black	9024381223151
+46662745751791	Size Medium (Preorder 10 Working Days) / Black	InStock	Black	9024381223151
+46662745784559	Size Large  (Preorder 10 Working Days) / Black	InStock	Black	9024381223151
+44058569212143	All Size / Navy	OutOfStock	Navy	8107687051503
+41247732007090	ALL SIZE ( FIT TO M ) / Black	OutOfStock	Black	7113830465714
+44044712968431	1 / #ff0065	OutOfStock	#ff0065	8101851758831
+44044713001199	2 / #ff0065	OutOfStock	#ff0065	8101851758831
+44244692599023	Size S / Light Grey	OutOfStock	Light Grey	8196079255791
+44244694204655	Size M / Light Grey	OutOfStock	Light Grey	8196079255791
+44244694237423	Size L / Light Grey	OutOfStock	Light Grey	8196079255791
+46456198922479	Size 1 / #565656	OutOfStock	#565656	8959278416111
+46456198955247	Size 2 / #565656	OutOfStock	#565656	8959278416111
+44556083396847	Size Small / Dark Grey	OutOfStock	Dark Grey	8295198327023
+45413479448815	Size Medium / Dark Grey	OutOfStock	Dark Grey	8295198327023
+46272211714287	All Size / White	OutOfStock	White	8897200947439
+46458544881903	Small / #ECCDBE	InStock	#ECCDBE	8959791071471
+46458544914671	Medium / #ECCDBE	InStock	#ECCDBE	8959791071471
+45773924237551	Size Small / Black	OutOfStock	Black	8742181306607
+45773924270319	Size Medium / Black	OutOfStock	Black	8742181306607
+42090497442031	All Size / #80BEE4	OutOfStock	#80BEE4	7455634784495
+45075544047855	Size Small / Grey	OutOfStock	Grey	8498246156527
+45075550601455	Size Medium / Grey	OutOfStock	Grey	8498246156527
+45075550634223	Size Large / Grey	OutOfStock	Grey	8498246156527
+45527261413615	Size Small / #FFFFF3	OutOfStock	#FFFFF3	8665184633071
+45527261446383	Size Medium / #FFFFF3	OutOfStock	#FFFFF3	8665184633071
+45527292084463	Size Large / #FFFFF3	OutOfStock	#FFFFF3	8665184633071
+46662777143535	Size 1 / #FFFFE7	InStock	#FFFFE7	9024393019631
+46662778650863	Size 2 / #FFFFE7	InStock	#FFFFE7	9024393019631
+43952939204847	1 (XS-S) / White	OutOfStock	White	8060442575087
+43952939237615	2 (M-L) / White	OutOfStock	White	8060442575087
+45773370523887	Size 1 / Black	OutOfStock	Black	8742005244143
+45773395656943	Size 2 / Black	OutOfStock	Black	8742005244143
+45972900020463	All Size / #371d10	OutOfStock	#371d10	8792600772847
+44556059574511	Size Small / Black	OutOfStock	Black	8295196754159
+45413277565167	Size Medium / Black	OutOfStock	Black	8295196754159
+43790338883823	1 / #CCC6AC	OutOfStock	#CCC6AC	8005157290223
+43790338916591	2 / #CCC6AC	OutOfStock	#CCC6AC	8005157290223
+43514969620719	Size 1 / #2B3856	OutOfStock	#2B3856	7894111125743
+43514969653487	Size 2 / #2B3856	OutOfStock	#2B3856	7894111125743
+42090642309359	All Size / #80BEE4	OutOfStock	#80BEE4	7455707070703
+46121859088623	Size 1 / #FBFBFB	OutOfStock	#FBFBFB	8842742759663
+46121859121391	Size 2 / #FBFBFB	OutOfStock	#FBFBFB	8842742759663
+44304864805103	Size S / Maroon	OutOfStock	Maroon	8218785054959
+44304868704495	Size M / Maroon	OutOfStock	Maroon	8218785054959
+45808852271343	Size 1 / #7caac6	OutOfStock	#7caac6	8752243933423
+45808852304111	Size 2 / #7caac6	OutOfStock	#7caac6	8752243933423
+43893844213999	All Size / White	OutOfStock	White	8036433690863
+44304812966127	All Size / Black	OutOfStock	Black	8218772144367
+43642710622447	Size 1 / Black	OutOfStock	Black	7946301767919
+43642710655215	Size 2 / Black	OutOfStock	Black	7946301767919
+44553769943279	All size / Black	OutOfStock	Black	8294588940527
+43713137901807	All Size / Red	OutOfStock	Red	7975351681263
+45774107640047	Size Small / Black	OutOfStock	Black	8742223577327
+45774107672815	Size Medium / Black	OutOfStock	Black	8742223577327
+45774121107695	Size Large / Black	OutOfStock	Black	8742223577327
+46474661036271	Blank Card	InStock	None	8965256806639
+46474661069039	Add Personal Notes	InStock	None	8965256806639
+46549485125871	Size Small / Black	InStock	Black	8986672595183
+46549485158639	Size Medium / Black	OutOfStock	Black	8986672595183
+46549485191407	Size Large / Black	OutOfStock	Black	8986672595183
+45527345529071	Size Small / #FFFFF3	OutOfStock	#FFFFF3	8665221693679
+45527345561839	Size Medium / #FFFFF3	OutOfStock	#FFFFF3	8665221693679
+45527345594607	Size Large / #FFFFF3	OutOfStock	#FFFFF3	8665221693679
+44062132601071	All Size / #ff96cb	OutOfStock	#ff96cb	8110093533423
+43514878132463	All Size / White	OutOfStock	White	7894084026607
+42146343125231	All Size / #02064a	OutOfStock	#02064a	7471330623727
+46043758199023	All Size / Beige	OutOfStock	Beige	8818184356079
+44426305569007	All Size / #DE3636	OutOfStock	#DE3636	8252030943471
+42611041501423	NAVY / ALL SIZE	OutOfStock	ALL SIZE	7605183971567
+44426278568175	Size 1 (SHIPMENT: 1-3 February 2024) / #556b2f	OutOfStock	#556b2f	8252026028271
+44426278600943	Size 2 (SHIPMENT: 1-3 February 2024) / #556b2f	OutOfStock	#556b2f	8252026028271
+46662897041647	Size 1 / #306094	InStock	#306094	9024430080239
+46662897074415	Size 2 / #306094	InStock	#306094	9024430080239
+45533414097135	Size Small / #77815c	OutOfStock	#77815c	8667288961263
+45533414129903	Size Medium / #77815c	OutOfStock	#77815c	8667288961263
+45533414162671	Size Large / #77815c	OutOfStock	#77815c	8667288961263
+44002288697583	All Size / #36A5B2	OutOfStock	#36A5B2	8082170609903
+43713143374063	All Size / #A5D7B7	OutOfStock	#A5D7B7	7975352533231
+46043748106479	All Size / Grey	OutOfStock	Grey	8818180096239
+44426325852399	Size 1 / Black	OutOfStock	Black	8252041363695
+44426327064815	Size 2 / Black	OutOfStock	Black	8252041363695
+46121881305327	Size 1 / Black	OutOfStock	Black	8842747052271
+46121881338095	Size 2 / Black	OutOfStock	Black	8842747052271
+42146602221807	All Size / White	OutOfStock	White	7471421260015
+42090416373999	All Size / black	OutOfStock	black	7455591432431
+43713155596527	Size 1 / Black	OutOfStock	Black	7975353975023
+43714800156911	Size 2 / Black	OutOfStock	Black	7975353975023
+46662797623535	Size Small (Preorder 10 Working Days) / #572E19	InStock	#572E19	9024401899759
+46662797656303	Size Medium (Preorder 10 Working Days) / #572E19	InStock	#572E19	9024401899759
+46662797689071	Size Large (Preorder 10 Working Days) / #572E19	OutOfStock	#572E19	9024401899759
+44289078493423	Size 1 / #3A3A3A	OutOfStock	#3A3A3A	8211420152047
+44289095663855	Size 2 / #3A3A3A	OutOfStock	#3A3A3A	8211420152047
+44304845013231	All Size / #36A5B2	OutOfStock	#36A5B2	8218779877615
+44244697612527	Size S / Black	OutOfStock	Black	8196081352943
+44557335167215	Size M / Black	OutOfStock	Black	8196081352943
+44557335199983	Size L / Black	OutOfStock	Black	8196081352943
+43953550655727	Size 1 / #c9b9ad	OutOfStock	#c9b9ad	8060710191343
+43953550688495	Size 2 / #c9b9ad	OutOfStock	#c9b9ad	8060710191343
+46113708441839	All Size / #2B3856	OutOfStock	#2B3856	8840010432751
+43953582866671	All Size / #4B4848	OutOfStock	#4B4848	8060729688303
+44244883079407	Size 1 / Black	OutOfStock	Black	8196097474799
+44244890616047	Size 2 / Black	OutOfStock	Black	8196097474799
+46576963715311	All Size / Black	InStock	Black	9001307111663
+46063410512111	All Size (SHIPMENT JANUARY) / White	OutOfStock	White	8825017958639
+44062132699375	All Size / #ff96cb	OutOfStock	#ff96cb	8110093631727
+42922222256367	All Size / Grey	OutOfStock	Grey	7696632578287
+44058584023279	All Size / #000042	OutOfStock	#000042	8107692392687
+46573561839855	Size 1 / #572E19	OutOfStock	#572E19	9000432763119
+46573561872623	Size 2 / #572E19	OutOfStock	#572E19	9000432763119
+43642720190703	All Size / Maroon	OutOfStock	Maroon	7946305732847
+43664070476015	All Size / #C19A6B	OutOfStock	#C19A6B	7955609616623
+44046776664303	All Size / White	OutOfStock	White	8102668370159
+44597343617263	Size S / #FFD9FF	OutOfStock	#FFD9FF	8307535905007
+44597352235247	Size M / #FFD9FF	OutOfStock	#FFD9FF	8307535905007
+44597352268015	Size L / #FFD9FF	OutOfStock	#FFD9FF	8307535905007
+44426328015087	Size 1 / #DE3636	OutOfStock	#DE3636	8252042903791
+44426328047855	Size 2 / #DE3636	OutOfStock	#DE3636	8252042903791
+44288487555311	All Size / White	OutOfStock	White	8211261653231
+45773973913839	All Size / Black	OutOfStock	Black	8742191628527
+45969032315119	Size 1 / #996633	OutOfStock	#996633	8791912448239
+45969032347887	Size 2 / #996633	OutOfStock	#996633	8791912448239
+42990587052271	All Size / Navy	OutOfStock	Navy	7719008534767
+45808869441775	Size Small / Black	OutOfStock	Black	8752246128879
+45808869474543	Size Medium / Black	OutOfStock	Black	8752246128879
+45808875798767	Size Large / Black	OutOfStock	Black	8752246128879
+44253615816943	All Size / #996633	OutOfStock	#996633	8198584860911
+44001072480495	All Size / Navy	OutOfStock	Navy	8081704911087
+43039871500527	All Size / Brown	OutOfStock	Brown	7740223979759
+46124938559727	All Size / Black	OutOfStock	Black	8843359191279
+44076517949679	All Size / Pink	OutOfStock	Pink	8117368979695
+43790431813871	Allsize / Navy	OutOfStock	Navy	8005193531631
+44245012840687	All Size / Grey	OutOfStock	Grey	8196115693807
+45890125463791	Size Small / White	OutOfStock	White	8773322178799
+45890125496559	Size Medium / White	OutOfStock	White	8773322178799
+45890132345071	Size Large / White	OutOfStock	White	8773322178799
+44553789440239	All size / Pink	OutOfStock	Pink	8294602703087
+46662759842031	Size Small / Black	InStock	Black	9024386564335
+46662759874799	Size Medium / Black	InStock	Black	9024386564335
+46662759907567	Size Large / Black	InStock	Black	9024386564335
+43642674938095	Size 1 / Grey	OutOfStock	Grey	7946280599791
+43642674970863	Size 2 / Grey	OutOfStock	Grey	7946280599791
+46662824165615	Size 1 / Black	OutOfStock	Black	9024410321135
+46662824198383	Size 2 / Black	OutOfStock	Black	9024410321135
+46272231276783	All Size / #5A6553	OutOfStock	#5A6553	8897219920111
+42611064635631	All Size / White	OutOfStock	White	7605188755695
+44001177305327	Size 1 / #36A5B2	OutOfStock	#36A5B2	8081767465199
+44001177338095	Size 2 / #36A5B2	OutOfStock	#36A5B2	8081767465199
+46573525041391	All Size / White	InStock	White	9000424341743
+46282984554735	All Size / Light Grey	OutOfStock	Light Grey	8901385748719
+43281680498927	S (Preorder) / #996633	OutOfStock	#996633	7823886057711
+43281788076271	M (Preorder) / #996633	OutOfStock	#996633	7823886057711
+43037239410927	All Size / Brown	OutOfStock	Brown	7739104919791
+43281765400815	All Size / #2B3856	OutOfStock	#2B3856	7823901360367
+44289229193455	All Size / Maroon	OutOfStock	Maroon	8211461472495
+42990585905391	All Size / Black	OutOfStock	Black	7719007650031
+46573640909039	Size Small (Preorder 25 Working Days) / #F7CAC9	InStock	#F7CAC9	9000451834095
+46573644939503	Size Medium (Preorder 25 Working Days) / #F7CAC9	InStock	#F7CAC9	9000451834095
+46573746421999	Size Small (Preorder 25 Working Days) / White	InStock	White	9000475689199
+46573746454767	Size Medium (Preorder 25 Working Days) / White	InStock	White	9000475689199
+46124943245551	Size Small / Black	OutOfStock	Black	8843361583343
+46124943278319	Size Medium / Black	OutOfStock	Black	8843361583343
+46124944392431	Size Large / Black	OutOfStock	Black	8843361583343
+46573605093615	Size Small / White	OutOfStock	White	9000442331375
+46573605126383	Size Medium / White	OutOfStock	White	9000442331375
+46573605159151	Size Large / White	OutOfStock	White	9000442331375
+41239140139186	All Size / Black	OutOfStock	Black	7110613631154
+44044715032815	1 / #02064a	OutOfStock	#02064a	8101854544111
+44044715065583	2 / #02064a	OutOfStock	#02064a	8101854544111
+45890249261295	All Size / #996633	OutOfStock	#996633	8773378048239
+43713125941487	All Size / #c64501	OutOfStock	#c64501	7975349747951
+46061909770479	Size Small / #A5D7B7	OutOfStock	#A5D7B7	8824607637743
+46061909803247	Size Medium / #A5D7B7	OutOfStock	#A5D7B7	8824607637743
+46061909836015	Size Large / #A5D7B7	OutOfStock	#A5D7B7	8824607637743
+44597337227503	Size 1 / #FFD9FF	OutOfStock	#FFD9FF	8307532562671
+44597337260271	Size 2 / #FFD9FF	OutOfStock	#FFD9FF	8307532562671
+45972971225327	All Size / #857663	OutOfStock	#857663	8792612241647
+44304808640751	All Size / Black	OutOfStock	Black	8218769981679
+45972896973039	All Size / Maroon	InStock	Maroon	8792600543471
+43790494564591	All Size / #C19A6B	OutOfStock	#C19A6B	8005217485039
+46121929507055	All Size / #371d10	OutOfStock	#371d10	8842759536879
+45533405806831	Size Small / #77815c	OutOfStock	#77815c	8667285913839
+45533405839599	Size Medium / #77815c	OutOfStock	#77815c	8667285913839
+45533405872367	Size Large / #77815c	OutOfStock	#77815c	8667285913839
+46113723384047	All Size / #DE3636	OutOfStock	#DE3636	8840020263151
+44002294104303	Size 1 / #36A5B2	OutOfStock	#36A5B2	8082175787247
+44002294137071	Size 2 / #36A5B2	OutOfStock	#36A5B2	8082175787247
+46549273247983	All Size / #F3F2EC	OutOfStock	#F3F2EC	8986619150575
+46272080511215	Size 1 / #77815c	OutOfStock	#77815c	8897119682799
+46272080543983	Size 2 / #77815c	OutOfStock	#77815c	8897119682799
+42146376286447	All Size / Maroon	OutOfStock	Maroon	7471339405551
+46170729054447	Size 1 / #5C0000	OutOfStock	#5C0000	8860255420655
+46170729087215	Size 2 / #5C0000	OutOfStock	#5C0000	8860255420655
+45526544122095	Size 1 / #2B3856	OutOfStock	#2B3856	8664891523311
+45526544154863	Size 2 / #2B3856	OutOfStock	#2B3856	8664891523311
+43642718519535	All Size / White	OutOfStock	White	7946302947567
+44246334898415	Size 1 / #366AA4	OutOfStock	#366AA4	8196252336367
+44246355542255	Size 2 / #366AA4	OutOfStock	#366AA4	8196252336367
+44136623341807	Size 1 / Black	OutOfStock	Black	8145302880495
+44136739340527	Size 2 / Black	OutOfStock	Black	8145302880495
+43642702725359	All Size / Red	OutOfStock	Red	7946298261743
+43040032293103	All Size / White	OutOfStock	White	7740271165679
+45972868038895	All Size / #996633	OutOfStock	#996633	8792597070063
+42611038224623	All Size / #996633	OutOfStock	#996633	7605183250671
+41247808815282	All Size / Black	OutOfStock	Black	7113856024754
+45075636617455	All Size / #2B3856	OutOfStock	#2B3856	8498266865903
+43642689126639	Size 1 / Red	OutOfStock	Red	7946289217775
+43642689159407	Size 2 / Red	OutOfStock	Red	7946289217775
+46113700053231	#2B3856 / Protea Set / Size 1	OutOfStock	Size 1	8840007319791
+46317622100207	#2B3856 / Protea Set / Size 2	InStock	Size 2	8840007319791
+46317622132975	#2B3856 / Protea Top (Only) / Size 1	InStock	Size 1	8840007319791
+46317622165743	#2B3856 / Protea Top (Only) / Size 2	InStock	Size 2	8840007319791
+46317622198511	#2B3856 / Protea Skirt (Only) / Size 1	InStock	Size 1	8840007319791
+46317622231279	#2B3856 / Protea Skirt (Only) / Size 2	InStock	Size 2	8840007319791
+44044779978991	All Size / Black	OutOfStock	Black	8101884526831
+45075571474671	Size Small / #2B3856	OutOfStock	#2B3856	8498254676207
+45075571507439	Size Medium / #2B3856	OutOfStock	#2B3856	8498254676207
+45075571540207	Size Large / #2B3856	OutOfStock	#2B3856	8498254676207
+44062104584431	1 / Black	OutOfStock	Black	8110077346031
+44062159438063	2 / Black	OutOfStock	Black	8110077346031
+44137063055599	Size 1 / Beige	OutOfStock	Beige	8145477468399
+44137063121135	Size 2 / Beige	OutOfStock	Beige	8145477468399
+42922240082159	All Size / White	OutOfStock	White	7696637067503
+44352435519727	All Size / Maroon	OutOfStock	Maroon	8233619161327
+42090679697647	All Size / White	OutOfStock	White	7455718047983
+46272145653999	Size 1 / Black	OutOfStock	Black	8897161363695
+46272145686767	Size 2 / Black	OutOfStock	Black	8897161363695
+45890199650543	Size 1 / Black	OutOfStock	Black	8773349146863
+45890205941999	Size 2 / Black	OutOfStock	Black	8773349146863
+44246377070831	Size 1 / #996633	OutOfStock	#996633	8196265967855
+44246377103599	Size 2 / #996633	OutOfStock	#996633	8196265967855
+46662818529519	Size 1 / Ready / #FFF8E5	OutOfStock	#FFF8E5	9024408715503
+46667903795439	Size 1 / Preorder 10 Working Days / #FFF8E5	OutOfStock	#FFF8E5	9024408715503
+46671903457519	Size 1 / Preorder 21 Working Days / #FFF8E5	OutOfStock	#FFF8E5	9024408715503
+46662818562287	Size 2 / Ready / #FFF8E5	OutOfStock	#FFF8E5	9024408715503
+46667903828207	Size 2 / Preorder 10 Working Days / #FFF8E5	OutOfStock	#FFF8E5	9024408715503
+46671903490287	Size 2 / Preorder 21 Working Days / #FFF8E5	OutOfStock	#FFF8E5	9024408715503
+44660033716463	All Size / #FFFFE7	OutOfStock	#FFFFE7	8329462743279
+44660092076271	All Size / Black	OutOfStock	Black	8329468575983
+45329178263791	Size 1 / #A5DAF5	OutOfStock	#A5DAF5	8604404187375
+45329178296559	Size 2 / #A5DAF5	OutOfStock	#A5DAF5	8604404187375
+45329178329327	Size 3 / #A5DAF5	OutOfStock	#A5DAF5	8604404187375
+45329178362095	Size 4 / #A5DAF5	OutOfStock	#A5DAF5	8604404187375
+45413205999855	Size Small / Beige	OutOfStock	Beige	8625230577903
+45413216059631	Size Medium / Beige	OutOfStock	Beige	8625230577903
+44482699231471	Size 1 / #F7CAC9	OutOfStock	#F7CAC9	8269578535151
+44482699264239	Size 2 / #F7CAC9	OutOfStock	#F7CAC9	8269578535151
+44553784230127	All size / Pink	OutOfStock	Pink	8294597918959
+44137242886383	All Size / #371d10	OutOfStock	#371d10	8145570005231
+44002333884655	Small / White	OutOfStock	White	8082189746415
+44002333917423	Medium / White	OutOfStock	White	8082189746415
+44002333950191	Large / White	OutOfStock	White	8082189746415
+46456168349935	All Size / #ECCDBE	InStock	#ECCDBE	8959266095343
+46113697169647	All Size / #2B3856	OutOfStock	#2B3856	8840005157103
+46581909291247	All Size / #F7CAC9	InStock	#F7CAC9	9000418803951
+42496765690095	S-M / #2B3856	OutOfStock	#2B3856	7571084181743
+42496765722863	M-L / #2B3856	OutOfStock	#2B3856	7571084181743
+45890050818287	All Size / Black	OutOfStock	Black	8773299405039
+46124951273711	Size Small / #684522	OutOfStock	#684522	8843364073711
+46124951306479	Size Medium / #684522	OutOfStock	#684522	8843364073711
+46124951339247	Size Large / #684522	OutOfStock	#684522	8843364073711
+43039873859823	All Size / White	OutOfStock	White	7740224897263
+44002331295983	Size Small / Black	OutOfStock	Black	8082188796143
+44002333589743	Size Medium / Black	OutOfStock	Black	8082188796143
+44002333622511	Size Large / Black	OutOfStock	Black	8082188796143
+44002333655279	Size XL / Black	OutOfStock	Black	8082188796143
+42611157532911	All Size / White	OutOfStock	White	7605207531759
+44289511063791	All Size / Red	OutOfStock	Red	8211517767919
+46426708345071	Size 1 / Grey	OutOfStock	Grey	8951255498991
+46426752778479	Size 2 / Grey	OutOfStock	Grey	8951255498991
+44659770917103	All Size / #FFD9FF	OutOfStock	#FFD9FF	8329436856559
+46272038732015	Size Small / #6CA644	OutOfStock	#6CA644	8897112965359
+46272038764783	Size Medium / #6CA644	OutOfStock	#6CA644	8897112965359
+46272065339631	Size Large / #6CA644	OutOfStock	#6CA644	8897112965359
+46573744619759	Size Small (Preorder 25 Working Days) / #D0C2B8	InStock	#D0C2B8	9000474640623
+46573744652527	Size Medium (Preorder 25 Working Days) / #D0C2B8	OutOfStock	#D0C2B8	9000474640623
+44597303410927	All Size / #FFD9FF	OutOfStock	#FFD9FF	8307519521007
+45968766140655	Size 1 / #FFEEBD	OutOfStock	#FFEEBD	8791861231855
+45968782033135	Size 2 / #FFEEBD	OutOfStock	#FFEEBD	8791861231855
+46317215121647	Size Small / Black	OutOfStock	Black	8913498046703
+46317215154415	Size Medium / Black	InStock	Black	8913498046703
+46317232980207	Size Large / Black	OutOfStock	Black	8913498046703
+46573745012975	Size Small (Preorder 25 Working Days) / Beige	InStock	Beige	9000474935535
+46573745045743	Size Medium (Preorder 25 Working Days) / Beige	InStock	Beige	9000474935535
+46059350393071	Size Small / #A5D7B7	OutOfStock	#A5D7B7	8823421108463
+46059350425839	Size Medium / #A5D7B7	OutOfStock	#A5D7B7	8823421108463
+46059350458607	Size Large / #A5D7B7	OutOfStock	#A5D7B7	8823421108463
+45413144690927	Size Small / #A5DAF5	OutOfStock	#A5DAF5	8625224155375
+45413184667887	Size Medium / #A5DAF5	OutOfStock	#A5DAF5	8625224155375
+43642705805551	All Size / Black	OutOfStock	Black	7946299474159
+44246442901743	All Size / White	OutOfStock	White	8196280549615
+46538310353135	All Size / #565656	OutOfStock	#565656	8982852108527
+44304814407919	All Size / #DE3636	OutOfStock	#DE3636	8218772832495
+43790368440559	Size Small / #CCC6AC	OutOfStock	#CCC6AC	8005163122927
+43790368473327	Size Medium / #CCC6AC	OutOfStock	#CCC6AC	8005163122927
+46417287250159	Size Large / #CCC6AC	OutOfStock	#CCC6AC	8005163122927
+42090596565231	All Size / #DE3636	OutOfStock	#DE3636	7455675351279
+46662847856879	Size 1 / #306094 / Ready	OutOfStock	Ready	9024416547055
+46668069667055	Size 1 / #306094 / Preorder 10 Working Days	OutOfStock	Preorder 10 Working Days	9024416547055
+46711398138095	Size 1 / #306094 / Preorder 20 Working Days	InStock	Preorder 20 Working Days	9024416547055
+46662847889647	Size 2 / #306094 / Ready	OutOfStock	Ready	9024416547055
+46668069699823	Size 2 / #306094 / Preorder 10 Working Days	OutOfStock	Preorder 10 Working Days	9024416547055
+46711398170863	Size 2 / #306094 / Preorder 20 Working Days	InStock	Preorder 20 Working Days	9024416547055
+45077894398191	Size 1 / White	OutOfStock	White	8498646155503
+45077915304175	Size 2 / White	OutOfStock	White	8498646155503
+42146335555823	All Size / Light Grey	OutOfStock	Light Grey	7471329968367
+44289151041775	All size / #CCC6AC	OutOfStock	#CCC6AC	8211438960879
+46170771816687	Size Small (Preorder 14 Working Days) / #FFF8E5	OutOfStock	#FFF8E5	8860280324335
+46170771849455	Size Medium / #FFF8E5	OutOfStock	#FFF8E5	8860280324335
+46256060924143	Size Large / #FFF8E5	OutOfStock	#FFF8E5	8860280324335
+43896802410735	All Size / #FF0080	OutOfStock	#FF0080	8037959925999
+44137158836463	All Size / White	OutOfStock	White	8145529307375
+46063414804719	All Size (SHIPMENT JANUARY) / #c9b9ad	OutOfStock	#c9b9ad	8825020252399
+46170718765295	Size 1 / #D4E7C7	OutOfStock	#D4E7C7	8860247261423
+46170721091823	Size 2 / #D4E7C7	OutOfStock	#D4E7C7	8860247261423
+46170704117999	All Size / #A4A000	OutOfStock	#A4A000	8860235137263
+44289515782383	All Size / #4b5320	OutOfStock	#4b5320	8211518947567
+44246570959087	All Size / #000026	OutOfStock	#000026	8196307550447
+45968835739887	Size 1 / #FFEEBD	OutOfStock	#FFEEBD	8791875551471
+45968844587247	Size 2 / #FFEEBD	OutOfStock	#FFEEBD	8791875551471
+43952922067183	All size / Black	OutOfStock	Black	8060434252015
+44553786065135	All size / Black	OutOfStock	Black	8294599164143
+44597356265711	Size S / #2B3856	OutOfStock	#2B3856	8307538493679
+44597356298479	Size M / #2B3856	OutOfStock	#2B3856	8307538493679
+44597356331247	Size L / #2B3856	OutOfStock	#2B3856	8307538493679
+46549471887599	Size Small / #5A6553	OutOfStock	#5A6553	8986668531951
+46549471920367	Size Medium / #5A6553	OutOfStock	#5A6553	8986668531951
+46549471953135	Size Large / #5A6553	OutOfStock	#5A6553	8986668531951
+45773911195887	Size 1 / #C8ECF4	OutOfStock	#C8ECF4	8742178029807
+45773911228655	Size 2 / #C8ECF4	OutOfStock	#C8ECF4	8742178029807
+45329205362927	Case Only / #F7CAC9	OutOfStock	#F7CAC9	8604408971503
+45330210619631	Plus Insert / #F7CAC9	OutOfStock	#F7CAC9	8604408971503
+43877962285295	All size / #02064a	OutOfStock	#02064a	8030794580207
+43952853876975	All size / White	OutOfStock	White	8060419571951
+46170742358255	Size 1 / Maroon	OutOfStock	Maroon	8860267315439
+46170763133167	Size 2 / Maroon	OutOfStock	Maroon	8860267315439
+46170621968623	Size 1 / #D4E7C7	OutOfStock	#D4E7C7	8860169437423
+46170631274735	Size 2 / #D4E7C7	OutOfStock	#D4E7C7	8860169437423
+46063416639727	Size 1 / White	OutOfStock	White	8825023037679
+46063424798959	Size 2 / White	OutOfStock	White	8825023037679
+46662934593775	Size Small / Ready / #000042	InStock	#000042	9024434798831
+46668188647663	Size Small / Preorder 10 Working Days / #000042	InStock	#000042	9024434798831
+46662934626543	Size Medium / Ready / #000042	InStock	#000042	9024434798831
+46668188680431	Size Medium / Preorder 10 Working Days / #000042	InStock	#000042	9024434798831
+46662934659311	Size Large / Ready / #000042	InStock	#000042	9024434798831
+46668188713199	Size Large / Preorder 10 Working Days / #000042	InStock	#000042	9024434798831
+42722217820399	All Size / Light Blue	OutOfStock	Light Blue	7637780922607
+46414069793007	All Size / #371d10	InStock	#371d10	8947915292911
+43642697973999	All Size / Red	OutOfStock	Red	7946294001903
+43793546281199	All Size / Grey	OutOfStock	Grey	8006504284399
+43178766074095	All Size / Grey	OutOfStock	Grey	7790791557359
+42496776044783	S-M / #B0DBF6	OutOfStock	#B0DBF6	7571085983983
+42496776077551	M-L / #B0DBF6	OutOfStock	#B0DBF6	7571085983983
+45329231741167	Case Only / #A5DAF5	OutOfStock	#A5DAF5	8604417097967
+45330218352879	Plus Insert / #A5DAF5	OutOfStock	#A5DAF5	8604417097967
+46059333419247	All Size / #C8ECF4	OutOfStock	#C8ECF4	8823411376367
+43953587912943	All Size / Brown	OutOfStock	Brown	8060731719919
+44289283948783	All Size / #000042	OutOfStock	#000042	8211473334511
+44044716245231	All Size / Black	OutOfStock	Black	8101855527151
+44002328019183	All Size / White	OutOfStock	White	8082186469615
+46573745209583	Size Small (Preorder 25 Working Days) / Black	InStock	Black	9000475033839
+46573745242351	Size Medium (Preorder 25 Working Days) / Black	OutOfStock	Black	9000475033839
+46662895763695	All Size / Ready / #F3F2EC	OutOfStock	#F3F2EC	9024429129967
+46668098437359	All Size / Preorder 14 Working Days / #F3F2EC	OutOfStock	#F3F2EC	9024429129967
+46671901229295	All Size / Preorder 21 Working Days / #F3F2EC	InStock	#F3F2EC	9024429129967
+43790342914287	1 / #F3F2EC	OutOfStock	#F3F2EC	8005157945583
+43790342947055	2 / #F3F2EC	OutOfStock	#F3F2EC	8005157945583
+44660073464047	All Size / White	OutOfStock	White	8329466183919
+43790757495023	Size 1 / Black	OutOfStock	Black	8005292622063
+43795346784495	Size 2 / Black	OutOfStock	Black	8005292622063
+46124932464879	Size 1 / #996633	OutOfStock	#996633	8843357225199
+46124933939439	Size 2 / #996633	OutOfStock	#996633	8843357225199
+43642698268911	All Size / Red	OutOfStock	Red	7946294395119
+43713133183215	All Size / #c64501	OutOfStock	#c64501	7975350730991
+43893844345071	All Size / Black	OutOfStock	Black	8036433953007
+46549442003183	Size Small / #FFEEBD	InStock	#FFEEBD	8986659750127
+46549442035951	Size Medium / #FFEEBD	InStock	#FFEEBD	8986659750127
+46549442461935	Size Large / #FFEEBD	OutOfStock	#FFEEBD	8986659750127
+44289264222447	All Size / Maroon	OutOfStock	Maroon	8211467174127
+45972851359983	All Size / Beige	OutOfStock	Beige	8792594546927
+45329241309423	All Size / #F7CAC9	OutOfStock	#F7CAC9	8604419555567
+45533412851951	Size Small / Black	OutOfStock	Black	8667288600815
+45533412917487	Size Medium / Black	OutOfStock	Black	8667288600815
+45533412950255	Size Large / Black	OutOfStock	Black	8667288600815
+46272101613807	Size 1 / #77815c	OutOfStock	#77815c	8897139572975
+46272101646575	Size 2 / #77815c	OutOfStock	#77815c	8897139572975
+44289127874799	Size 1 / #3A3A3A	OutOfStock	#3A3A3A	8211432308975
+44289127907567	Size 2 / #3A3A3A	OutOfStock	#3A3A3A	8211432308975
+44289189740783	Small / #C0C0C0	OutOfStock	#C0C0C0	8211451150575
+44289189773551	Medium / #C0C0C0	OutOfStock	#C0C0C0	8211451150575
+44289189806319	Large / #C0C0C0	OutOfStock	#C0C0C0	8211451150575
+44246550151407	All Size / #000026	OutOfStock	#000026	8196303847663
+46124956713199	Size 1 / #371d10	OutOfStock	#371d10	8843365155055
+46124962578671	Size 2 / #371d10	OutOfStock	#371d10	8843365155055
+42611057918191	CREAM / ALL SIZE	OutOfStock	ALL SIZE	7605187739887
+44069826167023	All Size / White	OutOfStock	White	8114153816303
+44426328408303	S / #DE3636	OutOfStock	#DE3636	8252043657455
+44426328441071	M / #DE3636	OutOfStock	#DE3636	8252043657455
+44426330210543	L / #DE3636	OutOfStock	#DE3636	8252043657455
+44288994083055	All Size / Black	OutOfStock	Black	8211400392943
+44590692761839	All Size / White	OutOfStock	White	8304619421935
+45527148396783	Size 1 / #595959	OutOfStock	#595959	8665129943279
+45527148429551	Size 2 / #595959	OutOfStock	#595959	8665129943279
+46170690617583	All Size / #D4E7C7	OutOfStock	#D4E7C7	8860229992687
+42090647355631	All Size / #DE3636	OutOfStock	#DE3636	7455707791599
+44245204238575	All Size / Black	OutOfStock	Black	8196136599791
+46063393341679	All Size / #371d10	OutOfStock	#371d10	8825005506799
+44058543587567	1 / #FACAEF	OutOfStock	#FACAEF	8107680661743
+44062697128175	2 / #FACAEF	OutOfStock	#FACAEF	8107680661743
+44062104617199	All Size / White	OutOfStock	White	8110077411567
+44246245081327	Size 1 / #996633	OutOfStock	#996633	8196237132015
+44246308323567	Size 2 / #996633	OutOfStock	#996633	8196237132015
+46272149094639	Size 1 / #371d10	OutOfStock	#371d10	8897163395311
+46272149127407	Size 2 / #371d10	OutOfStock	#371d10	8897163395311
+43790768865519	All Size / Black	OutOfStock	Black	8005296390383
+45890083946735	Size 1 / Black	OutOfStock	Black	8773307990255
+45890094465263	Size 2 / Black	OutOfStock	Black	8773307990255
+45075456721135	Size Small / #2B3856	OutOfStock	#2B3856	8498232885487
+45075507216623	Size Medium / #2B3856	OutOfStock	#2B3856	8498232885487
+45075507249391	Size Large / #2B3856	OutOfStock	#2B3856	8498232885487
+44596299694319	Size 1 / #FFD9FF	OutOfStock	#FFD9FF	8306798756079
+44596353007855	Size 2 / #FFD9FF	OutOfStock	#FFD9FF	8306798756079
+44289383530735	Size S / #000042	OutOfStock	#000042	8211495256303
+44289383563503	Size M / #000042	OutOfStock	#000042	8211495256303
+44289383596271	Size L / #000042	OutOfStock	#000042	8211495256303
+46170742128879	All Size / Black	OutOfStock	Black	8860267086063
+46317306020079	All Size / #FFF7E1	OutOfStock	#FFF7E1	8913521967343
+44244723925231	Size S / Light Grey	OutOfStock	Light Grey	8196084859119
+44244723957999	Size M / Light Grey	OutOfStock	Light Grey	8196084859119
+44244723990767	Size L / Light Grey	OutOfStock	Light Grey	8196084859119
+45774092894447	Size Small / Black	OutOfStock	Black	8742218367215
+45774104101103	Size Medium / Black	OutOfStock	Black	8742218367215
+45774104133871	Size Large / Black	OutOfStock	Black	8742218367215
+46317588873455	Size Small / #ab936b	OutOfStock	#ab936b	8913633804527
+46317588906223	Size Medium / #ab936b	OutOfStock	#ab936b	8913633804527
+46317588938991	Size Large / #ab936b	OutOfStock	#ab936b	8913633804527
+44062132306159	All Size / #2B3856	OutOfStock	#2B3856	8110093336815
+42155146150127	SM / #02064a	OutOfStock	#02064a	7471316467951
+42155146182895	ML / #02064a	OutOfStock	#02064a	7471316467951
+43790344061167	1 / #CCC6AC	OutOfStock	#CCC6AC	8005158142191
+43790344093935	2 / #CCC6AC	OutOfStock	#CCC6AC	8005158142191
+43514855719151	All Size / White	OutOfStock	White	7894080979183
+46662934921455	Size Small / White	InStock	White	9024434962671
+46662934954223	Size Medium / White	InStock	White	9024434962671
+46662935838959	Size Large / White	InStock	White	9024434962671
+44002289254639	Size 1 / #36A5B2	OutOfStock	#36A5B2	8082171461871
+44002289287407	Size 2 / #36A5B2	OutOfStock	#36A5B2	8082171461871
+46573544702191	All Size / #FFEEBD	OutOfStock	#FFEEBD	9000428863727
+45526774382831	All Size / #2B3856	OutOfStock	#2B3856	8664988549359
+43790371913967	Size Small / Black	OutOfStock	Black	8005163450607
+43790371946735	Size Medium / Black	OutOfStock	Black	8005163450607
+46417286267119	Size Large / Black	OutOfStock	Black	8005163450607
+45077838561519	Size Small / #2B3856	OutOfStock	#2B3856	8498633998575
+45077838594287	Size Medium / #2B3856	OutOfStock	#2B3856	8498633998575
+45077838627055	Size Large / #2B3856	OutOfStock	#2B3856	8498633998575
+43713153728751	All Size / Black	OutOfStock	Black	7975353712879
+44136350941423	Size 1 / Black	OutOfStock	Black	8145136746735
+44136359919855	Size 2 / Black	OutOfStock	Black	8145136746735
+43515015135471	All size / #2B3856	OutOfStock	#2B3856	7894126461167
+42090536993007	All Size / black	OutOfStock	black	7455651135727
+45526417572079	All Size / #FFFFF3	OutOfStock	#FFFFF3	8664840143087
+46124934889711	All Size / #371d10	OutOfStock	#371d10	8843358404847
+46456355979503	All Size / #660033	OutOfStock	#660033	8959305777391
+44244875018479	Size S / Light Grey	OutOfStock	Light Grey	8196095443183
+44244875051247	Size M / Light Grey	OutOfStock	Light Grey	8196095443183
+44244875084015	Size L / Light Grey	OutOfStock	Light Grey	8196095443183
+45526739517679	Size 1 / #2B3856	OutOfStock	#2B3856	8664974557423
+45526758588655	Size 2 / #2B3856	OutOfStock	#2B3856	8664974557423
+45808841490671	Size Small / #7caac6	OutOfStock	#7caac6	8752242000111
+45808841523439	Size Medium / #7caac6	OutOfStock	#7caac6	8752242000111
+45808841556207	Size Large / #7caac6	OutOfStock	#7caac6	8752242000111
+45972777599215	Size Small / #2B3856	OutOfStock	#2B3856	8792577900783
+45972777631983	Size Medium / #2B3856	OutOfStock	#2B3856	8792577900783
+45972789756143	Size Large / #2B3856	OutOfStock	#2B3856	8792577900783
+46121922101487	All Size / Maroon	InStock	Maroon	8842757177583
+44304749658351	All Size / Grey	OutOfStock	Grey	8218752418031
+43713135378671	All Size / Red	OutOfStock	Red	7975351189743
+44304774529263	Size 1 / Black	OutOfStock	Black	8218759266543
+44304778559727	Size 2 / Black	OutOfStock	Black	8218759266543
+46662851068143	Size 1 / #306094 / Ready	OutOfStock	Ready	9024418152687
+46668073631983	Size 1 / #306094 / Preorder 10 Working Days	OutOfStock	Preorder 10 Working Days	9024418152687
+46711441719535	Size 1 / #306094 / Preorder 20 Working Days	InStock	Preorder 20 Working Days	9024418152687
+46662851100911	Size 2 / #306094 / Ready	OutOfStock	Ready	9024418152687
+46668073664751	Size 2 / #306094 / Preorder 10 Working Days	OutOfStock	Preorder 10 Working Days	9024418152687
+46711441752303	Size 2 / #306094 / Preorder 20 Working Days	InStock	Preorder 20 Working Days	9024418152687
+44426312253679	Size 1 / #DE3636	OutOfStock	#DE3636	8252031893743
+44426315596015	Size 2 / #DE3636	OutOfStock	#DE3636	8252031893743
+44553798451439	All size / White	OutOfStock	White	8294607487215
+44069826396399	Small / #7caac6	OutOfStock	#7caac6	8114154406127
+44069826429167	Medium / #7caac6	OutOfStock	#7caac6	8114154406127
+44069826461935	Large / #7caac6	OutOfStock	#7caac6	8114154406127
+\.
+
+
+--
+-- Name: account_address_address_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.account_address_address_id_seq', 1, false);
+
+
+--
+-- Name: measurements_measurement_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.measurements_measurement_id_seq', 949, true);
+
+
+--
+-- Name: Order Order_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public."Order"
+    ADD CONSTRAINT "Order_pkey" PRIMARY KEY (order_id);
+
+
+--
+-- Name: account_address account_address_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.account_address
+    ADD CONSTRAINT account_address_pkey PRIMARY KEY (address_id);
+
+
+--
+-- Name: account_phone account_phone_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.account_phone
+    ADD CONSTRAINT account_phone_pkey PRIMARY KEY (account_email, phone_number);
+
+
+--
+-- Name: account account_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.account
+    ADD CONSTRAINT account_pkey PRIMARY KEY (account_email);
+
+
+--
+-- Name: cart cart_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.cart
+    ADD CONSTRAINT cart_pkey PRIMARY KEY (cart_id);
+
+
+--
+-- Name: categories categories_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.categories
+    ADD CONSTRAINT categories_pkey PRIMARY KEY (category_id);
+
+
+--
+-- Name: contains contains_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.contains
+    ADD CONSTRAINT contains_pkey PRIMARY KEY (cart_id, product_id);
+
+
+--
+-- Name: discount_products discount_products_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.discount_products
+    ADD CONSTRAINT discount_products_pkey PRIMARY KEY (product_id);
+
+
+--
+-- Name: measurements measurements_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.measurements
+    ADD CONSTRAINT measurements_pkey PRIMARY KEY (measurement_id);
+
+
+--
+-- Name: normal_products normal_products_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.normal_products
+    ADD CONSTRAINT normal_products_pkey PRIMARY KEY (product_id);
+
+
+--
+-- Name: payment payment_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.payment
+    ADD CONSTRAINT payment_pkey PRIMARY KEY (payment_id);
+
+
+--
+-- Name: products products_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.products
+    ADD CONSTRAINT products_pkey PRIMARY KEY (product_id);
+
+
+--
+-- Name: variants variants_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.variants
+    ADD CONSTRAINT variants_pkey PRIMARY KEY (variant_id);
+
+
+--
+-- Name: Order Order_account_email_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public."Order"
+    ADD CONSTRAINT "Order_account_email_fkey" FOREIGN KEY (account_email) REFERENCES public.account(account_email);
+
+
+--
+-- Name: Order Order_cart_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public."Order"
+    ADD CONSTRAINT "Order_cart_id_fkey" FOREIGN KEY (cart_id) REFERENCES public.cart(cart_id);
+
+
+--
+-- Name: account_address account_address_account_email_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.account_address
+    ADD CONSTRAINT account_address_account_email_fkey FOREIGN KEY (account_email) REFERENCES public.account(account_email);
+
+
+--
+-- Name: account account_cart_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.account
+    ADD CONSTRAINT account_cart_id_fkey FOREIGN KEY (cart_id) REFERENCES public.cart(cart_id);
+
+
+--
+-- Name: account_phone account_phone_account_email_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.account_phone
+    ADD CONSTRAINT account_phone_account_email_fkey FOREIGN KEY (account_email) REFERENCES public.account(account_email);
+
+
+--
+-- Name: cart cart_product_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.cart
+    ADD CONSTRAINT cart_product_id_fkey FOREIGN KEY (product_id) REFERENCES public.products(product_id);
+
+
+--
+-- Name: contains contains_cart_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.contains
+    ADD CONSTRAINT contains_cart_id_fkey FOREIGN KEY (cart_id) REFERENCES public.cart(cart_id);
+
+
+--
+-- Name: contains contains_product_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.contains
+    ADD CONSTRAINT contains_product_id_fkey FOREIGN KEY (product_id) REFERENCES public.products(product_id);
+
+
+--
+-- Name: discount_products discount_products_product_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.discount_products
+    ADD CONSTRAINT discount_products_product_id_fkey FOREIGN KEY (product_id) REFERENCES public.products(product_id);
+
+
+--
+-- Name: measurements measurements_product_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.measurements
+    ADD CONSTRAINT measurements_product_id_fkey FOREIGN KEY (product_id) REFERENCES public.products(product_id);
+
+
+--
+-- Name: normal_products normal_products_product_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.normal_products
+    ADD CONSTRAINT normal_products_product_id_fkey FOREIGN KEY (product_id) REFERENCES public.products(product_id);
+
+
+--
+-- Name: payment payment_order_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.payment
+    ADD CONSTRAINT payment_order_id_fkey FOREIGN KEY (order_id) REFERENCES public."Order"(order_id);
+
+
+--
+-- Name: products products_category_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.products
+    ADD CONSTRAINT products_category_id_fkey FOREIGN KEY (category_id) REFERENCES public.categories(category_id);
+
+
+--
+-- Name: variants variants_product_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.variants
+    ADD CONSTRAINT variants_product_id_fkey FOREIGN KEY (product_id) REFERENCES public.products(product_id);
+
+
+--
+-- PostgreSQL database dump complete
+--
+
