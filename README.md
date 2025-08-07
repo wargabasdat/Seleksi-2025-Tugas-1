@@ -230,3 +230,4 @@ Berisi informasi mengenai komentar pada suatu episode.
 - [Dokumentasi MariaDB](https://mariadb.com/docs)
 - [Dokumentasi Library Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Dokumentasi Requests](https://requests.readthedocs.io/en/latest/)
+- [Bridge Table pada Data Warehouse](https://www.linkedin.com/advice/1/what-purpose-bridge-table-data-warehousing-skills-data-warehousing)
