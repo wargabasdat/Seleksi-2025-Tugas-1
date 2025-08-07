@@ -96,11 +96,11 @@ Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *
 ### Data Storing
 1. Buat database pada __PostgreSQL__, contoh:
 ```sh
-    host="localhost",
-    user="postgres",
-    password="@EgojihJiau02",
-    dbname="borma_dago",
-    port=5432
+      dbname='mindfulness_db',
+      user='kevinazrazzz',
+      password='Azra1203@',
+      host='localhost',
+      port='5432'
 ```
 
 2. Intall library di cmd
@@ -115,7 +115,7 @@ Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *
 
 4. Jalankan program 
 ```sh
-    $ insert_mindfulness.py
+    $ insert_data.py
 ```
 
 5. Export database tersebut dalam formal SQL
@@ -195,81 +195,53 @@ Cara translasi ini adalah dengan membawa PK dari sisi "one" (satu) ke sisi "one"
 ### Data Scrapping & Pre-processing
 `Ekstraksi Data`
 
-Program akan dijalankan dengan menggunakan parameter link website, jumlah *click* yang menentukan banyaknya halaman website yang ingin diambil datanya, dan nama file output yang diinginkan.
+Mengirimkan permintaan GET ke URL target untuk mendapatkan konten HTML. Untuk mematuhi etika data scraping, saya menyertakan header User-Agent yang mengidentifikasi skrip saya kepada server.
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_running.png" width="600"/>
+  <img width="1357" height="419" alt="image" src="https://github.com/user-attachments/assets/5144088f-d275-4e06-b146-3a3968e4d4eb" />
 </div>
 
-Data id dan nama produk bisa didapatkan pada halaman pertama website. untuk mendapatkan informasi tambahan seperti perusahaan dan kategori produk maka kita harus melakukan *click* pada *card* produk yang ingin di lihat (__2 kali *click*__).
+Setelah mendapatkan konten HTML, saya menggunakan library Beautiful Soup untuk menguraikannya. Langkah pertama adalah menemukan elemen HTML yang menjadi kontainer utama dari seluruh daftar channel (yaitu, <div id="fsb">) dan kemudian mencari blok-blok informasi setiap channel di dalamnya
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_scraping_produk.png" width="600"/>
+  <img width="1263" height="776" alt="image" src="https://github.com/user-attachments/assets/4bae67c4-1640-4159-8042-74ea5c4f7c15" />
 </div>
 
-Selanjutnya, untuk mengakses lebih banyak produk, kita harus menggunakan *button* '__berikutnya__'.
+Di dalam setiap kontainer channel, saya menargetkan elemen-elemen spesifik untuk mengekstrak data yang dibutuhkan. Contohnya, nama YouTuber diambil dari tag <span> dengan atribut data-fid
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_process_produk.png" width="600"/>
+  <img width="1241" height="802" alt="image" src="https://github.com/user-attachments/assets/0f93aaf3-0116-4386-afee-d5ccbcb61740" />
 </div>
 
-untuk data promo, setelah kita *click* promo tersebut, maka harus melakukan langkah yang sama dengan *scrapping* data produk __(3 kali *click*)__.
+Semua data yang diekstrak untuk setiap channel dikumpulkan dan disimpan dalam sebuah dictionary kemudian ditambahkan ke dalam sebuah list besar.
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_scraping_potongan_info.png" width="600"/>
+  <img width="1004" height="645" alt="image" src="https://github.com/user-attachments/assets/774849f6-4681-4a2b-b9d9-92cabd905537" />
 </div>
 
 `Preprocessing Data`
 
-Selanjutnya, data yang didapatkan harus dibersihkan agar bisa meng-ekstrak informasi yang dibutuhkan, seperti harga dalam bentuk integer, nama produk, perusahaan, dan kategori produk
+Selanjutnya, metode .strip() digunakan untuk menghapus spasi ekstra di awal atau akhir teks.
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_data_preprocessing.png" width="600"/>
+  <img width="1157" height="402" alt="image" src="https://github.com/user-attachments/assets/34a984bf-94e8-4d9a-b920-498ecb79697b" />
 </div>
 
-`Schema Tuning - Vertical Splitting`
-
-Di *website* Borma terdapat produk yang memiliki diskon dan yang tidak memiliki diskon. Pengguna diasumsikan lebih sering mengakses diskon dengan produk sehingga tidak perlu menyimpan data yang jarang diakses dan untuk meminimalisir *null value* pada atribut __harga_disc__ di tabel __produk__.
-
-Selain itu, di *website* Borma juga terdapat 2 jenis diskon, yaitu normal diskon yang bisa digunakan pada seluruh pembelian dan potongan diskon yang hanya bisa digunakan untuk produk tertentu. Karena normal diskon memiliki lebih banyak atribut daripada potonagn diskon, maka dengan alasan yang sama dengan sebelumnya kedua jenis diskon ini dipisah pada 2 tabel yang berbeda yaitu __potongan_prom__ dan __normal_prom__.
+Data seperti "707K" atau "3.4K" dikonversi menjadi nilai integer menjadi 707000 dan 3400) menggunakan fungsi kustom dengan bantuan library re.
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_scraping_promo_normal.png" width="600"/>
+  <img width="1349" height="413" alt="image" src="https://github.com/user-attachments/assets/b09958e3-08b9-4df2-b599-7f9d8dbd0be9" />
 </div>
 
-`Cleaning Redundancy Tuple`
-
-Ada beberapa produk yang berulang pada data yang saya *scrapping* oleh karena itu saya membersihkannya dengan 2 cara,
-1. membersihkan *redudancy* di tabel yang sama
-<div align="center">
-  <img src="Data Scraping/screenshot/ss_data_cleaning_1.png" width="600"/>
-</div>
-
-2. Memastikan foreign key constraint antara __diskon_prod__ dengan __prod__
-<div align="center">
-  <img src="Data Scraping/screenshot/ss_data_cleaning_2.png" width="600"/>
-</div>
 
 ### Data Storing
 
-Pada database borma_dago, saya melakukan *create table* dengan menggunakan psycopg2 sebagai berikut
+Pada database mindfulness_db, saya melakukan *create table* dengan menggunakan psycopg2 sebagai berikut
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_create_table.png" width="600"/>
+  <img width="828" height="740" alt="image" src="https://github.com/user-attachments/assets/e21d449b-b1ca-4686-8fdb-06b97d8f3692" />
 </div>
 
-informasi produk diskon didapatkan melalui halaman promo. Ketika proses *scrapping*, informasi produk tersebut justru terdapat di file __potongan_promo.json__ padahal seharusnya ada di __produk.json__. Cara saya menyiasatinya adalah ketika melalukan *eksport* ke __SQL__ saya memasukkan beberapa atribut pada dari __potongan_promo.json__ ke __produk.json__
+Saya juga membuat indeks dan trigger agar data yang masuk lebih akurat dan sesuai dengan yang diinginkan
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_storing.png" width="600"/>
+  <img width="1126" height="819" alt="image" src="https://github.com/user-attachments/assets/214c0089-240e-49ee-b54f-8dfea5bc794d" />
 </div>
 
-## Data Visualization (BONUS)
+## Data Warehouse (BONUS)
 
-Setelah berhasil mengumpulkan data melalui web scraping, langkah selanjutnya adalah menyajikan informasi tersebut dalam bentuk yang mudah dipahami melalui visualisasi data. Visualisasi data memungkinkan kita untuk mengidentifikasi pola, membandingkan berbagai kategori, dan menyederhanakan data kompleks sehingga lebih mudah dipahami. 
-
-Berikut adalah hasil visualisasi yang didapatkan untuk memenuhi tujuan awal *scraping* website ini yaitu untuk membandingkan hubungan antara promo yang ditawarkan dengan jumlah penjualan produk.
-<div align="center">
-  <img src="Data Visualization/Visualization/1.png" width="800"/>
-</div>
-
-Data yang ada juga memberikan kesimpulan perusahaan mana saja yang paling banyak memberikan diskon, produk paling variatif, dan penjualan produk yang paling tinggi.
-
-<div align="center">
-  <img src="Data Visualization/Visualization/2.png" width="800"/>
-</div>
 
 
 ## Reference
