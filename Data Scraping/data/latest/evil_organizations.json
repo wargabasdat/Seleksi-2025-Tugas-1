@@ -1,0 +1,58 @@
+{
+  "timestamp": "07/08/2025, 17.51.35",
+  "data": [
+    {
+      "name": "Q (Jujutsu Kaisen)",
+      "url": "https://villains.fandom.com/wiki/Q_(Jujutsu_Kaisen)",
+      "fullname": "Q",
+      "origin": "Jujutsu Kaisen",
+      "foundation": "Sometime in 2006",
+      "agents": "BayerKokun",
+      "goals": "Prevent Tengen from ressetting their cursed techniques .",
+      "crimes": [
+        "Attempted murder",
+        "Attempted world domination"
+      ],
+      "type_of_villains": "??"
+    },
+    {
+      "name": "V (Tokyo Ghoul)",
+      "url": "https://villains.fandom.com/wiki/V_(Tokyo_Ghoul)",
+      "fullname": "Vasuki",
+      "alias": "V",
+      "origin": "Tokyo Ghoul",
+      "headquarters": "Japan",
+      "commanders": [
+        "Kaiko",
+        "Unknown V Leaders"
+      ],
+      "agents": [
+        "Nimura Furuta",
+        "Kishou Arima",
+        "Kuzen",
+        "Rize Kamishiro",
+        "Various V members"
+      ],
+      "skills": [
+        "Kagunes",
+        "Various superhuman abilities",
+        "Infiltration",
+        "Connections to the CCG"
+      ],
+      "goals": [
+        "Destroy the Aogiri Tree and Eto to reduce competition .",
+        "Maintain their \"perfect balance\" of the world.",
+        "Eliminate Ken Kaneki ."
+      ],
+      "crimes": [
+        "Genocide",
+        "Mass murder",
+        "Terrorism",
+        "Espionage",
+        "Conspiracy",
+        "Hate crimes"
+      ],
+      "type_of_villains": "Terrorist Organization"
+    }
+  ]
+}
