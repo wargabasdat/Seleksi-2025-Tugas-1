@@ -1,0 +1,17 @@
+[
+  {
+    "class_name": "discoverer",
+    "age": "TK - SD 2",
+    "program_id": 4
+  },
+  {
+    "class_name": "explorer",
+    "age": "SD 3 - SD 5",
+    "program_id": 4
+  },
+  {
+    "class_name": "investigator",
+    "age": "SD 5 - SMP",
+    "program_id": 4
+  }
+]

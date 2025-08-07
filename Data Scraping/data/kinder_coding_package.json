@@ -1,0 +1,16 @@
+[
+  {
+    "package_name": "Monthly Regular",
+    "membership_length": "monthly",
+    "total_session": "4",
+    "discount": true,
+    "program_id": 3
+  },
+  {
+    "package_name": "Green Package",
+    "membership_length": "max 3 months",
+    "total_session": "10",
+    "discount": true,
+    "program_id": 3
+  }
+]

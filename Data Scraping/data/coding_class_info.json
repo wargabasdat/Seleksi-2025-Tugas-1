@@ -1,0 +1,47 @@
+[
+  {
+    "course_name": "Introduction to Coding",
+    "course_materials": "Ditujukan untuk mereka yang belum memiliki pengalaman programming sebelumnya.Memperkenalkan konsep dasar programming Menggunakan visual programming languages dan online platforms. Mengerjakan simple software-hardware projects dengan robot Sphero, BB8, Dash.",
+    "course_audience": "SD",
+    "course_duration": "90 mins – 1x seminggu",
+    "course_enrollment": 150000,
+    "course_tuition": 350000,
+    "program_id": 1
+  },
+  {
+    "course_name": "Coding for SD (Beginner)",
+    "course_materials": "Perkenalan konsep coding, Computational Thinking, dan computer science: menggunakan online platforms popular: Tynker, Kodu, CodeMonkey, Blockly, Scratch, Kodable memecahkan online puzzle dengan programming membuat animasi dan video game membuat custom Minecraft modding latihan computational thinking untuk kompetisi BebrasProgramming dengan robots: memprogram Sphero, BB-8, Dash robots mengontrol robot with block programming berkerja sama dalam group memecahkan masalah dengan programming",
+    "course_audience": "SD Grade 1-3",
+    "course_duration": "1-2x seminggu",
+    "course_enrollment": 150000,
+    "course_tuition": 350000,
+    "program_id": 1
+  },
+  {
+    "course_name": "Coding for SD (Advance)",
+    "course_materials": "Memperdalam konsep coding, Computational Thinking, dan computer science: menggunakan online platforms popular: Tynker, Scratch, CodeMonkey, MIT App Inventor, Grok Learning membuat animasi, video game, web pages, mobile apps membuat custom Minecraft mod latihan computational thinking untuk kompetisi Bebras perkenalan ke dasar text-based coding languages (HTML, Python, Java, C++, C, Javascript) dan konsep Artificial Intelligent – Maching Learning.Programming dengan hardware: memprogram Sphero, BB-8, Dash, Cozmo robots dan circuit hardware Microbit, Makey-Makey mengontrol robot with block programming berkerja sama dalam group memecahkan masalah dengan programming",
+    "course_audience": "SD Grade 4-6",
+    "course_duration": "1-2x seminggu",
+    "course_enrollment": 150000,
+    "course_tuition": 350000,
+    "program_id": 1
+  },
+  {
+    "course_name": "Coding for SMP",
+    "course_materials": "Memperdalam konsep coding, Computational Thinking, dan computer science untuk level SMP: perkenalan dasar coding dengan menggunakan block programming dan dilanjutkan ke text-based coding languages (HTML, Python, Java, C++, C, Javascript) membuat animasi, websites, mobile apps, games dengan menggunakan programming latihan computational thinking untuk kompetisi Bebras perkenalan konsep Artificial Intelligent – Maching LearningProgramming dengan hardware: memprogram robot MakeBot, UB Kit, Dash implementasi coding ke circuit hardware Microbit, Makey-Makey, Arduino",
+    "course_audience": "SMP",
+    "course_duration": "1-2x seminggu",
+    "course_enrollment": 150000,
+    "course_tuition": 475000,
+    "program_id": 1
+  },
+  {
+    "course_name": "Coding for SMA",
+    "course_materials": "Perkenalan ke programming dan dilanjutkan dengan eksplorasi coding di area berikut: Game Development Web Development App Development Computer Science, Algorithm, and Math in Coding Data, Database and AI Intro for SMUSetelah menyelesaikan kelas perkenalan tersebut, murid dapat memilih spesialisasi di bidang yang lebih spesifik: Android App Development Data Science AI & Machine Learning Android App Development iOS App Development Python Programming Algebra, Algorithm & Programming",
+    "course_audience": "SMA",
+    "course_duration": "90 Min1-2x Seminggu",
+    "course_enrollment": 150000,
+    "course_tuition": 500000,
+    "program_id": 1
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "book_id": 1,
+    "price_zone_1": "44000",
+    "price_zone_2": "45800",
+    "price_zone_3": "47700",
+    "price_zone_4": "69600",
+    "price_zone_5": "73300",
+    "price_zone_6": "91600"
+  },
+  {
+    "book_id": 2,
+    "price_zone_1": "49800",
+    "price_zone_2": "51900",
+    "price_zone_3": "53900",
+    "price_zone_4": "78800",
+    "price_zone_5": "83000",
+    "price_zone_6": "103700"
+  },
+  {
+    "book_id": 3,
+    "price_zone_1": "59000",
+    "price_zone_2": "69000",
+    "price_zone_3": "79000",
+    "price_zone_4": "89000",
+    "price_zone_5": "99000",
+    "price_zone_6": "109000"
+  },
+  {
+    "book_id": 4,
+    "price_zone_1": "66000",
+    "price_zone_2": "76000",
+    "price_zone_3": "86000",
+    "price_zone_4": "86000",
+    "price_zone_5": "96000",
+    "price_zone_6": "106000"
+  },
+  {
+    "book_id": 5,
+    "price_zone_1": "66000",
+    "price_zone_2": "75000",
+    "price_zone_3": "85000",
+    "price_zone_4": "95000",
+    "price_zone_5": "105000",
+    "price_zone_6": "115000"
+  }
+]

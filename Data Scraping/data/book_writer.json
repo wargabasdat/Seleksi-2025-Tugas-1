@@ -1,0 +1,74 @@
+[
+  {
+    "book_id": 1,
+    "writer_name": "Pankaj Kumar Verma"
+  },
+  {
+    "book_id": 1,
+    "writer_name": "Drupal R. Shah"
+  },
+  {
+    "book_id": 1,
+    "writer_name": "Khushbu Chauhan"
+  },
+  {
+    "book_id": 1,
+    "writer_name": "Devi M."
+  },
+  {
+    "book_id": 2,
+    "writer_name": "Meilani Hendrawidjaja"
+  },
+  {
+    "book_id": 2,
+    "writer_name": "Guruh Nusantara"
+  },
+  {
+    "book_id": 2,
+    "writer_name": "Tevin Odysseus"
+  },
+  {
+    "book_id": 2,
+    "writer_name": "Wych Dewangga"
+  },
+  {
+    "book_id": 3,
+    "writer_name": "Pankaj Kumar Verma"
+  },
+  {
+    "book_id": 3,
+    "writer_name": "Drupal R. Shah"
+  },
+  {
+    "book_id": 3,
+    "writer_name": "Khushbu Chauhan"
+  },
+  {
+    "book_id": 3,
+    "writer_name": "Devi M."
+  },
+  {
+    "book_id": 4,
+    "writer_name": "Pankaj Kumar Verma"
+  },
+  {
+    "book_id": 4,
+    "writer_name": "Akshat Srivastava"
+  },
+  {
+    "book_id": 5,
+    "writer_name": "Meilani Hendrawidjaja"
+  },
+  {
+    "book_id": 5,
+    "writer_name": "Guruh Nusantara"
+  },
+  {
+    "book_id": 5,
+    "writer_name": "Tevin Odysseus"
+  },
+  {
+    "book_id": 5,
+    "writer_name": "Wych Dewangga"
+  }
+]
