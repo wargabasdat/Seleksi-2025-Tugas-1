@@ -2,10 +2,10 @@ import psycopg2
 import ast
 
 storing_conn = psycopg2.connect(
-    dbname="duma_website", user="postgres", password="ouiouioui465", host="localhost", port="5432"
+    dbname="duma_website", user="postgres", password=" ", host="localhost", port="5432"
 )
 dw_conn = psycopg2.connect(
-    dbname="duma_dw", user="postgres", password="ouiouioui465", host="localhost", port="5432"
+    dbname="duma_dw", user="postgres", password=" ", host="localhost", port="5432"
 )
 
 storing_cur = storing_conn.cursor()
