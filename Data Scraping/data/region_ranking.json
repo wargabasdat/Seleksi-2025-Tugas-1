@@ -1,0 +1,928 @@
+{
+  "regions_ranks": {
+    "The Chinese Mainland": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.05",
+          "name": "Hello Kitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "5",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        },
+        {
+          "rank": "6",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        },
+        {
+          "rank": "7",
+          "number": "No.17",
+          "name": "MY SWEET PIANO",
+          "profile_link": "https://www.sanrio.co.jp/characters/mysweetpiano/"
+        },
+        {
+          "rank": "8",
+          "number": "No.08",
+          "name": "Hangyodon",
+          "profile_link": "https://www.sanrio.co.jp/characters/hangyodon/"
+        },
+        {
+          "rank": "9",
+          "number": "No.12",
+          "name": "Cogimyun",
+          "profile_link": "https://www.sanrio.co.jp/characters/cogimyun/"
+        },
+        {
+          "rank": "10",
+          "number": "No.23",
+          "name": "Marumofubiyori",
+          "profile_link": "https://www.sanrio.co.jp/characters/marumofubiyori/"
+        }
+      ]
+    },
+    "Hong Kong": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "2",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        },
+        {
+          "rank": "3",
+          "number": "No.05",
+          "name": "Hello Kitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "5",
+          "number": "No.08",
+          "name": "Hangyodon",
+          "profile_link": "https://www.sanrio.co.jp/characters/hangyodon/"
+        },
+        {
+          "rank": "6",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "7",
+          "number": "No.27",
+          "name": "MINNANOTĀBŌ",
+          "profile_link": "https://www.sanrio.co.jp/characters/tabo/"
+        },
+        {
+          "rank": "8",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        },
+        {
+          "rank": "9",
+          "number": "No.11",
+          "name": "AHIRUNOPEKKLE",
+          "profile_link": "https://www.sanrio.co.jp/characters/pekkle/"
+        },
+        {
+          "rank": "10",
+          "number": "No.07",
+          "name": "Kerokerokeroppi",
+          "profile_link": "https://www.sanrio.co.jp/characters/keroppi/"
+        }
+      ]
+    },
+    "Taiwan": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        },
+        {
+          "rank": "5",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        },
+        {
+          "rank": "6",
+          "number": "No.05",
+          "name": "Hello Kitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+        },
+        {
+          "rank": "7",
+          "number": "No.08",
+          "name": "Hangyodon",
+          "profile_link": "https://www.sanrio.co.jp/characters/hangyodon/"
+        },
+        {
+          "rank": "8",
+          "number": "No.10",
+          "name": "Little Twin Stars",
+          "profile_link": "https://www.sanrio.co.jp/characters/kikilala/"
+        },
+        {
+          "rank": "9",
+          "number": "No.16",
+          "name": "GUDETAMA",
+          "profile_link": "https://www.sanrio.co.jp/characters/gudetama/"
+        },
+        {
+          "rank": "10",
+          "number": "No.13",
+          "name": "BAD BADTZ-MARU",
+          "profile_link": "https://www.sanrio.co.jp/characters/badtzmaru/"
+        }
+      ]
+    },
+    "South Korea": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.22",
+          "name": "SHOW BY ROCK!!",
+          "profile_link": "https://www.sanrio.co.jp/characters/showbyrock/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.08",
+          "name": "Hangyodon",
+          "profile_link": "https://www.sanrio.co.jp/characters/hangyodon/"
+        },
+        {
+          "rank": "5",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "6",
+          "number": "No.05",
+          "name": "Hello Kitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+        },
+        {
+          "rank": "7",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        },
+        {
+          "rank": "8",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        },
+        {
+          "rank": "9",
+          "number": "No.07",
+          "name": "Kerokerokeroppi",
+          "profile_link": "https://www.sanrio.co.jp/characters/keroppi/"
+        },
+        {
+          "rank": "10",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        }
+      ]
+    },
+    "United States": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.46",
+          "name": "Chococat",
+          "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+        },
+        {
+          "rank": "3",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        },
+        {
+          "rank": "5",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "6",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        },
+        {
+          "rank": "7",
+          "number": "No.07",
+          "name": "Kerokerokeroppi",
+          "profile_link": "https://www.sanrio.co.jp/characters/keroppi/"
+        },
+        {
+          "rank": "8",
+          "number": "No.09",
+          "name": "Tuxedosam",
+          "profile_link": "https://www.sanrio.co.jp/characters/tuxedosam/"
+        },
+        {
+          "rank": "9",
+          "number": "No.48",
+          "name": "Adorozatorumary",
+          "profile_link": "https://www.sanrio.co.jp/characters/adorozatorumary/"
+        },
+        {
+          "rank": "10",
+          "number": "No.14",
+          "name": "HANAMARUOBAKE",
+          "profile_link": "https://www.sanrio.co.jp/characters/hanamaruobake/"
+        }
+      ]
+    },
+    "Brazil": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.46",
+          "name": "Chococat",
+          "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+        },
+        {
+          "rank": "2",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "3",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        },
+        {
+          "rank": "5",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "6",
+          "number": "No.45",
+          "name": "Aggretsuko",
+          "profile_link": "https://www.sanrio.co.jp/characters/retsuko/"
+        },
+        {
+          "rank": "7",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        },
+        {
+          "rank": "8",
+          "number": "No.07",
+          "name": "Kerokerokeroppi",
+          "profile_link": "https://www.sanrio.co.jp/characters/keroppi/"
+        },
+        {
+          "rank": "9",
+          "number": "No.13",
+          "name": "BAD BADTZ-MARU",
+          "profile_link": "https://www.sanrio.co.jp/characters/badtzmaru/"
+        },
+        {
+          "rank": "10",
+          "number": "No.05",
+          "name": "Hello Kitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+        }
+      ]
+    },
+    "United Kingdom": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.46",
+          "name": "Chococat",
+          "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+        },
+        {
+          "rank": "3",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        },
+        {
+          "rank": "5",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "6",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "7",
+          "number": "No.48",
+          "name": "Adorozatorumary",
+          "profile_link": "https://www.sanrio.co.jp/characters/adorozatorumary/"
+        },
+        {
+          "rank": "8",
+          "number": "No.16",
+          "name": "GUDETAMA",
+          "profile_link": "https://www.sanrio.co.jp/characters/gudetama/"
+        },
+        {
+          "rank": "9",
+          "number": "No.17",
+          "name": "MY SWEET PIANO",
+          "profile_link": "https://www.sanrio.co.jp/characters/mysweetpiano/"
+        },
+        {
+          "rank": "10",
+          "number": "No.14",
+          "name": "HANAMARUOBAKE",
+          "profile_link": "https://www.sanrio.co.jp/characters/hanamaruobake/"
+        }
+      ]
+    },
+    "Italy": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.48",
+          "name": "Adorozatorumary",
+          "profile_link": "https://www.sanrio.co.jp/characters/adorozatorumary/"
+        },
+        {
+          "rank": "5",
+          "number": "No.46",
+          "name": "Chococat",
+          "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+        },
+        {
+          "rank": "6",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        },
+        {
+          "rank": "7",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        },
+        {
+          "rank": "8",
+          "number": "No.29",
+          "name": "Charmmykitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/charmmy/"
+        },
+        {
+          "rank": "9",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "10",
+          "number": "No.16",
+          "name": "GUDETAMA",
+          "profile_link": "https://www.sanrio.co.jp/characters/gudetama/"
+        }
+      ]
+    },
+    "Germany": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.46",
+          "name": "Chococat",
+          "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+        },
+        {
+          "rank": "5",
+          "number": "No.48",
+          "name": "Adorozatorumary",
+          "profile_link": "https://www.sanrio.co.jp/characters/adorozatorumary/"
+        },
+        {
+          "rank": "6",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        },
+        {
+          "rank": "7",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "8",
+          "number": "No.14",
+          "name": "HANAMARUOBAKE",
+          "profile_link": "https://www.sanrio.co.jp/characters/hanamaruobake/"
+        },
+        {
+          "rank": "9",
+          "number": "No.29",
+          "name": "Charmmykitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/charmmy/"
+        },
+        {
+          "rank": "10",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        }
+      ]
+    },
+    "France": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.46",
+          "name": "Chococat",
+          "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+        },
+        {
+          "rank": "5",
+          "number": "No.48",
+          "name": "Adorozatorumary",
+          "profile_link": "https://www.sanrio.co.jp/characters/adorozatorumary/"
+        },
+        {
+          "rank": "6",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        },
+        {
+          "rank": "7",
+          "number": "No.14",
+          "name": "HANAMARUOBAKE",
+          "profile_link": "https://www.sanrio.co.jp/characters/hanamaruobake/"
+        },
+        {
+          "rank": "8",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "9",
+          "number": "No.05",
+          "name": "Hello Kitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+        },
+        {
+          "rank": "10",
+          "number": "No.16",
+          "name": "GUDETAMA",
+          "profile_link": "https://www.sanrio.co.jp/characters/gudetama/"
+        }
+      ]
+    },
+    "Australia": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        },
+        {
+          "rank": "5",
+          "number": "No.48",
+          "name": "Adorozatorumary",
+          "profile_link": "https://www.sanrio.co.jp/characters/adorozatorumary/"
+        },
+        {
+          "rank": "6",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "7",
+          "number": "No.46",
+          "name": "Chococat",
+          "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+        },
+        {
+          "rank": "8",
+          "number": "No.16",
+          "name": "GUDETAMA",
+          "profile_link": "https://www.sanrio.co.jp/characters/gudetama/"
+        },
+        {
+          "rank": "9",
+          "number": "No.14",
+          "name": "HANAMARUOBAKE",
+          "profile_link": "https://www.sanrio.co.jp/characters/hanamaruobake/"
+        },
+        {
+          "rank": "10",
+          "number": "No.07",
+          "name": "Kerokerokeroppi",
+          "profile_link": "https://www.sanrio.co.jp/characters/keroppi/"
+        }
+      ]
+    },
+    "Singapore": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "2",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "3",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.05",
+          "name": "Hello Kitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+        },
+        {
+          "rank": "5",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        },
+        {
+          "rank": "6",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "7",
+          "number": "No.08",
+          "name": "Hangyodon",
+          "profile_link": "https://www.sanrio.co.jp/characters/hangyodon/"
+        },
+        {
+          "rank": "8",
+          "number": "No.16",
+          "name": "GUDETAMA",
+          "profile_link": "https://www.sanrio.co.jp/characters/gudetama/"
+        },
+        {
+          "rank": "9",
+          "number": "No.09",
+          "name": "Tuxedosam",
+          "profile_link": "https://www.sanrio.co.jp/characters/tuxedosam/"
+        },
+        {
+          "rank": "10",
+          "number": "No.10",
+          "name": "Little Twin Stars",
+          "profile_link": "https://www.sanrio.co.jp/characters/kikilala/"
+        }
+      ]
+    },
+    "Thailand": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.26",
+          "name": "yoshikitty",
+          "profile_link": null
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "5",
+          "number": "No.05",
+          "name": "Hello Kitty",
+          "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+        },
+        {
+          "rank": "6",
+          "number": "No.06",
+          "name": "My Melody",
+          "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+        },
+        {
+          "rank": "7",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "8",
+          "number": "No.08",
+          "name": "Hangyodon",
+          "profile_link": "https://www.sanrio.co.jp/characters/hangyodon/"
+        },
+        {
+          "rank": "9",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        },
+        {
+          "rank": "10",
+          "number": "No.23",
+          "name": "Marumofubiyori",
+          "profile_link": "https://www.sanrio.co.jp/characters/marumofubiyori/"
+        }
+      ]
+    },
+    "Spain": {
+      "high": [
+        {
+          "rank": "1",
+          "number": "No.04",
+          "name": "Pompompurin",
+          "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+        },
+        {
+          "rank": "2",
+          "number": "No.01",
+          "name": "Cinnamoroll",
+          "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+        },
+        {
+          "rank": "3",
+          "number": "No.46",
+          "name": "Chococat",
+          "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+        }
+      ],
+      "low": [
+        {
+          "rank": "4",
+          "number": "No.20",
+          "name": "U・SA・HA・NA",
+          "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+        },
+        {
+          "rank": "5",
+          "number": "No.03",
+          "name": "KUROMI",
+          "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+        },
+        {
+          "rank": "6",
+          "number": "No.02",
+          "name": "Pochacco",
+          "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+        },
+        {
+          "rank": "7",
+          "number": "No.07",
+          "name": "Kerokerokeroppi",
+          "profile_link": "https://www.sanrio.co.jp/characters/keroppi/"
+        },
+        {
+          "rank": "8",
+          "number": "No.16",
+          "name": "GUDETAMA",
+          "profile_link": "https://www.sanrio.co.jp/characters/gudetama/"
+        },
+        {
+          "rank": "9",
+          "number": "No.14",
+          "name": "HANAMARUOBAKE",
+          "profile_link": "https://www.sanrio.co.jp/characters/hanamaruobake/"
+        },
+        {
+          "rank": "10",
+          "number": "No.48",
+          "name": "Adorozatorumary",
+          "profile_link": "https://www.sanrio.co.jp/characters/adorozatorumary/"
+        }
+      ]
+    }
+  }
+}
