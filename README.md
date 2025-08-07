@@ -90,16 +90,16 @@
 Program akan berjalan secara otomatis pada waktu yang ditentukan apabila komputer dalam keadaan menyala dan terkoneksi dengan internet. Waktu dijalankannya program tersimpan pada kolom `last_updated` tabel `Episode` pada `ncis_db` dan kolom `last_updated` tabel `FactEpisodePerformance` pada `ncis_dw`.
 
 **Automated Scheduling pada `ncis_db`**</br>
-Sebelum
-![Automated Scheduling Before](Data%20Storing/screenshot/automated_scheduling_1.png)
-Sesudah
-![Automated Scheduling After](Data%20Storing/screenshot/automated_scheduling_2.png)
+Sebelum</br>
+![Automated Scheduling Before](Data%20Storing/screenshot/automated_scheduling_1.png) </br>
+Sesudah</br>
+![Automated Scheduling After](Data%20Storing/screenshot/automated_scheduling_2.png) </br>
 
 **Automated Scheduling pada `ncis_dw`**</br>
-Sebelum
-![DW Automated Scheduling Before](Data%20Warehouse/screenshot/automated_scheduling_dw_1.png)
-Sesudah
-![DW Automated Scheduling After](Data%20Warehouse/screenshot/automated_scheduling_dw_2.png)
+Sebelum</br>
+![DW Automated Scheduling Before](Data%20Warehouse/screenshot/automated_scheduling_dw_1.png) </br>
+Sesudah</br>
+![DW Automated Scheduling After](Data%20Warehouse/screenshot/automated_scheduling_dw_2.png) </br>
 
 ## Struktur File JSON
 Dihasilkan 4 file JSON dari proses scraping yang tersimpan di `Data Scraping\data`.
@@ -136,17 +136,17 @@ Berisi informasi mengenai komentar pada suatu episode.
 
 ## Struktur ERD RDBMS
 ### Data Storing
-**Entity-Relationship Diagram (ERD)**
-![DB ERD](Data%20Storing/design/ERD.png)
+**Entity-Relationship Diagram (ERD)** </br>
+![DB ERD](Data%20Storing/design/ERD.png) </br>
 
-**Diagram Relasional**
-![DB Relational Diagram](Data%20Storing/design/Relational%20Diagram.png)
+**Diagram Relasional** </br>
+![DB Relational Diagram](Data%20Storing/design/Relational%20Diagram.png) </br>
 
 ### Data Warehousing (Bonus)
-**Entity-Relationship Diagram (ERD)**
-![DW ERD](Data%20Warehouse/design/ERD%20DW.png)
+**Entity-Relationship Diagram (ERD)** </br>
+![DW ERD](Data%20Warehouse/design/ERD%20DW.png) </br>
 
-**Diagram Relasional**
+**Diagram Relasional** </br>
 ![DW Relational Diagram](Data%20Warehouse/design/Relational%20Diagram%20DW.png)
 
 ## Translasi ERD Menjadi Diagram Relasional
@@ -163,66 +163,66 @@ Berisi informasi mengenai komentar pada suatu episode.
 
 ## Screenshot Hasil Program
 ### Data Storing
-1. **Tabel Cast**
-![cast_ss](Data%20Storing/screenshot/cast.png)
+1. **Tabel Cast** </br>
+![cast_ss](Data%20Storing/screenshot/cast.png) </br>
 
-2. **Tabel Crew**
-![crew_ss](Data%20Storing/screenshot/crew.png)
+2. **Tabel Crew** </br>
+![crew_ss](Data%20Storing/screenshot/crew.png) </br>
 
-3. **Tabel Episode**
-![episode_ss](Data%20Storing/screenshot/episode.png)
+3. **Tabel Episode** </br>
+![episode_ss](Data%20Storing/screenshot/episode.png) </br>
 
-4. **Tabel Personnel**
-![personnel_ss](Data%20Storing/screenshot/personnel.png)
+4. **Tabel Personnel** </br>
+![personnel_ss](Data%20Storing/screenshot/personnel.png) </br>
 
-5. **Tabel User**
-![user_ss](Data%20Storing/screenshot/user.png)
+5. **Tabel User** </br>
+![user_ss](Data%20Storing/screenshot/user.png) </br>
 
-6. **Tabel Comment**
-![comment_ss](Data%20Storing/screenshot/comment.png)
+6. **Tabel Comment** </br>
+![comment_ss](Data%20Storing/screenshot/comment.png) </br>
 
-7. **Crew yang Terlibat pada Episode Tertentu**
-![crews_in_an_episode_ss](Data%20Storing/screenshot/crews_in_an_episode.png)
+7. **Crew yang Terlibat pada Episode Tertentu** </br>
+![crews_in_an_episode_ss](Data%20Storing/screenshot/crews_in_an_episode.png) </br>
 
-8. **Episode dengan Kata Kunci Tertentu**
-![episodes_with_keyword_ss](Data%20Storing/screenshot/episodes_with_keyword.png)
+8. **Episode dengan Kata Kunci Tertentu** </br>
+![episodes_with_keyword_ss](Data%20Storing/screenshot/episodes_with_keyword.png) </br>
 
-9. **Episode pada Season Tertentu yang Memiliki Komentar**
-![latest_episodes_with_comments_ss](Data%20Storing/screenshot/latest_episodes_with_comments.png)
+9. **Episode pada Season Tertentu yang Memiliki Komentar** </br>
+![latest_episodes_with_comments_ss](Data%20Storing/screenshot/latest_episodes_with_comments.png) </br>
 
-10. **Karakter dengan Jumlah Kemunculan Terbanyak**
-![top_character_appearances_ss](Data%20Storing/screenshot/top_character_appearances.png)
+10. **Karakter dengan Jumlah Kemunculan Terbanyak** </br>
+![top_character_appearances_ss](Data%20Storing/screenshot/top_character_appearances.png) </br>
 
 ### Data Warehousing (Bonus)
-1. **Tabel DimEpisode**
-![dimepisode_ss](Data%20Warehouse/screenshot/dimepisode.png)
+1. **Tabel DimEpisode** </br>
+![dimepisode_ss](Data%20Warehouse/screenshot/dimepisode.png) </br>
 
-2. **Tabel DimPersonnel**
-![dimpersonnel_ss](Data%20Warehouse/screenshot/dimpersonnel.png)
+2. **Tabel DimPersonnel** </br>
+![dimpersonnel_ss](Data%20Warehouse/screenshot/dimpersonnel.png) </br>
 
-3. **Tabel DimDate**
-![dimdate_ss](Data%20Warehouse/screenshot/dimdate.png)
+3. **Tabel DimDate** </br>
+![dimdate_ss](Data%20Warehouse/screenshot/dimdate.png) </br>
 
-4. **Personel yang Memainkan Jumlah Karakter Terbanyak (Tabel BridgeCastInvolvement)**
-![personnels_with_most_characters_played_ss](Data%20Warehouse/screenshot/personnels_with_most_characters_played.png)
+4. **Personel yang Memainkan Jumlah Karakter Terbanyak (Tabel BridgeCastInvolvement)** </br>
+![personnels_with_most_characters_played_ss](Data%20Warehouse/screenshot/personnels_with_most_characters_played.png) </br>
 
-5. **Sutradara untuk Setiap Episode Pertama pada Season (Tabel BridgeCrewInvolvement)**
-![first_episode_directors_ss](Data%20Warehouse/screenshot/first_episode_directors.png)
+5. **Sutradara untuk Setiap Episode Pertama pada Season (Tabel BridgeCrewInvolvement)** </br>
+![first_episode_directors_ss](Data%20Warehouse/screenshot/first_episode_directors.png) </br>
 
-6. **Episode dengan Rating Terbaik Per Season**
-![best_rated_episodes_per_season_ss](Data%20Warehouse/screenshot/best_rated_episodes_per_season.png)
+6. **Episode dengan Rating Terbaik Per Season** </br>
+![best_rated_episodes_per_season_ss](Data%20Warehouse/screenshot/best_rated_episodes_per_season.png) </br>
 
-7. **Episode dengan Interaksi Pengguna Terbanyak (Rating dan Komentar)**
-![most_interacted_episodes_ss](Data%20Warehouse/screenshot/most_interacted_episodes.png)
+7. **Episode dengan Interaksi Pengguna Terbanyak Berdasarkan Jumlah Rating dan Komentar** </br>
+![most_interacted_episodes_ss](Data%20Warehouse/screenshot/most_interacted_episodes.png) </br>
 
-8. **Karakter Favorit Berdasarkan Rating Episode**
-![most_liked_characters_ss](Data%20Warehouse/screenshot/most_liked_characters.png)
+8. **Karakter Favorit Berdasarkan Rating Episode** </br>
+![most_liked_characters_ss](Data%20Warehouse/screenshot/most_liked_characters.png) </br>
 
-9. **Rating Rata-Rata Sutradara yang Paling Banyak Digunakan Berdasarkan Rating Episode**
-![most_used_directors_rating_ss](Data%20Warehouse/screenshot/most_used_directors_rating.png)
+9. **Rating Rata-Rata Sutradara yang Paling Banyak Digunakan Berdasarkan Rating Episode** </br>
+![most_used_directors_rating_ss](Data%20Warehouse/screenshot/most_used_directors_rating.png) </br>
 
-10. **Rating Rata-Rata Episode Baru Per Bulan Tayang**
-![new_episodes_average_monthly_rating_ss](Data%20Warehouse/screenshot/new_episodes_average_monthly_rating.png)
+10. **Rating Rata-Rata Episode Baru Per Bulan Tayang** </br>
+![new_episodes_average_monthly_rating_ss](Data%20Warehouse/screenshot/new_episodes_average_monthly_rating.png) </br>
 
 ## Referensi 
 - [Situs epguides.com NCIS](https://epguides.com/NCIS/)
