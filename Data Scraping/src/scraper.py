@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.service import Service
 sys.path.append(os.path.join(os.path.dirname(__file__)))
 from extractor.genre import GenreExtractor
 from extractor.playlist import PlaylistExtractor
+from extractor.playlist_song import PlaylistSongExtractor
 
 class SpotifyScraper:
     """Main scraper class for extracting Spotify data
@@ -35,11 +36,12 @@ class SpotifyScraper:
         self.start_url = start_url
         self.genres: List[Dict[str, str]] = []
         self.playlists: List[Dict[str, str]] = []
+        self.playlist_songs: List[Dict[str, str]] = []
         
         self.browser = self._initialize_browser(chromedriver_path, chrome_path)
         self.genre_extractor = GenreExtractor(self.browser)
         self.playlist_extractor = PlaylistExtractor(self.browser)
-        
+        self.playlist_song_extractor = PlaylistSongExtractor(self.browser)
         
         self.browser.get(self.start_url)
         logging.info(f"[Main] Navigated to {self.start_url}")
@@ -120,7 +122,6 @@ class SpotifyScraper:
         if len(self.genres) > 10:
             print(f"... and {len(self.genres) - 10} more\n")
         
-
         try:
             self.genre_extractor.save_to_json(genre_file)
         except Exception as e:
@@ -179,6 +180,51 @@ class SpotifyScraper:
             logging.error(f"[Playlist] Error saving playlists: {str(e)}")
             raise
 
+    def _process_playlist_song(self, chosen_playlists: Optional[List[str]] = None, song_limit: Optional[int] = None) -> None:
+        """Extract and save playlist-song relationship data
+        
+        Args:
+            chosen_playlists: List of playlist names to filter for detailed extraction
+            song_limit: Maximum number of songs to extract from each playlist
+        
+        Raises:
+            Exception: If any step in the playlist-song extraction process fails
+        """
+
+        if not self.playlists:
+            logging.warning("[PlaylistSong] No playlists available for song extraction")
+            return
+        
+        playlist_song_file = "Data Scraping/data/playlist_song.json"
+        if os.path.exists(playlist_song_file):
+            logging.info(f"[PlaylistSong] File {playlist_song_file} already exists, loading existing data")
+            try:
+                import json
+                with open(playlist_song_file, 'r', encoding='utf-8') as f:
+                    self.playlist_songs = json.load(f)
+                print(f"\n[Main] Loaded {len(self.playlist_songs)} existing playlist-song relationships from file")
+                return
+            except Exception as e:
+                logging.warning(f"[PlaylistSong] Failed to load existing file, will re-extract: {str(e)}")
+        
+        try:
+            self.playlist_songs = self.playlist_song_extractor.get_data(self.playlists, chosen_playlists, song_limit)
+        except Exception as e:
+            logging.error(f"[PlaylistSong] {str(e)}")
+            raise
+        
+        if not self.playlist_songs:
+            print("No playlist-song relationships found!")
+            return
+        
+        print(f"\n[Main] Total playlist-song relationships found: {len(self.playlist_songs)}")
+        
+        try:
+            self.playlist_song_extractor.save_to_json("Data Scraping/data/playlist_song.json")
+        except Exception as e:
+            logging.error(f"[PlaylistSong] Error saving relationships: {str(e)}")
+            raise
+
     def _generate_summary(self) -> None:
         """Generate a summary report of all extracted data"""
         try:
@@ -205,20 +251,36 @@ class SpotifyScraper:
                     
                     f.write("-" * 50 + "\n")
                     f.write(f"Total Playlists: {len(self.playlists)}\n\n")
+                
+                if self.playlist_songs:
+                    f.write(f"Total Playlist-Song Relationships: {len(self.playlist_songs)}\n\n")
+                
+                if self.playlists:
+                    basic_playlists = [p for p in self.playlists if len(p) == 4]
 
+                    f.write(f"Playlists with Detailed Info Only: {len(self.playlists) - len(basic_playlists)}\n\n")
+                    f.write(f"Playlists with Basic Info Only: {len(basic_playlists)}\n")
+
+                    for playlist in basic_playlists:
+                        f.write(f"{playlist['name']}\n")
+
+                f.write("Extraction completed successfully!\n")
+                
             logging.info("[Main] Summary saved to summary.txt")
             
         except Exception as e:
             logging.warning(f"[Main] Failed to generate summary: {str(e)}")
 
-    def run(self, playlist_limit: Optional[int] = None) -> None:
+    def run(self, playlist_limit: Optional[int] = None, chosen_playlists: Optional[List[str]] = None, song_limit: Optional[int] = None) -> None:
         """Run the complete scraping process
         
         Args:
             playlist_limit: Maximum number of playlists to extract from each genre.
-                           If None, extracts all playlists found.
-        
-        Orchestrates the full Spotify data extraction workflow
+                            If None, extracts all playlists found.
+            chosen_playlists: List of playlist names to filter for detailed extraction.
+                              If None or empty, extracts all playlists found.
+            song_limit: Maximum number of songs to extract from each playlist.
+                        If None, extracts all songs found.
         
         Raises:
             WebDriverException: If browser automation fails
@@ -233,6 +295,14 @@ class SpotifyScraper:
             logging.info("[Main] Starting playlist extraction...")
             self._process_playlist(playlist_limit)
             logging.info("[Main] Playlist extraction completed successfully")
+
+            logging.info("[Main] Starting playlist-song relationship extraction...")
+            self._process_playlist_song(chosen_playlists, song_limit)
+            logging.info("[Main] Playlist-song relationship extraction completed successfully")
+            
+            logging.info("[Main] Generating summary report...")
+            self._generate_summary()
+            logging.info("[Main] Summary report generated successfully")
 
         except WebDriverException as e:
             logging.error(f"[Main - WebDriverException] {str(e)}")
