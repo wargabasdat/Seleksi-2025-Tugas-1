@@ -30,7 +30,7 @@ DAFTAR ISI
   - Tampilan *Website*
   - Data Scrapping & Pre-processing
   - Data Storing
-- Data Visualization (BONUS)
+- Data Warehouse (BONUS)
 - Reference
 - Author
 
@@ -200,7 +200,7 @@ Mengirimkan permintaan GET ke URL target untuk mendapatkan konten HTML. Untuk me
   <img width="1357" height="419" alt="image" src="https://github.com/user-attachments/assets/5144088f-d275-4e06-b146-3a3968e4d4eb" />
 </div>
 
-Setelah mendapatkan konten HTML, saya menggunakan library Beautiful Soup untuk menguraikannya. Langkah pertama adalah menemukan elemen HTML yang menjadi kontainer utama dari seluruh daftar channel (yaitu, <div id="fsb">) dan kemudian mencari blok-blok informasi setiap channel di dalamnya
+Setelah mendapatkan konten HTML, saya menggunakan library Beautiful Soup untuk menguraikannya. Langkah pertama adalah menemukan elemen HTML yang menjadi kontainer utama dari seluruh daftar channel, kemudian mencari blok-blok informasi setiap channel di dalamnya
 <div align="center">
   <img width="1263" height="776" alt="image" src="https://github.com/user-attachments/assets/4bae67c4-1640-4159-8042-74ea5c4f7c15" />
 </div>
@@ -222,7 +222,7 @@ Selanjutnya, metode .strip() digunakan untuk menghapus spasi ekstra di awal atau
   <img width="1157" height="402" alt="image" src="https://github.com/user-attachments/assets/34a984bf-94e8-4d9a-b920-498ecb79697b" />
 </div>
 
-Data seperti "707K" atau "3.4K" dikonversi menjadi nilai integer menjadi 707000 dan 3400) menggunakan fungsi kustom dengan bantuan library re.
+Data seperti 707K atau 3.4K dikonversi menjadi nilai integer menjadi 707000 dan 3400 menggunakan fungsi kustom dengan bantuan library re.
 <div align="center">
   <img width="1349" height="413" alt="image" src="https://github.com/user-attachments/assets/b09958e3-08b9-4df2-b599-7f9d8dbd0be9" />
 </div>
