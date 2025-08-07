@@ -1,1597 +1,558 @@
 [
   {
+    "product_id": "8843368071407",
+    "normal_price": 750000.0
+  },
+  {
     "product_id": "8897161363695",
-    "name": "Acma Shirt Top | Black",
-    "category_id": "C002",
-    "description": "This knit top exudes elegance with its soft drape and smooth texture, offering both comfort and sophistication. Featuring a notched collar and button-down front, it blends classic tailoring with a relaxed, modern feel. The half sleeves provide a balanced look, making it suitable for both warm and transitional weather. The subtly fitted silhouette enhances the figure while maintaining ease of movement, and the split hem detail at the front adds a contemporary touch. Easily style this top with tailored trousers for a polished look or paired with denim for effortless chic.",
-    "material": "Rayon Blend",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/ACMASHIRTTOPBLACK-1.jpg?v=1740366090",
-    "normal_price": 650000.0,
-    "discount_price": 520000.0
-  },
-  {
-    "product_id": "7975350730991",
-    "name": "Milla Vest Orange",
-    "category_id": "C999",
-    "description": "Our Milla Vest has a looser, straight cut made from soft viscose yarns and with front button down closure. A simple, timeless piece that can be worn solo or be layered over a tank or tee as you like! Pair it with or Jetro Pants this upcoming CNY season!",
-    "material": "SOFT VISCOSE",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/MillaVestOrange-2.jpg?v=1673499656",
-    "normal_price": 495000.0,
-    "discount_price": 445500.0
-  },
-  {
-    "product_id": "8218759266543",
-    "name": "Veste Tweed Vest Black",
-    "category_id": "C002",
-    "description": "Taking inspiration from traditional suiting, we created this special vest that is perfect for this holiday season. Crafted from luxe and sparkly tweed and has a deep V-neckline, shaping darts, and a row of fancy gold floral buttons. Pairs perfectly with any bottoms you can think of!",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/VesteTweedVest.jpg?v=1702537508",
-    "normal_price": 650000.0,
-    "discount_price": 585000.0
-  },
-  {
-    "product_id": "8982752723183",
-    "name": "Quinn Top | Navy",
-    "category_id": "C002",
-    "description": "This sleeveless top features a sharp tailored collar and a clean front with a hidden side zipper. The standout detail is its open back with a soft, sculptural drape, adding a bold yet elegant touch. Easy to dress up or down, it pairs perfectly with tailored pants or a sleek skirt for a modern, refined look.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/QUINNNAVY-1.jpg?v=1750057826",
-    "normal_price": 725000.0,
-    "discount_price": 652500.0
-  },
-  {
-    "product_id": "8252028420335",
-    "name": "Rohe Tweed Outer Red",
-    "category_id": "C003",
-    "description": "Meticulous craftmanship brings unparalleled elegance. Featuring an old-fashioned Chinese coin purse for a symbol of good fortune this CNY season. This jacket has a straight boxy silhouette to give it a youthful feel, and finished with perfect tailoring and covered buttons front closure. Model : 175 cm",
-    "material": "100% Wool",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/RoheeTweedOuter.jpg?v=1706001671",
-    "normal_price": 1300000.0,
-    "discount_price": 780000.0
-  },
-  {
-    "product_id": "8773329977583",
-    "name": "Sienna Top | White",
-    "category_id": "C002",
-    "description": "Crafted from soft buttery knit blend with a fluid hand feel, this white blouse is designed with drapes, fitted sleeves, and a mock neckline. Style it with tailored skirts or trousers and kitten heels for the perfect polished look!",
-    "material": "90% Polyester, 10% Elastane",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/SIENNATOPWHITE-2.jpg?v=1727772539",
-    "normal_price": 475000.0,
-    "discount_price": 427500.0
-  },
-  {
-    "product_id": "8196312072431",
-    "name": "Anders Knit Set Black",
-    "category_id": "C003",
-    "description": "Elevate your downtime/travel wardrobe with our Anders knit set. Crafted from soft and stretchy rayon and shaped for an easy-going and minimalistic silhouette. Regular fit cardigan top with a neat flat collar, and stretch rib waistband and relaxed fit pants.",
-    "material": "92% Rayon, 8% Nylon",
-    "size": "ALL SIZE (FIT TO L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/AndersKnitSet.jpg?v=1700777409",
-    "normal_price": 950000.0,
-    "discount_price": 760000.0
-  },
-  {
-    "product_id": "8196111565039",
-    "name": "Nehru Jogger Pants Black",
-    "category_id": "C005",
-    "description": "These jogger-style off white trousers are made from finely knitted soft rayon. A relaxed fit that taper slightly towards the ribbed hem, and with a comfortable elasticated waist for all day wear. Complete the look with our Brea Zip Up sweater.",
-    "material": "100% RAYON",
-    "size": "ALL SIZE (FIT TO XL)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/BreaSweaterBlack_0d57e2db-0ded-4cd1-a80c-2fb18354ea7c.jpg?v=1700799128",
-    "normal_price": 665000.0,
-    "discount_price": 565250.0
-  },
-  {
-    "product_id": "8984622891247",
-    "name": "Selna Tweed Vest | White Multi",
-    "category_id": "C003",
-    "description": "A classic oversized tweed vest that features a fun, modern twist with its relaxed silhouette and frayed finish. Made from premium textured tweed, Selna Tweed Vest is a versatile piece that can be worn both as a top and an outer. Its neat tailoring and lining highlight this vest’s premium craftsmanship that makes it all the more timeless.",
-    "material": "Poly Blend",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/SELNATWEED-1.jpg?v=1750314105",
-    "normal_price": 675000.0,
-    "discount_price": 607500.0
-  },
-  {
-    "product_id": "8665202065647",
-    "name": "Lucca Linen Vest | Pink",
-    "category_id": "C002",
-    "description": "Elevate your look this summer with our Lucca Linen Vest. Crafted from our pinstripe linen fabrication, this style forms a figure-hugging silhouette with a tailored finish. The sleeveless vest is defined by its deep U-shape neckline and princess lines for a more cinched figure. This blush pink and black pinstripe top secures with front button closure and curved front hem. Pair it with the matching Alba Linen Skirt for an easy vacation outfit.",
-    "material": "100% Linen",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LUCCALINENVESTPINK-2.jpg?v=1720522270",
-    "normal_price": 550000.0,
-    "discount_price": 440000.0
+    "normal_price": 650000.0
   },
   {
     "product_id": "8913099194607",
-    "name": "Asner Houndstooth Blazer | White Multi",
-    "category_id": "C003",
-    "description": "This black and white houndstooth top features a structured, short-sleeve design with a button-up front. The high neckline and tailored fit give it a polished and sophisticated look, making it a versatile piece for both formal and casual styling. Pair it with our Rum Houndstooth Shorts for a coordinated set, or our Balestra Skirt for an elegant contrast.",
-    "material": "Poly Blend",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/AsnerHoundstoothBlazer.jpg?v=1741855039",
-    "normal_price": 700000.0,
-    "discount_price": 560000.0
-  },
-  {
-    "product_id": "8196303847663",
-    "name": "Idris Knit Dress Navy",
-    "category_id": "C001",
-    "description": "Made from a loosely knitted rib texture using soft rayon yarns, this maxi dress has a relaxed tank silhouette that contours down the body beautifully. Wear it with the matching cardigan to get the perfect travelling look.",
-    "material": "92% Rayon, 8% Nylon",
-    "size": "ALL SIZE (FIT TO L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/IdrisDressNavy.jpg?v=1700777720",
-    "normal_price": 665000.0,
-    "discount_price": 432250.0
-  },
-  {
-    "product_id": "8959266095343",
-    "name": "Quinn Top | Beige",
-    "category_id": "C002",
-    "description": "This sleeveless top features a sharp tailored collar and a clean front with a hidden side zipper. The standout detail is its open back with a soft, sculptural drape, adding a bold yet elegant touch. Easy to dress up or down, it pairs perfectly with tailored pants or a sleek skirt for a modern, refined look.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/QUINNTOPBEIGE-5.jpg?v=1747881264",
-    "normal_price": 725000.0,
-    "discount_price": 652500.0
-  },
-  {
-    "product_id": "8843356078319",
-    "name": "Remmy Skort | Grey",
-    "category_id": "C006",
-    "description": "Our best-selling Remmy Skort, now in new colors and fabric, perfect for the winter season! It has an A-line silhouette knife pleats and an inner shorts for effortless movements. Pair it with your favorite sweater for a cozy winter fit.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/REMMYSKORTGREY-1.jpg?v=1734421798",
-    "normal_price": 550000.0,
-    "discount_price": 467500.0
-  },
-  {
-    "product_id": "8145477468399",
-    "name": "Yeta Cardigan Beige",
-    "category_id": "C003",
-    "description": "Tight texture knit made from soft cotton yarns, this double breasted cardigan has deep V-neck, contoured silhouette that envelops the body and balanced by relaxed sleeves. Doubles as a top, this piece is perfect for last minute outfit plannings, day to night looks, and keeping you as sophisticate as ever.",
-    "material": "100% Cotton",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/YetaCardiganBeige.jpg?v=1697785650",
-    "normal_price": 695000.0,
-    "discount_price": 590750.0
-  },
-  {
-    "product_id": "8840010432751",
-    "name": "Poppy Scarf Top | Navy Multi",
-    "category_id": "C002",
-    "description": "Elevate your wardrobe with this elegant halter-neck top, featuring a delicate floral print. Designed with a draped neckline and a keyhole detail for added sophistication. The back showcases a long flowy panel that adds movement and drama to your look. Perfect for pairing with tailored trousers or skirts for a polished look.",
-    "material": "100% POLYESTER",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/IMG_7928.jpg?v=1733997246",
-    "normal_price": 550000.0,
-    "discount_price": 467500.0
-  },
-  {
-    "product_id": "8792600543471",
-    "name": "Ang T-Shirt | Maroon",
-    "category_id": "C002",
-    "description": "Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a chic maroon tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.",
-    "material": "76% Lyocell, 19% Wool, 5% Spandex",
-    "size": "ALL SIZE (Fit to L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/ANGT-SHIRTMAROON-2_3bc6e297-9aa6-4dcf-874a-712b22761271.jpg?v=1729131193",
-    "normal_price": 495000.0,
-    "discount_price": 247500.0
-  },
-  {
-    "product_id": "7946288431343",
-    "name": "Molly Cardigan Red",
-    "category_id": "C003",
-    "description": "Get cozy this holiday season with our Molly Cardigan! Knitted from soft cotton materinal into the most elegant fit and beautifully knitted chenille knit pattern in the perfect christmas shades, this piece is definitely going to be a crowd pleaser this christmas! Pair it with our Chala Pants to attend your next holiday festivities with your loved ones!",
-    "material": "100% Cotton",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/MollyCardiganRed_2.jpg?v=1670387201",
-    "normal_price": 625000.0,
-    "discount_price": 312500.0
-  },
-  {
-    "product_id": "8959261671663",
-    "name": "Quinn Top | Black",
-    "category_id": "C002",
-    "description": "This sleeveless top features a sharp tailored collar and a clean front with a hidden side zipper. The standout detail is its open back with a soft, sculptural drape, adding a bold yet elegant touch. Easy to dress up or down, it pairs perfectly with tailored pants or a sleek skirt for a modern, refined look.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/QUINNTOPBLACK-1.jpg?v=1747639365",
-    "normal_price": 725000.0,
-    "discount_price": 652500.0
-  },
-  {
-    "product_id": "8843362861295",
-    "name": "Crimson Pants | Maroon",
-    "category_id": "C005",
-    "description": "Stay effortlessly stylish with these barrel-leg cropped pants, designed for both comfort and versatility. The relaxed silhouette features a flattering high rise and a unique elasticized waistband at the back for an easy, flexible fit. Perfect for casual days or dressing up with heels, these pants offer a modern, laid-back vibe to elevate any outfit.",
-    "material": "Cotton Poly Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/Artboard5.png?v=1734497736",
-    "normal_price": 595000.0,
-    "discount_price": 416500.0
-  },
-  {
-    "product_id": "8294607225071",
-    "name": "BELINDA | Regular Fit Extreme Soft in Black",
-    "category_id": "C002",
-    "description": "A very versatile and classic t-shirt, offered in classic black. Crafted from a special cotton blend that’s soft to the touch, this classic crew neck top is cut for a neat fit with the perfect length.",
-    "material": "100 % Cotton Blend",
-    "size": "All Size (Fit to XL)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LEN01542-edit.jpg?v=1709010364",
-    "normal_price": 500000.0,
-    "discount_price": 450000.0
-  },
-  {
-    "product_id": "8665228214511",
-    "name": "Alba Linen Skirt | Pink",
-    "category_id": "C006",
-    "description": "Mini Skirt crafted from our pinstripe linen fabrication, our Alba Linen Skirt is an essential piece for your staple summer wardrobe. Designed to sit mid-waist, this skirt exudes classic sophistication as it is cut straight and finishes upper-mid thigh. It features a waistband, belt hoops and secures with a center zip fly.",
-    "material": "100% Linen",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/ALBALINENSKIRTPINK-4.jpg?v=1720522045",
-    "normal_price": 485000.0,
-    "discount_price": 242500.0
-  },
-  {
-    "product_id": "8005164826863",
-    "name": "Elia Dress Brown",
-    "category_id": "C001",
-    "description": "Designed from a lightweight fluid woven shirting fabric, this scoop neck tank top dress featuring panels that creates the perfect a-line fit with slimming silhouette is definitely a wardrobe staple for you all year round!",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/EliaDressBrown-2.jpg?v=1677200717",
-    "normal_price": 600000.0,
-    "discount_price": 540000.0
-  },
-  {
-    "product_id": "8218799669487",
-    "name": "Morris Leather Pants Silver",
-    "category_id": "C005",
-    "description": "Jumpstart the party season with this fun metallic pants! This pant is crafted from the perfect metallic silver faux leather fabric and designed as a straight silhouette that taper down the legs and with ankle-length hems, finished with front patch pocket",
-    "material": "100% Polyester",
-    "size": "S, M, L",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MorrisPantsSilver-2.jpg?v=1702572175",
-    "normal_price": 675000.0,
-    "discount_price": 506250.0
-  },
-  {
-    "product_id": "8665221693679",
-    "name": "Alba Linen Skirt | White",
-    "category_id": "C006",
-    "description": "Mini Skirt crafted from our pinstripe linen fabrication, our Alba Linen Skirt is an essential piece for your staple summer wardrobe. Designed to sit mid-waist, this skirt exudes classic sophistication as it is cut straight and finishes upper-mid thigh. It features a waistband, belt hoops and secures with a center zip fly.",
-    "material": "100% Linen",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/ALBALINENSKIRTWHITE-2.jpg?v=1720522066",
-    "normal_price": 485000.0,
-    "discount_price": 242500.0
-  },
-  {
-    "product_id": "8198585417967",
-    "name": "Caba Blazer Black",
-    "category_id": "C002",
-    "description": "Our Caba Blazer is a special tailoring piece that features a collarless neckline, wide padded shoulders, and a single-breasted close. Offered in the perfect deep black shade that's precisely color-matched to the coordinating Harlow Pants.",
-    "material": "100% Japan made Premium Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/WhatsAppImage2024-03-30at11.40.11.jpg?v=1711773828",
-    "normal_price": 975000.0,
-    "discount_price": 487500.0
-  },
-  {
-    "product_id": "8842758521071",
-    "name": "Hoho Sweater | Green Multi",
-    "category_id": "C003",
-    "description": "Stay festive and comfortable this season with our fair-isle sweater in intricate Christmas jacquard motif and the perfect oversized fit. Comes in two colors, it’s the prefect pick for family gatherings, or twinning with someone special this holiday season.",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/HOHOSWEATERGREENMULTI-1.jpg?v=1734424541",
-    "normal_price": 685000.0,
-    "discount_price": 342500.0
-  },
-  {
-    "product_id": "8145623580911",
-    "name": "Harlow Pants Black",
-    "category_id": "C005",
-    "description": "Crafted from premium Japanese polyester, this pants gives you two silhouettes - a wide legged and a jogger fit, depending on the adjustment of the hem button. Designed to sit mid waist, they are finished in classic black and elevated with belt loops, front pleats and centre folds for tailored style.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/HarlowPantsBlack.jpg?v=1697775884",
-    "normal_price": 650000.0,
-    "discount_price": 325000.0
-  },
-  {
-    "product_id": "8742187466991",
-    "name": "Mimosa Satin Skirt | Blue",
-    "category_id": "C006",
-    "description": "The popular ankle-length satin skirt, redefined by us. Crafted from silky smooth satin fabric in the prettiest turquoise blue shade, Mimosa Satin Skirt | Blue flows down your silhouette elegantly. Prioritizing comfort and ease, we created this skirt with a side zipper opening and elasticated waistband. And as the final touch is a beautiful Iris flower to achieve that simple yet significant look.",
-    "material": "100% Polyester",
-    "size": "Small, Medium",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MIMOSASATINSKIRTBLUE-5_c226f2ba-7532-4d7e-b897-a8938dd8d0bb.jpg?v=1724885530",
-    "normal_price": 600000.0,
-    "discount_price": 510000.0
-  },
-  {
-    "product_id": "8211518947567",
-    "name": "Trixie Dress Green",
-    "category_id": "C001",
-    "description": "A special mini dress for this holiday season! This dress is shaped for a slim fit enhanced by the ribbed waist detail at the bodice, and flares out to a sculpted peplum mini skirt. Design",
-    "material": "100% Nylon",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/TrixieDressGreen-2.jpg?v=1701967693",
-    "normal_price": 775000.0,
-    "discount_price": 465000.0
-  },
-  {
-    "product_id": "8792566825199",
-    "name": "Ochre Shorts | Brown",
-    "category_id": "C005",
-    "description": "Designed with a mid-waist and tailored fit, these shorts offer a chic silhouette that transitions seamlessly from day to night. Dress it up with our matching suede jacket in warm hues, or down with a casual tee—these suede shorts are your go-to piece for stylish fall layering.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/OCHRESHORTS-1.jpg?v=1729052832",
-    "normal_price": 420000.0,
-    "discount_price": 357000.0
-  },
-  {
-    "product_id": "7946305274095",
-    "name": "Zuru Dress Green",
-    "category_id": "C001",
-    "description": "Knitted with soft cotton yarns, this lightweight straight maxi dress comes in holiday green. It's designed to perfectly compliment all body types with its perfect silhouette. The pointed collar, button closure down the center front and ribbed texture are smart finishing touches to complete this dress. Can be styled universally, as a dress, top, or even as an outer!",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/ZuruDressGreen_5.jpg?v=1670552410",
-    "normal_price": 675000.0,
-    "discount_price": 337500.0
-  },
-  {
-    "product_id": "8253781967087",
-    "name": "Lesley Jeans Sand",
-    "category_id": "C005",
-    "description": "Denim trousers is a definite staple for your wardrobe, especially this pair as they're comfortable and fits like a glove. This pair is shaped for a flared silhouette with full-length legs and slits at cuffs that will make your legs looks super long and slim. They're crafted from a stretch cotton denim for lightness and comfort it won't feel like your wearing jeans at all!",
-    "material": "100% Cotton",
-    "size": "S, M, L",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LesleyJeansSand.jpg?v=1706096384",
-    "normal_price": 789000.0,
-    "discount_price": 552300.0
-  },
-  {
-    "product_id": "8114155389167",
-    "name": "Gilia Jeans Denim Dark Blue",
-    "category_id": "C005",
-    "description": "Inspired by the '70s, our Gilia Jeans is designed with a high-rise waist and wide bootcut hems. Finished with two front pockets and two back pockets, washed to the perfect light denim blue shade with fading at thighs to feel the vintage vibe. The perfect new pair of jeans that you definitely need to get your hands on!",
-    "material": "Cotton Spadex",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/GILIA_JEANS_DENIM_DARK_BLUE-3.jpg?v=1748527509",
-    "normal_price": 789000.0,
-    "discount_price": 710100.0
-  },
-  {
-    "product_id": "8913631740143",
-    "name": "Crimson Pants | White",
-    "category_id": "C005",
-    "description": "Stay effortlessly stylish with these barrel-leg cropped pants, designed for both comfort and versatility. The relaxed silhouette features a flattering high rise and a unique elasticized waistband at the back for an easy, flexible fit. Perfect for casual days or dressing up with heels, these pants offer a modern, laid-back vibe to elevate any outfit.",
-    "material": "Cotton Poly Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/CrimsonPantsWhite-3.jpg?v=1741926196",
-    "normal_price": 595000.0,
-    "discount_price": 416500.0
-  },
-  {
-    "product_id": "8307532005615",
-    "name": "Ruby Top White",
-    "category_id": "C002",
-    "description": "Cut and sewn from our all time favorite premium Japanese polyester fabric, we put a tweak to a simple tanktop by giving a puffed peplum panels on the side. Playful yet still simple, perfect to throw on for simple events or casual day out with friends!",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/RubyTopWhite.jpg?v=1710166292",
-    "normal_price": 595000.0,
-    "discount_price": 416500.0
-  },
-  {
-    "product_id": "8196115693807",
-    "name": "Laurent Vest Cardigan Grey",
-    "category_id": "C003",
-    "description": "An elevated two-in-one piece featuring an oversized cardigan and a sewn-in vest top inside to keep you warm and stylish during your travelling days. Pair it with our best selling Pralu pants for a comfy and minimalistic, stylish look.",
-    "material": "Soft Viscose",
-    "size": "ALL SIZE (FIT TO XL)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LaurentVestCardiGrey.jpg?v=1700778307",
-    "normal_price": 650000.0,
-    "discount_price": 390000.0
-  },
-  {
-    "product_id": "8667288961263",
-    "name": "BERT  | Regular MEN Fit Crew Neck t-shirt in Olive",
-    "category_id": "C002",
-    "description": "A light everyday T-shirt, offered in classic olive green. Crafted from a special cotton blend that’s soft to the touch, it has a classic shape that sits neatly with room for movement through the chest and arms.",
-    "material": "100 % Cotton Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/BertOlive-Front.jpg?v=1720575987",
-    "normal_price": 550000.0,
-    "discount_price": 385000.0
-  },
-  {
-    "product_id": "8843368071407",
-    "name": "Marda Dress | Camel",
-    "category_id": "C001",
-    "description": "Chic and versatile, this mini shirt dress is a wardrobe essential. Featuring a button-down front with covered buttons for a sleek look, it’s designed with a box-pleated skirt that adds structure and movement. The matching fabric belt with a buckle detail cinches the silhouette for a flattering, polished look. Perfect for both casual and dressy occasions, this dress combines timeless style with modern sophistication.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MARDADRESSCAMEL-1_e8d47b65-3cd2-46e5-9c6b-e972f3ed6dae.jpg?v=1734420753",
-    "normal_price": 750000.0,
-    "discount_price": 637500.0
-  },
-  {
-    "product_id": "8005193531631",
-    "name": "Jetro Pants Navy",
-    "category_id": "C005",
-    "description": "Flowing, straight-cut knit pants made from soft viscose yarn, this pants definitely call for sophisticated working-from-home (or anywhere) luxurious loungewear. Just the perfect thing for you when you want to feel pulled together. Pair it with our Ansel Cardi for a complete upscale loungewear look!",
-    "material": "Soft Viscose",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/JetroPantsNavy-2.jpg?v=1677200297",
-    "normal_price": 580000.0,
-    "discount_price": 493000.0
-  },
-  {
-    "product_id": "7946308813039",
-    "name": "Maya Blazer Maroon",
-    "category_id": "C002",
-    "description": "Knitted from soft cotton yarns into the perfect blazer top design and silhouette, finished with shoulder pads and covered buttons. Something you never knew you needed in your capsule wardrobe. Undeniably comfortable, suitable for formal or business casual events, keeps you looking professional yet comfortable for your important meetings. The perfect work outfit for you this festive season!",
-    "material": "100% COTTON",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/MayaTopMaroon_4.jpg?v=1670331472",
-    "normal_price": 585000.0,
-    "discount_price": 409500.0
-  },
-  {
-    "product_id": "8329480503535",
-    "name": "Natia Skirt Pink",
-    "category_id": "C006",
-    "description": "An elegant addition to the collection, our Natia Midi Skirt is designed with box pleats that sinches the waist perfectly and falls to a fuller, volumous skirt. Our special brocade fabrication adds an extra tecture to this structured style, midi length and hidden zipper help polished off this silhouette. Pair it with our matching Florence top for the perfect look!",
-    "material": "60% Polyester, 40% Cotton",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/NatiaSkirtPink.jpg?v=1711027270",
-    "normal_price": 725000.0,
-    "discount_price": 435000.0
-  },
-  {
-    "product_id": "7946305732847",
-    "name": "Zuru Dress Maroon",
-    "category_id": "C001",
-    "description": "Knitted with soft cotton yarns, this lightweight straight maxi dress comes in holiday maroon. It's designed to perfectly compliment all body types with its perfect silhouette. The pointed collar, button closure down the center front and ribbed texture are smart finishing touches to complete this dress. Can be styled universally, as a dress, top, or even as an outer!",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/ZuruDressMaroon_4.jpg?v=1670552370",
-    "normal_price": 675000.0,
-    "discount_price": 337500.0
-  },
-  {
-    "product_id": "8959789236463",
-    "name": "Rue Dress | Dark Brown",
-    "category_id": "C001",
-    "description": "A minimalist sleeveless A-line mini dress featuring a sharp V-neckline and structured collar. Crafted in a clean fabric, it offers a tailored silhouette that flatters the upper body and gently flares out towards the hem. This piece combines modern sophistication with timeless appeal—perfect for styling with boots, heels, or layering under outerwear.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/RUEDRESSDARKBROWN-2.jpg?v=1747798988",
-    "normal_price": 680000.0,
-    "discount_price": 612000.0
-  },
-  {
-    "product_id": "8329474244847",
-    "name": "Florence Top Pink",
-    "category_id": "C002",
-    "description": "The Florence top in our special brocade fabrication is a sweet addition to our collection. This silhouette is designed to be a relaxed fit with A-line body and front draped peplum detail and perfectly shaped slight halter neckline. Pair it with our Natia skirt for the perfect look!",
-    "material": "60% Polyester, 40% Cotton",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/FlorenceTopPink.jpg?v=1711026915",
-    "normal_price": 665000.0,
-    "discount_price": 399000.0
-  },
-  {
-    "product_id": "8842757177583",
-    "name": "Hoho Sweater | Maroon Multi",
-    "category_id": "C003",
-    "description": "Stay festive and comfortable this season with our fair-isle sweater in intricate Christmas jacquard motif and the perfect oversized fit. Comes in two colors, it’s the prefect pick for family gatherings, or twinning with someone special this holiday season.",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/HOHOSWEATERMAROONMULTI-1.jpg?v=1734424632",
-    "normal_price": 685000.0,
-    "discount_price": 342500.0
-  },
-  {
-    "product_id": "8211517767919",
-    "name": "Trixie Dress Red",
-    "category_id": "C001",
-    "description": "A special mini dress for this holiday season! This dress is shaped for a slim fit enhanced by the ribbed waist detail at the bodice, and flares out to a sculpted peplum mini skirt. Design",
-    "material": "100% Nylon",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/TrixieDressRed_74554754-939e-45ed-876e-1e30eacc678f.jpg?v=1706097474",
-    "normal_price": 775000.0,
-    "discount_price": 465000.0
-  },
-  {
-    "product_id": "8196280549615",
-    "name": "Idris Knit Dress White",
-    "category_id": "C001",
-    "description": "Made from a loosely knitted rib texture using soft rayon yarns, this maxi dress has a relaxed tank silhouette that contours down the body beautifully. Wear it with the matching cardigan to get the perfect travelling look.",
-    "material": "92% Rayon, 8% Nylon",
-    "size": "ALL SIZE (FIT TO L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/IdrisDressWhite.jpg?v=1700777788",
-    "normal_price": 665000.0,
-    "discount_price": 399000.0
-  },
-  {
-    "product_id": "8843364073711",
-    "name": "Crimson Pants | Brown",
-    "category_id": "C005",
-    "description": "Stay effortlessly stylish with these barrel-leg cropped pants, designed for both comfort and versatility. The relaxed silhouette features a flattering high rise and a unique elasticized waistband at the back for an easy, flexible fit. Perfect for casual days or dressing up with heels, these pants offer a modern, laid-back vibe to elevate any outfit.",
-    "material": "Cotton Poly Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/CRIMSONPANTSBROWN-4.jpg?v=1734497802",
-    "normal_price": 595000.0,
-    "discount_price": 416500.0
-  },
-  {
-    "product_id": "8329477685487",
-    "name": "Florence Top Mint",
-    "category_id": "C002",
-    "description": "The Florence top in our special brocade fabrication is a sweet addition to our collection. This silhouette is designed to be a relaxed fit with A-line body and front draped peplum detail and perfectly shaped slight halter neckline. Pair it with our Natia skirt for the perfect look!",
-    "material": "60% Polyester, 40% Cotton",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/FlorenceTopMint.jpg?v=1711026832",
-    "normal_price": 665000.0,
-    "discount_price": 399000.0
-  },
-  {
-    "product_id": "8218770833647",
-    "name": "Peggy Peplum Top Black",
-    "category_id": "C002",
-    "description": "Classically romantic style with a dose of vintage charm, this peplum top is cut from premium Japanese made polyester for its structure and tailored feel. It has a blazer collar, a row of gold heart buttons and a flattering peplum. Pair it with jeans for a timeless date night look, or switch to our Glacer mini skirt for your next holiday party!",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/PeggyPeplumTopBlack.jpg?v=1702537346",
-    "normal_price": 625000.0,
-    "discount_price": 562500.0
-  },
-  {
-    "product_id": "8005185241327",
-    "name": "Ansel Cardigan Navy",
-    "category_id": "C002",
-    "description": "Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!",
-    "material": "Soft Viscose",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/AnselCardiganNavy.jpg?v=1677142085",
-    "normal_price": 595000.0,
-    "discount_price": 505750.0
-  },
-  {
-    "product_id": "8211469664495",
-    "name": "Laurent Vest Cardigan Red",
-    "category_id": "C003",
-    "description": "Our Best Selling Laurent Vest Cardigan in a limited edition holiday color! An elevated two-in-one piece featuring an oversized cardigan and a sewn-in vest top inside to keep you warm and stylish during your travelling days. Pair it with our best selling Pralu pants for a comfy and minimalistic, stylish look.",
-    "material": "Soft Viscose",
-    "size": "ALL SIZE (FIT TO XL)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LaurentVestCardiMaroon-3.jpg?v=1701995561",
-    "normal_price": 650000.0,
-    "discount_price": 455000.0
-  },
-  {
-    "product_id": "8196307550447",
-    "name": "Faye Knit Outer Navy",
-    "category_id": "C003",
-    "description": "Made from a loosely knitted rib texture using soft rayon yarns, this maxi cardigan coat has a fluid silhouette with notched collar and an open front. Wear it with the matching dress to elevate your lounge/travel wear.",
-    "material": "92% Rayon, 8% Nylon",
-    "size": "ALL SIZE (FIT TO L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/FayeOuterNavy.jpg?v=1700777578",
-    "normal_price": 700000.0,
-    "discount_price": 455000.0
-  },
-  {
-    "product_id": "8667287453935",
-    "name": "BERT  | Regular MEN Fit Crew Neck t-shirt in White",
-    "category_id": "C002",
-    "description": "A light everyday T-shirt, offered in classic white. Crafted from a special cotton blend that’s soft to the touch, it has a classic shape that sits neatly with room for movement through the chest and arms.",
-    "material": "100 % Cotton Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/BertWhite-Front.jpg?v=1720576014",
-    "normal_price": 550000.0,
-    "discount_price": 467500.0
-  },
-  {
-    "product_id": "7867716829423",
-    "name": "Malo Sweater Grey",
-    "category_id": "C003",
-    "description": "Crafted from soft cotton fabric, this zip-up cardigan is cut for a relaxed fit and features a feminine wave pattern, ribbed hem finishing, and a statement oversized collar. Perfect to accompany u throughout your daily activities! Pairs perfectly with our Petra shorts.",
-    "material": "100% Cotton",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/Artboard1_834f0147-7b00-4b04-81d0-9b2482c3158d.png?v=1664889167",
-    "normal_price": 625000.0,
-    "discount_price": 562500.0
-  },
-  {
-    "product_id": "8196102357231",
-    "name": "Albini Knit Coat Multi",
-    "category_id": "C003",
-    "description": "Our Albini knit coat is made from soft cotton fabric with a special technique that creates a double-faced finish. It has an oversized silhouette with shawl lapels, dropped shoulders, and an open front which makes it perfect for layering.",
-    "material": "100% COTTON",
-    "size": "ALL SIZE (FIT TO XL)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/AlbiniKnitCoat.jpg?v=1700777282",
-    "normal_price": 775000.0,
-    "discount_price": 620000.0
-  },
-  {
-    "product_id": "8196252336367",
-    "name": "Maray Vest Top Blue",
-    "category_id": "C002",
-    "description": "Inspired from traditional suiting, we designed this vest with a v-neckline, adjustable belt tab, and a row of tonal buttons into the perfect fit. Style it with our Vesper pants as a set, or with your favorite maxi skirts or jeans.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MarayVestBlue.jpg?v=1700778711",
-    "normal_price": 575000.0,
-    "discount_price": 402500.0
-  },
-  {
-    "product_id": "8818175770863",
-    "name": "Ang T-Shirt | Black",
-    "category_id": "C002",
-    "description": "Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a black tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.",
-    "material": "76% Lyocell, 19% Wool, 5% Spandex",
-    "size": "ALL SIZE (Fit to L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/AngT-ShirtBlack-1.png?v=1731576096",
-    "normal_price": 495000.0,
-    "discount_price": 445500.0
-  },
-  {
-    "product_id": "7947446321391",
-    "name": "Elfie Sparkly Shorts Maroon",
-    "category_id": "C005",
-    "description": "Crafted from soft cotton and lurex blend, shorts are pull on with elastic band. Definitely the perfect choice of outfit for your homey get-together this upcoming holidays season.",
-    "material": "95% chenille 5% polyethylene",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/MalachiSweaterRed_5.jpg?v=1670551693",
-    "normal_price": 450000.0,
-    "discount_price": 135000.0
-  },
-  {
-    "product_id": "8843365155055",
-    "name": "Marda Dress | Dark Brown",
-    "category_id": "C001",
-    "description": "Chic and versatile, this mini shirt dress is a wardrobe essential. Featuring a button-down front with covered buttons for a sleek look, it’s designed with a box-pleated skirt that adds structure and movement. The matching fabric belt with a buckle detail cinches the silhouette for a flattering, polished look. Perfect for both casual and dressy occasions, this dress combines timeless style with modern sophistication.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MARDADRESSDARKBROWN-2.jpg?v=1734420790",
-    "normal_price": 750000.0,
-    "discount_price": 637500.0
-  },
-  {
-    "product_id": "8959306268911",
-    "name": "Bonnie Shirt | White",
-    "category_id": "C002",
-    "description": "This white long-sleeve shirt features a relaxed silhouette with a gathered yoke detail for added texture and volume. Designed with a clean band collar, it offers a timeless look with a soft, feminine touch. The slightly puffed sleeves taper into buttoned cuffs, making it perfect for both casual and polished outfits. Pair it effortlessly with our Tan Pants | Cream for a clean, elevated everyday look.",
-    "material": "100% Tencel",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/BONNIESHIRT-1.jpg?v=1747797530",
-    "normal_price": 600000.0,
-    "discount_price": 540000.0
-  },
-  {
-    "product_id": "8218769981679",
-    "name": "Lumi Tweed Outer Black",
-    "category_id": "C003",
-    "description": "Immensely wearable yet loaded with glamour, this jacket is cut from black sparkly tweed. It has an effortlessly boxy fit but is cropped to flatter your form. Pair it with our Apollo Denim Pants to give a more laid back look, or our Morris metallic pants for your upcoming holiday party!",
-    "material": "100% Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LumiTweedOuterBlack.jpg?v=1702537453",
-    "normal_price": 995000.0,
-    "discount_price": 696500.0
-  },
-  {
-    "product_id": "8959789039855",
-    "name": "Rue Dress | Black",
-    "category_id": "C001",
-    "description": "A minimalist sleeveless A-line mini dress featuring a sharp V-neckline and structured collar. Crafted in a clean fabric, it offers a tailored silhouette that flatters the upper body and gently flares out towards the hem. This piece combines modern sophistication with timeless appeal—perfect for styling with boots, heels, or layering under outerwear.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/RUEDRESSBLACK-2.jpg?v=1747788019",
-    "normal_price": 680000.0,
-    "discount_price": 612000.0
-  },
-  {
-    "product_id": "8145302880495",
-    "name": "Yeta Cardigan Black",
-    "category_id": "C002",
-    "description": "Tight texture knit made from soft cotton yarns, this double breasted cardigan has deep V-neck, contoured silhouette that envelops the body and balanced by relaxed sleeves. Doubles as a top, this piece is perfect for last minute outfit plannings, day to night looks, and keeping you as sophisticate as ever.",
-    "material": "100% Cotton",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/YetaCardiganBlack-2.jpg?v=1697702576",
-    "normal_price": 695000.0,
-    "discount_price": 382250.0
-  },
-  {
-    "product_id": "7946294001903",
-    "name": "Cheri Shirt Red",
-    "category_id": "C002",
-    "description": "Boxy cut shirt knitted from soft cotton yarns in the most perfect shades of christmas! The perfect mix of feminine and boyish, cozy and put together look. Comfortable to wear, easy to style. Pair it with our Chala Pants this holidays season fro the perfect cozy christmas outfit to attend your year end festivities.",
-    "material": "100% COTTON",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/CheriShirtRed_4.jpg?v=1670555597",
-    "normal_price": 575000.0,
-    "discount_price": 287500.0
-  },
-  {
-    "product_id": "7947448090863",
-    "name": "Elfie Sparkly Shorts Navy",
-    "category_id": "C005",
-    "description": "Crafted from soft cotton and lurex blend, shorts are pull on with elastic band. Definitely the perfect choice of outfit for your homey get-together this upcoming holidays season.",
-    "material": "95% chenille 5% polyethylene",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/MalachiSweaterNavy_5.jpg?v=1670330916",
-    "normal_price": 450000.0,
-    "discount_price": 270000.0
-  },
-  {
-    "product_id": "8773378048239",
-    "name": "Olam Dress | Brown",
-    "category_id": "C001",
-    "description": "Crafted from crisp and airy polyester fabric, this brown shirt dress is inspired by elements of workwear but made our way. Featuring a pointed collar, front button closure, A-line fit, and a flattering halter neckline. Perfect to throw on this fall season!",
-    "material": "100% Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/EDITERArtboard17.jpg?v=1729132495",
-    "normal_price": 675000.0,
-    "discount_price": 337500.0
-  },
-  {
-    "product_id": "8498257625327",
-    "name": "Pragh Skirt Grey",
-    "category_id": "C006",
-    "description": "Focusing on classic tailoring, this midi skirt is crafted from premium polyester blend suiting fabric and precisely cut in a slim, straight silhouette that perfectly elongates the figure. Finished with back invisible zipper opening, two front welt pockets, and back slit for easy walking.",
-    "material": "100% Polyester",
-    "size": "S, M, L",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/PRAGHSKIRTGREY-4.jpg?v=1715741448",
-    "normal_price": 600000.0,
-    "discount_price": 300000.0
-  },
-  {
-    "product_id": "8664891523311",
-    "name": "Remmy Skort | Denim Blue",
-    "category_id": "C006",
-    "description": "This season's wardrobe staple, our Remmy Skort | Denim Blue is cut and sewn from our newest denim fabrication in a deep blue colorway. It has an A-line silhouette knife pleats and an inner shorts for effortless movements. Pair it with our Denise Vest | Denim Blue for a sophisticated summer fit.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/REMMYDENIMSKORT-2.jpg?v=1720522490",
-    "normal_price": 550000.0,
-    "discount_price": 467500.0
-  },
-  {
-    "product_id": "8913102569711",
-    "name": "Orega Blazer | Black Multi",
-    "category_id": "C003",
-    "description": "This black and white tweed blazer features a classic checkered pattern with a structured silhouette. It has a notched lapel, a single-button closure, and two front pockets with frayed trim",
-    "material": "Poly Blend",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/OregaBlazerBlack.jpg?v=1741855069",
-    "normal_price": 800000.0,
-    "discount_price": 720000.0
-  },
-  {
-    "product_id": "8982852108527",
-    "name": "Gaze Cardigan | White Multi",
-    "category_id": "C003",
-    "description": "This cardigan features a unique geometric-inspired pattern throughout the body, contrasted by oversized ribbed trims along the cuffs and hem. The wide ribbing continues into a bold V-neckline that adds structure and definition to the relaxed silhouette. A statement piece that’s both cozy and polished.",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/GAZECARDIGAN-1.jpg?v=1750071925",
-    "normal_price": 650000.0,
-    "discount_price": 585000.0
-  },
-  {
-    "product_id": "8842747052271",
-    "name": "Dachshund Vest | Black - Red",
-    "category_id": "C002",
-    "description": "Bringing a festive twist to our best-selling knit top this season. Knitted from structured but soft 100% cotton yarn in a relaxed, boxy cut that’s suitable for all body types. The contrasting dachshund puppy in Christmas hat, embroidered in fully chenille yarn adds extra festive points that will definitely make you stand out in the crowd! What's even better, you can twin with your family and friends in this top!",
-    "material": "100% Cotton",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/DACHSHUNDTOPBLACK-RED-5.jpg?v=1734494355",
-    "normal_price": 585000.0,
-    "discount_price": 351000.0
-  },
-  {
-    "product_id": "8951255498991",
-    "name": "Greno Cardigan Top  | Dark Grey",
-    "category_id": "C003",
-    "description": "Our Greno Cardigan Top is a seasonless essential that every wardrobe need. Lightweight knitwear pieces, with point collar and button front fastening cardigan. Perfect for any look you're going for any time of day!",
-    "material": "100% COTTON",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/KANOSETDARKGREY-4.jpg?v=1747788372",
-    "normal_price": 525000.0,
-    "discount_price": 472500.0
-  },
-  {
-    "product_id": "8329462743279",
-    "name": "Noten Outer Yellow",
-    "category_id": "C003",
-    "description": "The perfect outer for you this spring season! Crafted from our all time favorite premium Japanese made polyester fabrication in the most elegant pastel yellow hue, this outer has a boxy A-line silhouette with regular collar, snap button openings and 3D floral",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/NotenOuterYellow-2.jpg?v=1711073486",
-    "normal_price": 1200000.0,
-    "discount_price": 1080000.0
-  },
-  {
-    "product_id": "8897112965359",
-    "name": "Matchia Top | Green Multi",
-    "category_id": "C002",
-    "description": "This sleeveless tweed top combines classic elegance with a modern touch, featuring a tweed fabric in a chic checkered pattern. The covered button closure adds a refined touch, while the rounded hem with a front slit enhances movement and creates a flattering, elongated look. Whether paired with tailored trousers for a professional setting or styled with denim for a casual yet refined look, this tweed top is a wardrobe essential for effortless sophistication.",
-    "material": "Poly Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MATCHIATOP-5.jpg?v=1741927670",
-    "normal_price": 700000.0,
-    "discount_price": 560000.0
-  },
-  {
-    "product_id": "8625234739439",
-    "name": "MICOLE | Slim Fit Crew Neck in Navy",
-    "category_id": "C002",
-    "description": "A wardrobe staple offered in classic navy, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.",
-    "material": "100 % Lyocell Blend",
-    "size": "Small, Medium",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6893-edit.jpg?v=1718842415",
-    "normal_price": 500000.0,
-    "discount_price": 400000.0
-  },
-  {
-    "product_id": "8897163395311",
-    "name": "Acma Shirt Top | Dark Brown",
-    "category_id": "C002",
-    "description": "This knit top exudes elegance with its soft drape and smooth texture, offering both comfort and sophistication. Featuring a notched collar and button-down front, it blends classic tailoring with a relaxed, modern feel. The half sleeves provide a balanced look, making it suitable for both warm and transitional weather. The subtly fitted silhouette enhances the figure while maintaining ease of movement, and the split hem detail at the front adds a contemporary touch. Easily style this top with tailored trousers for a polished look or paired with denim for effortless chic.",
-    "material": "Rayon Blend",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/ACMASHIRTTOPDARKBROWN-6.jpg?v=1740458288",
-    "normal_price": 650000.0,
-    "discount_price": 520000.0
-  },
-  {
-    "product_id": "8498254676207",
-    "name": "Pragh Skirt Navy Stripe",
-    "category_id": "C006",
-    "description": "Focusing on classic tailoring, this midi skirt is crafted from premium polyester blend suiting fabric and precisely cut in a slim, straight silhouette that perfectly elongates the figure. Finished with back invisible zipper opening, two front welt pockets, and back slit for easy walking.",
-    "material": "100% Polyester",
-    "size": "S, M, L",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/PRAGHSKIRTNAVYSTRIPE-1.jpg?v=1715599974",
-    "normal_price": 600000.0,
-    "discount_price": 300000.0
-  },
-  {
-    "product_id": "8913633804527",
-    "name": "Crimson Pants | Beige",
-    "category_id": "C005",
-    "description": "Stay effortlessly stylish with these barrel-leg cropped pants, designed for both comfort and versatility. The relaxed silhouette features a flattering high rise and a unique elasticized waistband at the back for an easy, flexible fit. Perfect for casual days or dressing up with heels, these pants offer a modern, laid-back vibe to elevate any outfit.",
-    "material": "Cotton Poly Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/CrimsonPantsCream-6.jpg?v=1741926347",
-    "normal_price": 595000.0,
-    "discount_price": 416500.0
-  },
-  {
-    "product_id": "8791861231855",
-    "name": "Sonnet Jacket | Sand",
-    "category_id": "C003",
-    "description": "Jumping into this fall’s suede trend, but with our own twist. This jacket is tailored into a neat slim-fit that still gives space for comfort and movement. Detailed with scooped neckline that exudes elegance and stylish front buckle opening. Sonnet Jacket | Sand is fully-lined and carefully tailored to achieve a structured, luxurious look.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/SONNETJACKETSAND-5.jpg?v=1729052984",
-    "normal_price": 900000.0,
-    "discount_price": 720000.0
-  },
-  {
-    "product_id": "8843368300783",
-    "name": "Marda Dress | Grey",
-    "category_id": "C001",
-    "description": "Chic and versatile, this mini shirt dress is a wardrobe essential. Featuring a button-down front with covered buttons for a sleek look, it’s designed with a box-pleated skirt that adds structure and movement. The matching fabric belt with a buckle detail cinches the silhouette for a flattering, polished look. Perfect for both casual and dressy occasions, this dress combines timeless style with modern sophistication.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MARDADRESSGREY-1.jpg?v=1734420715",
-    "normal_price": 750000.0,
-    "discount_price": 450000.0
-  },
-  {
-    "product_id": "8742172721391",
-    "name": "Fleur Satin Top | Black",
-    "category_id": "C002",
-    "description": "A piece to remember, this halter-neck satin top with an easy A-line fit is casual but not basic. Sewn carefully from silky smooth satin fabric and completed with dainty neck straps opening, Fleur Satin Top | Black is the kind of piece you would reach out to for that long-awaited summer getaway. With a beautiful Peony flower as the cherry on top, you will most definitely be the trend-setter of the season.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/FLEURSATINTOPBLACK-4.jpg?v=1724754340",
-    "normal_price": 535000.0,
-    "discount_price": 454750.0
-  },
-  {
-    "product_id": "8913076879599",
-    "name": "Polan Houndstooth Top | White Multi",
-    "category_id": "C002",
-    "description": "This sleeveless structured top exudes sophistication with its high mandarin collar and sleek tailored fit. Designed in a classic houndstooth pattern tweed, it features a front covered button closure that adds a touch of elegance and refinement. The flap pockets enhance its polished appeal, while the subtly curved hem provides a flattering silhouette. Perfect for both formal and chic casual looks, this top pairs effortlessly with our matching Rum Houndstooth Shorts, or our Balestra Skirt for a more elegant look.",
-    "material": "Poly Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/PolanHoundstoothTop.jpg?v=1741854979",
-    "normal_price": 695000.0,
-    "discount_price": 625500.0
-  },
-  {
-    "product_id": "8773299405039",
-    "name": "Galgot Blazer | Black",
-    "category_id": "C003",
-    "description": "Focusing on classic tailoring this fall, our leather blazer is crafted with our best-selling leather fabric, and featuring a collarless neckline with most focus on the slimmer fitting, completed with single breasted front button fastening and back vents for comfort movements. Pair it with our Harmel Skirt | Black for the perfect put-together fall outfit.",
-    "material": "100% Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/EDITERArtboard8.jpg?v=1729132990",
-    "normal_price": 950000.0,
-    "discount_price": 807500.0
-  },
-  {
-    "product_id": "8901383880943",
-    "name": "Gilia Jeans | Denim White",
-    "category_id": "C005",
-    "description": "Inspired by the '70s, our Gilia Jeans is designed with a high-rise waist and wide bootcut hems. Finished with two front pockets and two back pockets, this pair comes in a crisp white wash for a fresh, timeless look. The perfect new pair of jeans that you definitely need to get your hands on!",
-    "material": "Cotton Spandex",
-    "size": "Small, Medium",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/GILIAJEANSDENIMWHITE-3.jpg?v=1740546560",
-    "normal_price": 789000.0,
-    "discount_price": 631200.0
-  },
-  {
-    "product_id": "8791912448239",
-    "name": "Sonnet Jacket | Brown",
-    "category_id": "C003",
-    "description": "Jumping into this fall’s suede trend, but with our own twist. This jacket is tailored into a neat slim-fit that still gives space for comfort and movement. Detailed with scooped neckline that exudes elegance and stylish front buckle opening. Sonnet Jacket | Brown is fully-lined and carefully tailored to achieve a structured, luxurious look.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/SONNETJACKETBROWN-5.jpg?v=1729052957",
-    "normal_price": 900000.0,
-    "discount_price": 720000.0
-  },
-  {
-    "product_id": "8947918569711",
-    "name": "Baram Pants | Black",
-    "category_id": "C005",
-    "description": "A pair of versatile pants to wear on repeat, Baram Pants was thoughtfully designed with a straight-leg silhouette that provides a timeless and flattering look. The soft and stretchy denim offers freedom of movement all day, everyday. Detailed with small front pockets that add functionality and a touch of uniqueness to the overall look. Pair it with any top in your wardrobe, or wear it as a set with our Sunsu Shirt.",
-    "material": "70% cotton, 27% viscose, 3% elastane",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/BARAMPANTSBLACK-5_9cae9066-d46b-4125-b5d5-4b795d8aca1e.jpg?v=1745989270",
-    "normal_price": 750000.0,
-    "discount_price": 675000.0
-  },
-  {
-    "product_id": "8913528520943",
-    "name": "Jaoni Dress | Black Multi",
-    "category_id": "C001",
-    "description": "Elevate your wardrobe with this timeless black-and-white houndstooth knit dress. Designed with a classic A-line silhouette, this sleeveless dress offers a flattering fit that flows effortlessly. The soft yet structured knit fabric ensures all-day comfort, while the round neckline adds a touch of sophistication. Perfect for any occasion, from casual outings to chic evening gatherings, this versatile piece pairs beautifully with heels or flats.",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/JaoniDress-2.jpg?v=1741925305",
-    "normal_price": 650000.0,
-    "discount_price": 585000.0
-  },
-  {
-    "product_id": "8234756931823",
-    "name": "Grego Leather Blazer Blue",
-    "category_id": "C002",
-    "description": "The silhouette of this leather jacket is inspired by the classic pea coats. Tailored with a double-breasted closure, it's crafted from buttery faux leather and shaped with softly padded shoulders, notch lapels, and a full lining for easy layering. For a complete set, wear with our matching Glacer Skirt.",
-    "material": "100% Polyester",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LeatherBlazerBlue.jpg?v=1704530946",
-    "normal_price": 995000.0,
-    "discount_price": 696500.0
-  },
-  {
-    "product_id": "8253784785135",
-    "name": "Lesley Jeans Brown",
-    "category_id": "C005",
-    "description": "Denim trousers is a definite staple for your wardrobe, especially this pair as they're comfortable and fits like a glove. This pair is shaped for a flared silhouette with full-length legs and slits at cuffs that will make your legs looks super long and slim. They're crafted from a stretch cotton denim for lightness and comfort it won't feel like your wearing jeans at all!",
-    "material": "100% Cotton",
-    "size": "S, M, L",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/WhatsAppImage2024-03-27at10.45.43.jpg?v=1711511341",
-    "normal_price": 789000.0,
-    "discount_price": 552300.0
-  },
-  {
-    "product_id": "7894083371247",
-    "name": "Maya Blazer Black",
-    "category_id": "C002",
-    "description": "Knitted from soft cotton yarns into the perfect blazer top design and silhouette, finished with shoulder pads and covered buttons. Something you never knew you needed in your capsule wardrobe. Undeniably comfortable, suitable for formal or business casual events, keeps you looking professional yet comfortable for your important meetings. Can't forget how perfect it looks as an outer too! This piece will be your best purchase yet!",
-    "material": "100% COTTON",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/MayaBlack_6.jpg?v=1666742721",
-    "normal_price": 585000.0,
-    "discount_price": 526500.0
-  },
-  {
-    "product_id": "8196097474799",
-    "name": "Piper Top Black",
-    "category_id": "C002",
-    "description": "This cropped sleeve top is designed for an elevated essential piece that can double as lounge or smart wear. Crafted from premium cotton yarns and cut for a boxy fit and 3/4 length sleeves, creating a chic yet comfy fit.",
-    "material": "100% COTTON",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/PiperTopBlack.jpg?v=1700779194",
-    "normal_price": 550000.0,
-    "discount_price": 412500.0
-  },
-  {
-    "product_id": "8196244504815",
-    "name": "Maray Vest Top Brown",
-    "category_id": "C002",
-    "description": "Inspired from traditional suiting, we designed this vest with a v-neckline, adjustable belt tab, and a row of tonal buttons into the perfect fit. Style it with our Vesper pants as a set, or with your favorite maxi skirts or jeans.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MarayVestBrown.jpg?v=1700778817",
-    "normal_price": 575000.0,
-    "discount_price": 402500.0
-  },
-  {
-    "product_id": "8818180620527",
-    "name": "Ang T-Shirt | White",
-    "category_id": "C002",
-    "description": "Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a white tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.",
-    "material": "76% Lyocell, 19% Wool, 5% Spandex",
-    "size": "ALL SIZE (Fit to L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/AngT-ShirtWhite-2.png?v=1731576624",
-    "normal_price": 495000.0,
-    "discount_price": 396000.0
-  },
-  {
-    "product_id": "8742181306607",
-    "name": "Mimosa Satin Skirt | Black",
-    "category_id": "C006",
-    "description": "The popular ankle-length satin skirt, redefined by us. Crafted from silky smooth satin fabric, Mimosa Satin Skirt | Black flows down your silhouette elegantly. Prioritizing comfort and ease, we created this skirt with a side zipper opening and elasticated waistband. And as the final touch is a beautiful Peony flower to achieve that simple yet significant look.",
-    "material": "100% Polyester",
-    "size": "Small, Medium",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/MIMOSASATINSKIRTBLACK-4.jpg?v=1724754267",
-    "normal_price": 600000.0,
-    "discount_price": 510000.0
-  },
-  {
-    "product_id": "8329483780335",
-    "name": "Isabel Dress Yellow",
-    "category_id": "C001",
-    "description": "Our Isabel dress is crafted from a crisp cotton fabrication, in a calm butter yellow hue. Perfect for every day styling, featuring full length sleeves, collared neckline, adjustable waist belt and soft pleats toward the hem. Pair with a simple heel for a complete look.",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/IsabelDressYellow-2.jpg?v=1711073342",
-    "normal_price": 675000.0,
-    "discount_price": 337500.0
-  },
-  {
-    "product_id": "8959790022895",
-    "name": "Verso Trench Vest Dress | Beige",
-    "category_id": "C001",
-    "description": "Sleeveless trench-inspired dress crafted in a structured beige fabric, featuring a flattering A-line silhouette. The double-breasted front with fabric-covered buttons adds a tailored touch, while the soft collar and flared hem offer movement and elegance. It is fully lined, providing a clean finish that also allows it to be worn open as a sophisticated outer layer over other outfits. Wear it buttoned up as a dress or layer it over blouses, shirts, or dresses for a polished outerwear look.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/VERSOTRENCHVESTDRESSBEIGE-1.jpg?v=1747798530",
-    "normal_price": 1500000.0,
-    "discount_price": 1350000.0
-  },
-  {
-    "product_id": "8742178029807",
-    "name": "Fleur Satin Top | Blue",
-    "category_id": "C002",
-    "description": "A piece to remember, this halter-neck satin top with an easy A-line fit is casual but not basic. Sewn carefully from silky smooth satin fabric and completed with dainty neck straps opening, Fleur Satin Top | Blue is the kind of piece you would reach out to for that long-awaited summer getaway. With a beautiful Iris flower as the cherry on top, you will most definitely be the trend-setter of the season.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/FLEURSATINTOPBLUE-5_5dc88083-0b0d-4644-8382-869ddff2e39b.jpg?v=1724885487",
-    "normal_price": 535000.0,
-    "discount_price": 454750.0
-  },
-  {
-    "product_id": "7740224897263",
-    "name": "Marin Cardigan White",
-    "category_id": "C001",
-    "description": "Knitted from very soft and elastic viscose yarns, this calf-length cardigan with v-neckline, front button closure and side slit is a must have in every women's wardrobe. With its relaxed fit, its very easy to style with any outfit or for any occasions.",
-    "material": "SOFT VISCOSE",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard20.jpg?v=1657770880",
-    "normal_price": 665000.0,
-    "discount_price": 532000.0
-  },
-  {
-    "product_id": "8959305777391",
-    "name": "Sienna Ease Top | Burgundy",
-    "category_id": "C002",
-    "description": "Crafted from soft buttery knit blend with a fluid hand feel, this burgundy blouse is designed with drapes, fitted sleeves, and a mock neckline. Style it with tailored skirts or trousers and kitten heels for the perfect polished look!",
-    "material": "95% Polyester, 5% Elastane",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/SIENNAEASEBURGUNDY-6.jpg?v=1747875489",
-    "normal_price": 385000.0,
-    "discount_price": 346500.0
-  },
-  {
-    "product_id": "8625230577903",
-    "name": "MICOLE | Slim Fit Crew Neck in Beige",
-    "category_id": "C002",
-    "description": "A wardrobe staple offered in a neutral oatmeal color, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.",
-    "material": "100 % Lyocell Blend",
-    "size": "Small, Medium",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6758-edit.jpg?v=1718842187",
-    "normal_price": 500000.0,
-    "discount_price": 400000.0
-  },
-  {
-    "product_id": "8773355765999",
-    "name": "Vitto Top | Black",
-    "category_id": "C002",
-    "description": "Taking inspiration from classic suiting, our Vitto Top | Black is buttoned up the front to meet a close-fitting crew neckline. Cropped for a slightly relaxed silhouette, this sleeveless style is crafted with our premium polyester fabric that looks crisp, has a slight shine, and keeps you comfortable year round.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/C859F583-05E1-4A45-A19F-F755EC7302AE.jpg?v=1727749951",
-    "normal_price": 550000.0,
-    "discount_price": 495000.0
-  },
-  {
-    "product_id": "8145540219119",
-    "name": "Ford Top Olive",
-    "category_id": "C002",
-    "description": "This ribbed shirt is crafted with soft and breathable rayon yarn, shaped for a feminine and slimming silhouette, and offered in unique olive shade. It’s designed with a pointed collar, special shell buttons, long sleeves and the perfect cropped length.",
-    "material": "90% Rayon, 10% Polyamide",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/FordTopOlive.jpg?v=1697785585",
-    "normal_price": 525000.0,
-    "discount_price": 420000.0
-  },
-  {
-    "product_id": "8773325816047",
-    "name": "Laya Skirt | White",
-    "category_id": "C006",
-    "description": "This denim maxi skirt is inspired from the essence of traditional tailoring, and the casual character of a denim fabric. Cut into an A-line silhouette with front pleated panels, unique belt loop shape, and elastic waistband for additional comfort.",
-    "material": "70% Cotton, 30% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LayaSkirtWhite-4.jpg?v=1729132678",
-    "normal_price": 695000.0,
-    "discount_price": 486500.0
-  },
-  {
-    "product_id": "7605187739887",
-    "name": "Odin Vest Tweed Cream",
-    "category_id": "C003",
-    "description": "Sleeveless tweed vest with covered buttons, elastic waist bandings and chest pockets. Its design, fabric, and color bring both lady-like and contemporary silhouette, perfect for any women, for any occasion!",
-    "material": "60% Wool Blend, 35% Cotton, 5% Nylon",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/ODIN4.jpg?v=1648171949",
-    "normal_price": 675000.0,
-    "discount_price": 492750.0
-  },
-  {
-    "product_id": "7955609616623",
-    "name": "Ansel Cardigan Green",
-    "category_id": "C002",
-    "description": "Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!",
-    "material": "Soft Viscose",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/AnselCardiganGreen.jpg?v=1670990565",
-    "normal_price": 595000.0,
-    "discount_price": 535500.0
-  },
-  {
-    "product_id": "8196275405039",
-    "name": "Vesper Pants Blue",
-    "category_id": "C005",
-    "description": "Crafted from premium Japanese polyester fabric, we have take a quiter approach to the utility trend and made the perfect seasonless cargo pants for you. Shaped with wide legs, panel detailings, and enlarged signature cargo pockets on the either leg. Style them with the coordinating vest.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/VesperPantsBlue.jpg?v=1700779670",
-    "normal_price": 665000.0,
-    "discount_price": 465500.0
-  },
-  {
-    "product_id": "8959791071471",
-    "name": "Elene Skirt | Beige",
-    "category_id": "C006",
-    "description": "High-waisted midi skirt featuring a structured A-line silhouette. Designed with a subtle front flap overlay and an off-center button closure for a modern twist on a classic shape. Made from smooth, medium-weight fabric that drapes beautifully for a flattering fit—perfect for both casual and polished looks.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "Small, Medium",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/ELENESKIRTBEIGE-7.jpg?v=1747787723",
-    "normal_price": 695000.0,
-    "discount_price": 625500.0
-  },
-  {
-    "product_id": "8840007319791",
-    "name": "Protea Set | Navy",
-    "category_id": "C001",
-    "description": "This elegant two-piece knit set features a strapless bandeau top with a flattering peplum detail and a high-waisted flared mini skirt, creating a timeless and sophisticated silhouette. Made from premium knit fabric in a classic deep navy, it offers both structure and comfort, perfect for formal events, evening parties, or upscale gatherings. Wear it as a complete set for a polished look or mix and match with your wardrobe staples for versatile styling.",
-    "material": "100% Nylon",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/IMG_7930.jpg?v=1733997435",
-    "normal_price": 1100000.0,
-    "discount_price": 550000.0
-  },
-  {
-    "product_id": "8036455907567",
-    "name": "Maya Blazer Fuchsia",
-    "category_id": "C002",
-    "description": "Knitted from soft cotton yarns into the perfect blazer top design and silhouette, finished with shoulder pads and covered buttons. Something you never knew you needed in your capsule wardrobe. Undeniably comfortable, suitable for formal or business casual events, keeps you looking professional yet comfortable for your important meetings. Can't forget how perfect it looks as an outer too! This piece will be your best purchase yet!",
-    "material": "100% COTTON",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/MayaFuchsia3.jpg?v=1681104130",
-    "normal_price": 585000.0,
-    "discount_price": 409500.0
-  },
-  {
-    "product_id": "8913120493807",
-    "name": "Balestra Skirt | Black",
-    "category_id": "C006",
-    "description": "This black maxi skirt features a high-waisted design with a wide, fitted bustier style waistband that accentuates the silhouette. The flowing, gathered fabric creates a graceful and elegant look, making it perfect for both casual and dressy occasions. Its versatile style pairs well with various tops for effortless styling.",
-    "material": "Poly Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/BalestraSkirtBlack-2.jpg?v=1741926124",
-    "normal_price": 685000.0,
-    "discount_price": 616500.0
-  },
-  {
-    "product_id": "8005204345071",
-    "name": "Jetro Pants Grey",
-    "category_id": "C005",
-    "description": "Flowing, straight-cut knit pants made from soft viscose yarn, this pants definitely call for sophisticated working-from-home (or anywhere) luxurious loungewear. Just the perfect thing for you when you want to feel pulled together. Pair it with our Ansel Cardi for a complete upscale loungewear look!",
-    "material": "Soft Viscose",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/JetroPantsGrey-2.jpg?v=1677143040",
-    "normal_price": 580000.0,
-    "discount_price": 493000.0
-  },
-  {
-    "product_id": "8773366907119",
-    "name": "Olam Dress | White",
-    "category_id": "C001",
-    "description": "Crafted from crisp cotton blend fabric, this white shirt dress is inspired by elements of workwear but made our way. Featuring a pointed collar, front button closure, A-line fit, and a flattering halter neckline. Perfect to throw on this fall season!",
-    "material": "70% Cotton, 30% Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/OlamDressWhite.jpg?v=1729132619",
-    "normal_price": 675000.0,
-    "discount_price": 405000.0
-  },
-  {
-    "product_id": "8897272807663",
-    "name": "Kairi Top | White",
-    "category_id": "C002",
-    "description": "Crafted from soft buttery knit blend with a fluid hand feel, this asymmetrical blouse is designed with drapes, fitted sleeves, and one shoulder silhouette. Style it with tailored skirts or trousers and kitten heels for the perfect fall outfit!",
-    "material": "90% Polyester, 10% Elastane",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/KAIRITOPWHITE-1.jpg?v=1741927123",
-    "normal_price": 475000.0,
-    "discount_price": 380000.0
-  },
-  {
-    "product_id": "8913498046703",
-    "name": "Budan Top | Black",
-    "category_id": "C002",
-    "description": "This sleeveless black top features a structured, tailored fit with a button-up front and a subtle flare at the waist, creating an elegant silhouette. Its minimalist design makes it a versatile staple, perfect for pairing with wide-leg trousers, our Tan Pants | Black or a sleek pencil skirt for a refined look.",
-    "material": "Poly Blend",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/BudanTopBlack.jpg?v=1741855281",
-    "normal_price": 625000.0,
-    "discount_price": 562500.0
-  },
-  {
-    "product_id": "7471348252911",
-    "name": "Marley Outerwear Maroon",
-    "category_id": "C003",
-    "description": "This tailored sleeveless knit outer is designed to be the versatile piece for your wardrobe, it can be worn anytime and perfect for your everyday pieces. The leather belt detail at the waist is meant to enhance a woman's curve. You can pair it with our Neta pants to create a smart casual look.",
-    "material": "65% Acrylic 35% Viscose",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.43.32_2.jpg?v=1638868075",
-    "normal_price": 780000.0,
-    "discount_price": 663000.0
-  },
-  {
-    "product_id": "8269638271215",
-    "name": "Lumi Tweed Outer Pink",
-    "category_id": "C003",
-    "description": "Immensely wearable yet loaded with glamour, this jacket is cut from pink sparkly tweed. It has an effortlessly boxy fit but is cropped to flatter your form. Pair it with our Glacer Leather Skirt for your dinner dates or Gilia Denim Jeans for your Valentines dinner!",
-    "material": "100% Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LumiOuterTweedPink.jpg?v=1707101809",
-    "normal_price": 995000.0,
-    "discount_price": 696500.0
-  },
-  {
-    "product_id": "8037925126383",
-    "name": "Chai Blazer Shirt Navy",
-    "category_id": "C002",
-    "description": "Tailored from smooth and lustrous satin print fabric in a double-breasted, slightly oversized silhouette. It has a face framing peak lapels with a structured tailoring front body design, and a relaxed shirt silhouette design on the back. Perfectly comfortable to wear yet still appropriate for formal occasions.",
-    "material": "100% Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/ChaiNavy1.jpg?v=1681272956",
-    "normal_price": 650000.0,
-    "discount_price": 585000.0
-  },
-  {
-    "product_id": "8196090462447",
-    "name": "Larra Pants Grey",
-    "category_id": "C005",
-    "description": "The comfiest wardrobe staple, designed with our favorite ultra-soft jersey fabric. This straight-leg pant style features a stretch waistband making it comfortable to wear all day long! Wear it as a set with our Remy t-shirt for an easy travel ootd!",
-    "material": "90% Polyester, 10% Elastane",
-    "size": "S, M, L, XL",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LarraPantsGrey.jpg?v=1700777919",
-    "normal_price": 590000.0,
-    "discount_price": 295000.0
-  },
-  {
-    "product_id": "7946311041263",
-    "name": "Priya Shorts Green",
-    "category_id": "C005",
-    "description": "Knitted from soft cotton yarns into the perfect christmas color pointelle knit pattern, this easy pull-on shorts styles perfectly with any clothing piece you can think of! Pair it with our Rami Cardigan to make you look effortlessly chic for a cozy get together this holiday season!",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/PriyaShortsGreen.jpg?v=1670331275",
-    "normal_price": 465000.0,
-    "discount_price": 279000.0
-  },
-  {
-    "product_id": "7471421260015",
-    "name": "Peter Tencel Shirt",
-    "category_id": "C002",
-    "description": "Button Up Shirt with rouned collar, pleated",
-    "material": "TENCEL™ Modal",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/WhatsAppImage2021-12-07at13.44.10_1.jpg?v=1638927171",
-    "normal_price": 500000.0,
-    "discount_price": 250000.0
-  },
-  {
-    "product_id": "8196095443183",
-    "name": "Pralu Pants Grey",
-    "category_id": "C005",
-    "description": "Our Pralu Pants is crafted for a flared fit that complements every body type! This pants surely does the trick of elongating your legs and creating the most flattering fit out of a women's legs, not to mention its super soft and stretchy fabric. Certainly a must have in everyone's wardrobe essential.",
-    "material": "90% Polyester, 10% Elastane",
-    "size": "S, M, L",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/PraluPantsGrey.jpg?v=1700779304",
-    "normal_price": 590000.0,
-    "discount_price": 354000.0
-  },
-  {
-    "product_id": "8198584860911",
-    "name": "Caba Blazer Ginger Brown",
-    "category_id": "C003",
-    "description": "Our Caba Blazer is a special tailoring piece that features a collarless neckline, wide padded shoulders, and a single-breasted close. Offered in the perfect autumn shade of ginger brown that's precisely color-matched to the coordinating Harlow Pants.",
-    "material": "100% Japan made Premium Polyester",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/transitArtboard1.jpg?v=1700800216",
-    "normal_price": 975000.0,
-    "discount_price": 487500.0
-  },
-  {
-    "product_id": "8006360498415",
-    "name": "Eli Top Red",
-    "category_id": "C002",
-    "description": "Knitted from soft cotton yarns, this utterly comfy knit top will easily become a staple in every women's wardrobe. As a loungewear or for going out, this top has a very versatile style that you can pair it with any bottom you can possibly think of.",
-    "material": "100% Cotton",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/DAN-DUMA20230110-CATALOGUE2-13.jpg?v=1677132937",
-    "normal_price": 350000.0,
-    "discount_price": 140000.0
-  },
-  {
-    "product_id": "8897159463151",
-    "name": "Acma Shirt Top | Taupe",
-    "category_id": "C002",
-    "description": "This knit top exudes elegance with its soft drape and smooth texture, offering both comfort and sophistication. Featuring a notched collar and button-down front, it blends classic tailoring with a relaxed, modern feel. The half sleeves provide a balanced look, making it suitable for both warm and transitional weather. The subtly fitted silhouette enhances the figure while maintaining ease of movement, and the split hem detail at the front adds a contemporary touch. Easily style this top with tailored trousers for a polished look or paired with denim for effortless chic.",
-    "material": "Rayon Blend",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/ACMASHIRTTOPTAUPE-1.jpg?v=1740375455",
-    "normal_price": 650000.0,
-    "discount_price": 520000.0
+    "normal_price": 700000.0
   },
   {
     "product_id": "8294607487215",
-    "name": "BELINDA | Regular Fit Extreme Soft in White",
-    "category_id": "C002",
-    "description": "A very versatile and classic t-shirt, offered in classic white. Crafted from a special cotton blend that’s soft to the touch, this classic crew neck top is cut for a neat fit with the perfect length.",
-    "material": "100 % Cotton Blend",
-    "size": "All Size (Fit to XL)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LEN01114-edit.jpg?v=1708999379",
-    "normal_price": 500000.0,
-    "discount_price": 450000.0
+    "normal_price": 500000.0
   },
   {
-    "product_id": "8625233592559",
-    "name": "MICOLE | Slim Fit Crew Neck in Grey",
-    "category_id": "C002",
-    "description": "A wardrobe staple offered in cool grey shade, it’s crafted from soft and stretch lyocell and has a streamlined slim fit that's ideal for daily or for layering purposes.",
-    "material": "100 % Lyocell Blend",
-    "size": "Small, Medium",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6717-edit.jpg?v=1718842286",
-    "normal_price": 500000.0,
-    "discount_price": 400000.0
+    "product_id": "8897112965359",
+    "normal_price": 700000.0
   },
   {
-    "product_id": "8791875551471",
-    "name": "Ochre Shorts | Sand",
-    "category_id": "C005",
-    "description": "Designed with a mid-waist and tailored fit, these shorts offer a chic silhouette that transitions seamlessly from day to night. Dress it up with our matching suede jacket in warm hues, or down with a casual tee—these suede shorts are your go-to piece for stylish fall layering.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/OCHRESHORTSSAND-5.jpg?v=1729052933",
-    "normal_price": 420000.0,
-    "discount_price": 357000.0
+    "product_id": "8913102569711",
+    "normal_price": 800000.0
   },
   {
-    "product_id": "7946297344239",
-    "name": "Jetro Pants Camel",
-    "category_id": "C005",
-    "description": "Flowing, straight-cut knit pants made from soft viscose yarn, this pants definitely call for sophisticated working-from-home (or anywhere) luxurious loungewear. Just the perfect thing for you when you want to feel pulled together. Pair it with our Ansel Cardi for a complete upscale loungewear look!",
-    "material": "Soft Viscose",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/JemaPantsCamel.jpg?v=1670333059",
-    "normal_price": 580000.0,
-    "discount_price": 493000.0
+    "product_id": "8913498046703",
+    "normal_price": 625000.0
   },
   {
-    "product_id": "8773339513071",
-    "name": "Kairi Top | Black",
-    "category_id": "C002",
-    "description": "Crafted from soft buttery knit blend with a fluid hand feel, this asymmetrical blouse is designed with drapes, fitted sleeves, and one shoulder silhouette. Style it with tailored skirts or trousers and kitten heels for the perfect fall outfit!",
-    "material": "90% Polyester, 10% Elastane",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/DE8B88EE-6D98-4814-A9CA-E55EB0D5D347.jpg?v=1727768404",
-    "normal_price": 475000.0,
-    "discount_price": 427500.0
+    "product_id": "7955609616623",
+    "normal_price": 595000.0
   },
   {
-    "product_id": "8005190975727",
-    "name": "Ansel Cardigan Grey",
-    "category_id": "C002",
-    "description": "Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!",
-    "material": "Soft Viscose",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/AnselCardiganGrey.jpg?v=1677142063",
-    "normal_price": 595000.0,
-    "discount_price": 505750.0
+    "product_id": "8959261671663",
+    "normal_price": 725000.0
+  },
+  {
+    "product_id": "8773299405039",
+    "normal_price": 950000.0
+  },
+  {
+    "product_id": "8253781967087",
+    "normal_price": 789000.0
+  },
+  {
+    "product_id": "8114155389167",
+    "normal_price": 789000.0
+  },
+  {
+    "product_id": "7946294001903",
+    "normal_price": 575000.0
+  },
+  {
+    "product_id": "8218770833647",
+    "normal_price": 625000.0
+  },
+  {
+    "product_id": "7471421260015",
+    "normal_price": 500000.0
+  },
+  {
+    "product_id": "8913633804527",
+    "normal_price": 595000.0
+  },
+  {
+    "product_id": "8742187466991",
+    "normal_price": 600000.0
+  },
+  {
+    "product_id": "8307532005615",
+    "normal_price": 595000.0
   },
   {
     "product_id": "8913104109807",
-    "name": "Gome Shorts | Black Multi",
-    "category_id": "C005",
-    "description": "Designed with a mid-waist and tailored fit, these classic checked pattern tweed shorts offer a chic silhouette that transitions seamlessly from day to night. With added fray",
-    "material": "Poly Blend",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/GomeShortsBlack.jpg?v=1741855095",
-    "normal_price": 495000.0,
-    "discount_price": 445500.0
+    "normal_price": 495000.0
   },
   {
-    "product_id": "8742223577327",
-    "name": "Petunia Dress | Black",
-    "category_id": "C001",
-    "description": "A classic LBD that would make you bloom like a beautiful flower. Crafted from 100% Japanese-made premium polyester, this dress has a unique cut-and-sewn detail you’ve never seen before. It’s cinched at the waist, with a little bit of space for comfortable movements, then flares down prettily into a peplum mini skirt. Designed with a simple round-neck cut and a regular-fitting bodice to keep the whole look sophisticated.",
-    "material": "100% Japanese made Premium Polyester",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/PETUNIADRESSBLACK-5.jpg?v=1724753455",
-    "normal_price": 685000.0,
-    "discount_price": 548500.0
+    "product_id": "8913631740143",
+    "normal_price": 595000.0
   },
   {
-    "product_id": "8145638097135",
-    "name": "Danielle Top Navy",
-    "category_id": "C002",
-    "description": "Zigzag Knit Top made from finely knitted cotton yarns, great for your daily fits. Designed in a relaxed silhouette, with puffed sleeves and added ruffle sleeve hem",
-    "material": "100% Cotton",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/DanielleZigzagTop.jpg?v=1697775840",
-    "normal_price": 625000.0,
-    "discount_price": 437500.0
+    "product_id": "8037925126383",
+    "normal_price": 650000.0
   },
   {
-    "product_id": "8947915292911",
-    "name": "Sienna Top | Dark Brown",
-    "category_id": "C002",
-    "description": "Crafted from soft buttery knit blend with a fluid hand feel, this dark brown blouse is designed with drapes, fitted sleeves, and a mock neckline. Style it with tailored skirts or trousers and kitten heels for the perfect polished look!",
-    "material": "90% Polyester, 10% Elastane",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/SIENNATOPDARKBROWN-5.jpg?v=1747798938",
-    "normal_price": 475000.0,
-    "discount_price": 427500.0
+    "product_id": "8252028420335",
+    "normal_price": 1300000.0
   },
   {
-    "product_id": "8295198327023",
-    "name": "RACHEL | Slim Fit Scoop Neck in Dark Grey",
-    "category_id": "C002",
-    "description": "A wardrobe staple offered in a subdued dark grey shade, it’s crafted from soft and stretch lyocell and has a streamlined slim fit and flattering scoop neckline that's ideal for your everyday wear.",
-    "material": "100 % Lyocell Blend",
-    "size": "Small, Medium",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/LEN-DUMA-6867-edit.jpg?v=1718842069",
-    "normal_price": 525000.0,
-    "discount_price": 420000.0
+    "product_id": "8234756931823",
+    "normal_price": 995000.0
   },
   {
-    "product_id": "8773307990255",
-    "name": "Harmel Skirt | Black",
-    "category_id": "C006",
-    "description": "Focusing on classic tailoring this fall season, this midi skirt is crafted from premium vegan leather fabric with a paneled construction precisely cut in a slim, straight silhouette that perfectly elongates the figure. Finished with back invisible zipper opening and back slit for easy walking. Pair it with our Sienna Top | White for the perfectly elegant fall outfit.",
-    "material": "100% Polyester",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/HarmelSkirtBlack-2.jpg?v=1729132955",
-    "normal_price": 685000.0,
-    "discount_price": 582500.0
+    "product_id": "8818175770863",
+    "normal_price": 495000.0
   },
   {
-    "product_id": "8773322178799",
-    "name": "Curka Pants | White",
-    "category_id": "C005",
-    "description": "Made from soft and stretchy denim in clear white, these pants are shaped with a high-rise waist and wide legs that effortlessly flows down your feet. Finished with our two front pocket styling that modernize the classic codes of denim.",
-    "material": "Cotton Spandex",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/CurkaPantsWhite-2.jpg?v=1729132904",
-    "normal_price": 695000.0,
-    "discount_price": 590750.0
+    "product_id": "8145623580911",
+    "normal_price": 650000.0
   },
   {
-    "product_id": "8959790874863",
-    "name": "Tan Pants | Burgundy",
-    "category_id": "C005",
-    "description": "Elevate your look with these effortlessly chic high-waisted satin pants. Designed with a bias cut for a beautifully fluid drape, they feature an easy wide-leg silhouette that moves gracefully with every step. The slip-on style and elasticized waistband ensure a comfortable, flattering fit, making these pants perfect for both casual and dressy occasions. Pair them with your favorite top for a polished yet relaxed vibe.",
-    "material": "100% Premium Polyester",
-    "size": "Small, Medium, Large",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/TANPANTSBURGUNDY-1.jpg?v=1747646400",
-    "normal_price": 685000.0,
-    "discount_price": 616500.0
+    "product_id": "8196275405039",
+    "normal_price": 665000.0
+  },
+  {
+    "product_id": "8196307550447",
+    "normal_price": 700000.0
+  },
+  {
+    "product_id": "8145477468399",
+    "normal_price": 695000.0
   },
   {
     "product_id": "8196294607087",
-    "name": "Faye Knit Outer White",
-    "category_id": "C003",
-    "description": "Made from a loosely knitted rib texture using soft rayon yarns, this maxi cardigan coat has a fluid silhouette with notched collar and an open front. Wear it with the matching dress to elevate your lounge/travel wear.",
-    "material": "92% Rayon, 8% Nylon",
-    "size": "ALL SIZE (FIT TO L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/FayeOuterWhite.jpg?v=1700777650",
-    "normal_price": 700000.0,
-    "discount_price": 455000.0
+    "normal_price": 700000.0
+  },
+  {
+    "product_id": "7947446321391",
+    "normal_price": 450000.0
+  },
+  {
+    "product_id": "8742181306607",
+    "normal_price": 600000.0
+  },
+  {
+    "product_id": "8791912448239",
+    "normal_price": 900000.0
+  },
+  {
+    "product_id": "8196115693807",
+    "normal_price": 650000.0
+  },
+  {
+    "product_id": "8198585417967",
+    "normal_price": 975000.0
+  },
+  {
+    "product_id": "8897163395311",
+    "normal_price": 650000.0
+  },
+  {
+    "product_id": "8625233592559",
+    "normal_price": 500000.0
+  },
+  {
+    "product_id": "8667287453935",
+    "normal_price": 550000.0
+  },
+  {
+    "product_id": "8901383880943",
+    "normal_price": 789000.0
+  },
+  {
+    "product_id": "8145302880495",
+    "normal_price": 695000.0
+  },
+  {
+    "product_id": "8329480503535",
+    "normal_price": 725000.0
+  },
+  {
+    "product_id": "8843368300783",
+    "normal_price": 750000.0
+  },
+  {
+    "product_id": "8773307990255",
+    "normal_price": 685000.0
+  },
+  {
+    "product_id": "8982852108527",
+    "normal_price": 650000.0
+  },
+  {
+    "product_id": "7605187739887",
+    "normal_price": 675000.0
+  },
+  {
+    "product_id": "8773325816047",
+    "normal_price": 695000.0
+  },
+  {
+    "product_id": "8840007319791",
+    "normal_price": 1100000.0
+  },
+  {
+    "product_id": "8625230577903",
+    "normal_price": 500000.0
+  },
+  {
+    "product_id": "8005185241327",
+    "normal_price": 595000.0
+  },
+  {
+    "product_id": "8773366907119",
+    "normal_price": 675000.0
+  },
+  {
+    "product_id": "8218769981679",
+    "normal_price": 995000.0
+  },
+  {
+    "product_id": "8897272807663",
+    "normal_price": 475000.0
+  },
+  {
+    "product_id": "8791875551471",
+    "normal_price": 420000.0
+  },
+  {
+    "product_id": "8006360498415",
+    "normal_price": 350000.0
+  },
+  {
+    "product_id": "8843356078319",
+    "normal_price": 550000.0
+  },
+  {
+    "product_id": "8665221693679",
+    "normal_price": 485000.0
+  },
+  {
+    "product_id": "8329474244847",
+    "normal_price": 665000.0
+  },
+  {
+    "product_id": "8196280549615",
+    "normal_price": 665000.0
+  },
+  {
+    "product_id": "8005193531631",
+    "normal_price": 580000.0
+  },
+  {
+    "product_id": "8959790874863",
+    "normal_price": 685000.0
+  },
+  {
+    "product_id": "8005164826863",
+    "normal_price": 600000.0
+  },
+  {
+    "product_id": "8951255498991",
+    "normal_price": 525000.0
+  },
+  {
+    "product_id": "8269638271215",
+    "normal_price": 995000.0
+  },
+  {
+    "product_id": "8773322178799",
+    "normal_price": 695000.0
+  },
+  {
+    "product_id": "8329483780335",
+    "normal_price": 675000.0
+  },
+  {
+    "product_id": "8036455907567",
+    "normal_price": 585000.0
+  },
+  {
+    "product_id": "8211518947567",
+    "normal_price": 775000.0
+  },
+  {
+    "product_id": "8792566825199",
+    "normal_price": 420000.0
+  },
+  {
+    "product_id": "8196090462447",
+    "normal_price": 590000.0
+  },
+  {
+    "product_id": "8329477685487",
+    "normal_price": 665000.0
+  },
+  {
+    "product_id": "8773329977583",
+    "normal_price": 475000.0
+  },
+  {
+    "product_id": "8959305777391",
+    "normal_price": 385000.0
+  },
+  {
+    "product_id": "8959266095343",
+    "normal_price": 725000.0
+  },
+  {
+    "product_id": "8913120493807",
+    "normal_price": 685000.0
+  },
+  {
+    "product_id": "8818180620527",
+    "normal_price": 495000.0
+  },
+  {
+    "product_id": "8842757177583",
+    "normal_price": 685000.0
+  },
+  {
+    "product_id": "8295196754159",
+    "normal_price": 525000.0
+  },
+  {
+    "product_id": "8145540219119",
+    "normal_price": 525000.0
+  },
+  {
+    "product_id": "8773339513071",
+    "normal_price": 475000.0
+  },
+  {
+    "product_id": "8498254676207",
+    "normal_price": 600000.0
+  },
+  {
+    "product_id": "8742172721391",
+    "normal_price": 535000.0
+  },
+  {
+    "product_id": "8959789039855",
+    "normal_price": 680000.0
+  },
+  {
+    "product_id": "8498257625327",
+    "normal_price": 600000.0
   },
   {
     "product_id": "8329482731759",
-    "name": "Natia Skirt Mint",
-    "category_id": "C006",
-    "description": "An elegant addition to the collection, our Natia Midi Skirt is designed with box pleats that sinches the waist perfectly and falls to a fuller, volumous skirt. Our special brocade fabrication adds an extra tecture to this structured style, midi length and hidden zipper help polished off this silhouette. Pair it with our matching Florence top for the perfect look!",
-    "material": "60% Polyester, 40% Cotton",
-    "size": "1, 2",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/NatiaSkirtMint-2.jpg?v=1711073392",
-    "normal_price": 725000.0,
-    "discount_price": 435000.0
+    "normal_price": 725000.0
   },
   {
-    "product_id": "7975349747951",
-    "name": "Ansel Cardigan Orange",
-    "category_id": "C002",
-    "description": "Knitted from soft viscose yarns, this V-neck cardigan is designed for a regular fit and features a subtly nipped-in waist. It has modern tubular trims, finished with front button closure and ribbed cuffs and hems. The perfect luxurious loungewear you need in your wardrobe!",
-    "material": "SOFT VISCOSE",
-    "size": "All Size",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/AnselCardiganOrange.jpg?v=1673497378",
-    "normal_price": 595000.0,
-    "discount_price": 297500.0
+    "product_id": "8196244504815",
+    "normal_price": 575000.0
   },
   {
-    "product_id": "8818180096239",
-    "name": "Ang T-Shirt | Grey",
-    "category_id": "C002",
-    "description": "Secure your transitional wardrobe with this staple long-sleeved mock neck top. Offered in a grey tone, it’s crafted from soft lyocell blend and has a streamlined slim fit that’s ideal for layering.",
-    "material": "76% Lyocell, 19% Wool, 5% Spandex",
-    "size": "ALL SIZE (Fit to L)",
-    "image_url": "http://dumaofficial.com/cdn/shop/files/AngT-ShirtGrey-3.png?v=1731576603",
-    "normal_price": 495000.0,
-    "discount_price": 396000.0
+    "product_id": "8625234739439",
+    "normal_price": 500000.0
+  },
+  {
+    "product_id": "7946311041263",
+    "normal_price": 465000.0
+  },
+  {
+    "product_id": "8792600543471",
+    "normal_price": 495000.0
+  },
+  {
+    "product_id": "8984622891247",
+    "normal_price": 675000.0
+  },
+  {
+    "product_id": "8959791071471",
+    "normal_price": 695000.0
+  },
+  {
+    "product_id": "8196312072431",
+    "normal_price": 950000.0
+  },
+  {
+    "product_id": "8211517767919",
+    "normal_price": 775000.0
+  },
+  {
+    "product_id": "8773378048239",
+    "normal_price": 675000.0
+  },
+  {
+    "product_id": "8843365155055",
+    "normal_price": 750000.0
+  },
+  {
+    "product_id": "8196303847663",
+    "normal_price": 665000.0
+  },
+  {
+    "product_id": "8005190975727",
+    "normal_price": 595000.0
+  },
+  {
+    "product_id": "8665202065647",
+    "normal_price": 550000.0
+  },
+  {
+    "product_id": "8196095443183",
+    "normal_price": 590000.0
+  },
+  {
+    "product_id": "8792600772847",
+    "normal_price": 495000.0
+  },
+  {
+    "product_id": "8329462743279",
+    "normal_price": 1200000.0
+  },
+  {
+    "product_id": "8196097474799",
+    "normal_price": 550000.0
+  },
+  {
+    "product_id": "8947915292911",
+    "normal_price": 475000.0
+  },
+  {
+    "product_id": "7471348252911",
+    "normal_price": 780000.0
+  },
+  {
+    "product_id": "8840010432751",
+    "normal_price": 550000.0
+  },
+  {
+    "product_id": "7975350730991",
+    "normal_price": 495000.0
+  },
+  {
+    "product_id": "7740224897263",
+    "normal_price": 665000.0
+  },
+  {
+    "product_id": "8791861231855",
+    "normal_price": 900000.0
+  },
+  {
+    "product_id": "7894083371247",
+    "normal_price": 585000.0
+  },
+  {
+    "product_id": "8959790022895",
+    "normal_price": 1500000.0
+  },
+  {
+    "product_id": "8843362861295",
+    "normal_price": 595000.0
+  },
+  {
+    "product_id": "8664891523311",
+    "normal_price": 550000.0
+  },
+  {
+    "product_id": "8667288961263",
+    "normal_price": 550000.0
+  },
+  {
+    "product_id": "8897159463151",
+    "normal_price": 650000.0
+  },
+  {
+    "product_id": "8842758521071",
+    "normal_price": 685000.0
+  },
+  {
+    "product_id": "8843364073711",
+    "normal_price": 595000.0
+  },
+  {
+    "product_id": "8253784785135",
+    "normal_price": 789000.0
+  },
+  {
+    "product_id": "8773355765999",
+    "normal_price": 550000.0
+  },
+  {
+    "product_id": "7947448090863",
+    "normal_price": 450000.0
+  },
+  {
+    "product_id": "8295198327023",
+    "normal_price": 525000.0
+  },
+  {
+    "product_id": "8218799669487",
+    "normal_price": 675000.0
+  },
+  {
+    "product_id": "8913076879599",
+    "normal_price": 695000.0
+  },
+  {
+    "product_id": "8842747052271",
+    "normal_price": 585000.0
+  },
+  {
+    "product_id": "8947918569711",
+    "normal_price": 750000.0
+  },
+  {
+    "product_id": "8196111565039",
+    "normal_price": 665000.0
+  },
+  {
+    "product_id": "8198584860911",
+    "normal_price": 975000.0
+  },
+  {
+    "product_id": "8665228214511",
+    "normal_price": 485000.0
+  },
+  {
+    "product_id": "7867716829423",
+    "normal_price": 625000.0
+  },
+  {
+    "product_id": "8196252336367",
+    "normal_price": 575000.0
+  },
+  {
+    "product_id": "8218759266543",
+    "normal_price": 650000.0
+  },
+  {
+    "product_id": "7946305274095",
+    "normal_price": 675000.0
+  },
+  {
+    "product_id": "8211469664495",
+    "normal_price": 650000.0
+  },
+  {
+    "product_id": "8742223577327",
+    "normal_price": 685000.0
   },
   {
     "product_id": "7740223979759",
-    "name": "Marin Cardigan Brown",
-    "category_id": "C001",
-    "description": "Knitted from very soft and elastic viscose yarns, this calf-length cardigan with v-neckline, front button closure and side slit is a must have in every women's wardrobe. With its relaxed fit, its very easy to style with any outfit or for any occasions.",
-    "material": "SOFT VISCOSE",
-    "size": "ALL SIZE",
-    "image_url": "http://dumaofficial.com/cdn/shop/products/FUNDAMENTALSRESIZEDCATALOGArtboard7.jpg?v=1657770918",
-    "normal_price": 665000.0,
-    "discount_price": 532000.0
+    "normal_price": 665000.0
+  },
+  {
+    "product_id": "8913528520943",
+    "normal_price": 650000.0
+  },
+  {
+    "product_id": "7946305732847",
+    "normal_price": 675000.0
+  },
+  {
+    "product_id": "7946308813039",
+    "normal_price": 585000.0
+  },
+  {
+    "product_id": "8295197442287",
+    "normal_price": 525000.0
+  },
+  {
+    "product_id": "8818180096239",
+    "normal_price": 495000.0
+  },
+  {
+    "product_id": "7975349747951",
+    "normal_price": 595000.0
+  },
+  {
+    "product_id": "8742178029807",
+    "normal_price": 535000.0
   }
 ]

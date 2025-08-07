@@ -22,5 +22,25 @@
   {
     "category_id": "C006",
     "name": "Skirt"
+  },
+  {
+    "category_id": "C007",
+    "name": "Overall"
+  },
+  {
+    "category_id": "C008",
+    "name": "Accesories"
+  },
+  {
+    "category_id": "C009",
+    "name": "Blanket"
+  },
+  {
+    "category_id": "C010",
+    "name": "Cushion"
+  },
+  {
+    "category_id": "C011",
+    "name": "Vests"
   }
 ]

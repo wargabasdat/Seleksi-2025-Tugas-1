@@ -36,7 +36,7 @@ def extract_size(desc):
     return ""
 
 def get_category_id(category_name):
-    category_map = { "Dress": "C001", "Top": "C002", "Outerwear": "C003", "Card": "C004", "Pants": "C005", "Skirt": "C006", "Bottom": "C005" }
+    category_map = { "Dress": "C001", "Top": "C002", "Outerwear": "C003", "Card": "C004", "Pants": "C005", "Skirt": "C006", "Overall":"C007", "Accesories":"C008", "Blanket":"C009", "Cushion":"C010", "Vests":"C011" }
     for key, value in category_map.items():
         if key.lower() in category_name.lower(): return value
     return "C999"
@@ -122,7 +122,11 @@ def main():
     base_url = "https://dumaofficial.com"
     start_url = f"{base_url}/collections/all"
 
-    product_data, discount_data, category_set = [], [], set()
+    # Inisialisasi list untuk setiap file JSON
+    all_products_data = []
+    discount_products_data = []
+    normal_products_data = []
+    category_set = set()
 
     all_product_urls = get_all_product_urls(driver, start_url)
 
@@ -153,39 +157,56 @@ def main():
         category_id = get_category_id(detail['category'])
         category_set.add((category_id, detail['category'].title()))
 
-        record = {
+
+        # 1. Data untuk products.json 
+        full_record = {
             "product_id": detail['product_id'], "name": detail['name'], "category_id": category_id,
             "description": detail['description'], "material": detail['material'], "size": detail['size'],
             "image_url": detail['image_url'], "price": detail['price']
         }
-        product_data.append(record)
+        all_products_data.append(full_record)
         print(f"  -> Berhasil scrape: {detail['name']}")
 
-        if detail['compare_at_price'] and detail['compare_at_price'] > detail['price']:
+        # 2. Cek apakah produk diskon atau normal
+        is_discounted = detail['compare_at_price'] and detail['compare_at_price'] > detail['price']
+        
+        if is_discounted:
+            # Jika diskon, buat record untuk discount_products.json
             discount_record = {
-                "product_id": detail['product_id'], "name": detail['name'], "category_id": category_id,
-                "description": detail['description'], "material": detail['material'], "size": detail['size'],
-                "image_url": detail['image_url'], "normal_price": detail['compare_at_price'],
-                "discount_price": detail['price']
+                "product_id": detail['product_id'],
+                "normal_price": detail['compare_at_price']
             }
-            discount_data.append(discount_record)
+            discount_products_data.append(discount_record)
+        else:
+            # Jika tidak diskon, buat record untuk normal_products.json
+            normal_record = {
+                "product_id": detail['product_id']
+            }
+            normal_products_data.append(normal_record)
+            
 
     driver.quit()
 
     print("\n----------------------------------------")
-    print(f"Scraping complete. Total products found: {len(product_data)}")
-    print(f"Total discount products found: {len(discount_data)}")
+    print(f"Scraping complete. Total products found: {len(all_products_data)}")
+    print(f"Total discount products found: {len(discount_products_data)}")
+    print(f"Total normal products found: {len(normal_products_data)}")
     print("------------------------------------------\n")
 
     with open("products.json", "w", encoding="utf-8") as f:
-        json.dump(product_data, f, indent=2, ensure_ascii=False)
+        json.dump(all_products_data, f, indent=2, ensure_ascii=False)
+    
     with open("discount_products.json", "w", encoding="utf-8") as f:
-        json.dump(discount_data, f, indent=2, ensure_ascii=False)
+        json.dump(discount_products_data, f, indent=2, ensure_ascii=False)
+        
+    with open("normal_products.json", "w", encoding="utf-8") as f:
+        json.dump(normal_products_data, f, indent=2, ensure_ascii=False)
+
     categories = sorted(list(category_set), key=lambda x: x[0])
     with open("categories.json", "w", encoding="utf-8") as f:
         json.dump([{"category_id": cid, "name": name} for cid, name in categories if cid != "C999"], f, indent=2, ensure_ascii=False)
 
-    print("All data has been saved to .json files")
+    print("All data has been saved to .json files: products.json, discount_products.json, normal_products.json, and categories.json")
 
 if __name__ == "__main__":
     main()
