@@ -14,14 +14,6 @@ import time
 import random
 import os
 
-def get_game_category():
-    game_categories = ['Most Engaging', 'Up-And-Coming', 'Popular',
-                       'Top Rated', 'Free Private Servers', 'Learn & Explore',
-                       'Featured', 'Popular Among Premium', 'Top Earning',
-                       'People Love', 'Roleplay', 'Adventure', 'Fighting',
-                       'Obby', 'Tycoon', 'Simulator']
-    return game_categories[int(sys.argv[1])]
-
 def setup_chrome_driver():
     chrome_options = Options()
     # chrome_options.add_argument("--headless")
@@ -111,7 +103,7 @@ def remove_special_characters(data: list):
     return [str(item).replace('"','').replace("'",'').replace('|','').replace('\n','').replace(',','') for item in data]
 
 def validate_game_data(driver, data: list):
-    if len(data) == 18:
+    if len(data) == 17:
         return data
     else:
         print('\n\n ERROR: ROW DID NOT HAVE CORRECT NUMBER OF FEATURES \n\n')
@@ -170,7 +162,7 @@ def write_data_to_json(data: list):
     file_location = 'data/raw/game.json'
     field_names = ['Date', 'Active Users', 'Favorites', 'Total Visits', 'Voice Chat', 'Camera', 
                'Date Created', 'Last Updated', 'Server Size', 'Genre', 'Title', 'Community',
-               'Maturity', 'Thumbs Up', 'Thumbs Down', 'gameID', 'Category', 'URL']
+               'Maturity', 'Thumbs Up', 'Thumbs Down', 'gameID', 'URL']
 
     json_data = []
     for row in data:
@@ -221,12 +213,8 @@ def save_json(data_list, file_path):
         json.dump(data_list, f, indent=2, ensure_ascii=False)
         
 def main():
-    if len(sys.argv) != 2:
-        sys.exit(1)
-
     driver = setup_chrome_driver()
     try:
-        game_category = get_game_category()
         game_urls = get_game_urls(driver)[:200]
         print(f"Found {len(game_urls)} games to scrape")
 
@@ -254,7 +242,6 @@ def main():
                 game_data.append(get_thumbs_up(driver))
                 game_data.append(get_thumbs_down(driver))
                 game_data.append(get_gameid(game_url))
-                game_data.append(game_category)
                 game_data.append(game_url)
                 game_data = remove_special_characters(game_data)
                 game_data = validate_game_data(driver, game_data)
