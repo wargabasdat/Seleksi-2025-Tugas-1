@@ -150,14 +150,79 @@ Berisi informasi mengenai komentar pada suatu episode.
 ![DW Relational Diagram](Data%20Warehouse/design/Relational%20Diagram%20DW.png)
 
 ## Translasi ERD Menjadi Diagram Relasional
-Penjelasan mengenai proses translasi ERD menjadi diagram relasional.
 ### Data Storing
+1. **Entitas kuat** seperti `Episode`, `Personnel`, dan `User` masing-masing diubah menjadi sebuah tabel dengan seluruh atributnya sebagai kolom dan primary key sesuai yang telah diidentifikasi di ERD.
+2. **Entitas lemah** `Comment` diubah menjadi tabel `Comment` dengan seluruh atributnya sebagai kolom serta primary key berupa diskriminator pada entitas lemahnya, yaitu `episode_id`, dan primary key sekaligus foreign key `episode_id` dari entitas kuat `Episode` yang terhubung dengannya.
+3. **Hubungan many-to-many** antara `Episode` dan `Personnel`, yaitu `Plays` dan `Involves` masing-masing diimplementasikan menjadi tabel tersendiri, yaitu `Cast` dan `Crew` secara berurutan, dengan primary key gabungan dari kedua entitas, yaitu `episode_id` dari `Episode` dan `name` dari `Personnel`, yang juga menjadi foreign key. Atribut yang ada pada hubungan tersebut (relationship attribute) menjadi kolom pada tabel. Atribut `character_name` turut menjadi primary key pada tabel `Cast` dan `role` turut menjadi primary key pada tabel `Crew` untuk memenuhi asumsi-asumsi yang ada.
+4. **Hubungan one-to-many** antara `User` dan `Comment` diimplementasikan dengan menempatkan primary key dari sisi "one", yakni `username` sebagai primary key sekaligus foreign key di sisi "many" yang merupakan **agregasi** dengan hubungan `Responds` one-to-many antara entitas kuat `Episode` dan entitas lemah `Comment` sehingga `username` diletakkan di sisi "many" dalam hubungan `Responds` tersebut, yaitu pada tabel `Comment`. 
+
 ### Data Warehousing (Bonus)
+1. **Entitas dimensi** seperti `DimEpisode`, `DimPersonnel`, dan `DimDate` masing-masing diubah menjadi sebuah tabel dengan seluruh atributnya sebagai kolom dan primary key sesuai yang telah diidentifikasi di ERD.
+2. **Entitas fakta** `FactEpisodePerformance` diubah menjadi tabel `FactEpisodePerformance` dengan seluruh atributnya sebagai kolom serta foreign key dari kedua entitas yang memiliki **hubungan many-to-one** dengan `FactEpisodePerformance` sebagai sisi "many", yaitu `episode_id` dari `DimEpisode` dan `date_id` dari `DimDate`. Primary key pada tabel ini cukup berupa `episode_id` sebab satu episode hanya memiliki satu tanggal tayang pertama kali (air date).
+3. **Entitas jembatan** yang berfungsi untuk menghubungkan dua dimensi yang tidak berhubungan secara langsung, seperti `BridgeCastInvolvement` dan `BridgeCrewInvolvement`, masing-masing diimplementasikan menjadi sebuah tabel dengan seluruh atributnya sebagai kolom. Primary key tabel berasal dari kedua entitas yang memiliki **hubungan many-to-one** dengan entitas jembatan sebagai sisi "many", yaitu `episode_id` dari `DimEpisode` dan `personnel_id` dari `DimPersonnel`, yang juga menjadi foreign key.
 
 ## Screenshot Hasil Program
-Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan).
 ### Data Storing
+1. **Tabel Cast**
+![cast_ss](Data%20Storing/screenshot/cast.png)
+
+2. **Tabel Crew**
+![crew_ss](Data%20Storing/screenshot/crew.png)
+
+3. **Tabel Episode**
+![episode_ss](Data%20Storing/screenshot/episode.png)
+
+4. **Tabel Personnel**
+![personnel_ss](Data%20Storing/screenshot/personnel.png)
+
+5. **Tabel User**
+![user_ss](Data%20Storing/screenshot/user.png)
+
+6. **Tabel Comment**
+![comment_ss](Data%20Storing/screenshot/comment.png)
+
+7. **Crew yang Terlibat pada Episode Tertentu**
+![crews_in_an_episode_ss](Data%20Storing/screenshot/crews_in_an_episode.png)
+
+8. **Episode dengan Kata Kunci Tertentu**
+![episodes_with_keyword_ss](Data%20Storing/screenshot/episodes_with_keyword.png)
+
+9. **Episode pada Season Tertentu yang Memiliki Komentar**
+![latest_episodes_with_comments_ss](Data%20Storing/screenshot/latest_episodes_with_comments.png)
+
+10. **Karakter dengan Jumlah Kemunculan Terbanyak**
+![top_character_appearances_ss](Data%20Storing/screenshot/top_character_appearances.png)
+
 ### Data Warehousing (Bonus)
+1. **Tabel DimEpisode**
+![dimepisode_ss](Data%20Warehouse/screenshot/dimepisode.png)
+
+2. **Tabel DimPersonnel**
+![dimpersonnel_ss](Data%20Warehouse/screenshot/dimpersonnel.png)
+
+3. **Tabel DimDate**
+![dimdate_ss](Data%20Warehouse/screenshot/dimdate.png)
+
+4. **Personel yang Memainkan Jumlah Karakter Terbanyak (Tabel BridgeCastInvolvement)**
+![personnels_with_most_characters_played_ss](Data%20Warehouse/screenshot/personnels_with_most_characters_played.png)
+
+5. **Sutradara untuk Setiap Episode Pertama pada Season (Tabel BridgeCrewInvolvement)**
+![first_episode_directors_ss](Data%20Warehouse/screenshot/first_episode_directors.png)
+
+6. **Episode dengan Rating Terbaik Per Season**
+![best_rated_episodes_per_season_ss](Data%20Warehouse/screenshot/best_rated_episodes_per_season.png)
+
+7. **Episode dengan Interaksi Pengguna Terbanyak (Rating dan Komentar)**
+![most_interacted_episodes_ss](Data%20Warehouse/screenshot/most_interacted_episodes.png)
+
+8. **Karakter Favorit Berdasarkan Rating Episode**
+![most_liked_characters_ss](Data%20Warehouse/screenshot/most_liked_characters.png)
+
+9. **Rating Rata-Rata Sutradara yang Paling Banyak Digunakan Berdasarkan Rating Episode**
+![most_used_directors_rating_ss](Data%20Warehouse/screenshot/most_used_directors_rating.png)
+
+10. **Rating Rata-Rata Episode Baru Per Bulan Tayang**
+![new_episodes_average_monthly_rating_ss](Data%20Warehouse/screenshot/new_episodes_average_monthly_rating.png)
 
 ## Referensi 
 - [Situs epguides.com NCIS](https://epguides.com/NCIS/)
