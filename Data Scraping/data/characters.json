@@ -1,0 +1,2022 @@
+[
+    {
+        "Name": "Albedo",
+        "Rarity": "5",
+        "Element": "Geo",
+        "Weapon Type": "Sword",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "9",
+        "Birthday Day": "13",
+        "Version": "1.2",
+        "Ascension Stat": "Geo DMG Bonus",
+        "Base Stats": {
+            "HP": 13225.58,
+            "ATK": 251.14,
+            "DEF": 876.15
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Basalt Pillar"
+    },
+    {
+        "Name": "Alhaitham",
+        "Rarity": "5",
+        "Element": "Dendro",
+        "Weapon Type": "Sword",
+        "Region": "Sumeru",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "2",
+        "Birthday Day": "11",
+        "Version": "3.4",
+        "Ascension Stat": "Dendro DMG Bonus",
+        "Base Stats": {
+            "HP": 13348.04,
+            "ATK": 313.32,
+            "DEF": 781.62
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Pseudo-Stamens"
+    },
+    {
+        "Name": "Aloy",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Bow",
+        "Region": "N/A",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "4",
+        "Birthday Day": "4",
+        "Version": "N/A",
+        "Ascension Stat": "Cryo DMG Bonus",
+        "Base Stats": {
+            "HP": 10898.86,
+            "ATK": 233.92,
+            "DEF": 676.33
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Crystalline Bloom"
+    },
+    {
+        "Name": "Amber",
+        "Rarity": "4",
+        "Element": "Pyro",
+        "Weapon Type": "Bow",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "10",
+        "Version": "4.5",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 9461.18,
+            "ATK": 223.02,
+            "DEF": 600.62
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Everflame Seed"
+    },
+    {
+        "Name": "Arataki Itto",
+        "Rarity": "5",
+        "Element": "Geo",
+        "Weapon Type": "Claymore",
+        "Region": "Inazuma",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "6",
+        "Birthday Day": "1",
+        "Version": "2.3",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 12858.21,
+            "ATK": 227.22,
+            "DEF": 959.16
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Riftborn Regalia"
+    },
+    {
+        "Name": "Arlecchino",
+        "Rarity": "5",
+        "Element": "Pyro",
+        "Weapon Type": "Polearm",
+        "Region": "Snezhnaya",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "22",
+        "Version": "4.6",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 13103.12,
+            "ATK": 342.03,
+            "DEF": 764.71
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Fragment of a Golden Melody"
+    },
+    {
+        "Name": "Baizhu",
+        "Rarity": "5",
+        "Element": "Dendro",
+        "Weapon Type": "Catalyst",
+        "Region": "Liyue",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "4",
+        "Birthday Day": "25",
+        "Version": "3.6",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 13348.04,
+            "ATK": 192.54,
+            "DEF": 499.56
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Evergloom Ring"
+    },
+    {
+        "Name": "Barbara",
+        "Rarity": "4",
+        "Element": "Hydro",
+        "Weapon Type": "Catalyst",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "7",
+        "Birthday Day": "5",
+        "Version": "1.0",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 9787.42,
+            "ATK": 159.3,
+            "DEF": 668.87
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Cleansing Heart"
+    },
+    {
+        "Name": "Beidou",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Claymore",
+        "Region": "Liyue",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "2",
+        "Birthday Day": "14",
+        "Version": "1.1",
+        "Ascension Stat": "Electro DMG Bonus",
+        "Base Stats": {
+            "HP": 13049.9,
+            "ATK": 225.14,
+            "DEF": 648.4
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Lightning Prism"
+    },
+    {
+        "Name": "Bennett",
+        "Rarity": "4",
+        "Element": "Pyro",
+        "Weapon Type": "Sword",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "2",
+        "Birthday Day": "29",
+        "Version": "1.2",
+        "Ascension Stat": "Energy Recharge",
+        "Base Stats": {
+            "HP": 12397.4,
+            "ATK": 191.16,
+            "DEF": 771.25
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Everflame Seed"
+    },
+    {
+        "Name": "Candace",
+        "Rarity": "4",
+        "Element": "Hydro",
+        "Weapon Type": "Polearm",
+        "Region": "Sumeru",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "5",
+        "Birthday Day": "3",
+        "Version": "3.1",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 10874.91,
+            "ATK": 212.4,
+            "DEF": 682.52
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Light Guiding Tetrahedron"
+    },
+    {
+        "Name": "Charlotte",
+        "Rarity": "4",
+        "Element": "Cryo",
+        "Weapon Type": "Catalyst",
+        "Region": "Fontaine",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "4",
+        "Birthday Day": "10",
+        "Version": "4.2",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 10766.17,
+            "ATK": 173.1,
+            "DEF": 546.02
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "\"Tourbillon Device\""
+    },
+    {
+        "Name": "Chasca",
+        "Rarity": "5",
+        "Element": "Anemo",
+        "Weapon Type": "Bow",
+        "Region": "Natlan",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "12",
+        "Birthday Day": "10",
+        "Version": "5.2",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 9796.73,
+            "ATK": 346.81,
+            "DEF": 614.84
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Ensnaring Gaze"
+    },
+    {
+        "Name": "Chevreuse",
+        "Rarity": "4",
+        "Element": "Pyro",
+        "Weapon Type": "Polearm",
+        "Region": "Fontaine",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "1",
+        "Birthday Day": "10",
+        "Version": "4.3",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 11962.41,
+            "ATK": 193.28,
+            "DEF": 604.71
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Fontemer Unihorn"
+    },
+    {
+        "Name": "Chiori",
+        "Rarity": "5",
+        "Element": "Geo",
+        "Weapon Type": "Sword",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "17",
+        "Version": "4.5",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 11437.68,
+            "ATK": 322.89,
+            "DEF": 953.01
+        },
+        "Burst Cost": "50",
+        "Boss Drop": "Artificed Spare Clockwork Component - Coppelia"
+    },
+    {
+        "Name": "Chongyun",
+        "Rarity": "4",
+        "Element": "Cryo",
+        "Weapon Type": "Claymore",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "9",
+        "Birthday Day": "7",
+        "Version": "1.1",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 10983.66,
+            "ATK": 223.02,
+            "DEF": 648.4
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Hoarfrost Core"
+    },
+    {
+        "Name": "Citlali",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Catalyst",
+        "Region": "Natlan",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "1",
+        "Birthday Day": "20",
+        "Version": "5.3",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 11633.62,
+            "ATK": 126.76,
+            "DEF": 763.17
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Talisman of the Enigmatic Land"
+    },
+    {
+        "Name": "Clorinde",
+        "Rarity": "5",
+        "Element": "Electro",
+        "Weapon Type": "Sword",
+        "Region": "Fontaine",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "9",
+        "Birthday Day": "20",
+        "Version": "4.7",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 12956.17,
+            "ATK": 337.24,
+            "DEF": 783.93
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Fontemer Unihorn"
+    },
+    {
+        "Name": "Collei",
+        "Rarity": "4",
+        "Element": "Dendro",
+        "Weapon Type": "Bow",
+        "Region": "Sumeru",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "5",
+        "Birthday Day": "8",
+        "Version": "3.0",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 9787.42,
+            "ATK": 199.65,
+            "DEF": 600.62
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Majestic Hooked Beak"
+    },
+    {
+        "Name": "Cyno",
+        "Rarity": "5",
+        "Element": "Electro",
+        "Weapon Type": "Polearm",
+        "Region": "Sumeru",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "6",
+        "Birthday Day": "23",
+        "Version": "3.1",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 12490.83,
+            "ATK": 318.11,
+            "DEF": 859.24
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Thunderclap Fruitcore"
+    },
+    {
+        "Name": "Dahlia",
+        "Rarity": "4",
+        "Element": "Hydro",
+        "Weapon Type": "Sword",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "5",
+        "Birthday Day": "25",
+        "Version": "5.7",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 12506.15,
+            "ATK": 189.03,
+            "DEF": 559.67
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Secret Source Airflow Accumulator"
+    },
+    {
+        "Name": "Dehya",
+        "Rarity": "5",
+        "Element": "Pyro",
+        "Weapon Type": "Claymore",
+        "Region": "Sumeru",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "4",
+        "Birthday Day": "7",
+        "Version": "3.5",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 15674.77,
+            "ATK": 265.49,
+            "DEF": 627.91
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Light Guiding Tetrahedron"
+    },
+    {
+        "Name": "Diluc",
+        "Rarity": "5",
+        "Element": "Pyro",
+        "Weapon Type": "Claymore",
+        "Region": "Mondstadt",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "4",
+        "Birthday Day": "30",
+        "Version": "4.5",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 12980.67,
+            "ATK": 334.85,
+            "DEF": 783.93
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Everflame Seed"
+    },
+    {
+        "Name": "Diona",
+        "Rarity": "4",
+        "Element": "Cryo",
+        "Weapon Type": "Bow",
+        "Region": "Mondstadt",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "1",
+        "Birthday Day": "18",
+        "Version": "1.1",
+        "Ascension Stat": "Cryo DMG Bonus",
+        "Base Stats": {
+            "HP": 9569.93,
+            "ATK": 212.4,
+            "DEF": 600.62
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Hoarfrost Core"
+    },
+    {
+        "Name": "Dori",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Claymore",
+        "Region": "Sumeru",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "12",
+        "Birthday Day": "21",
+        "Version": "3.0",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 12397.4,
+            "ATK": 223.02,
+            "DEF": 723.47
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Thunderclap Fruitcore"
+    },
+    {
+        "Name": "Emilie",
+        "Rarity": "5",
+        "Element": "Dendro",
+        "Weapon Type": "Polearm",
+        "Region": "Fontaine",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "9",
+        "Birthday Day": "22",
+        "Version": "4.8",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 13568.47,
+            "ATK": 334.85,
+            "DEF": 730.13
+        },
+        "Burst Cost": "50",
+        "Boss Drop": "Fragment of a Golden Melody"
+    },
+    {
+        "Name": "Escoffier",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Polearm",
+        "Region": "Fontaine",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "6",
+        "Birthday Day": "8",
+        "Version": "5.6",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 13348.04,
+            "ATK": 346.81,
+            "DEF": 731.66
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Secret Source Airflow Accumulator"
+    },
+    {
+        "Name": "Eula",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Claymore",
+        "Region": "Mondstadt",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "10",
+        "Birthday Day": "25",
+        "Version": "1.5",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 13225.58,
+            "ATK": 342.03,
+            "DEF": 750.88
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Crystalline Bloom"
+    },
+    {
+        "Name": "Faruzan",
+        "Rarity": "4",
+        "Element": "Anemo",
+        "Weapon Type": "Bow",
+        "Region": "Sumeru",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "20",
+        "Version": "3.3",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 9569.93,
+            "ATK": 196.47,
+            "DEF": 627.92
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Light Guiding Tetrahedron"
+    },
+    {
+        "Name": "Fischl",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Bow",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "5",
+        "Birthday Day": "27",
+        "Version": "1.0",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 9189.3,
+            "ATK": 244.26,
+            "DEF": 593.79
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Lightning Prism"
+    },
+    {
+        "Name": "Freminet",
+        "Rarity": "4",
+        "Element": "Cryo",
+        "Weapon Type": "Claymore",
+        "Region": "Fontaine",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "9",
+        "Birthday Day": "24",
+        "Version": "4.0",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 12071.16,
+            "ATK": 254.88,
+            "DEF": 708.46
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Artificed Spare Clockwork Component - Coppelius"
+    },
+    {
+        "Name": "Furina",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Sword",
+        "Region": "Fontaine",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "10",
+        "Birthday Day": "13",
+        "Version": "4.2",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 15307.39,
+            "ATK": 243.96,
+            "DEF": 695.54
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Water That Failed To Transcend"
+    },
+    {
+        "Name": "Gaming",
+        "Rarity": "4",
+        "Element": "Pyro",
+        "Weapon Type": "Claymore",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "12",
+        "Birthday Day": "22",
+        "Version": "4.4",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 11418.66,
+            "ATK": 301.6,
+            "DEF": 703.0
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Emperor's Resolution"
+    },
+    {
+        "Name": "Ganyu",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Bow",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "12",
+        "Birthday Day": "2",
+        "Version": "1.2",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 9796.73,
+            "ATK": 334.85,
+            "DEF": 630.21
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Hoarfrost Core"
+    },
+    {
+        "Name": "Gorou",
+        "Rarity": "4",
+        "Element": "Geo",
+        "Weapon Type": "Bow",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "5",
+        "Birthday Day": "18",
+        "Version": "2.3",
+        "Ascension Stat": "Geo DMG Bonus",
+        "Base Stats": {
+            "HP": 9569.93,
+            "ATK": 182.66,
+            "DEF": 648.4
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Perpetual Heart"
+    },
+    {
+        "Name": "Hu Tao",
+        "Rarity": "5",
+        "Element": "Pyro",
+        "Weapon Type": "Polearm",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "7",
+        "Birthday Day": "15",
+        "Version": "1.3",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 15552.31,
+            "ATK": 106.43,
+            "DEF": 876.15
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Juvenile Jade"
+    },
+    {
+        "Name": "Iansan",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Polearm",
+        "Region": "Natlan",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "8",
+        "Version": "5.5",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 10657.42,
+            "ATK": 257.0,
+            "DEF": 638.16
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Ensnaring Gaze"
+    },
+    {
+        "Name": "Ifa",
+        "Rarity": "4",
+        "Element": "Anemo",
+        "Weapon Type": "Catalyst",
+        "Region": "Natlan",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "3",
+        "Birthday Day": "23",
+        "Version": "5.6",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 10081.05,
+            "ATK": 178.41,
+            "DEF": 605.4
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Sparkless Statue Core"
+    },
+    {
+        "Name": "Ineffa",
+        "Rarity": "5",
+        "Element": "Electro",
+        "Weapon Type": "Polearm",
+        "Region": "Nod-Krai",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "4",
+        "Birthday Day": "2",
+        "Version": "5.8",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 12613.29,
+            "ATK": 330.07,
+            "DEF": 827.73
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Secret Source Airflow Accumulator"
+    },
+    {
+        "Name": "Jean",
+        "Rarity": "5",
+        "Element": "Anemo",
+        "Weapon Type": "Sword",
+        "Region": "Mondstadt",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "3",
+        "Birthday Day": "14",
+        "Version": "4.5",
+        "Ascension Stat": "Healing Bonus",
+        "Base Stats": {
+            "HP": 14695.09,
+            "ATK": 239.18,
+            "DEF": 768.55
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Hurricane Seed"
+    },
+    {
+        "Name": "Kachina",
+        "Rarity": "4",
+        "Element": "Geo",
+        "Weapon Type": "Polearm",
+        "Region": "Natlan",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "4",
+        "Birthday Day": "22",
+        "Version": "5.0",
+        "Ascension Stat": "Geo DMG Bonus",
+        "Base Stats": {
+            "HP": 11799.28,
+            "ATK": 216.65,
+            "DEF": 792.41
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Overripe Flamegranate"
+    },
+    {
+        "Name": "Kaedehara Kazuha",
+        "Rarity": "5",
+        "Element": "Anemo",
+        "Weapon Type": "Sword",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "10",
+        "Birthday Day": "29",
+        "Version": "1.6",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 13348.04,
+            "ATK": 296.58,
+            "DEF": 806.98
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Marionette Core"
+    },
+    {
+        "Name": "Kaeya",
+        "Rarity": "4",
+        "Element": "Cryo",
+        "Weapon Type": "Sword",
+        "Region": "Mondstadt",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "11",
+        "Birthday Day": "30",
+        "Version": "4.5",
+        "Ascension Stat": "Energy Recharge",
+        "Base Stats": {
+            "HP": 11636.16,
+            "ATK": 223.02,
+            "DEF": 791.72
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Hoarfrost Core"
+    },
+    {
+        "Name": "Kamisato Ayaka",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Sword",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "9",
+        "Birthday Day": "28",
+        "Version": "2.0",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 12858.21,
+            "ATK": 342.03,
+            "DEF": 783.93
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Perpetual Heart"
+    },
+    {
+        "Name": "Kamisato Ayato",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Sword",
+        "Region": "Inazuma",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "3",
+        "Birthday Day": "26",
+        "Version": "2.6",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 13715.42,
+            "ATK": 298.97,
+            "DEF": 768.55
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Dew of Repudiation"
+    },
+    {
+        "Name": "Kaveh",
+        "Rarity": "4",
+        "Element": "Dendro",
+        "Weapon Type": "Claymore",
+        "Region": "Sumeru",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "7",
+        "Birthday Day": "9",
+        "Version": "3.6",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 11962.41,
+            "ATK": 233.64,
+            "DEF": 750.77
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Quelled Creeper"
+    },
+    {
+        "Name": "Keqing",
+        "Rarity": "5",
+        "Element": "Electro",
+        "Weapon Type": "Sword",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "11",
+        "Birthday Day": "20",
+        "Version": "1.3",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 13103.12,
+            "ATK": 322.89,
+            "DEF": 799.3
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Lightning Prism"
+    },
+    {
+        "Name": "Kinich",
+        "Rarity": "5",
+        "Element": "Dendro",
+        "Weapon Type": "Claymore",
+        "Region": "Natlan",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "11",
+        "Birthday Day": "11",
+        "Version": "5.0",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 12858.21,
+            "ATK": 332.46,
+            "DEF": 801.6
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Overripe Flamegranate"
+    },
+    {
+        "Name": "Kirara",
+        "Rarity": "4",
+        "Element": "Dendro",
+        "Weapon Type": "Sword",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "1",
+        "Birthday Day": "22",
+        "Version": "3.7",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 12179.9,
+            "ATK": 223.02,
+            "DEF": 546.02
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Evergloom Ring"
+    },
+    {
+        "Name": "Klee",
+        "Rarity": "5",
+        "Element": "Pyro",
+        "Weapon Type": "Catalyst",
+        "Region": "Mondstadt",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "7",
+        "Birthday Day": "27",
+        "Version": "1.0",
+        "Ascension Stat": "Pyro DMG Bonus",
+        "Base Stats": {
+            "HP": 10286.57,
+            "ATK": 310.93,
+            "DEF": 614.84
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Everflame Seed"
+    },
+    {
+        "Name": "Kujou Sara",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Bow",
+        "Region": "Inazuma",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "7",
+        "Birthday Day": "14",
+        "Version": "2.1",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 9569.93,
+            "ATK": 195.41,
+            "DEF": 627.92
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Storm Beads"
+    },
+    {
+        "Name": "Kuki Shinobu",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Sword",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "7",
+        "Birthday Day": "27",
+        "Version": "2.7",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 12288.65,
+            "ATK": 212.4,
+            "DEF": 750.77
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Runic Fang"
+    },
+    {
+        "Name": "Lan Yan",
+        "Rarity": "4",
+        "Element": "Anemo",
+        "Weapon Type": "Catalyst",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "1",
+        "Birthday Day": "6",
+        "Version": "5.3",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 9243.68,
+            "ATK": 250.63,
+            "DEF": 580.14
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Gold-Inscribed Secret Source Core"
+    },
+    {
+        "Name": "Layla",
+        "Rarity": "4",
+        "Element": "Cryo",
+        "Weapon Type": "Sword",
+        "Region": "Sumeru",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "12",
+        "Birthday Day": "19",
+        "Version": "3.2",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 11092.41,
+            "ATK": 216.65,
+            "DEF": 655.22
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Perpetual Caliber"
+    },
+    {
+        "Name": "Lisa",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Catalyst",
+        "Region": "Mondstadt",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "6",
+        "Birthday Day": "9",
+        "Version": "4.5",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 9569.93,
+            "ATK": 231.51,
+            "DEF": 573.32
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Lightning Prism"
+    },
+    {
+        "Name": "Lynette",
+        "Rarity": "4",
+        "Element": "Anemo",
+        "Weapon Type": "Sword",
+        "Region": "Fontaine",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "2",
+        "Birthday Day": "2",
+        "Version": "4.0",
+        "Ascension Stat": "Anemo DMG Bonus",
+        "Base Stats": {
+            "HP": 12397.4,
+            "ATK": 231.51,
+            "DEF": 711.87
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Artificed Spare Clockwork Component - Coppelia"
+    },
+    {
+        "Name": "Lyney",
+        "Rarity": "5",
+        "Element": "Pyro",
+        "Weapon Type": "Bow",
+        "Region": "Fontaine",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "2",
+        "Birthday Day": "2",
+        "Version": "4.0",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 11021.32,
+            "ATK": 318.11,
+            "DEF": 537.99
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Emperor's Resolution"
+    },
+    {
+        "Name": "Mavuika",
+        "Rarity": "5",
+        "Element": "Pyro",
+        "Weapon Type": "Claymore",
+        "Region": "Natlan",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "28",
+        "Version": "5.3",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 12552.06,
+            "ATK": 358.77,
+            "DEF": 791.61
+        },
+        "Burst Cost": "N/A",
+        "Boss Drop": "Gold-Inscribed Secret Source Core"
+    },
+    {
+        "Name": "Mika",
+        "Rarity": "4",
+        "Element": "Cryo",
+        "Weapon Type": "Polearm",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "8",
+        "Birthday Day": "11",
+        "Version": "3.5",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 12506.15,
+            "ATK": 223.02,
+            "DEF": 713.23
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Pseudo-Stamens"
+    },
+    {
+        "Name": "Mona",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Catalyst",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "31",
+        "Version": "4.5",
+        "Ascension Stat": "Energy Recharge",
+        "Base Stats": {
+            "HP": 10409.02,
+            "ATK": 287.01,
+            "DEF": 653.27
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Cleansing Heart"
+    },
+    {
+        "Name": "Mualani",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Catalyst",
+        "Region": "Natlan",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "3",
+        "Version": "5.0",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 15184.93,
+            "ATK": 181.78,
+            "DEF": 570.27
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Mark of the Binding Blessing"
+    },
+    {
+        "Name": "Nahida",
+        "Rarity": "5",
+        "Element": "Dendro",
+        "Weapon Type": "Catalyst",
+        "Region": "Sumeru",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "10",
+        "Birthday Day": "27",
+        "Version": "3.2",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 10360.04,
+            "ATK": 298.97,
+            "DEF": 630.21
+        },
+        "Burst Cost": "50",
+        "Boss Drop": "Quelled Creeper"
+    },
+    {
+        "Name": "Navia",
+        "Rarity": "5",
+        "Element": "Geo",
+        "Weapon Type": "Claymore",
+        "Region": "Fontaine",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "16",
+        "Version": "4.3",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 12650.03,
+            "ATK": 351.59,
+            "DEF": 793.15
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Artificed Spare Clockwork Component - Coppelius"
+    },
+    {
+        "Name": "Neuvillette",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Catalyst",
+        "Region": "Fontaine",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "12",
+        "Birthday Day": "18",
+        "Version": "4.1",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 14695.09,
+            "ATK": 208.32,
+            "DEF": 576.42
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Fontemer Unihorn"
+    },
+    {
+        "Name": "Nilou",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Sword",
+        "Region": "Sumeru",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "12",
+        "Birthday Day": "3",
+        "Version": "3.1",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 15184.93,
+            "ATK": 229.61,
+            "DEF": 728.59
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Perpetual Caliber"
+    },
+    {
+        "Name": "Ningguang",
+        "Rarity": "4",
+        "Element": "Geo",
+        "Weapon Type": "Catalyst",
+        "Region": "Liyue",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "8",
+        "Birthday Day": "26",
+        "Version": "1.1",
+        "Ascension Stat": "Geo DMG Bonus",
+        "Base Stats": {
+            "HP": 9787.42,
+            "ATK": 212.4,
+            "DEF": 573.32
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Basalt Pillar"
+    },
+    {
+        "Name": "Noelle",
+        "Rarity": "4",
+        "Element": "Geo",
+        "Weapon Type": "Claymore",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "3",
+        "Birthday Day": "21",
+        "Version": "1.0",
+        "Ascension Stat": "DEF",
+        "Base Stats": {
+            "HP": 12071.16,
+            "ATK": 191.16,
+            "DEF": 798.55
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Basalt Pillar"
+    },
+    {
+        "Name": "Ororon",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Bow",
+        "Region": "Natlan",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "10",
+        "Birthday Day": "14",
+        "Version": "5.2",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 9243.68,
+            "ATK": 244.26,
+            "DEF": 586.97
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Mark of the Binding Blessing"
+    },
+    {
+        "Name": "Qiqi",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Sword",
+        "Region": "Liyue",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "3",
+        "Birthday Day": "3",
+        "Version": "5.3",
+        "Ascension Stat": "Healing Bonus",
+        "Base Stats": {
+            "HP": 12368.37,
+            "ATK": 287.01,
+            "DEF": 922.27
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Hoarfrost Core"
+    },
+    {
+        "Name": "Raiden Shogun",
+        "Rarity": "5",
+        "Element": "Electro",
+        "Weapon Type": "Polearm",
+        "Region": "Inazuma",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "6",
+        "Birthday Day": "26",
+        "Version": "2.1",
+        "Ascension Stat": "Energy Recharge",
+        "Base Stats": {
+            "HP": 12907.19,
+            "ATK": 337.24,
+            "DEF": 789.31
+        },
+        "Burst Cost": "90",
+        "Boss Drop": "Storm Beads"
+    },
+    {
+        "Name": "Razor",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Claymore",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "9",
+        "Birthday Day": "9",
+        "Version": "1.1",
+        "Ascension Stat": "Physical DMG Bonus",
+        "Base Stats": {
+            "HP": 11962.41,
+            "ATK": 233.64,
+            "DEF": 750.77
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Lightning Prism"
+    },
+    {
+        "Name": "Rosaria",
+        "Rarity": "4",
+        "Element": "Cryo",
+        "Weapon Type": "Polearm",
+        "Region": "Mondstadt",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "1",
+        "Birthday Day": "24",
+        "Version": "1.4",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 12288.65,
+            "ATK": 240.01,
+            "DEF": 709.82
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Hoarfrost Core"
+    },
+    {
+        "Name": "Sangonomiya Kokomi",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Catalyst",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "2",
+        "Birthday Day": "22",
+        "Version": "2.1",
+        "Ascension Stat": "Hydro DMG Bonus",
+        "Base Stats": {
+            "HP": 13470.5,
+            "ATK": 234.39,
+            "DEF": 657.11
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Dew of Repudiation"
+    },
+    {
+        "Name": "Sayu",
+        "Rarity": "4",
+        "Element": "Anemo",
+        "Weapon Type": "Claymore",
+        "Region": "Inazuma",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "10",
+        "Birthday Day": "19",
+        "Version": "2.0",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 11853.66,
+            "ATK": 244.26,
+            "DEF": 744.63
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Marionette Core"
+    },
+    {
+        "Name": "Sethos",
+        "Rarity": "4",
+        "Element": "Electro",
+        "Weapon Type": "Bow",
+        "Region": "Sumeru",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "5",
+        "Birthday Day": "31",
+        "Version": "4.7",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 9787.42,
+            "ATK": 227.26,
+            "DEF": 559.67
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Cloudseam Scale"
+    },
+    {
+        "Name": "Shenhe",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Polearm",
+        "Region": "Liyue",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "3",
+        "Birthday Day": "10",
+        "Version": "2.4",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 12992.91,
+            "ATK": 303.76,
+            "DEF": 830.04
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Dragonheir's False Fin"
+    },
+    {
+        "Name": "Shikanoin Heizou",
+        "Rarity": "4",
+        "Element": "Anemo",
+        "Weapon Type": "Catalyst",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "7",
+        "Birthday Day": "24",
+        "Version": "2.8",
+        "Ascension Stat": "Anemo DMG Bonus",
+        "Base Stats": {
+            "HP": 10657.42,
+            "ATK": 225.14,
+            "DEF": 683.89
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Runic Fang"
+    },
+    {
+        "Name": "Sigewinne",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Bow",
+        "Region": "Fontaine",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "3",
+        "Birthday Day": "30",
+        "Version": "4.7",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 13348.04,
+            "ATK": 192.54,
+            "DEF": 499.56
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Water That Failed To Transcend"
+    },
+    {
+        "Name": "Skirk",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Sword",
+        "Region": "N/A",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "11",
+        "Birthday Day": "5",
+        "Version": "5.7",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 12417.35,
+            "ATK": 358.77,
+            "DEF": 806.21
+        },
+        "Burst Cost": "N/A",
+        "Boss Drop": "Ensnaring Gaze"
+    },
+    {
+        "Name": "Sucrose",
+        "Rarity": "4",
+        "Element": "Anemo",
+        "Weapon Type": "Catalyst",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "11",
+        "Birthday Day": "26",
+        "Version": "1.0",
+        "Ascension Stat": "Anemo DMG Bonus",
+        "Base Stats": {
+            "HP": 9243.68,
+            "ATK": 169.92,
+            "DEF": 703.0
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Hurricane Seed"
+    },
+    {
+        "Name": "Tartaglia",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Bow",
+        "Region": "Snezhnaya",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "7",
+        "Birthday Day": "20",
+        "Version": "1.1",
+        "Ascension Stat": "Hydro DMG Bonus",
+        "Base Stats": {
+            "HP": 13103.12,
+            "ATK": 301.36,
+            "DEF": 814.67
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Cleansing Heart"
+    },
+    {
+        "Name": "Thoma",
+        "Rarity": "4",
+        "Element": "Pyro",
+        "Weapon Type": "Polearm",
+        "Region": "Inazuma",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "1",
+        "Birthday Day": "9",
+        "Version": "2.2",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 10331.17,
+            "ATK": 201.78,
+            "DEF": 750.77
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Smoldering Pearl"
+    },
+    {
+        "Name": "Tighnari",
+        "Rarity": "5",
+        "Element": "Dendro",
+        "Weapon Type": "Bow",
+        "Region": "Sumeru",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "12",
+        "Birthday Day": "29",
+        "Version": "3.0",
+        "Ascension Stat": "Dendro DMG Bonus",
+        "Base Stats": {
+            "HP": 10849.88,
+            "ATK": 267.88,
+            "DEF": 630.21
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Majestic Hooked Beak"
+    },
+    {
+        "Name": "Varesa",
+        "Rarity": "5",
+        "Element": "Electro",
+        "Weapon Type": "Catalyst",
+        "Region": "Natlan",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "11",
+        "Birthday Day": "15",
+        "Version": "5.5",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 12699.01,
+            "ATK": 356.38,
+            "DEF": 781.62
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Sparkless Statue Core"
+    },
+    {
+        "Name": "Venti",
+        "Rarity": "5",
+        "Element": "Anemo",
+        "Weapon Type": "Bow",
+        "Region": "Mondstadt",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "6",
+        "Birthday Day": "16",
+        "Version": "1.0",
+        "Ascension Stat": "Energy Recharge",
+        "Base Stats": {
+            "HP": 10531.48,
+            "ATK": 263.1,
+            "DEF": 668.64
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Hurricane Seed"
+    },
+    {
+        "Name": "Wanderer",
+        "Rarity": "5",
+        "Element": "Anemo",
+        "Weapon Type": "Catalyst",
+        "Region": "Sumeru",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "1",
+        "Birthday Day": "3",
+        "Version": "3.3",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 10164.11,
+            "ATK": 327.67,
+            "DEF": 607.16
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Perpetual Caliber"
+    },
+    {
+        "Name": "Wriothesley",
+        "Rarity": "5",
+        "Element": "Cryo",
+        "Weapon Type": "Catalyst",
+        "Region": "Fontaine",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "11",
+        "Birthday Day": "23",
+        "Version": "4.1",
+        "Ascension Stat": "CRIT DMG",
+        "Base Stats": {
+            "HP": 13592.96,
+            "ATK": 310.93,
+            "DEF": 763.17
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "\"Tourbillon Device\""
+    },
+    {
+        "Name": "Xiangling",
+        "Rarity": "4",
+        "Element": "Pyro",
+        "Weapon Type": "Polearm",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "11",
+        "Birthday Day": "2",
+        "Version": "1.0",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 10874.91,
+            "ATK": 225.14,
+            "DEF": 668.87
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Everflame Seed"
+    },
+    {
+        "Name": "Xianyun",
+        "Rarity": "5",
+        "Element": "Anemo",
+        "Weapon Type": "Catalyst",
+        "Region": "Liyue",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "4",
+        "Birthday Day": "11",
+        "Version": "4.4",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 10409.02,
+            "ATK": 334.85,
+            "DEF": 572.57
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Cloudseam Scale"
+    },
+    {
+        "Name": "Xiao",
+        "Rarity": "5",
+        "Element": "Anemo",
+        "Weapon Type": "Polearm",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "4",
+        "Birthday Day": "17",
+        "Version": "1.3",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 12735.75,
+            "ATK": 349.2,
+            "DEF": 799.3
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Juvenile Jade"
+    },
+    {
+        "Name": "Xilonen",
+        "Rarity": "5",
+        "Element": "Geo",
+        "Weapon Type": "Sword",
+        "Region": "Natlan",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "3",
+        "Birthday Day": "13",
+        "Version": "5.1",
+        "Ascension Stat": "DEF",
+        "Base Stats": {
+            "HP": 12405.11,
+            "ATK": 275.06,
+            "DEF": 929.95
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Gold-Inscribed Secret Source Core"
+    },
+    {
+        "Name": "Xingqiu",
+        "Rarity": "4",
+        "Element": "Hydro",
+        "Weapon Type": "Sword",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Male",
+        "Birthday Month": "10",
+        "Birthday Day": "9",
+        "Version": "1.0",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 10222.42,
+            "ATK": 201.78,
+            "DEF": 757.6
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Cleansing Heart"
+    },
+    {
+        "Name": "Xinyan",
+        "Rarity": "4",
+        "Element": "Pyro",
+        "Weapon Type": "Claymore",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "10",
+        "Birthday Day": "16",
+        "Version": "1.1",
+        "Ascension Stat": "ATK",
+        "Base Stats": {
+            "HP": 11201.16,
+            "ATK": 248.5,
+            "DEF": 798.55
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Everflame Seed"
+    },
+    {
+        "Name": "Yae Miko",
+        "Rarity": "5",
+        "Element": "Electro",
+        "Weapon Type": "Catalyst",
+        "Region": "Inazuma",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "6",
+        "Birthday Day": "27",
+        "Version": "2.5",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 10372.29,
+            "ATK": 339.63,
+            "DEF": 568.73
+        },
+        "Burst Cost": "90",
+        "Boss Drop": "Dragonheir's False Fin"
+    },
+    {
+        "Name": "Yanfei",
+        "Rarity": "4",
+        "Element": "Pyro",
+        "Weapon Type": "Catalyst",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "7",
+        "Birthday Day": "28",
+        "Version": "1.5",
+        "Ascension Stat": "Pyro DMG Bonus",
+        "Base Stats": {
+            "HP": 9352.43,
+            "ATK": 240.01,
+            "DEF": 586.97
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Juvenile Jade"
+    },
+    {
+        "Name": "Yaoyao",
+        "Rarity": "4",
+        "Element": "Dendro",
+        "Weapon Type": "Polearm",
+        "Region": "Liyue",
+        "Body Type": "Short",
+        "Gender": "Female",
+        "Birthday Month": "3",
+        "Birthday Day": "6",
+        "Version": "3.4",
+        "Ascension Stat": "HP",
+        "Base Stats": {
+            "HP": 12288.65,
+            "ATK": 212.4,
+            "DEF": 750.77
+        },
+        "Burst Cost": "80",
+        "Boss Drop": "Quelled Creeper"
+    },
+    {
+        "Name": "Yelan",
+        "Rarity": "5",
+        "Element": "Hydro",
+        "Weapon Type": "Bow",
+        "Region": "Liyue",
+        "Body Type": "Tall",
+        "Gender": "Female",
+        "Birthday Month": "4",
+        "Birthday Day": "20",
+        "Version": "2.7",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 14450.17,
+            "ATK": 243.96,
+            "DEF": 547.98
+        },
+        "Burst Cost": "70",
+        "Boss Drop": "Runic Fang"
+    },
+    {
+        "Name": "Yoimiya",
+        "Rarity": "5",
+        "Element": "Pyro",
+        "Weapon Type": "Bow",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "6",
+        "Birthday Day": "21",
+        "Version": "2.0",
+        "Ascension Stat": "CRIT Rate",
+        "Base Stats": {
+            "HP": 10164.11,
+            "ATK": 322.89,
+            "DEF": 614.84
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Smoldering Pearl"
+    },
+    {
+        "Name": "Yumemizuki Mizuki",
+        "Rarity": "5",
+        "Element": "Anemo",
+        "Weapon Type": "Catalyst",
+        "Region": "Inazuma",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "3",
+        "Birthday Day": "16",
+        "Version": "5.4",
+        "Ascension Stat": "Elemental Mastery",
+        "Base Stats": {
+            "HP": 12735.75,
+            "ATK": 215.26,
+            "DEF": 757.03
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Talisman of the Enigmatic Land"
+    },
+    {
+        "Name": "Yun Jin",
+        "Rarity": "4",
+        "Element": "Geo",
+        "Weapon Type": "Polearm",
+        "Region": "Liyue",
+        "Body Type": "Medium",
+        "Gender": "Female",
+        "Birthday Month": "5",
+        "Birthday Day": "21",
+        "Version": "2.4",
+        "Ascension Stat": "Energy Recharge",
+        "Base Stats": {
+            "HP": 10657.42,
+            "ATK": 191.16,
+            "DEF": 734.39
+        },
+        "Burst Cost": "60",
+        "Boss Drop": "Riftborn Regalia"
+    },
+    {
+        "Name": "Zhongli",
+        "Rarity": "5",
+        "Element": "Geo",
+        "Weapon Type": "Polearm",
+        "Region": "Liyue",
+        "Body Type": "Tall",
+        "Gender": "Male",
+        "Birthday Month": "12",
+        "Birthday Day": "31",
+        "Version": "1.1",
+        "Ascension Stat": "Geo DMG Bonus",
+        "Base Stats": {
+            "HP": 14695.09,
+            "ATK": 251.14,
+            "DEF": 737.81
+        },
+        "Burst Cost": "40",
+        "Boss Drop": "Basalt Pillar"
+    }
+]

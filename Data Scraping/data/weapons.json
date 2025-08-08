@@ -1,0 +1,2334 @@
+[
+    {
+        "Name": "A Thousand Blazing Suns",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "741",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "11.0"
+        },
+        "Version": "5.3"
+    },
+    {
+        "Name": "A Thousand Floating Dreams",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "265"
+        },
+        "Version": "3.2"
+    },
+    {
+        "Name": "Absolution",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "44.1"
+        },
+        "Version": "4.7"
+    },
+    {
+        "Name": "Amos' Bow",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "49.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Aqua Simulacra",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "88.2"
+        },
+        "Version": "2.7"
+    },
+    {
+        "Name": "Aquila Favonia",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Astral Vulture's Crimson Plumage",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "66.2"
+        },
+        "Version": "5.2"
+    },
+    {
+        "Name": "Azurelight",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "22.1"
+        },
+        "Version": "5.7"
+    },
+    {
+        "Name": "Beacon of the Reed Sea",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "33.1"
+        },
+        "Version": "3.5"
+    },
+    {
+        "Name": "Calamity Queller",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "741",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "16.5"
+        },
+        "Version": "2.4"
+    },
+    {
+        "Name": "Cashflow Supervision",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "22.1"
+        },
+        "Version": "4.1"
+    },
+    {
+        "Name": "Crane's Echoing Call",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "741",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "16.5"
+        },
+        "Version": "4.4"
+    },
+    {
+        "Name": "Crimson Moon's Semblance",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "22.1"
+        },
+        "Version": "4.6"
+    },
+    {
+        "Name": "Elegy for the End",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "55.1"
+        },
+        "Version": "1.4"
+    },
+    {
+        "Name": "Engulfing Lightning",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "55.1"
+        },
+        "Version": "2.1"
+    },
+    {
+        "Name": "Everlasting Moonglow",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "49.6"
+        },
+        "Version": "2.1"
+    },
+    {
+        "Name": "Fang of the Mountain King",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "741",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "11.0"
+        },
+        "Version": "5.0"
+    },
+    {
+        "Name": "Fractured Halo",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "66.2"
+        },
+        "Version": "5.8"
+    },
+    {
+        "Name": "Freedom-Sworn",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "198"
+        },
+        "Version": "1.6"
+    },
+    {
+        "Name": "Haran Geppaku Futsu",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "33.1"
+        },
+        "Version": "2.6"
+    },
+    {
+        "Name": "Hunter's Path",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "44.1"
+        },
+        "Version": "3.0"
+    },
+    {
+        "Name": "Jadefall's Splendor",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "49.6"
+        },
+        "Version": "3.6"
+    },
+    {
+        "Name": "Kagura's Verity",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "66.2"
+        },
+        "Version": "2.5"
+    },
+    {
+        "Name": "Key of Khaj-Nisut",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "66.2"
+        },
+        "Version": "3.1"
+    },
+    {
+        "Name": "Light of Foliar Incision",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "88.2"
+        },
+        "Version": "3.4"
+    },
+    {
+        "Name": "Lost Prayer to the Sacred Winds",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "33.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Lumidouce Elegy",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "33.1"
+        },
+        "Version": "4.8"
+    },
+    {
+        "Name": "Memory of Dust",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "49.6"
+        },
+        "Version": "1.1"
+    },
+    {
+        "Name": "Mistsplitter Reforged",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "44.1"
+        },
+        "Version": "2.0"
+    },
+    {
+        "Name": "Peak Patrol Song",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "DEF %",
+            "Value": "82.7"
+        },
+        "Version": "5.1"
+    },
+    {
+        "Name": "Polar Star",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "33.1"
+        },
+        "Version": "2.2"
+    },
+    {
+        "Name": "Primordial Jade Cutter",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "44.1"
+        },
+        "Version": "1.3"
+    },
+    {
+        "Name": "Primordial Jade Winged-Spear",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "22.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Redhorn Stonethresher",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "88.2"
+        },
+        "Version": "2.3"
+    },
+    {
+        "Name": "Silvershower Heartstrings",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "66.2"
+        },
+        "Version": "4.7"
+    },
+    {
+        "Name": "Skyward Atlas",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "33.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Skyward Blade",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "55.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Skyward Harp",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "22.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Skyward Pride",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "36.8"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Skyward Spine",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "36.8"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Song of Broken Pines",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "741",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "20.7"
+        },
+        "Version": "1.5"
+    },
+    {
+        "Name": "Splendor of Tranquil Waters",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "88.2"
+        },
+        "Version": "4.2"
+    },
+    {
+        "Name": "Staff of Homa",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "66.2"
+        },
+        "Version": "1.3"
+    },
+    {
+        "Name": "Staff of the Scarlet Sands",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "44.1"
+        },
+        "Version": "3.1"
+    },
+    {
+        "Name": "Starcaller's Watch",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "265"
+        },
+        "Version": "5.3"
+    },
+    {
+        "Name": "Summit Shaper",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "49.6"
+        },
+        "Version": "1.2"
+    },
+    {
+        "Name": "Sunny Morning Sleep-In",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "265"
+        },
+        "Version": "5.4"
+    },
+    {
+        "Name": "Surf's Up",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "88.2"
+        },
+        "Version": "5.0"
+    },
+    {
+        "Name": "Symphonist of Scents",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "66.2"
+        },
+        "Version": "5.6"
+    },
+    {
+        "Name": "The First Great Magic",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "66.2"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "The Unforged",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "49.6"
+        },
+        "Version": "1.1"
+    },
+    {
+        "Name": "Thundering Pulse",
+        "Type": "Bow",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "66.2"
+        },
+        "Version": "2.0"
+    },
+    {
+        "Name": "Tome of the Eternal Flow",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "88.2"
+        },
+        "Version": "4.1"
+    },
+    {
+        "Name": "Tulaytullah's Remembrance",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "44.1"
+        },
+        "Version": "3.3"
+    },
+    {
+        "Name": "Uraku Misugiri",
+        "Type": "Sword",
+        "Rarity": "5",
+        "Base ATK": "542",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "88.2"
+        },
+        "Version": "4.5"
+    },
+    {
+        "Name": "Verdict",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "22.1"
+        },
+        "Version": "4.3"
+    },
+    {
+        "Name": "Vivid Notions",
+        "Type": "Catalyst",
+        "Rarity": "5",
+        "Base ATK": "674",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "44.1"
+        },
+        "Version": "5.5"
+    },
+    {
+        "Name": "Vortex Vanquisher",
+        "Type": "Polearm",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "49.6"
+        },
+        "Version": "1.1"
+    },
+    {
+        "Name": "Wolf's Gravestone",
+        "Type": "Claymore",
+        "Rarity": "5",
+        "Base ATK": "608",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "49.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "\"The Catch\"",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "45.9"
+        },
+        "Version": "2.1"
+    },
+    {
+        "Name": "\"Ultimate Overlord's Mega Magic Sword\"",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "4.3"
+    },
+    {
+        "Name": "Akuoumaru",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "2.2"
+    },
+    {
+        "Name": "Alley Hunter",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "1.4"
+    },
+    {
+        "Name": "Amenoma Kageuchi",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "55.1"
+        },
+        "Version": "2.0"
+    },
+    {
+        "Name": "Ash-Graven Drinking Horn",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "41.3"
+        },
+        "Version": "5.0"
+    },
+    {
+        "Name": "Ballad of the Boundless Blue",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "4.1"
+    },
+    {
+        "Name": "Ballad of the Fjords",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "27.6"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Blackcliff Agate",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "55.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Blackcliff Longsword",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "36.8"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Blackcliff Pole",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "55.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Blackcliff Slasher",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "55.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Blackcliff Warbow",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "36.8"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Calamity of Eshu",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "5.2"
+    },
+    {
+        "Name": "Chain Breaker",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "5.0"
+    },
+    {
+        "Name": "Cinnabar Spindle",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "DEF %",
+            "Value": "69.0"
+        },
+        "Version": "2.3"
+    },
+    {
+        "Name": "Cloudforged",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "4.7"
+    },
+    {
+        "Name": "Compound Bow",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "69.0"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Crescent Pike",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "34.5"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Deathmatch",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "36.8"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Dialogues of the Desert Sages",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "41.3"
+        },
+        "Version": "4.5"
+    },
+    {
+        "Name": "Dodoco Tales",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "55.1"
+        },
+        "Version": "1.6"
+    },
+    {
+        "Name": "Dragon's Bane",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "221"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Dragonspine Spear",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "69.0"
+        },
+        "Version": "1.2"
+    },
+    {
+        "Name": "Earth Shaker",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "5.0"
+    },
+    {
+        "Name": "End of the Line",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "45.9"
+        },
+        "Version": "3.0"
+    },
+    {
+        "Name": "Eye of Perception",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "55.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Fading Twilight",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "2.7"
+    },
+    {
+        "Name": "Favonius Codex",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "45.9"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Favonius Greatsword",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "61.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Favonius Lance",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Favonius Sword",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "61.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Favonius Warbow",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "61.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Festering Desire",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "45.9"
+        },
+        "Version": "1.2"
+    },
+    {
+        "Name": "Finale of the Deep",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Flame-Forged Insight",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "5.8"
+    },
+    {
+        "Name": "Fleuve Cendre Ferryman",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "45.9"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Flower-Wreathed Feathers",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "5.2"
+    },
+    {
+        "Name": "Flowing Purity",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Flute of Ezpitzal",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "DEF %",
+            "Value": "69.0"
+        },
+        "Version": "5.0"
+    },
+    {
+        "Name": "Footprint of the Rainbow",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "DEF %",
+            "Value": "51.7"
+        },
+        "Version": "5.0"
+    },
+    {
+        "Name": "Forest Regalia",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "3.0"
+    },
+    {
+        "Name": "Frostbearer",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "1.2"
+    },
+    {
+        "Name": "Fruit of Fulfillment",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "45.9"
+        },
+        "Version": "3.0"
+    },
+    {
+        "Name": "Fruitful Hook",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "5.1"
+    },
+    {
+        "Name": "Hakushin Ring",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "2.0"
+    },
+    {
+        "Name": "Hamayumi",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "55.1"
+        },
+        "Version": "2.0"
+    },
+    {
+        "Name": "Ibis Piercer",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "3.7"
+    },
+    {
+        "Name": "Iron Sting",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Kagotsurube Isshin",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "2.8"
+    },
+    {
+        "Name": "Katsuragikiri Nagamasa",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "45.9"
+        },
+        "Version": "2.0"
+    },
+    {
+        "Name": "King's Squire",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "55.1"
+        },
+        "Version": "3.0"
+    },
+    {
+        "Name": "Kitain Cross Spear",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "110"
+        },
+        "Version": "2.0"
+    },
+    {
+        "Name": "Lion's Roar",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Lithic Blade",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "1.3"
+    },
+    {
+        "Name": "Lithic Spear",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "1.3"
+    },
+    {
+        "Name": "Luxurious Sea-Lord",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "55.1"
+        },
+        "Version": "2.1"
+    },
+    {
+        "Name": "Mailed Flower",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "110"
+        },
+        "Version": "3.5"
+    },
+    {
+        "Name": "Makhaira Aquamarine",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "3.1"
+    },
+    {
+        "Name": "Mappa Mare",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "110"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Missive Windspear",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "3.1"
+    },
+    {
+        "Name": "Mitternachts Waltz",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "51.7"
+        },
+        "Version": "1.6"
+    },
+    {
+        "Name": "Moonpiercer",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "110"
+        },
+        "Version": "3.0"
+    },
+    {
+        "Name": "Mountain-Bracing Bolt",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "5.1"
+    },
+    {
+        "Name": "Mouun's Moon",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "2.2"
+    },
+    {
+        "Name": "Oathsworn Eye",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "2.5"
+    },
+    {
+        "Name": "Portable Power Saw",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "55.1"
+        },
+        "Version": "4.1"
+    },
+    {
+        "Name": "Predator",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "2.1"
+    },
+    {
+        "Name": "Prospector's Drill",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "4.1"
+    },
+    {
+        "Name": "Prototype Amber",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Prototype Archaic",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Prototype Crescent",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Prototype Rancour",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "34.5"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Prototype Starglitter",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "45.9"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Rainslasher",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Range Gauge",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "4.1"
+    },
+    {
+        "Name": "Rightful Reward",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "27.6"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Ring of Yaxche",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "41.3"
+        },
+        "Version": "5.0"
+    },
+    {
+        "Name": "Royal Bow",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Royal Greatsword",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Royal Grimoire",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Royal Longsword",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Royal Spear",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "1.1"
+    },
+    {
+        "Name": "Rust",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Sacrificial Bow",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Sacrificial Fragments",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "221"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Sacrificial Greatsword",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Sacrificial Jade",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "36.8"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Sacrificial Sword",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "61.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Sapwood Blade",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "3.0"
+    },
+    {
+        "Name": "Scion of the Blazing Sun",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "18.4"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Sequence of Solitude",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "41.3"
+        },
+        "Version": "5.6"
+    },
+    {
+        "Name": "Serpent Spine",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "27.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Snow-Tombed Starsilver",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "34.5"
+        },
+        "Version": "1.2"
+    },
+    {
+        "Name": "Solar Pearl",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "27.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Song of Stillness",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Sturdy Bone",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "27.6"
+        },
+        "Version": "5.1"
+    },
+    {
+        "Name": "Sword of Descension",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "440",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "35.2"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Sword of Narzissenkreuz",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "4.2"
+    },
+    {
+        "Name": "Talking Stick",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "18.4"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Tamayuratei no Ohanashi",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "5.4"
+    },
+    {
+        "Name": "The Alley Flash",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "620",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "55"
+        },
+        "Version": "1.4"
+    },
+    {
+        "Name": "The Bell",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "The Black Sword",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "27.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "The Dockhand's Assistant",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "41.3"
+        },
+        "Version": "4.1"
+    },
+    {
+        "Name": "The Flute",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "The Stringless",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "The Viridescent Hunt",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "27.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "The Widsith",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "55.1"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Tidal Shadow",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "41.3"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Toukabou Shigure",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "3.3"
+    },
+    {
+        "Name": "Wandering Evenstar",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "3.1"
+    },
+    {
+        "Name": "Wavebreaker's Fin",
+        "Type": "Polearm",
+        "Rarity": "4",
+        "Base ATK": "620",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "13.8"
+        },
+        "Version": "2.2"
+    },
+    {
+        "Name": "Waveriding Whirl",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "454",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "61.3"
+        },
+        "Version": "5.2"
+    },
+    {
+        "Name": "Whiteblind",
+        "Type": "Claymore",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "DEF %",
+            "Value": "51.7"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Windblume Ode",
+        "Type": "Bow",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "1.4"
+    },
+    {
+        "Name": "Wine and Song",
+        "Type": "Catalyst",
+        "Rarity": "4",
+        "Base ATK": "565",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "30.6"
+        },
+        "Version": "1.4"
+    },
+    {
+        "Name": "Wolf-Fang",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "27.6"
+        },
+        "Version": "4.0"
+    },
+    {
+        "Name": "Xiphos' Moonlight",
+        "Type": "Sword",
+        "Rarity": "4",
+        "Base ATK": "510",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "165"
+        },
+        "Version": "3.1"
+    },
+    {
+        "Name": "Black Tassel",
+        "Type": "Polearm",
+        "Rarity": "3",
+        "Base ATK": "354",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "46.9"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Bloodtainted Greatsword",
+        "Type": "Claymore",
+        "Rarity": "3",
+        "Base ATK": "354",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "187"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Cool Steel",
+        "Type": "Sword",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "35.2"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Dark Iron Sword",
+        "Type": "Sword",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "141"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Debate Club",
+        "Type": "Claymore",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "35.2"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Emerald Orb",
+        "Type": "Catalyst",
+        "Rarity": "3",
+        "Base ATK": "448",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "94"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Ferrous Shadow",
+        "Type": "Claymore",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "35.2"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Fillet Blade",
+        "Type": "Sword",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "35.2"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Halberd",
+        "Type": "Polearm",
+        "Rarity": "3",
+        "Base ATK": "448",
+        "Secondary Stat": {
+            "Name": "ATK %",
+            "Value": "23.4"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Harbinger of Dawn",
+        "Type": "Sword",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "46.9"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Magic Guide",
+        "Type": "Catalyst",
+        "Rarity": "3",
+        "Base ATK": "354",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "187"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Messenger",
+        "Type": "Bow",
+        "Rarity": "3",
+        "Base ATK": "448",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "31.2"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Otherworldly Story",
+        "Type": "Catalyst",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "39.0"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Raven Bow",
+        "Type": "Bow",
+        "Rarity": "3",
+        "Base ATK": "448",
+        "Secondary Stat": {
+            "Name": "Elemental Mastery",
+            "Value": "94"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Recurve Bow",
+        "Type": "Bow",
+        "Rarity": "3",
+        "Base ATK": "354",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "46.9"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Sharpshooter's Oath",
+        "Type": "Bow",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "CRIT DMG %",
+            "Value": "46.9"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Skyrider Greatsword",
+        "Type": "Claymore",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "Physical DMG Bonus %",
+            "Value": "43.9"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Skyrider Sword",
+        "Type": "Sword",
+        "Rarity": "3",
+        "Base ATK": "354",
+        "Secondary Stat": {
+            "Name": "Energy Recharge %",
+            "Value": "51.7"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Slingshot",
+        "Type": "Bow",
+        "Rarity": "3",
+        "Base ATK": "354",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "31.2"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Thrilling Tales of Dragon Slayers",
+        "Type": "Catalyst",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "HP %",
+            "Value": "35.2"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Traveler's Handy Sword",
+        "Type": "Sword",
+        "Rarity": "3",
+        "Base ATK": "448",
+        "Secondary Stat": {
+            "Name": "DEF %",
+            "Value": "29.3"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Twin Nephrite",
+        "Type": "Catalyst",
+        "Rarity": "3",
+        "Base ATK": "448",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "15.6"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "White Iron Greatsword",
+        "Type": "Claymore",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "DEF %",
+            "Value": "43.9"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "White Tassel",
+        "Type": "Polearm",
+        "Rarity": "3",
+        "Base ATK": "401",
+        "Secondary Stat": {
+            "Name": "CRIT Rate %",
+            "Value": "23.4"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Iron Point",
+        "Type": "Polearm",
+        "Rarity": "2",
+        "Base ATK": "243",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Old Merc's Pal",
+        "Type": "Claymore",
+        "Rarity": "2",
+        "Base ATK": "243",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Pocket Grimoire",
+        "Type": "Catalyst",
+        "Rarity": "2",
+        "Base ATK": "243",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Seasoned Hunter's Bow",
+        "Type": "Bow",
+        "Rarity": "2",
+        "Base ATK": "243",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Silver Sword",
+        "Type": "Sword",
+        "Rarity": "2",
+        "Base ATK": "243",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Apprentice's Notes",
+        "Type": "Catalyst",
+        "Rarity": "1",
+        "Base ATK": "185",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Beginner's Protector",
+        "Type": "Polearm",
+        "Rarity": "1",
+        "Base ATK": "185",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Dull Blade",
+        "Type": "Sword",
+        "Rarity": "1",
+        "Base ATK": "185",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Hunter's Bow",
+        "Type": "Bow",
+        "Rarity": "1",
+        "Base ATK": "185",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    },
+    {
+        "Name": "Waster Greatsword",
+        "Type": "Claymore",
+        "Rarity": "1",
+        "Base ATK": "185",
+        "Secondary Stat": {
+            "Name": "None",
+            "Value": "N/A"
+        },
+        "Version": "1.0"
+    }
+]
