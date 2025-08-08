@@ -2,14 +2,13 @@ import os
 import json
 import mysql.connector
 
-# ==== Konfigurasi DB ====
 DB_NAME = "seleksi_basdat_new"
 DB_USER = "root"
-DB_PASSWORD = "4L1y42003"
+DB_PASSWORD = "4L1y42003" # sesuaikan dengan password MySQL
 DB_HOST = "localhost"
 DB_PORT = 3306
 
-# ==== Helper ====
+# helper
 def to_bool(value):
     return value.lower() == "supported"
 
@@ -28,7 +27,7 @@ def parse_int(val):
         return 0
 
 
-# ==== Setup DB & Tabel ====
+# setup DB dan tabel
 def create_tables():
     conn = mysql.connector.connect(
         host=DB_HOST, user=DB_USER, password=DB_PASSWORD, port=DB_PORT
@@ -125,11 +124,11 @@ def create_tables():
     conn.commit()
     return conn, cursor
 
-# ==== Insert Data ====
+# inserting data
 def insert_data(cursor):
     cursor.execute(f"USE {DB_NAME}")
 
-    # Genre
+    # genre
     genres = load_json("genre_preprocessed.json")
     for genre in genres:
         cursor.execute(
@@ -137,7 +136,7 @@ def insert_data(cursor):
             (genre["genre_id"], genre["genre_name"])
         )
 
-    # Maturity
+    # maturity
     maturities = load_json("maturity_preprocessed.json")
     for maturity in maturities:
         cursor.execute(
@@ -145,7 +144,7 @@ def insert_data(cursor):
             (maturity["maturity_id"], maturity["maturity_level"])
         )
 
-    # Server
+    # server
     servers = load_json("server_preprocessed.json")
     for server in servers:
         cursor.execute(
@@ -153,7 +152,7 @@ def insert_data(cursor):
             (server["server_id"], server["server_size"])
         )
 
-    # Creator
+    # creator
     creators = load_json("creator_preprocessed.json")
     for creator in creators:
         cursor.execute("""
@@ -167,7 +166,7 @@ def insert_data(cursor):
             parse_int(creator["Following"])
         ))
 
-    # Community
+    # community
     communities = load_json("community_preprocessed.json")
     for community in communities:
         cursor.execute("""
@@ -180,7 +179,7 @@ def insert_data(cursor):
             community["creatorID"]
         ))
 
-    # Game + Statistics
+    # game + statistics
     games = load_json("game_preprocessed.json")
     for game in games:
         cursor.execute("""
@@ -213,8 +212,6 @@ def insert_data(cursor):
             game["Total Visits"]
         ))
 
-
-# ==== Main ====
 if __name__ == "__main__":
     conn, cursor = create_tables()
     insert_data(cursor)

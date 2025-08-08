@@ -2,10 +2,9 @@ import os
 import json
 import mysql.connector
 
-# ==== Konfigurasi DB ====
 DB_NAME = "seleksi_lab_basdat_warehouse_new"
 DB_USER = "root"
-DB_PASSWORD = "4L1y42003"
+DB_PASSWORD = "4L1y42003" # sesuaikan dengan password MySQL
 DB_HOST = "localhost"
 DB_PORT = 3306
 
@@ -59,7 +58,7 @@ def create_tables():
             member INT
         );
         """,
-        # dim_genre (baru)
+        # dim_genre 
         """
         CREATE TABLE dim_genre (
             genre_id INT PRIMARY KEY,
@@ -118,7 +117,7 @@ def create_tables():
 def insert_data(cursor, conn):
     cursor.execute(f"USE {DB_NAME}")
 
-    # Insert genres
+    # insert genres
     genres = load_json("genre_preprocessed.json")
     for genre in genres:
         cursor.execute("""
@@ -129,7 +128,7 @@ def insert_data(cursor, conn):
             genre.get("genre_name")
         ))
 
-    # Insert communities
+    # insert communities
     communities = load_json("community_preprocessed.json")
     for comm in communities:
         cursor.execute("""
@@ -141,7 +140,7 @@ def insert_data(cursor, conn):
             comm.get("Members", None)
         ))
 
-    # Insert games and facts
+    # insert games and facts
     games = load_json("game_preprocessed.json")
     for g in games:
         try:
@@ -156,14 +155,14 @@ def insert_data(cursor, conn):
         date_val = g.get("Date")
         community_id = g.get("communityID")
 
-        # Insert into dim_date
+        # insert into dim_date
         cursor.execute("""
             INSERT IGNORE INTO dim_date (date, day, month, quarter, semester, year)
             VALUES (%s, DAY(%s), MONTH(%s), QUARTER(%s),
                     IF(MONTH(%s)<=6,1,2), YEAR(%s))
         """, (date_val, date_val, date_val, date_val, date_val, date_val))
 
-        # Insert dim_game
+        # insert into dim_game
         try:
             cursor.execute("""
                 INSERT IGNORE INTO dim_game (
@@ -184,7 +183,7 @@ def insert_data(cursor, conn):
             print(f"Error inserting dim_game for game_id={game_id}: {e}")
             continue
 
-        # Insert fact_game_stats
+        # insert fact_game_stats
         cursor.execute("""
             INSERT IGNORE INTO fact_game_stats
             (active_users, favorites, total_visits, thumbs_up, thumbs_down, RBM, game_id, date)

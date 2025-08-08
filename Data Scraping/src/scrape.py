@@ -40,7 +40,7 @@ def get_game_urls(driver):
     url = 'https://www.roblox.com/discover'
     driver.get(url)
     time.sleep(8)
-    # Scroll down to load more games
+    # Scroll down 
     for _ in range(3):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)

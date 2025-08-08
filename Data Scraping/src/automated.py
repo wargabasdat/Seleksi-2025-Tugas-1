@@ -15,7 +15,6 @@ import time
 import os
 import random
 
-# ==== Paths absolut berbasis lokasi file ini ====
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))                 # .../Data Scraping/src
 PROJECT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))           # .../Data Scraping
 DATA_RAW_DIR = os.path.join(PROJECT_DIR, "data", "raw")               # .../Data Scraping/data/raw
@@ -25,7 +24,7 @@ CREATOR_JSON_PATH = os.path.join(DATA_RAW_DIR, "creator.json")
 PREPROCESS_PATH = os.path.join(BASE_DIR, "preprocess.py")             # .../Data Scraping/src/preprocess.py
 STORING_PATH = os.path.abspath(os.path.join(PROJECT_DIR, "..", "Data Storing", "src", "storing.py"))
 
-LOG_PATH = os.path.join(os.path.dirname(PROJECT_DIR), "log.txt")      # log di root project (satu level di atas "Data Scraping")
+LOG_PATH = os.path.join(os.path.dirname(PROJECT_DIR), "log.txt")   
 
 def load_game_urls_from_json(file_path=GAME_JSON_PATH):
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -33,19 +32,10 @@ def load_game_urls_from_json(file_path=GAME_JSON_PATH):
     return [entry['URL'] for entry in game_data if 'URL' in entry]
 
 def main():
-    # Pastikan folder data/raw ada
     os.makedirs(DATA_RAW_DIR, exist_ok=True)
 
     driver = setup_chrome_driver()
-    try:
-        game_urls = load_game_urls_from_json()
-    except FileNotFoundError:
-        now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        with open(LOG_PATH, 'a', encoding='utf-8') as log:
-            log.write(f"[{now}] ERROR: {GAME_JSON_PATH} tidak ditemukan. Automasi dibatalkan.\n")
-        print(f"[{now}] ERROR: {GAME_JSON_PATH} tidak ditemukan.")
-        return
-
+    game_urls = load_game_urls_from_json()
     final_data, community_json, creator_json = [], [], []
 
     for count, game_url in enumerate(game_urls):
@@ -86,12 +76,12 @@ def main():
             continue
     driver.quit()
 
-    # Overwrite JSON OUTPUT (di path absolut)
+    # Overwrite JSON
     write_data_to_json(final_data)
     save_json(community_json, COMM_JSON_PATH)
     save_json(creator_json, CREATOR_JSON_PATH)
 
-    # Run preprocess & storing via path absolut
+    # Run preprocess & storing
     subprocess.run([sys.executable, PREPROCESS_PATH], check=False)
     subprocess.run([sys.executable, STORING_PATH], check=False)
 

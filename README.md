@@ -51,7 +51,7 @@ Terakhir, data dari 6 file JSON dimasukkan ke dalam *database* berbasis MySQL de
 ```bash
 python storing.py
 ```
-note: disesuaikan ingin menyimpan ke *database* (melalui folder Data Storing) atau *data warehouse* (melalui folder Data Warehouse)
+note: disesuaikan ingin menyimpan ke *database* (melalui folder Data Storing) atau *data warehouse* (melalui folder Data Warehouse) dan sesuaikan *password* MySQL yang digunakan dalam kode storing.py
 
 ## **Struktur File JSON**  
 Berikut adalah contoh entry dari tiap file JSON hasil *scraping*:
@@ -106,7 +106,7 @@ File JSON ini menyimpan creator yang membuat community yang membuat game-game ya
 ## **Struktur ERD dan Diagram Relasional**  
 ## **1. Database**
 ### **ERD**
-Entity
+*Entity*:
 1. Creator: memiliki creator_id sebagai *primary key*
 2. Monetization_Level: memiliki level_id sebagai *primary key*
 3. Community: memiliki community_id sebagai *primary key*
@@ -116,7 +116,7 @@ Entity
 7. Server: memiliki server_id sebagai *primary key*
 8. Genre:  memiliki genre_id sebagai *primary key*
 
-Relationship
+*Relationship*:
 1. Creator is Monetization_Level: Seorang Creator pasti memiliki satu Monetization Level namun sebuah level bisa dimiliki banyak Creator (many-to-one)
 2. Creator creates Community: Seorang Creator bisa membuat beberapa Community namun suatu Community pasti dibuat oleh satu Creator (one-to-many)
 3. Community owns Game: Sebuah Community bisa membuat banyak Game namun suatu Game pasti dibuat oleh satu Community (one-to-many)
@@ -124,6 +124,7 @@ Relationship
 5. Game categorized as Maturity: Sebuah Game memiliki satu Maturity namun satu Maturity bisa dimiliki oleh beberapa Game (many-to-one)
 6. Game has Statistics: Sebuah Game bisa memiliki banyak Statistics namun satu Statistics pasti hanya dimiliki oleh satu Game (one-to-many). Dalam relasi ini, Statistics adalah weak entity karena hanya unik jika diskriminatornya (date) dikombinasikan dengan game_id sebagai primary key dari strong entity.
 7. Game categorized as Genre: Sebuah Game memiliki satu Genre namun satu Genre bisa dimiliki oleh beberapa Game (many-to-one)
+
 ### **Diagram Relasional**
 1. Creator: Memiliki creator_id sebagai *primary key* dan level_id sebagai *foreign key* yang merujuk pada level_id dari tabel Monetization_Level
 2. Monetization_Level: Memiliki level_id sebagai *primary key*
@@ -136,7 +137,7 @@ Relationship
 
 ## **2. Data Warehouse**
 ### **ERD**
-Entity
+*Entity*:
 1. fact_game_stats: Memiliki stats_id sebagai *primary key* (berisi statistik game yang akan berubah seiring berjalannya waktu)
 2. dim_date: Memiliki date sebagai *primary key*(berguna untuk menyimpan semua tanggal agar analisis terhadap perkembangan statistik game terhadap waktu bisa dilakukan secara lebih mudah)
 3. dim_game: Memiliki game_id sebagai *primary key* (berisi statistik game yang tidak akan berubah terhadap waktu/tidak ingin dianalisis perubahannya terhadap waktu)
@@ -144,7 +145,7 @@ Entity
 5. dim_community: Memiliki community_id sebagai *primary key*
 6. dim_genre: Memiliki genre_id sebagai *primary key*
 
-Relationship
+*Relationship*:
 1. dim_date when fact_game_stats: Pada suatu tanggal, bisa direkam beberapa statistik, namun suatu statistik hanya direkam pada satu tanggal (one-to-many)
 2. fact_game_stats has dim_game: Suatu Game bisa memiliki banyak statistik namun suatu statistik hanya tentang satu Game (many-to-one)
 3. dim_game played in dim_country: Suatu Game bisa dimainkan di banyak negara dan pemain-pemain di suatu negara bisa memainkan banyak Game (many-to-many)
@@ -196,7 +197,7 @@ Berikut adalah log timestamp ekstraksi *batch* pertama, kedua, dan ketiga:
 [2025-08-08 10:08:41] Automated pipeline done.
 [2025-08-08 11:25:23] Automated pipeline done.
 [2025-08-08 12:24:59] Automated pipeline done.
-Note: penulis menyesuaikan penjadwalan agar mempercepat proses ekstraksi ketiga *batch* sebagai penanda bahwa *automated scheduling* bisa dijalankan.
+Note: penulis menyesuaikan penjadwalan agar mempercepat proses ekstraksi ketiga *batch* sebagai penanda bahwa *automated scheduling* bisa dijalankan. Untuk log lebih lengkapnya dapat dilihat di log.txt
 
 ## **Referensi** 
 ### **Library yang digunakan**

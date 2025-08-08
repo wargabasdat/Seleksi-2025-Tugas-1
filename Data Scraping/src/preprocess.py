@@ -83,7 +83,7 @@ def create_reference_tables(games_data, community_data, creator_data):
     genre_table = [{"genre_id": i+1, "genre_name": g} for i, g in enumerate(genres)]
     genre_id_map = {g.lower(): i+1 for i, g in enumerate(genres)}
 
-    # ----- COMMUNITY (hanya dari community.json) -----
+    # community
     seen_com = {}
     for comm in community_data:
         name = comm.get('Community Name')
@@ -95,7 +95,7 @@ def create_reference_tables(games_data, community_data, creator_data):
     community_table = [{"community_id": i+1, "community_name": c} for i, c in enumerate(communities)]
     community_id_map = {c.lower(): i+1 for i, c in enumerate(communities)}
 
-    # ----- CREATOR -----
+    # creator
     seen_creator = {}
     for comm in community_data:
         val = comm.get('Creator Name')
@@ -113,7 +113,7 @@ def create_reference_tables(games_data, community_data, creator_data):
     creator_table = [{"creator_id": i+1, "creator_name": c} for i, c in enumerate(creators)]
     creator_id_map = {c.lower(): i+1 for i, c in enumerate(creators)}
 
-    # ----- MATURITY -----
+    # maturity
     seen_mat = {}
     for game in games_data:
         val = game.get('Maturity')
@@ -137,7 +137,7 @@ def transform_games_with_ids(games_data, genre_id_map, community_id_map, maturit
         # genreID
         genre_name = t.pop('Genre', None)
         t['genreID'] = genre_id_map.get(genre_name.strip().lower(), None) if genre_name else None
-        # communityID (case-insensitive)
+        # communityID 
         comm_name = t.pop('Community', None)
         t['communityID'] = community_id_map.get(comm_name.strip().lower(), None) if comm_name else None
         # maturity_id
@@ -184,7 +184,6 @@ def transform_creator_data(creator_data, creator_id_map):
 
 def main():
     os.makedirs('data', exist_ok=True)
-    # Load
     games = load_json('game.json')
     comms = load_json('community.json')
     creators = load_json('creator.json')
