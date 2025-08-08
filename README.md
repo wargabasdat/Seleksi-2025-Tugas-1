@@ -120,6 +120,15 @@ File JSON hasil scraping memiliki struktur sebagai berikut:
 #### Warehouse
 <img width="875" height="526" alt="RELATIONAL CPU WAREHOUSE" src="https://github.com/user-attachments/assets/9185a54c-1e37-416a-91b8-422b669aadc4" />
 
+## 🔄 f. Proses Translasi ERD menjadi Diagram Relasional
+Proses translasi dari ERD ke diagram relasional mengikuti langkah-langkah berikut:
+- Setiap entity di ERD (misalnya, PROCESSOR, MANUFACTURER) diubah menjadi sebuah tabel di dalam database.
+- Setiap atribut dari sebuah entiys (misalnya, name, cores) menjadi sebuah kolom di dalam tabel, dengan tipe data yang sesuai (misalnya, VARCHAR, INT).
+- Atribut unik dari setiap entitas (misalnya, processor_id) dijadikan Primary Key (PK) pada tabelnya untuk memastikan setiap baris data bersifat unik.
+- Hubungan menjadi Foreign Key:
+  - Hubungan One-to-Many: Untuk hubungan seperti MANUFACTURER dan PROCESSOR, Primary Key dari sisi "one" (manufacturer_id) ditambahkan sebagai Foreign Key (FK) ke dalam tabel di sisi "many" (processors).
+  - Hubungan Many-to-Many: Untuk hubungan seperti PROCESSORS dan FEATURES (satu prosesor punya banyak fitur, satu fitur ada di banyak prosesor), sebuah tabel penghubung (juga disebut junction table) baru dibuat, yaitu processor_features. Tabel ini hanya berisi dua kolom: Foreign Key yang menunjuk ke PK processors (processor_id) dan Foreign Key yang menunjuk ke PK features (feature_id).
+
 ## 📸 g. Screenshot Program
 ## Data Storing
 ![Query 1 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Storing/screenshot/Query%201.png)
@@ -134,15 +143,6 @@ File JSON hasil scraping memiliki struktur sebagai berikut:
 ![Query 3 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Warehouse/screenshot/Query%203.png)
 ![Query 4 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Warehouse/screenshot/Query%204.png)
 ![Query 5 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Warehouse/screenshot/Query%205.png)
-
-## 🔄 f. Proses Translasi ERD menjadi Diagram Relasional
-Proses translasi dari ERD ke diagram relasional mengikuti langkah-langkah berikut:
-- Setiap entity di ERD (misalnya, PROCESSOR, MANUFACTURER) diubah menjadi sebuah tabel di dalam database.
-- Setiap atribut dari sebuah entiys (misalnya, name, cores) menjadi sebuah kolom di dalam tabel, dengan tipe data yang sesuai (misalnya, VARCHAR, INT).
-- Atribut unik dari setiap entitas (misalnya, processor_id) dijadikan Primary Key (PK) pada tabelnya untuk memastikan setiap baris data bersifat unik.
-- Hubungan menjadi Foreign Key:
-  - Hubungan One-to-Many: Untuk hubungan seperti MANUFACTURER dan PROCESSOR, Primary Key dari sisi "one" (manufacturer_id) ditambahkan sebagai Foreign Key (FK) ke dalam tabel di sisi "many" (processors).
-  - Hubungan Many-to-Many: Untuk hubungan seperti PROCESSORS dan FEATURES (satu prosesor punya banyak fitur, satu fitur ada di banyak prosesor), sebuah tabel penghubung (juga disebut junction table) baru dibuat, yaitu processor_features. Tabel ini hanya berisi dua kolom: Foreign Key yang menunjuk ke PK processors (processor_id) dan Foreign Key yang menunjuk ke PK features (feature_id).
 
 ## 📚 h. Referensi
 🌐 Sumber Data:
