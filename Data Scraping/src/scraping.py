@@ -103,7 +103,7 @@ def extract_table(page) -> List[Dict]:
 
         data.append({
             "company": company,
-            "valuation_billion_usd": valuation_b,
+            "valuation": valuation_b,
             "date_joined": date_joined,
             "country": country,
             "city": city,
