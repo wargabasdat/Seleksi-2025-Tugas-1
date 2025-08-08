@@ -82,21 +82,78 @@ $ psql -U {username} -d {nama database} < broadway.sql
 ```
 
 ## Struktur JSON
-Berikut merupakan salah satu contoh struktur dari file JSON yang dihasilkan dari _Data Scraping_ yaitu  `active_theatre`. File ini memuat informasi terkait teater-teater yang saat ini masih beroperasi di Broadway, beserta atribut-atributnya seperti nama teater dan kapasitas
-```
-[
-    {
-        "Theatre_name": Nama Teater,
-        "Capacity": Kapasitas kursi teater
-    }
-]
-```
-Berikut merupakan salah satu contoh tuple
+Berikut merupakan struktur dari file JSON yang dihasilkan dari _Data Scraping_. 
+1. active_theatres.json
 ```
 [
     {
         "Theatre_name":"Al Hirschfeld Theatre",
         "Capacity":"1,424"
+    }
+]
+```
+2. architects.json
+```
+[
+    {
+        "Theatre":"Al Hirschfeld Theatre",
+        "ID":1
+    }
+]
+```
+3. former_existing_theatres.json
+```
+[    
+    {
+        "Theatre_name":"Edison Theatre",
+        "Current_use":"Event space",
+        "Last_opened":"1991"
+    }
+]
+```
+4. list_architects.json
+```
+[  
+    {
+        "Architect":"G. Albert Lansburgh",
+        "ID":1
+    }
+]
+```
+5. organizations.json
+```
+[  
+    {
+        "Owner":"Shubert Organization"
+    }
+]
+```
+6. productions.json
+```
+[  
+    {
+        "Opening_year":"1973",
+        "Title":"Warp!",
+        "Theatre_name":"Ambassador Theatre (Broadway)"
+    }
+]
+```
+7. shows.json
+```
+[ 
+    {
+        "Show":"A Tale of Two Cities"
+    }
+]
+```
+8. theatres.json
+```
+[ 
+    {
+        "Theatre_name":"John Golden Theatre",
+        "Address":"252 W. 45th St.",
+        "Opening_year":"1927",
+        "Owner":"Shubert Organization"
     }
 ]
 ```
