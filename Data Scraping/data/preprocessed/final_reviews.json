@@ -1,0 +1,138 @@
+[
+  {
+    "review_order": 1,
+    "class_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb",
+    "instructor_reviewed": "Zara Alia",
+    "review_text": "suka selalu kelas kak zara pedes2 tapi nagih",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 2,
+    "class_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb",
+    "instructor_reviewed": "Keiko Indrijani",
+    "review_text": "Kelasnya seru sekali saya suka",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+    "instructor_reviewed": "Novi Erna",
+    "review_text": "Amazing",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 2,
+    "class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+    "instructor_reviewed": "Hanum Thaher",
+    "review_text": "Went to this class with other two (I could say) very experienced in pilates. That session was the spiciest one I ever had. Kak Hanum really push our limit OVER the edge. The greatest feeling I felt ever after class. Very excellent.",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 3,
+    "class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+    "instructor_reviewed": null,
+    "review_text": "Really fun and enjoyable class!",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02",
+    "instructor_reviewed": null,
+    "review_text": "It was a very enjoyable flow, as its name it was delightful! Lots of stretching and mobility practices, I love it!",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c",
+    "instructor_reviewed": "Putri Augustine",
+    "review_text": "Suka semua kelas yang ada di kalms, kalau kata org ‘palugada’ hehe",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "af761997-f321-4682-886a-6e745be717ed",
+    "instructor_reviewed": "Sarah Victoria",
+    "review_text": "kelas nya seru bangett",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 2,
+    "class_id": "af761997-f321-4682-886a-6e745be717ed",
+    "instructor_reviewed": "Novi Erna",
+    "review_text": "ternyata fun dan beginner friendly!",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 3,
+    "class_id": "af761997-f321-4682-886a-6e745be717ed",
+    "instructor_reviewed": "Dino Vrei",
+    "review_text": "Great",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "8d948a73-8f78-4903-98bb-bbee31d83a69",
+    "instructor_reviewed": "Sarah Victoria",
+    "review_text": "seru kelas sarah selalu ga ada movement yang sama di tiap kelasnya keren",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957",
+    "instructor_reviewed": "Henny Wijaya",
+    "review_text": "Seru banget ada gerakan yang aku baru belajar (compass pose) dan dapet banget yoganya",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "5449236d-1652-4d0a-8df2-03264dcd27a2",
+    "instructor_reviewed": "Novi Erna",
+    "review_text": "I took 11.00am class, everyone was there on time. No issue!",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46",
+    "instructor_reviewed": "Diva Mahsa",
+    "review_text": "Senang sekali diajarkan 2 alat sekaligus",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 2,
+    "class_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46",
+    "instructor_reviewed": null,
+    "review_text": "Over all good and interesting for first timer",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac",
+    "instructor_reviewed": "Sarah Victoria",
+    "review_text": "seru banget towernya sarah tapi harus war :(",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  },
+  {
+    "review_order": 1,
+    "class_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28",
+    "instructor_reviewed": "Irma Ars",
+    "review_text": "SELALU MANTAPPP",
+    "review_location": "Summarecon Bekasi",
+    "stars_rating": 5
+  }
+]

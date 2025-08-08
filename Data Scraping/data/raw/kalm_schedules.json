@@ -1,0 +1,912 @@
+[
+  {
+    "schedule_id": "schedule_1",
+    "category": "Yoga",
+    "date": "2025-08-07",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Irma Ars",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_2",
+    "category": "Yoga",
+    "date": "2025-08-07",
+    "start_time": "7:30pm",
+    "duration": "60 mins",
+    "class_name": "Twilight Flow",
+    "instructor_name": "Faras Sekarpratiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_3",
+    "category": "Yoga",
+    "date": "2025-08-08",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Serenity Glow Flow",
+    "instructor_name": "Icha Devina",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_4",
+    "category": "Yoga",
+    "date": "2025-08-09",
+    "start_time": "8:30am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Henny Wijaya",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_5",
+    "category": "Yoga",
+    "date": "2025-08-09",
+    "start_time": "3:00pm",
+    "duration": "60 mins",
+    "class_name": "Hip-Opening",
+    "instructor_name": "Putri Augustine",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_6",
+    "category": "Yoga",
+    "date": "2025-08-10",
+    "start_time": "7:00am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Irma Ars",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_7",
+    "category": "Yoga",
+    "date": "2025-08-10",
+    "start_time": "8:30am",
+    "duration": "60 mins",
+    "class_name": "Sun-Kissed Flow",
+    "instructor_name": "Inez Priscilla",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_8",
+    "category": "Yoga",
+    "date": "2025-08-10",
+    "start_time": "10:45am",
+    "duration": "60 mins",
+    "class_name": "Basic Yoga",
+    "instructor_name": "Irene Juliency",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_9",
+    "category": "Yoga",
+    "date": "2025-08-11",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Hatha Flow",
+    "instructor_name": "Faras Sekarpratiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_10",
+    "category": "Yoga",
+    "date": "2025-08-12",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Vinyasa Delight",
+    "instructor_name": "Inez Priscilla",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_11",
+    "category": "Yoga",
+    "date": "2025-08-12",
+    "start_time": "6:30pm",
+    "duration": "60 mins",
+    "class_name": "Moonlight Flow",
+    "instructor_name": "Shinta W Permatasari",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_12",
+    "category": "Yoga",
+    "date": "2025-08-13",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Midweek Recharge",
+    "instructor_name": "Majma A",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_13",
+    "category": "Yoga",
+    "date": "2025-08-13",
+    "start_time": "5:30pm",
+    "duration": "60 mins",
+    "class_name": "Basic Yoga",
+    "instructor_name": "Henny Wijaya",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_14",
+    "category": "Yoga",
+    "date": "2025-08-13",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Easy Vinyasa",
+    "instructor_name": "Henny Wijaya",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_15",
+    "category": "Yoga",
+    "date": "2025-08-14",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Irma Ars",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_16",
+    "category": "Yoga",
+    "date": "2025-08-14",
+    "start_time": "7:30pm",
+    "duration": "60 mins",
+    "class_name": "Twilight Flow",
+    "instructor_name": "Faras Sekarpratiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_17",
+    "category": "Yoga",
+    "date": "2025-08-15",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Serenity Glow Flow",
+    "instructor_name": "Icha Devina",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_18",
+    "category": "Yoga",
+    "date": "2025-08-16",
+    "start_time": "8:30am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Henny Wijaya",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_19",
+    "category": "Yoga",
+    "date": "2025-08-16",
+    "start_time": "2:30pm",
+    "duration": "60 mins",
+    "class_name": "Power Yoga: Heat and Heart",
+    "instructor_name": "Ivy Damara",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_20",
+    "category": "Yoga",
+    "date": "2025-08-17",
+    "start_time": "7:00am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Majma A",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_21",
+    "category": "Yoga",
+    "date": "2025-08-17",
+    "start_time": "8:30am",
+    "duration": "60 mins",
+    "class_name": "Sun-Kissed Flow",
+    "instructor_name": "Inez Priscilla",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_22",
+    "category": "Yoga",
+    "date": "2025-08-17",
+    "start_time": "10:45am",
+    "duration": "60 mins",
+    "class_name": "Basic Yoga",
+    "instructor_name": "Irene Juliency",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_23",
+    "category": "Yoga",
+    "date": "2025-08-18",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Hatha Flow",
+    "instructor_name": "Faras Sekarpratiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_24",
+    "category": "Yoga",
+    "date": "2025-08-19",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Vinyasa Delight",
+    "instructor_name": "Inez Priscilla",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_25",
+    "category": "Yoga",
+    "date": "2025-08-19",
+    "start_time": "6:30pm",
+    "duration": "60 mins",
+    "class_name": "Moonlight Flow",
+    "instructor_name": "Shinta W Permatasari",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_26",
+    "category": "Yoga",
+    "date": "2025-08-20",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Midweek Recharge",
+    "instructor_name": "Majma A",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_27",
+    "category": "Yoga",
+    "date": "2025-08-20",
+    "start_time": "5:30pm",
+    "duration": "60 mins",
+    "class_name": "Basic Yoga",
+    "instructor_name": "Henny Wijaya",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_28",
+    "category": "Yoga",
+    "date": "2025-08-20",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Easy Vinyasa",
+    "instructor_name": "Henny Wijaya",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_29",
+    "category": "Yoga",
+    "date": "2025-08-21",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Irma Ars",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_30",
+    "category": "Yoga",
+    "date": "2025-08-21",
+    "start_time": "7:30pm",
+    "duration": "60 mins",
+    "class_name": "Twilight Flow",
+    "instructor_name": "Faras Sekarpratiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_31",
+    "category": "Yoga",
+    "date": "2025-08-22",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Serenity Glow Flow",
+    "instructor_name": "Icha Devina",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_32",
+    "category": "Yoga",
+    "date": "2025-08-23",
+    "start_time": "8:30am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Henny Wijaya",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_33",
+    "category": "Yoga",
+    "date": "2025-08-24",
+    "start_time": "7:00am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Irma Ars",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_34",
+    "category": "Yoga",
+    "date": "2025-08-24",
+    "start_time": "8:30am",
+    "duration": "60 mins",
+    "class_name": "Sun-Kissed Flow",
+    "instructor_name": "Inez Priscilla",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_35",
+    "category": "Yoga",
+    "date": "2025-08-24",
+    "start_time": "10:45am",
+    "duration": "60 mins",
+    "class_name": "Basic Yoga",
+    "instructor_name": "Irene Juliency",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_36",
+    "category": "Yoga",
+    "date": "2025-08-25",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Hatha Flow",
+    "instructor_name": "Faras Sekarpratiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_37",
+    "category": "Yoga",
+    "date": "2025-08-26",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Vinyasa Delight",
+    "instructor_name": "Inez Priscilla",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_38",
+    "category": "Yoga",
+    "date": "2025-08-26",
+    "start_time": "6:30pm",
+    "duration": "60 mins",
+    "class_name": "Moonlight Flow",
+    "instructor_name": "Shinta W Permatasari",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_39",
+    "category": "Yoga",
+    "date": "2025-08-28",
+    "start_time": "8:00am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Irma Ars",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_40",
+    "category": "Yoga",
+    "date": "2025-08-28",
+    "start_time": "7:30pm",
+    "duration": "60 mins",
+    "class_name": "Twilight Flow",
+    "instructor_name": "Faras Sekarpratiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_41",
+    "category": "Yoga",
+    "date": "2025-08-29",
+    "start_time": "7:00pm",
+    "duration": "60 mins",
+    "class_name": "Serenity Glow Flow",
+    "instructor_name": "Icha Devina",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_42",
+    "category": "Yoga",
+    "date": "2025-08-31",
+    "start_time": "7:00am",
+    "duration": "60 mins",
+    "class_name": "Morning Vinyasa Flow",
+    "instructor_name": "Irma Ars",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_43",
+    "category": "Yoga",
+    "date": "2025-08-31",
+    "start_time": "8:30am",
+    "duration": "60 mins",
+    "class_name": "Sun-Kissed Flow",
+    "instructor_name": "Inez Priscilla",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_44",
+    "category": "Yoga",
+    "date": "2025-08-31",
+    "start_time": "10:45am",
+    "duration": "60 mins",
+    "class_name": "Basic Yoga",
+    "instructor_name": "Irene Juliency",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_45",
+    "category": "Prenatal Yoga",
+    "date": "2025-08-08",
+    "start_time": "10:00am",
+    "duration": "60 mins",
+    "class_name": "Prenatal Yoga",
+    "instructor_name": "Intan Muktipertiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_46",
+    "category": "Prenatal Yoga",
+    "date": "2025-08-15",
+    "start_time": "10:00am",
+    "duration": "60 mins",
+    "class_name": "Prenatal Yoga",
+    "instructor_name": "Intan Muktipertiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_47",
+    "category": "Prenatal Yoga",
+    "date": "2025-08-22",
+    "start_time": "10:00am",
+    "duration": "60 mins",
+    "class_name": "Prenatal Yoga",
+    "instructor_name": "Intan Muktipertiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_48",
+    "category": "Prenatal Yoga",
+    "date": "2025-08-29",
+    "start_time": "10:00am",
+    "duration": "60 mins",
+    "class_name": "Prenatal Yoga",
+    "instructor_name": "Intan Muktipertiwi",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_49",
+    "category": "Mat Pilates",
+    "date": "2025-08-10",
+    "start_time": "12:15pm",
+    "duration": "60 mins",
+    "class_name": "Mat Pilates",
+    "instructor_name": "Novi Erna",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_50",
+    "category": "Mat Pilates",
+    "date": "2025-08-17",
+    "start_time": "12:15pm",
+    "duration": "60 mins",
+    "class_name": "Mat Pilates",
+    "instructor_name": "Novi Erna",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_51",
+    "category": "Mat Pilates",
+    "date": "2025-08-24",
+    "start_time": "12:15pm",
+    "duration": "60 mins",
+    "class_name": "Mat Pilates",
+    "instructor_name": "Novi Erna",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_52",
+    "category": "Mat Pilates",
+    "date": "2025-08-31",
+    "start_time": "12:15pm",
+    "duration": "60 mins",
+    "class_name": "Mat Pilates",
+    "instructor_name": "Novi Erna",
+    "location": "Summarecon Bekasi - Yoga Studio"
+  },
+  {
+    "schedule_id": "schedule_53",
+    "category": "Private Pilates",
+    "date": "2025-08-07",
+    "start_time": "9:00am",
+    "duration": "55 mins",
+    "class_name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "instructor_name": "Keiko Indrijani",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_54",
+    "category": "Private Pilates",
+    "date": "2025-08-07",
+    "start_time": "10:00am",
+    "duration": "55 mins",
+    "class_name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "instructor_name": "Keiko Indrijani",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_55",
+    "category": "Private Pilates",
+    "date": "2025-08-07",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Hanum Thaher",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_56",
+    "category": "Private Pilates",
+    "date": "2025-08-07",
+    "start_time": "3:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Diva Mahsa",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_57",
+    "category": "Private Pilates",
+    "date": "2025-08-08",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Sarah Victoria",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_58",
+    "category": "Private Pilates",
+    "date": "2025-08-10",
+    "start_time": "10:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_59",
+    "category": "Private Pilates",
+    "date": "2025-08-10",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_60",
+    "category": "Private Pilates",
+    "date": "2025-08-10",
+    "start_time": "12:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_61",
+    "category": "Private Pilates",
+    "date": "2025-08-11",
+    "start_time": "3:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Dino Vrei",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_62",
+    "category": "Private Pilates",
+    "date": "2025-08-12",
+    "start_time": "10:00am",
+    "duration": "55 mins",
+    "class_name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "instructor_name": "Nabila Viera",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_63",
+    "category": "Private Pilates",
+    "date": "2025-08-12",
+    "start_time": "11:00am",
+    "duration": "55 mins",
+    "class_name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "instructor_name": "Nabila Viera",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_64",
+    "category": "Private Pilates",
+    "date": "2025-08-13",
+    "start_time": "12:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Vidya Amarilis",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_65",
+    "category": "Private Pilates",
+    "date": "2025-08-14",
+    "start_time": "10:00am",
+    "duration": "55 mins",
+    "class_name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "instructor_name": "Keiko Indrijani",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_66",
+    "category": "Private Pilates",
+    "date": "2025-08-14",
+    "start_time": "11:00am",
+    "duration": "55 mins",
+    "class_name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "instructor_name": "Keiko Indrijani",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_67",
+    "category": "Private Pilates",
+    "date": "2025-08-14",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Hanum Thaher",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_68",
+    "category": "Private Pilates",
+    "date": "2025-08-14",
+    "start_time": "3:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Diva Mahsa",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_69",
+    "category": "Private Pilates",
+    "date": "2025-08-15",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Sarah Victoria",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_70",
+    "category": "Private Pilates",
+    "date": "2025-08-16",
+    "start_time": "7:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Diva Mahsa",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_71",
+    "category": "Private Pilates",
+    "date": "2025-08-16",
+    "start_time": "8:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Diva Mahsa",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_72",
+    "category": "Private Pilates",
+    "date": "2025-08-16",
+    "start_time": "9:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Diva Mahsa",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_73",
+    "category": "Private Pilates",
+    "date": "2025-08-16",
+    "start_time": "10:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_74",
+    "category": "Private Pilates",
+    "date": "2025-08-17",
+    "start_time": "10:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_75",
+    "category": "Private Pilates",
+    "date": "2025-08-17",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_76",
+    "category": "Private Pilates",
+    "date": "2025-08-17",
+    "start_time": "12:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_77",
+    "category": "Private Pilates",
+    "date": "2025-08-18",
+    "start_time": "3:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Dino Vrei",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_78",
+    "category": "Private Pilates",
+    "date": "2025-08-20",
+    "start_time": "12:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Vidya Amarilis",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_79",
+    "category": "Private Pilates",
+    "date": "2025-08-21",
+    "start_time": "10:00am",
+    "duration": "55 mins",
+    "class_name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "instructor_name": "Keiko Indrijani",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_80",
+    "category": "Private Pilates",
+    "date": "2025-08-21",
+    "start_time": "11:00am",
+    "duration": "55 mins",
+    "class_name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "instructor_name": "Keiko Indrijani",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_81",
+    "category": "Private Pilates",
+    "date": "2025-08-21",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Hanum Thaher",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_82",
+    "category": "Private Pilates",
+    "date": "2025-08-21",
+    "start_time": "3:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Diva Mahsa",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_83",
+    "category": "Private Pilates",
+    "date": "2025-08-22",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Sarah Victoria",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_84",
+    "category": "Private Pilates",
+    "date": "2025-08-25",
+    "start_time": "3:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Dino Vrei",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_85",
+    "category": "Private Pilates",
+    "date": "2025-08-27",
+    "start_time": "12:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Vidya Amarilis",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_86",
+    "category": "Private Pilates",
+    "date": "2025-08-28",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Hanum Thaher",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_87",
+    "category": "Private Pilates",
+    "date": "2025-08-28",
+    "start_time": "3:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Diva Mahsa",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_88",
+    "category": "Private Pilates",
+    "date": "2025-08-29",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Sarah Victoria",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  },
+  {
+    "schedule_id": "schedule_89",
+    "category": "Private Pilates",
+    "date": "2025-08-31",
+    "start_time": "10:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_90",
+    "category": "Private Pilates",
+    "date": "2025-08-31",
+    "start_time": "11:00am",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Private Studio"
+  },
+  {
+    "schedule_id": "schedule_91",
+    "category": "Private Pilates",
+    "date": "2025-08-31",
+    "start_time": "12:00pm",
+    "duration": "50 mins",
+    "class_name": "Private Reformer",
+    "instructor_name": "Shania Hasya",
+    "location": "Summarecon Bekasi - Reformer Studio"
+  }
+]

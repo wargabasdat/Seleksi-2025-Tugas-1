@@ -1,0 +1,776 @@
+[
+  {
+    "related_order": 1,
+    "main_class_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb",
+    "title": "Private Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "All Levels",
+    "description": "*THIS CLASS IS NOT SUITABLE FOR PRENATAL / POST-NATAL / SCOLIOSIS CLIENTS*A private Pilates Reformer class offers personalized,..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+    "title": "Tower Only",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Open to all",
+    "description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+    "title": "Strength & Flow Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Intermediate",
+    "description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+    "title": "Reformer 101",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Beginner",
+    "description": "Start your Pilates journey with confidence! Our beginner-friendly Group Reformer class is designed to build a strong foundation..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224",
+    "title": "Arm Balance",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Arm Balance Yoga class focuses on building strength, flexibility, and focus through dynamic sequences that incorporate..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "2b496fe5-4617-4b66-a033-9643167406f0",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "2b496fe5-4617-4b66-a033-9643167406f0",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "2b496fe5-4617-4b66-a033-9643167406f0",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "e343282f-b803-4f8d-9552-00d555798b8c",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "e343282f-b803-4f8d-9552-00d555798b8c",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "e343282f-b803-4f8d-9552-00d555798b8c",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "09d8a770-2d06-40b3-a019-1bea981fc16a",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "09d8a770-2d06-40b3-a019-1bea981fc16a",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "09d8a770-2d06-40b3-a019-1bea981fc16a",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "af761997-f321-4682-886a-6e745be717ed",
+    "title": "Tower Only",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Open to all",
+    "description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "af761997-f321-4682-886a-6e745be717ed",
+    "title": "Strength & Flow Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Intermediate",
+    "description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "af761997-f321-4682-886a-6e745be717ed",
+    "title": "Total Body Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Open to all",
+    "description": "Whether you're new to Reformer Pilates or a seasoned pro, our all-levels class has something for everyone. Join..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "8d948a73-8f78-4903-98bb-bbee31d83a69",
+    "title": "Tower Only",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Open to all",
+    "description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "8d948a73-8f78-4903-98bb-bbee31d83a69",
+    "title": "Total Body Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Open to all",
+    "description": "Whether you're new to Reformer Pilates or a seasoned pro, our all-levels class has something for everyone. Join..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "8d948a73-8f78-4903-98bb-bbee31d83a69",
+    "title": "Reformer 101",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Beginner",
+    "description": "Start your Pilates journey with confidence! Our beginner-friendly Group Reformer class is designed to build a strong foundation..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "5449236d-1652-4d0a-8df2-03264dcd27a2",
+    "title": "Strength & Flow Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Intermediate",
+    "description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "5449236d-1652-4d0a-8df2-03264dcd27a2",
+    "title": "Total Body Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Open to all",
+    "description": "Whether you're new to Reformer Pilates or a seasoned pro, our all-levels class has something for everyone. Join..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "5449236d-1652-4d0a-8df2-03264dcd27a2",
+    "title": "Reformer 101",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Beginner",
+    "description": "Start your Pilates journey with confidence! Our beginner-friendly Group Reformer class is designed to build a strong foundation..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46",
+    "title": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+    "stars_rating": 5,
+    "duration": 55,
+    "difficulty_level": "Open to all",
+    "description": "A Private Pilates Class with all equipments (Mat, Reformer, Cadillac, Chair, Barrel) is a personalized session designed to..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac",
+    "title": "Tower Only",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Open to all",
+    "description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac",
+    "title": "Strength & Flow Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Intermediate",
+    "description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac",
+    "title": "Total Body Reformer",
+    "stars_rating": 5,
+    "duration": 50,
+    "difficulty_level": "Open to all",
+    "description": "Whether you're new to Reformer Pilates or a seasoned pro, our all-levels class has something for everyone. Join..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28",
+    "title": "Arm Balance",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Arm Balance Yoga class focuses on building strength, flexibility, and focus through dynamic sequences that incorporate..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8",
+    "title": "Arm Balance",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Arm Balance Yoga class focuses on building strength, flexibility, and focus through dynamic sequences that incorporate..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "e58731ea-89fb-49db-a13b-8e46273ea737",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "e58731ea-89fb-49db-a13b-8e46273ea737",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "e58731ea-89fb-49db-a13b-8e46273ea737",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "e3174b55-ebd9-427c-ac86-ed0804e75039",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "e3174b55-ebd9-427c-ac86-ed0804e75039",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "e3174b55-ebd9-427c-ac86-ed0804e75039",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  },
+  {
+    "related_order": 1,
+    "main_class_id": "e8279957-4413-4101-9b96-2654f81ba8a6",
+    "title": "Morning Vinyasa Flow",
+    "stars_rating": 5,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+  },
+  {
+    "related_order": 2,
+    "main_class_id": "e8279957-4413-4101-9b96-2654f81ba8a6",
+    "title": "Vinyasa: Dropback Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+  },
+  {
+    "related_order": 3,
+    "main_class_id": "e8279957-4413-4101-9b96-2654f81ba8a6",
+    "title": "Hatha Flow",
+    "stars_rating": null,
+    "duration": 60,
+    "difficulty_level": "Open to all",
+    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+  }
+]

@@ -1,0 +1,1670 @@
+{
+    "classes": [
+        {
+            "url": "https://kalmstudios.id/class/021ec006-09cd-4db7-bc7d-46eec8e047fb",
+            "main_class_details": {
+                "name": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+                "total_reviews_count": 2,
+                "duration": "55 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "*THIS CLASS IS NOT SUITABLE FOR PRENATAL / POST-NATAL / SCOLIOSIS CLIENTS*A private Pilates Reformer class offers personalized,...",
+                "what_you_need": [
+                    "Grip Socks",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+                    "reviewer_name": "Zara Alia",
+                    "review_text": "suka selalu kelas kak zara pedes2 tapi nagih",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                },
+                {
+                    "class_name_in_review": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+                    "reviewer_name": "Keiko Indrijani",
+                    "review_text": "Kelasnya seru sekali saya suka",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Private Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/eb7c204e-39c6-439f-8bfc-3d2bfe101003.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 2,
+                    "duration": "50 mins",
+                    "difficulty_level": "All Levels",
+                    "description": "*THIS CLASS IS NOT SUITABLE FOR PRENATAL / POST-NATAL / SCOLIOSIS CLIENTS*A private Pilates Reformer class offers personalized,..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/894cc2bd-7a1e-4ebc-bdeb-76d15107cd95",
+            "main_class_details": {
+                "name": "Serenity Glow Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/94f3d4ac-910b-4181-b947-827bfff13164",
+            "main_class_details": {
+                "name": "Total Body Reformer",
+                "total_reviews_count": 5,
+                "duration": "50 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance...",
+                "what_you_need": [
+                    "Grip Socks",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Total Body Reformer",
+                    "reviewer_name": "Novi Erna",
+                    "review_text": "Amazing",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                },
+                {
+                    "class_name_in_review": "Total Body Reformer",
+                    "reviewer_name": "Hanum Thaher",
+                    "review_text": "Went to this class with other two (I could say) very experienced in pilates. That session was the spiciest one I ever had. Kak Hanum really push our limit OVER the edge. The greatest feeling I felt ever after class. Very excellent.",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                },
+                {
+                    "class_name_in_review": "Total Body Reformer",
+                    "reviewer_name": null,
+                    "review_text": "Really fun and enjoyable class!",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Tower Only",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/25e69ebb-3d9f-4160-b02b-3a120bfb9b27.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "50 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance..."
+                },
+                {
+                    "title": "Strength & Flow Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/5fea4c25-e6a2-402e-8f28-4e6cb9d678bb.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "50 mins",
+                    "difficulty_level": "Intermediate",
+                    "description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to..."
+                },
+                {
+                    "title": "Reformer 101",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/58cdb363-683b-432f-a448-401229a469a0.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 3,
+                    "duration": "50 mins",
+                    "difficulty_level": "Beginner",
+                    "description": "Start your Pilates journey with confidence! Our beginner-friendly Group Reformer class is designed to build a strong foundation..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/ec2c6dc1-497f-4392-9897-c82b6e39de02",
+            "main_class_details": {
+                "name": "Vinyasa Delight",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Vinyasa Delight",
+                    "reviewer_name": null,
+                    "review_text": "It was a very enjoyable flow, as its name it was delightful! Lots of stretching and mobility practices, I love it!",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/d019bb2f-b4d6-4948-b797-fa2fd87ed98c",
+            "main_class_details": {
+                "name": "Backbend Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Backbend Flow",
+                    "reviewer_name": "Putri Augustine",
+                    "review_text": "Suka semua kelas yang ada di kalms, kalau kata org ‘palugada’ hehe",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/02457d6e-294e-4a24-89fc-edaa0f1f1224",
+            "main_class_details": {
+                "name": "Hatha Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Arm Balance",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/d29434b3-f1d4-4e0d-8313-3b55857b1502.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Arm Balance Yoga class focuses on building strength, flexibility, and focus through dynamic sequences that incorporate..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/2b496fe5-4617-4b66-a033-9643167406f0",
+            "main_class_details": {
+                "name": "Hip-Opening",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/e343282f-b803-4f8d-9552-00d555798b8c",
+            "main_class_details": {
+                "name": "Sun-Kissed Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Intermediate",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/09d8a770-2d06-40b3-a019-1bea981fc16a",
+            "main_class_details": {
+                "name": "Arm Balance",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/af761997-f321-4682-886a-6e745be717ed",
+            "main_class_details": {
+                "name": "Reformer 101",
+                "total_reviews_count": 3,
+                "duration": "50 mins",
+                "difficulty_level": "Beginner",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance...",
+                "what_you_need": [
+                    "Grip Socks",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Reformer 101",
+                    "reviewer_name": "Sarah Victoria",
+                    "review_text": "kelas nya seru bangett",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                },
+                {
+                    "class_name_in_review": "Reformer 101",
+                    "reviewer_name": "Novi Erna",
+                    "review_text": "ternyata fun dan beginner friendly!",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                },
+                {
+                    "class_name_in_review": "Reformer 101",
+                    "reviewer_name": "Dino Vrei",
+                    "review_text": "Great",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Tower Only",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/25e69ebb-3d9f-4160-b02b-3a120bfb9b27.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "50 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance..."
+                },
+                {
+                    "title": "Strength & Flow Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/5fea4c25-e6a2-402e-8f28-4e6cb9d678bb.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "50 mins",
+                    "difficulty_level": "Intermediate",
+                    "description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to..."
+                },
+                {
+                    "title": "Total Body Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/f5d3513a-2a6e-4fc9-a874-2dee78b7cdca.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 5,
+                    "duration": "50 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Whether you're new to Reformer Pilates or a seasoned pro, our all-levels class has something for everyone. Join..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/9fa780f9-d41e-419b-94dc-11b45a1a20ce",
+            "main_class_details": {
+                "name": "Prenatal Yoga",
+                "total_reviews_count": null,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": null,
+                "what_you_need": [
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [],
+            "related_classes": []
+        },
+        {
+            "url": "https://kalmstudios.id/class/d22df6a4-ce74-4164-9fde-6e4981cf5fa7",
+            "main_class_details": {
+                "name": "Mat Pilates",
+                "total_reviews_count": null,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": null,
+                "what_you_need": [
+                    "Mat",
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [],
+            "related_classes": []
+        },
+        {
+            "url": "https://kalmstudios.id/class/f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9",
+            "main_class_details": {
+                "name": "Moonlight Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/7ed0df06-2eeb-4496-947e-14890ca7a8dc",
+            "main_class_details": {
+                "name": "Saturday Inversion Party",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "mat",
+                    "water bottle",
+                    "small towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/8d948a73-8f78-4903-98bb-bbee31d83a69",
+            "main_class_details": {
+                "name": "Strength & Flow Reformer",
+                "total_reviews_count": 1,
+                "duration": "50 mins",
+                "difficulty_level": "Intermediate",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance...",
+                "what_you_need": [
+                    "Grip Socks",
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Strength & Flow Reformer",
+                    "reviewer_name": "Sarah Victoria",
+                    "review_text": "seru kelas sarah selalu ga ada movement yang sama di tiap kelasnya keren",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Tower Only",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/25e69ebb-3d9f-4160-b02b-3a120bfb9b27.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "50 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance..."
+                },
+                {
+                    "title": "Total Body Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/f5d3513a-2a6e-4fc9-a874-2dee78b7cdca.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 5,
+                    "duration": "50 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Whether you're new to Reformer Pilates or a seasoned pro, our all-levels class has something for everyone. Join..."
+                },
+                {
+                    "title": "Reformer 101",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/58cdb363-683b-432f-a448-401229a469a0.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 3,
+                    "duration": "50 mins",
+                    "difficulty_level": "Beginner",
+                    "description": "Start your Pilates journey with confidence! Our beginner-friendly Group Reformer class is designed to build a strong foundation..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/629ae1b6-615a-4e62-8647-6bbf5da3d957",
+            "main_class_details": {
+                "name": "Basic Yoga",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Beginner",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "mat",
+                    "water bottle",
+                    "small towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Basic Yoga",
+                    "reviewer_name": "Henny Wijaya",
+                    "review_text": "Seru banget ada gerakan yang aku baru belajar (compass pose) dan dapet banget yoganya",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/5449236d-1652-4d0a-8df2-03264dcd27a2",
+            "main_class_details": {
+                "name": "Tower Only",
+                "total_reviews_count": 1,
+                "duration": "50 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to...",
+                "what_you_need": [
+                    "Grip Socks",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Tower Only",
+                    "reviewer_name": "Novi Erna",
+                    "review_text": "I took 11.00am class, everyone was there on time. No issue!",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Strength & Flow Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/5fea4c25-e6a2-402e-8f28-4e6cb9d678bb.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "50 mins",
+                    "difficulty_level": "Intermediate",
+                    "description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to..."
+                },
+                {
+                    "title": "Total Body Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/f5d3513a-2a6e-4fc9-a874-2dee78b7cdca.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 5,
+                    "duration": "50 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Whether you're new to Reformer Pilates or a seasoned pro, our all-levels class has something for everyone. Join..."
+                },
+                {
+                    "title": "Reformer 101",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/58cdb363-683b-432f-a448-401229a469a0.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 3,
+                    "duration": "50 mins",
+                    "difficulty_level": "Beginner",
+                    "description": "Start your Pilates journey with confidence! Our beginner-friendly Group Reformer class is designed to build a strong foundation..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/2f3e5060-258f-4b3d-9fcf-0c403895fa46",
+            "main_class_details": {
+                "name": "Private Reformer",
+                "total_reviews_count": 2,
+                "duration": "50 mins",
+                "difficulty_level": "All Levels",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A Private Pilates Class with all equipments (Mat, Reformer, Cadillac, Chair, Barrel) is a personalized session designed to...",
+                "what_you_need": [
+                    "Grip Socks",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Private Reformer",
+                    "reviewer_name": "Diva Mahsa",
+                    "review_text": "Senang sekali diajarkan 2 alat sekaligus",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                },
+                {
+                    "class_name_in_review": "Private Reformer",
+                    "reviewer_name": null,
+                    "review_text": "Over all good and interesting for first timer",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Private Pilates (Mat, Reformer, Cadillac, Chair, Barrel)",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/aae66b8d-6bb4-4ecc-8c2c-917f0e2d522b.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 2,
+                    "duration": "55 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Private Pilates Class with all equipments (Mat, Reformer, Cadillac, Chair, Barrel) is a personalized session designed to..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/fde7bb58-0cc0-4e98-bbc5-6ee519d977ac",
+            "main_class_details": {
+                "name": "Reformer / Tower",
+                "total_reviews_count": 1,
+                "duration": "50 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance...",
+                "what_you_need": [
+                    "Grip Socks",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Reformer / Tower",
+                    "reviewer_name": "Sarah Victoria",
+                    "review_text": "seru banget towernya sarah tapi harus war :(",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Tower Only",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/25e69ebb-3d9f-4160-b02b-3a120bfb9b27.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "50 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Tower class for all levels is a full-body workout that combines traditional Pilates exercises with the resistance..."
+                },
+                {
+                    "title": "Strength & Flow Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/5fea4c25-e6a2-402e-8f28-4e6cb9d678bb.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "50 mins",
+                    "difficulty_level": "Intermediate",
+                    "description": "In this invigorating class, you'll experience the perfect blend of strength-building and fluid movement. Designed for intermediate to..."
+                },
+                {
+                    "title": "Total Body Reformer",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/f5d3513a-2a6e-4fc9-a874-2dee78b7cdca.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 5,
+                    "duration": "50 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Whether you're new to Reformer Pilates or a seasoned pro, our all-levels class has something for everyone. Join..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/77c19388-0b68-4d88-a0cd-b80f9280ac00",
+            "main_class_details": {
+                "name": "Power Yoga: Heat and Heart",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/f6459ecb-616d-479e-b498-a8e3cf92bf56",
+            "main_class_details": {
+                "name": "Early Rise Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Tower"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/7055c44c-d30b-4ae9-af2f-d70fe5ef4940",
+            "main_class_details": {
+                "name": "Twilight Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/c035853b-3aaa-496a-a3a0-d61d6f4917f5",
+            "main_class_details": {
+                "name": "All Body Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/d7d7d5b9-2935-4ebc-91e4-9991d4cd028b",
+            "main_class_details": {
+                "name": "Backbend Lab 101",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "mat",
+                    "water bottle",
+                    "small towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28",
+            "main_class_details": {
+                "name": "Morning Vinyasa Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [
+                {
+                    "class_name_in_review": "Morning Vinyasa Flow",
+                    "reviewer_name": "Irma Ars",
+                    "review_text": "SELALU MANTAPPP",
+                    "review_location": "Summarecon Bekasi",
+                    "stars_rating": 5
+                }
+            ],
+            "related_classes": [
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                },
+                {
+                    "title": "Arm Balance",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/d29434b3-f1d4-4e0d-8313-3b55857b1502.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Arm Balance Yoga class focuses on building strength, flexibility, and focus through dynamic sequences that incorporate..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/e700155f-6cf2-40bd-b239-d2adaa2f297c",
+            "main_class_details": {
+                "name": "Mandala Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/022f7c1d-b674-40d9-84d5-a6b750ffefb8",
+            "main_class_details": {
+                "name": "Vinyasa: Dropback Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                },
+                {
+                    "title": "Arm Balance",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/d29434b3-f1d4-4e0d-8313-3b55857b1502.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Arm Balance Yoga class focuses on building strength, flexibility, and focus through dynamic sequences that incorporate..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/231c248b-51c0-4e41-9fde-c63ee0f5839f",
+            "main_class_details": {
+                "name": "Vinyasa- Inversion Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "mat",
+                    "water bottle",
+                    "small towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/e58731ea-89fb-49db-a13b-8e46273ea737",
+            "main_class_details": {
+                "name": "Ngabuburit Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/aed6f26d-61a6-4a33-9620-1323f3e47bb2",
+            "main_class_details": {
+                "name": "Easy Vinyasa",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Small Towel",
+                    "Water Bottle"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/e3174b55-ebd9-427c-ac86-ed0804e75039",
+            "main_class_details": {
+                "name": "Midweek Recharge",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "Mat",
+                    "Water Bottle",
+                    "Small Towel"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        },
+        {
+            "url": "https://kalmstudios.id/class/e8279957-4413-4101-9b96-2654f81ba8a6",
+            "main_class_details": {
+                "name": "Vinyasa - Eagle Flow",
+                "total_reviews_count": 1,
+                "duration": "60 mins",
+                "difficulty_level": "Open to all",
+                "location": "Summarecon Bekasi",
+                "about_class_description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It...",
+                "what_you_need": [
+                    "mat",
+                    "small towel",
+                    "water bottle"
+                ]
+            },
+            "reviews": [],
+            "related_classes": [
+                {
+                    "title": "Morning Vinyasa Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/4417de2a-87a4-4fa0-846b-3a1bef5832fe.jpg",
+                    "stars_rating": 5,
+                    "reviews_count": 1,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A morning vinyasa flow is a dynamic sequence designed to awaken the body and energize the mind. It..."
+                },
+                {
+                    "title": "Vinyasa: Dropback Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/1d0e70dd-9014-4cb3-8921-0db744c87d91.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "A Vinyasa Flow class for all levels combines dynamic flow sequences with breath-centered movement, offering a balanced practice..."
+                },
+                {
+                    "title": "Hatha Flow",
+                    "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/class/6b84eec6-8a94-488e-a913-be03f14b7f26.jpg",
+                    "stars_rating": null,
+                    "reviews_count": null,
+                    "duration": "60 mins",
+                    "difficulty_level": "Open to all",
+                    "description": "Join us for a peaceful and energizing Hatha Flow session designed for all levels. This class blends gentle..."
+                }
+            ]
+        }
+    ],
+    "instructors": [
+        {
+            "instructor_id": "instructor_1",
+            "name": "Keiko Indrijani",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/64b9446c-1551-489c-a6e8-f9176a07c1bd.jpg",
+            "scraped_at": "2025-08-07T04:53:43.907784"
+        },
+        {
+            "instructor_id": "instructor_2",
+            "name": "Sarah Victoria",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/e6ba0934-df8e-4719-aac8-06cdb3e5a3d4.jpg",
+            "scraped_at": "2025-08-07T04:53:43.907984"
+        },
+        {
+            "instructor_id": "instructor_3",
+            "name": "Vidya Amarilis",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/aa04e648-0ee3-4c02-8749-4e66158976e6.jpg",
+            "scraped_at": "2025-08-07T04:53:43.908133"
+        },
+        {
+            "instructor_id": "instructor_4",
+            "name": "Putri Augustine",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/21f990a3-be8e-4ac0-8c14-ce81521f3ae6.jpg",
+            "scraped_at": "2025-08-07T04:53:43.908269"
+        },
+        {
+            "instructor_id": "instructor_5",
+            "name": "Henny Wijaya",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/03749761-13ff-4c6e-b32e-84c7c46087e0.jpg",
+            "scraped_at": "2025-08-07T04:53:43.908401"
+        },
+        {
+            "instructor_id": "instructor_6",
+            "name": "Irene Juliency",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/c5fc2885-bb3a-4380-8cfc-38900afa2fcc.jpg",
+            "scraped_at": "2025-08-07T04:53:43.908533"
+        },
+        {
+            "instructor_id": "instructor_7",
+            "name": "Dino Vrei",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/44f60a89-2b23-480c-82cf-b05a6a3121d3.jpg",
+            "scraped_at": "2025-08-07T04:53:43.908665"
+        },
+        {
+            "instructor_id": "instructor_8",
+            "name": "Inez Priscilla",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/1a3800b2-aaa8-479d-a1eb-379130c7e75d.jpg",
+            "scraped_at": "2025-08-07T04:53:43.908932"
+        },
+        {
+            "instructor_id": "instructor_9",
+            "name": "Ivy Damara",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/8bd6c8eb-da99-413b-88d5-e2d97333fa14.jpg",
+            "scraped_at": "2025-08-07T04:53:43.909074"
+        },
+        {
+            "instructor_id": "instructor_10",
+            "name": "Irma Ars",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/5689adb8-0153-411f-a600-6aa7821bd90d.jpg",
+            "scraped_at": "2025-08-07T04:53:43.909209"
+        },
+        {
+            "instructor_id": "instructor_11",
+            "name": "Faras Sekarpratiwi",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/72f1d5f8-e2a8-4181-a809-0b9094f206e6.jpg",
+            "scraped_at": "2025-08-07T04:53:43.909345"
+        },
+        {
+            "instructor_id": "instructor_12",
+            "name": "Icha Devina",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/781ca0ab-0612-4412-94c3-7fcacd0d1b39.jpg",
+            "scraped_at": "2025-08-07T04:53:43.909480"
+        },
+        {
+            "instructor_id": "instructor_13",
+            "name": "Nabila Viera",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/8dd60cf2-c7ab-45ff-984f-b8f147fca0af.jpg",
+            "scraped_at": "2025-08-07T04:53:43.909610"
+        },
+        {
+            "instructor_id": "instructor_14",
+            "name": "Novi Erna",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/b7d48481-76eb-4fbe-9112-746bebd7ec36.jpg",
+            "scraped_at": "2025-08-07T04:53:43.909740"
+        },
+        {
+            "instructor_id": "instructor_15",
+            "name": "Intan Muktipertiwi",
+            "role": "Prenatal Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/c08aa7e4-b287-413b-b797-16b2d680853e.jpg",
+            "scraped_at": "2025-08-07T04:53:43.909870"
+        },
+        {
+            "instructor_id": "instructor_16",
+            "name": "Diva Mahsa",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/3b1721a0-74c3-40d6-ac89-cb027c538aa8.jpg",
+            "scraped_at": "2025-08-07T04:53:43.910002"
+        },
+        {
+            "instructor_id": "instructor_17",
+            "name": "Zara Alia",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/adf3546d-109a-4aaa-8d71-9c1abc9e6d2b.jpg",
+            "scraped_at": "2025-08-07T04:53:43.910131"
+        },
+        {
+            "instructor_id": "instructor_18",
+            "name": "Shinta W Permatasari",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/76c4e67e-2928-425b-b6cb-7712fa7eea84.jpg",
+            "scraped_at": "2025-08-07T04:53:43.910260"
+        },
+        {
+            "instructor_id": "instructor_19",
+            "name": "Hanum Thaher",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/f52dd7ca-8aa5-48eb-ab10-95c010c8484f.jpg",
+            "scraped_at": "2025-08-07T04:53:43.910489"
+        },
+        {
+            "instructor_id": "instructor_20",
+            "name": "Shania Hasya",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/0c295ea4-824a-4341-ab6f-2259d4aa761c.jpg",
+            "scraped_at": "2025-08-07T04:53:43.910638"
+        },
+        {
+            "instructor_id": "instructor_21",
+            "name": "Majma A",
+            "role": "Yoga Teacher",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/6c4e06fb-a479-464c-97c5-8737165ff210.jpg",
+            "scraped_at": "2025-08-07T04:53:43.910782"
+        },
+        {
+            "instructor_id": "instructor_22",
+            "name": "Cita A",
+            "role": "Pilates Instructor",
+            "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/88a438bd-77a2-4fb8-a823-8b7679858330.jpg",
+            "scraped_at": "2025-08-07T04:53:43.910923"
+        }
+    ],
+    "scraped_at": "2025-08-07T04:53:46.241015"
+}
