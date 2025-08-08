@@ -1,0 +1,641 @@
+{
+  "high_rank": [
+    {
+      "rank": "1",
+      "number": "No.04",
+      "name": "Pompompurin",
+      "votes": "5,613,659",
+      "comment": "Yippee!Thanks so much for all your support!I'm gonna celebrate with a giant pudding!",
+      "profile_link": "https://www.sanrio.co.jp/characters/pompompurin/"
+    },
+    {
+      "rank": "2",
+      "number": "No.01",
+      "name": "Cinnamoroll",
+      "votes": "5,427,983",
+      "comment": "I'm super grateful for all your support.I'll continue to be right by your side from now on!",
+      "profile_link": "https://www.sanrio.co.jp/characters/cinnamon/"
+    },
+    {
+      "rank": "3",
+      "number": "No.02",
+      "name": "Pochacco",
+      "votes": "3,935,101",
+      "comment": "Hey, everyone! I got third place!Thanks for everything.Let's continue to get along forever!",
+      "profile_link": "https://www.sanrio.co.jp/characters/pochacco/"
+    }
+  ],
+  "low_rank": [
+    {
+      "rank": "4",
+      "number": "No.03",
+      "name": "KUROMI",
+      "votes": "3,652,492",
+      "profile_link": "https://www.sanrio.co.jp/characters/kuromi/"
+    },
+    {
+      "rank": "5",
+      "number": "No.05",
+      "name": "Hello Kitty",
+      "votes": "3,349,642",
+      "profile_link": "https://www.sanrio.co.jp/characters/hellokitty/"
+    },
+    {
+      "rank": "6",
+      "number": "No.06",
+      "name": "My Melody",
+      "votes": "2,547,302",
+      "profile_link": "https://www.sanrio.co.jp/characters/mymelody/"
+    },
+    {
+      "rank": "7",
+      "number": "No.10",
+      "name": "Little Twin Stars",
+      "votes": "2,282,015",
+      "profile_link": "https://www.sanrio.co.jp/characters/kikilala/"
+    },
+    {
+      "rank": "8",
+      "number": "No.08",
+      "name": "Hangyodon",
+      "votes": "2,243,702",
+      "profile_link": "https://www.sanrio.co.jp/characters/hangyodon/"
+    },
+    {
+      "rank": "9",
+      "number": "No.09",
+      "name": "Tuxedosam",
+      "votes": "2,082,914",
+      "profile_link": "https://www.sanrio.co.jp/characters/tuxedosam/"
+    },
+    {
+      "rank": "10",
+      "number": "No.11",
+      "name": "AHIRUNOPEKKLE",
+      "votes": "2,032,405",
+      "profile_link": "https://www.sanrio.co.jp/characters/pekkle/"
+    }
+  ],
+  "low_rank_under": [
+    {
+      "rank": "11",
+      "number": "No.13",
+      "name": "BAD BADTZ-MARU",
+      "votes": "1,852,644",
+      "profile_link": "https://www.sanrio.co.jp/characters/badtzmaru/"
+    },
+    {
+      "rank": "12",
+      "number": "No.14",
+      "name": "HANAMARUOBAKE",
+      "votes": "1,846,850",
+      "profile_link": "https://www.sanrio.co.jp/characters/hanamaruobake/"
+    },
+    {
+      "rank": "13",
+      "number": "No.12",
+      "name": "Cogimyun",
+      "votes": "1,833,994",
+      "profile_link": "https://www.sanrio.co.jp/characters/cogimyun/"
+    },
+    {
+      "rank": "14",
+      "number": "No.07",
+      "name": "Kerokerokeroppi",
+      "votes": "1,809,818",
+      "profile_link": "https://www.sanrio.co.jp/characters/keroppi/"
+    },
+    {
+      "rank": "15",
+      "number": "No.15",
+      "name": "WISH ME MELL",
+      "votes": "1,381,009",
+      "profile_link": "https://www.sanrio.co.jp/characters/wishmemell/"
+    },
+    {
+      "rank": "16",
+      "number": "No.16",
+      "name": "GUDETAMA",
+      "votes": "1,178,855",
+      "profile_link": "https://www.sanrio.co.jp/characters/gudetama/"
+    },
+    {
+      "rank": "17",
+      "number": "No.20",
+      "name": "U・SA・HA・NA",
+      "votes": "1,131,720",
+      "profile_link": "https://www.sanrio.co.jp/characters/usahana/"
+    },
+    {
+      "rank": "18",
+      "number": "No.17",
+      "name": "MY SWEET PIANO",
+      "votes": "1,070,050",
+      "profile_link": "https://www.sanrio.co.jp/characters/mysweetpiano/"
+    },
+    {
+      "rank": "19",
+      "number": "No.21",
+      "name": "GAOPOWERROO",
+      "votes": "809,533",
+      "profile_link": "https://www.sanrio.co.jp/characters/gaopowerroo/"
+    },
+    {
+      "rank": "20",
+      "number": "No.19",
+      "name": "COROCOROKURIRIN",
+      "votes": "807,839",
+      "profile_link": "https://www.sanrio.co.jp/characters/kuririn/"
+    },
+    {
+      "rank": "21",
+      "number": "No.18",
+      "name": "KIRIMICHAN.",
+      "votes": "721,820",
+      "profile_link": "https://www.sanrio.co.jp/characters/kirimichan/"
+    },
+    {
+      "rank": "22",
+      "number": "No.23",
+      "name": "Marumofubiyori",
+      "votes": "713,415",
+      "profile_link": "https://www.sanrio.co.jp/characters/marumofubiyori/"
+    },
+    {
+      "rank": "23",
+      "number": "No.24",
+      "name": "MARRONCREAM",
+      "votes": "647,955",
+      "profile_link": "https://www.sanrio.co.jp/characters/marroncream/"
+    },
+    {
+      "rank": "24",
+      "number": "No.46",
+      "name": "Chococat",
+      "votes": "594,342",
+      "profile_link": "https://www.sanrio.co.jp/characters/chococat/"
+    },
+    {
+      "rank": "25",
+      "number": "No.22",
+      "name": "SHOW BY ROCK!!",
+      "votes": "523,787",
+      "profile_link": "https://www.sanrio.co.jp/characters/showbyrock/"
+    },
+    {
+      "rank": "26",
+      "number": "No.29",
+      "name": "Charmmykitty",
+      "votes": "509,884",
+      "profile_link": "https://www.sanrio.co.jp/characters/charmmy/"
+    },
+    {
+      "rank": "27",
+      "number": "No.25",
+      "name": "kabukinyantaro",
+      "votes": "500,236",
+      "profile_link": "https://www.sanrio.co.jp/characters/kabukinyantaro/"
+    },
+    {
+      "rank": "28",
+      "number": "No.26",
+      "name": "yoshikitty",
+      "votes": "483,533",
+      "profile_link": null
+    },
+    {
+      "rank": "29",
+      "number": "No.33",
+      "name": "HELLO MIMMY",
+      "votes": "476,142",
+      "profile_link": null
+    },
+    {
+      "rank": "30",
+      "number": "No.34",
+      "name": "SUGARBUNNIES",
+      "votes": "452,751",
+      "profile_link": "https://www.sanrio.co.jp/characters/sugarbunnies/"
+    },
+    {
+      "rank": "31",
+      "number": "No.28",
+      "name": "Dear Daniel",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/daniel/"
+    },
+    {
+      "rank": "32",
+      "number": "No.32",
+      "name": "LLOROMANNIC",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/lloromannic/"
+    },
+    {
+      "rank": "33",
+      "number": "No.27",
+      "name": "MINNANOTĀBŌ",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/tabo/"
+    },
+    {
+      "rank": "34",
+      "number": "No.30",
+      "name": "Pokkyokuten",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/pokkyokuten/"
+    },
+    {
+      "rank": "35",
+      "number": "No.48",
+      "name": "Adorozatorumary",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/adorozatorumary/"
+    },
+    {
+      "rank": "36",
+      "number": "No.45",
+      "name": "Aggretsuko",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/retsuko/"
+    },
+    {
+      "rank": "37",
+      "number": "No.31",
+      "name": "BONBONRIBBON",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/bonbonribbon/"
+    },
+    {
+      "rank": "38",
+      "number": "No.38",
+      "name": "nya・ni・nyu・nye・nyon",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/nyaninyunyenyon/"
+    },
+    {
+      "rank": "39",
+      "number": "No.36",
+      "name": "JEWELPET",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/jewelpet/"
+    },
+    {
+      "rank": "40",
+      "number": "No.40",
+      "name": "Tiny chum",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/tinychum/"
+    },
+    {
+      "rank": "41",
+      "number": "No.52",
+      "name": "Marshmallowmitainafuwafuwanyanko",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/masyumaro/"
+    },
+    {
+      "rank": "42",
+      "number": "No.39",
+      "name": "Littleforestfellow",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/littleforestfellow/"
+    },
+    {
+      "rank": "43",
+      "number": "No.43",
+      "name": "OSARUNOMONKICHI",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/monkichi/"
+    },
+    {
+      "rank": "44",
+      "number": "No.42",
+      "name": "PATTY&JIMMY",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/pattyandjimmy/"
+    },
+    {
+      "rank": "45",
+      "number": "No.41",
+      "name": "CHEERY CHUMS",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/cheerychums/"
+    },
+    {
+      "rank": "46",
+      "number": "No.37",
+      "name": "PETAPETAMINILIAN",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/petapetaminilian/"
+    },
+    {
+      "rank": "47",
+      "number": "No.35",
+      "name": "Maimaimaigoen",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/maimaimaigoen/"
+    },
+    {
+      "rank": "48",
+      "number": "No.56",
+      "name": "PAUPIPO",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/paupipo/"
+    },
+    {
+      "rank": "49",
+      "number": "No.47",
+      "name": "GOROPIKADON",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/goropikadon/"
+    },
+    {
+      "rank": "50",
+      "number": "No.49",
+      "name": "PataPataPeppy",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/patapatapeppy/"
+    },
+    {
+      "rank": "51",
+      "number": "No.50",
+      "name": "Mewkledreamy",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/mewkledreamy/"
+    },
+    {
+      "rank": "52",
+      "number": "No.66",
+      "name": "NORANEKOLAND",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/noranekoland/"
+    },
+    {
+      "rank": "53",
+      "number": "No.44",
+      "name": "Hagurumanstyle",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/hagurumanstyle/"
+    },
+    {
+      "rank": "54",
+      "number": "No.90",
+      "name": "SWEETCORON",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/sweetcoron/"
+    },
+    {
+      "rank": "55",
+      "number": "No.61",
+      "name": "Hummingmint",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/hummingmint/"
+    },
+    {
+      "rank": "56",
+      "number": "No.54",
+      "name": "Beatcats",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/beatcats/"
+    },
+    {
+      "rank": "57",
+      "number": "No.59",
+      "name": "StrawberryKing",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/strawberryking/"
+    },
+    {
+      "rank": "58",
+      "number": "No.60",
+      "name": "ZASHIKIBUTA",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/zashikibuta/"
+    },
+    {
+      "rank": "59",
+      "number": "No.57",
+      "name": "FRESHPUNCH",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/freshpunch/"
+    },
+    {
+      "rank": "60",
+      "number": "No.82",
+      "name": "Puwawa",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/puwawa/"
+    },
+    {
+      "rank": "61",
+      "number": "No.74",
+      "name": "MELLOTUNE",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/mellotune/"
+    },
+    {
+      "rank": "62",
+      "number": "No.55",
+      "name": "kashiwankomochi",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/kashiwankomochi/"
+    },
+    {
+      "rank": "63",
+      "number": "No.62",
+      "name": "Caribadix",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/caribadix/"
+    },
+    {
+      "rank": "64",
+      "number": "No.63",
+      "name": "PANKUNCHI",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/pankunchi/"
+    },
+    {
+      "rank": "65",
+      "number": "No.69",
+      "name": "Sugarminuet",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/sugarminuet/"
+    },
+    {
+      "rank": "66",
+      "number": "No.88",
+      "name": "CHERINACHERINE",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/cherinacherine/"
+    },
+    {
+      "rank": "67",
+      "number": "No.89",
+      "name": "PANDAPPLE",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/pandapple/"
+    },
+    {
+      "rank": "68",
+      "number": "No.65",
+      "name": "Pokopon's Diary",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/pokopon/"
+    },
+    {
+      "rank": "69",
+      "number": "No.53",
+      "name": "ICHIGOMAN",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/ichigoman/"
+    },
+    {
+      "rank": "70",
+      "number": "No.67",
+      "name": "Kumamilen",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/kumamilen/"
+    },
+    {
+      "rank": "71",
+      "number": "No.76",
+      "name": "Winkipinki",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/winkipinki/"
+    },
+    {
+      "rank": "72",
+      "number": "No.58",
+      "name": "Rilu Rilu Fairilu",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/rilurilufairilu/"
+    },
+    {
+      "rank": "73",
+      "number": "No.68",
+      "name": "Kusuri no Fukutaro",
+      "votes": null,
+      "profile_link": null
+    },
+    {
+      "rank": "74",
+      "number": "No.71",
+      "name": "THE VAUDEVILLE DUO",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/vaudevilleduo/"
+    },
+    {
+      "rank": "75",
+      "number": "No.64",
+      "name": "Umeya Zakkaten",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/umeya/"
+    },
+    {
+      "rank": "76",
+      "number": "No.79",
+      "name": "TENORIKUMA",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/tenorikuma/"
+    },
+    {
+      "rank": "77",
+      "number": "No.77",
+      "name": "TARAIGUMA NO LANDRY",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/landry/"
+    },
+    {
+      "rank": "78",
+      "number": "No.72",
+      "name": "RURURUGAKUEN",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/rururugakuen/"
+    },
+    {
+      "rank": "79",
+      "number": "No.75",
+      "name": "Shinkaizoku",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/shinkaizoku/"
+    },
+    {
+      "rank": "80",
+      "number": "No.84",
+      "name": "TINY POEM",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/tinypoem/"
+    },
+    {
+      "rank": "81",
+      "number": "No.81",
+      "name": "NYOKKI & PENNE",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/nyokkiandpenne/"
+    },
+    {
+      "rank": "82",
+      "number": "No.73",
+      "name": "WE ARE DINOSAURS!",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/dinosaurs/"
+    },
+    {
+      "rank": "83",
+      "number": "No.80",
+      "name": "BUNNY & MATTY",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/bunnyandmatty/"
+    },
+    {
+      "rank": "84",
+      "number": "No.70",
+      "name": "Bosanimal",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/bosanimal/"
+    },
+    {
+      "rank": "85",
+      "number": "No.51",
+      "name": "BUDDYEDDY",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/buddyeddy/"
+    },
+    {
+      "rank": "86",
+      "number": "No.78",
+      "name": "THE RUNABOUTS",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/runabouts2/"
+    },
+    {
+      "rank": "87",
+      "number": "No.83",
+      "name": "Seven Silly Dwarfs",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/ssd/"
+    },
+    {
+      "rank": "88",
+      "number": "No.86",
+      "name": "Risuru",
+      "votes": null,
+      "profile_link": "https://www.tamashin.jp/risuru/"
+    },
+    {
+      "rank": "89",
+      "number": "No.85",
+      "name": "Pannapitta",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/pannapitta/"
+    },
+    {
+      "rank": "90",
+      "number": "No.87",
+      "name": "Sportingbears",
+      "votes": null,
+      "profile_link": "https://www.sanrio.co.jp/characters/sportingbears/"
+    }
+  ]
+}

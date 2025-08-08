@@ -1,0 +1,909 @@
+[
+  {
+    "name": "Pompompurin",
+    "description": "A man's co of golden retriver, with a brown belly hat traded. Its a relaxing place, and youll love it. My hobby is gathering.",
+    "friends": [
+      "Muffin",
+      "Scorn",
+      "Bagel",
+      "Powder",
+      "Hip",
+      "Tart",
+      "Cascade",
+      "Mint",
+      "Macaron",
+      "Vanilla",
+      "Coconut",
+      "Syrup",
+      "Cookies",
+      "Home",
+      "Daddy",
+      "Mom",
+      "Grandpa",
+      "grandma"
+    ]
+  },
+  {
+    "name": "Cinnamoroll",
+    "description": "This is a white cousin man born on a distant sky cloud. One day, I found a place where I could fly from the sky to the sister of Caf Cinnamon. The sy is like a cinnamon roll, so it is called cinnamon.",
+    "friends": [
+      "Cappuccino",
+      "Home",
+      "Espresso",
+      "Close",
+      "Poron",
+      "Birds"
+    ]
+  },
+  {
+    "name": "Pochacco",
+    "description": "The origin of the name is pocha. It's curious and it's a little bit. A man of dogs who love to walk more way. Born in Uguise Yokocho.",
+    "friends": [
+      "Choppy",
+      "Poples",
+      "Monmon",
+      "Pill",
+      "Tickey",
+      "Rachel",
+      "Playies",
+      "Mogmog",
+      "Dutch",
+      "Maple",
+      "Home",
+      "Tap",
+      "Pepe",
+      "Jump"
+    ]
+  },
+  {
+    "name": "KUROMI",
+    "description": "Mymel rivals. It seems to be a ent, but it is very ent! Black and Pink Dokuro Charm Point. We are str ling to chromatify the world!",
+    "friends": [
+      "Nami"
+    ]
+  },
+  {
+    "name": "Hello Kitty",
+    "description": "The name is Kitty White. Born in London, England. 5 s 3 s A bright and gentle girl.",
+    "friends": [
+      "Mimi",
+      "Daddy",
+      "Mom",
+      "Grandpa",
+      "grandma",
+      "Daniel Star",
+      "Tiny Cham",
+      "Molly",
+      "Joey",
+      "Roti",
+      "Tim & Tammy",
+      "TIPpy",
+      "Tracy",
+      "Jodi",
+      "Thomas"
+    ]
+  },
+  {
+    "name": "My Melody",
+    "description": "She is a girl who is a brother. The treasure was made by my grandmother. I like to bake cookies with my mother. Almond Pound Cake",
+    "friends": [
+      "Close",
+      "Home",
+      "Rhythm",
+      "Grandpa",
+      "grandma",
+      "Flat",
+      "Piano",
+      "Kangaroo",
+      "Duck Parents"
+    ]
+  },
+  {
+    "name": "Little Twin Stars",
+    "description": "This is a two-day star created by the caring star of Yume Homo. I came from the country of a distant star to become a star that shines. My sister's Lara is a little crying. My brother is curious. I love it.",
+    "friends": [
+      "Puff & Puff",
+      "Nemlin"
+    ]
+  },
+  {
+    "name": "Hangyodon",
+    "description": "A half fisherman born in China. I am good at laughing people. But actually, the romanticist of the sabi. I have always been a , but I dont have to do it. Tako's Sayuri-chan is a big one.",
+    "friends": [
+      "Close",
+      "Home"
+    ]
+  },
+  {
+    "name": "Tuxedosam",
+    "description": "A fashionable penguin man who came from the Taxidou Island in the Antarctic. Its a little bit ry. Has 365 bow ties. I have been studying in England. English Body shape of bust, waist, hip, all 100cm.",
+    "friends": [
+      "PAM",
+      "TAM",
+      "Chip"
+    ]
+  },
+  {
+    "name": "AHIRUNOPEKKLE",
+    "description": "A gentle man's heart. You can enjoy singing and dancing by yourself. When the pitch spurs, it dances. Tap Dance Lesson",
+    "friends": [
+      "Pitch",
+      "Chap",
+      "Ruby",
+      "Boot",
+      "Carl"
+    ]
+  },
+  {
+    "name": "BAD BADTZ-MARU",
+    "description": "I love it and I love it. You can enjoy fine sushi and polyparis ramen in Ginza. Future dreams become the president. Is it true?",
+    "friends": [
+      "Daddy",
+      "Mom",
+      "Bad Twins",
+      "Good Hanamaru",
+      "Home",
+      "Ogawa Sameo"
+    ]
+  },
+  {
+    "name": "HANAMARUOBAKE",
+    "description": "It is a strange aunt that gives you a honeymoon. The aunts seem to be surrounded by people, and there are different cos. You will be able to compliment your daily hard work and effort.",
+    "friends": [
+      "Contact Us",
+      "Home"
+    ]
+  },
+  {
+    "name": "Cogimyun",
+    "description": "Onnako (wheat flour). I really want to be onigiri, but I dont know what kind of onigiri is. It is a very ephemeral character that is scattered by a little thing.",
+    "friends": [
+      "Fried Shrimp",
+      "Takoyaki Sisters",
+      "Udon",
+      "Chocolate",
+      "Cake",
+      "Brother",
+      "Home"
+    ]
+  },
+  {
+    "name": "Kerokerokeroppi",
+    "description": "I love adventures, full of energy! Popular with Donut Pond. I am good at crawling with a bitterog swim. The song is good. I live in Kerokero House on the island of Donut Pond.",
+    "friends": [
+      "Father",
+      "mom",
+      "Close",
+      "Home",
+      "Gantha",
+      "Norbern"
+    ]
+  },
+  {
+    "name": "WISH ME MELL",
+    "description": "The rabbit woman's cousin from France. Its a little bit ry, but its straight and gentle. The rainbow tail is a charm point. I have been supporting mail delivery at Mercy Hills.",
+    "friends": [
+      "Alo",
+      "Marine",
+      "Rozanne",
+      "Sandy",
+      "Mandy",
+      "Fried"
+    ]
+  },
+  {
+    "name": "GUDETAMA",
+    "description": "It's good to cook. There are various cooking methods, but it is a egg. You are trying to eat your eggs! ?",
+    "friends": [
+      "Close",
+      "Lock",
+      "Hardboild",
+      "Home",
+      "Clock Madame",
+      "DJ"
+    ]
+  },
+  {
+    "name": "USAHANA",
+    "description": "A cheerful rabbit girl's cousin perfect for summer. The long ears and ed blue human mi are charm points. 3 tulip flowers. Weight is a mass cut. It's good.",
+    "friends": [
+      "Sora",
+      "Buppy"
+    ]
+  },
+  {
+    "name": "MY SWEET PIANO",
+    "description": "My Mel Friends It is a woman of the sheep, of the sweet beanbo. Charm Point is a baby pink fluffy hair. My favorite food is meringue cookies. You can pick and chat mel and flowers in Nohara.",
+    "friends": []
+  },
+  {
+    "name": "GAOPOWERROO",
+    "description": "Pappau is a powerful way to go to Omurais Island. The powerful power makes everyone Wow!OL",
+    "friends": [
+      "Home"
+    ]
+  },
+  {
+    "name": "COROCOROKURIRIN",
+    "description": "Its a little bit small, but its a curious golden hamster. Flower logo is a trademark. There are seven children: chibikuri, komichi, walnut, cherry, singo, milk, chacha.",
+    "friends": [
+      "Sacra",
+      "Home",
+      "Walnut",
+      "Cherry",
+      "Singo",
+      "Milk",
+      "Pants",
+      "Book",
+      "Leonardo III",
+      "Joe",
+      "Michael",
+      "Old",
+      "Rain",
+      "Tough",
+      "Mom",
+      "Time",
+      "Speedy",
+      "Circus",
+      "Caught",
+      "Scoop",
+      "Mickey",
+      "Nenne",
+      "Marilyn",
+      "Chocolate",
+      "Lily",
+      "Linking",
+      "Pia",
+      "Elizabeth",
+      "Jenny",
+      "Mimiko",
+      "Pint",
+      "Heart",
+      "Pan-chan",
+      "Close",
+      "Bean",
+      "Dundee",
+      "Boss",
+      "Prince",
+      "Bell",
+      "ro",
+      "Carry",
+      "Pyun",
+      "Pets",
+      "Cosmo"
+    ]
+  },
+  {
+    "name": "KIRIMICHAN.",
+    "description": "Kirimi-chan is born with the feeling that you want to eat deliciously at the moment you are carved. We are waiting for you to eat deliciously as a partner who is close to the table today with a lot of friends. It is very good for friends.",
+    "friends": [
+      "Home",
+      "Close",
+      "Thailand",
+      "KARBI",
+      "Ram Chop",
+      "berry"
+    ]
+  },
+  {
+    "name": "Marumofubiyori",
+    "description": "Mopp is a shirokuma man who always comes to your favorite blanket. Im still living in an Indiana-style house where I live in the aquarium. It seems that the appearance of the blanket ised with a mop, so Mr. One gave the name Mop.",
+    "friends": [
+      "Gyonik",
+      "Home"
+    ]
+  },
+  {
+    "name": "MARRONCREAM",
+    "description": "female cousin born in the suburbs of Paris, France. She is good at making sweets and handicrafts. Bright and positive at any time. I am a French school. Cinnamon is the best friend of Nezmi.",
+    "friends": [
+      "Smoke"
+    ]
+  },
+  {
+    "name": "Chococat",
+    "description": "It is full of energetic! But a little bit of a little black cat. You can catch a variety of information with a hanger antenna.",
+    "friends": [
+      "Cookies",
+      "Jerry Bean",
+      "Nuts"
+    ]
+  },
+  {
+    "name": "SHOW BY ROCK!!",
+    "description": "MIDICITY is a city where musicians are bound by. This story is the music legend of the boys and who dream of the top star. 10th anniversary in 2022 thanks to the support of all space rockers. Home",
+    "friends": []
+  },
+  {
+    "name": "Charmmykitty",
+    "description": "The girl of Persian Cat. A pet with a chiti birthday gift. The name is charming.",
+    "friends": [
+      "Honey Cute",
+      "Sugar",
+      "Milfeille",
+      "Tiramisu",
+      "Bisc",
+      "Chocolat",
+      "Pearl",
+      "Ruby",
+      "Sapphire",
+      "Black Opal"
+    ]
+  },
+  {
+    "name": "kabukinyantaro",
+    "description": "Mige male (It is said that it is very rare and lucky). There are many collars like kabuki costume. The bell of the neck rings when you walk. Heart mark on the back.",
+    "friends": []
+  },
+  {
+    "name": "SUGARBUNNIES",
+    "description": "The brother of the genius Patissier, known as the world of the der. The sweets made by the two will make everyone happy.",
+    "friends": [
+      "More",
+      "Home",
+      "berry",
+      "Blueberry",
+      "Mint",
+      "Cappuccino",
+      "Kakao",
+      "Vanilla"
+    ]
+  },
+  {
+    "name": "Dear Daniel",
+    "description": "Boyfriend The bang is a trade mark. 4 melons tall. 3 melons. Daniel went to Africa because of his cameramans work, but he came back from New York.",
+    "friends": [
+      "Daddy"
+    ]
+  },
+  {
+    "name": "LLOROMANNIC",
+    "description": "berries and cherries are two devils. Living in an old Western-style building near the town where cinnamon lives. I came from the world beyond the mirror.",
+    "friends": []
+  },
+  {
+    "name": "MINNANOTABO",
+    "description": "She is always bright and energetic. I sometimes fail, but at a cancer barber shop, my friend is too good! I love my younger brother Maa-kun.",
+    "friends": [
+      "Home",
+      "Close",
+      "Grandpa",
+      "grandma",
+      "Niwatori",
+      "Kael",
+      "Blue Bird",
+      "Kidney",
+      "Nezmi",
+      "Neko",
+      "tiger",
+      "Lion",
+      "Goat",
+      "Ashika",
+      "Penguin",
+      "Shirokuma",
+      "Squirrel",
+      "Lacco",
+      "Koala",
+      "Mogra",
+      "Kaba",
+      "Uma",
+      "Kirin",
+      "Kenkai",
+      "Kappa",
+      "Tatsu",
+      "Oni",
+      "Santa"
+    ]
+  },
+  {
+    "name": "Pokkyokuten",
+    "description": "Pow is a shirokuma man who travels Pok to become a smiling and funny man. CH",
+    "friends": [
+      "Home",
+      "Close"
+    ]
+  },
+  {
+    "name": "Adorozatorumary",
+    "description": "The Experimental Two-Screen Creative Unique was born in collaboration with the songer Ado on the stage of SANRIOLABO Sanrio Research Institute which creates new characters.",
+    "friends": []
+  },
+  {
+    "name": "Aggretsuko",
+    "description": "Reser working at the Keiri Department of Carriman Corporation. A long-awaited trading company, I think of the OL life in Marunouchi, and the reality is a daily sprinkling with supervisors and self-sufficient colleagues who push a tea-free job.",
+    "friends": [
+      "General Manager",
+      "Director",
+      "Director of Yaguinou",
+      "Mr. Terada",
+      "Feneko",
+      "Hida",
+      "Home",
+      "President",
+      "Yoga instructor",
+      "Cafe",
+      "Yokosawa",
+      "Majiro"
+    ]
+  },
+  {
+    "name": "BONBONRIBBON",
+    "description": "Bonbori Bonchan is a stylish pink rabbit. A big ribbon made by your favorite mom is a charm point.",
+    "friends": [
+      "Home",
+      "Laura Laura",
+      "Milky Mimi"
+    ]
+  },
+  {
+    "name": "nyaninyunyenyon",
+    "description": "5 mins walk from Tokyo station. I like marshm. She is a woman who is shy.",
+    "friends": [
+      "Home"
+    ]
+  },
+  {
+    "name": "JEWELPET",
+    "description": "Jewel Pet is a magical pet that lives in Jewelland. You can use the magic of the same effect as the jewel. She is a magical school.",
+    "friends": [
+      "Labra",
+      "King",
+      "Dian",
+      "Diana",
+      "Granite",
+      "Garnet",
+      "Jasper",
+      "Nic",
+      "Ruby",
+      "Coral",
+      "Alek",
+      "Brownie",
+      "Angela",
+      "Kris",
+      "Plays",
+      "Milky",
+      "Home",
+      "Flora",
+      "Suffy",
+      "Io",
+      "Topaz",
+      "Cuckold",
+      "Lapis",
+      "Amelie",
+      "Larimar"
+    ]
+  },
+  {
+    "name": "Tiny chum",
+    "description": "I would like to go to my house while I went to New York. He is a man, but he likes his favorite kitty.",
+    "friends": [
+      "Tiny Lavender",
+      "Tiny Green",
+      "Tiny Pink",
+      "Tiny Cham",
+      "Tiny Cream",
+      "Tiny Blue"
+    ]
+  },
+  {
+    "name": "Marshmallowmitainafuwafuwanyanko",
+    "description": "This man is like marshm. I live with a fashion designer egg boy in Paris. You can sing with a very beautiful singing voice.",
+    "friends": []
+  },
+  {
+    "name": "Littleforestfellow",
+    "description": "Mel and this man's co. The nickname is Mero-O and the habit of mouth is.",
+    "friends": [
+      "Home"
+    ]
+  },
+  {
+    "name": "OSARUNOMONKICHI",
+    "description": "Dajare loves monkeys. It is a gentleman who does not stop when you can do it once. The special technique is fast-drinking ofs. You can eat 10 pieces per minute. The dream of the future is to be.",
+    "friends": [
+      "Home"
+    ]
+  },
+  {
+    "name": "PATTY&JIMMY",
+    "description": "Love couple living in Kansas City, USA. Pati is a sports all-purpose, but it is hard to study. A girl who is full of energy. Jimmy lives in a house next to Patty and is good at studying and chess. Future dreams become the president.",
+    "friends": [
+      "Billy",
+      "Dora"
+    ]
+  },
+  {
+    "name": "CHEERY CHUMS",
+    "description": "Cham is a slight, tea-eye, rabbit female co. Make cakes and cookies to ensure you get the best experience. Elephant pam, bear mue, pig pue, neko mue, and mouse tue. I'm enjoying it.",
+    "friends": [
+      "Home"
+    ]
+  },
+  {
+    "name": "PETAPETAMINILIAN",
+    "description": "A spaceman who is thinking of a wide space to the earth. The purpose is to collect seals. CH",
+    "friends": [
+      "Home"
+    ]
+  },
+  {
+    "name": "Maimaimaigoen",
+    "description": "Maimai Goen is a group show depicting heart growth pain by 16 children and nurses. A story that faces each individuals individuality, close to the modern sense of living.",
+    "friends": [
+      "Daigoro",
+      "English",
+      "Home",
+      "Lion",
+      "Lime",
+      "Mamoru",
+      "Linking",
+      "Yu da",
+      "Lumi"
+    ]
+  },
+  {
+    "name": "PAUPIPO",
+    "description": "The Prince of the star of Kirin. When you use power, you will be shining. A ride that can fly anywhere. You can go to a dream country. Paupipo means small happiness in the word of the star.",
+    "friends": []
+  },
+  {
+    "name": "GOROPIKADON",
+    "description": "A si of threeatures who were born in Kaminari. Sunder School",
+    "friends": []
+  },
+  {
+    "name": "PataPataPeppy",
+    "description": "Anyone interested in Shinshin. Awatenbo's Mimizuku's man's co Cherry and pineapple fruit and nap. A sleek flight is great! Peppy, born in the north forest, is a man's house that has become a lost and traversed while playing with Yamanezumi. I love it.",
+    "friends": []
+  },
+  {
+    "name": "Mewkledreamy",
+    "description": "Miyu is a shiny colored toy. You can chat with the stars of the ears from a strange night.",
+    "friends": [
+      "Home",
+      "Close"
+    ]
+  },
+  {
+    "name": "NORANEKOLAND",
+    "description": "Three dais of cat born in Japan. Im working together. Kro is the third son of Kyodai. The second man. I like to challenge anything. This is a woman who loves making sweets at a leisurely shop.",
+    "friends": []
+  },
+  {
+    "name": "Hagurumanstyle",
+    "description": "He is working in the mouth of each individual, and he is also working on mental care. It appears when the teeth areed, and the teeth will substitute and support it!",
+    "friends": [
+      "Depth",
+      "Black Teeth",
+      "Teeth",
+      "Gold Teeth",
+      "Silver Teeth",
+      "Home"
+    ]
+  },
+  {
+    "name": "SWEETCORON",
+    "description": "The colon is always energeticly flying around the flower fields, and the bee of the bee. Have a bucket and pick up delicious honey! When you find a delicious honey, you will be able to dance gently.",
+    "friends": []
+  },
+  {
+    "name": "Hummingmint",
+    "description": "Humming Mint is a young girl who loves singing. It was born in a beautiful night of Mint Green Aurora in the north sky. Charm Point is a pink nose and white pattern.",
+    "friends": []
+  },
+  {
+    "name": "Beatcats",
+    "description": "Beetcats are the color of the pounding that comes from the beat when you want to take a step! Love, study, future... Suck the color of various poundings, shine yourself, and press your back with song and dance! But actually,...",
+    "friends": [
+      "Mia",
+      "Chelsea",
+      "Ema",
+      "RAYLA",
+      "Emma"
+    ]
+  },
+  {
+    "name": "StrawberryKing",
+    "description": "The king of theberry kingdom. Anyone is kind and gentle. I always think about peace and friendship, and I hope that I can live well.",
+    "friends": [
+      "Dundee",
+      "Dutch",
+      "Candy",
+      "Socrates",
+      "Key"
+    ]
+  },
+  {
+    "name": "ZASHIKIBUTA",
+    "description": "It is a relaxing shop, but curious. I live while making sweets and vegetables. Tabby is the teacher of making sweets. Born in French countryside.",
+    "friends": []
+  },
+  {
+    "name": "FRESHPUNCH",
+    "description": "Stylish pattern design with candy and lipstick.",
+    "friends": []
+  },
+  {
+    "name": "Puwawa",
+    "description": "If you are moving, you will be able to get a good baby. Irido-un's Powa and the Great Nakayoshi. Let's gather shellfish!",
+    "friends": []
+  },
+  {
+    "name": "MELLOTUNE",
+    "description": "A little sabi-shigari shop, a romantic Persian cat. Beautiful flowers and stars. I like listening to the soft melodies of violin in a quiet place!",
+    "friends": []
+  },
+  {
+    "name": "kashiwankomochi",
+    "description": "On May 5th, I changed my wrinkles with the feeling that I want to buy and return. It is a daily lesson that you spend a relaxing time. If you eat deliciously, please.",
+    "friends": [
+      "Home"
+    ]
+  },
+  {
+    "name": "Caribadix",
+    "description": "Dickie and Carina were looking for members to join the band. As I can't find it, I started to work with Carina's scouted chipper, Finne and three-piece band!",
+    "friends": [
+      "Carina",
+      "Dickie",
+      "Close",
+      "Chipper",
+      "FINE"
+    ]
+  },
+  {
+    "name": "PANKUNCHI",
+    "description": "A child that is thrown away in the forest where lives. The treasure is a mitten that came into the cardboard where Pan-kun was.",
+    "friends": [
+      "SHOKUPAN",
+      "Coppepan"
+    ]
+  },
+  {
+    "name": "Sugarminuet",
+    "description": "A genius ballerina on the lake behind the forest of Bunny Field. The two come to the human world through the mirror of the lesson room.",
+    "friends": []
+  },
+  {
+    "name": "CHERINACHERINE",
+    "description": "Cherry forests and fairy women's cos. We can help you harvest. The two are very and the ribbon is always aligned.",
+    "friends": []
+  },
+  {
+    "name": "PANDAPPLE",
+    "description": "A man ofs who loves. Apple logo is a trademark. The most relaxing place is your favorite chair. I'm always playing with my imoushi.",
+    "friends": []
+  },
+  {
+    "name": "Pokopon's Diary",
+    "description": "I am good at writing haiku. A pure and curious man's co! He is honoured for the training to become a splendid. What's more fun with the girlfriend's. The dango is a good thing.",
+    "friends": [
+      "Home"
+    ]
+  },
+  {
+    "name": "ICHIGOMAN",
+    "description": "Character born from Hello Kitty Art Exhibition A superhero that fights monsters whose abdo heart and wicked heart of human. Hello Kitty",
+    "friends": []
+  },
+  {
+    "name": "Kumamilen",
+    "description": "Alien of the Bears, a planet with a bear-likeature. Name A pancake full of honey, especially favorite foods. CH",
+    "friends": [
+      "Honey",
+      "UFB"
+    ]
+  },
+  {
+    "name": "Winkipinki",
+    "description": "A adorable, romantic cat. You can play violin, draw pictures, and collect fashionable accessories.",
+    "friends": []
+  },
+  {
+    "name": "Rilu Rilu Fairilu",
+    "description": "Fair Lil was born from the seeds (Fair Lil Seed). There are a lot of tribes, such as flower fairy, fairy, and fairy of people, centering on the fair of tulips.",
+    "friends": [
+      "Sunflower",
+      "Rose",
+      "Close",
+      "Home",
+      "Olive",
+      "Dante",
+      "Jasmine",
+      "Gerbera",
+      "Dalian",
+      "Lady",
+      "Spider",
+      "Kumamoto",
+      "Coral",
+      "Fish",
+      "Mesh",
+      "Pen",
+      "Rainbow",
+      "Thunder",
+      "Sun",
+      "Star",
+      "Wind",
+      "Dot",
+      "Dutch",
+      "corn",
+      "Carrot",
+      "ry",
+      "Bloco Cappadocia",
+      "Sirius",
+      "Apple Lemon",
+      "Pine",
+      "Blueberry",
+      "berry",
+      "Sweetie",
+      "Haetto",
+      "Dorian",
+      "Japanese",
+      "cat husband"
+    ]
+  },
+  {
+    "name": "THE VAUDEVILLE DUO",
+    "description": "Edi and Emmy, the birthplace of New York, are the same as the day. Eddie is a boy who loves the stage directors and adventures. Emmy is a cute girl who dreams of Broadway.",
+    "friends": [
+      "Elf"
+    ]
+  },
+  {
+    "name": "Umeya Zakkaten",
+    "description": "Oumebaa-chan is living as a cat tiger for cats. The shop is always full of tea drink friends and children! It is a gentle grandmother who is good at temari, pineapple ball, and ohashi.",
+    "friends": []
+  },
+  {
+    "name": "TENORIKUMA",
+    "description": "The tall bears are 4cm tall. Im working at a coffee shop called Tenori Kuma Coffee. Red scarf Rate is a cancer bar. Its a dream to save money and open my shop for some time!",
+    "friends": [
+      "Maple",
+      "Flappe",
+      "Maki Art",
+      "Mr. Steam",
+      "Home"
+    ]
+  },
+  {
+    "name": "TARAIGUMA NO LANDRY",
+    "description": "I live in my favorite tarai and I like to wash anything. A man's co is full of energetic with tea eyes, right after eating.",
+    "friends": [
+      "Pea"
+    ]
+  },
+  {
+    "name": "RURURUGAKUEN",
+    "description": "6 people are always energetic and bright.",
+    "friends": []
+  },
+  {
+    "name": "Shinkaizoku",
+    "description": "The deep sea self-proclaimed idle! Mendako's Menta has a special ability to dive anywhere, and it's a taco, but it's not sumi. Im proud to be similar to UFO, and I believe its secret to flying the sky.",
+    "friends": [
+      "Oguchi Boya's",
+      "Senju-san of Senju-san",
+      "Pink konjac body Sakejii",
+      "Mizoo's Mizu brother",
+      "Boss Sokobozu's bow-san",
+      "What is Chihiro?"
+    ]
+  },
+  {
+    "name": "TINY POEM",
+    "description": "She is a child of the wind. You can enjoy the green wilderness filled with fluffy and wind. Your favorite flower is Tampo. My Boyfriend Living in a small house with a straw roof.",
+    "friends": []
+  },
+  {
+    "name": "NYOKKI & PENNE",
+    "description": "Two cats that were kept by the owner of cats who are chefs of Italian restaurants. However, I would like to try more and more! And I left the shop one day.",
+    "friends": []
+  },
+  {
+    "name": "WE ARE DINOSAURS!",
+    "description": "and friendly. Youre a leader, Tirran, Tops, Stega, Ptera, Bucky, and Pressy, theres a lot of unique fun stuff!",
+    "friends": [
+      "Tiran",
+      "Tops",
+      "Ptera"
+    ]
+  },
+  {
+    "name": "BUNNY & MATTY",
+    "description": "The bu of tea-eye rabbits and the m es of the s. Bunny is a woman who rides cars and airplanes. Matti is a group of three people with the same name.",
+    "friends": []
+  },
+  {
+    "name": "Bosanimal",
+    "description": "Even though they are present in the animals of everyday life, animals that are slightly different from everyone. Even if there is abby time, it is the motto to live yourself as it is. I will be involved with human beings while having the opinions that have been seen from the end of theboshi bothing.",
+    "friends": [
+      "Long hair",
+      "",
+      "r",
+      "opus",
+      "ing",
+      "(Long hair)",
+      "Short hair"
+    ]
+  },
+  {
+    "name": "BUDDYEDDY",
+    "description": "A bright andaughty eddy, but always happy pita. The two are friends of Allie and Noah, and the Asobushi!",
+    "friends": [
+      "Arie",
+      "Noah",
+      "Tess",
+      "Mom",
+      "Dad",
+      "Grandma",
+      "Grandpa"
+    ]
+  },
+  {
+    "name": "THE RUNABOUTS",
+    "description": "Danpu-no-Dan-chan is a man of dump trucks who can quickly become familiar with anyone. It is gentle and powerful. Im running around the busy streets of a colorful and fun working car that I love to work and Im always busy!",
+    "friends": [
+      "Wheel Loader",
+      "Mixer  Mickon",
+      "Crane",
+      "Cucumber",
+      "Shovelker Bell-kun",
+      "Lek-kun",
+      "Patker",
+      "Roll of Road Roller",
+      "Taxi",
+      "Bus",
+      "Wagon",
+      "Mailing List"
+    ]
+  },
+  {
+    "name": "Seven Silly Dwarfs",
+    "description": "The character is different, but its very supple and small. We offer animals, flowers, blue skies, and delicious food. Live in the forest.",
+    "friends": []
+  },
+  {
+    "name": "Risuru",
+    "description": null,
+    "friends": []
+  },
+  {
+    "name": "Pannapitta",
+    "description": "3 months after birth, a energetic panda man co. The name is Pantan. I'm always running with a totetote.",
+    "friends": [
+      "Mom",
+      "Daddy",
+      "Pinotane"
+    ]
+  },
+  {
+    "name": "Sportingbears",
+    "description": "Kumano Family It is active as a character of Yamanashi Chuo Bank!",
+    "friends": []
+  },
+  {
+    "name": "tabo",
+    "description": null,
+    "friends": []
+  },
+  {
+    "name": "pekkle",
+    "description": null,
+    "friends": []
+  },
+  {
+    "name": "kikilala",
+    "description": null,
+    "friends": []
+  },
+  {
+    "name": "retsuko",
+    "description": null,
+    "friends": []
+  },
+  {
+    "name": "charmmy",
+    "description": null,
+    "friends": []
+  }
+]
