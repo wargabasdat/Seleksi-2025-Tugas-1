@@ -1,6 +1,8 @@
 import logging
 import os
 import sys
+import shutil
+from datetime import datetime
 from typing import List, Dict, Optional, Any
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
@@ -20,8 +22,10 @@ class SpotifyScraper:
     """Main scraper class for extracting Spotify data."""
     
     def __init__(self, start_url: str, chromedriver_path: str, chrome_path: str) -> None:
-
         self.start_url = start_url
+        self.start_time = datetime.now()
+        self.timestamp_folder = self.start_time.strftime("%Y_%m_%d_%H_%M_%S")
+        self.data_folder = f"Data Scraping/data/{self.timestamp_folder}"
         self.genres: List[Dict[str, Any]] = []
         self.playlists: List[Dict[str, Any]] = []
         self.playlist_songs: List[Dict[str, Any]] = []
@@ -42,6 +46,18 @@ class SpotifyScraper:
         self.user_extractor = UserExtractor(self.browser)
         
         self.browser.get(self.start_url)
+    
+    def _prepare_data_folder(self, playlist_limit: Optional[int] = None) -> None:
+        """Prepare timestamped data folder and handle default data copying."""
+
+        os.makedirs(self.data_folder, exist_ok=True)
+        logging.info(f"Created data folder: {self.data_folder}")
+        
+        if playlist_limit is None or playlist_limit >= 100:
+            default_playlist_file = "Data Scraping/data/default/playlist.json"
+            if os.path.exists(default_playlist_file):
+                shutil.copy2(default_playlist_file, f"{self.data_folder}/playlist.json")
+                logging.info("Copied default playlist.json due to no/high playlist limit")
     
     def _initialize_browser(self, chromedriver_path: str, chrome_path: str) -> webdriver.Chrome:
 
@@ -152,7 +168,7 @@ class SpotifyScraper:
             print(f"... and {len(self.playlists) - 5} more\n")
         
         try:
-            self.playlist_extractor.save_to_json("Data Scraping/data/playlist.json")
+            self.playlist_extractor.save_to_json(f"{self.data_folder}/playlist.json")
         except Exception as e:
             logging.error(f"[Playlist] Error saving playlists: {str(e)}")
             raise
@@ -197,7 +213,7 @@ class SpotifyScraper:
             print(f"... and {len(self.songs) - 5} more\n")
         
         try:
-            self.song_extractor.save_to_json("Data Scraping/data/song.json")
+            self.song_extractor.save_to_json(f"{self.data_folder}/song.json")
         except Exception as e:
             logging.error(f"[Song] Error saving songs: {str(e)}")
             raise
@@ -248,7 +264,7 @@ class SpotifyScraper:
             print(f"... and {len(self.song_artists) - 5} more\n")
         
         try:
-            self.song_artist_extractor.save_to_json("Data Scraping/data/song_artist.json")
+            self.song_artist_extractor.save_to_json(f"{self.data_folder}/song_artist.json")
         except Exception as e:
             logging.error(f"[SongArtist] Error saving relationships: {str(e)}")
             raise
@@ -313,7 +329,7 @@ class SpotifyScraper:
             print(f"... and {len(self.artists) - 5} more\n")
         
         try:
-            self.artist_extractor.save_to_json("Data Scraping/data/artist.json")
+            self.artist_extractor.save_to_json(f"{self.data_folder}/artist.json")
         except Exception as e:
             logging.error(f"[Artist] Error saving artists: {str(e)}")
             raise
@@ -383,7 +399,7 @@ class SpotifyScraper:
             print(f"... and {len(self.albums) - 5} more\n")
         
         try:
-            self.album_extractor.save_to_json("Data Scraping/data/album.json")
+            self.album_extractor.save_to_json(f"{self.data_folder}/album.json")
         except Exception as e:
             logging.error(f"[Album] Error saving albums: {str(e)}")
             raise
@@ -446,7 +462,7 @@ class SpotifyScraper:
             print(f"... and {len(self.users) - 5} more\n")
         
         try:
-            self.user_extractor.save_to_json("Data Scraping/data/user.json")
+            self.user_extractor.save_to_json(f"{self.data_folder}/user.json")
         except Exception as e:
             logging.error(f"[User] Error saving users: {str(e)}")
             raise
@@ -480,75 +496,43 @@ class SpotifyScraper:
         print(f"\n[Main] Total playlist-song relationships found: {len(self.playlist_songs)}")
         
         try:
-            self.playlist_song_extractor.save_to_json("Data Scraping/data/playlist_song.json")
+            self.playlist_song_extractor.save_to_json(f"{self.data_folder}/playlist_song.json")
         except Exception as e:
             logging.error(f"[PlaylistSong] Error saving relationships: {str(e)}")
             raise
 
-    def _generate_summary(self) -> None:
-        """Generate a summary report of all extracted data"""
-        try:
-            with open("Data Scraping/data/summary.txt", "w", encoding="utf-8") as f:
-                f.write("=== SPOTIFY DATA EXTRACTION SUMMARY ===\n\n")
-                
-                f.write(f"Total Genres: {len(self.genres) if self.genres else 0}\n\n")
-                
-                if self.playlists and self.genres:
-                    f.write("Playlist Count by Genre:\n")
-                    f.write("-" * 50 + "\n")
-                    
-                    genre_playlist_count = {}
-                    for playlist in self.playlists:
-                        genre_id = playlist.get('genre_id')
-                        if genre_id:
-                            genre_playlist_count[genre_id] = genre_playlist_count.get(genre_id, 0) + 1
-                    
-                    for genre in self.genres:
-                        genre_id = genre['genre_id']
-                        genre_name = genre['name']
-                        playlist_count = genre_playlist_count.get(genre_id, 0)
-                        f.write(f"{genre_name:<30} | {playlist_count:>3} playlists\n")
-                    
-                    f.write("-" * 50 + "\n")
-                    f.write(f"Total Playlists: {len(self.playlists)}\n\n")
-                
-                if self.playlist_songs:
-                    f.write(f"Total Playlist-Song Relationships: {len(self.playlist_songs)}\n\n")
-                
-                if self.songs:
-                    f.write(f"Total Songs: {len(self.songs)}\n\n")
-                
-                if self.song_artists:
-                    f.write(f"Total Song-Artist Relationships: {len(self.song_artists)}\n\n")
-                
-                if self.artists:
-                    f.write(f"Total Artists: {len(self.artists)}\n\n")
-                
-                if self.albums:
-                    f.write(f"Total Albums: {len(self.albums)}\n\n")
-                
-                if self.users:
-                    f.write(f"Total Users: {len(self.users)}\n\n")
-                
-                if self.playlists:
-                    basic_playlists = [p for p in self.playlists if len(p) == 4]
+    def _save_extraction_summary(self) -> None:
+        """Save extraction summary with timestamps."""
+        summary_content = f"""Spotify Data Extraction Summary
+=====================================
 
-                    f.write(f"Playlists with Detailed Info Only: {len(self.playlists) - len(basic_playlists)}\n\n")
-                    f.write(f"Playlists with Basic Info Only: {len(basic_playlists)}\n")
+Extraction Start Time: {self.start_time.strftime('%Y-%m-%d %H:%M:%S')}
+Extraction End Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+Duration: {datetime.now() - self.start_time}
 
-                    for playlist in basic_playlists:
-                        f.write(f"{playlist['name']}\n")
+Data Extracted:
+- Genres: {len(self.genres)}
+- Playlists: {len(self.playlists)}
+- Songs: {len(self.songs)}
+- Artists: {len(self.artists)}
+- Albums: {len(self.albums)}
+- Users: {len(self.users)}
+- Playlist-Songs: {len(self.playlist_songs)}
+- Song-Artists: {len(self.song_artists)}
 
-                f.write("Extraction completed successfully!\n")
-                
-            logging.info("[Main] Summary saved to summary.txt")
-            
-        except Exception as e:
-            logging.warning(f"[Main] Failed to generate summary: {str(e)}")
+Data saved to folder: {self.timestamp_folder}
+"""
+        
+        summary_file = f"{self.data_folder}/summary.txt"
+        with open(summary_file, 'w', encoding='utf-8') as f:
+            f.write(summary_content)
+        logging.info(f"Saved extraction summary to {summary_file}")
 
     def run(self, playlist_limit: Optional[int] = None, chosen_playlists: Optional[List[str]] = None, song_limit: Optional[int] = None) -> None:
-
+        """Run the complete extraction process with timestamped data folder."""
         try:
+            # Prepare timestamped data folder
+            self._prepare_data_folder(playlist_limit)
             self._process_genre()
             self._process_playlist(playlist_limit)
             self._process_playlist_song(chosen_playlists, song_limit)
@@ -557,7 +541,11 @@ class SpotifyScraper:
             self._process_artist()
             self._process_album()
             self._process_user()
-            self._generate_summary()
+            self._save_extraction_summary()
+            
+            logging.info(f"[Main] Extraction completed successfully!")
+            logging.info(f"[Main] Data saved to: {self.data_folder}")
+            logging.info(f"[Main] Timestamp: {self.timestamp_folder}")
 
         except WebDriverException as e:
             logging.error(f"[Main - WebDriverException] {str(e)}")

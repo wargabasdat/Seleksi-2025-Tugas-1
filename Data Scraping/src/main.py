@@ -12,8 +12,8 @@ START_URL = "https://open.spotify.com/search"
 
 PLAYLIST_IN_GENRE_LIMIT = None
 CHOSEN_PLAYLISTS = [
-    "IndieNesia",
-    "This Is STUDIO GHIBLI -スタジオジブリ-"
+    "mood.",
+    "NARUTO"
 ]
 SONG_IN_PLAYLIST_LIMIT = 20
 

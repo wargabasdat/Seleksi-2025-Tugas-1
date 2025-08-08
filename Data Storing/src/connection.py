@@ -1,15 +1,14 @@
 import json
 import pymysql
 import os
+import re
 from datetime import datetime
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any
 import logging
 from dotenv import load_dotenv
 
-# Load environment variables from root directory
 load_dotenv('.env')
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -53,13 +52,40 @@ class DatabaseConnection:
             self.connection.close()
         logging.info("Database connection closed")
     
+    def get_latest_data_path(self) -> str:
+        """Find the latest timestamped data folder, fallback to default."""
+        base_data_path = "Data Scraping/data"
+        
+        # Find timestamped folders (YYYY_MM_DD_HH_MM_SS format)
+        timestamp_pattern = re.compile(r'^\d{4}_\d{2}_\d{2}_\d{2}_\d{2}_\d{2}$')
+        timestamp_folders = []
+        
+        if os.path.exists(base_data_path):
+            for item in os.listdir(base_data_path):
+                item_path = os.path.join(base_data_path, item)
+                if os.path.isdir(item_path) and timestamp_pattern.match(item):
+                    timestamp_folders.append(item)
+        
+        if timestamp_folders:
+            # Sort folders by timestamp (newest first)
+            latest_folder = sorted(timestamp_folders, reverse=True)[0]
+            latest_path = os.path.join(base_data_path, latest_folder)
+            logging.info(f"Using latest timestamped data: {latest_folder}")
+            return latest_path
+        
+        default_path = os.path.join(base_data_path, "default")
+        if os.path.exists(default_path):
+            logging.info("Using default data folder (no timestamped folders found)")
+            return default_path
+        
+        logging.warning("No timestamped or default folders found, using base data folder")
+        return base_data_path
+    
     def clear_all_tables(self):
         """Clear all tables in dependency order."""
         try:
-            # Disable foreign key checks temporarily
             self.cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
             
-            # Clear tables in reverse dependency order
             tables = [
                 'Playlist_Song',
                 'Song_Artist', 
@@ -335,14 +361,14 @@ class DatabaseConnection:
 
 def main():
     """Main function to load all data into database."""
-    # Base path for JSON files
-    data_path = "Data Scraping/data"
-    
     db = DatabaseConnection()
     
     try:
         if not db.connect():
             return
+        
+        data_path = db.get_latest_data_path()
+        logging.info(f"Data path: {data_path}")
         
         logging.info("Clearing all tables...")
         db.clear_all_tables()
@@ -353,13 +379,9 @@ def main():
         db.insert_genres(db.load_json_data(f"{data_path}/genre.json"))
         db.insert_artists(db.load_json_data(f"{data_path}/artist.json"))
         
-        # Check if user.json exists and load users
-        user_data_path = f"{data_path}/user.json"
-        if os.path.exists(user_data_path):
-            db.insert_users(db.load_json_data(user_data_path))
-        else:
-            logging.warning("user.json not found, skipping user insertion")
-        
+        logging.info("Inserting users...")
+        db.insert_users(db.load_json_data(f"{data_path}/user.json"))
+
         logging.info("Creating albums without song counts...")
         db.insert_albums(db.load_json_data(f"{data_path}/album.json"))
         
