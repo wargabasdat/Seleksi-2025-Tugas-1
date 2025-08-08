@@ -2,8 +2,8 @@
 
 ## Author
 
-**Nama:** \[Isi Nama Anda di sini]
-**NIM:** \[Isi NIM Anda di sini]
+**Nama:** \Qodri Azkarayan
+**NIM:** \13523010
 
 ---
 
@@ -11,7 +11,7 @@
 
 Proyek ini merupakan implementasi proses **ETL (Extract, Transform, Load)** yang berfokus pada data penghargaan mingguan dari acara musik K-pop. Data mentah diekstrak dari situs web [soridata.com](https://soridata.com) menggunakan web scraper kustom. Data yang dikumpulkan kemudian dinormalisasi dan disimpan ke dalam sistem basis data relasional (**RDBMS**) menggunakan MySQL.
 
-Topik ini dipilih karena data penghargaan K-pop sangat terstruktur dan konsisten, menjadikannya sumber yang ideal untuk mempraktikkan teknik web scraping dan perancangan database. Strukturnya yang jelas memudahkan proses normalisasi dan perancangan skema database yang logis.
+Topik ini dipilih karena aku suka kpop hwehwehwe. Selain itu struktur data di website yang aku pilih sangat tersusun dengan baik sehingga memudahkan aku untuk melakukan scraping
 
 ---
 
@@ -125,17 +125,9 @@ python storing.py
 
 ## Screenshot Program
 
-**Tampilan Data JSON Hasil Scraper:**
 ![Tampilan data JSON](Data%20Storing/screenshot/Screenshot%20\(1126\).png)
 
-**Koneksi ke Database MySQL:**
-![Koneksi MySQL](Data%20Storing/screenshot/Screenshot%20\(1122\).png)
-
-**Tampilan Tabel di MySQL:**
 ![Tabel di MySQL](Data%20Storing/screenshot/Screenshot%20\(1123\).png)
-
-**Tampilan Data di Tabel:**
-![Data di Tabel](Data%20Storing/screenshot/Screenshot%20\(1124\).png)
 
 ---
 
@@ -153,6 +145,3 @@ python storing.py
 
 * [soridata.com](https://soridata.com)
 
-**Software:**
-
-* MySQL
