@@ -1,0 +1,671 @@
+[
+    {
+        "CityID": "0",
+        "CinemaID": "001",
+        "CinemaName": "Paris Van Java",
+        "CinemaAddress": "Paris van Java Resort Lifestyle Place - Jl. Sukajadi 137-139, Ground floor, Level 1 dan Level 2 Bandung 40162",
+        "auditoriumTypes": [
+            "4DX",
+            "VELVET"
+        ]
+    },
+    {
+        "CityID": "0",
+        "CinemaID": "011",
+        "CinemaName": "Miko Mall",
+        "CinemaAddress": "Miko Mall Lantai 3A Jl. Kopo Cirangrang No 559 Bandung",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "0",
+        "CinemaID": "014",
+        "CinemaName": "BEC Mall",
+        "CinemaAddress": "Istana Bandung Electronic Centre 2 Lantai 3A Jl.Purnawarman No.7 – 11 Bandung 40117",
+        "auditoriumTypes": []
+    },
+    {
+        "CityID": "0",
+        "CinemaID": "029",
+        "CinemaName": "23 Paskal Shopping Center",
+        "CinemaAddress": "23 Paskal Shopping Centre Lt. 3 - Paskal Hyper Square : Jl. Pasirkaliki No. 25 - 27 , Kb. Jeruk , Andir - Bandung",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "STARIUM",
+            "GOLD",
+            "VELVET"
+        ]
+    },
+    {
+        "CityID": "0",
+        "CinemaID": "038",
+        "CinemaName": "Metro Indah Mall",
+        "CinemaAddress": "MIM SF Lt. 2 - Jl. Soekarno Hatta, Kawasan Niaga MTC No. 590, Sekejati, Buahbatu - Kota Bandung 40286",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "0",
+        "CinemaID": "060",
+        "CinemaName": "Kings Shopping Center",
+        "CinemaAddress": "Kings Plaza Bandung Jl. Kepatihan 4 - 6,11 - 7, Lantai 6A Balong Gede, Regol, Kota Bandung, Jawa Barat 40265",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "1",
+        "CinemaID": "059",
+        "CinemaName": "Sadang Terminal Square",
+        "CinemaAddress": "Sadang Town Square, Jl. Veteran, ciwangi, 242B, bungur sari, Purwakarta - Jawa Barat 41118",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "2",
+        "CinemaID": "019",
+        "CinemaName": "Festive Walk",
+        "CinemaAddress": "Festive Walk Mall lantai 5 Jl Galuh Mas Raya Komplek Perumahan Galuh - Karawang barat 41361",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "2",
+        "CinemaID": "046",
+        "CinemaName": "Technomart",
+        "CinemaAddress": "Tenchomart Karawang Lt. 3 Jl. Galuh MAS Raya, Sukaharja, Telukjambe Timur, Kabupaten Karawang, Jawa Barat 41361",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN",
+            "VELVET"
+        ]
+    },
+    {
+        "CityID": "2",
+        "CinemaID": "056",
+        "CinemaName": "Cikampek Mall",
+        "CinemaAddress": "Cikampek Mall Lantai 2 Jl. Jend. Sudirman No.76, Dawuan Tengah, Kec. Cikampek, Kabupaten Karawang, Jawa Barat 41373",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "3",
+        "CinemaID": "069",
+        "CinemaName": "Living Plaza Jababeka",
+        "CinemaAddress": "Living Plaza Jababeka Lt. 1, Mekarmukti,Kec. Cikarang Utara, Kabupaten Bekasi, Jawa Barat 17530",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "4",
+        "CinemaID": "016",
+        "CinemaName": "Grage City Mall",
+        "CinemaAddress": "Grage City Mall Lt. 2 - Jl. Ahmad Yani, Pegambiran, Cirebon",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "4",
+        "CinemaID": "042",
+        "CinemaName": "Transmart Cirebon",
+        "CinemaAddress": "Transmart Cirebon 1st floor Jl. Raya Cipto Mangunkusumo No.234, Pekiringan, Kesambi, Cirebon City",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "5",
+        "CinemaID": "052",
+        "CinemaName": "Vivo Sentul",
+        "CinemaAddress": "Vivo Sentul Bogor Jl. Raya Bogor KM 50, Cimandala, 16710, Jawa Barat, Kab. Bogor",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "6",
+        "CinemaID": "007",
+        "CinemaName": "Bekasi Cyber Park",
+        "CinemaAddress": "Mall Bekasi Cyber Park Lantai 3 Jl. KH Noer Alie no. 177 - Bekasi",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "6",
+        "CinemaID": "036",
+        "CinemaName": "Bekasi Trade Center",
+        "CinemaAddress": "BTC Mall 2 Ground Floor - Jl. H. M. Joyomartono, Bulak Kapal, Bekasi Timur, Margahayu - DKI Jakarta 17113",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "6",
+        "CinemaID": "040",
+        "CinemaName": "Lagoon Avenue Bekasi",
+        "CinemaAddress": "Marketing Gallery Lagoon Avenue Bekasi. Jalan KH Noer Ali No. 3A, Kota Bekasi, DKI Jakarta 17148",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "002",
+        "CinemaName": "Grand Indonesia",
+        "CinemaAddress": "Grand Indonesia, West Mall Building 8th Floor Jl. M.H. Thamrin No. 1 Jakarta - Pusat",
+        "auditoriumTypes": [
+            "STARIUM",
+            "4DX",
+            "GOLD",
+            "VELVET",
+            "SCREENX",
+            "SATIN",
+            "Private"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "003",
+        "CinemaName": "Pacific Place",
+        "CinemaAddress": "One Pacific Place Mall 6th Floor, Jl. Jendral Sudirman Kav. 52 - 53 Sudirman Central Business District Jakarta Pusat",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "VELVET",
+            "GOLD"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "006",
+        "CinemaName": "Central Park",
+        "CinemaAddress": "Mall Central Park (Podomoro City) -Level 8 ( P13 ) Jl. Jend. S. Parman Kav 28 Jakarta Barat 11470",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "VELVET",
+            "4DX",
+            "SATIN",
+            "SCREENX"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "020",
+        "CinemaName": "Slipi Jaya",
+        "CinemaAddress": "Plaza Slipi Jaya Lantai 4 Jl. Letjend S Parman no. Kav 17-18 - Jakarta Barat 11410",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "025",
+        "CinemaName": "Green Pramuka Mall",
+        "CinemaAddress": "Green Pramuka Square 1st Floor, Jl. Jendral Ahmad Yani Kav. 49, Rawasari Cempaka Putih, Central Jakarta 10570",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "028",
+        "CinemaName": "Bella Terra Lifestyle Center",
+        "CinemaAddress": "Bellatera Lifestyle Center 6th floor Jl Boulevard Raya kav 1, Pulomas Kelapa Gading",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "GOLD"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "035",
+        "CinemaName": "Transmart Cempaka Putih",
+        "CinemaAddress": "Transmart Cempaka Putih Lt. 3 - Jl. Jend A. Yani No. 83, Cempaka Putih, Jakarta Utara",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "037",
+        "CinemaName": "Aeon Mall JGC",
+        "CinemaAddress": "AEON Cakung Mall Lt. 3 Ps. Modern Jakarta Garden City Jl. Cassia Utama No. 46, Cakung - Jakarta 13960",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "GOLD",
+            "VELVET",
+            "SCREENX"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "049",
+        "CinemaName": "FX Sudirman",
+        "CinemaAddress": "FX Mall Lantai 7, Jl. Jend Sudirman RT.001/03, Gelora tn.Abang, Jakarta pusat 10270",
+        "auditoriumTypes": [
+            "SATIN",
+            "Sporthall"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "068",
+        "CinemaName": "Sunter Mall",
+        "CinemaAddress": "Sunter Mall Lt. 3 Jl. Danau Sunter Blok.G7 Kav.2, Sunter Agung Jakarta Utara 14350",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "086",
+        "CinemaName": "Buaran Plaza",
+        "CinemaAddress": "Buaran Plaza 2nd Floor Jl. Raden Inten 1 Buaran - Jakarta Timur 13470",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "7",
+        "CinemaID": "092",
+        "CinemaName": "Poins Mall",
+        "CinemaAddress": "Jl. RA kartini No. 1 Lb. Bulus -Cilandak Jakarta Selatan",
+        "auditoriumTypes": [
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "8",
+        "CinemaID": "030",
+        "CinemaName": "Depok Mall",
+        "CinemaAddress": "DMall Depok Lt. 4 - Jl. Margonda Raya Kav 88 , Kemiri Muka , Beji",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "8",
+        "CinemaID": "073",
+        "CinemaName": "DTC Depok",
+        "CinemaAddress": "Depok",
+        "auditoriumTypes": [
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "9",
+        "CinemaID": "005",
+        "CinemaName": "Teras Kota",
+        "CinemaAddress": "Mall Teras Kota Lantai 2 Jl. Raya Pahlawan Seribu Sektor IV CBD Lot VIIB, BSD City - Serpong - Tangerang Selatan",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "GOLD",
+            "Sporthall"
+        ]
+    },
+    {
+        "CityID": "9",
+        "CinemaID": "022",
+        "CinemaName": "Ecoplaza Citraraya Cikupa",
+        "CinemaAddress": "Eco Plaza Lt. 2 - Jl. Ecopolis BoulevardSelatan, Citra Raya, Cikupa",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "9",
+        "CinemaID": "045",
+        "CinemaName": "Transmart Graha Bintaro",
+        "CinemaAddress": "Transmart Graha Bintaro 1st floor Jl. Boulevard Raya, Perumahan Graha Raya Bintaro, Kel. Paku Jaya, Kec. Serpong Utara,Tangerang Selatan",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "9",
+        "CinemaID": "065",
+        "CinemaName": "Paradise Walk Serpong",
+        "CinemaAddress": "Paradise Walk Serpong UG Floor Jl. Paradise Serpong City, Babakan, Kec. Setu, Kota Tangerang Selatan, Banten 15315",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "9",
+        "CinemaID": "080",
+        "CinemaName": "Grand Batavia",
+        "CinemaAddress": "Grand Batavia Jl. Raya Grand Batavia, Sindangsari, Kec. Ps. Kemis, Kabupaten Tangerang, Banten 15560",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "9",
+        "CinemaID": "083",
+        "CinemaName": "Foodmosphere",
+        "CinemaAddress": "Foodmoshere goldland - Jl. Imam Bonjol, Panunggangan Bar RT 3 / RW 4, Kec. Karawaci, Kota Tangerang, Banten 15810",
+        "auditoriumTypes": []
+    },
+    {
+        "CityID": "9",
+        "CinemaID": "089",
+        "CinemaName": "Mal Ciputra Tangerang",
+        "CinemaAddress": "Jl. Citra Raya Boulevard No.38 Lantai 3F, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN",
+            "Sporthall"
+        ]
+    },
+    {
+        "CityID": "10",
+        "CinemaID": "032",
+        "CinemaName": "Transmart Tegal",
+        "CinemaAddress": "Transmart Tegal Lt. 1 - Jl. Kolonel Sugiono, Kemandungan, Tegal 52112",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "11",
+        "CinemaID": "094",
+        "CinemaName": "Ecoplaza Citra Maja Raya",
+        "CinemaAddress": "Kabupaten Serang, Banten Jalan Raya Kopo, Citra Maja Raya,",
+        "auditoriumTypes": []
+    },
+    {
+        "CityID": "12",
+        "CinemaID": "026",
+        "CinemaName": "Rita Supermall",
+        "CinemaAddress": "Rita Supermall Lt. 5 - Jl. Jend Sudirman No. 296, Sokanegara, Purwokerto",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "13",
+        "CinemaID": "013",
+        "CinemaName": "Jwalk Mall",
+        "CinemaAddress": "Sahid J-Walk Mall 3rd fl. Jl Babarsari No.2 Catur Tunggal, Depok, Sleman. DI Yogyakarta 55281",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "13",
+        "CinemaID": "017",
+        "CinemaName": "Pakuwon Mall Jogja",
+        "CinemaAddress": "Jl. Raya Ringroad Utara, Kaliwaru, Condongcatur, Kec. Depok, Kabupaten Sleman, DI Yogyakarta 55281",
+        "auditoriumTypes": [
+            "STARIUM",
+            "SPHEREX",
+            "4DX",
+            "VELVET"
+        ]
+    },
+    {
+        "CityID": "13",
+        "CinemaID": "031",
+        "CinemaName": "Transmart Maguwo",
+        "CinemaAddress": "Transmart Maguwo Yogyakarta Lt. 1 - Jl. Raya Solo KM 8 No. 234, Sleman, DI Yogyakarta 55282",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "14",
+        "CinemaID": "043",
+        "CinemaName": "Transmart Lampung",
+        "CinemaAddress": "Transmart Lampung 4th floor Jl. Sultan Agung No.283, Way Halim Permai, Way Halim, Kota Bandar Lampung, Lampung 35132",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "15",
+        "CinemaID": "041",
+        "CinemaName": "Transmart Solo",
+        "CinemaAddress": "Transmart Solo Pabelan 5th floor Jl. Raya A. Yani No. 234, Pabelan Kartosuro, Pabelan, Kartasura, Kabupaten Sukoharjo, Jawa Tengah 57162",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "16",
+        "CinemaID": "066",
+        "CinemaName": "Plaza Lawu Madiun",
+        "CinemaAddress": "Plaza Lawu Madiun Lantai 3, JL. Pahlawan, Kartoharjo, Madiun - Jawa Timur 63117",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "17",
+        "CinemaID": "051",
+        "CinemaName": "Icon Mall Gresik",
+        "CinemaAddress": "Jl. Dr. Wahidin S.H. No. 712, Kembangan,Kebomas, Kabupaten Gresik, Jawa Timur 61124",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "18",
+        "CinemaID": "067",
+        "CinemaName": "Kediri Mall",
+        "CinemaAddress": "Kediri Mall Lantai 7 Jl. Hayam Wuruk No. 46, Kediri, Jawa Timur.",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "19",
+        "CinemaID": "023",
+        "CinemaName": "Sunrise Mall",
+        "CinemaAddress": "Sunrise Mall Lt 2 - Jl. Benteng Pancasila no. 9, Bolongsari, Mergasari - Mojokerto",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "20",
+        "CinemaID": "018",
+        "CinemaName": "Marvell City",
+        "CinemaAddress": "Marvel City Mall 2nd floor Jl. Ngagel No 123, Wonokromo, Surabaya, Jawa Timur 60246",
+        "auditoriumTypes": [
+            "4DX",
+            "SPHEREX"
+        ]
+    },
+    {
+        "CityID": "20",
+        "CinemaID": "048",
+        "CinemaName": "BG Junction",
+        "CinemaAddress": "Jl. Bubutan No 1-7 Unit P9 Zone C Kel Pekiringan Kec Kesambi Surabaya 60174",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "20",
+        "CinemaID": "081",
+        "CinemaName": "Maspion Square",
+        "CinemaAddress": "Maspion Square – 1st Floor, Jl. Ahmad Yani No. 73, Margorejo, Wonocolo Surabaya – Jawa Timur 60238",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "21",
+        "CinemaID": "053",
+        "CinemaName": "Blitar Square",
+        "CinemaAddress": "Blitar Square, Jl. Merdeka No.6-7 Lantai 3 kepanjen lor, kepanjen kidul, Blitar - Jawa Timur",
+        "auditoriumTypes": []
+    },
+    {
+        "CityID": "22",
+        "CinemaID": "076",
+        "CinemaName": "Malang City Point",
+        "CinemaAddress": "Malang City Point Jl. Terusan Dieng No.32, Pisang Candi, Kec. Sukun, Kota Malang, Jawa Timur 65115",
+        "auditoriumTypes": [
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "23",
+        "CinemaID": "070",
+        "CinemaName": "Wijaya Kusuma",
+        "CinemaAddress": "Wijaya Kusuma Mall, Jl. Mangunharjo, Mayangan Probolinggo, Jawa timur 67218",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "24",
+        "CinemaID": "027",
+        "CinemaName": "Social Market",
+        "CinemaAddress": "Social Market Citywalk Lt. 2 - Jl. Veteran No. 999 , Palembang",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "VELVET"
+        ]
+    },
+    {
+        "CityID": "24",
+        "CinemaID": "039",
+        "CinemaName": "Transmart Palembang",
+        "CinemaAddress": "Transmart Palembang 3rd floor, 26 Ilir, Bukit Kecil, Kota Palembang, Sumatera Selatan 30127",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "24",
+        "CinemaID": "064",
+        "CinemaName": "PTC Mall",
+        "CinemaAddress": "PALEMBANG TRADE CENTER, Jl. R.Sukamto No. 8A, 8 ilir timur 2 Kota Palembang - Sumatera selatan 30114",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "25",
+        "CinemaID": "077",
+        "CinemaName": "Roxy Square Jember",
+        "CinemaAddress": "Roxy Square Jember Jl. Hayam Wuruk No.50-58, Gerdu, Sempusari, Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+        "auditoriumTypes": []
+    },
+    {
+        "CityID": "26",
+        "CinemaID": "034",
+        "CinemaName": "Transmart Mataram",
+        "CinemaAddress": "Transmart Mataram Lt. 1 - Jl. Selaparang No. 60, Mataram, Nusa Tenggara Barat",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "27",
+        "CinemaID": "057",
+        "CinemaName": "Park Avenue Batam",
+        "CinemaAddress": "Park Avenue Batam Upper Ground, Jl.Orchard Boulevard, Belian, Batamkota, Kep. Riau 29444",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "GOLD",
+            "VELVET"
+        ]
+    },
+    {
+        "CityID": "27",
+        "CinemaID": "071",
+        "CinemaName": "Grand Batam Mall",
+        "CinemaAddress": "Mall Grand Batam Lantai 3 Jl. Pembangunan, Kawasan Mall Grand Batam Penuin, Penuin, Batu Selicin, Lubuk Baja, Kota Batam, Kepulauan Riau 29444",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN",
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "28",
+        "CinemaID": "079",
+        "CinemaName": "Raya Padang",
+        "CinemaAddress": "Jalan Ps. Baru 2 No. 2, Kampung Jao, Padang Barat, Kp. Jao, Padang Bar, Kota Padang, Sumatera Barat",
+        "auditoriumTypes": []
+    },
+    {
+        "CityID": "29",
+        "CinemaID": "033",
+        "CinemaName": "Transmart Pekanbaru",
+        "CinemaAddress": "Transmart Pekanbaru Lt. 1 - Jl. Musyawarah No. 11, Payung Sekaki, Pekanbaru 28292",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "29",
+        "CinemaID": "087",
+        "CinemaName": "Holiday Pekanbaru",
+        "CinemaAddress": "Holiday 88 Jalan Sultan Syarif Qasim No.120, Kota Tinggi, LimaPuluh, Rintis, LimaPuluh, Kota Pekanbaru, Riau 28112",
+        "auditoriumTypes": [
+            "Sweetbox"
+        ]
+    },
+    {
+        "CityID": "29",
+        "CinemaID": "088",
+        "CinemaName": "Studio Pekanbaru",
+        "CinemaAddress": "Studio 88 Pekanbaru, Gedung Plaza Citra Lt. 5, Jl. Pepaya, Jadirejo, Pekanbaru, Jadirejo, Sukajadi,Kota Pekanbaru, Riau 28121",
+        "auditoriumTypes": []
+    },
+    {
+        "CityID": "30",
+        "CinemaID": "072",
+        "CinemaName": "Panakkukang Square",
+        "CinemaAddress": "PANAKKUKANG MALL Lantai 2 Jalan Adhyaksa No.1 Panakkukang Mas Makassar, Sulawesi Selatan",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "31",
+        "CinemaID": "008",
+        "CinemaName": "Plaza Balikpapan",
+        "CinemaAddress": "Plaza Balikpapan Lt. 1 - Jl. Jend. Sudirman No. 1, Kelandasan Ilir, Balikpapan",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "VELVET"
+        ]
+    },
+    {
+        "CityID": "32",
+        "CinemaID": "055",
+        "CinemaName": "Plaza Mulia",
+        "CinemaAddress": "Jl. Bhayangkara No.58, 01, Bugis, Kec. Samarinda Ulu, Kota Samarinda, Kalimantan Timur 75242",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "SATIN"
+        ]
+    },
+    {
+        "CityID": "33",
+        "CinemaID": "024",
+        "CinemaName": "Focal Point",
+        "CinemaAddress": "Focal Point Mall Lt. 3 - Jl. Ring Road Setiabudi, Medan",
+        "auditoriumTypes": [
+            "Sweetbox",
+            "GOLD"
+        ]
+    }
+]
