@@ -4,7 +4,9 @@ import json
 import time
 
 BASE_URL = "https://rcdb.com"
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64); Basis Data/13523078@std.stei.itb.ac.id"
+}
 
 def extract_id_from_href(href):
     return int(href.strip("/").split(".")[0]) if href else None
