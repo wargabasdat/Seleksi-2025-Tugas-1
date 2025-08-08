@@ -2,8 +2,8 @@
 
 ## Author
 
-**Nama:** \Qodri Azkarayan
-**NIM:** \13523010
+**Nama:** Qodri Azkarayan
+**NIM:** 13523010
 
 ---
 
