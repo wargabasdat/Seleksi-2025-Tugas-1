@@ -32,7 +32,7 @@ def normalize_date(s):
 DDL = [
     """
     CREATE TABLE IF NOT EXISTS country (
-        country_id   INT NOT NULL,
+        country_id INT NOT NULL,
         country_name VARCHAR(255) NOT NULL,
         PRIMARY KEY (country_id),
         UNIQUE KEY ux_country_name (country_name)
@@ -74,6 +74,7 @@ def run_ddl(cur):
 def load_json(p: Path):
     with p.open("r", encoding="utf-8") as f:
         return json.load(f)
+    
 
 def main():
     try:
@@ -90,12 +91,12 @@ def main():
         )
 
         cities = load_json(CITY_JSON)
-        city_rows = [(c["country_id"], c["city_name"])
-                     for c in cities if c.get("country_id") and c.get("city_name")]
+        city_rows = [(c["country_id"],  c["city_id"],  c["city_name"])
+                     for c in cities if c.get("country_id") and c.get("city_id")]
         cur.executemany(
             """
-            INSERT INTO city (country_id, city_name)
-            VALUES (%s, %s)
+            INSERT INTO city (country_id, city_id, city_name)
+            VALUES (%s, %s, %s)
             """,
             city_rows
         )
@@ -119,7 +120,7 @@ def main():
         cur.executemany(
             """
             INSERT INTO unicorn
-              (company_name, valuation, date_joined, country_id, city_id, industry, selected_investors)
+              (company_name, valuation, date_joined, country_id, city_id, industry, investors)
             VALUES (%s, %s, %s, %s, %s, %s, %s)
             ON DUPLICATE KEY UPDATE
               valuation = VALUES(valuation),
@@ -127,7 +128,7 @@ def main():
               country_id = VALUES(country_id),
               city_id = VALUES(city_id),
               industry = VALUES(industry),
-              selected_investors = VALUES(selected_investors)
+              investors = VALUES(investors)
             """,
             uni_rows
         )
