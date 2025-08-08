@@ -38,7 +38,7 @@ $ git clone https://github.com/Snoeriza/Seleksi-2025-Tugas-1.git
 ```
 2. _Install_ semua _library_ yang digunakan dalam menjalankan program ini dengan menjalankan perintah berikut di _Command Prompt (as Administrator)_:
 ```
-$ pip install pandas beautifulsoup4 re psycopg2
+$ pip install pandas beautifulsoup4 re psycop
 ```
 3. Masuk ke folder proyek:
 ``` 
@@ -68,7 +68,7 @@ $ cd "Data Storing"
 $ cd export
 ```
 5. Download file broadway.sql
-6. Buka PostgreSQL dab nasukkan password
+6. Buka PostgreSQL dab masukkan password
 ```
 $ psql -U <username>;
 ```
@@ -135,7 +135,7 @@ Untuk setiap weak entity, dilakukan pemetaan dengan membuat tabel (relasi) beris
 #### Pemetaan relationship menjadi relasi<br>
 1. One-to-many relationship and many-to-one relationship
     Untuk setiap relationship one-to-many dan many-to-one, akan ditambahkan atribut primary key dari sisi "one" ke sisi "many".
-    - theatre(<u>theatre_name</u>, address, opening_year, company_name)
+    - theatre(<u>theatre_name</u>, address, opening_year, company_name)<br>
     **Foreign Key**<br>
     theatre(company_name) → organization(company_name)
 
