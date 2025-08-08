@@ -1,0 +1,296 @@
+[
+    {
+        "Theatre_name":"Al Hirschfeld Theatre",
+        "Address":"302 W. 45th St.",
+        "Opening_year":"1924",
+        "Owner":"ATG Entertainment"
+    },
+    {
+        "Theatre_name":"Ambassador Theatre (Broadway)",
+        "Address":"219 W. 49th St.",
+        "Opening_year":"1921",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"August Wilson Theatre",
+        "Address":"245 W. 52nd St.",
+        "Opening_year":"1925",
+        "Owner":"ATG Entertainment"
+    },
+    {
+        "Theatre_name":"Belasco Theatre (Broadway)",
+        "Address":"111 W. 44th St.",
+        "Opening_year":"1907",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Bernard B. Jacobs Theatre",
+        "Address":"242 W. 45th St.",
+        "Opening_year":"1927",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Booth Theatre",
+        "Address":"222 W. 45th St.",
+        "Opening_year":"1913",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Broadhurst Theatre",
+        "Address":"235 W. 44th St.",
+        "Opening_year":"1917",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Broadway Theatre (53rd Street)",
+        "Address":"1681 Broadway",
+        "Opening_year":"1924",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Circle in the Square Theatre",
+        "Address":"235 W. 50th St.",
+        "Opening_year":"1972",
+        "Owner":"Independent"
+    },
+    {
+        "Theatre_name":"Ethel Barrymore Theatre",
+        "Address":"243 W. 47th St.",
+        "Opening_year":"1928",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Eugene O'Neill Theatre",
+        "Address":"230 W. 49th St.",
+        "Opening_year":"1925",
+        "Owner":"ATG Entertainment"
+    },
+    {
+        "Theatre_name":"Gerald Schoenfeld Theatre",
+        "Address":"236 W. 45th St.",
+        "Opening_year":"1917",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Gershwin Theatre",
+        "Address":"222 W. 51st St.",
+        "Opening_year":"1972",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"Hayes Theater",
+        "Address":"240 W. 44th St.",
+        "Opening_year":"1912",
+        "Owner":"Second Stage Theater"
+    },
+    {
+        "Theatre_name":"Hudson Theatre",
+        "Address":"141 W. 44th St.",
+        "Opening_year":"1903",
+        "Owner":"ATG Entertainment"
+    },
+    {
+        "Theatre_name":"Imperial Theatre",
+        "Address":"249 W. 45th St.",
+        "Opening_year":"1923",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"James Earl Jones Theatre",
+        "Address":"138 W. 48th St.",
+        "Opening_year":"1912",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"John Golden Theatre",
+        "Address":"252 W. 45th St.",
+        "Opening_year":"1927",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Lena Horne Theatre",
+        "Address":"256 W. 47th St.",
+        "Opening_year":"1926",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"Longacre Theatre",
+        "Address":"220 W. 48th St.",
+        "Opening_year":"1913",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Lunt-Fontanne Theatre",
+        "Address":"205 W. 46th St.",
+        "Opening_year":"1910",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"Lyceum Theatre (Broadway)",
+        "Address":"149 W. 45th St.",
+        "Opening_year":"1903",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Lyric Theatre (New York City, 1998)",
+        "Address":"214 W. 43rd St.",
+        "Opening_year":"1998",
+        "Owner":"ATG Entertainment"
+    },
+    {
+        "Theatre_name":"Majestic Theatre (Broadway)",
+        "Address":"245 W. 44th St.",
+        "Opening_year":"1927",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Marquis Theatre",
+        "Address":"210 W. 46th St.",
+        "Opening_year":"1986",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"Minskoff Theatre",
+        "Address":"200 W. 45th St.",
+        "Opening_year":"1973",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"Music Box Theatre",
+        "Address":"239 W. 45th St.",
+        "Opening_year":"1921",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Nederlander Theatre",
+        "Address":"208 W. 41st St.",
+        "Opening_year":"1921",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"Neil Simon Theatre",
+        "Address":"250 W. 52nd St.",
+        "Opening_year":"1927",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"New Amsterdam Theatre",
+        "Address":"214 W. 42nd St.",
+        "Opening_year":"1903",
+        "Owner":"Disney Theatrical Group"
+    },
+    {
+        "Theatre_name":"Palace Theatre (New York City)",
+        "Address":"160 W 47th St",
+        "Opening_year":"1913",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"Richard Rodgers Theatre",
+        "Address":"226 W. 46th St.",
+        "Opening_year":"1925",
+        "Owner":"Nederlander Organization"
+    },
+    {
+        "Theatre_name":"Samuel J. Friedman Theatre",
+        "Address":"261 W. 47th St.",
+        "Opening_year":"1925",
+        "Owner":"Manhattan Theatre Club"
+    },
+    {
+        "Theatre_name":"Shubert Theatre (Broadway)",
+        "Address":"225 W. 44th St.",
+        "Opening_year":"1913",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Stephen Sondheim Theatre",
+        "Address":"124 W. 43rd St.",
+        "Opening_year":"1918",
+        "Owner":"Roundabout Theatre Company"
+    },
+    {
+        "Theatre_name":"St. James Theatre",
+        "Address":"246 W. 44th St.",
+        "Opening_year":"1927",
+        "Owner":"ATG Entertainment"
+    },
+    {
+        "Theatre_name":"Studio 54",
+        "Address":"254 W. 54th St.",
+        "Opening_year":"1927",
+        "Owner":"Roundabout Theatre Company"
+    },
+    {
+        "Theatre_name":"Todd Haimes Theatre",
+        "Address":"227 W. 42nd St.",
+        "Opening_year":"1918",
+        "Owner":"Roundabout Theatre Company"
+    },
+    {
+        "Theatre_name":"Vivian Beaumont Theater",
+        "Address":"150 W. 65th St.",
+        "Opening_year":"1965",
+        "Owner":"Lincoln Center Theater"
+    },
+    {
+        "Theatre_name":"Walter Kerr Theatre",
+        "Address":"219 W. 48th St.",
+        "Opening_year":"1921",
+        "Owner":"ATG Entertainment"
+    },
+    {
+        "Theatre_name":"Winter Garden Theatre",
+        "Address":"1634 Broadway",
+        "Opening_year":"1911",
+        "Owner":"Shubert Organization"
+    },
+    {
+        "Theatre_name":"Edison Theatre",
+        "Address":"240 W. 47th St.",
+        "Opening_year":"1931",
+        "Owner":"Hotel Edison"
+    },
+    {
+        "Theatre_name":"Ed Sullivan Theater",
+        "Address":"1697 Broadway",
+        "Opening_year":"1927",
+        "Owner":"CBS"
+    },
+    {
+        "Theatre_name":"Empire Theatre (42nd Street)",
+        "Address":"236 W. 42nd St.",
+        "Opening_year":"1912",
+        "Owner":"AMC Theatres"
+    },
+    {
+        "Theatre_name":"Liberty Theatre",
+        "Address":"234 W. 42nd St.",
+        "Opening_year":"1904",
+        "Owner":"Liberty Theater Catering & Events"
+    },
+    {
+        "Theatre_name":"New Victory Theater",
+        "Address":"209 W. 42nd St.",
+        "Opening_year":"1900",
+        "Owner":"New 42nd Street"
+    },
+    {
+        "Theatre_name":"Sony Hall",
+        "Address":"235 W. 46th St.",
+        "Opening_year":"1938",
+        "Owner":"Blue Note Entertainment Group"
+    },
+    {
+        "Theatre_name":"Mark Hellinger Theatre",
+        "Address":"237 W. 51st St.",
+        "Opening_year":"1930",
+        "Owner":"Times Square Church"
+    },
+    {
+        "Theatre_name":"Times Square Theater",
+        "Address":"217 W. 42nd St.",
+        "Opening_year":"1920",
+        "Owner":"New 42nd Street"
+    }
+]
