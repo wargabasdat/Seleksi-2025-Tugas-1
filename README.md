@@ -253,7 +253,7 @@ Fact_Top_Channels terhubung langsung ke kedua tabel dimention melalui foreign ke
 ### Loading Data
 Pada tahap ini, saya membuat tabel dimention untuk youtuber dan channel beserta pengisian datanya yang diambil dari hasil scrapping
 <div align="center">
-  <img width="1343" height="740" alt="image" src="https://github.com/user-attachments/assets/14e3e53c-441c-4a8f-a5e7-    41d672802d1d" />
+  <img width="1352" height="832" alt="image" src="https://github.com/user-attachments/assets/c9932525-6e0c-4681-bb30-b0ab4c1bb450" />
 </div>
 
 Selanjutnya, saya membuat Fact Table beserta insert data data yang diambil dari table youtubers dan channels
@@ -264,7 +264,7 @@ Selanjutnya, saya membuat Fact Table beserta insert data data yang diambil dari 
 ### Query Analytics
 Analisis: Rata-Rata Subscribers Youtube berdasarkan tipe youtubernya
 <div align="center">
-  <img src="Data Warehouse/screenshot/SS_Query Analytic.png" width="600"/>
+  <img src="Data Warehouse/screenshot/SS_Query Analytic.jpeg" width="600"/>
 </div>
 
 Pada hasil ini, terbukti bahwa berhasil dan data sudah terhubung dengan baik
