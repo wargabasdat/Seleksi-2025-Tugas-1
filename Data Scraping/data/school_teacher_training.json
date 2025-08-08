@@ -1,0 +1,211 @@
+[
+  {
+    "training_id": "school1",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kota Serang",
+    "class_name": "SD Kota Serang 4",
+    "target_audience": "22",
+    "lower_bound_price": "3500000",
+    "upper_bound_price": "4500000",
+    "training_branch": "UPT Dinas Pendidikan Kec. Cipocok"
+  },
+  {
+    "training_id": "school2",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kab. Tangerang",
+    "class_name": "SMA/K Kab Tangerang 24",
+    "target_audience": "25",
+    "lower_bound_price": "3500000",
+    "upper_bound_price": "4500000",
+    "training_branch": "SMKS PGRI 1 BALARAJA"
+  },
+  {
+    "training_id": "school3",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kab. Tangerang",
+    "class_name": "SMA/K Kab Tangerang 25",
+    "target_audience": "25",
+    "lower_bound_price": "3500000",
+    "upper_bound_price": "4500000",
+    "training_branch": "SMKS Penerbangan Dirgantara"
+  },
+  {
+    "training_id": "school4",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kab. Tangerang",
+    "class_name": "SD Kab Tangerang 4",
+    "target_audience": "27",
+    "lower_bound_price": "3000000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SDN BUARANJATI I"
+  },
+  {
+    "training_id": "school5",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kab. Tangerang",
+    "class_name": "SD Kab Tangerang 5",
+    "target_audience": "27",
+    "lower_bound_price": "3000000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SDN PASAR KEMIS 3"
+  },
+  {
+    "training_id": "school6",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kab. Tangerang",
+    "class_name": "SD Kab Tangerang 6",
+    "target_audience": "27",
+    "lower_bound_price": "3000000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SDN SUKAMULYA I"
+  },
+  {
+    "training_id": "school7",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kab. Tangerang",
+    "class_name": "SD Kab Tangerang 7",
+    "target_audience": "26",
+    "lower_bound_price": "3000000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SDN PASAR KEMIS 3"
+  },
+  {
+    "training_id": "school8",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kab. Tangerang",
+    "class_name": "SD Kab Tangerang 8",
+    "target_audience": "26",
+    "lower_bound_price": "3000000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SD PERMATA INSANI ISLAMIC SCHOOL"
+  },
+  {
+    "training_id": "school9",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kab. Tangerang",
+    "class_name": "SD Kab Tangerang 9",
+    "target_audience": "26",
+    "lower_bound_price": "3000000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SDN CIKUPA 02"
+  },
+  {
+    "training_id": "school10",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kota Tangerang",
+    "class_name": "SD Kota Tangerang 4",
+    "target_audience": "31",
+    "lower_bound_price": "2580000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SDN DAAN MOGOT 3"
+  },
+  {
+    "training_id": "school11",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kota Tangerang",
+    "class_name": "SD Kota Tangerang 5",
+    "target_audience": "31",
+    "lower_bound_price": "2580000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SDN KETAPANG"
+  },
+  {
+    "training_id": "school12",
+    "program_id": 7,
+    "province": "Banten",
+    "city": "Kota Tangerang",
+    "class_name": "SD Kota Tangerang 6",
+    "target_audience": "31",
+    "lower_bound_price": "2580000",
+    "upper_bound_price": "4875000",
+    "training_branch": "SDN PENINGGILAN 5"
+  },
+  {
+    "training_id": "school13",
+    "program_id": 7,
+    "province": "Jawa Barat",
+    "city": "Kab. Bandung",
+    "class_name": "SD Kab Bandung 4",
+    "target_audience": "32",
+    "lower_bound_price": "2750000",
+    "upper_bound_price": "4540000",
+    "training_branch": "SDN MARGAHAYU 03"
+  },
+  {
+    "training_id": "school14",
+    "program_id": 7,
+    "province": "Jawa Barat",
+    "city": "Kab. Bandung",
+    "class_name": "SD Kab Bandung 5",
+    "target_audience": "26",
+    "lower_bound_price": "2750000",
+    "upper_bound_price": "4540000",
+    "training_branch": "SDN Soreang 01"
+  },
+  {
+    "training_id": "school15",
+    "program_id": 7,
+    "province": "Jawa Barat",
+    "city": "Kab. Bandung",
+    "class_name": "SD Kab Bandung 6",
+    "target_audience": "31",
+    "lower_bound_price": "2750000",
+    "upper_bound_price": "4540000",
+    "training_branch": "SDN KOTA BARU"
+  },
+  {
+    "training_id": "school16",
+    "program_id": 7,
+    "province": "Jawa Barat",
+    "city": "Kab. Bandung",
+    "class_name": "SD Kab Bandung 7",
+    "target_audience": "32",
+    "lower_bound_price": "2750000",
+    "upper_bound_price": "4540000",
+    "training_branch": "SDN MANGGAHANG 02"
+  },
+  {
+    "training_id": "school17",
+    "program_id": 7,
+    "province": "Jawa Barat",
+    "city": "Kab. Bandung",
+    "class_name": "SD Kab Bandung 8",
+    "target_audience": "25",
+    "lower_bound_price": "2750000",
+    "upper_bound_price": "4540000",
+    "training_branch": "SDN Cipagalo 01"
+  },
+  {
+    "training_id": "school18",
+    "program_id": 7,
+    "province": "Jawa Barat",
+    "city": "Kab. Bandung",
+    "class_name": "SD Kab Bandung 9",
+    "target_audience": "32",
+    "lower_bound_price": "2750000",
+    "upper_bound_price": "4540000",
+    "training_branch": "SDN Cicalengka 07"
+  },
+  {
+    "training_id": "school19",
+    "program_id": 7,
+    "province": "Jawa Barat",
+    "city": "Kab. Bekasi",
+    "class_name": "SD Kab Bekasi 1",
+    "target_audience": "31",
+    "lower_bound_price": "2450000",
+    "upper_bound_price": "4540000",
+    "training_branch": "SDN BAHAGIA 5"
+  }
+]

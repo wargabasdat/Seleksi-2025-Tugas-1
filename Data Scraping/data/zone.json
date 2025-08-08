@@ -1,0 +1,26 @@
+[
+  {
+    "zone_id": 1,
+    "details": "Jawa Barat, Jawa Tengah, Jawa Timur, Daerah Istimewa Yogyakarta, DKI Jakarta, dan Banten."
+  },
+  {
+    "zone_id": 2,
+    "details": "Bali, Nusa Tenggara Barat, Lampung (kecuali (i) Pesisir Barat), dan Sumatera Selatan."
+  },
+  {
+    "zone_id": 3,
+    "details": "Bengkulu, Jambi, Bangka Belitung, Sumatera Barat (kecuali (i) Kepulauan Mentawai dan (ii) Solok Selatan), Riau (kecuali (i) Bengkalis, (ii) Kepulauan Meranti, (iii) , Sumatera Utara (kecuali (i) Nias, (ii) Nias Selatan, (iii) Nias Utara, (iv) Nias Barat), Sulawesi Selatan, Sulawesi Utara (kecuali (i) Kepulauan Sangihe, dan (ii) Kepulauan Talaud), Sulawesi Tengah (kecuali (i) Banggai Kepulauan, (ii) Tojo Una-Una, (iii) Sigi, dan (iv) Banggai Laut), Sulawesi Barat, Sulawesi Tenggara (kecuali (i) Konawe, (ii) Bombana, dan (iii) Konawe Kepulauan), dan Gorontalo."
+  },
+  {
+    "zone_id": 4,
+    "details": "Bengkulu, Jambi, Bangka Belitung, Sumatera Barat (kecuali (i) Kepulauan Mentawai dan (ii) Solok Selatan), Riau (kecuali (i) Bengkalis, (ii) Kepulauan Meranti, (iii) , Sumatera Utara (kecuali (i) Nias, (ii) Nias Selatan, (iii) Nias Utara, (iv) Nias Barat), Sulawesi Selatan, Sulawesi Utara (kecuali (i) Kepulauan Sangihe, dan (ii) Kepulauan Talaud), Sulawesi Tengah (kecuali (i) Banggai Kepulauan, (ii) Tojo Una-Una, (iii) Sigi, dan (iv) Banggai Laut), Sulawesi Barat, Sulawesi Tenggara (kecuali (i) Konawe, (ii) Bombana, dan (iii) Konawe Kepulauan), dan Gorontalo."
+  },
+  {
+    "zone_id": 5,
+    "details": "(1) Aceh Besar, (2) Aceh Singkil, (3) Nias, (4) Nias Selatan, (5) Nias Utara, (6) Nias Barat, (7) Kep. Mentawai, (8) Solok Selatan, (9) Pesisir Barat, (10) Sumba Barat, (11) Sumba Timur, (12) Timor Tengah Selatan, (13) Belu, (14) Alor, (15) Lembata, (16) Ende, (17) Manggarai, (18) Rote Ndao, (19) Manggarai Barat, (20) Sumba Tengah, (21) Sumba Barat Daya, (22) Nagakeo, (23) Manggarai Timur, (24) Sabu Raijua, (25) Malaka, (26) Banggai Kepulauan, (27) Tojo Una-Una, (28) Sigi, (29) Banggai Laut, (30) Konawe, (31) Bombana, (32) Konawe Kepulauan, (33) Bengkalis, (34) Kepulauan Meranti, (35) Karimun, (36) Kepulauan Anambas, (37) Natuna, (38) Kapuas Hulu, (39) Mahakam Hulu, (40) Sanggau, (41) Nunukan, (42) Malinau, (43) Berau, (44) Kepulauan Sangihe, dan (45) Kepulauan Talaud."
+  },
+  {
+    "zone_id": 6,
+    "details": "Maluku, Maluku Utara, Papua, Papua Barat, Papua Barat Daya, Papua Selatan, Papua Tengah, dan Papua Pegunungan."
+  }
+]

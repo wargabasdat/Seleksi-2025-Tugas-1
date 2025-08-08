@@ -1,0 +1,67 @@
+[
+  {
+    "topic": "Roblox Game Creation with Code Kingdoms",
+    "topic_description": "Jika kiddos suka bermain Roblox, di kelas ini kiddos TIDAK hanya bermain, tapi belajar MEMBUAT berbagai game Roblox dengan coding. Kiddos akan menggunakan Roblox Studio dan CodeKingdom untuk membuat game dan belajar konsep Object-Oriented Visual Programming. Dengan opsi dan tutorial yang menarik untuk berbagai jenis project, kiddos dapat belajar bahasa pemograman Lua dengan model drag & drop (cocok untuk pemula) atau dengan model text based programming (untuk intermediate).",
+    "program_id": 2
+  },
+  {
+    "topic": "Minecraft Coding Adventure in Minecraft Edu",
+    "topic_description": "Di kelas ini kiddos akan menggunakan platform Minecraft Education, yang khusus didesain khusus untuk mendukung proses belajar berbagai topik. Kiddos akan belajar konsep dasar coding dengan block programming di dunia Minecraft dan menerapkan ke beberapa topik menarik seperti: Artificial Intelligence untuk mencegah kebakaran hutan, Planets dan Solar System, dan Cybersafe. Di akhir sesi, kiddos akan membuat project dunia Minecraft untuk mencegah kepunahan orangutan.",
+    "program_id": 2
+  },
+  {
+    "topic": "AI & Machine Learning Intro for kids",
+    "topic_description": "Di kelas ini kiddos mendapat perkenalan tentang konsep Artificial Intelligence dan Machine Learning yang sesuai untuk level SD. Kiddos menggunakan visual programming platform PictoBlox (drag-and-drop code blocks) yang mirip dengan Scratch namun dengan tambahan ekstensi program yang menggunakan teknologi AI seperti computer vision, natural language processing (NPL), dan machine learning. Kiddos memahami konsep 5 Big Ideas of AI dan menerapkannya melalui berbagai project menarik seperti: face recognition, speech recognition, image recognition.",
+    "program_id": 2
+  },
+  {
+    "topic": "After Scratch : Make Mobile Apps with MIT App Inventor",
+    "topic_description": "Kelas cocok untuk kiddos yang telah belajar dan menguasai Scratch. Di kelas ini kiddos belajar membuat mobile apps di Android device, dengan menggunakan MIT App Inventor platform, dengan visual block programming. Kiddos belajar membuat apps dari awal sampai akhir dengan menggunakan berbagai sensor yang tersedia di handphone, misal: gerakan, tulisan, gambar, suara. Hasil aplikasi bisa diinstall di Android phone masing-masing.",
+    "program_id": 2
+  },
+  {
+    "topic": "Make AI Powered Apps with MIT App Inventor",
+    "topic_description": "Kelas ini menggabungkan dua topik yang seru: mobile apps dan AI. Kiddos akan mendapatkan perkenalan untuk Machine Learning yang merupakan salah satu teknologi dari Artificial Intelligence AI, memberikan data untuk melatih sistem Machine Learning menjadi cerdas untuk menjalankan tugas yang diinginkan. Setelah itu kiddos melakukan programming di platform MIT App Inventor untuk membuat aplikasi di handphone Android yang menggunakan teknologi AI tersebut. Hasil aplikasi bisa diinstall di Android phone masing-masing.",
+    "program_id": 2
+  },
+  {
+    "topic": "After Scratch : Text Programming with Python",
+    "topic_description": "Di kelas ini kiddos belajar bahasa pemrograman Python yang banyak digunakan untuk membuat berbagai project software. Dengan syntax yang lebih sederhana, Python mudah dipelajari saat kiddos mulai menggunakan text-based coding.Kiddos belajar konsep dasar coding seperti input, output, loops, conditional, function, object, list, dan menerapkan konsep tersebut untuk memecahkan berbagai permasalahan. Kiddos membuat program yang menerapkan konsep tersebut, seperti game, chat bot, encryption, dan algorithm solver.",
+    "program_id": 2
+  },
+  {
+    "topic": "STEM and Hardware Programming with Microbit",
+    "topic_description": "Di kelas ini, kiddos akan belajar tentang integrasi antara software dan hardware. Programming software menggunakan MakeBlock atau Python dan hardware menggunakan komputer mini Microbit dan berbagai tambahan sensor dan komponen. Dengan praktek langsung, kiddos akan memahami pemrograman dan prinsip-prinsip elektronika yang menyertainya. Di setiap sesi, kiddos membuat berbagai project otomatisasi yang biasa dijumpai dalam peralatan elektronika sehari-hari, seperti lampu otomatis, pemindah barang, pendeteksi suhu, dan proyek menarik lainnya. Note: perlangkapan Microbit dan komponen akan disediakan oleh KodeKiddo tanpa biaya tambahan bagi murid.",
+    "program_id": 2
+  },
+  {
+    "topic": "Game Development with Scratch",
+    "topic_description": "Di kelas ini kiddos belajar lebih dalam tentang Scratch dan mempelajari bagaimana cara membuat berbagai jenis games dalam Scratch. Kiddos konsep – konsepl pemrograman yang lebih sulit serta teknik – teknik dalam Scratch untuk membuat jenis games yang memiliki lebih banyak fitur dan lebih sulit dibuat.",
+    "program_id": 2
+  },
+  {
+    "topic": "Web Development with HTML, CSS, and Javascript",
+    "topic_description": "Di kelas ini kiddos belajar proses – proses serta cara untuk mengembangkan sebuah website dari 0. Kiddos mempelajari sebuah bahasa pemrograman baru, yaitu HTML, yang digunakan untuk membuat struktur dari sebuah website, CSS digunakan untuk mengubah tampilan dari sebuah website, dan Javascript untuk membuat sebuah website menjadi interaktif.",
+    "program_id": 2
+  },
+  {
+    "topic": "Introduction to Database with SQL",
+    "topic_description": "SQL and Database Intro adalah kelas yang cocok untuk kiddos yang ingin mengenal data dan cara mengolahnya menggunakan perintah yang disebut query. Di kelas ini Kiddo akan belajar mengenai query-query SQL untuk mengolah data seperti select, filtering, grouping, sorting, hingga join antar data.",
+    "program_id": 2
+  },
+  {
+    "topic": "Cybersecurity Fundamentals",
+    "topic_description": "Pada kelas Cybersecurity, kiddo akan diberikan pemahaman tentang konsep-konsep dasar keamanan informasi dan teknologi. Siswa diharapkan dapat mengidentifikasi potensi risiko keamanan, mengimplementasikan praktik-praktik keamanan yang efektif, dan memahami metode-metode untuk melindungi data dan sistem dari ancaman siber. Siswa juga diberikan tentang potensi kejahatan-kejahatan didunia maya, dikenalkan tentang encryption, decryption, dan mempraktikkan bagaimana cara membuat password yang aman.",
+    "program_id": 2
+  },
+  {
+    "topic": "Digital Citizens & Cybersecurity Exploration",
+    "topic_description": "Kiddo akan belajar tentang berbagai materi tentang keamanan berinternet, perlindungan password, bahaya phising, privasi data pada sosial media dan masih banyak lagi. Diakhir kelas, kiddo akan mengerjakan project cybersecurity menggunakan scratch programming.",
+    "program_id": 2
+  },
+  {
+    "topic": "Introduction to Competitive Programming (C++)",
+    "topic_description": "Di kelas ini KodeKiddo berkolaborasi dengan TOKI untuk memperkenalkan Competitive Programming untuk kiddos SMP – SMA. Kelas ini sangat cocok untuk kiddos yang telah memiliki dasar coding dan matematika yang kuat. Kiddos diberikan pemahaman algoritma dengan beberapa soal Computational Thinking dan matematika dari kontes Bebras dan Competitive Programming seperti Olimpiade Sains – Infomatika. Selanjutnya kiddos akan mempelajari bahasa pemrograman C++ untuk membuat program yang dapat memecahkan soal matematika tersebut.",
+    "program_id": 2
+  }
+]

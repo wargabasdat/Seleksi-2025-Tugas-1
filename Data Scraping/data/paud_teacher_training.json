@@ -1,0 +1,135 @@
+[
+  {
+    "training_id": "paud1",
+    "program_id": 6,
+    "province": "Jakarta",
+    "city": "Kota Jakarta Utara",
+    "number_of_facilitators": "12"
+  },
+  {
+    "training_id": "paud2",
+    "program_id": 6,
+    "province": "Jakarta",
+    "city": "Kota Jakarta Pusat",
+    "number_of_facilitators": "9"
+  },
+  {
+    "training_id": "paud3",
+    "program_id": 6,
+    "province": "Jakarta",
+    "city": "Kota Jakarta Timur",
+    "number_of_facilitators": "8"
+  },
+  {
+    "training_id": "paud4",
+    "program_id": 6,
+    "province": "Jakarta",
+    "city": "Kota Jakarta Barat",
+    "number_of_facilitators": "12"
+  },
+  {
+    "training_id": "paud5",
+    "program_id": 6,
+    "province": "Jakarta",
+    "city": "Kota Jakarta Selatan",
+    "number_of_facilitators": "8"
+  },
+  {
+    "training_id": "paud6",
+    "program_id": 6,
+    "province": "Jawa Barat",
+    "city": "Kota Depok",
+    "number_of_facilitators": "2"
+  },
+  {
+    "training_id": "paud7",
+    "program_id": 6,
+    "province": "Jawa Barat",
+    "city": "Kota Bogor",
+    "number_of_facilitators": "4"
+  },
+  {
+    "training_id": "paud8",
+    "program_id": 6,
+    "province": "Jawa Barat",
+    "city": "Kab Bogor",
+    "number_of_facilitators": "2"
+  },
+  {
+    "training_id": "paud9",
+    "program_id": 6,
+    "province": "Jawa Barat",
+    "city": "Kota Bekasi",
+    "number_of_facilitators": "4"
+  },
+  {
+    "training_id": "paud10",
+    "program_id": 6,
+    "province": "Jawa Barat",
+    "city": "Kab Bekasi",
+    "number_of_facilitators": "4"
+  },
+  {
+    "training_id": "paud11",
+    "program_id": 6,
+    "province": "Banten",
+    "city": "Kota Tangerang",
+    "number_of_facilitators": "6"
+  },
+  {
+    "training_id": "paud12",
+    "program_id": 6,
+    "province": "Banten",
+    "city": "Kota Tangerang Selatan",
+    "number_of_facilitators": "10"
+  },
+  {
+    "training_id": "paud13",
+    "program_id": 6,
+    "province": "Banten",
+    "city": "Kabupaten Tangerang",
+    "number_of_facilitators": "10"
+  },
+  {
+    "training_id": "paud14",
+    "program_id": 6,
+    "province": "Jawa Tengah",
+    "city": "Kota Tegal",
+    "number_of_facilitators": "4"
+  },
+  {
+    "training_id": "paud15",
+    "program_id": 6,
+    "province": "Jawa Tengah",
+    "city": "Kabupaten Brebes",
+    "number_of_facilitators": "2"
+  },
+  {
+    "training_id": "paud16",
+    "program_id": 6,
+    "province": "Jawa Timur",
+    "city": "Kota Surabaya",
+    "number_of_facilitators": "6"
+  },
+  {
+    "training_id": "paud17",
+    "program_id": 6,
+    "province": "Jawa Timur",
+    "city": "Kabupaten Sidoarjo",
+    "number_of_facilitators": "4"
+  },
+  {
+    "training_id": "paud18",
+    "program_id": 6,
+    "province": "Jawa Timur",
+    "city": "Kabupaten Gresik",
+    "number_of_facilitators": "2"
+  },
+  {
+    "training_id": "paud19",
+    "program_id": 6,
+    "province": "Jawa Timur",
+    "city": "Kota Malang",
+    "number_of_facilitators": "2"
+  }
+]

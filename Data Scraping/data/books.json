@@ -1,0 +1,67 @@
+[
+  {
+    "book_id": 1,
+    "program_id": 8,
+    "title": "Cendekia Digital",
+    "subtitle": "Belajar Koding, Kecerdasan Artifisial & Teknologi dengan MenyenangkanKelas 5",
+    "isbn": "978-634-04-0983-3",
+    "writer": "Pankaj Kumar Verma, Drupal R. Shah, Khushbu Chauhan, Devi M.",
+    "translator": "Meilani Hendrawidjaja",
+    "total_pages": "121",
+    "length": "27",
+    "width": "21.6",
+    "spine": "27"
+  },
+  {
+    "book_id": 2,
+    "program_id": 8,
+    "title": "BERPIKIR KOMPUTASI",
+    "subtitle": "Melatih Berpikir Komputasi Dengan KodingKelas 5",
+    "isbn": "978-634-04-0982-6",
+    "writer": "Meilani Hendrawidjaja, Guruh Nusantara, Tevin Odysseus, Wych Dewangga",
+    "translator": "",
+    "total_pages": "138",
+    "length": "27",
+    "width": "21.6",
+    "spine": "27"
+  },
+  {
+    "book_id": 3,
+    "program_id": 8,
+    "title": "Cendekia Digital",
+    "subtitle": "Koding dan Kecerdasan Artifisial dengan Aplikasi PictoBloxJenjang SMP/MTs",
+    "isbn": "978-634-04-0981-9",
+    "writer": "Pankaj Kumar Verma, Drupal R. Shah, Khushbu Chauhan, Devi M.",
+    "translator": "Tim KodeKiddo",
+    "total_pages": "128",
+    "length": "27",
+    "width": "21.6",
+    "spine": "27"
+  },
+  {
+    "book_id": 4,
+    "program_id": 8,
+    "title": "Kecerdasan Artifisial",
+    "subtitle": "Eksplorasi Kecerdasan Artifisial dan Pemelajaran Mesin dengan Aplikasi PictoBloxJenjang SMA/MA/SMK",
+    "isbn": "978-634-04-0980-2",
+    "writer": "Pankaj Kumar Verma, Akshat Srivastava",
+    "translator": "Tim KodeKiddo",
+    "total_pages": "111",
+    "length": "27",
+    "width": "21.6",
+    "spine": "27"
+  },
+  {
+    "book_id": 5,
+    "program_id": 8,
+    "title": "Unplugged Koding",
+    "subtitle": "Aktivitas Unplugged Koding dan Kecerdasan Artifisial – Jenjang SMP/MTs",
+    "isbn": "978-634-04-0872-0",
+    "writer": "Meilani Hendrawidjaja, Guruh Nusantara, Tevin Odysseus, Wych Dewangga",
+    "translator": "",
+    "total_pages": "70",
+    "length": "27",
+    "width": "21.6",
+    "spine": "27"
+  }
+]

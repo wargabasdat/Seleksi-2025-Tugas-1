@@ -1,0 +1,173 @@
+ECHO is off.
+KODEKIDDO PIPELINE STARTED 
+Start Time: 08/08/2025 15:50:03,22 
+Working Directory: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085 
+Python Version: 
+Python 3.12.10
+ECHO is off.
+Current dir: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\src 
+Chrome processes killed
+Using ChromeDriverManager
+Chrome driver created successfully for Task Scheduler
+Berhasil scrape program
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\program.json
+Berhasil extract coding class info
+Berhasil extract coding class info
+Berhasil extract coding class info
+Berhasil extract coding class info
+Berhasil extract coding class info
+Berhasil scrape coding class info
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\coding_class_info.json
+Berhasil scrape thematic class
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\thematic_class.json
+Berhasil scrape kiddo stem
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\kiddo_stem_program.json
+Berhasil scrape kinder coding package
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\kinder_coding_package.json
+Pankaj Kumar Verma, Drupal R. Shah, Khushbu Chauhan, Devi M.
+Meilani Hendrawidjaja
+121
+P: 27, L: 21.6
+27
+Berhasil extract book details
+Meilani Hendrawidjaja, Guruh Nusantara, Tevin Odysseus, Wych Dewangga
+138
+P: 27, L: 21.6
+27
+Berhasil extract book details
+Pankaj Kumar Verma, Drupal R. Shah, Khushbu Chauhan, Devi M.
+Tim KodeKiddo
+128
+P: 27, L: 21.6
+27
+Berhasil extract book details
+Pankaj Kumar Verma, Akshat Srivastava
+Tim KodeKiddo
+111
+P: 27, L: 21.6
+27
+Berhasil extract book details
+Meilani Hendrawidjaja, Guruh Nusantara, Tevin Odysseus, Wych Dewangga
+70
+P: 27, L: 21.6
+27
+Berhasil extract book details
+Berhasil scrape book
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\books.json
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\book_writer.json
+Berhasil scrape book price
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\books_price.json
+Berhasil scrape zone
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\zone.json
+Selesai KIDDO PRESS
+https://kodekiddo.com/center-gading-serpong/
+https://kodekiddo.com/center-bsd/
+https://kodekiddo.com/center-karawaci/
+https://kodekiddo.com/center-bintaro-tangerang-selatan/
+https://kodekiddo.com/center-permata-buana-jakart-barat/
+https://kodekiddo.com/center-duri-kepa/
+https://kodekiddo.com/center-pik-jakarta-utara/
+https://kodekiddo.com/center-kelapa-gading/
+https://kodekiddo.com/center-pondok-indah-jakarta-selatan/
+https://kodekiddo.com/center-popup-center-kebayoran-baru/
+https://kodekiddo.com/center-cibubur/
+https://kodekiddo.com/center-cipinang-indah/
+https://kodekiddo.com/center-grand-galaxy-bekasi/
+https://kodekiddo.com/center-bandung/
+https://kodekiddo.com/center-cirebon/
+https://kodekiddo.com/center-tegal/
+https://kodekiddo.com/center-semarang/
+https://kodekiddo.com/center-pati/
+https://kodekiddo.com/center-kudus/
+https://kodekiddo.com/center-solo/
+https://kodekiddo.com/center-yogyakarta/
+https://kodekiddo.com/center-surabaya/
+https://kodekiddo.com/center-surabaya-timur/
+https://kodekiddo.com/center-malang/
+https://kodekiddo.com/center-madiun/
+https://kodekiddo.com/center-denpasar/
+https://kodekiddo.com/center-jimbaran/
+https://kodekiddo.com/center-medan/
+https://kodekiddo.com/center-pekanbaru/
+https://kodekiddo.com/center-pontianak/
+https://kodekiddo.com/center-banjarmasin/
+https://kodekiddo.com/center-manado/
+Berhasil dapat semua link branch
+Scraping branch: https://kodekiddo.com/center-gading-serpong/
+Scraping branch: https://kodekiddo.com/center-bsd/
+Scraping branch: https://kodekiddo.com/center-karawaci/
+Scraping branch: https://kodekiddo.com/center-bintaro-tangerang-selatan/
+Scraping branch: https://kodekiddo.com/center-permata-buana-jakart-barat/
+Scraping branch: https://kodekiddo.com/center-duri-kepa/
+Scraping branch: https://kodekiddo.com/center-pik-jakarta-utara/
+Scraping branch: https://kodekiddo.com/center-kelapa-gading/
+Scraping branch: https://kodekiddo.com/center-pondok-indah-jakarta-selatan/
+Scraping branch: https://kodekiddo.com/center-popup-center-kebayoran-baru/
+Error scrape branch https://kodekiddo.com/center-popup-center-kebayoran-baru/: 'NoneType' object has no attribute 'text'
+Scraping branch: https://kodekiddo.com/center-cibubur/
+Scraping branch: https://kodekiddo.com/center-cipinang-indah/
+Scraping branch: https://kodekiddo.com/center-grand-galaxy-bekasi/
+Scraping branch: https://kodekiddo.com/center-bandung/
+Scraping branch: https://kodekiddo.com/center-cirebon/
+Scraping branch: https://kodekiddo.com/center-tegal/
+Scraping branch: https://kodekiddo.com/center-semarang/
+Scraping branch: https://kodekiddo.com/center-pati/
+Scraping branch: https://kodekiddo.com/center-kudus/
+Scraping branch: https://kodekiddo.com/center-solo/
+Scraping branch: https://kodekiddo.com/center-yogyakarta/
+Scraping branch: https://kodekiddo.com/center-surabaya/
+Scraping branch: https://kodekiddo.com/center-surabaya-timur/
+Scraping branch: https://kodekiddo.com/center-malang/
+Scraping branch: https://kodekiddo.com/center-madiun/
+Scraping branch: https://kodekiddo.com/center-denpasar/
+Scraping branch: https://kodekiddo.com/center-jimbaran/
+Scraping branch: https://kodekiddo.com/center-medan/
+Scraping branch: https://kodekiddo.com/center-pekanbaru/
+Scraping branch: https://kodekiddo.com/center-pontianak/
+Scraping branch: https://kodekiddo.com/center-banjarmasin/
+Scraping branch: https://kodekiddo.com/center-manado/
+Berhasil scrape branch
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\branch.json
+Selesai BRANCH
+Berhasil scrape paud teacher training
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\paud_teacher_training.json
+Berhasil scrape school teacher training
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\school_teacher_training.json
+Berhasil scrape webinar
+JSON saved: C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data\webinar.json
+TUTUP WEB DRIVER
+[15:54:39,98] SCRAPING: SUCCESS 
+Berhasil create all table
+Berhasil menambahkan data program
+Berhasil menambahkan data non_class_program
+Berhasil menambahkan data class_program
+Berhasil menambahkan data books
+Berhasil menambahkan data books_price
+Berhasil menambahkan data zone
+Berhasil menambahkan data book_zone
+Berhasil menambahkan data book_writer
+Berhasil menambahkan data paud_teacher_training
+Berhasil menambahkan data school_teacher_training
+Berhasil menambahkan data branch
+Berhasil menambahkan data program_available_at
+Berhasil menambahkan data kiddo_stem_program
+Berhasil menambahkan data kinder_cosing_package
+Berhasil menambahkan data thematic_class
+Berhasil menambahkan data coding_class_info
+Berhasil menambahkan data webinar
+Berhasil membuat database kodekiddo pada SQL
+[15:54:40,20] STORING: SUCCESS 
+Berhasil menambahkan data pada dim_class
+Berhasil menambahkan data pada dim_zone
+Berhasil menambahkan data pada dim_books
+Berhasil menambahkan data pada dim_price
+Berhasil menambahkan data pada dim_book_zone
+Berhasil insert data ke fact table (main mapping)
+Berhasil insert book 2 mapping ke 'Coding for SD (Beginner)'
+Berhasil insert book 2 mapping ke 'Introduction to Coding'
+Berhasil melakukan data warehousing ke database warehouse_kodekiddo
+[15:54:40,36] WAREHOUSING: SUCCESS 
+ECHO is off.
+PIPELINE COMPLETED 
+End Time: 08/08/2025 15:54:40,37 
+ECHO is off.
