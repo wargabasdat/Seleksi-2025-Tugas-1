@@ -53,5 +53,11 @@ python src/store_data.py
 #### Translasi Struktur ERD ke Diagram Relasional RDBMS
 ![Relational Diagram Database](Data%20Storing/design/Relational_Diagram.png)
 
+#### Hasil Program
+![ability](Data%20Storing/screenshot/ability.png)
+![ability](Data%20Storing/screenshot/fruit.png)
+![ability](Data%20Storing/screenshot/gun.png)
+![ability](Data%20Storing/screenshot/stock_item.png)
+
 ### Author
 - Ahmad Syafiq - 13523135
