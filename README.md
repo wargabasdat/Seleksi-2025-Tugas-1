@@ -125,7 +125,10 @@ GROUP BY
     dg.genre_name
 ORDER BY
     total_games DESC;
+```
+![q1](<Data Warehouse/src/q1.png>)
 
+```sql
 -- Query 2: Menampilkan 10 genre dengan game terbanyak
 SELECT
     dg.genre_name,
@@ -139,7 +142,10 @@ GROUP BY
 ORDER BY
     total_games DESC
 LIMIT 10;
+```
+![q2](<Data Warehouse/src/q2.png>)
 
+```sql
 -- Query 3: Mencari rata-rata peringkat (rank) untuk game bergenre 'RPG'
 SELECT
     AVG(fgr.rank) AS average_rank_for_rpg
@@ -150,6 +156,10 @@ JOIN
 WHERE
     dg.genre_name = 'RPG';
 
+```
+![q3](<Data Warehouse/src/q3.png>)
+
+```sql
 -- Query 4: Menampilkan semua game yang memiliki genre 'Action'
 SELECT
     dga.title,
@@ -165,6 +175,7 @@ WHERE
 ORDER BY
     fgr.rank ASC;
 ```
+![q4](<Data Warehouse/src/q4.png>)
 
 ## Referensi
 
