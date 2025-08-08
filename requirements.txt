@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+selenium
+mysql-connector-python
