@@ -101,7 +101,7 @@ Topik resep kue dipilih karena:
 | Kolom         | Tipe Data | Keterangan |
 | ------------- | --------- | ---------- |
 | recipe_id     | integer   | ID resep unik |
-| recipe_name   | string    | Nama resep |
+| title         | string    | Nama resep |
 | description   | string    | Deskripsi resep |
 | author        | string    | Penulis resep |
 | url           | string    | Link sumber |
@@ -115,7 +115,7 @@ Topik resep kue dipilih karena:
 | scraped_at    | string    | Timestamp scraping |
 | ingredients_count | integer | Jumlah bahan |
 | instructions_count| integer | Jumlah langkah |
-| category_name | string    | Nama kategori |
+| category | string    | Nama kategori |
 
 ---
 
