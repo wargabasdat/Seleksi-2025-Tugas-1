@@ -1,4 +1,4 @@
-<h1 align="center">
+ <h1 align="center">
   <br>
   Seleksi Warga Basdat 2025 <br>
   ETL Project <br>
@@ -215,11 +215,46 @@ File JSON yang menyimpan data jadwal yang di-scrape
 ### Penjelasan Konversi
 #### 1. Pemetaan entity menjadi relasi
 ##### a. Strong Entity
+Strong Entity adalah entitas yang dapat berdiri sendiri dan memiliki Primary Key sendiri. Pada Strong Entity, atribut yang dimilikinya akan diturunkan menjadi kolom pada tabel di relational diagram. Untuk menjaga konsistensi data, derived attribute yang ada pada ER diagram akan dihapus pada relational diagram.
+
+Classes = (class_id, name, duration, difficulty_level, location, about_class_description)
+![Classes Entity](Data%20Storing/design/strongentity%20(1).png)
+Categories = (category_id, category_name)
+![Categories Entity](Data%20Storing/design/strongentity%20(2).png) 
+Equipment = (equipment_id, equipment_name)
+![Equipment Entity](Data%20Storing/design/strongentity%20(3).png)
+Schedules = (schedule_id, date, start_time, duration, location)
+![Schedule Entity](Data%20Storing/design/strongentity%20(4).png)
+Instructors = (instructor_id, name, role)
+![Instructors Entity](Data%20Storing/design/strongentity%20(5).png)
+
 ##### b. Weak Entity
+Weak Entity adalah entitas yang keberadaannya bergantung pada strong entity lain dan tidak memiliki Primary Key yang berdiri sendiri.
+Pada Weak Entity, identitas uniknya dibentuk dari Primary Key milik strong entity yang menjadi induknya ditambah dengan atribut pembeda (discriminator).
+
+Pada kasus ini, Reviews dan Related_Classes merupakan Weak Entity yang bergantung pada Classes, dengan atribut diskriminator review_order pada Reviews dan related_order pada Related_Classes. Primary Key untuk kedua Weak Entity tersebut berbentuk komposit, yaitu gabungan antara class_id dan atribut diskriminatornya.
+
+Reviews = (review_order, instructor_reviewed, review_text, stars_rating, class_id)
+![Reviews Entity](Data%20Storing/design/weakentity%20(1).png)
+Related_Classess = (related_order, title, stars_rating, duration, difficulty_level, description, main_class_id)
+![Relates_Classes Entity](Data%20Storing/design/weakentity%20(2).png)
 
 #### 2. Pemetaan relationship menjadi relasi
 ##### a. One-to-Many
+Dalam translasi relationship dengan cardinality one-to-many, tidak perlu dibuat tabel relasi baru. Cukup dengan menambahkan Primary Key dari entitas pada sisi one sebagai Foreign Key di entitas pada sisi many untuk menghindari redundansi data dan nilai null. Pada kasus ini, relasi Classes (one) dengan Schedules (many) diterjemahkan dengan menambahkan class_id sebagai Foreign Key di tabel Schedules, relasi Category (one) dengan Classes (many) diterjemahkan dengan menambahkan category_id sebagai Foreign Key di tabel Classes, dan relasi Instructor (one) dengan Schedules (many) diterjemahkan dengan menambahkan instructor_id sebagai Foreign Key di tabel Schedules.
+
+Schedules = (schedule_id, date, start_time, duration, location, class_id)
+![One-to-Many: 1](Data%20Storing/design/one-to-many%20(1).png)
+Classes = (class_id, name, duration, difficulty_level, location, about_class_description, category_id)
+![One-to-Many: 2](Data%20Storing/design/one-to-many%20(2).png)
+Schedules = (schedule_id, date, start_time, duration, location, class_id, instructor_id)
+![One-to-Many: 3](Data%20Storing/design/one-to-many%20(3).png)
+
 ##### a. Many-to-Many
+Dalam translasi relationship dengan kardinalitas many-to-many, perlu dibuat tabel relasi baru (junction table) yang berisi Primary Key dari kedua entitas sebagai Primary Key komposit. Pendekatan ini digunakan untuk menghubungkan data tanpa menimbulkan redundansi. Pada kasus ini, relasi Classes (many) dengan Equipment (many) ditranslasikan dengan membuat tabel class_equipment yang memiliki atribut class_id dan equipment_id sebagai Primary Key komposit, di mana masing-masing juga berperan sebagai Foreign Key yang merujuk ke tabel Classes dan Equipment.
+
+Class_Equipment = (class_id, equipment_id)
+![Many-to-Many: Classes to Equipment](Data%20Storing/design/many-to-many.png)
 
 ## Screenshots
 
