@@ -106,7 +106,7 @@ Topik ini dipilih karena author memiliki pengetahuan yang cukup dalam mengenai i
     }
 
 ## Struktur ERD dan Diagram Relasional RDMS
-/Data Storing/design/ERD.png
+[/Data Storing/design/ERD.png](https://github.com/evanderruizhix/TUGAS_SELEKSI_1_18223064/blob/main/Data%20Storing/design/ERD.png)
 
 
 ## Referensi
