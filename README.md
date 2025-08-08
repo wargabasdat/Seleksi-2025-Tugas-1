@@ -120,6 +120,21 @@ File JSON hasil scraping memiliki struktur sebagai berikut:
 #### Warehouse
 <img width="875" height="526" alt="RELATIONAL CPU WAREHOUSE" src="https://github.com/user-attachments/assets/9185a54c-1e37-416a-91b8-422b669aadc4" />
 
+## 📸 g. Screenshot Program
+## Data Storing
+![Query 1 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Storing/screenshot/Query%201.png)
+![Query 2 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Storing/screenshot/Query%202.png)
+![Query 3 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Storing/screenshot/Query%203.png)
+![Query 4 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Storing/screenshot/Query%204.png)
+![Query 5 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Storing/screenshot/Query%205.png)
+
+## Data Warehouse
+![Query 1 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Warehouse/screenshot/Query%201.png)
+![Query 2 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Warehouse/screenshot/Query%202.png)
+![Query 3 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Warehouse/screenshot/Query%203.png)
+![Query 4 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Warehouse/screenshot/Query%204.png)
+![Query 5 Screenshot](https://github.com/farrelathalla/Seleksi-2025-Tugas-1/blob/main/Data%20Warehouse/screenshot/Query%205.png)
+
 ## 🔄 f. Proses Translasi ERD menjadi Diagram Relasional
 Proses translasi dari ERD ke diagram relasional mengikuti langkah-langkah berikut:
 - Setiap entity di ERD (misalnya, PROCESSOR, MANUFACTURER) diubah menjadi sebuah tabel di dalam database.
