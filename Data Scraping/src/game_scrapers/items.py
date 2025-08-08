@@ -28,11 +28,6 @@ class AbilityItem(scrapy.Item):
     fragment_cost = scrapy.Field()
     keybind = scrapy.Field()
     ability_name = scrapy.Field()
-    cooldown = scrapy.Field()
-    energy = scrapy.Field()
-    breaks_instinct = scrapy.Field()
-    instinct_notes = scrapy.Field()
-    instinct_trickable = scrapy.Field()
     mastery_cost = scrapy.Field()
 
 class FruitDetailsItem(scrapy.Item):
@@ -103,3 +98,12 @@ class GunDetailsItem(BaseEquipmentItem):
     gun_name = scrapy.Field()
 
 
+# ===================================================================
+# 4. LAINNYA
+# ===================================================================
+class UpdateLogItem(scrapy.Item):
+    """Mendefinisikan data untuk satu entri log update game."""
+    update_id = scrapy.Field()
+    update_title = scrapy.Field()
+    release_date = scrapy.Field()
+    timestamp = scrapy.Field()

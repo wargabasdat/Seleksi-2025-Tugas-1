@@ -29,8 +29,14 @@ class BaseEquipmentSpider(CrawlSpider):
         type_rarity_table = response.css('table.pi-horizontal-group')
         item['type'] = type_rarity_table.css('td[data-source="type"] a::attr(title)').get() or type_rarity_table.css('td[data-source="type"] a::text').get()
         item['rarity'] = type_rarity_table.css('td[data-source="rarity"] a::attr(title)').get() or type_rarity_table.css('td[data-source="rarity"] a::text').get()
-        item['release_date'] = response.css('div[data-source="update"] div.pi-data-value a::attr(title)').get(default='').strip()
-
+        raw_release_date = response.css('div[data-source="update"] div.pi-data-value a::attr(title)').get(default='')
+        # Lakukan transformasi string jika data ditemukan
+        if raw_release_date:
+            # Ganti '/' dengan spasi, dan 'Updates' dengan 'Update'
+            cleaned_date = raw_release_date.replace('/', ' ').replace('Updates', 'Update')
+            item['release_date'] = cleaned_date.strip()
+        else:
+            item['release_date'] = ''
     def _parse_equipment_abilities(self, response, item, item_name):
         """
         Mencari dan memproses tabel moveset untuk equipment.

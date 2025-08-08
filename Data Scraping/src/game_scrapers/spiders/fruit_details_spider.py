@@ -91,8 +91,16 @@ class FruitDetailsSpider(CrawlSpider):
         if can_m1_raw:
             item['can_m1'] = 'Yes' if '✔' in can_m1_raw else ('No' if '✘' in can_m1_raw else can_m1_raw.strip())
         
-        item['release_date'] = response.css('div[data-source="update"] div.pi-data-value a::attr(title)').get(default='').strip()
+        raw_release_date = response.css('div[data-source="update"] div.pi-data-value a::attr(title)').get(default='')
 
+        # Lakukan transformasi string jika data ditemukan
+        if raw_release_date:
+            # Ganti '/' dengan spasi, lalu 'Updates' (jamak) dengan 'Update' (tunggal)
+            cleaned_date = raw_release_date.replace('/', ' ').replace('Updates', 'Update')
+            item['release_date'] = cleaned_date.strip()
+        else:
+            item['release_date'] = '' 
+            
     def _parse_abilities(self, response, item):
         """
         Mencari ability dengan memeriksa keberadaan elemen tab yang sebenarnya.

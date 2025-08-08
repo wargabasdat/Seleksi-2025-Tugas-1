@@ -24,6 +24,7 @@ SPIDERS_TO_RUN = {
     'fruit_stock_spider': 'fruit_stock.json',
     'sword_details_spider': 'swords.json',
     'gun_details_spider': 'guns.json',
+    'update_log_spider': 'update_logs.json',
 }
 # ===================================================================
 

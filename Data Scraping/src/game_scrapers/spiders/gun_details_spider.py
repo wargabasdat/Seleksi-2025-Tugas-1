@@ -52,7 +52,7 @@ class GunDetailsSpider(BaseEquipmentSpider):
         3. Menghasilkan (yield) item yang sudah terisi lengkap.
         """
         gun_name = response.url.split('/')[-1].replace('_', ' ')
-        uid = 'sword_' + sword_name.lower().replace(' ', '_').replace('(', '').replace(')', '')
+        uid = 'gun_' + gun_name.lower().replace(' ', '_').replace('(', '').replace(')', '')
         logger.info(f"Memproses pistol: {gun_name}")
 
         item = GunDetailsItem(

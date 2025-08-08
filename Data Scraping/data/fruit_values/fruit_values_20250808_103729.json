@@ -1,0 +1,254 @@
+[
+{
+    "fruit_name": "Rocket",
+    "value": "5,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Spin",
+    "value": "7,500",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Blade",
+    "value": "50,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Spring",
+    "value": "60,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Bomb",
+    "value": "80,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Smoke",
+    "value": "100,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Spike",
+    "value": "180,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Quake",
+    "value": "1,000,000",
+    "demand": "2/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Love",
+    "value": "1,500,000",
+    "demand": "3/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Spider",
+    "value": "1,500,000",
+    "demand": "2/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Sound",
+    "value": "2,500,000",
+    "demand": "4/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Phoenix",
+    "value": "2,750,000",
+    "demand": "3/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Creation",
+    "value": "4,000,000",
+    "demand": "4/10",
+    "status": "Unstable"
+},
+{
+    "fruit_name": "Blizzard",
+    "value": "5,000,000",
+    "demand": "5/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Buddha",
+    "value": "10,000,000",
+    "demand": "10/10",
+    "status": "Overpaid"
+},
+{
+    "fruit_name": "Portal",
+    "value": "10,000,000",
+    "demand": "10/10",
+    "status": "Overpaid"
+},
+{
+    "fruit_name": "Pain",
+    "value": "15,000,000",
+    "demand": "4/10",
+    "status": "Fluctuating"
+},
+{
+    "fruit_name": "Rumble",
+    "value": "30,000,000",
+    "demand": "10/10",
+    "status": "Fluctuating"
+},
+{
+    "fruit_name": "Flame",
+    "value": "250,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Dark",
+    "value": "400,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Sand",
+    "value": "420,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Ice",
+    "value": "550,000",
+    "demand": "2/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Eagle",
+    "value": "800,000",
+    "demand": "2/10",
+    "status": "Unstable"
+},
+{
+    "fruit_name": "Diamond",
+    "value": "1,000,000",
+    "demand": "2/10",
+    "status": "Underpaid"
+},
+{
+    "fruit_name": "Shadow",
+    "value": "6,500,000",
+    "demand": "6/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Control",
+    "value": "10,000,000",
+    "demand": "4/10",
+    "status": "Underpaid"
+},
+{
+    "fruit_name": "Mammoth",
+    "value": "10,000,000",
+    "demand": "6/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Spirit",
+    "value": "11,000,000",
+    "demand": "6/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Venom",
+    "value": "12,000,000",
+    "demand": "8/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Gravity",
+    "value": "20,000,000",
+    "demand": "4/10",
+    "status": "Unstable"
+},
+{
+    "fruit_name": "T-Rex",
+    "value": "20,000,000",
+    "demand": "8/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Dough",
+    "value": "30,000,000",
+    "demand": "10/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Leopard",
+    "value": "55,000,000",
+    "demand": "10/10",
+    "status": "Overpaid"
+},
+{
+    "fruit_name": "Gas",
+    "value": "75,000,000",
+    "demand": "9/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Yeti",
+    "value": "140,000,000",
+    "demand": "10/10",
+    "status": "Overpaid"
+},
+{
+    "fruit_name": "Kitsune",
+    "value": "240,000,000",
+    "demand": "10/10",
+    "status": "Overpaid"
+},
+{
+    "fruit_name": "East Dragon",
+    "value": "960,000,000",
+    "demand": "10/10",
+    "status": "Overpaid"
+},
+{
+    "fruit_name": "West Dragon",
+    "value": "1,200,000,000",
+    "demand": "10/10",
+    "status": "Overpaid"
+},
+{
+    "fruit_name": "Rubber",
+    "value": "700,000",
+    "demand": "1/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Ghost",
+    "value": "800,000",
+    "demand": "1/10",
+    "status": "Underpaid"
+},
+{
+    "fruit_name": "Light",
+    "value": "800,000",
+    "demand": "2/10",
+    "status": "Stable"
+},
+{
+    "fruit_name": "Magma",
+    "value": "1,150,000",
+    "demand": "8/10",
+    "status": "Overpaid"
+}
+]

@@ -25,6 +25,9 @@ class JsonWriterPipeline:
         elif spider.name == 'gun_details_spider':
             self.file_path = os.path.join(base_data_dir, 'gun_details')
             self.file_prefix = 'gun_details'
+        elif spider.name == 'update_log_spider':
+            self.file_path = os.path.join(base_data_dir, 'update_logs')
+            self.file_prefix = 'update_log'
         elif spider.name == 'blox_fruits_master_list_spider':
             self.file_path = os.path.join(base_data_dir, 'fandom_master_list')
             self.file_prefix = 'master_list_data'
