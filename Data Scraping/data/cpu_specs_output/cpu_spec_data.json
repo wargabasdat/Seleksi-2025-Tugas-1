@@ -1,0 +1,25 @@
+[
+    {
+        "name": "AMD Ryzen 9 7845HX",
+        "url": "https://www.techpowerup.com/cpu-specs/ryzen-9-7845hx.c3026",
+        "manufacturer": "AMD",
+        "cores": 12,
+        "threads": 12,
+        "frequency_ghz": 3.0,
+        "turbo_clock_ghz": 5.2,
+        "cache_l1_kb": 64,
+        "cache_l2_kb": 1,
+        "cache_l3_mb": 64,
+        "tdp_watts": 55,
+        "launch_price_usd": null,
+        "process_size_nm": 5,
+        "codename": "Dragon Range",
+        "generation": "Ryzen 9 (Zen 4 (Dragon Range))",
+        "socket": "AMD Socket FL1",
+        "release_date": "Jan 4th, 2023",
+        "integrated_graphics": "Radeon 610M",
+        "memory_support": "DDR5",
+        "multiplier_unlocked": "Yes",
+        "features": null
+    }
+]
