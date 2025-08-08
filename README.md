@@ -179,6 +179,33 @@ ORDER BY
 ```
 ![q4](<Data Warehouse/src/q4.png>)
 
+## 4. Orkestrasi dan Penjadwalan Pipeline
+
+Untuk mengotomatiskan keseluruhan proses ETL (Extract, Transform, Load) dari awal hingga akhir, sebuah skrip orkestrasi telah dibuat untuk memastikan data berjalan mulus dari sumber hingga ke data warehouse.
+
+### Skrip Orkestrator (`pipeline.py`)
+- **Lokasi**: `AutoScheduler/pipeline.py`
+- **Deskripsi**: Skrip ini berfungsi sebagai "master" yang mengatur alur kerja. Ia akan menjalankan setiap langkah proses ETL secara berurutan. Jika satu langkah gagal, pipeline akan berhenti untuk mencegah kesalahan data.
+- **Alur Kerja**:
+    1.  **Data Scraping**: Menjalankan `Data Scraping/src/scraper.py` untuk mengambil data game terbaru.
+    2.  **Data Storing**: Menjalankan `Data Storing/src/loader.py` untuk memuat dan menstrukturkan data ke dalam database operasional (PostgreSQL).
+    3.  **ETL Data Warehouse**: Menjalankan `Data Warehouse/src/etl.py` untuk melakukan transformasi dan memuat data ke dalam Data Warehouse.
+
+### Cara Menjalankan Pipeline
+Untuk memicu keseluruhan proses ETL secara manual, Anda dapat menjalankan skrip orkestrator dari direktori utama proyek:
+```bash
+python AutoScheduler/pipeline.py
+```
+Setiap eksekusi akan dicatat dalam file `AutoScheduler/pipeline.log`, yang berguna untuk pemantauan dan debugging.
+
+### Penjadwalan Otomatis dengan Windows Task Scheduler
+Untuk memastikan data diperbarui secara berkala tanpa intervensi manual, pipeline ini telah dijadwalkan untuk berjalan secara otomatis menggunakan **Windows Task Scheduler**. Tugas ini dikonfigurasi untuk menjalankan skrip `AutoScheduler/pipeline.py` pada interval waktu yang ditentukan, sehingga proses scraping dan pembaruan data warehouse terjadi secara konsisten. Saya menetapkan penjadwalan setiap hari pada pukul 02:00 WIB. Bukti dibawah adalah bukti task scheduler yang di run secara manual.
+
+![taskscheduler](<AutoScheduler/taskscheduler.png>)
+
+![perbedaan timestamp](<AutoScheduler/perbedaan timestamp.png>)
+
+
 ## Referensi
 
 - **Library:**
