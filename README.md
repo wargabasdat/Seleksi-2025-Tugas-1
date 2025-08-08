@@ -251,7 +251,7 @@ Untuk design ini, saya menggunakan star_schema dengan fact table dan dimention t
 Fact_Top_Channels terhubung langsung ke kedua tabel dimention melalui foreign key (youtuber_name dan youtube_channel_link), yang membentuk struktur bintang.
 
 ### Loading Data
-Pada tahap ini, saya membuat tabel dimention untuk youtuber dan channel beserta pengisian datanya yang diambil dari hasil scrapping
+Pada tahap ini, saya membuat tabel dimention untuk youtuber dan channel beserta pengisian datanya yang diambil dari tabel youtubers dan channels
 <div align="center">
   <img width="1352" height="832" alt="image" src="https://github.com/user-attachments/assets/c9932525-6e0c-4681-bb30-b0ab4c1bb450" />
 </div>
