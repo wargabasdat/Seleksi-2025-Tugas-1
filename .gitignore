@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Binary Files
+*.exe
+*.dll
+*.so
+*.bin
+*.zip
+*.rar
+*.7z
+*.tar.gz

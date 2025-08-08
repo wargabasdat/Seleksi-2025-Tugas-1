@@ -1,0 +1,156 @@
+[
+    {
+        "instructor_id": "instructor_1",
+        "name": "Keiko Indrijani",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/64b9446c-1551-489c-a6e8-f9176a07c1bd.jpg",
+        "scraped_at": "2025-08-07T04:53:43.907784"
+    },
+    {
+        "instructor_id": "instructor_2",
+        "name": "Sarah Victoria",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/e6ba0934-df8e-4719-aac8-06cdb3e5a3d4.jpg",
+        "scraped_at": "2025-08-07T04:53:43.907984"
+    },
+    {
+        "instructor_id": "instructor_3",
+        "name": "Vidya Amarilis",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/aa04e648-0ee3-4c02-8749-4e66158976e6.jpg",
+        "scraped_at": "2025-08-07T04:53:43.908133"
+    },
+    {
+        "instructor_id": "instructor_4",
+        "name": "Putri Augustine",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/21f990a3-be8e-4ac0-8c14-ce81521f3ae6.jpg",
+        "scraped_at": "2025-08-07T04:53:43.908269"
+    },
+    {
+        "instructor_id": "instructor_5",
+        "name": "Henny Wijaya",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/03749761-13ff-4c6e-b32e-84c7c46087e0.jpg",
+        "scraped_at": "2025-08-07T04:53:43.908401"
+    },
+    {
+        "instructor_id": "instructor_6",
+        "name": "Irene Juliency",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/c5fc2885-bb3a-4380-8cfc-38900afa2fcc.jpg",
+        "scraped_at": "2025-08-07T04:53:43.908533"
+    },
+    {
+        "instructor_id": "instructor_7",
+        "name": "Dino Vrei",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/44f60a89-2b23-480c-82cf-b05a6a3121d3.jpg",
+        "scraped_at": "2025-08-07T04:53:43.908665"
+    },
+    {
+        "instructor_id": "instructor_8",
+        "name": "Inez Priscilla",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/1a3800b2-aaa8-479d-a1eb-379130c7e75d.jpg",
+        "scraped_at": "2025-08-07T04:53:43.908932"
+    },
+    {
+        "instructor_id": "instructor_9",
+        "name": "Ivy Damara",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/8bd6c8eb-da99-413b-88d5-e2d97333fa14.jpg",
+        "scraped_at": "2025-08-07T04:53:43.909074"
+    },
+    {
+        "instructor_id": "instructor_10",
+        "name": "Irma Ars",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/5689adb8-0153-411f-a600-6aa7821bd90d.jpg",
+        "scraped_at": "2025-08-07T04:53:43.909209"
+    },
+    {
+        "instructor_id": "instructor_11",
+        "name": "Faras Sekarpratiwi",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/72f1d5f8-e2a8-4181-a809-0b9094f206e6.jpg",
+        "scraped_at": "2025-08-07T04:53:43.909345"
+    },
+    {
+        "instructor_id": "instructor_12",
+        "name": "Icha Devina",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/781ca0ab-0612-4412-94c3-7fcacd0d1b39.jpg",
+        "scraped_at": "2025-08-07T04:53:43.909480"
+    },
+    {
+        "instructor_id": "instructor_13",
+        "name": "Nabila Viera",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/8dd60cf2-c7ab-45ff-984f-b8f147fca0af.jpg",
+        "scraped_at": "2025-08-07T04:53:43.909610"
+    },
+    {
+        "instructor_id": "instructor_14",
+        "name": "Novi Erna",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/b7d48481-76eb-4fbe-9112-746bebd7ec36.jpg",
+        "scraped_at": "2025-08-07T04:53:43.909740"
+    },
+    {
+        "instructor_id": "instructor_15",
+        "name": "Intan Muktipertiwi",
+        "role": "Prenatal Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/c08aa7e4-b287-413b-b797-16b2d680853e.jpg",
+        "scraped_at": "2025-08-07T04:53:43.909870"
+    },
+    {
+        "instructor_id": "instructor_16",
+        "name": "Diva Mahsa",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/3b1721a0-74c3-40d6-ac89-cb027c538aa8.jpg",
+        "scraped_at": "2025-08-07T04:53:43.910002"
+    },
+    {
+        "instructor_id": "instructor_17",
+        "name": "Zara Alia",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/adf3546d-109a-4aaa-8d71-9c1abc9e6d2b.jpg",
+        "scraped_at": "2025-08-07T04:53:43.910131"
+    },
+    {
+        "instructor_id": "instructor_18",
+        "name": "Shinta W Permatasari",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/76c4e67e-2928-425b-b6cb-7712fa7eea84.jpg",
+        "scraped_at": "2025-08-07T04:53:43.910260"
+    },
+    {
+        "instructor_id": "instructor_19",
+        "name": "Hanum Thaher",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/f52dd7ca-8aa5-48eb-ab10-95c010c8484f.jpg",
+        "scraped_at": "2025-08-07T04:53:43.910489"
+    },
+    {
+        "instructor_id": "instructor_20",
+        "name": "Shania Hasya",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/0c295ea4-824a-4341-ab6f-2259d4aa761c.jpg",
+        "scraped_at": "2025-08-07T04:53:43.910638"
+    },
+    {
+        "instructor_id": "instructor_21",
+        "name": "Majma A",
+        "role": "Yoga Teacher",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/6c4e06fb-a479-464c-97c5-8737165ff210.jpg",
+        "scraped_at": "2025-08-07T04:53:43.910782"
+    },
+    {
+        "instructor_id": "instructor_22",
+        "name": "Cita A",
+        "role": "Pilates Instructor",
+        "image_url": "https://ik.imagekit.io/rezeve/business/e19d6cc0-90bb-4bcb-846b-1f4fd1d17bb7/image/staff/88a438bd-77a2-4fb8-a823-8b7679858330.jpg",
+        "scraped_at": "2025-08-07T04:53:43.910923"
+    }
+]

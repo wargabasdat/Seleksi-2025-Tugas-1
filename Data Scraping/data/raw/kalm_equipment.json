@@ -1,0 +1,572 @@
+[
+    {
+        "equipment_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb_grip_socks",
+        "class_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb",
+        "equipment_name": "Grip Socks",
+        "scraped_at": "2025-08-07T04:53:46.240117"
+    },
+    {
+        "equipment_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb_water_bottle",
+        "class_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240122"
+    },
+    {
+        "equipment_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb_small_towel",
+        "class_id": "021ec006-09cd-4db7-bc7d-46eec8e047fb",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240126"
+    },
+    {
+        "equipment_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95_mat",
+        "class_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240147"
+    },
+    {
+        "equipment_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95_small_towel",
+        "class_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240150"
+    },
+    {
+        "equipment_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95_water_bottle",
+        "class_id": "894cc2bd-7a1e-4ebc-bdeb-76d15107cd95",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240154"
+    },
+    {
+        "equipment_id": "94f3d4ac-910b-4181-b947-827bfff13164_grip_socks",
+        "class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+        "equipment_name": "Grip Socks",
+        "scraped_at": "2025-08-07T04:53:46.240192"
+    },
+    {
+        "equipment_id": "94f3d4ac-910b-4181-b947-827bfff13164_water_bottle",
+        "class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240195"
+    },
+    {
+        "equipment_id": "94f3d4ac-910b-4181-b947-827bfff13164_small_towel",
+        "class_id": "94f3d4ac-910b-4181-b947-827bfff13164",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240198"
+    },
+    {
+        "equipment_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02_mat",
+        "class_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240224"
+    },
+    {
+        "equipment_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02_small_towel",
+        "class_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240227"
+    },
+    {
+        "equipment_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02_water_bottle",
+        "class_id": "ec2c6dc1-497f-4392-9897-c82b6e39de02",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240230"
+    },
+    {
+        "equipment_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c_mat",
+        "class_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240256"
+    },
+    {
+        "equipment_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c_water_bottle",
+        "class_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240258"
+    },
+    {
+        "equipment_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c_small_towel",
+        "class_id": "d019bb2f-b4d6-4948-b797-fa2fd87ed98c",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240261"
+    },
+    {
+        "equipment_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224_mat",
+        "class_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240282"
+    },
+    {
+        "equipment_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224_water_bottle",
+        "class_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240285"
+    },
+    {
+        "equipment_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224_small_towel",
+        "class_id": "02457d6e-294e-4a24-89fc-edaa0f1f1224",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240288"
+    },
+    {
+        "equipment_id": "2b496fe5-4617-4b66-a033-9643167406f0_mat",
+        "class_id": "2b496fe5-4617-4b66-a033-9643167406f0",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240308"
+    },
+    {
+        "equipment_id": "2b496fe5-4617-4b66-a033-9643167406f0_small_towel",
+        "class_id": "2b496fe5-4617-4b66-a033-9643167406f0",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240311"
+    },
+    {
+        "equipment_id": "2b496fe5-4617-4b66-a033-9643167406f0_water_bottle",
+        "class_id": "2b496fe5-4617-4b66-a033-9643167406f0",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240313"
+    },
+    {
+        "equipment_id": "e343282f-b803-4f8d-9552-00d555798b8c_mat",
+        "class_id": "e343282f-b803-4f8d-9552-00d555798b8c",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240334"
+    },
+    {
+        "equipment_id": "e343282f-b803-4f8d-9552-00d555798b8c_water_bottle",
+        "class_id": "e343282f-b803-4f8d-9552-00d555798b8c",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240337"
+    },
+    {
+        "equipment_id": "e343282f-b803-4f8d-9552-00d555798b8c_small_towel",
+        "class_id": "e343282f-b803-4f8d-9552-00d555798b8c",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240340"
+    },
+    {
+        "equipment_id": "09d8a770-2d06-40b3-a019-1bea981fc16a_mat",
+        "class_id": "09d8a770-2d06-40b3-a019-1bea981fc16a",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240362"
+    },
+    {
+        "equipment_id": "09d8a770-2d06-40b3-a019-1bea981fc16a_water_bottle",
+        "class_id": "09d8a770-2d06-40b3-a019-1bea981fc16a",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240366"
+    },
+    {
+        "equipment_id": "09d8a770-2d06-40b3-a019-1bea981fc16a_small_towel",
+        "class_id": "09d8a770-2d06-40b3-a019-1bea981fc16a",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240369"
+    },
+    {
+        "equipment_id": "af761997-f321-4682-886a-6e745be717ed_grip_socks",
+        "class_id": "af761997-f321-4682-886a-6e745be717ed",
+        "equipment_name": "Grip Socks",
+        "scraped_at": "2025-08-07T04:53:46.240401"
+    },
+    {
+        "equipment_id": "af761997-f321-4682-886a-6e745be717ed_water_bottle",
+        "class_id": "af761997-f321-4682-886a-6e745be717ed",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240404"
+    },
+    {
+        "equipment_id": "af761997-f321-4682-886a-6e745be717ed_small_towel",
+        "class_id": "af761997-f321-4682-886a-6e745be717ed",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240407"
+    },
+    {
+        "equipment_id": "9fa780f9-d41e-419b-94dc-11b45a1a20ce_small_towel",
+        "class_id": "9fa780f9-d41e-419b-94dc-11b45a1a20ce",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240428"
+    },
+    {
+        "equipment_id": "9fa780f9-d41e-419b-94dc-11b45a1a20ce_water_bottle",
+        "class_id": "9fa780f9-d41e-419b-94dc-11b45a1a20ce",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240431"
+    },
+    {
+        "equipment_id": "d22df6a4-ce74-4164-9fde-6e4981cf5fa7_mat",
+        "class_id": "d22df6a4-ce74-4164-9fde-6e4981cf5fa7",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240440"
+    },
+    {
+        "equipment_id": "d22df6a4-ce74-4164-9fde-6e4981cf5fa7_small_towel",
+        "class_id": "d22df6a4-ce74-4164-9fde-6e4981cf5fa7",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240443"
+    },
+    {
+        "equipment_id": "d22df6a4-ce74-4164-9fde-6e4981cf5fa7_water_bottle",
+        "class_id": "d22df6a4-ce74-4164-9fde-6e4981cf5fa7",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240446"
+    },
+    {
+        "equipment_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9_mat",
+        "class_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240456"
+    },
+    {
+        "equipment_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9_small_towel",
+        "class_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240458"
+    },
+    {
+        "equipment_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9_water_bottle",
+        "class_id": "f1b6c72c-1765-4be7-8db8-2b5c3ddcb4a9",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240461"
+    },
+    {
+        "equipment_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc_mat",
+        "class_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc",
+        "equipment_name": "mat",
+        "scraped_at": "2025-08-07T04:53:46.240482"
+    },
+    {
+        "equipment_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc_water_bottle",
+        "class_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc",
+        "equipment_name": "water bottle",
+        "scraped_at": "2025-08-07T04:53:46.240485"
+    },
+    {
+        "equipment_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc_small_towel",
+        "class_id": "7ed0df06-2eeb-4496-947e-14890ca7a8dc",
+        "equipment_name": "small towel",
+        "scraped_at": "2025-08-07T04:53:46.240488"
+    },
+    {
+        "equipment_id": "8d948a73-8f78-4903-98bb-bbee31d83a69_grip_socks",
+        "class_id": "8d948a73-8f78-4903-98bb-bbee31d83a69",
+        "equipment_name": "Grip Socks",
+        "scraped_at": "2025-08-07T04:53:46.240515"
+    },
+    {
+        "equipment_id": "8d948a73-8f78-4903-98bb-bbee31d83a69_small_towel",
+        "class_id": "8d948a73-8f78-4903-98bb-bbee31d83a69",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240518"
+    },
+    {
+        "equipment_id": "8d948a73-8f78-4903-98bb-bbee31d83a69_water_bottle",
+        "class_id": "8d948a73-8f78-4903-98bb-bbee31d83a69",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240521"
+    },
+    {
+        "equipment_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957_mat",
+        "class_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957",
+        "equipment_name": "mat",
+        "scraped_at": "2025-08-07T04:53:46.240546"
+    },
+    {
+        "equipment_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957_water_bottle",
+        "class_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957",
+        "equipment_name": "water bottle",
+        "scraped_at": "2025-08-07T04:53:46.240549"
+    },
+    {
+        "equipment_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957_small_towel",
+        "class_id": "629ae1b6-615a-4e62-8647-6bbf5da3d957",
+        "equipment_name": "small towel",
+        "scraped_at": "2025-08-07T04:53:46.240551"
+    },
+    {
+        "equipment_id": "5449236d-1652-4d0a-8df2-03264dcd27a2_grip_socks",
+        "class_id": "5449236d-1652-4d0a-8df2-03264dcd27a2",
+        "equipment_name": "Grip Socks",
+        "scraped_at": "2025-08-07T04:53:46.240578"
+    },
+    {
+        "equipment_id": "5449236d-1652-4d0a-8df2-03264dcd27a2_water_bottle",
+        "class_id": "5449236d-1652-4d0a-8df2-03264dcd27a2",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240581"
+    },
+    {
+        "equipment_id": "5449236d-1652-4d0a-8df2-03264dcd27a2_small_towel",
+        "class_id": "5449236d-1652-4d0a-8df2-03264dcd27a2",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240584"
+    },
+    {
+        "equipment_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46_grip_socks",
+        "class_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46",
+        "equipment_name": "Grip Socks",
+        "scraped_at": "2025-08-07T04:53:46.240612"
+    },
+    {
+        "equipment_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46_water_bottle",
+        "class_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240615"
+    },
+    {
+        "equipment_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46_small_towel",
+        "class_id": "2f3e5060-258f-4b3d-9fcf-0c403895fa46",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240618"
+    },
+    {
+        "equipment_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac_grip_socks",
+        "class_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac",
+        "equipment_name": "Grip Socks",
+        "scraped_at": "2025-08-07T04:53:46.240636"
+    },
+    {
+        "equipment_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac_water_bottle",
+        "class_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240639"
+    },
+    {
+        "equipment_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac_small_towel",
+        "class_id": "fde7bb58-0cc0-4e98-bbc5-6ee519d977ac",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240642"
+    },
+    {
+        "equipment_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00_mat",
+        "class_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240663"
+    },
+    {
+        "equipment_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00_water_bottle",
+        "class_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240666"
+    },
+    {
+        "equipment_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00_small_towel",
+        "class_id": "77c19388-0b68-4d88-a0cd-b80f9280ac00",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240669"
+    },
+    {
+        "equipment_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56_mat",
+        "class_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240690"
+    },
+    {
+        "equipment_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56_water_bottle",
+        "class_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240693"
+    },
+    {
+        "equipment_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56_small_tower",
+        "class_id": "f6459ecb-616d-479e-b498-a8e3cf92bf56",
+        "equipment_name": "Small Tower",
+        "scraped_at": "2025-08-07T04:53:46.240696"
+    },
+    {
+        "equipment_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940_mat",
+        "class_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240716"
+    },
+    {
+        "equipment_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940_small_towel",
+        "class_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240719"
+    },
+    {
+        "equipment_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940_water_bottle",
+        "class_id": "7055c44c-d30b-4ae9-af2f-d70fe5ef4940",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240722"
+    },
+    {
+        "equipment_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5_mat",
+        "class_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240744"
+    },
+    {
+        "equipment_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5_water_bottle",
+        "class_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240746"
+    },
+    {
+        "equipment_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5_small_towel",
+        "class_id": "c035853b-3aaa-496a-a3a0-d61d6f4917f5",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240749"
+    },
+    {
+        "equipment_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b_mat",
+        "class_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b",
+        "equipment_name": "mat",
+        "scraped_at": "2025-08-07T04:53:46.240768"
+    },
+    {
+        "equipment_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b_water_bottle",
+        "class_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b",
+        "equipment_name": "water bottle",
+        "scraped_at": "2025-08-07T04:53:46.240771"
+    },
+    {
+        "equipment_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b_small_towel",
+        "class_id": "d7d7d5b9-2935-4ebc-91e4-9991d4cd028b",
+        "equipment_name": "small towel",
+        "scraped_at": "2025-08-07T04:53:46.240774"
+    },
+    {
+        "equipment_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28_mat",
+        "class_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240805"
+    },
+    {
+        "equipment_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28_water_bottle",
+        "class_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240811"
+    },
+    {
+        "equipment_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28_small_towel",
+        "class_id": "01b1d9c5-dff6-47dd-bdf0-c5c9f3e92a28",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240815"
+    },
+    {
+        "equipment_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c_mat",
+        "class_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240835"
+    },
+    {
+        "equipment_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c_water_bottle",
+        "class_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240838"
+    },
+    {
+        "equipment_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c_small_towel",
+        "class_id": "e700155f-6cf2-40bd-b239-d2adaa2f297c",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240841"
+    },
+    {
+        "equipment_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8_mat",
+        "class_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240864"
+    },
+    {
+        "equipment_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8_water_bottle",
+        "class_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240867"
+    },
+    {
+        "equipment_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8_small_towel",
+        "class_id": "022f7c1d-b674-40d9-84d5-a6b750ffefb8",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240870"
+    },
+    {
+        "equipment_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f_mat",
+        "class_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f",
+        "equipment_name": "mat",
+        "scraped_at": "2025-08-07T04:53:46.240889"
+    },
+    {
+        "equipment_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f_water_bottle",
+        "class_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f",
+        "equipment_name": "water bottle",
+        "scraped_at": "2025-08-07T04:53:46.240892"
+    },
+    {
+        "equipment_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f_small_towel",
+        "class_id": "231c248b-51c0-4e41-9fde-c63ee0f5839f",
+        "equipment_name": "small towel",
+        "scraped_at": "2025-08-07T04:53:46.240894"
+    },
+    {
+        "equipment_id": "e58731ea-89fb-49db-a13b-8e46273ea737_mat",
+        "class_id": "e58731ea-89fb-49db-a13b-8e46273ea737",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240916"
+    },
+    {
+        "equipment_id": "e58731ea-89fb-49db-a13b-8e46273ea737_water_bottle",
+        "class_id": "e58731ea-89fb-49db-a13b-8e46273ea737",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240919"
+    },
+    {
+        "equipment_id": "e58731ea-89fb-49db-a13b-8e46273ea737_small_towel",
+        "class_id": "e58731ea-89fb-49db-a13b-8e46273ea737",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240922"
+    },
+    {
+        "equipment_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2_mat",
+        "class_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240943"
+    },
+    {
+        "equipment_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2_small_towel",
+        "class_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240946"
+    },
+    {
+        "equipment_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2_water_bottle",
+        "class_id": "aed6f26d-61a6-4a33-9620-1323f3e47bb2",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240948"
+    },
+    {
+        "equipment_id": "e3174b55-ebd9-427c-ac86-ed0804e75039_mat",
+        "class_id": "e3174b55-ebd9-427c-ac86-ed0804e75039",
+        "equipment_name": "Mat",
+        "scraped_at": "2025-08-07T04:53:46.240968"
+    },
+    {
+        "equipment_id": "e3174b55-ebd9-427c-ac86-ed0804e75039_water_bottle",
+        "class_id": "e3174b55-ebd9-427c-ac86-ed0804e75039",
+        "equipment_name": "Water Bottle",
+        "scraped_at": "2025-08-07T04:53:46.240971"
+    },
+    {
+        "equipment_id": "e3174b55-ebd9-427c-ac86-ed0804e75039_small_towel",
+        "class_id": "e3174b55-ebd9-427c-ac86-ed0804e75039",
+        "equipment_name": "Small Towel",
+        "scraped_at": "2025-08-07T04:53:46.240973"
+    },
+    {
+        "equipment_id": "e8279957-4413-4101-9b96-2654f81ba8a6_mat",
+        "class_id": "e8279957-4413-4101-9b96-2654f81ba8a6",
+        "equipment_name": "mat",
+        "scraped_at": "2025-08-07T04:53:46.240993"
+    },
+    {
+        "equipment_id": "e8279957-4413-4101-9b96-2654f81ba8a6_small_towel",
+        "class_id": "e8279957-4413-4101-9b96-2654f81ba8a6",
+        "equipment_name": "small towel",
+        "scraped_at": "2025-08-07T04:53:46.240998"
+    },
+    {
+        "equipment_id": "e8279957-4413-4101-9b96-2654f81ba8a6_water_bottle",
+        "class_id": "e8279957-4413-4101-9b96-2654f81ba8a6",
+        "equipment_name": "water bottle",
+        "scraped_at": "2025-08-07T04:53:46.241001"
+    }
+]

@@ -1,0 +1,13 @@
+{
+  "available_categories": [
+    "Yoga",
+    "Prenatal Yoga",
+    "Mat Pilates",
+    "Private Pilates"
+  ],
+  "total_categories": 4,
+  "excluded_categories": [
+    "Group Reformer"
+  ],
+  "scraped_at": "2025-08-07T04:29:53.991233"
+}
