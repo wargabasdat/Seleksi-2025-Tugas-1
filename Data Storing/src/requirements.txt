@@ -1,0 +1,6 @@
+# BoardGame Database Requirements
+# Python packages required for the data storing process
+
+mysql-connector-python==8.1.0
+pandas==2.0.3
+numpy==1.24.3

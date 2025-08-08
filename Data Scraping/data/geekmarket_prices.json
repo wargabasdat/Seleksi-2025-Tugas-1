@@ -1,0 +1,604 @@
+[
+  {
+    "store": "GeekMarket API",
+    "price": "12",
+    "currency": "USD",
+    "game_rank": 1,
+    "game_title": "Brass: Birmingham"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "20.00",
+    "currency": "USD",
+    "game_rank": 2,
+    "game_title": "Pandemic Legacy: Season 1"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 3,
+    "game_title": "Ark Nova"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "30",
+    "currency": "USD",
+    "game_rank": 4,
+    "game_title": "Gloomhaven"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "13",
+    "currency": "USD",
+    "game_rank": 5,
+    "game_title": "Twilight Imperium: Fourth Edition"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 6,
+    "game_title": "Dune: Imperium"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "20",
+    "currency": "USD",
+    "game_rank": 7,
+    "game_title": "Terraforming Mars"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 8,
+    "game_title": "War of the Ring: Second Edition"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "7",
+    "currency": "USD",
+    "game_rank": 9,
+    "game_title": "Star Wars: Rebellion"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 11,
+    "game_title": "Spirit Island"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "16",
+    "currency": "USD",
+    "game_rank": 12,
+    "game_title": "Gloomhaven: Jaws of the Lion"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 13,
+    "game_title": "Gaia Project"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "30.00",
+    "currency": "USD",
+    "game_rank": 14,
+    "game_title": "Twilight Struggle"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "10",
+    "currency": "USD",
+    "game_rank": 15,
+    "game_title": "Through the Ages: A New Story of Civilization"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "12.00",
+    "currency": "USD",
+    "game_rank": 16,
+    "game_title": "The Castles of Burgundy"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "25",
+    "currency": "USD",
+    "game_rank": 17,
+    "game_title": "Great Western Trail"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 18,
+    "game_title": "Eclipse: Second Dawn for the Galaxy"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "50",
+    "currency": "USD",
+    "game_rank": 19,
+    "game_title": "Scythe"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 20,
+    "game_title": "Brass: Lancashire"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "7",
+    "currency": "USD",
+    "game_rank": 21,
+    "game_title": "7 Wonders Duel"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "50",
+    "currency": "USD",
+    "game_rank": 22,
+    "game_title": "Frosthaven"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 23,
+    "game_title": "Nemesis"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "14",
+    "currency": "USD",
+    "game_rank": 24,
+    "game_title": "Clank! Legacy: Acquisitions Incorporated"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "200",
+    "currency": "USD",
+    "game_rank": 25,
+    "game_title": "A Feast for Odin"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "10.00",
+    "currency": "USD",
+    "game_rank": 26,
+    "game_title": "Concordia"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 27,
+    "game_title": "Great Western Trail: Second Edition"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 28,
+    "game_title": "Lost Ruins of Arnak"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "30",
+    "currency": "USD",
+    "game_rank": 29,
+    "game_title": "Arkham Horror: The Card Game"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "14.00",
+    "currency": "USD",
+    "game_rank": 30,
+    "game_title": "Root"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "10",
+    "currency": "USD",
+    "game_rank": 31,
+    "game_title": "Too Many Bones"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "16.00",
+    "currency": "USD",
+    "game_rank": 32,
+    "game_title": "Terra Mystica"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "8",
+    "currency": "USD",
+    "game_rank": 33,
+    "game_title": "The Lord of the Rings: Duel for Middle-earth"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "35.00",
+    "currency": "USD",
+    "game_rank": 35,
+    "game_title": "Wingspan"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "35.00",
+    "currency": "USD",
+    "game_rank": 36,
+    "game_title": "Orléans"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "120.00",
+    "currency": "USD",
+    "game_rank": 38,
+    "game_title": "Mage Knight Board Game"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "125.00",
+    "currency": "USD",
+    "game_rank": 39,
+    "game_title": "Barrage"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 40,
+    "game_title": "SETI: Search for Extraterrestrial Intelligence"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "25",
+    "currency": "USD",
+    "game_rank": 41,
+    "game_title": "Everdell"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 43,
+    "game_title": "Viticulture Essential Edition"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "19",
+    "currency": "USD",
+    "game_rank": 44,
+    "game_title": "Hegemony: Lead Your Class to Victory"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "95.00",
+    "currency": "USD",
+    "game_rank": 45,
+    "game_title": "Heat: Pedal to the Metal"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "7",
+    "currency": "USD",
+    "game_rank": 46,
+    "game_title": "Marvel Champions: The Card Game"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "14",
+    "currency": "USD",
+    "game_rank": 48,
+    "game_title": "Kanban EV"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "17.00",
+    "currency": "USD",
+    "game_rank": 49,
+    "game_title": "Food Chain Magnate"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "32.00",
+    "currency": "USD",
+    "game_rank": 50,
+    "game_title": "Underwater Cities"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "20",
+    "currency": "USD",
+    "game_rank": 51,
+    "game_title": "Pax Pamir: Second Edition"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "30",
+    "currency": "USD",
+    "game_rank": 52,
+    "game_title": "Puerto Rico"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "69.95",
+    "currency": "USD",
+    "game_rank": 53,
+    "game_title": "Cthulhu: Death May Die"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "13",
+    "currency": "USD",
+    "game_rank": 54,
+    "game_title": "Cascadia"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "30",
+    "currency": "USD",
+    "game_rank": 55,
+    "game_title": "Caverna: The Cave Farmers"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "12",
+    "currency": "USD",
+    "game_rank": 57,
+    "game_title": "On Mars"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "6.99",
+    "currency": "USD",
+    "game_rank": 58,
+    "game_title": "Anachrony"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "30",
+    "currency": "USD",
+    "game_rank": 59,
+    "game_title": "Blood Rage"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "45",
+    "currency": "USD",
+    "game_rank": 60,
+    "game_title": "Agricola"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 61,
+    "game_title": "Age of Innovation"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "40",
+    "currency": "USD",
+    "game_rank": 62,
+    "game_title": "Oathsworn: Into the Deepwood"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "20",
+    "currency": "USD",
+    "game_rank": 63,
+    "game_title": "Lisboa"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "315",
+    "currency": "USD",
+    "game_rank": 64,
+    "game_title": "Sleeping Gods"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 66,
+    "game_title": "Grand Austria Hotel"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "48.99",
+    "currency": "USD",
+    "game_rank": 67,
+    "game_title": "Pandemic Legacy: Season 2"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "7",
+    "currency": "USD",
+    "game_rank": 69,
+    "game_title": "Mansions of Madness: Second Edition"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 70,
+    "game_title": "Tzolk'in: The Mayan Calendar"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "13",
+    "currency": "USD",
+    "game_rank": 71,
+    "game_title": "Power Grid"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "8",
+    "currency": "USD",
+    "game_rank": 72,
+    "game_title": "Harmonies"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "42.00",
+    "currency": "USD",
+    "game_rank": 73,
+    "game_title": "Quacks"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "20",
+    "currency": "USD",
+    "game_rank": 74,
+    "game_title": "Clans of Caledonia"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 75,
+    "game_title": "Paladins of the West Kingdom"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "40.00",
+    "currency": "USD",
+    "game_rank": 76,
+    "game_title": "Le Havre"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "25",
+    "currency": "USD",
+    "game_rank": 77,
+    "game_title": "The Gallerist"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "8",
+    "currency": "USD",
+    "game_rank": 78,
+    "game_title": "Ticket to Ride Legacy: Legends of the West"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "14",
+    "currency": "USD",
+    "game_rank": 79,
+    "game_title": "Maracaibo"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "100",
+    "currency": "USD",
+    "game_rank": 80,
+    "game_title": "Star Wars: Imperial Assault"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "16",
+    "currency": "USD",
+    "game_rank": 81,
+    "game_title": "Android: Netrunner"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "10",
+    "currency": "USD",
+    "game_rank": 82,
+    "game_title": "Agricola (Revised Edition)"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "200",
+    "currency": "USD",
+    "game_rank": 84,
+    "game_title": "Mechs vs. Minions"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "16",
+    "currency": "USD",
+    "game_rank": 85,
+    "game_title": "The Crew: The Quest for Planet Nine"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 86,
+    "game_title": "Kingdom Death: Monster"
+  },
+  {
+    "store": "GeekMarket",
+    "price": "13.00",
+    "currency": "USD",
+    "game_rank": 87,
+    "game_title": "Race for the Galaxy"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "13",
+    "currency": "USD",
+    "game_rank": 88,
+    "game_title": "Azul"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 90,
+    "game_title": "Great Western Trail: New Zealand"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "8",
+    "currency": "USD",
+    "game_rank": 92,
+    "game_title": "Revive"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "16",
+    "currency": "USD",
+    "game_rank": 94,
+    "game_title": "Clank!: A Deck-Building Adventure"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "15",
+    "currency": "USD",
+    "game_rank": 95,
+    "game_title": "Fields of Arle"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "20.00",
+    "currency": "USD",
+    "game_rank": 97,
+    "game_title": "Eclipse: New Dawn for the Galaxy"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "400",
+    "currency": "USD",
+    "game_rank": 98,
+    "game_title": "Aeon's End"
+  },
+  {
+    "store": "GeekMarket API",
+    "price": "18",
+    "currency": "USD",
+    "game_rank": 100,
+    "game_title": "Lords of Waterdeep"
+  }
+]

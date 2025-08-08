@@ -1,0 +1,662 @@
+[
+  {
+    "name": "Admin: Better Description Needed!"
+  },
+  {
+    "name": "Ancient: Babylon"
+  },
+  {
+    "name": "Ancient: Egypt"
+  },
+  {
+    "name": "Ancient: Greece"
+  },
+  {
+    "name": "Ancient: Rome"
+  },
+  {
+    "name": "Animals: Badgers"
+  },
+  {
+    "name": "Animals: Bats"
+  },
+  {
+    "name": "Animals: Bears"
+  },
+  {
+    "name": "Animals: Beavers"
+  },
+  {
+    "name": "Animals: Birds"
+  },
+  {
+    "name": "Animals: Camels"
+  },
+  {
+    "name": "Animals: Cats"
+  },
+  {
+    "name": "Animals: Cattle / Cows"
+  },
+  {
+    "name": "Animals: Chickens / Roosters"
+  },
+  {
+    "name": "Animals: Crows / Ravens / Magpies"
+  },
+  {
+    "name": "Animals: Dogs"
+  },
+  {
+    "name": "Animals: Donkeys"
+  },
+  {
+    "name": "Animals: Ducks"
+  },
+  {
+    "name": "Animals: Eagles"
+  },
+  {
+    "name": "Animals: Fish / Fishes"
+  },
+  {
+    "name": "Animals: Foxes"
+  },
+  {
+    "name": "Animals: Geese"
+  },
+  {
+    "name": "Animals: Hedgehogs / Porcupines"
+  },
+  {
+    "name": "Animals: Horses"
+  },
+  {
+    "name": "Animals: Lizards"
+  },
+  {
+    "name": "Animals: Mice"
+  },
+  {
+    "name": "Animals: Moose / Elk"
+  },
+  {
+    "name": "Animals: Okapi"
+  },
+  {
+    "name": "Animals: Owls"
+  },
+  {
+    "name": "Animals: Pigs"
+  },
+  {
+    "name": "Animals: Rabbits / Hares"
+  },
+  {
+    "name": "Animals: Sheep"
+  },
+  {
+    "name": "Animals: Wild boar"
+  },
+  {
+    "name": "Authors: J.R.R. Tolkien"
+  },
+  {
+    "name": "Books: Dune"
+  },
+  {
+    "name": "Brands: Restaurants"
+  },
+  {
+    "name": "Category: Autonomous simulation"
+  },
+  {
+    "name": "Category: Combinatorial"
+  },
+  {
+    "name": "Category: Dized Tutorial"
+  },
+  {
+    "name": "Category: Dungeon Crawler"
+  },
+  {
+    "name": "Category: Two-Player Fighting Games"
+  },
+  {
+    "name": "Cities: Birmingham (England)"
+  },
+  {
+    "name": "Cities: Kansas City (Missouri, USA)"
+  },
+  {
+    "name": "Cities: Le Havre (France)"
+  },
+  {
+    "name": "Cities: Lisbon (Portugal)"
+  },
+  {
+    "name": "Cities: Manchester (England, UK)"
+  },
+  {
+    "name": "Cities: Maracaibo (Venezuela)"
+  },
+  {
+    "name": "Cities: Orléans (France)"
+  },
+  {
+    "name": "Cities: Vienna (Austria)"
+  },
+  {
+    "name": "Collectible: Living Card Game (Fantasy Flight Games)"
+  },
+  {
+    "name": "Comic Books: Marvel Universe"
+  },
+  {
+    "name": "Components:  Meeples"
+  },
+  {
+    "name": "Components: 3-Dimensional (3D)"
+  },
+  {
+    "name": "Components: 4 x 4 Grids"
+  },
+  {
+    "name": "Components: 5 x 5 Grids"
+  },
+  {
+    "name": "Components: Book as Board"
+  },
+  {
+    "name": "Components: Calendars"
+  },
+  {
+    "name": "Components: Clix"
+  },
+  {
+    "name": "Components: Control Boards"
+  },
+  {
+    "name": "Components: Dice with Icons"
+  },
+  {
+    "name": "Components: Digital Hybrid – App/Website Required"
+  },
+  {
+    "name": "Components: Dynamic Event Boards"
+  },
+  {
+    "name": "Components: Game Box Used In Play"
+  },
+  {
+    "name": "Components: Game Trayz Inside"
+  },
+  {
+    "name": "Components: Gears"
+  },
+  {
+    "name": "Components: Gems/Crystals"
+  },
+  {
+    "name": "Components: Hexagonal Tiles"
+  },
+  {
+    "name": "Components: Map (City Scale)"
+  },
+  {
+    "name": "Components: Map (Continental / National scale)"
+  },
+  {
+    "name": "Components: Map (Global Scale)"
+  },
+  {
+    "name": "Components: Map (Interplanetary or Interstellar scale)"
+  },
+  {
+    "name": "Components: Map (Regional scale)"
+  },
+  {
+    "name": "Components: Meeples (Animal) / Animeeples"
+  },
+  {
+    "name": "Components: Miniatures"
+  },
+  {
+    "name": "Components: Multi-Use Cards"
+  },
+  {
+    "name": "Components: Official Music Soundtrack"
+  },
+  {
+    "name": "Components: PVC Cards"
+  },
+  {
+    "name": "Components: Polyhedral (not D6) dice"
+  },
+  {
+    "name": "Components: Polyominoes"
+  },
+  {
+    "name": "Components: RE-Wood"
+  },
+  {
+    "name": "Components: Sand Timers"
+  },
+  {
+    "name": "Components: Standees"
+  },
+  {
+    "name": "Components: Wooden pieces & boards"
+  },
+  {
+    "name": "Constructions: Pyramids"
+  },
+  {
+    "name": "Containers: Drawstring Bag"
+  },
+  {
+    "name": "Containers: Tin/Metal Box"
+  },
+  {
+    "name": "Continents: Africa"
+  },
+  {
+    "name": "Continents: Asia"
+  },
+  {
+    "name": "Continents: Europe"
+  },
+  {
+    "name": "Continents: North America"
+  },
+  {
+    "name": "Country: Afghanistan"
+  },
+  {
+    "name": "Country: Austria"
+  },
+  {
+    "name": "Country: England"
+  },
+  {
+    "name": "Country: France"
+  },
+  {
+    "name": "Country: Germany"
+  },
+  {
+    "name": "Country: India"
+  },
+  {
+    "name": "Country: Italy"
+  },
+  {
+    "name": "Country: Japan"
+  },
+  {
+    "name": "Country: Mexico"
+  },
+  {
+    "name": "Country: New Zealand"
+  },
+  {
+    "name": "Country: Portugal"
+  },
+  {
+    "name": "Country: Puerto Rico"
+  },
+  {
+    "name": "Country: Scotland"
+  },
+  {
+    "name": "Country: Soviet Union"
+  },
+  {
+    "name": "Country: Spain"
+  },
+  {
+    "name": "Country: USA"
+  },
+  {
+    "name": "Country: United Kingdom"
+  },
+  {
+    "name": "Creatures: Aliens / Extraterrestrials"
+  },
+  {
+    "name": "Creatures: Demons"
+  },
+  {
+    "name": "Creatures: Dragons"
+  },
+  {
+    "name": "Creatures: Dwarves & Gnomes"
+  },
+  {
+    "name": "Creatures: Goblins"
+  },
+  {
+    "name": "Creatures: Monsters"
+  },
+  {
+    "name": "Crowdfunding: Gamefound"
+  },
+  {
+    "name": "Crowdfunding: Giochistarter"
+  },
+  {
+    "name": "Crowdfunding: Kickstarter"
+  },
+  {
+    "name": "Crowdfunding: Spieleschmiede"
+  },
+  {
+    "name": "Crowdfunding: Wspieram"
+  },
+  {
+    "name": "Decades: The 1920's"
+  },
+  {
+    "name": "Decades: The 1950's"
+  },
+  {
+    "name": "Decades: The 1960's"
+  },
+  {
+    "name": "Decades: The 2000's"
+  },
+  {
+    "name": "Digital Implementations: Apple App Store"
+  },
+  {
+    "name": "Digital Implementations: Board Game Arena"
+  },
+  {
+    "name": "Digital Implementations: BoardSpace"
+  },
+  {
+    "name": "Digital Implementations: Boardgamecore"
+  },
+  {
+    "name": "Digital Implementations: Boiteajeux"
+  },
+  {
+    "name": "Digital Implementations: BrettspielWelt"
+  },
+  {
+    "name": "Digital Implementations: Dire Wolf Game Room"
+  },
+  {
+    "name": "Digital Implementations: Google Play"
+  },
+  {
+    "name": "Digital Implementations: Steam"
+  },
+  {
+    "name": "Digital Implementations: TableTop Simulator Mod (TTS)"
+  },
+  {
+    "name": "Digital Implementations: Tabletopia"
+  },
+  {
+    "name": "Digital Implementations: VASSAL"
+  },
+  {
+    "name": "Digital Implementations: Yucata"
+  },
+  {
+    "name": "Food & Drink: Beer"
+  },
+  {
+    "name": "Game: 7 Wonders Duel"
+  },
+  {
+    "name": "Game: Aeon's End"
+  },
+  {
+    "name": "Game: Anachrony"
+  },
+  {
+    "name": "Game: Android – Netrunner (LCG)"
+  },
+  {
+    "name": "Game: Arkham Horror – The Card Game"
+  },
+  {
+    "name": "Game: Azul"
+  },
+  {
+    "name": "Game: Barrage"
+  },
+  {
+    "name": "Game: Clank!"
+  },
+  {
+    "name": "Game: Dune: Imperium"
+  },
+  {
+    "name": "Game: Eclipse (Lautapelit.fi)"
+  },
+  {
+    "name": "Game: Five Tribes"
+  },
+  {
+    "name": "Game: Great Western Trail"
+  },
+  {
+    "name": "Game: Heat – Pedal to the Metal"
+  },
+  {
+    "name": "Game: Hegemony"
+  },
+  {
+    "name": "Game: Kingdom Death Monster"
+  },
+  {
+    "name": "Game: Le Havre"
+  },
+  {
+    "name": "Game: Lords of Waterdeep"
+  },
+  {
+    "name": "Game: Mansions of Madness (Second Edition)"
+  },
+  {
+    "name": "Game: Marvel Champions – The Card Game"
+  },
+  {
+    "name": "Game: Obsession"
+  },
+  {
+    "name": "Game: On Mars"
+  },
+  {
+    "name": "Game: Pandemic"
+  },
+  {
+    "name": "Game: Puerto Rico"
+  },
+  {
+    "name": "Game: Race for the Galaxy"
+  },
+  {
+    "name": "Game: Revive"
+  },
+  {
+    "name": "Game: Star Wars Imperial Assault"
+  },
+  {
+    "name": "Game: Terraforming Mars"
+  },
+  {
+    "name": "Game: The Crew"
+  },
+  {
+    "name": "Game: The Gallerist"
+  },
+  {
+    "name": "Game: The Quacks of Quedlinburg"
+  },
+  {
+    "name": "Game: Through the Ages"
+  },
+  {
+    "name": "Game: Ticket to Ride (Official)"
+  },
+  {
+    "name": "Game: Too Many Bones"
+  },
+  {
+    "name": "Game: Twilight Imperium"
+  },
+  {
+    "name": "Game: Tzolk'in – The Mayan Calendar"
+  },
+  {
+    "name": "Game: Werewolf / Mafia"
+  },
+  {
+    "name": "Game: Wingspan"
+  },
+  {
+    "name": "Historical Figures: Charles Darwin"
+  },
+  {
+    "name": "Historical Figures: Various"
+  },
+  {
+    "name": "History: Cold War"
+  },
+  {
+    "name": "History: Francia"
+  },
+  {
+    "name": "Islands: Galápagos (Ecuador)"
+  },
+  {
+    "name": "Mechanism: 4X"
+  },
+  {
+    "name": "Mechanism: Artificial Player"
+  },
+  {
+    "name": "Mechanism: Campaign Games"
+  },
+  {
+    "name": "Mechanism: Dice Drafting"
+  },
+  {
+    "name": "Mechanism: Finger Flicking Games"
+  },
+  {
+    "name": "Mechanism: Legacy"
+  },
+  {
+    "name": "Mechanism: Tableau Building"
+  },
+  {
+    "name": "Medical: Diseases"
+  },
+  {
+    "name": "Misc: Dice Tower Hall of Fame"
+  },
+  {
+    "name": "Misc: GettingGames Tutorial Videos"
+  },
+  {
+    "name": "Misc: Limited Replayability"
+  },
+  {
+    "name": "Misc: LongPack Games"
+  },
+  {
+    "name": "Misc: Made by Panda"
+  },
+  {
+    "name": "Misc: Mensa Select"
+  },
+  {
+    "name": "Misc: Watch It Played How To Videos"
+  },
+  {
+    "name": "Movies: Star Wars"
+  },
+  {
+    "name": "Mythology: Arabian"
+  },
+  {
+    "name": "Occupation: Architect"
+  },
+  {
+    "name": "Players: Games with Solitaire Rules"
+  },
+  {
+    "name": "Players: Two-Player Only Games"
+  },
+  {
+    "name": "Region: Middle East"
+  },
+  {
+    "name": "Region: Normandy (France)"
+  },
+  {
+    "name": "Series: Arkham Horror Files (Fantasy Flight Games)"
+  },
+  {
+    "name": "Series: Harvest (Uwe Rosenberg)"
+  },
+  {
+    "name": "Series: Medieval Trilogies (Garphill Games)"
+  },
+  {
+    "name": "Series: Terra Mystica"
+  },
+  {
+    "name": "Series: Two-player games (Kosmos)"
+  },
+  {
+    "name": "Series: War of the Ring (Nexus/Ares Games)"
+  },
+  {
+    "name": "Setting: Android"
+  },
+  {
+    "name": "Setting: Dungeons & Dragons"
+  },
+  {
+    "name": "Setting: Mage Knight"
+  },
+  {
+    "name": "Space: Colonization / Extraterrestrial Colonisation"
+  },
+  {
+    "name": "Space: Earth's Solar System"
+  },
+  {
+    "name": "Sports: Auto Racing"
+  },
+  {
+    "name": "Sports: Formula 1"
+  },
+  {
+    "name": "Theme: Astronomy"
+  },
+  {
+    "name": "Theme: Automotive Industry"
+  },
+  {
+    "name": "Theme: Boss Battle"
+  },
+  {
+    "name": "Theme: Colonial"
+  },
+  {
+    "name": "Theme: Nature"
+  },
+  {
+    "name": "Theme: Under the Sea"
+  },
+  {
+    "name": "Traditional Games: Crokinole"
+  }
+]

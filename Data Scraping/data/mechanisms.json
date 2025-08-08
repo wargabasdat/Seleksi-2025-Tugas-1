@@ -1,0 +1,329 @@
+[
+  {
+    "name": "Action / Event"
+  },
+  {
+    "name": "Action Drafting"
+  },
+  {
+    "name": "Action Points"
+  },
+  {
+    "name": "Action Queue"
+  },
+  {
+    "name": "Action Retrieval"
+  },
+  {
+    "name": "Advantage Token"
+  },
+  {
+    "name": "Alliances"
+  },
+  {
+    "name": "Area Majority / Influence"
+  },
+  {
+    "name": "Area Movement"
+  },
+  {
+    "name": "Area-Impulse"
+  },
+  {
+    "name": "Auction / Bidding"
+  },
+  {
+    "name": "Auction: Dutch"
+  },
+  {
+    "name": "Auction: Turn Order Until Pass"
+  },
+  {
+    "name": "Automatic Resource Growth"
+  },
+  {
+    "name": "Betting and Bluffing"
+  },
+  {
+    "name": "Bias"
+  },
+  {
+    "name": "Bribery"
+  },
+  {
+    "name": "Campaign / Battle Card Driven"
+  },
+  {
+    "name": "Card Play Conflict Resolution"
+  },
+  {
+    "name": "Catch the Leader"
+  },
+  {
+    "name": "Chaining"
+  },
+  {
+    "name": "Chit-Pull System"
+  },
+  {
+    "name": "Closed Drafting"
+  },
+  {
+    "name": "Commodity Speculation"
+  },
+  {
+    "name": "Communication Limits"
+  },
+  {
+    "name": "Connections"
+  },
+  {
+    "name": "Constrained Bidding"
+  },
+  {
+    "name": "Contracts"
+  },
+  {
+    "name": "Cooperative Game"
+  },
+  {
+    "name": "Critical Hits and Failures"
+  },
+  {
+    "name": "Deck Construction"
+  },
+  {
+    "name": "Deck, Bag, and Pool Building"
+  },
+  {
+    "name": "Deduction"
+  },
+  {
+    "name": "Delayed Purchase"
+  },
+  {
+    "name": "Dice Rolling"
+  },
+  {
+    "name": "Die Icon Resolution"
+  },
+  {
+    "name": "Enclosure"
+  },
+  {
+    "name": "End Game Bonuses"
+  },
+  {
+    "name": "Events"
+  },
+  {
+    "name": "Flicking"
+  },
+  {
+    "name": "Follow"
+  },
+  {
+    "name": "Force Commitment"
+  },
+  {
+    "name": "Grid Coverage"
+  },
+  {
+    "name": "Grid Movement"
+  },
+  {
+    "name": "Hand Management"
+  },
+  {
+    "name": "Hexagon Grid"
+  },
+  {
+    "name": "Hidden Roles"
+  },
+  {
+    "name": "Hidden Victory Points"
+  },
+  {
+    "name": "Highest-Lowest Scoring"
+  },
+  {
+    "name": "Hot Potato"
+  },
+  {
+    "name": "Income"
+  },
+  {
+    "name": "Increase Value of Unchosen Resources"
+  },
+  {
+    "name": "Interrupts"
+  },
+  {
+    "name": "Investment"
+  },
+  {
+    "name": "Kill Steal"
+  },
+  {
+    "name": "Layering"
+  },
+  {
+    "name": "Legacy Game"
+  },
+  {
+    "name": "Line of Sight"
+  },
+  {
+    "name": "Loans"
+  },
+  {
+    "name": "Mancala"
+  },
+  {
+    "name": "Map Addition"
+  },
+  {
+    "name": "Map Deformation"
+  },
+  {
+    "name": "Map Reduction"
+  },
+  {
+    "name": "Market"
+  },
+  {
+    "name": "Melding and Splaying"
+  },
+  {
+    "name": "Modular Board"
+  },
+  {
+    "name": "Movement Points"
+  },
+  {
+    "name": "Multi-Use Cards"
+  },
+  {
+    "name": "Narrative Choice / Paragraph"
+  },
+  {
+    "name": "Negotiation"
+  },
+  {
+    "name": "Network and Route Building"
+  },
+  {
+    "name": "Once-Per-Game Abilities"
+  },
+  {
+    "name": "Open Drafting"
+  },
+  {
+    "name": "Ownership"
+  },
+  {
+    "name": "Pattern Building"
+  },
+  {
+    "name": "Pick-up and Deliver"
+  },
+  {
+    "name": "Player Elimination"
+  },
+  {
+    "name": "Point to Point Movement"
+  },
+  {
+    "name": "Prisoner's Dilemma"
+  },
+  {
+    "name": "Programmed Movement"
+  },
+  {
+    "name": "Push Your Luck"
+  },
+  {
+    "name": "Race"
+  },
+  {
+    "name": "Resource to Move"
+  },
+  {
+    "name": "Role Playing"
+  },
+  {
+    "name": "Roles with Asymmetric Information"
+  },
+  {
+    "name": "Scenario / Mission / Campaign Game"
+  },
+  {
+    "name": "Secret Unit Deployment"
+  },
+  {
+    "name": "Selection Order Bid"
+  },
+  {
+    "name": "Set Collection"
+  },
+  {
+    "name": "Simulation"
+  },
+  {
+    "name": "Simultaneous Action Selection"
+  },
+  {
+    "name": "Solo / Solitaire Game"
+  },
+  {
+    "name": "Square Grid"
+  },
+  {
+    "name": "Tags"
+  },
+  {
+    "name": "Take That"
+  },
+  {
+    "name": "Team-Based Game"
+  },
+  {
+    "name": "Tile Placement"
+  },
+  {
+    "name": "Track Movement"
+  },
+  {
+    "name": "Trick-taking"
+  },
+  {
+    "name": "Turn Order: Auction"
+  },
+  {
+    "name": "Turn Order: Claim Action"
+  },
+  {
+    "name": "Turn Order: Progressive"
+  },
+  {
+    "name": "Variable Phase Order"
+  },
+  {
+    "name": "Variable Player Powers"
+  },
+  {
+    "name": "Variable Set-up"
+  },
+  {
+    "name": "Victory Points as a Resource"
+  },
+  {
+    "name": "Voting"
+  },
+  {
+    "name": "Worker Placement"
+  },
+  {
+    "name": "Worker Placement, Different Worker Types"
+  }
+]
