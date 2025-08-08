@@ -1,0 +1,1552 @@
+[
+  {
+    "city_id": 1,
+    "city_name": "Buenos Aires",
+    "country_id": 1
+  },
+  {
+    "city_id": 2,
+    "city_name": "Alexandria",
+    "country_id": 2
+  },
+  {
+    "city_id": 3,
+    "city_name": "Brisbane",
+    "country_id": 2
+  },
+  {
+    "city_id": 4,
+    "city_name": "Melbourne",
+    "country_id": 2
+  },
+  {
+    "city_id": 5,
+    "city_name": "Richmond",
+    "country_id": 2
+  },
+  {
+    "city_id": 6,
+    "city_name": "Surry Hills",
+    "country_id": 2
+  },
+  {
+    "city_id": 7,
+    "city_name": "Sydney",
+    "country_id": 2
+  },
+  {
+    "city_id": 8,
+    "city_name": "Vienna",
+    "country_id": 3
+  },
+  {
+    "city_id": 9,
+    "city_name": "Brussels",
+    "country_id": 4
+  },
+  {
+    "city_id": 10,
+    "city_name": "Ghent",
+    "country_id": 4
+  },
+  {
+    "city_id": 11,
+    "city_name": "Louvain-la-Neuve",
+    "country_id": 4
+  },
+  {
+    "city_id": 12,
+    "city_name": "Campinas",
+    "country_id": 5
+  },
+  {
+    "city_id": 13,
+    "city_name": "Curitiba",
+    "country_id": 5
+  },
+  {
+    "city_id": 14,
+    "city_name": "Parana",
+    "country_id": 5
+  },
+  {
+    "city_id": 15,
+    "city_name": "Sao Paulo",
+    "country_id": 5
+  },
+  {
+    "city_id": 16,
+    "city_name": "Burnaby",
+    "country_id": 6
+  },
+  {
+    "city_id": 17,
+    "city_name": "Kitchener",
+    "country_id": 6
+  },
+  {
+    "city_id": 18,
+    "city_name": "Mississauga",
+    "country_id": 6
+  },
+  {
+    "city_id": 19,
+    "city_name": "Montreal",
+    "country_id": 6
+  },
+  {
+    "city_id": 20,
+    "city_name": "Ottawa",
+    "country_id": 6
+  },
+  {
+    "city_id": 21,
+    "city_name": "Toronto",
+    "country_id": 6
+  },
+  {
+    "city_id": 22,
+    "city_name": "Vancouver",
+    "country_id": 6
+  },
+  {
+    "city_id": 23,
+    "city_name": "Waterloo",
+    "country_id": 6
+  },
+  {
+    "city_id": 24,
+    "city_name": "Grand Cayman",
+    "country_id": 7
+  },
+  {
+    "city_id": 25,
+    "city_name": "Santiago",
+    "country_id": 8
+  },
+  {
+    "city_id": 26,
+    "city_name": "Beijing",
+    "country_id": 9
+  },
+  {
+    "city_id": 27,
+    "city_name": "Changsha",
+    "country_id": 9
+  },
+  {
+    "city_id": 28,
+    "city_name": "Changzhou",
+    "country_id": 9
+  },
+  {
+    "city_id": 29,
+    "city_name": "Chengdu",
+    "country_id": 9
+  },
+  {
+    "city_id": 30,
+    "city_name": "Chongqing",
+    "country_id": 9
+  },
+  {
+    "city_id": 31,
+    "city_name": "Dongguan",
+    "country_id": 9
+  },
+  {
+    "city_id": 32,
+    "city_name": "Guangzhou",
+    "country_id": 9
+  },
+  {
+    "city_id": 33,
+    "city_name": "Guiyang",
+    "country_id": 9
+  },
+  {
+    "city_id": 34,
+    "city_name": "Haidian",
+    "country_id": 9
+  },
+  {
+    "city_id": 35,
+    "city_name": "Haining",
+    "country_id": 9
+  },
+  {
+    "city_id": 36,
+    "city_name": "Hangzhou",
+    "country_id": 9
+  },
+  {
+    "city_id": 37,
+    "city_name": "Hefei",
+    "country_id": 9
+  },
+  {
+    "city_id": 38,
+    "city_name": "Hunan",
+    "country_id": 9
+  },
+  {
+    "city_id": 39,
+    "city_name": "Jiangsu",
+    "country_id": 9
+  },
+  {
+    "city_id": 40,
+    "city_name": "Nanjing",
+    "country_id": 9
+  },
+  {
+    "city_id": 41,
+    "city_name": "Pizhou",
+    "country_id": 9
+  },
+  {
+    "city_id": 42,
+    "city_name": "Pudong",
+    "country_id": 9
+  },
+  {
+    "city_id": 43,
+    "city_name": "Qingdao",
+    "country_id": 9
+  },
+  {
+    "city_id": 44,
+    "city_name": "Shanghai",
+    "country_id": 9
+  },
+  {
+    "city_id": 45,
+    "city_name": "Shenzhen",
+    "country_id": 9
+  },
+  {
+    "city_id": 46,
+    "city_name": "Suzhou",
+    "country_id": 9
+  },
+  {
+    "city_id": 47,
+    "city_name": "Wenzhou",
+    "country_id": 9
+  },
+  {
+    "city_id": 48,
+    "city_name": "Wuhan",
+    "country_id": 9
+  },
+  {
+    "city_id": 49,
+    "city_name": "Wuxi",
+    "country_id": 9
+  },
+  {
+    "city_id": 50,
+    "city_name": "Xuancheng",
+    "country_id": 9
+  },
+  {
+    "city_id": 51,
+    "city_name": "Zhuhai",
+    "country_id": 9
+  },
+  {
+    "city_id": 52,
+    "city_name": "Bogota",
+    "country_id": 10
+  },
+  {
+    "city_id": 53,
+    "city_name": "Sveta Nedelja",
+    "country_id": 11
+  },
+  {
+    "city_id": 54,
+    "city_name": "Vodnjan",
+    "country_id": 11
+  },
+  {
+    "city_id": 55,
+    "city_name": "Prague",
+    "country_id": 12
+  },
+  {
+    "city_id": 56,
+    "city_name": "Aarhus",
+    "country_id": 13
+  },
+  {
+    "city_id": 57,
+    "city_name": "Copenhagen",
+    "country_id": 13
+  },
+  {
+    "city_id": 58,
+    "city_name": "Quito",
+    "country_id": 14
+  },
+  {
+    "city_id": 59,
+    "city_name": "Munich",
+    "country_id": 15
+  },
+  {
+    "city_id": 60,
+    "city_name": "Cairo",
+    "country_id": 16
+  },
+  {
+    "city_id": 61,
+    "city_name": "Tallinn",
+    "country_id": 17
+  },
+  {
+    "city_id": 62,
+    "city_name": "Espoo",
+    "country_id": 18
+  },
+  {
+    "city_id": 63,
+    "city_name": "Helsinki",
+    "country_id": 18
+  },
+  {
+    "city_id": 64,
+    "city_name": "Oulu",
+    "country_id": 18
+  },
+  {
+    "city_id": 65,
+    "city_name": "Cherbourg-Octeville",
+    "country_id": 19
+  },
+  {
+    "city_id": 66,
+    "city_name": "Croix",
+    "country_id": 19
+  },
+  {
+    "city_id": 67,
+    "city_name": "Evry",
+    "country_id": 19
+  },
+  {
+    "city_id": 68,
+    "city_name": "La Plaine Saint-Denis",
+    "country_id": 19
+  },
+  {
+    "city_id": 69,
+    "city_name": "Montpellier",
+    "country_id": 19
+  },
+  {
+    "city_id": 70,
+    "city_name": "Paris",
+    "country_id": 19
+  },
+  {
+    "city_id": 71,
+    "city_name": "Roubaix",
+    "country_id": 19
+  },
+  {
+    "city_id": 72,
+    "city_name": "Berlin",
+    "country_id": 20
+  },
+  {
+    "city_id": 73,
+    "city_name": "Chemnitz",
+    "country_id": 20
+  },
+  {
+    "city_id": 74,
+    "city_name": "Cologne",
+    "country_id": 20
+  },
+  {
+    "city_id": 75,
+    "city_name": "Duderstadt",
+    "country_id": 20
+  },
+  {
+    "city_id": 76,
+    "city_name": "Gilching",
+    "country_id": 20
+  },
+  {
+    "city_id": 77,
+    "city_name": "Hamburg",
+    "country_id": 20
+  },
+  {
+    "city_id": 78,
+    "city_name": "Munchen",
+    "country_id": 20
+  },
+  {
+    "city_id": 79,
+    "city_name": "Munich",
+    "country_id": 20
+  },
+  {
+    "city_id": 80,
+    "city_name": "Unterfoehring",
+    "country_id": 20
+  },
+  {
+    "city_id": 81,
+    "city_name": "Athens",
+    "country_id": 21
+  },
+  {
+    "city_id": 82,
+    "city_name": "Central",
+    "country_id": 22
+  },
+  {
+    "city_id": 83,
+    "city_name": "Hong Kong",
+    "country_id": 22
+  },
+  {
+    "city_id": 84,
+    "city_name": "Kowloon",
+    "country_id": 22
+  },
+  {
+    "city_id": 85,
+    "city_name": "Andheri",
+    "country_id": 23
+  },
+  {
+    "city_id": 86,
+    "city_name": "Bangalore",
+    "country_id": 23
+  },
+  {
+    "city_id": 87,
+    "city_name": "Bengaluru",
+    "country_id": 23
+  },
+  {
+    "city_id": 88,
+    "city_name": "Chennai",
+    "country_id": 23
+  },
+  {
+    "city_id": 89,
+    "city_name": "Faridabad",
+    "country_id": 23
+  },
+  {
+    "city_id": 90,
+    "city_name": "Gurgaon",
+    "country_id": 23
+  },
+  {
+    "city_id": 91,
+    "city_name": "Gurugram",
+    "country_id": 23
+  },
+  {
+    "city_id": 92,
+    "city_name": "Hyderabad",
+    "country_id": 23
+  },
+  {
+    "city_id": 93,
+    "city_name": "Jaipur",
+    "country_id": 23
+  },
+  {
+    "city_id": 94,
+    "city_name": "Madhapur",
+    "country_id": 23
+  },
+  {
+    "city_id": 95,
+    "city_name": "Maharashtra",
+    "country_id": 23
+  },
+  {
+    "city_id": 96,
+    "city_name": "Mumbai",
+    "country_id": 23
+  },
+  {
+    "city_id": 97,
+    "city_name": "New Delhi",
+    "country_id": 23
+  },
+  {
+    "city_id": 98,
+    "city_name": "Noida",
+    "country_id": 23
+  },
+  {
+    "city_id": 99,
+    "city_name": "Pune",
+    "country_id": 23
+  },
+  {
+    "city_id": 100,
+    "city_name": "Thane",
+    "country_id": 23
+  },
+  {
+    "city_id": 101,
+    "city_name": "Uttar Pradesh",
+    "country_id": 23
+  },
+  {
+    "city_id": 102,
+    "city_name": "Bandung",
+    "country_id": 24
+  },
+  {
+    "city_id": 103,
+    "city_name": "Jakarta",
+    "country_id": 24
+  },
+  {
+    "city_id": 104,
+    "city_name": "Dublin",
+    "country_id": 25
+  },
+  {
+    "city_id": 105,
+    "city_name": "Kilkenny",
+    "country_id": 25
+  },
+  {
+    "city_id": 106,
+    "city_name": "Limerick",
+    "country_id": 25
+  },
+  {
+    "city_id": 107,
+    "city_name": "Giv'atayim",
+    "country_id": 26
+  },
+  {
+    "city_id": 108,
+    "city_name": "Herzliya",
+    "country_id": 26
+  },
+  {
+    "city_id": 109,
+    "city_name": "Jerusalem",
+    "country_id": 26
+  },
+  {
+    "city_id": 110,
+    "city_name": "Netanya",
+    "country_id": 26
+  },
+  {
+    "city_id": 111,
+    "city_name": "Petah Tikva",
+    "country_id": 26
+  },
+  {
+    "city_id": 112,
+    "city_name": "Ra'anana",
+    "country_id": 26
+  },
+  {
+    "city_id": 113,
+    "city_name": "Ramat Gan",
+    "country_id": 26
+  },
+  {
+    "city_id": 114,
+    "city_name": "Tel Aviv",
+    "country_id": 26
+  },
+  {
+    "city_id": 115,
+    "city_name": "Yehud",
+    "country_id": 26
+  },
+  {
+    "city_id": 116,
+    "city_name": "Milan",
+    "country_id": 27
+  },
+  {
+    "city_id": 117,
+    "city_name": "Tokyo",
+    "country_id": 28
+  },
+  {
+    "city_id": 118,
+    "city_name": "Tsuruoka",
+    "country_id": 28
+  },
+  {
+    "city_id": 119,
+    "city_name": "Vaduz",
+    "country_id": 29
+  },
+  {
+    "city_id": 120,
+    "city_name": "Vilnius",
+    "country_id": 30
+  },
+  {
+    "city_id": 121,
+    "city_name": "Leudelange",
+    "country_id": 31
+  },
+  {
+    "city_id": 122,
+    "city_name": "Selangor",
+    "country_id": 32
+  },
+  {
+    "city_id": 123,
+    "city_name": "St. Julians",
+    "country_id": 33
+  },
+  {
+    "city_id": 124,
+    "city_name": "Juarez",
+    "country_id": 34
+  },
+  {
+    "city_id": 125,
+    "city_name": "Lerma de Villada",
+    "country_id": 34
+  },
+  {
+    "city_id": 126,
+    "city_name": "Mexico City",
+    "country_id": 34
+  },
+  {
+    "city_id": 127,
+    "city_name": "Monterrey",
+    "country_id": 34
+  },
+  {
+    "city_id": 128,
+    "city_name": "Amsterdam",
+    "country_id": 35
+  },
+  {
+    "city_id": 129,
+    "city_name": "Auckland",
+    "country_id": 36
+  },
+  {
+    "city_id": 130,
+    "city_name": "Lagos",
+    "country_id": 37
+  },
+  {
+    "city_id": 131,
+    "city_name": "Lysaker",
+    "country_id": 38
+  },
+  {
+    "city_id": 132,
+    "city_name": "Oslo",
+    "country_id": 38
+  },
+  {
+    "city_id": 133,
+    "city_name": "Manila",
+    "country_id": 39
+  },
+  {
+    "city_id": 134,
+    "city_name": "Lisbon",
+    "country_id": 40
+  },
+  {
+    "city_id": 135,
+    "city_name": "Riyadh",
+    "country_id": 41
+  },
+  {
+    "city_id": 136,
+    "city_name": "Dakar",
+    "country_id": 42
+  },
+  {
+    "city_id": 137,
+    "city_name": "Victoria",
+    "country_id": 43
+  },
+  {
+    "city_id": 138,
+    "city_name": "Bryanston",
+    "country_id": 45
+  },
+  {
+    "city_id": 139,
+    "city_name": "Seoul",
+    "country_id": 46
+  },
+  {
+    "city_id": 140,
+    "city_name": "Banyeres de Mariola",
+    "country_id": 47
+  },
+  {
+    "city_id": 141,
+    "city_name": "Barcelona",
+    "country_id": 47
+  },
+  {
+    "city_id": 142,
+    "city_name": "Madrid",
+    "country_id": 47
+  },
+  {
+    "city_id": 143,
+    "city_name": "Stockholm",
+    "country_id": 48
+  },
+  {
+    "city_id": 144,
+    "city_name": "Geneva",
+    "country_id": 49
+  },
+  {
+    "city_id": 145,
+    "city_name": "Lausanne",
+    "country_id": 49
+  },
+  {
+    "city_id": 146,
+    "city_name": "Prilly",
+    "country_id": 49
+  },
+  {
+    "city_id": 147,
+    "city_name": "Zurich",
+    "country_id": 49
+  },
+  {
+    "city_id": 148,
+    "city_name": "Bangkok",
+    "country_id": 50
+  },
+  {
+    "city_id": 149,
+    "city_name": "Istanbul",
+    "country_id": 51
+  },
+  {
+    "city_id": 150,
+    "city_name": "Abu Dhabi",
+    "country_id": 52
+  },
+  {
+    "city_id": 151,
+    "city_name": "Dubai",
+    "country_id": 52
+  },
+  {
+    "city_id": 152,
+    "city_name": "Aberdeen",
+    "country_id": 53
+  },
+  {
+    "city_id": 153,
+    "city_name": "Altrincham",
+    "country_id": 53
+  },
+  {
+    "city_id": 154,
+    "city_name": "Bristol",
+    "country_id": 53
+  },
+  {
+    "city_id": 155,
+    "city_name": "Cambridge",
+    "country_id": 53
+  },
+  {
+    "city_id": 156,
+    "city_name": "Colchester",
+    "country_id": 53
+  },
+  {
+    "city_id": 157,
+    "city_name": "Crewe",
+    "country_id": 53
+  },
+  {
+    "city_id": 158,
+    "city_name": "Gloucester",
+    "country_id": 53
+  },
+  {
+    "city_id": 159,
+    "city_name": "London",
+    "country_id": 53
+  },
+  {
+    "city_id": 160,
+    "city_name": "Manchester",
+    "country_id": 53
+  },
+  {
+    "city_id": 161,
+    "city_name": "Oxfordshire",
+    "country_id": 53
+  },
+  {
+    "city_id": 162,
+    "city_name": "Peterborough",
+    "country_id": 53
+  },
+  {
+    "city_id": 163,
+    "city_name": "Solihull",
+    "country_id": 53
+  },
+  {
+    "city_id": 164,
+    "city_name": "Alameda",
+    "country_id": 54
+  },
+  {
+    "city_id": 165,
+    "city_name": "Ambler",
+    "country_id": 54
+  },
+  {
+    "city_id": 166,
+    "city_name": "Atlanta",
+    "country_id": 54
+  },
+  {
+    "city_id": 167,
+    "city_name": "Austin",
+    "country_id": 54
+  },
+  {
+    "city_id": 168,
+    "city_name": "Bellevue",
+    "country_id": 54
+  },
+  {
+    "city_id": 169,
+    "city_name": "Bellingham",
+    "country_id": 54
+  },
+  {
+    "city_id": 170,
+    "city_name": "Bend",
+    "country_id": 54
+  },
+  {
+    "city_id": 171,
+    "city_name": "Berkeley",
+    "country_id": 54
+  },
+  {
+    "city_id": 172,
+    "city_name": "Berkeley Heights",
+    "country_id": 54
+  },
+  {
+    "city_id": 173,
+    "city_name": "Bethesda",
+    "country_id": 54
+  },
+  {
+    "city_id": 174,
+    "city_name": "Boca Raton",
+    "country_id": 54
+  },
+  {
+    "city_id": 175,
+    "city_name": "Boise",
+    "country_id": 54
+  },
+  {
+    "city_id": 176,
+    "city_name": "Boston",
+    "country_id": 54
+  },
+  {
+    "city_id": 177,
+    "city_name": "Boulder",
+    "country_id": 54
+  },
+  {
+    "city_id": 178,
+    "city_name": "Brisbane",
+    "country_id": 54
+  },
+  {
+    "city_id": 179,
+    "city_name": "Brookline",
+    "country_id": 54
+  },
+  {
+    "city_id": 180,
+    "city_name": "Brooklyn",
+    "country_id": 54
+  },
+  {
+    "city_id": 181,
+    "city_name": "Burlingame",
+    "country_id": 54
+  },
+  {
+    "city_id": 182,
+    "city_name": "Burlington",
+    "country_id": 54
+  },
+  {
+    "city_id": 183,
+    "city_name": "Cambridge",
+    "country_id": 54
+  },
+  {
+    "city_id": 184,
+    "city_name": "Campbell",
+    "country_id": 54
+  },
+  {
+    "city_id": 185,
+    "city_name": "Carlsbad",
+    "country_id": 54
+  },
+  {
+    "city_id": 186,
+    "city_name": "Carson City",
+    "country_id": 54
+  },
+  {
+    "city_id": 187,
+    "city_name": "Cary",
+    "country_id": 54
+  },
+  {
+    "city_id": 188,
+    "city_name": "Cedar Park",
+    "country_id": 54
+  },
+  {
+    "city_id": 189,
+    "city_name": "Charleston",
+    "country_id": 54
+  },
+  {
+    "city_id": 190,
+    "city_name": "Charlotte",
+    "country_id": 54
+  },
+  {
+    "city_id": 191,
+    "city_name": "Chatham",
+    "country_id": 54
+  },
+  {
+    "city_id": 192,
+    "city_name": "Chicago",
+    "country_id": 54
+  },
+  {
+    "city_id": 193,
+    "city_name": "Cincinnati",
+    "country_id": 54
+  },
+  {
+    "city_id": 194,
+    "city_name": "Colorado Springs",
+    "country_id": 54
+  },
+  {
+    "city_id": 195,
+    "city_name": "Columbus",
+    "country_id": 54
+  },
+  {
+    "city_id": 196,
+    "city_name": "Covina",
+    "country_id": 54
+  },
+  {
+    "city_id": 197,
+    "city_name": "Culver City",
+    "country_id": 54
+  },
+  {
+    "city_id": 198,
+    "city_name": "Dallas",
+    "country_id": 54
+  },
+  {
+    "city_id": 199,
+    "city_name": "DC",
+    "country_id": 54
+  },
+  {
+    "city_id": 200,
+    "city_name": "Denver",
+    "country_id": 54
+  },
+  {
+    "city_id": 201,
+    "city_name": "Detroit",
+    "country_id": 54
+  },
+  {
+    "city_id": 202,
+    "city_name": "Draper",
+    "country_id": 54
+  },
+  {
+    "city_id": 203,
+    "city_name": "Dublin",
+    "country_id": 54
+  },
+  {
+    "city_id": 204,
+    "city_name": "Durham",
+    "country_id": 54
+  },
+  {
+    "city_id": 205,
+    "city_name": "Eden Prairie",
+    "country_id": 54
+  },
+  {
+    "city_id": 206,
+    "city_name": "El Segundo",
+    "country_id": 54
+  },
+  {
+    "city_id": 207,
+    "city_name": "Ellicott City",
+    "country_id": 54
+  },
+  {
+    "city_id": 208,
+    "city_name": "Encinitas",
+    "country_id": 54
+  },
+  {
+    "city_id": 209,
+    "city_name": "Englewood",
+    "country_id": 54
+  },
+  {
+    "city_id": 210,
+    "city_name": "Fort Lee",
+    "country_id": 54
+  },
+  {
+    "city_id": 211,
+    "city_name": "Fort Mill",
+    "country_id": 54
+  },
+  {
+    "city_id": 212,
+    "city_name": "Framingham",
+    "country_id": 54
+  },
+  {
+    "city_id": 213,
+    "city_name": "Fremont",
+    "country_id": 54
+  },
+  {
+    "city_id": 214,
+    "city_name": "Glendale",
+    "country_id": 54
+  },
+  {
+    "city_id": 215,
+    "city_name": "Goleta",
+    "country_id": 54
+  },
+  {
+    "city_id": 216,
+    "city_name": "Greenwood Village",
+    "country_id": 54
+  },
+  {
+    "city_id": 217,
+    "city_name": "Hanover",
+    "country_id": 54
+  },
+  {
+    "city_id": 218,
+    "city_name": "Hawthorne",
+    "country_id": 54
+  },
+  {
+    "city_id": 219,
+    "city_name": "Hayward",
+    "country_id": 54
+  },
+  {
+    "city_id": 220,
+    "city_name": "Herndon",
+    "country_id": 54
+  },
+  {
+    "city_id": 221,
+    "city_name": "Hoboken",
+    "country_id": 54
+  },
+  {
+    "city_id": 222,
+    "city_name": "Honolulu",
+    "country_id": 54
+  },
+  {
+    "city_id": 223,
+    "city_name": "Houston",
+    "country_id": 54
+  },
+  {
+    "city_id": 224,
+    "city_name": "Incline Village",
+    "country_id": 54
+  },
+  {
+    "city_id": 225,
+    "city_name": "Independence",
+    "country_id": 54
+  },
+  {
+    "city_id": 226,
+    "city_name": "Inglewood",
+    "country_id": 54
+  },
+  {
+    "city_id": 227,
+    "city_name": "Irvine",
+    "country_id": 54
+  },
+  {
+    "city_id": 228,
+    "city_name": "Irving",
+    "country_id": 54
+  },
+  {
+    "city_id": 229,
+    "city_name": "Islandia",
+    "country_id": 54
+  },
+  {
+    "city_id": 230,
+    "city_name": "Jacksonville",
+    "country_id": 54
+  },
+  {
+    "city_id": 231,
+    "city_name": "Jersey City",
+    "country_id": 54
+  },
+  {
+    "city_id": 232,
+    "city_name": "Kindbody",
+    "country_id": 54
+  },
+  {
+    "city_id": 233,
+    "city_name": "Kirkland",
+    "country_id": 54
+  },
+  {
+    "city_id": 234,
+    "city_name": "Las Vegas",
+    "country_id": 54
+  },
+  {
+    "city_id": 235,
+    "city_name": "Leawood",
+    "country_id": 54
+  },
+  {
+    "city_id": 236,
+    "city_name": "Lehi",
+    "country_id": 54
+  },
+  {
+    "city_id": 237,
+    "city_name": "Lincoln",
+    "country_id": 54
+  },
+  {
+    "city_id": 238,
+    "city_name": "Lindon",
+    "country_id": 54
+  },
+  {
+    "city_id": 239,
+    "city_name": "Long Beach",
+    "country_id": 54
+  },
+  {
+    "city_id": 240,
+    "city_name": "Los Altos",
+    "country_id": 54
+  },
+  {
+    "city_id": 241,
+    "city_name": "Los Angeles",
+    "country_id": 54
+  },
+  {
+    "city_id": 242,
+    "city_name": "Louisville",
+    "country_id": 54
+  },
+  {
+    "city_id": 243,
+    "city_name": "Madison",
+    "country_id": 54
+  },
+  {
+    "city_id": 244,
+    "city_name": "Marina del Rey",
+    "country_id": 54
+  },
+  {
+    "city_id": 245,
+    "city_name": "McLean",
+    "country_id": 54
+  },
+  {
+    "city_id": 246,
+    "city_name": "Menlo Park",
+    "country_id": 54
+  },
+  {
+    "city_id": 247,
+    "city_name": "Miami",
+    "country_id": 54
+  },
+  {
+    "city_id": 248,
+    "city_name": "Milpitas",
+    "country_id": 54
+  },
+  {
+    "city_id": 249,
+    "city_name": "Morrisville",
+    "country_id": 54
+  },
+  {
+    "city_id": 250,
+    "city_name": "Mountain View",
+    "country_id": 54
+  },
+  {
+    "city_id": 251,
+    "city_name": "Nashville",
+    "country_id": 54
+  },
+  {
+    "city_id": 252,
+    "city_name": "Natick",
+    "country_id": 54
+  },
+  {
+    "city_id": 253,
+    "city_name": "New York",
+    "country_id": 54
+  },
+  {
+    "city_id": 254,
+    "city_name": "Northbrook",
+    "country_id": 54
+  },
+  {
+    "city_id": 255,
+    "city_name": "Novi",
+    "country_id": 54
+  },
+  {
+    "city_id": 256,
+    "city_name": "Oakland",
+    "country_id": 54
+  },
+  {
+    "city_id": 257,
+    "city_name": "Orlando",
+    "country_id": 54
+  },
+  {
+    "city_id": 258,
+    "city_name": "Palo Alto",
+    "country_id": 54
+  },
+  {
+    "city_id": 259,
+    "city_name": "Pennsauken",
+    "country_id": 54
+  },
+  {
+    "city_id": 260,
+    "city_name": "Pflugerville",
+    "country_id": 54
+  },
+  {
+    "city_id": 261,
+    "city_name": "Philadelphia",
+    "country_id": 54
+  },
+  {
+    "city_id": 262,
+    "city_name": "Pittsburgh",
+    "country_id": 54
+  },
+  {
+    "city_id": 263,
+    "city_name": "Plantation",
+    "country_id": 54
+  },
+  {
+    "city_id": 264,
+    "city_name": "Pleasanton",
+    "country_id": 54
+  },
+  {
+    "city_id": 265,
+    "city_name": "Port Washington",
+    "country_id": 54
+  },
+  {
+    "city_id": 266,
+    "city_name": "Portland",
+    "country_id": 54
+  },
+  {
+    "city_id": 267,
+    "city_name": "Portola Valley",
+    "country_id": 54
+  },
+  {
+    "city_id": 268,
+    "city_name": "Princeton",
+    "country_id": 54
+  },
+  {
+    "city_id": 269,
+    "city_name": "Quincy",
+    "country_id": 54
+  },
+  {
+    "city_id": 270,
+    "city_name": "Raleigh",
+    "country_id": 54
+  },
+  {
+    "city_id": 271,
+    "city_name": "Redmond",
+    "country_id": 54
+  },
+  {
+    "city_id": 272,
+    "city_name": "Redwood City",
+    "country_id": 54
+  },
+  {
+    "city_id": 273,
+    "city_name": "Roseville",
+    "country_id": 54
+  },
+  {
+    "city_id": 274,
+    "city_name": "Sacramento",
+    "country_id": 54
+  },
+  {
+    "city_id": 275,
+    "city_name": "Salt Lake City",
+    "country_id": 54
+  },
+  {
+    "city_id": 276,
+    "city_name": "San Carlos",
+    "country_id": 54
+  },
+  {
+    "city_id": 277,
+    "city_name": "San Diego",
+    "country_id": 54
+  },
+  {
+    "city_id": 278,
+    "city_name": "San Francisco",
+    "country_id": 54
+  },
+  {
+    "city_id": 279,
+    "city_name": "San Fransisco",
+    "country_id": 54
+  },
+  {
+    "city_id": 280,
+    "city_name": "San Jose",
+    "country_id": 54
+  },
+  {
+    "city_id": 281,
+    "city_name": "San Mateo",
+    "country_id": 54
+  },
+  {
+    "city_id": 282,
+    "city_name": "San Ramon",
+    "country_id": 54
+  },
+  {
+    "city_id": 283,
+    "city_name": "Santa Barbara",
+    "country_id": 54
+  },
+  {
+    "city_id": 284,
+    "city_name": "Santa Clara",
+    "country_id": 54
+  },
+  {
+    "city_id": 285,
+    "city_name": "Santa Cruz",
+    "country_id": 54
+  },
+  {
+    "city_id": 286,
+    "city_name": "Santa Monica",
+    "country_id": 54
+  },
+  {
+    "city_id": 287,
+    "city_name": "Sarasota",
+    "country_id": 54
+  },
+  {
+    "city_id": 288,
+    "city_name": "Scotts Valley",
+    "country_id": 54
+  },
+  {
+    "city_id": 289,
+    "city_name": "Scottsdale",
+    "country_id": 54
+  },
+  {
+    "city_id": 290,
+    "city_name": "Seattle",
+    "country_id": 54
+  },
+  {
+    "city_id": 291,
+    "city_name": "Sherman Oaks",
+    "country_id": 54
+  },
+  {
+    "city_id": 292,
+    "city_name": "Somerville",
+    "country_id": 54
+  },
+  {
+    "city_id": 293,
+    "city_name": "South Burlington",
+    "country_id": 54
+  },
+  {
+    "city_id": 294,
+    "city_name": "South Jordan",
+    "country_id": 54
+  },
+  {
+    "city_id": 295,
+    "city_name": "South San Francisco",
+    "country_id": 54
+  },
+  {
+    "city_id": 296,
+    "city_name": "Stanford",
+    "country_id": 54
+  },
+  {
+    "city_id": 297,
+    "city_name": "Sunnyvale",
+    "country_id": 54
+  },
+  {
+    "city_id": 298,
+    "city_name": "Tampa",
+    "country_id": 54
+  },
+  {
+    "city_id": 299,
+    "city_name": "Torrance",
+    "country_id": 54
+  },
+  {
+    "city_id": 300,
+    "city_name": "Venice",
+    "country_id": 54
+  },
+  {
+    "city_id": 301,
+    "city_name": "Vienna",
+    "country_id": 54
+  },
+  {
+    "city_id": 302,
+    "city_name": "Waltham",
+    "country_id": 54
+  },
+  {
+    "city_id": 303,
+    "city_name": "Washington DC",
+    "country_id": 54
+  },
+  {
+    "city_id": 304,
+    "city_name": "Westborough",
+    "country_id": 54
+  },
+  {
+    "city_id": 305,
+    "city_name": "Westerville",
+    "country_id": 54
+  },
+  {
+    "city_id": 306,
+    "city_name": "Wilmington",
+    "country_id": 54
+  },
+  {
+    "city_id": 307,
+    "city_name": "Woburn",
+    "country_id": 54
+  },
+  {
+    "city_id": 308,
+    "city_name": "Zephyr Cove",
+    "country_id": 54
+  },
+  {
+    "city_id": 309,
+    "city_name": "Tashkent",
+    "country_id": 55
+  },
+  {
+    "city_id": 310,
+    "city_name": "Ho Chi Minh City",
+    "country_id": 56
+  }
+]
