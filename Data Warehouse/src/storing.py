@@ -206,4 +206,3 @@ if __name__ == "__main__":
     conn.commit()
     cursor.close()
     conn.close()
-    print("Data warehouse berhasil dibuat dan diisi.")

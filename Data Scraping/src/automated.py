@@ -76,16 +76,16 @@ def main():
             continue
     driver.quit()
 
-    # Overwrite JSON
+    # overwrite JSON
     write_data_to_json(final_data)
     save_json(community_json, COMM_JSON_PATH)
     save_json(creator_json, CREATOR_JSON_PATH)
 
-    # Run preprocess & storing
+    # run preprocess & storing
     subprocess.run([sys.executable, PREPROCESS_PATH], check=False)
     subprocess.run([sys.executable, STORING_PATH], check=False)
 
-    # Append log
+    # append log
     now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(LOG_PATH, 'a', encoding='utf-8') as log:
         log.write(f"[{now}] OK: scraping + preprocess + storing selesai. Total games: {len(final_data)}\n")

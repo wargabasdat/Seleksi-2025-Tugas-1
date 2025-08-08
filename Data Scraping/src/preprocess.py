@@ -4,12 +4,12 @@ import os
 from datetime import datetime
 
 def clean_title(title):
-    """Remove emojis and special characters, keep only alphanumeric and basic punctuation"""
+    # remove emojis and special characters
     cleaned = re.sub(r'[^\w\s\-\.\(\)\[\]\'\"]+', '', title)
     return cleaned.strip()
 
 def parse_number(value):
-    """Convert K, M, B format numbers to integers"""
+    # convert K, M, B format numbers to integers
     if isinstance(value, (int, float)):
         return int(value)
     value_str = str(value).replace(',', '').replace('+', '').strip()
@@ -26,7 +26,7 @@ def parse_number(value):
             return 0
 
 def convert_date(date_str):
-    """Convert MM/DD/YYYY to YYYY-MM-DD"""
+    # convert MM/DD/YYYY to YYYY-MM-DD
     try:
         date_obj = datetime.strptime(date_str, '%m/%d/%Y')
         return date_obj.strftime('%Y-%m-%d')
@@ -208,7 +208,7 @@ def main():
     save_json('creator_preprocessed.json', tcr)
     save_json('genre_preprocessed.json', genre_table)
     save_json('maturity_preprocessed.json', maturity_table)
-    print("Done! Output saved in data/preprocessed/")
+    print("Output saved in data/preprocessed/")
 
 if __name__ == "__main__":
     main()
