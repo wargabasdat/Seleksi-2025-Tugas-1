@@ -126,9 +126,9 @@ DBMS yang digunakan adalah **MariaDB / MySQL** karena mendukung tipe data yang d
 - Foreign key digunakan untuk menjaga referensial antar tabel.
 
 # Screenshots
-![Alt Text](Data Storing/screenshot/painting.png)
-![Alt Text](Data Storing/screenshot/museum(1).png)
-![Alt Text](Data Storing/screenshot/artist(1).png)
+<img src="Data Storing/screenshot/painting.png" width="500">
+<img src="Data Storing/screenshot/museum(1).png" width="500">
+<img src="Data Storing/screenshot/artist(1).png" width="500">
 
 # Library
 ### Library yang Digunakan
