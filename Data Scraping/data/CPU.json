@@ -1,0 +1,1782 @@
+[
+  {
+    "cpu": "Apple M4 Pro (14-core CPU)",
+    "laptop_rank": 1,
+    "laptop_name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)"
+  },
+  {
+    "cpu": "Apple M4 Pro (12-core CPU)",
+    "laptop_rank": 1,
+    "laptop_name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)"
+  },
+  {
+    "cpu": "Apple M4 Max (16-core CPU)",
+    "laptop_rank": 1,
+    "laptop_name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)"
+  },
+  {
+    "cpu": "Apple M4 Max (14-core CPU)",
+    "laptop_rank": 1,
+    "laptop_name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)"
+  },
+  {
+    "cpu": "Apple M4 Pro (14-core CPU)",
+    "laptop_rank": 2,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2024)"
+  },
+  {
+    "cpu": "Apple M4 Max (16-core CPU)",
+    "laptop_rank": 2,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2024)"
+  },
+  {
+    "cpu": "Apple M4 Max (14-core CPU)",
+    "laptop_rank": 2,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2024)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 268V",
+    "laptop_rank": 3,
+    "laptop_name": "Lenovo ThinkPad X9-15 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 258V",
+    "laptop_rank": 3,
+    "laptop_name": "Lenovo ThinkPad X9-15 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 238V",
+    "laptop_rank": 3,
+    "laptop_name": "Lenovo ThinkPad X9-15 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 228V",
+    "laptop_rank": 3,
+    "laptop_name": "Lenovo ThinkPad X9-15 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 226V",
+    "laptop_rank": 3,
+    "laptop_name": "Lenovo ThinkPad X9-15 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 4,
+    "laptop_name": "Lenovo ThinkPad P16v Gen 2 (Intel)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165H",
+    "laptop_rank": 4,
+    "laptop_name": "Lenovo ThinkPad P16v Gen 2 (Intel)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 4,
+    "laptop_name": "Lenovo ThinkPad P16v Gen 2 (Intel)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 258V",
+    "laptop_rank": 5,
+    "laptop_name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 256V",
+    "laptop_rank": 5,
+    "laptop_name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 5,
+    "laptop_name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 228V",
+    "laptop_rank": 5,
+    "laptop_name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 226V",
+    "laptop_rank": 5,
+    "laptop_name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)"
+  },
+  {
+    "cpu": "Apple M3 Pro (12-core CPU)",
+    "laptop_rank": 6,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2023)"
+  },
+  {
+    "cpu": "Apple M3 Max (16-core CPU)",
+    "laptop_rank": 6,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2023)"
+  },
+  {
+    "cpu": "Apple M3 Max (14-core CPU)",
+    "laptop_rank": 6,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2023)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165H",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 135H",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125H",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8840HS",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 7735HS",
+    "laptop_rank": 8,
+    "laptop_name": "Lenovo Yoga Pro 7 (14\", 14ARP8)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 7535HS",
+    "laptop_rank": 8,
+    "laptop_name": "Lenovo Yoga Pro 7 (14\", 14ARP8)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "cpu": "Intel Core i7-14650HX",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 275HX",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 255HX",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 275HX",
+    "laptop_rank": 10,
+    "laptop_name": "Lenovo Legion Pro 7i (16\", Gen 10)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 285H",
+    "laptop_rank": 11,
+    "laptop_name": "ASUS Zenbook DUO (UX8406)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 11,
+    "laptop_name": "ASUS Zenbook DUO (UX8406)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 255H",
+    "laptop_rank": 11,
+    "laptop_name": "ASUS Zenbook DUO (UX8406)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 11,
+    "laptop_name": "ASUS Zenbook DUO (UX8406)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125H",
+    "laptop_rank": 11,
+    "laptop_name": "ASUS Zenbook DUO (UX8406)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 288V",
+    "laptop_rank": 12,
+    "laptop_name": "HP OmniBook Ultra Flip (14-fh0000)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 258V",
+    "laptop_rank": 12,
+    "laptop_name": "HP OmniBook Ultra Flip (14-fh0000)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 256V",
+    "laptop_rank": 12,
+    "laptop_name": "HP OmniBook Ultra Flip (14-fh0000)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 12,
+    "laptop_name": "HP OmniBook Ultra Flip (14-fh0000)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 226V",
+    "laptop_rank": 12,
+    "laptop_name": "HP OmniBook Ultra Flip (14-fh0000)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 288V",
+    "laptop_rank": 13,
+    "laptop_name": "Acer Swift 16 AI (SF16-51 / SF16-51T)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 258V",
+    "laptop_rank": 13,
+    "laptop_name": "Acer Swift 16 AI (SF16-51 / SF16-51T)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 256V",
+    "laptop_rank": 13,
+    "laptop_name": "Acer Swift 16 AI (SF16-51 / SF16-51T)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 228V",
+    "laptop_rank": 13,
+    "laptop_name": "Acer Swift 16 AI (SF16-51 / SF16-51T)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 226V",
+    "laptop_rank": 13,
+    "laptop_name": "Acer Swift 16 AI (SF16-51 / SF16-51T)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165H",
+    "laptop_rank": 14,
+    "laptop_name": "HP EliteBook 1040 G11"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155U",
+    "laptop_rank": 14,
+    "laptop_name": "HP EliteBook 1040 G11"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 14,
+    "laptop_name": "HP EliteBook 1040 G11"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 135H",
+    "laptop_rank": 14,
+    "laptop_name": "HP EliteBook 1040 G11"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125H",
+    "laptop_rank": 14,
+    "laptop_name": "HP EliteBook 1040 G11"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 275HX",
+    "laptop_rank": 15,
+    "laptop_name": "ASUS ROG Strix SCAR 18 G835"
+  },
+  {
+    "cpu": "Apple M3 (8-core CPU)",
+    "laptop_rank": 16,
+    "laptop_name": "Apple MacBook Air 15 (Early 2024)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 17,
+    "laptop_name": "ASUS ROG Strix G18 G815"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 275HX",
+    "laptop_rank": 17,
+    "laptop_name": "ASUS ROG Strix G18 G815"
+  },
+  {
+    "cpu": "Intel Core i7-1370P",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "cpu": "Intel Core i7-1365U",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "cpu": "Intel Core i7-1360P",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "cpu": "Intel Core i7-1355U",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1345U",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1340P",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1335U",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 19,
+    "laptop_name": "Acer Predator Triton Neo 16 (PTN16-51)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 19,
+    "laptop_name": "Acer Predator Triton Neo 16 (PTN16-51)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125H",
+    "laptop_rank": 19,
+    "laptop_name": "Acer Predator Triton Neo 16 (PTN16-51)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 20,
+    "laptop_name": "Lenovo Legion Pro 7i (16\", Gen 9)"
+  },
+  {
+    "cpu": "Apple M3 (8-core CPU)",
+    "laptop_rank": 21,
+    "laptop_name": "Apple MacBook Air 13 (Early 2024)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 7940HS",
+    "laptop_rank": 22,
+    "laptop_name": "ASUS ROG Zephyrus G14 (GA402, 2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 7735HS",
+    "laptop_rank": 22,
+    "laptop_name": "ASUS ROG Zephyrus G14 (GA402, 2023)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 285H",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 255H",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155U",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125H",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 225H",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "cpu": "Intel Core i9-13900HX",
+    "laptop_rank": 24,
+    "laptop_name": "Acer Predator Helios 16 (PH16-71)"
+  },
+  {
+    "cpu": "Intel Core i7-13700HX",
+    "laptop_rank": 24,
+    "laptop_name": "Acer Predator Helios 16 (PH16-71)"
+  },
+  {
+    "cpu": "AMD Ryzen AI Max+ 395",
+    "laptop_rank": 25,
+    "laptop_name": "ASUS ROG Flow Z13 GZ302"
+  },
+  {
+    "cpu": "AMD Ryzen AI Max 390",
+    "laptop_rank": 25,
+    "laptop_name": "ASUS ROG Flow Z13 GZ302"
+  },
+  {
+    "cpu": "AMD Ryzen AI Max 385",
+    "laptop_rank": 25,
+    "laptop_name": "ASUS ROG Flow Z13 GZ302"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 258V",
+    "laptop_rank": 26,
+    "laptop_name": "Lenovo Yoga Slim 7 Aura Edition (15ILL9)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 256V",
+    "laptop_rank": 26,
+    "laptop_name": "Lenovo Yoga Slim 7 Aura Edition (15ILL9)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 285HX",
+    "laptop_rank": 27,
+    "laptop_name": "MSI Vector 16 HX AI (A2XWx)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 275HX",
+    "laptop_rank": 27,
+    "laptop_name": "MSI Vector 16 HX AI (A2XWx)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 255HX",
+    "laptop_rank": 27,
+    "laptop_name": "MSI Vector 16 HX AI (A2XWx)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 28,
+    "laptop_name": "Acer Predator Helios 16 (PH16-72)"
+  },
+  {
+    "cpu": "Intel Core i7-14700HX",
+    "laptop_rank": 28,
+    "laptop_name": "Acer Predator Helios 16 (PH16-72)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 268V",
+    "laptop_rank": 29,
+    "laptop_name": "Lenovo ThinkPad X9-14 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 258V",
+    "laptop_rank": 29,
+    "laptop_name": "Lenovo ThinkPad X9-14 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 238V",
+    "laptop_rank": 29,
+    "laptop_name": "Lenovo ThinkPad X9-14 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 228V",
+    "laptop_rank": 29,
+    "laptop_name": "Lenovo ThinkPad X9-14 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 226V",
+    "laptop_rank": 29,
+    "laptop_name": "Lenovo ThinkPad X9-14 Gen 1"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 285HX",
+    "laptop_rank": 30,
+    "laptop_name": "MSI Titan 18 HX AI (A2XWx)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 31,
+    "laptop_name": "ASUS ROG Strix G18 (G814, 2024)"
+  },
+  {
+    "cpu": "Intel Core i9-13900HX",
+    "laptop_rank": 31,
+    "laptop_name": "ASUS ROG Strix G18 (G814, 2024)"
+  },
+  {
+    "cpu": "Intel Core i9-13900H",
+    "laptop_rank": 32,
+    "laptop_name": "MSI Pulse 15 (B13Vx)"
+  },
+  {
+    "cpu": "Intel Core i7-13700H",
+    "laptop_rank": 32,
+    "laptop_name": "MSI Pulse 15 (B13Vx)"
+  },
+  {
+    "cpu": "Intel Core i7-13620H",
+    "laptop_rank": 32,
+    "laptop_name": "MSI Pulse 15 (B13Vx)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 7940HS",
+    "laptop_rank": 33,
+    "laptop_name": "Acer Nitro 17 (AN17-41)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 7840HS",
+    "laptop_rank": 33,
+    "laptop_name": "Acer Nitro 17 (AN17-41)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 7735HS",
+    "laptop_rank": 33,
+    "laptop_name": "Acer Nitro 17 (AN17-41)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 7640HS",
+    "laptop_rank": 33,
+    "laptop_name": "Acer Nitro 17 (AN17-41)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 7535HS",
+    "laptop_rank": 33,
+    "laptop_name": "Acer Nitro 17 (AN17-41)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 7730U",
+    "laptop_rank": 34,
+    "laptop_name": "ASUS Zenbook 14 UM3402 (Ryzen 7000 Series)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 7530U",
+    "laptop_rank": 34,
+    "laptop_name": "ASUS Zenbook 14 UM3402 (Ryzen 7000 Series)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 7430U",
+    "laptop_rank": 34,
+    "laptop_name": "ASUS Zenbook 14 UM3402 (Ryzen 7000 Series)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 35,
+    "laptop_name": "MSI Stealth 16 AI Studio (A1Vx)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 35,
+    "laptop_name": "MSI Stealth 16 AI Studio (A1Vx)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 8945HS",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 7940HS",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 7735HS",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 7535HS",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 7435HS",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 37,
+    "laptop_name": "Alienware x16 R2"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 37,
+    "laptop_name": "Alienware x16 R2"
+  },
+  {
+    "cpu": "Intel Core i7-12700H",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-12500H",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-12800HX",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-12800H",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 39,
+    "laptop_name": "Acer Predator Helios Neo 16 (PHN16-72)"
+  },
+  {
+    "cpu": "Intel Core i7-14700HX",
+    "laptop_rank": 39,
+    "laptop_name": "Acer Predator Helios Neo 16 (PHN16-72)"
+  },
+  {
+    "cpu": "Intel Core i7-14650HX",
+    "laptop_rank": 39,
+    "laptop_name": "Acer Predator Helios Neo 16 (PHN16-72)"
+  },
+  {
+    "cpu": "Intel Core i5-14500HX",
+    "laptop_rank": 39,
+    "laptop_name": "Acer Predator Helios Neo 16 (PHN16-72)"
+  },
+  {
+    "cpu": "Intel Core i5-14450HX",
+    "laptop_rank": 39,
+    "laptop_name": "Acer Predator Helios Neo 16 (PHN16-72)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 9955HX3D",
+    "laptop_rank": 40,
+    "laptop_name": "MSI Raider A18 HX (A9Wx)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 HX 370",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 365",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 7 350",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 5 340",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 8945HS",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8845HS",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 7535HS",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 42,
+    "laptop_name": "MSI Sword 16 HX (B13Vx / B14Vx)"
+  },
+  {
+    "cpu": "Intel Core i9-13980HX",
+    "laptop_rank": 42,
+    "laptop_name": "MSI Sword 16 HX (B13Vx / B14Vx)"
+  },
+  {
+    "cpu": "Intel Core i7-14700HX",
+    "laptop_rank": 42,
+    "laptop_name": "MSI Sword 16 HX (B13Vx / B14Vx)"
+  },
+  {
+    "cpu": "Intel Core i7-14650HX",
+    "laptop_rank": 42,
+    "laptop_name": "MSI Sword 16 HX (B13Vx / B14Vx)"
+  },
+  {
+    "cpu": "Intel Core i7-13700HX",
+    "laptop_rank": 42,
+    "laptop_name": "MSI Sword 16 HX (B13Vx / B14Vx)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 HX 370",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "cpu": "AMD Ryzen AI 7 350",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8845HS",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "cpu": "AMD Ryzen 7 260",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 HX PRO 370",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 365",
+    "laptop_rank": 44,
+    "laptop_name": "MSI Summit A16 AI+ (A3HMx)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 7 350",
+    "laptop_rank": 45,
+    "laptop_name": "ASUS Zenbook 14 OLED (UM3406)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 5 340",
+    "laptop_rank": 45,
+    "laptop_name": "ASUS Zenbook 14 OLED (UM3406)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8840HS",
+    "laptop_rank": 45,
+    "laptop_name": "ASUS Zenbook 14 OLED (UM3406)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 7945HX3D",
+    "laptop_rank": 46,
+    "laptop_name": "ASUS ROG Strix SCAR 17 G733 (2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 7945HX",
+    "laptop_rank": 46,
+    "laptop_name": "ASUS ROG Strix SCAR 17 G733 (2023)"
+  },
+  {
+    "cpu": "Intel Core i7-13700HX",
+    "laptop_rank": 47,
+    "laptop_name": "Acer Nitro 17 (AN17-71)"
+  },
+  {
+    "cpu": "Intel Core i5-13500HX",
+    "laptop_rank": 47,
+    "laptop_name": "Acer Nitro 17 (AN17-71)"
+  },
+  {
+    "cpu": "Intel Core i7-1365U",
+    "laptop_rank": 48,
+    "laptop_name": "HP EliteBook x360 1040 G10"
+  },
+  {
+    "cpu": "Intel Core i7-1355U",
+    "laptop_rank": 48,
+    "laptop_name": "HP EliteBook x360 1040 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1345U",
+    "laptop_rank": 48,
+    "laptop_name": "HP EliteBook x360 1040 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1335U",
+    "laptop_rank": 48,
+    "laptop_name": "HP EliteBook x360 1040 G10"
+  },
+  {
+    "cpu": "Intel Core i9-13980HX",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "cpu": "Intel Core i5-13420H",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "cpu": "Intel Core i9-12950HX",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "cpu": "Intel Core i9-12900HX",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "cpu": "Intel Core i7-12850HX",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "cpu": "Intel Core i7-12800HX",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "cpu": "Intel Core i7-12800H",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "cpu": "Intel Core i5-12600HX",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "cpu": "Apple M4 (10-core CPU)",
+    "laptop_rank": 50,
+    "laptop_name": "Apple MacBook Air 15 (Early 2025)"
+  },
+  {
+    "cpu": "Intel Core i7-1255U",
+    "laptop_rank": 51,
+    "laptop_name": "HP Elite Dragonfly G3"
+  },
+  {
+    "cpu": "Intel Core i7-1265U",
+    "laptop_rank": 51,
+    "laptop_name": "HP Elite Dragonfly G3"
+  },
+  {
+    "cpu": "Intel Core i5-1245U",
+    "laptop_rank": 51,
+    "laptop_name": "HP Elite Dragonfly G3"
+  },
+  {
+    "cpu": "Intel Core i5-1235U",
+    "laptop_rank": 51,
+    "laptop_name": "HP Elite Dragonfly G3"
+  },
+  {
+    "cpu": "Intel Core i9-12950HX",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "cpu": "Intel Core i7-12850HX",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "cpu": "Intel Core i5-12600HX",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "cpu": "Intel Core i5-12600H",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "cpu": "Intel Core i7-1280P",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-1260P",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-1255U",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-1240P",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i3-1215U",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-1270P",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-1250P",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-1245U",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-1235U",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Plus X1P-64-100",
+    "laptop_rank": 54,
+    "laptop_name": "Dell Latitude 14 7455"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Elite X1E-80-100",
+    "laptop_rank": 54,
+    "laptop_name": "Dell Latitude 14 7455"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8840U",
+    "laptop_rank": 55,
+    "laptop_name": "HP Pavilion Aero 13 (13z-bg0000)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8840HS",
+    "laptop_rank": 55,
+    "laptop_name": "HP Pavilion Aero 13 (13z-bg0000)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 8640U",
+    "laptop_rank": 55,
+    "laptop_name": "HP Pavilion Aero 13 (13z-bg0000)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165H",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 135H",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "cpu": "Apple M2 (8-core CPU)",
+    "laptop_rank": 57,
+    "laptop_name": "Apple MacBook Air 13 (2022)"
+  },
+  {
+    "cpu": "Apple M2 (10-core CPU)",
+    "laptop_rank": 57,
+    "laptop_name": "Apple MacBook Air 13 (2022)"
+  },
+  {
+    "cpu": "Apple M1",
+    "laptop_rank": 57,
+    "laptop_name": "Apple MacBook Air 13 (2022)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 PRO 7940HS",
+    "laptop_rank": 58,
+    "laptop_name": "ASUS ROG Strix G17 G713P (2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 7945HX",
+    "laptop_rank": 58,
+    "laptop_name": "ASUS ROG Strix G17 G713P (2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 7845HX",
+    "laptop_rank": 58,
+    "laptop_name": "ASUS ROG Strix G17 G713P (2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 7940HX",
+    "laptop_rank": 58,
+    "laptop_name": "ASUS ROG Strix G17 G713P (2023)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165U",
+    "laptop_rank": 59,
+    "laptop_name": "Dell Latitude 14 9450 (2-in-1)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 164U",
+    "laptop_rank": 59,
+    "laptop_name": "Dell Latitude 14 9450 (2-in-1)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 59,
+    "laptop_name": "Dell Latitude 14 9450 (2-in-1)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125U",
+    "laptop_rank": 59,
+    "laptop_name": "Dell Latitude 14 9450 (2-in-1)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 135U",
+    "laptop_rank": 59,
+    "laptop_name": "Dell Latitude 14 9450 (2-in-1)"
+  },
+  {
+    "cpu": "Intel Core i9-13950HX",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "cpu": "Intel Core i7-13850HX",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "cpu": "Intel Core i5-13600HX",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165U",
+    "laptop_rank": 61,
+    "laptop_name": "Lenovo ThinkPad X13 2-in-1 Gen 5"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155U",
+    "laptop_rank": 61,
+    "laptop_name": "Lenovo ThinkPad X13 2-in-1 Gen 5"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125U",
+    "laptop_rank": 61,
+    "laptop_name": "Lenovo ThinkPad X13 2-in-1 Gen 5"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 135U",
+    "laptop_rank": 61,
+    "laptop_name": "Lenovo ThinkPad X13 2-in-1 Gen 5"
+  },
+  {
+    "cpu": "AMD Ryzen 9 8945HS",
+    "laptop_rank": 62,
+    "laptop_name": "Acer Nitro 17 (AN17-42)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8845HS",
+    "laptop_rank": 62,
+    "laptop_name": "Acer Nitro 17 (AN17-42)"
+  },
+  {
+    "cpu": "AMD Ryzen 5 8645HS",
+    "laptop_rank": 62,
+    "laptop_name": "Acer Nitro 17 (AN17-42)"
+  },
+  {
+    "cpu": "Intel Core i9-13900HX",
+    "laptop_rank": 63,
+    "laptop_name": "Lenovo Legion Pro 7i (16\" Intel, Gen 8)"
+  },
+  {
+    "cpu": "Intel Core i7-13700H",
+    "laptop_rank": 63,
+    "laptop_name": "Lenovo Legion Pro 7i (16\" Intel, Gen 8)"
+  },
+  {
+    "cpu": "Intel Core i7-1360P",
+    "laptop_rank": 64,
+    "laptop_name": "Lenovo Yoga 7i (14\", 2023)"
+  },
+  {
+    "cpu": "Intel Core i7-1355U",
+    "laptop_rank": 64,
+    "laptop_name": "Lenovo Yoga 7i (14\", 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-1340P",
+    "laptop_rank": 64,
+    "laptop_name": "Lenovo Yoga 7i (14\", 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-1335U",
+    "laptop_rank": 64,
+    "laptop_name": "Lenovo Yoga 7i (14\", 2023)"
+  },
+  {
+    "cpu": "Apple M4 (10-core CPU)",
+    "laptop_rank": 65,
+    "laptop_name": "Apple MacBook Air 13 (Early 2025)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 66,
+    "laptop_name": "Acer Predator Helios Neo 14 (PHN14-51)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 66,
+    "laptop_name": "Acer Predator Helios Neo 14 (PHN14-51)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125H",
+    "laptop_rank": 66,
+    "laptop_name": "Acer Predator Helios Neo 14 (PHN14-51)"
+  },
+  {
+    "cpu": "Intel Core i7-13700HX",
+    "laptop_rank": 67,
+    "laptop_name": "Acer Nitro 16 (AN16-51)"
+  },
+  {
+    "cpu": "Intel Core i7-13700H",
+    "laptop_rank": 67,
+    "laptop_name": "Acer Nitro 16 (AN16-51)"
+  },
+  {
+    "cpu": "Intel Core i7-13620H",
+    "laptop_rank": 67,
+    "laptop_name": "Acer Nitro 16 (AN16-51)"
+  },
+  {
+    "cpu": "Intel Core i5-13500H",
+    "laptop_rank": 67,
+    "laptop_name": "Acer Nitro 16 (AN16-51)"
+  },
+  {
+    "cpu": "Intel Core i5-13420H",
+    "laptop_rank": 67,
+    "laptop_name": "Acer Nitro 16 (AN16-51)"
+  },
+  {
+    "cpu": "Intel Core i7-1365U",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "cpu": "Intel Core i7-1360P",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "cpu": "Intel Core i7-1355U",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "cpu": "Intel Core i5-1345U",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "cpu": "Intel Core i5-1340P",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "cpu": "Intel Core i5-1335U",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "cpu": "Intel Core i5-1350P",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "cpu": "Intel Core i9-12900H",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "cpu": "Intel Core i7-12700H",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "cpu": "Intel Core i7-12650H",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "cpu": "Intel Core i5-12500H",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "cpu": "Intel Core i5-12450H",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 70,
+    "laptop_name": "Acer Predator Helios 18 (PH18-72)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 71,
+    "laptop_name": "Alienware m16 R2"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 71,
+    "laptop_name": "Alienware m16 R2"
+  },
+  {
+    "cpu": "Intel Core i7-13700HX",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "cpu": "Intel Core i7-13700H",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-13500H",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-13420H",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-12450H",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 73,
+    "laptop_name": "HP OMEN Transcend 16 (16t-u1000, 2024)"
+  },
+  {
+    "cpu": "Intel Core i7-14700HX",
+    "laptop_rank": 73,
+    "laptop_name": "HP OMEN Transcend 16 (16t-u1000, 2024)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 74,
+    "laptop_name": "Lenovo Yoga Pro 9 (16IMH9, Discrete)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 74,
+    "laptop_name": "Lenovo Yoga Pro 9 (16IMH9, Discrete)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 75,
+    "laptop_name": "Alienware m18 R2"
+  },
+  {
+    "cpu": "Intel Core i7-14700HX",
+    "laptop_rank": 75,
+    "laptop_name": "Alienware m18 R2"
+  },
+  {
+    "cpu": "Intel Core i7-14650HX",
+    "laptop_rank": 75,
+    "laptop_name": "Alienware m18 R2"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8845HS",
+    "laptop_rank": 76,
+    "laptop_name": "Lenovo Legion Slim 5 (16\", Gen 9)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 77,
+    "laptop_name": "Dell Precision 14 5490"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165H",
+    "laptop_rank": 77,
+    "laptop_name": "Dell Precision 14 5490"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 77,
+    "laptop_name": "Dell Precision 14 5490"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 135H",
+    "laptop_rank": 77,
+    "laptop_name": "Dell Precision 14 5490"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Plus X1P-64-100",
+    "laptop_rank": 78,
+    "laptop_name": "Lenovo Yoga Slim 7 (14Q8X9)"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Elite X1E-78-100",
+    "laptop_rank": 78,
+    "laptop_name": "Lenovo Yoga Slim 7 (14Q8X9)"
+  },
+  {
+    "cpu": "Intel Core i9-14900HX",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "cpu": "Intel Core i7-14700HX",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "cpu": "Intel Core i7-14650HX",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "cpu": "Intel Core i5-14500HX",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "cpu": "Intel Core i5-14450HX",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "cpu": "Intel Core i9-13900H",
+    "laptop_rank": 80,
+    "laptop_name": "Acer Predator Triton 14 (PT14-51)"
+  },
+  {
+    "cpu": "Intel Core i7-13700H",
+    "laptop_rank": 80,
+    "laptop_name": "Acer Predator Triton 14 (PT14-51)"
+  },
+  {
+    "cpu": "Intel Core i7-1370P",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "cpu": "Intel Core i7-1365U",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "cpu": "Intel Core i7-1360P",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "cpu": "Intel Core i7-1355U",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-1345U",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-1340P",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-1335U",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 HX 370",
+    "laptop_rank": 82,
+    "laptop_name": "ASUS TUF Gaming A16 FA608"
+  },
+  {
+    "cpu": "Intel Core i9-13900HK",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "cpu": "Intel Core i9-13900H",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "cpu": "Intel Core i7-13700H",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "cpu": "Intel Core i7-13620H",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "cpu": "Intel Core i5-13500H",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "cpu": "Intel Core i9-13900HX",
+    "laptop_rank": 84,
+    "laptop_name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)"
+  },
+  {
+    "cpu": "Intel Core i7-13700HX",
+    "laptop_rank": 84,
+    "laptop_name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)"
+  },
+  {
+    "cpu": "Intel Core i7-13700H",
+    "laptop_rank": 84,
+    "laptop_name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)"
+  },
+  {
+    "cpu": "Intel Core i5-13500HX",
+    "laptop_rank": 84,
+    "laptop_name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 7745HX",
+    "laptop_rank": 84,
+    "laptop_name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 HX 370",
+    "laptop_rank": 85,
+    "laptop_name": "Acer Swift 14 AI (SF14-61 / SF14-61T)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 365",
+    "laptop_rank": 85,
+    "laptop_name": "Acer Swift 14 AI (SF14-61 / SF14-61T)"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Plus X1P-64-100",
+    "laptop_rank": 86,
+    "laptop_name": "Microsoft Surface Pro 11"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Plus X1P-42-100",
+    "laptop_rank": 86,
+    "laptop_name": "Microsoft Surface Pro 11"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Elite X1E-80-100",
+    "laptop_rank": 86,
+    "laptop_name": "Microsoft Surface Pro 11"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Elite X1E-78-100",
+    "laptop_rank": 86,
+    "laptop_name": "Microsoft Surface Pro 11"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Elite X1E-00-1DE",
+    "laptop_rank": 86,
+    "laptop_name": "Microsoft Surface Pro 11"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Elite X1E-84-100",
+    "laptop_rank": 86,
+    "laptop_name": "Microsoft Surface Pro 11"
+  },
+  {
+    "cpu": "Intel Core i7-1280P",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-1260P",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-1255U",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-1240P",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-1270P",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i7-1265U",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-1250P",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-1245U",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Intel Core i5-1235U",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Plus X1P-64-100",
+    "laptop_rank": 88,
+    "laptop_name": "Dell XPS 13 9345"
+  },
+  {
+    "cpu": "Qualcomm Snapdragon X Elite X1E-80-100",
+    "laptop_rank": 88,
+    "laptop_name": "Dell XPS 13 9345"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 89,
+    "laptop_name": "Dell XPS 16 9640 (NVIDIA RTX 4050, 4060)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165H",
+    "laptop_rank": 89,
+    "laptop_name": "Dell XPS 16 9640 (NVIDIA RTX 4050, 4060)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 89,
+    "laptop_name": "Dell XPS 16 9640 (NVIDIA RTX 4050, 4060)"
+  },
+  {
+    "cpu": "Intel Core i7-13700H",
+    "laptop_rank": 90,
+    "laptop_name": "Acer Swift X (SFX14-71G)"
+  },
+  {
+    "cpu": "Intel Core i5-13500H",
+    "laptop_rank": 90,
+    "laptop_name": "Acer Swift X (SFX14-71G)"
+  },
+  {
+    "cpu": "Intel Core i5-1335U",
+    "laptop_rank": 90,
+    "laptop_name": "Acer Swift X (SFX14-71G)"
+  },
+  {
+    "cpu": "Intel Core i7-1255U",
+    "laptop_rank": 91,
+    "laptop_name": "Lenovo ThinkBook 13x Gen 2"
+  },
+  {
+    "cpu": "Intel Core i5-1240P",
+    "laptop_rank": 91,
+    "laptop_name": "Lenovo ThinkBook 13x Gen 2"
+  },
+  {
+    "cpu": "Intel Core i7-1270P",
+    "laptop_rank": 91,
+    "laptop_name": "Lenovo ThinkBook 13x Gen 2"
+  },
+  {
+    "cpu": "Intel Core i5-1235U",
+    "laptop_rank": 91,
+    "laptop_name": "Lenovo ThinkBook 13x Gen 2"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 165H",
+    "laptop_rank": 92,
+    "laptop_name": "Dell XPS 14 9440"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 92,
+    "laptop_name": "Dell XPS 14 9440"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 HX 370",
+    "laptop_rank": 93,
+    "laptop_name": "ASUS ProArt P16 (H7606)"
+  },
+  {
+    "cpu": "AMD Ryzen AI 9 365",
+    "laptop_rank": 93,
+    "laptop_name": "ASUS ProArt P16 (H7606)"
+  },
+  {
+    "cpu": "Intel Core i7-1370P",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "Intel Core i7-1365U",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "Intel Core i7-1360P",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "Intel Core i7-1355U",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1345U",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1340P",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1335U",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "AMD Ryzen 7 PRO 7840HS",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "Intel Core i5-1350P",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 185H",
+    "laptop_rank": 95,
+    "laptop_name": "Lenovo IdeaPad Pro 5 (16IMH9)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 155H",
+    "laptop_rank": 95,
+    "laptop_name": "Lenovo IdeaPad Pro 5 (16IMH9)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 125H",
+    "laptop_rank": 95,
+    "laptop_name": "Lenovo IdeaPad Pro 5 (16IMH9)"
+  },
+  {
+    "cpu": "AMD Ryzen 9 8945HS",
+    "laptop_rank": 96,
+    "laptop_name": "Acer Nitro 16 (AN16-42)"
+  },
+  {
+    "cpu": "AMD Ryzen 7 8845HS",
+    "laptop_rank": 96,
+    "laptop_name": "Acer Nitro 16 (AN16-42)"
+  },
+  {
+    "cpu": "Intel Core i7-1365U",
+    "laptop_rank": 97,
+    "laptop_name": "HP Elite Dragonfly G4"
+  },
+  {
+    "cpu": "Intel Core i7-1355U",
+    "laptop_rank": 97,
+    "laptop_name": "HP Elite Dragonfly G4"
+  },
+  {
+    "cpu": "Intel Core i5-1345U",
+    "laptop_rank": 97,
+    "laptop_name": "HP Elite Dragonfly G4"
+  },
+  {
+    "cpu": "Intel Core i5-1335U",
+    "laptop_rank": 97,
+    "laptop_name": "HP Elite Dragonfly G4"
+  },
+  {
+    "cpu": "Intel Core i7-13620H",
+    "laptop_rank": 98,
+    "laptop_name": "MSI Cyborg 14 (A13Ux / A13Vx)"
+  },
+  {
+    "cpu": "Intel Core i5-13420H",
+    "laptop_rank": 98,
+    "laptop_name": "MSI Cyborg 14 (A13Ux / A13Vx)"
+  },
+  {
+    "cpu": "Intel Core Ultra 9 288V",
+    "laptop_rank": 99,
+    "laptop_name": "Dell 16 Plus (DB16250)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 258V",
+    "laptop_rank": 99,
+    "laptop_name": "Dell 16 Plus (DB16250)"
+  },
+  {
+    "cpu": "Intel Core Ultra 7 256V",
+    "laptop_rank": 99,
+    "laptop_name": "Dell 16 Plus (DB16250)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 228V",
+    "laptop_rank": 99,
+    "laptop_name": "Dell 16 Plus (DB16250)"
+  },
+  {
+    "cpu": "Intel Core Ultra 5 226V",
+    "laptop_rank": 99,
+    "laptop_name": "Dell 16 Plus (DB16250)"
+  },
+  {
+    "cpu": "Intel Core i7-1280P",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  },
+  {
+    "cpu": "Intel Core i7-1255U",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  },
+  {
+    "cpu": "Intel Core i7-1270P",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  },
+  {
+    "cpu": "Intel Core i7-1265U",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  },
+  {
+    "cpu": "Intel Core i5-1250P",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  },
+  {
+    "cpu": "Intel Core i5-1245U",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  },
+  {
+    "cpu": "Intel Core i5-1235U",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  }
+]

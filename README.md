@@ -1,78 +1,202 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2025 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# Seleksi Warga Basdat 2025
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+Repositori ini berisi Hasil tugas 1 untuk seleksi warga basis data ITB 2025.
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+## AUTHOR
+- **Nama**: Matthew Sebastian Kurniawan
+- **NIM**: 18223096
+- **Jurusan**: Sistem dan Teknologi Informasi
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Deskripsi Singkat Data dan DBMS
+Data yang digunakan berasal dari situs LaptopMedia – Top 100 Laptops with the Best Screens. Dataset ini berisi informasi detail mengenai spesifikasi laptop, termasuk skor kualitas layar (warna, kecerahan maksimum, kontras, cakupan DCI-P3, dan keamanan mata), spesifikasi teknis seperti CPU, GPU, RAM, penyimpanan, baterai, dimensi, material bodi, serta fitur konektivitas dan kelengkapan lainnya. DBMS yang digunakan adalah PostgreSQL karena memiliki kemampuan optimasi query yang baik, serta cocok untuk mengelola data relasional dengan kompleksitas hubungan seperti ini.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+## Alasan Memilih Topik
+Saya memilih topik ini karena menganalisis spesifikasi laptop seperti RAM, layar, dan komponen lainnya merupakan hobi saya. Selain itu, dataset yang digunakan dari situs LaptopMedia memiliki struktur informasi yang detail dan terorganisasi, sehingga sangat cocok untuk diimplementasikan dalam bentuk database relasional. Dengan membuat database ini, proses pencarian dan analisis laptop dapat dilakukan dengan lebih efisien.
 
+## Cara Menggunakan Scraper dan Output-nya
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+1. Masuk ke folder `Data Scraping/src`.
+2. Jalankan script scraper dengan perintah berikut di terminal:
+    ```bash
+    python scraper.py
+    ```
+3. Hasil scraping akan otomatis disimpan dalam bentuk file JSON di folder `Data Scraping/data/`.
+    - Contoh output: `Laptop.json`, `CPU.json`, `GPU.json`, dst.
+4. File JSON hasil scraping dapat langsung digunakan untuk proses data modeling dan data storing pada tahap berikutnya.
+**Note:** Pastikan requirements berikut sudah ter-install sebelum menjalankan scraper:
+
+**Requirements:**
+- selenium
+- beautifulsoup4
+- Chrome browser
+- ChromeDriver (versi sesuai Chrome browser)
+
+## Penjelasan Struktur File JSON yang Dihasilkan Scraper
+
+Setelah menjalankan scraper, akan dihasilkan beberapa file JSON di folder `Data Scraping/data/`, yaitu:
+
+- `Laptop.json` — berisi data utama laptop
+- `CPU.json` — berisi data CPU
+- `GPU.json` — berisi data GPU
+- `Laptop_Score.json` — berisi skor kualitas layar tiap laptop
+- `Laptop_Configuration.json` — berisi konfigurasi RAM, storage, OS, dan harga
+- `Laptop_Detailed_Spec.json` — berisi detail spesifikasi fisik laptop
+- `CPU_Performance.json` — berisi data performa CPU
+- `GPU_Performance.json` — berisi data performa GPU
+- `Features.json` — berisi fitur tambahan pada laptop
+- `Ports_Connectivity.json` — berisi data port dan konektivitas
+- `Laptop_Image.json` — berisi link gambar laptop
+
+Setiap file berisi array of objek, di mana setiap objek merepresentasikan satu entitas (misal: satu laptop, satu CPU, dst). 
+
+# Struktur ERD dan Diagram Relasional RDBMS
+
+**Struktur ERD:**
+
+- **Laptop Scores Laptop_Score**  
+    Jenis Relasi: One-to-One (Total Participation)  
+    Alasan: Setiap laptop dalam dataset memiliki satu set skor layar yang unik (warna, kecerahan, kontras, cakupan DCI-P3, keamanan mata). Tidak ada laptop tanpa skor, sehingga semua laptop terhubung ke satu Laptop_Score.
+
+- **CPU has_performance CPU_Performance**  
+    Jenis Relasi: One-to-One (Partial Participation)  
+    Alasan: Satu CPU memiliki satu data performa (ranking, persentase performa, skor benchmark), namun tidak semua CPU di dataset memiliki data performa lengkap.
+
+- **GPU has_performance GPU_Performance**  
+    Jenis Relasi: One-to-One (Partial Participation)  
+    Alasan: Satu GPU memiliki satu data performa, namun tidak semua GPU pada dataset memiliki data performa lengkap.
 
 
+- **Laptop Uses CPU**  
+    Jenis Relasi: one-to-Many (Total Participation)  
+    Alasan: Satu laptop dapat menggunakan lebih dari satu jenis CPU, dan semua laptop di dataset memiliki setidaknya satu CPU yang tercatat. Begitu juga sebaliknya, satu CPU dapat digunakan oleh banyak laptop.
 
+- **Laptop Uses GPU**  
+    Jenis Relasi: one-to-Many (Total Participation)  
+    Alasan: Satu laptop dapat menggunakan lebih dari satu jenis GPU, dan satu GPU dapat digunakan oleh banyak laptop. Semua laptop di dataset memiliki setidaknya satu GPU yang tercatat.
+
+- **Laptop specified_by Laptop_Detailed_Spec**  
+    Jenis Relasi: One-to-One (Total Participation)  
+    Alasan: Setiap laptop memiliki satu detail spesifikasi (RAM, storage, baterai, dimensi, material bodi) yang unik dan wajib ada di dataset.
+
+- **Laptop_Detailed_Spec includes Features**  
+    Jenis Relasi: One-to-One (Total Participation)  
+    Alasan: Spesifikasi detail dapat mencakup fitur tambahan seperti fingerprint reader, kamera, atau backlit keyboard, dan semua laptop memiliki daftar fitur lengkap.
+
+- **Laptop_Detailed_Spec includes Ports_Connectivity**  
+    Jenis Relasi: One-to-One (Total Participation)  
+    Alasan: Spesifikasi detail dapat mencakup daftar port & konektivitas seperti USB, HDMI, Wi-Fi, Bluetooth, dan semua laptop memiliki informasi ini.
+
+- **Laptop,cpu,gpu has Laptop_Configuration**  
+    Jenis Relasi: One-to-Many (total Participation) (agregation) 
+    Alasan: Satu laptop,gpu dan cpu bisa memiliki beberapa konfigurasi (varian RAM, storage, GPU, harga), dan semua laptop,gpu, dan cpu memiliki lebih dari satu varian konfigurasi.
+
+**Struktur diagram relasional:**
+
+Diagram relasional adalah implementasi dari ERD ke dalam bentuk tabel di PostgreSQL. Setiap entitas pada ERD direpresentasikan sebagai tabel dengan primary key masing-masing, dan relasinya diimplementasikan melalui foreign key. Hubungan one-to-one ditempatkan pada tabel yang menyimpan detail unik dari entitas utama, sedangkan hubungan one-to-many diimplementasikan pada tabel anak. Dengan struktur ini, integritas data terjaga dan query pencarian dapat dilakukan dengan efisien melalui operasi JOIN.
+
+## Penjelasan Proses Translasi ERD Menjadi Diagram Relasional
+
+1. **Laptop – Laptop_Detailed_Spec**  
+    Jenis Relasi: One-to-One  
+    Implementasi: Kolom Laptop_id di tabel Laptop_Detailed_Spec menjadi FK yang mengacu ke Laptop_id di tabel Laptop.  
+    Makna: Setiap laptop hanya memiliki satu spesifikasi detail yang unik. Tidak ada laptop yang tercatat tanpa informasi spesifikasi ini.
+
+2. **Laptop – Laptop_Score**  
+    Jenis Relasi: One-to-One  
+    Implementasi: Kolom Laptop_id di tabel Laptop_Score menjadi FK ke tabel Laptop.  
+    Makna: Setiap laptop memiliki satu set skor yang unik (warna, kecerahan, kontras, cakupan DCI-P3, keamanan mata).
+
+3. **Laptop – Laptop_Image**  
+    Jenis Relasi: multivariabel atribute
+    Implementasi: Kolom Laptop_id di tabel Laptop_Image menjadi FK ke tabel Laptop.  
+    Makna: Satu laptop dapat memiliki banyak gambar utama
+
+4. **CPU – CPU_Performance**  
+    Jenis Relasi: One-to-One  
+    Implementasi: Kolom cpu_id di tabel CPU_Performance menjadi FK ke tabel CPU.  
+    Makna: Satu CPU memiliki data performa unik (benchmark, ranking, persentase performa).
+
+5. **GPU – GPU_Performance**  
+    Jenis Relasi: One-to-One  
+    Implementasi: Kolom gpu_id di tabel GPU_Performance menjadi FK ke tabel GPU.  
+    Makna: Satu GPU memiliki data performa unik seperti halnya CPU.
+
+6. **Laptop – CPU**  
+    Jenis Relasi: One-to-many 
+    Implementasi: Kolom Laptop_id di tabel CPU menjadi FK ke tabel Laptop.  
+    Makna: Setiap laptop dapat memiliki lebih dari satu jenis CPU.
+
+7. **Laptop – GPU**  
+    Jenis Relasi: One-to-many 
+    Implementasi: Kolom Laptop_id di tabel GPU menjadi FK ke tabel Laptop.  
+    Makna: Setiap laptop dapat memiliki lebih dari satu jenis GPU.
+
+8. **Laptop,cpu, dan gpu – Laptop_Configuration**  
+    Jenis Relasi: One-to-Many (agregation) 
+    Implementasi: Kolom Laptop_id, gpu_id, dan cpu_id di tabel Laptop_Configuration menjadi FK ke tabel Laptop.  
+    Makna: Satu laptop,gpu, dan cpu bisa memiliki beberapa konfigurasi (RAM, storage, OS, harga).
+
+9. **Laptop_Detailed_Spec – Features**  
+    Jenis Relasi: One-to-One (Optional)  
+    Implementasi: Kolom feature_id di tabel Laptop_Detailed_Spec menjadi FK ke tabel Features.  
+    Makna: Satu spesifikasi detail bisa mencantumkan fitur tambahan seperti fingerprint reader, kamera, dll.
+
+10. **Laptop_Detailed_Spec – Ports_Connectivity**  
+    Jenis Relasi: One-to-One (Optional)  
+    Implementasi: Kolom port_id di tabel Laptop_Detailed_Spec menjadi FK ke tabel Ports_Connectivity.  
+    Makna: Satu spesifikasi detail dapat mencantumkan daftar port seperti USB, HDMI, Wi-Fi, dan lainnya.
+
+## Screenshot Hasil Program dan Query
+
+Berikut adalah beberapa screenshot hasil program dan query yang dijalankan. File screenshot di-upload di folder yang sesuai:
+
+### Hasil Query Data Storing
+
+**Query 1**
+![Query 1](Data%20Storing/screenshot/query%201.png)
+
+**Query 2**
+![Query 2](Data%20Storing/screenshot/query%202.png)
+
+**Query 3**
+![Query 3](Data%20Storing/screenshot/query%203.png)
+
+**Query 4**
+![Query 4](Data%20Storing/screenshot/query%204.png)
+
+**Query 5**
+![Query 5](Data%20Storing/screenshot/query%205.png)
+
+**Query 6**
+![Query 6](Data%20Storing/screenshot/query%206.png)
+
+## Referensi
+
+- **Library Python:**
+    - selenium
+    - beautifulsoup4
+    - psycopg2
+
+- **Halaman web yang di-scrape:**
+    - https://laptopmedia.com/top-100-laptops-with-the-best-screens/
+
+- **Dokumentasi & Tools:**
+    - PostgreSQL: https://www.postgresql.org/docs/
+    - pgAdmin: https://www.pgadmin.org/
+
+#### **Windows Terminal + UTF-8 Setup (OLTP) (untuk menampilkan simbol seperti infinity, danlainnya)**
+```cmd
+wt
+chcp 65001
+set PGCLIENTENCODING=UTF8
+psql -U postgres -d top100_laptop_screen
+```
+## Bonus: Automated Scheduling
+
+Berikut adalah implementasi dan monitoring automated scheduling pada database aku:
+
+**Gambar 1: Monitoring Scheduling (pgAgent/pg_cron)**
+![Scheduling 1](Data%20Storing/screenshot/scheduling%201.png)
+
+**Gambar 2: Hasil Log Scheduling**
+![Scheduling 2](Data%20Storing/screenshot/scheduling%202.png)
