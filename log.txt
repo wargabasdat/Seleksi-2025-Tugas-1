@@ -1257,3 +1257,113 @@ Scraping game 146/200: https://www.roblox.com/games/14895218677/PAWS-Pet-Hospita
 Scraping game 147/200: https://www.roblox.com/games/7041939546/Catalog-Avatar-Creator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=7041939546&playContext=gamesPage&position=61&sortPos=5&universeId=2711375305
 
 Scraping game 148/200: https://www.roblox.com/games/90462358603255/PART-2-Anime-Eternal?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=239&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=42&page=gamesPage&placeId=90462358603255&playContext=gamesPage&position=41&sortPos=2&universeId=7882829745
+
+Scraping game 149/200: https://www.roblox.com/games/137634669639110/Find-The-Labubu-127?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=137634669639110&playContext=gamesPage&position=27&sortPos=16&universeId=7975097812
+
+Scraping game 150/200: https://www.roblox.com/games/10449761463/The-Strongest-Battlegrounds?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=237&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=80&page=gamesPage&placeId=10449761463&playContext=gamesPage&position=15&sortPos=5&universeId=3808081382
+
+Scraping game 151/200: https://www.roblox.com/games/75178747054941/EQuest-Testing-PERSONALITIES?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=75178747054941&playContext=gamesPage&position=86&sortPos=21&universeId=7921879545
+
+Scraping game 152/200: https://www.roblox.com/games/82434557832176/Pick-A-Food?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=82434557832176&playContext=gamesPage&position=31&sortPos=19&universeId=6826136419
+
+Scraping game 153/200: https://www.roblox.com/games/12397515839/Silly-Simon-Says?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=12397515839&playContext=gamesPage&position=55&sortPos=19&universeId=4362587875
+
+Scraping game 154/200: https://www.roblox.com/games/7554888362/SKY-SQUID-Squid-Game-X?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=7554888362&playContext=gamesPage&position=24&sortPos=10&universeId=2936053166
+
+Scraping game 155/200: https://www.roblox.com/games/17487086188/void-fishing?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=17487086188&playContext=gamesPage&position=1&sortPos=8&universeId=5985126622
+
+Scraping game 156/200: https://www.roblox.com/games/6206310576/TRADING-Old-A-Bizarre-Day?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=6206310576&playContext=gamesPage&position=17&sortPos=15&universeId=2275514399
+
+Scraping game 157/200: https://www.roblox.com/games/129134935332234/SUMMER-Grow-a-Garden-Quiz?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=129134935332234&playContext=gamesPage&position=23&sortPos=19&universeId=7685972663
+
+Scraping game 158/200: https://www.roblox.com/games/9665612064/TRAILBLAZERS-FUT-25?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=9665612064&playContext=gamesPage&position=2&sortPos=13&universeId=3590268018
+
+Scraping game 159/200: https://www.roblox.com/games/16087546880/Survive-The-Zombies-The-Killers?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=16087546880&playContext=gamesPage&position=5&sortPos=14&universeId=5560226875
+
+Scraping game 160/200: https://www.roblox.com/games/6722921118/Color-Book?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=6722921118&playContext=gamesPage&position=60&sortPos=19&universeId=2541236151
+
+Scraping game 161/200: https://www.roblox.com/games/9391468976/CURSED-PARTNERS-Jujutsu-Shenanigans?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=9391468976&playContext=gamesPage&position=76&sortPos=6&universeId=3508322461
+
+Scraping game 162/200: https://www.roblox.com/games/93729973089151/Mindlock-Escape-Room?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=93729973089151&playContext=gamesPage&position=4&sortPos=20&universeId=7455943862
+
+Scraping game 163/200: https://www.roblox.com/games/136180334926832/Antariksa-Expedition?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=652&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=78&page=gamesPage&placeId=136180334926832&playContext=gamesPage&position=15&sortPos=16&universeId=8038511396
+
+Scraping game 164/200: https://www.roblox.com/games/119397264543214/Lucky-Gear-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=119397264543214&playContext=gamesPage&position=68&sortPos=18&universeId=8089683668
+
+Scraping game 165/200: https://www.roblox.com/games/13379208636/Attack-on-Titan-Revolution?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=13379208636&playContext=gamesPage&position=65&sortPos=3&universeId=4658598196
+
+Scraping game 166/200: https://www.roblox.com/games/12886143095/UPD-62-Anime-Last-Stand?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=12886143095&playContext=gamesPage&position=89&sortPos=8&universeId=4509896324
+
+Scraping game 167/200: https://www.roblox.com/games/124823937850563/BERSERK-DRIFT-2?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=124823937850563&playContext=gamesPage&position=36&sortPos=13&universeId=7207944727
+
+Scraping game 168/200: https://www.roblox.com/games/80989280669685/Steal-a-Huge-Planet-MYSTERY-Planet?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=80989280669685&playContext=gamesPage&position=69&sortPos=23&universeId=7897422375
+
+Scraping game 169/200: https://www.roblox.com/games/79546208627805/99-Nights-in-the-Forest-ALIENS?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=79546208627805&playContext=gamesPage&position=0&sortPos=1&universeId=7326934954
+
+Scraping game 170/200: https://www.roblox.com/games/10449761463/The-Strongest-Battlegrounds?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=10449761463&playContext=gamesPage&position=10&sortPos=3&universeId=3808081382
+
+Scraping game 171/200: https://www.roblox.com/games/129121878966543/Hug-or-Pass-BOOTHS?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=129121878966543&playContext=gamesPage&position=79&sortPos=3&universeId=7812923977
+
+Scraping game 172/200: https://www.roblox.com/games/10962282214/ALPHA-Rail-Sim-Universe-Pre-Release?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=669&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=62&page=gamesPage&placeId=10962282214&playContext=gamesPage&position=15&sortPos=7&universeId=3951824888
+
+Scraping game 173/200: https://www.roblox.com/games/13521186297/Hot-Pot-Restaurant?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=659&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=91&page=gamesPage&placeId=13521186297&playContext=gamesPage&position=31&sortPos=21&universeId=4701326804
+
+Scraping game 174/200: https://www.roblox.com/games/81239378558719/Hide-the-body?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=81239378558719&playContext=gamesPage&position=26&sortPos=3&universeId=7823137182
+
+Scraping game 175/200: https://www.roblox.com/games/18629053284/Survival-Odyssey?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=658&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=73&page=gamesPage&placeId=18629053284&playContext=gamesPage&position=39&sortPos=12&universeId=6312044888
+
+Scraping game 176/200: https://www.roblox.com/games/863266079/Apocalypse-Rising-2?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=863266079&playContext=gamesPage&position=75&sortPos=10&universeId=358276974
+
+Scraping game 177/200: https://www.roblox.com/games/12135640403/Anime-Dungeon-Fighters-Demon-Slayer?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=12135640403&playContext=gamesPage&position=12&sortPos=8&universeId=4280744785
+
+Scraping game 178/200: https://www.roblox.com/games/137821247265040/Troll-Ghost-Player-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=137821247265040&playContext=gamesPage&position=28&sortPos=18&universeId=7855982925
+
+Scraping game 179/200: https://www.roblox.com/games/14970015233/Watermelon-GO-Fruit-Game?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=657&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=30&page=gamesPage&placeId=14970015233&playContext=gamesPage&position=9&sortPos=20&universeId=5156590883
+
+Scraping game 180/200: https://www.roblox.com/games/137925884276740/Build-A-Plane?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=223&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=137925884276740&playContext=gamesPage&position=30&sortPos=10&universeId=7822444776
+
+Scraping game 181/200: https://www.roblox.com/games/135526982947902/FORTLITE?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=660&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=52&page=gamesPage&placeId=135526982947902&playContext=gamesPage&position=44&sortPos=14&universeId=6929888880
+
+Scraping game 182/200: https://www.roblox.com/games/3260590327/PVP-Tower-Defense-Simulator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=241&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=86&page=gamesPage&placeId=3260590327&playContext=gamesPage&position=18&sortPos=6&universeId=1176784616
+
+Scraping game 183/200: https://www.roblox.com/games/85896571713843/Bubble-Gum-Simulator-INFINITY?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=85896571713843&playContext=gamesPage&position=46&sortPos=11&universeId=6504986360
+
+Scraping game 184/200: https://www.roblox.com/games/111989938562194/Brainrot-Evolution?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=111989938562194&playContext=gamesPage&position=19&sortPos=3&universeId=7332711118
+
+Scraping game 185/200: https://www.roblox.com/games/233727153/Piano-Keyboard-v1-1?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=668&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=58&page=gamesPage&placeId=233727153&playContext=gamesPage&position=56&sortPos=9&universeId=100169684
+
+Scraping game 186/200: https://www.roblox.com/games/15583100726/Basketball-Stars-3?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=664&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=15583100726&playContext=gamesPage&position=89&sortPos=13&universeId=5379950946
+
+Scraping game 187/200: https://www.roblox.com/games/18687417158/NOLI-Forsaken?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=671&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=92&page=gamesPage&placeId=18687417158&playContext=gamesPage&position=5&sortPos=3&universeId=6331902150
+
+Scraping game 188/200: https://www.roblox.com/games/136999450205609/Matematika-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=136999450205609&playContext=gamesPage&position=59&sortPos=18&universeId=8035745255
+
+Scraping game 189/200: https://www.roblox.com/games/113506071094099/SHARP?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=239&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=42&page=gamesPage&placeId=113506071094099&playContext=gamesPage&position=31&sortPos=2&universeId=7996365376
+
+Scraping game 190/200: https://www.roblox.com/games/4520749081/UPD-9-King-Legacy?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=4520749081&playContext=gamesPage&position=16&sortPos=1&universeId=1451439645
+
+Scraping game 191/200: https://www.roblox.com/games/17788997511/Fatal-Combat?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=651&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=74&page=gamesPage&placeId=17788997511&playContext=gamesPage&position=39&sortPos=15&universeId=6094102038Loaded 0 games, 0 communities, 0 creators
+Done! Output saved in data/preprocessed/
+[2025-08-08 13:23:28] OK: scraping + preprocess + storing selesai. Total games: 200
+
+
+Scraping game 192/200: https://www.roblox.com/games/7052580219/Truck-Testing-Remaster?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=7052580219&playContext=gamesPage&position=86&sortPos=23&universeId=2717209656
+
+Scraping game 193/200: https://www.roblox.com/games/74399004053401/Pull-Hair-Tower?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=655&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=95&page=gamesPage&placeId=74399004053401&playContext=gamesPage&position=10&sortPos=18&universeId=7995420236
+
+Scraping game 194/200: https://www.roblox.com/games/83273735730446/Toy-Store-Simulator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=662&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=97&page=gamesPage&placeId=83273735730446&playContext=gamesPage&position=73&sortPos=23&universeId=7795202327
+
+Scraping game 195/200: https://www.roblox.com/games/8369888266/Redcliff-City-RP?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=8369888266&playContext=gamesPage&position=9&sortPos=4&universeId=3204175584
+
+Scraping game 196/200: https://www.roblox.com/games/81968724698850/Fish-and-Fight?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=238&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=87&page=gamesPage&placeId=81968724698850&playContext=gamesPage&position=27&sortPos=1&universeId=7926427431
+
+Scraping game 197/200: https://www.roblox.com/games/845649531/Would-You-Rather?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=656&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=82&page=gamesPage&placeId=845649531&playContext=gamesPage&position=63&sortPos=19&universeId=350059755
+
+Scraping game 198/200: https://www.roblox.com/games/107727386530697/Noob-Mayhem?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=673&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=90&page=gamesPage&placeId=107727386530697&playContext=gamesPage&position=81&sortPos=11&universeId=7794218964
+
+Scraping game 199/200: https://www.roblox.com/games/7041939546/Catalog-Avatar-Creator?appliedFilters=device%253Dcomputer%252Cage%253Dall%252Ccountry%253Dall&discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=222&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=70&page=gamesPage&placeId=7041939546&playContext=gamesPage&position=67&sortPos=4&universeId=2711375305
+
+Scraping game 200/200: https://www.roblox.com/games/12338455185/Resort-Tycoon-2?discoverPageSessionInfo=01c05573-f673-4a65-9599-7527054a25ec&gameSetTargetId=670&gameSetTypeId=23&isAd=false&nativeAdData=&numberOfLoadedTiles=98&page=gamesPage&placeId=12338455185&playContext=gamesPage&position=75&sortPos=8&universeId=4343544885
+Data saved to: /Users/aliyahusnafayyaza/Documents/TUGAS_SELEKSI_1_13523062/Data Scraping/data/raw/game.json
+Total games saved: 200
+[2025-08-08 13:23:28] Automated pipeline done.

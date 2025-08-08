@@ -1,6 +1,6 @@
 # **TUGAS SELEKSI 1 - BASIS DATA**  
 
-## **Author**  
+## **Penulis**  
 - **Nama**: Aliya Husna Fayyaza  
 - **NIM**: 13523062  
 
@@ -46,6 +46,7 @@ Data Scraping/data/preprocessed/
 │── server_preprocessed.json
 └── creator_preprocessed.json
 ```
+note: genre N/A dan maturity_level - tidak dibersihkan karena jumlahnya cukup banyak dan diasumsikan berarti belum diberi label (mungkin masih melewati tahap pengecekan)
 ### **Storing**
 Terakhir, data dari 6 file JSON dimasukkan ke dalam *database* berbasis MySQL dengan menjalankan:
 ```bash
