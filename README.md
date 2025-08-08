@@ -6,73 +6,464 @@
   <br>
 </h1>
 
-<h2 align="left">
+<h2 align="center">
+  DATA SCRAPING, MODELING, STORING, AND WAREHOUSE
   <br>
-  Singkatnya?
+  Florecita Natawirya - 
+  18223040
+  <br>
   <br>
 </h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
-
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
-
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
-
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
 
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+## Deskripsi Singkat
+__MyAnimeList__ adalah salah satu platform basis data terbesar di dunia untuk komunitas penggemar anime, manga, dan manhwa. Halaman khusus pada situs ini menyajikan daftar 100 judul manhwa dengan peringkat tertinggi berdasarkan skor dan popularitas dari para penggunanya.
+
+Proyek ini bertujuan untuk melakukan ekstraksi data terperinci dari daftar tersebut. Data yang diambil tidak hanya mencakup judul dan peringkat, tetapi juga informasi penting lainnya seperti penulis (author), karakter, genre, dan perusahaan penerbit.
+
+Untuk menyimpan dan mengorganisasi data yang kompleks ini, saya merancang sebuah skema database yang relevan. Alasan utama saya memilih topik ini adalah karena saya gemar membaca manhwa. Namun, akhir-akhir ini, saya kebingungan harus membaca manhwa yang mana yang bagus. Dan saya memilih MyAnimeList sebagai objek *web scraping* adalah karena datanya sangat terstruktur dan konsisten, memungkinkan ekstraksi data yang komprehensif.
+
+Hasil dari proyek ini diharapkan dapat menghasilkan sebuah database yang rapi dan siap untuk dianalisis. Analisis tersebut dapat memberikan wawasan berharga tentang tren manhwa paling populer, korelasi antara skor dengan genre atau penulis, dan menyediakan dataset yang fleksibel untuk berbagai keperluan penelitian atau visualisasi.
 
 
+## Program Specification
+Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *Data Storing* dengan library berikut,
+- `Selenium`
+    - __Pertimbangan__ : website Borma memiliki elemen website yang dinamis seperti adanya tombol dan gulir untuk mengakses informasi produk sehingga library ini digunakan untuk menangkap informasi produk yang tercantum di beberapa halaman yang berbeda. 
+- `Beautifulsoup4`
+    - __Pertimbangan__ : Beautiful Soup relatif ringan dan cepat untuk pemrosesan string HTML dibandingkan dengan Selenium. Selain itu, memungkinkan pengambilan data yang lebih spesifik dan terstruktur berdasarkan parsing HTML yang sudah dimuat.
+- `psycopg2`
+    - __Pertimbangan__ : Library ini berguna agar bisa menciptakan dan memasukkan data yang ada di file JSON secara otomatis ke database PSQL yang ada
+- `JSON`
+    - __Pertimbangan__ : memenuhi kriteria output yang diharapkan dalam format ".json"
+- `re`
+    - __Pertimbangan__ : library ini berguna untuk kebutuhan parsing data yang diambil dari website ekstraksi ID_Prod dari judul produk, mengambil informasi jumlah produk yang terjual, kategori produk, dan mengganti format rentang waktu (contoh dari "31 Jan 2024" menjadi "2024-01-31").
+- `time`
+    - __Pertimbangan__ : untuk menunda eksekusi agar memastikan halaman web telah dimuat atau elemen-elemen tertentu telah tersedia sebelum dilakukan *scrapping*.
+- `os`
+    - __Pertimbangan__ : untuk memastikan bahwa direktori untuk menyimpan file JSON ada, dan jika tidak maka akan membuatnya.
+- `dateparser`
+    __Pertimbangan__ : digunakan untuk parsing dan konversi string tanggal menjadi objek tanggal yang dapat diformat dan digunakan dengan lebih mudah.
 
+
+## Data Scraping
+### 1. Cara Menggunakan Scraper
+1. Clone repository
+```sh
+    $ git clone 
+```
+
+2. Intall library di cmd
+```sh
+    $ pip install beautifulsoup4
+    $ pip install requests
+```
+
+3. Buka folder hasil cloning
+```sh
+    $ cd Seleksi-2025-Tugas-1/Data Scraping/src
+```
+
+4. Jalankan program 
+```sh
+    $ author_scraper.py
+    $ manhwa_scraper.py
+    $ company_scraper.py
+    $ genre_scraper.py
+    $ character_scraper.py
+```
+Nanti 5 file .JSON akan terekspor
+
+### 2. Struktur JSON
+1. `authors_data.json`
+```json
+{
+        "Author Name": "Go, Yeong-Hun",
+        "Given Name": "영훈",
+        "Family Name": "고",
+        "Birthday": null,
+        "Website": "http://nastycat.co.kr/",
+        "Member Favorites": "31",
+        "Published Manga": [
+            "Can't See Can't Hear But Love",
+            "Dungeon Architect",
+            "Trace",
+            "Trace 1.5: Communicator"
+        ]
+    }
+```
+
+2. `characters_data.json`
+```json
+{
+        "Character Name": "Inho Baek",
+        "Role": "Main",
+        "Mangaography": [
+            "Cheese in the Trap Season 1",
+            "Cheese in the Trap Season 2",
+            "Cheese in the Trap Season 3",
+            "Cheese in the Trap Season 4"
+        ],
+        "Member Favorites": 128,
+        "Description": "Age: 26"
+    }
+```
+
+3. `companies_data.json`
+```json
+{
+        "Company Name": "Naver Webtoon",
+        "Total Works": 1578
+    }
+```
+
+4. `genres_data.json`
+```json
+{
+        "Genre Name": "Romance",
+        "Total Works": 19737,
+        "Description": "Falling in love and struggling to progress towards—or maintain—a romantic relationship take priority, while other subplots either take backseat or are designed to develop the main love story. The narrative focuses on the thoughts and emotions of the characters, illustrating the connections between them and explaining their reactions to events or conflict. Almost always, the story ends happily and the couple is rewarded for their efforts with lasting love.\n\nRomance stories require significant romantic development leading to some kind of conclusion: either to begin the relationship, continue it, or end it. Open-ended romantic endings are only acceptable when the work is an incomplete adaptation of a Romance source. \"Teasing\" stories which do not narrate significant romantic development but have a conclusion should be tagged Romantic Subplot.\n\nA story can be simply Romance. Since they are plot-driven stories showing humans experiencing romantic struggle, most Romance has some Drama inherently. For both tags, the drama should be focused not only on the relationship but also on the side storylines; for example, one character overcoming the death of a loved one or a drug addiction. Comedy requires Romance narratives to be focused on eliciting laughter, not only using comedy for lightheartedness. Slice of Life and Romance are incompatible by definition."
+    }
+```
+
+5. `manhwa_data.json`
+```json
+{
+        "Title": "The Greatest Estate Developer",
+        "Authors": [
+            "Moon, Back-kyung",
+            "Kim, Hyunsoo"
+        ],
+        "Published": [
+            "Jul  30",
+            "2021 to ?"
+        ],
+        "Chapters": null,
+        "Status": "Publishing",
+        "Serialization": [
+            "Naver Webtoon"
+        ],
+        "Genres": [
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "Themes": [
+            "Isekai",
+            "Reincarnation"
+        ],
+        "Score": "8.84"
+    }
+```
+
+
+### Data Storing
+1. Buat database pada __PostgreSQL__, contoh:
+```sh
+    host="localhost",
+    user="postgres",
+    password="@EgojihJiau02",
+    dbname="borma_dago",
+    port=5432
+```
+
+2. Intall library di cmd
+```sh
+    $ pip install psycopg2
+```
+
+3. Buka folder hasil cloning
+```sh
+    $ cd Seleksi-2023-Tugas-1/Data Scraping/src
+```
+
+4. Jalankan program 
+```sh
+    $ storing.py
+```
+
+5. Export database tersebut dalam formal SQL
+```sh
+    $ pg_dump -U <username> -d <database_name> -s > <output_file.sql>
+```
+
+## JSON Structure
+Berikut adalah *6 instance* data JSON yang dihasilkan:
+1. `produk.json`
+```json
+{
+    "ID_prod": "8992761136208",
+    "nama_prod": "Pulpy Orange",
+    "harga_prod": "13600",
+    "terjual_prod": "50",
+    "kat_prod": "Minuman Rasa Buah",
+    "nama_sup": "PT COCA-COLA BOTTLING INDONESIA"
+}
+```
+
+2. `diskon_prod.json`
+```json
+{
+    "ID_prod": "8995151170042",
+    "nama_prod": "Mustika Ratu Gula Asem B",
+    "harga_prod_norm": "7100",
+    "harga_prod_disc": "4970",
+    "terjual_prod": 0,
+    "kat_prod": "Minuman Dalam Kemasan",
+    "nama_sup": "PT MUSTIKA RATU TBK",
+    "nama_prom": "Diskon Produk Sidomuncul Rtd"
+}
+```
+
+3. `normal_prod.json`
+```json
+{
+    "ID_prod": "089686010947"
+}
+```
+
+4. `promo.json`
+```json
+{
+    "nama_prom": "Free Ongkir (Min. 300,000)",
+    "rentang_prom": "2024-12-31"
+}
+```
+
+5. `potongan_prom.json`
+```json
+{
+    "nama_prom": "Diskon Produk Ashitaki Mi"
+}
+```
+
+6. `normal_prom.json`
+```json
+{
+    "nama_prom": "Free Ongkir (Min. 300,000)",
+    "sisa_prom": "253",
+    "jumlah_prom": "10000",
+    "kode_prom": "FREESHIPPING2024"
+}
+```
+
+## Database Structure
+### Entity Relationship Diagram
+<div align="center">
+  <img src="Data Storing/design/ERD.png" width="600"/>
+</div>
+
+### Relational Diagram
+<div align="center">
+  <img src="Data Storing/design/Diagram Relational.png" width="600"/>
+</div>
+
+### Convertion Explanation
+#### __1. Pemetaan *entity* menjadi relasi__
+
+Pemetaan entitas menjadi relasi berarti mengubah representasi entitas dalam model data menjadi tabel dalam database relasional.
+
+a) *Strong Entity*
+
+*Strong Entity* adalah entitas yang bisa berdiri sendiri dan memiliki *Primary Key* sendiri.
+- *Produk* = (__id_prod__, nama_prod, harga_prod, terjual_prod, kat_prod, berat_prod, nama_sup)
+- *Pelanggan* = (__id_pel__, nama_pel, nomor_pel, email)
+- *Promo* = (__nama_prom__, rentang_prom)
+- *Keranjang* = (__id_ker__, date_ker, time_ker)
+
+`one-to-one Relationship`
+
+Cara translasi nya adalah dengan membawa PK dari salah satu sisi sebagai FK di sisi lain yang paling sesuai (bebas)
+<div align="center">
+  <img src="Data Storing/design/one-to-one.png" width="600"/>
+</div>
+
+- *Transaksi* = (__id_tran__, jenis_tran, id_ker)
+
+FK:
+- *Transaksi*(id_ker) --> *Keranjang*(id_ker)
+
+b) *Weak Entity*
+
+*Weak Entity* adalah entitas yang tidak bisa berdiri sendiri dan bergantung pada entitas lain, serta memiliki __*diskriminator*__ (contohnya adalah atribut "Urutan" pada tabel "Orders").
+<div align="center">
+  <img src="Data Storing/design/Weak-Entity.png" width="600"/>
+</div>
+
+
+- *Orders* = (__id_ker__, __urutan__, kuantitas, id_prod)
+
+FK:
+- *Orders*(id_ker) --> *Keranjang*(id_ker)
+- *Orders*(id_prod) --> *Produk*(id_prod) (*One-to-many*)
+
+#### __2. Pemetaan *relationship* menjadi relasi__
+
+Pemetaan relationship menjadi relasi berarti mengubah representasi hubungan antar entitas dalam model data menjadi tabel dalam database relasional.
+
+a) Pemetaan `many-to-many relationship` menjadi relasi
+
+Cara translasi nya adalah dengan membuat relationship antara kedua tabel menjadi entitas baru yang mengandung PK dari kedua belah sisi
+<div align="center">
+  <img src="Data Storing/design/many-to-many.png" width="600"/>
+</div>
+
+- *Digunakan* = (__id_prod__, __nama_prom__)
+
+FK:
+- *Digunakan*(id_prod) --> *Produk*(id_prod)
+- *Digunakan*(nama_prom) --> *Promo*(nama_prom)
+
+b) Pemetaan *ternary relationship* menjadi relasi
+
+Relasi ternary melibatkan tiga entitas dan direpresentasikan dengan tabel yang mencakup ketiga entitas tersebut. Hubungan antara ketiga entitas tersebut akan dibuat menjadi entitas baru yang memiliki PK dari entitas denngan sisi many dan FK dari ketiga entitas.
+
+<div align="center">
+  <img src="Data Storing/design/ternary.png" width="600"/>
+</div>
+
+- *Pesanan* = (__id_prod__, __id_ker__, id_pel)
+
+FK:
+- *Pesanan*(id_prod) --> *Produk*(id_prod)
+- *Pesanan*(id_ker) --> *Keranjang*(id_ker)
+- *Pesanan*(id_pel) --> *Pelanggan*(id_pel)
+
+#### __3. Pemetaan *specialization/ generalization* menjadi relasi__
+
+Specialization/generalization adalah konsep di mana entitas dapat dibagi menjadi sub-entitas yang lebih spesifik atau digabungkan menjadi entitas yang lebih umum.
+
+<div align="center">
+  <img src="Data Storing/design/specialization.png" width="600"/>
+</div>
+
+- *Diskon_prod* = (__id_prod__, nama_prom, harga_disc)
+- *Normal_prom* = (__nama_prom__, sisa_prom, jumlah_prom, kode_prom)
+
+`One-To-Many Relationship`
+
+Cara translasi nya adalah dengan membawa PK dari sisi One sebagai FK di sisi Many
+
+<div align="center">
+  <img src="Data Storing/design/one-to-many.png" width="600"/>
+</div>
+
+- *Normal_prod* = (__id_prod__)
+- *Potongan_prom* = (__nama_prom__)
+
+FK:
+- *Diskon_prod*(id_prod) --> *Produk*(id_prod)
+- *Diskon_prod*(nama_prom) --> *Potongan_prom*(nama_prom) (*One-to-many*)
+- *Normal_prod*(id_prod) --> *Produk*(id_prod)
+- *Potongan_prom*(nama_prom) --> *Promo*(nama_prom)
+- *Normal_prom*(nama_prom) --> *Promo*(nama_prom)
+
+__4. Pemetaan *composit attributes* menjadi relasi__
+
+Atribut multivalued adalah atribut yang dapat memiliki lebih dari satu nilai untuk satu entitas. Dalam database relasional, atribut ini biasanya dipecah menjadi tabel terpisah.
+
+<div align="center">
+  <img src="Data Storing/design/composit.png" width="600"/>
+</div>
+
+- *Alamat_pel* = (__id_pel__, __al_jalan__, __al_NoR__)
+
+FK:
+- *Alamat_pel*(id_pel) --> *Pelanggan*(id_pel)
+
+
+## Screenshot
+### Tampilan *Website*
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_website.png" width="600"/>
+</div>
+
+### Data Scrapping & Pre-processing
+`Ekstraksi Data`
+
+Program akan dijalankan dengan menggunakan parameter link website, jumlah *click* yang menentukan banyaknya halaman website yang ingin diambil datanya, dan nama file output yang diinginkan.
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_running.png" width="600"/>
+</div>
+
+Data id dan nama produk bisa didapatkan pada halaman pertama website. untuk mendapatkan informasi tambahan seperti perusahaan dan kategori produk maka kita harus melakukan *click* pada *card* produk yang ingin di lihat (__2 kali *click*__).
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_scraping_produk.png" width="600"/>
+</div>
+
+Selanjutnya, untuk mengakses lebih banyak produk, kita harus menggunakan *button* '__berikutnya__'.
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_process_produk.png" width="600"/>
+</div>
+
+untuk data promo, setelah kita *click* promo tersebut, maka harus melakukan langkah yang sama dengan *scrapping* data produk __(3 kali *click*)__.
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_scraping_potongan_info.png" width="600"/>
+</div>
+
+`Preprocessing Data`
+
+Selanjutnya, data yang didapatkan harus dibersihkan agar bisa meng-ekstrak informasi yang dibutuhkan, seperti harga dalam bentuk integer, nama produk, perusahaan, dan kategori produk
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_data_preprocessing.png" width="600"/>
+</div>
+
+`Schema Tuning - Vertical Splitting`
+
+Di *website* Borma terdapat produk yang memiliki diskon dan yang tidak memiliki diskon. Pengguna diasumsikan lebih sering mengakses diskon dengan produk sehingga tidak perlu menyimpan data yang jarang diakses dan untuk meminimalisir *null value* pada atribut __harga_disc__ di tabel __produk__.
+
+Selain itu, di *website* Borma juga terdapat 2 jenis diskon, yaitu normal diskon yang bisa digunakan pada seluruh pembelian dan potongan diskon yang hanya bisa digunakan untuk produk tertentu. Karena normal diskon memiliki lebih banyak atribut daripada potonagn diskon, maka dengan alasan yang sama dengan sebelumnya kedua jenis diskon ini dipisah pada 2 tabel yang berbeda yaitu __potongan_prom__ dan __normal_prom__.
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_scraping_promo_normal.png" width="600"/>
+</div>
+
+`Cleaning Redundancy Tuple`
+
+Ada beberapa produk yang berulang pada data yang saya *scrapping* oleh karena itu saya membersihkannya dengan 2 cara,
+1. membersihkan *redudancy* di tabel yang sama
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_data_cleaning_1.png" width="600"/>
+</div>
+
+2. Memastikan foreign key constraint antara __diskon_prod__ dengan __prod__
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_data_cleaning_2.png" width="600"/>
+</div>
+
+### Data Storing
+
+Pada database borma_dago, saya melakukan *create table* dengan menggunakan psycopg2 sebagai berikut
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_create_table.png" width="600"/>
+</div>
+
+informasi produk diskon didapatkan melalui halaman promo. Ketika proses *scrapping*, informasi produk tersebut justru terdapat di file __potongan_promo.json__ padahal seharusnya ada di __produk.json__. Cara saya menyiasatinya adalah ketika melalukan *eksport* ke __SQL__ saya memasukkan beberapa atribut pada dari __potongan_promo.json__ ke __produk.json__
+<div align="center">
+  <img src="Data Scraping/screenshot/ss_storing.png" width="600"/>
+</div>
+
+## Data Visualization (BONUS)
+
+Setelah berhasil mengumpulkan data melalui web scraping, langkah selanjutnya adalah menyajikan informasi tersebut dalam bentuk yang mudah dipahami melalui visualisasi data. Visualisasi data memungkinkan kita untuk mengidentifikasi pola, membandingkan berbagai kategori, dan menyederhanakan data kompleks sehingga lebih mudah dipahami. 
+
+Berikut adalah hasil visualisasi yang didapatkan untuk memenuhi tujuan awal *scraping* website ini yaitu untuk membandingkan hubungan antara promo yang ditawarkan dengan jumlah penjualan produk.
+<div align="center">
+  <img src="Data Visualization/Visualization/1.png" width="800"/>
+</div>
+
+Data yang ada juga memberikan kesimpulan perusahaan mana saja yang paling banyak memberikan diskon, produk paling variatif, dan penjualan produk yang paling tinggi.
+
+<div align="center">
+  <img src="Data Visualization/Visualization/2.png" width="800"/>
+</div>
+
+
+## Reference
+1. [Borma Dago Website](https://www.bormadago.com/)
+2. [Dokumentasi Selenium](https://selenium-python.readthedocs.io/)
+3. [Dokumentasi Beautifulsoup4](https://beautiful-soup-4.readthedocs.io/)
+4. [Dokumentasi psycopg2](https://pypi.org/project/psycopg2/)
+5. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
+
+## Author
+Jihan Aurelia - 18222001
