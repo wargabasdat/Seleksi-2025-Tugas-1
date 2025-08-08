@@ -1,0 +1,586 @@
+[
+  {
+    "company_id": "comp_33e9621d",
+    "industry_id": "ind_620636e9"
+  },
+  {
+    "company_id": "comp_97d7f220",
+    "industry_id": "ind_cdd630a5"
+  },
+  {
+    "company_id": "comp_f2d8ee5e",
+    "industry_id": "ind_7a2c34cb"
+  },
+  {
+    "company_id": "comp_64e3bb93",
+    "industry_id": "ind_cd37d9da"
+  },
+  {
+    "company_id": "comp_001cf410",
+    "industry_id": "ind_3ceb499f"
+  },
+  {
+    "company_id": "comp_786c073f",
+    "industry_id": "ind_96d1e119"
+  },
+  {
+    "company_id": "comp_2352a687",
+    "industry_id": "ind_4706640a"
+  },
+  {
+    "company_id": "comp_a421fc5e",
+    "industry_id": "ind_ee0288ec"
+  },
+  {
+    "company_id": "comp_2cbee61a",
+    "industry_id": "ind_f79d77f2"
+  },
+  {
+    "company_id": "comp_eea9732b",
+    "industry_id": "ind_5c278c2e"
+  },
+  {
+    "company_id": "comp_3815c364",
+    "industry_id": "ind_b1455e5b"
+  },
+  {
+    "company_id": "comp_3815c364",
+    "industry_id": "ind_aacfcbaa"
+  },
+  {
+    "company_id": "comp_5fe50081",
+    "industry_id": "ind_94b96d4d"
+  },
+  {
+    "company_id": "comp_5fe50081",
+    "industry_id": "ind_9adbbf98"
+  },
+  {
+    "company_id": "comp_fb7b7841",
+    "industry_id": "ind_620636e9"
+  },
+  {
+    "company_id": "comp_1b1164cb",
+    "industry_id": "ind_c1f5c458"
+  },
+  {
+    "company_id": "comp_df9ed564",
+    "industry_id": "ind_3bc9df58"
+  },
+  {
+    "company_id": "comp_e1f1e2cb",
+    "industry_id": "ind_9c7cd759"
+  },
+  {
+    "company_id": "comp_8acb43dd",
+    "industry_id": "ind_96d1e119"
+  },
+  {
+    "company_id": "comp_3c413fc6",
+    "industry_id": "ind_38b5b5f6"
+  },
+  {
+    "company_id": "comp_8179f80d",
+    "industry_id": "ind_34c808d0"
+  },
+  {
+    "company_id": "comp_a19f0fd8",
+    "industry_id": "ind_2a78df85"
+  },
+  {
+    "company_id": "comp_fe107d99",
+    "industry_id": "ind_f9203ec0"
+  },
+  {
+    "company_id": "comp_d2f535ed",
+    "industry_id": "ind_0a4cb9e1"
+  },
+  {
+    "company_id": "comp_275c3945",
+    "industry_id": "ind_ee0288ec"
+  },
+  {
+    "company_id": "comp_dc7c8654",
+    "industry_id": "ind_96d1e119"
+  },
+  {
+    "company_id": "comp_c4301255",
+    "industry_id": "ind_9adbbf98"
+  },
+  {
+    "company_id": "comp_c4301255",
+    "industry_id": "ind_e8152379"
+  },
+  {
+    "company_id": "comp_15920e21",
+    "industry_id": "ind_96d1e119"
+  },
+  {
+    "company_id": "comp_b3934155",
+    "industry_id": "ind_2a78df85"
+  },
+  {
+    "company_id": "comp_225c3925",
+    "industry_id": "ind_34c808d0"
+  },
+  {
+    "company_id": "comp_225c3925",
+    "industry_id": "ind_9c7cd759"
+  },
+  {
+    "company_id": "comp_cb2b14c7",
+    "industry_id": "ind_3c67cd46"
+  },
+  {
+    "company_id": "comp_ea2144e3",
+    "industry_id": "ind_49936202"
+  },
+  {
+    "company_id": "comp_ce1667a1",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_acfe08af",
+    "industry_id": "ind_96d1e119"
+  },
+  {
+    "company_id": "comp_bd648634",
+    "industry_id": "ind_9adbbf98"
+  },
+  {
+    "company_id": "comp_20ac7aef",
+    "industry_id": "ind_7a2c34cb"
+  },
+  {
+    "company_id": "comp_59761619",
+    "industry_id": "ind_eb1b15a2"
+  },
+  {
+    "company_id": "comp_4b30ef66",
+    "industry_id": "ind_ee0288ec"
+  },
+  {
+    "company_id": "comp_e95a250b",
+    "industry_id": "ind_9a942cd9"
+  },
+  {
+    "company_id": "comp_af4343c8",
+    "industry_id": "ind_c1f5c458"
+  },
+  {
+    "company_id": "comp_539457fc",
+    "industry_id": "ind_96d1e119"
+  },
+  {
+    "company_id": "comp_cec98ce6",
+    "industry_id": "ind_cd20ef17"
+  },
+  {
+    "company_id": "comp_74da6410",
+    "industry_id": "ind_f615b63a"
+  },
+  {
+    "company_id": "comp_b6131bf8",
+    "industry_id": "ind_96d1e119"
+  },
+  {
+    "company_id": "comp_0e44bed7",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_9b8947da",
+    "industry_id": "ind_2a78df85"
+  },
+  {
+    "company_id": "comp_a1774764",
+    "industry_id": "ind_96d1e119"
+  },
+  {
+    "company_id": "comp_f10a1ab8",
+    "industry_id": "ind_ee27cde0"
+  },
+  {
+    "company_id": "comp_1aeaaf2a",
+    "industry_id": "ind_1445c481"
+  },
+  {
+    "company_id": "comp_fd7c1918",
+    "industry_id": "ind_e8152379"
+  },
+  {
+    "company_id": "comp_af562bdb",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_d7da8446",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_e63e4e84",
+    "industry_id": "ind_5982950c"
+  },
+  {
+    "company_id": "comp_f29eb0d7",
+    "industry_id": "ind_b2698b63"
+  },
+  {
+    "company_id": "comp_3e2b102a",
+    "industry_id": "ind_86bd4849"
+  },
+  {
+    "company_id": "comp_85f04910",
+    "industry_id": "ind_9a942cd9"
+  },
+  {
+    "company_id": "comp_7f9ec5b6",
+    "industry_id": "ind_58b97f3c"
+  },
+  {
+    "company_id": "comp_66101193",
+    "industry_id": "ind_2a78df85"
+  },
+  {
+    "company_id": "comp_f214c778",
+    "industry_id": "ind_e8152379"
+  },
+  {
+    "company_id": "comp_6f1897d1",
+    "industry_id": "ind_f175bc98"
+  },
+  {
+    "company_id": "comp_b8d9b6b5",
+    "industry_id": "ind_38b5b5f6"
+  },
+  {
+    "company_id": "comp_8201464a",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_061d5045",
+    "industry_id": "ind_ae1723e7"
+  },
+  {
+    "company_id": "comp_2b79c98f",
+    "industry_id": "ind_ccd3e1d8"
+  },
+  {
+    "company_id": "comp_2d3dad41",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_d3062ed3",
+    "industry_id": "ind_f4403288"
+  },
+  {
+    "company_id": "comp_69636f05",
+    "industry_id": "ind_38b5b5f6"
+  },
+  {
+    "company_id": "comp_bd7c7997",
+    "industry_id": "ind_5c278c2e"
+  },
+  {
+    "company_id": "comp_ff343642",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_0dab276b",
+    "industry_id": "ind_5f4445a1"
+  },
+  {
+    "company_id": "comp_191810d7",
+    "industry_id": "ind_933bf21a"
+  },
+  {
+    "company_id": "comp_a4441e07",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_2a0cb6b4",
+    "industry_id": "ind_131260cb"
+  },
+  {
+    "company_id": "comp_d5c3fb90",
+    "industry_id": "ind_0a4cb9e1"
+  },
+  {
+    "company_id": "comp_10913ed7",
+    "industry_id": "ind_38b5b5f6"
+  },
+  {
+    "company_id": "comp_182e6e6b",
+    "industry_id": "ind_38b5b5f6"
+  },
+  {
+    "company_id": "comp_a5b171d7",
+    "industry_id": "ind_b2698b63"
+  },
+  {
+    "company_id": "comp_2cab9537",
+    "industry_id": "ind_17088134"
+  },
+  {
+    "company_id": "comp_bd58ceda",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_fc5b7177",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_3e937bff",
+    "industry_id": "ind_1445c481"
+  },
+  {
+    "company_id": "comp_0fad9501",
+    "industry_id": "ind_ce55655f"
+  },
+  {
+    "company_id": "comp_d8940ed2",
+    "industry_id": "ind_4add517d"
+  },
+  {
+    "company_id": "comp_e4c611e6",
+    "industry_id": "ind_4add517d"
+  },
+  {
+    "company_id": "comp_7bff9de3",
+    "industry_id": "ind_4add517d"
+  },
+  {
+    "company_id": "comp_b3ccd852",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_fbb0c353",
+    "industry_id": "ind_49936202"
+  },
+  {
+    "company_id": "comp_fbedb4f4",
+    "industry_id": "ind_5cbd5840"
+  },
+  {
+    "company_id": "comp_6d785501",
+    "industry_id": "ind_fb09ffa6"
+  },
+  {
+    "company_id": "comp_de49a36f",
+    "industry_id": "ind_ccd3e1d8"
+  },
+  {
+    "company_id": "comp_ddba2c92",
+    "industry_id": "ind_b2698b63"
+  },
+  {
+    "company_id": "comp_4ed90f1c",
+    "industry_id": "ind_214e2ba6"
+  },
+  {
+    "company_id": "comp_92087caf",
+    "industry_id": "ind_b2698b63"
+  },
+  {
+    "company_id": "comp_cf673a9c",
+    "industry_id": "ind_145a070a"
+  },
+  {
+    "company_id": "comp_935614de",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_fc64b48c",
+    "industry_id": "ind_6ae7a749"
+  },
+  {
+    "company_id": "comp_e077b555",
+    "industry_id": "ind_38b5b5f6"
+  },
+  {
+    "company_id": "comp_4af26436",
+    "industry_id": "ind_3d84a8bd"
+  },
+  {
+    "company_id": "comp_2611075b",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_e409be0b",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_4f81100f",
+    "industry_id": "ind_8b0109dd"
+  },
+  {
+    "company_id": "comp_7a9dec80",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_d69b8fd0",
+    "industry_id": "ind_38b5b5f6"
+  },
+  {
+    "company_id": "comp_0555b28d",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_27286e10",
+    "industry_id": "ind_ee0288ec"
+  },
+  {
+    "company_id": "comp_bd39704c",
+    "industry_id": "ind_49936202"
+  },
+  {
+    "company_id": "comp_fd601fda",
+    "industry_id": "ind_ccd3e1d8"
+  },
+  {
+    "company_id": "comp_cdac48f2",
+    "industry_id": "ind_b2698b63"
+  },
+  {
+    "company_id": "comp_f130bd81",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_66386d47",
+    "industry_id": "ind_9c7cd759"
+  },
+  {
+    "company_id": "comp_57f2a6a7",
+    "industry_id": "ind_5c278c2e"
+  },
+  {
+    "company_id": "comp_1f59357b",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_d05d22f9",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_bc33e281",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_4807102a",
+    "industry_id": "ind_9c7cd759"
+  },
+  {
+    "company_id": "comp_e67b8b2b",
+    "industry_id": "ind_168a3791"
+  },
+  {
+    "company_id": "comp_08b00238",
+    "industry_id": "ind_f2047914"
+  },
+  {
+    "company_id": "comp_45dda8dd",
+    "industry_id": "ind_398ed329"
+  },
+  {
+    "company_id": "comp_ad58cf1d",
+    "industry_id": "ind_9c30e11e"
+  },
+  {
+    "company_id": "comp_13be65af",
+    "industry_id": "ind_5c278c2e"
+  },
+  {
+    "company_id": "comp_4d08ec58",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_897e329e",
+    "industry_id": "ind_4c02e384"
+  },
+  {
+    "company_id": "comp_43b2df2c",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_84d12c36",
+    "industry_id": "ind_9df311e3"
+  },
+  {
+    "company_id": "comp_d06cde3b",
+    "industry_id": "ind_6ae7a749"
+  },
+  {
+    "company_id": "comp_bdfb3ee8",
+    "industry_id": "ind_49936202"
+  },
+  {
+    "company_id": "comp_2ab6c8d1",
+    "industry_id": "ind_4add517d"
+  },
+  {
+    "company_id": "comp_b7cfd20d",
+    "industry_id": "ind_5c278c2e"
+  },
+  {
+    "company_id": "comp_1dc9253a",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_06acf8bb",
+    "industry_id": "ind_58b97f3c"
+  },
+  {
+    "company_id": "comp_49c2c721",
+    "industry_id": "ind_8bbf74e4"
+  },
+  {
+    "company_id": "comp_a19ee5a9",
+    "industry_id": "ind_4add517d"
+  },
+  {
+    "company_id": "comp_06d5cd3a",
+    "industry_id": "ind_d058025d"
+  },
+  {
+    "company_id": "comp_bdb257ec",
+    "industry_id": "ind_4add517d"
+  },
+  {
+    "company_id": "comp_187a8813",
+    "industry_id": "ind_4add517d"
+  },
+  {
+    "company_id": "comp_486af5da",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_cff30d88",
+    "industry_id": "ind_cbc3a2b6"
+  },
+  {
+    "company_id": "comp_36d27c9f",
+    "industry_id": "ind_cbc3a2b6"
+  },
+  {
+    "company_id": "comp_919aed83",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_97aa25d0",
+    "industry_id": "ind_56148a8e"
+  },
+  {
+    "company_id": "comp_6c4b8ba7",
+    "industry_id": "ind_b070ce5d"
+  },
+  {
+    "company_id": "comp_c3f51d90",
+    "industry_id": "ind_398ed329"
+  },
+  {
+    "company_id": "comp_a07adcb1",
+    "industry_id": "ind_9ad05227"
+  },
+  {
+    "company_id": "comp_f2bfda81",
+    "industry_id": "ind_f615b63a"
+  }
+]

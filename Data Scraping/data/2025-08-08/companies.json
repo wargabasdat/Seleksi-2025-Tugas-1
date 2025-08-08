@@ -1,0 +1,712 @@
+[
+  {
+    "company_id": "comp_33e9621d",
+    "company_name": "Gefami Services Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_97d7f220",
+    "company_name": "TIXid",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_f2d8ee5e",
+    "company_name": "Deliveree On-Demand Logistics (Southeast Asia)",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_64e3bb93",
+    "company_name": "SIGMATECH",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_001cf410",
+    "company_name": "Ematic Solutions",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_786c073f",
+    "company_name": "Indocyber Global Teknologi",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_2352a687",
+    "company_name": "Neveres Sportswear",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_a421fc5e",
+    "company_name": "Cakap",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_2cbee61a",
+    "company_name": "Propseller",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_eea9732b",
+    "company_name": "TADA",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_3815c364",
+    "company_name": "Female Daily Network",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_5fe50081",
+    "company_name": "Antikode",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_fb7b7841",
+    "company_name": "Graha Karya Informasi",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_1b1164cb",
+    "company_name": "Mekari",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_df9ed564",
+    "company_name": "Felaufeẽ",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_e1f1e2cb",
+    "company_name": "detik.com",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_8acb43dd",
+    "company_name": "PT Metrocom Global Solusi",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_3c413fc6",
+    "company_name": "Playmakers",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_8179f80d",
+    "company_name": "Kumparan",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_a19f0fd8",
+    "company_name": "ICHIGO Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_fe107d99",
+    "company_name": "GoWork",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_d2f535ed",
+    "company_name": "ForgeFun",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_275c3945",
+    "company_name": "KitaLulus",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_dc7c8654",
+    "company_name": "PT Sapta Tunas Teknologi",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_c4301255",
+    "company_name": "flitts",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_15920e21",
+    "company_name": "PT Sinergy Informasi Pratama",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_b3934155",
+    "company_name": "PT. ASLI Rancangan Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_225c3925",
+    "company_name": "Kompas Gramedia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_cb2b14c7",
+    "company_name": "PT Allo Bank Indonesia Tbk",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_ea2144e3",
+    "company_name": "Makmur",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_ce1667a1",
+    "company_name": "PT. Wahana Pembayaran Digital",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_acfe08af",
+    "company_name": "PT Tiga Daya Digital Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_bd648634",
+    "company_name": "Sagara Technology Group",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_20ac7aef",
+    "company_name": "PT LOG KAR INDONESIA",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_59761619",
+    "company_name": "bTaskee Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_4b30ef66",
+    "company_name": "Bina Nusantara Group",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_e95a250b",
+    "company_name": "PT BIPO Service Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_af4343c8",
+    "company_name": "Happy5",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_539457fc",
+    "company_name": "PT Appfuxion Consulting Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_cec98ce6",
+    "company_name": "Boleh Dicoba Digital",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_74da6410",
+    "company_name": "Staffinc (Sampingan)",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_b6131bf8",
+    "company_name": "Mobius Digital",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_0e44bed7",
+    "company_name": "NRI Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_9b8947da",
+    "company_name": "PT. YUKK Kreasi Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_a1774764",
+    "company_name": "super-staff.ai",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_f10a1ab8",
+    "company_name": "SEO Copilot Pte. LTD.",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_1aeaaf2a",
+    "company_name": "PT Tricada Intronik",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_fd7c1918",
+    "company_name": "Pi-xcels",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_af562bdb",
+    "company_name": "PT JST SOFTWARE INDONESIA",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_d7da8446",
+    "company_name": "Topremit",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_e63e4e84",
+    "company_name": "PT. Jelita Abadi Indoneisa",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_f29eb0d7",
+    "company_name": "FOREXimf",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_3e2b102a",
+    "company_name": "Microsec",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_85f04910",
+    "company_name": "Sea Search Sdn Bhd",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_7f9ec5b6",
+    "company_name": "Rocketindo",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_66101193",
+    "company_name": "Labamu",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_f214c778",
+    "company_name": "NAGAREY.com",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_6f1897d1",
+    "company_name": "Little Joy Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_b8d9b6b5",
+    "company_name": "StyleDoubler",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_8201464a",
+    "company_name": "Visa",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_061d5045",
+    "company_name": "Canva",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_2b79c98f",
+    "company_name": "foodpanda",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_2d3dad41",
+    "company_name": "Databricks",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_d3062ed3",
+    "company_name": "Vestiaire Collective",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_69636f05",
+    "company_name": "Moloco",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_bd7c7997",
+    "company_name": "Datadog",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_ff343642",
+    "company_name": "New Relic",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_0dab276b",
+    "company_name": "NBCUniversal",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_191810d7",
+    "company_name": "Terrascope",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_a4441e07",
+    "company_name": "Mobbin",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_2a0cb6b4",
+    "company_name": "Spotify",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_d5c3fb90",
+    "company_name": "AppLovin",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_10913ed7",
+    "company_name": "Brainlabs",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_182e6e6b",
+    "company_name": "Vistar Media",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_a5b171d7",
+    "company_name": "Wise",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_2cab9537",
+    "company_name": "TOMRA",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_bd58ceda",
+    "company_name": "StraitsX (formerly Xfers)",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_fc5b7177",
+    "company_name": "SimplifyNext",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_3e937bff",
+    "company_name": "Plaud AI",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_0fad9501",
+    "company_name": "JALA Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_d8940ed2",
+    "company_name": "Tools for Humanity",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_e4c611e6",
+    "company_name": "Bifrost AI",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_7bff9de3",
+    "company_name": "EVYD Technology",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_b3ccd852",
+    "company_name": "Finmo",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_fbb0c353",
+    "company_name": "Cobo",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_fbedb4f4",
+    "company_name": "Blockchain.com",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_6d785501",
+    "company_name": "Airbnb",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_de49a36f",
+    "company_name": "Deliveroo",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_ddba2c92",
+    "company_name": "Gemini",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_4ed90f1c",
+    "company_name": "Circles.Life",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_92087caf",
+    "company_name": "Crypto.com",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_cf673a9c",
+    "company_name": "Grab",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_935614de",
+    "company_name": "Coinhako",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_fc64b48c",
+    "company_name": "ElevenLabs",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_e077b555",
+    "company_name": "Kepler Group",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_4af26436",
+    "company_name": "Reddit",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_2611075b",
+    "company_name": "Aspire",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_e409be0b",
+    "company_name": "Airwallex",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_4f81100f",
+    "company_name": "Aruna",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_7a9dec80",
+    "company_name": "Grafana Labs",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_d69b8fd0",
+    "company_name": "Billups",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_0555b28d",
+    "company_name": "Fresha",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_27286e10",
+    "company_name": "Purwadhika Digital Technology School",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_bd39704c",
+    "company_name": "BitMEX",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_fd601fda",
+    "company_name": "Domino's",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_cdac48f2",
+    "company_name": "Flywire",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_f130bd81",
+    "company_name": "OKX",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_66386d47",
+    "company_name": "Glance",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_57f2a6a7",
+    "company_name": "neo4j",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_1f59357b",
+    "company_name": "Cribl",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_d05d22f9",
+    "company_name": "Sportradar",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_bc33e281",
+    "company_name": "Gong",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_4807102a",
+    "company_name": "Nas Company",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_e67b8b2b",
+    "company_name": "Postman",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_08b00238",
+    "company_name": "Trust Bank Singapore",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_45dda8dd",
+    "company_name": "HoYoverse",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_ad58cf1d",
+    "company_name": "Open Government Products",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_13be65af",
+    "company_name": "Figma",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_4d08ec58",
+    "company_name": "Stripe",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_897e329e",
+    "company_name": "TurnkeyID",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_43b2df2c",
+    "company_name": "Ashby",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_84d12c36",
+    "company_name": "H&M Group",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_d06cde3b",
+    "company_name": "Emma - The Sleep Company",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_bdfb3ee8",
+    "company_name": "Arta Finance",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_2ab6c8d1",
+    "company_name": "Reka AI",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_b7cfd20d",
+    "company_name": "Jubelio",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_1dc9253a",
+    "company_name": "Shiji Group",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_06acf8bb",
+    "company_name": "ShopBack",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_49c2c721",
+    "company_name": "Adyen",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_a19ee5a9",
+    "company_name": "OpenAI",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_06d5cd3a",
+    "company_name": "Intrinsic",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_bdb257ec",
+    "company_name": "Cohere",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_187a8813",
+    "company_name": "Glean",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_486af5da",
+    "company_name": "Notion",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_cff30d88",
+    "company_name": "Harrison.ai",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_36d27c9f",
+    "company_name": "Heidi Health",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_919aed83",
+    "company_name": "AlphaSense",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_97aa25d0",
+    "company_name": "Sertis",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_6c4b8ba7",
+    "company_name": "Bosch",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_c3f51d90",
+    "company_name": "NetEase Games",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_a07adcb1",
+    "company_name": "Kong Inc.",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "company_id": "comp_f2bfda81",
+    "company_name": "SEEK",
+    "scraped_at": "2025-08-08 20:00:02"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "location_id": "loc_9597ddfd",
+    "city": "Tangerang",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_6fc8a029",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_c4a315a0",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_3a4297ba",
+    "city": "Singapore",
+    "country": "Singapore",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_8d0798bb",
+    "city": "Banten",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_b3feaf63",
+    "city": "Bandung",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_5ac55fb0",
+    "city": "Bandar Lampung",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_11009f90",
+    "city": "Makati City",
+    "country": "Philippines",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_f1fdffc6",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_b1dddaa6",
+    "city": "Bekasi",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_357d0063",
+    "city": "Depok",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_5cca93cb",
+    "city": "Batam Island",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_be3832cb",
+    "city": "Medan",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_cb52e018",
+    "city": "Bogor",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_6dd4ee2b",
+    "city": "Semarang",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_3377aa9f",
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_148693f5",
+    "city": "Indonesia Bulk Terminal",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_260afe44",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_0d81d8dd",
+    "city": "Pontianak",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_ed9b4257",
+    "city": "Surabaya",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_dd964486",
+    "city": "Sidoarjo",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_2d1bf72b",
+    "city": "Petaling Jaya",
+    "country": "Malaysia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_1fc48ba3",
+    "city": "Kemayoran",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_11f7c9b7",
+    "city": "Denpasar",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_56d34582",
+    "city": "Kalbut Situbondo",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_36248990",
+    "city": "Tokyo",
+    "country": "Japan",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_bf984a20",
+    "city": "Bangalore",
+    "country": "India",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_3179468e",
+    "city": "Seoul",
+    "country": "Republic of",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_2f42cc33",
+    "city": "Hyderabad",
+    "country": "India",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_c79e83a4",
+    "city": "Malang",
+    "country": "Indonesia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_a12a5005",
+    "city": "Sydney",
+    "country": "Australia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_8d029514",
+    "city": "Melbourne",
+    "country": "Australia",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "location_id": "loc_ffd6c037",
+    "city": "Shanghai",
+    "country": "China",
+    "scraped_at": "2025-08-08 20:00:02"
+  }
+]
