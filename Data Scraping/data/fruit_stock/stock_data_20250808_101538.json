@@ -1,0 +1,22 @@
+[
+{
+    "stock_event_uid": "stock_20250808000000",
+    "timestamp": "2025-08-08 10:15:39",
+    "stock_start_time": "2025-08-08 00:00:00 UTC"
+},
+{
+    "stock_event_uid": "stock_20250808000000",
+    "fruit_name": "Smoke",
+    "price": "100,000"
+},
+{
+    "stock_event_uid": "stock_20250808000000",
+    "fruit_name": "Dark",
+    "price": "500,000"
+},
+{
+    "stock_event_uid": "stock_20250808000000",
+    "fruit_name": "Light",
+    "price": "650,000"
+}
+]

@@ -1,0 +1,33 @@
+[
+{
+    "sword_name": "Triple Dark Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Triple_Dark_Blade",
+    "timestamp": "2025-08-08 08:40:06",
+    "abilities": [],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Triple Dark Blade's model and skills were revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Fixed Slayer Skin not applying on abilities."
+        },
+        {
+            "version": "Update 20",
+            "change": "Added the Triple Dark Blade's Upgrading."
+        },
+        {
+            "version": "Update 14",
+            "change": "The Triple Dark Blade has been nerfed."
+        },
+        {
+            "version": "Update 13-14",
+            "change": "The Triple Dark Blade was silently added into the game."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates"
+}
+]
