@@ -50,6 +50,8 @@ Setelah menjalankan scraper, data akan disimpan dalam format JSON. Berikut adala
 
 ![ERD](<Data Storing/design/ERD diagram.png>)
 
+terdapat beberapa tabel relevan yang ditambahkan dari data asli hasil scraping, seperti tabel `users`, `user_game_library`, `developers`, `publishers`, dan `regions`. Tabel-tabel ini ditambahkan untuk memberikan konteks yang lebih luas terhadap data game yang di-scrape, memungkinkan analisis yang lebih mendalam terhadap hubungan antara pengguna, game, genre, developer, publisher, dan wilayah rilis (tabel tambahan merupakan tabel kosong tanpa data dummy)
+
 ##### Rasionalisasi ERD
 
 1. Hubungan users dan user_game_library
