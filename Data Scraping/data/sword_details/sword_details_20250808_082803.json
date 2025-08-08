@@ -1,0 +1,1034 @@
+[
+{
+    "sword_name": "Dark Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Dark_Blade",
+    "timestamp": "2025-08-08 08:28:04",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Changed the visuals for the [X] ability."
+        },
+        {
+            "version": "Update 21",
+            "change": "The strength of Dark Blade's Upgrading was nerfed.\n10% -> 8% Damage Boost."
+        },
+        {
+            "version": "Update 20",
+            "change": "The Dark Blade was reworked.\nAdded new model."
+        },
+        {
+            "version": "Update 20",
+            "change": "Increased the damage and speed of [X] Dark Air Slash V2 when held."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Improved the visual effects on the Dark Blade's abilities."
+        },
+        {
+            "version": "Update 15",
+            "change": "Reduced end-lag on the [Z] One Thousand Slices ability."
+        },
+        {
+            "version": "Update 11",
+            "change": "The Dark Blade was re-imagined:\nNew model.\nNew and faster combat animations.\nAlternative abilities (V2-exclusive):\nHolding the [Z] One Thousand Slices ability for at least 0.25s will move the player forward.\nThe [X] Dark Air Slash ability can be charged for up to 0.4s for a slightly faster attack, and to break Instinct."
+        },
+        {
+            "version": "Update 9",
+            "change": "The Dark Blade was slightly buffed."
+        },
+        {
+            "version": "Update 8",
+            "change": "The Dark Blade's rarity was changed to Mythical."
+        },
+        {
+            "version": "Update 5",
+            "change": "The Dark Blade was slightly nerfed.\nThe [Z] One Thousand Slices + [X] Dark Air Slash combo is no longer inescapable."
+        },
+        {
+            "version": "Update 4",
+            "change": "Added the Dark Blade's V2."
+        },
+        {
+            "version": "Update 2",
+            "change": "The Dark Blade was nerfed."
+        },
+        {
+            "version": "Update 1",
+            "change": "The Dark Blade was released as a Legendary sword."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Fox Lamp",
+    "url": "https://blox-fruits.fandom.com/wiki/Fox_Lamp",
+    "timestamp": "2025-08-08 08:28:04",
+    "change_history": [],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/22"
+},
+{
+    "sword_name": "Trident",
+    "url": "https://blox-fruits.fandom.com/wiki/Trident",
+    "timestamp": "2025-08-08 08:28:04",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Trident's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Trident's moves were reworked."
+        },
+        {
+            "version": "Update 3",
+            "change": "Trident was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/3"
+},
+{
+    "sword_name": "Jitte",
+    "url": "https://blox-fruits.fandom.com/wiki/Jitte",
+    "timestamp": "2025-08-08 08:28:07",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Jitte was replaced by Flail."
+        },
+        {
+            "version": "Update 20",
+            "change": "Jitte's moves were revamped.\n[Z] Smoke Barrage was renamed to [Z] Smoke Leopard."
+        },
+        {
+            "version": "Update 10",
+            "change": "Jitte was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/10"
+},
+{
+    "sword_name": "Control",
+    "url": "https://blox-fruits.fandom.com/wiki/Control",
+    "timestamp": "2025-08-08 08:28:07",
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Control Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Control was buffed.\n[Z] Control Area now lasts longer.\nLowered cooldown on [X] Levitate and [F] Teleport.\nIncreased the damage of [V] Gamma Rush, and it no longer shrinks after catching a player, and doesn't disappear after the move."
+        },
+        {
+            "version": "Update 16",
+            "change": "Control was buffed.\nIncreased the damage of [X] Levitate"
+        },
+        {
+            "version": "Update 14",
+            "change": "Control was buffed.\nIncreased the stun on [C] Echo Knife.\nSlightly increased damage on [V] Gamma Rush."
+        },
+        {
+            "version": "Update 11",
+            "change": "Control was buffed.\nDecreased the end-lag on [C] Echo Knife."
+        },
+        {
+            "version": "Update 10",
+            "change": "Control was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Mythical",
+    "release_date": "Updates/10"
+},
+{
+    "sword_name": "True Triple Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/True_Triple_Katana",
+    "timestamp": "2025-08-08 08:28:07",
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "The pull-back hitbox of [X] Dragon Hurricane was nerfed."
+        },
+        {
+            "version": "Update 26",
+            "change": "Instinct dodges no longer drain when moving out of the [X] move."
+        },
+        {
+            "version": "Update 24",
+            "change": "The pull-back hitbox of [X] Dragon Hurricane was slightly nerfed."
+        },
+        {
+            "version": "Update 24",
+            "change": "The True Triple Katana's model was revamped.\nOld True Triple Katana's Icon"
+        },
+        {
+            "version": "Update 20",
+            "change": "The True Triple Katana's moves were revamped."
+        },
+        {
+            "version": "Update 11",
+            "change": "The True Triple Katana was changed:\nThe range on [Z] was reduced by ~15%.\nThe stun on [Z] was reduced by 0.2 seconds.\nThe damage on [X] was reduced.\nThe tornado hitbox on [X] was fixed and reduced (it now acted more like a cone rather than a big sphere). The end delay was also increased by 0.1s."
+        },
+        {
+            "version": "Update 9",
+            "change": "The True Triple Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates/9"
+},
+{
+    "sword_name": "Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Blade",
+    "timestamp": "2025-08-08 08:28:07",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Chop was reworked and renamed to Blade.\nAdded a [TAP] ability.\n[Z] Tackle was renamed to [Z] Razor Cyclone.\n[X] Dance was renamed to [X] Blade Dance.\n[C] Party was renamed to [C] Saw Shredder.\n[F] Helicopter was renamed to [F] Turbine Flight."
+        },
+        {
+            "version": "Update 20",
+            "change": "Chop Fruit's model was remade."
+        },
+        {
+            "version": "Update 1",
+            "change": "Chop was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "release_date": "Updates/24"
+},
+{
+    "sword_name": "Buddha",
+    "url": "https://blox-fruits.fandom.com/wiki/Buddha",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Buddha V1 received a slightly higher Air Jump (around 1.5x) compared to untransformed."
+        },
+        {
+            "version": "Update 24",
+            "change": "Buddha icon was remade."
+        },
+        {
+            "version": "Update 20",
+            "change": "Buddha Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "Human: Buddha was renamed to \"Buddha\"."
+        },
+        {
+            "version": "Update 19",
+            "change": "Awakened Buddha's abilities damage were buffed."
+        },
+        {
+            "version": "Update 18",
+            "change": "While transformed, the damage of swords' M1 was nerfed.\nHuman: Buddha users now deal 27.5% decreased M1 damage, only in PvP."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "[X] Impact (V1) was reworked."
+        },
+        {
+            "version": "Update 15",
+            "change": "Human: Buddha received an awakening."
+        },
+        {
+            "version": "Update 1",
+            "change": "Human: Buddha was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Legendary",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Triple Dark Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Triple_Dark_Blade",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Triple Dark Blade's model and skills were revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Fixed Slayer Skin not applying on abilities."
+        },
+        {
+            "version": "Update 20",
+            "change": "Added the Triple Dark Blade's Upgrading."
+        },
+        {
+            "version": "Update 14",
+            "change": "The Triple Dark Blade has been nerfed."
+        },
+        {
+            "version": "Update 13-14",
+            "change": "The Triple Dark Blade was silently added into the game."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates"
+},
+{
+    "sword_name": "Hallow Scythe",
+    "url": "https://blox-fruits.fandom.com/wiki/Hallow_Scythe",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 21",
+            "change": "Buffed Hallow Scythe's speed and damage.\n[X] move now breaks Instinct."
+        },
+        {
+            "version": "Update 21",
+            "change": "The effect of Hallow Scythe's Upgrading was nerfed.\n10% -> 8% Damage Boost"
+        },
+        {
+            "version": "Update 16",
+            "change": "Hallow Scythe was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates/16"
+},
+{
+    "sword_name": "Cursed Dual Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/Cursed_Dual_Katana",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Cursed Dual Katana's model was reworked."
+        },
+        {
+            "version": "Update 18",
+            "change": "[X] Slayer of Goliath received a small visual change altering the spinning X that appears on the target's screen."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Cursed Dual Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates/17.3"
+},
+{
+    "sword_name": "Tushita",
+    "url": "https://blox-fruits.fandom.com/wiki/Tushita",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Tushita's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Tushita's abilities were revamped."
+        },
+        {
+            "version": "Update 15",
+            "change": "Tushita was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/15"
+},
+{
+    "sword_name": "Yama",
+    "url": "https://blox-fruits.fandom.com/wiki/Yama",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Yama's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Yama's moves were revamped."
+        },
+        {
+            "version": "Update 15",
+            "change": "Yama was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/15"
+},
+{
+    "sword_name": "Shizu",
+    "url": "https://blox-fruits.fandom.com/wiki/Shizu",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Shisui was remodeled and renamed to Shizu."
+        },
+        {
+            "version": "Update 20",
+            "change": "Shisui's moves were reworked."
+        },
+        {
+            "version": "Update 8",
+            "change": "Shisui was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Spikey Trident",
+    "url": "https://blox-fruits.fandom.com/wiki/Spikey_Trident",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Spikey Trident's moves were revamped."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "The Spikey Trident was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/17.2"
+},
+{
+    "sword_name": "Saber",
+    "url": "https://blox-fruits.fandom.com/wiki/Saber",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Saber's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Saber's moves were reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Saber was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Rengoku",
+    "url": "https://blox-fruits.fandom.com/wiki/Rengoku",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Rengoku's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Rengoku's moves were reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Added burn damage to [Z] Demon Slayer."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Rengoku's passive idle stance was revamped."
+        },
+        {
+            "version": "Update 13",
+            "change": "Rengoku was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/13"
+},
+{
+    "sword_name": "Shark Anchor",
+    "url": "https://blox-fruits.fandom.com/wiki/Shark_Anchor",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/20"
+},
+{
+    "sword_name": "Saishi",
+    "url": "https://blox-fruits.fandom.com/wiki/Saishi",
+    "timestamp": "2025-08-08 08:28:08",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Saddi was remodeled and renamed to Saishi."
+        },
+        {
+            "version": "Update 20",
+            "change": "Saddi's moves were reworked."
+        },
+        {
+            "version": "Update 8",
+            "change": "Saddi was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Pole (2nd Form)",
+    "url": "https://blox-fruits.fandom.com/wiki/Pole_(2nd_Form)",
+    "timestamp": "2025-08-08 08:28:09",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The model of Pole (2nd Form) was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "The moves of Pole (2nd Form) were reworked."
+        },
+        {
+            "version": "Update 14",
+            "change": "The Pole (2nd Form) was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/14"
+},
+{
+    "sword_name": "Pole (1st Form)",
+    "url": "https://blox-fruits.fandom.com/wiki/Pole_(1st_Form)",
+    "timestamp": "2025-08-08 08:28:09",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Pole's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "The Pole's moves were revamped."
+        },
+        {
+            "version": "Update 3",
+            "change": "The Pole was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/3"
+},
+{
+    "sword_name": "Oroshi",
+    "url": "https://blox-fruits.fandom.com/wiki/Oroshi",
+    "timestamp": "2025-08-08 08:28:09",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Wando was remodeled and renamed to Oroshi."
+        },
+        {
+            "version": "Update 20",
+            "change": "Wando was reworked.\n[X] Scatter Shot was renamed to [X] Dragon Gust."
+        },
+        {
+            "version": "Update 8",
+            "change": "Wando was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Midnight Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Midnight_Blade",
+    "timestamp": "2025-08-08 08:28:09",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Midnight Blade's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Midnight Blade's moves were reworked."
+        },
+        {
+            "version": "Update 12",
+            "change": "Midnight Blade was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/12"
+},
+{
+    "sword_name": "Koko",
+    "url": "https://blox-fruits.fandom.com/wiki/Koko",
+    "timestamp": "2025-08-08 08:28:09",
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Koko's moves were reworked."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Koko was buffed.\nNew: [X] Injection Shot can hit anywhere inside the user's Control Area."
+        },
+        {
+            "version": "Update 10",
+            "change": "Koko was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/10"
+},
+{
+    "sword_name": "Dark Dagger",
+    "url": "https://blox-fruits.fandom.com/wiki/Dark_Dagger",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Dark Dagger's model was revamped."
+        },
+        {
+            "version": "Update 15",
+            "change": "Dark Dagger was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/15"
+},
+{
+    "sword_name": "Dragonheart",
+    "url": "https://blox-fruits.fandom.com/wiki/Dragonheart",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/24"
+},
+{
+    "sword_name": "Canvander",
+    "url": "https://blox-fruits.fandom.com/wiki/Canvander",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/15"
+},
+{
+    "sword_name": "Wardens Sword",
+    "url": "https://blox-fruits.fandom.com/wiki/Wardens_Sword",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Wardens Sword's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Wardens Sword's moves were reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Wardens Sword was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Buddy Sword",
+    "url": "https://blox-fruits.fandom.com/wiki/Buddy_Sword",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The [Z] and [X] startup animations were changed."
+        },
+        {
+            "version": "Update 17.1",
+            "change": "Buddy Sword was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/17"
+},
+{
+    "sword_name": "Soul Cane",
+    "url": "https://blox-fruits.fandom.com/wiki/Soul_Cane",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Soul Cane's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Soul Cane's moves were reworked."
+        },
+        {
+            "version": "Update 2",
+            "change": "Soul Cane was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/2"
+},
+{
+    "sword_name": "Pipe",
+    "url": "https://blox-fruits.fandom.com/wiki/Pipe",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Pipe's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Pipe was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Pipe was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Bisento",
+    "url": "https://blox-fruits.fandom.com/wiki/Bisento",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Bisento's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Bisento's moves were revamped."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Bisento's animation was revamped."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Changed Bisento's price from   1,200,000 to   1,000,000."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Increased [X] Quake Sphere V2's hitbox."
+        },
+        {
+            "version": "Update 5",
+            "change": "Bisento was nerfed."
+        },
+        {
+            "version": "Update 3.5",
+            "change": "Bisento received a second version."
+        },
+        {
+            "version": "Update 3.5",
+            "change": "Made Bisento a bit bigger visually."
+        },
+        {
+            "version": "Update 2",
+            "change": "Bisento was nerfed."
+        },
+        {
+            "version": "Update 1",
+            "change": "Bisento was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Longsword",
+    "url": "https://blox-fruits.fandom.com/wiki/Longsword",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Longsword's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Longsword's moves were reworked."
+        },
+        {
+            "version": "Update 8",
+            "change": "Longsword was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Gravity Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Gravity_Blade",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Gravity Cane was renamed to Gravity Blade and received a visual rework."
+        },
+        {
+            "version": "Update 20",
+            "change": "Gravity Cane's moves were reworked.\n[Z] Gravity Push was renamed to [Z] Dimensional Grasp.\n[X] Meteor Barrage was renamed to [X] Lunar Blitz."
+        },
+        {
+            "version": "Update 8",
+            "change": "Gravity Cane was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Flail",
+    "url": "https://blox-fruits.fandom.com/wiki/Flail",
+    "timestamp": "2025-08-08 08:28:10",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Jitte was reworked and renamed to Flail."
+        },
+        {
+            "version": "Update 20",
+            "change": "Jitte's moves were revamped.\n[Z] Smoke Barrage was renamed to [Z] Smoke Leopard."
+        },
+        {
+            "version": "Update 10",
+            "change": "Jitte was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/10"
+},
+{
+    "sword_name": "Dual-Headed Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Dual-Headed_Blade",
+    "timestamp": "2025-08-08 08:28:11",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Dual-Headed Blade's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Dual-Headed Blade's moves were revamped."
+        },
+        {
+            "version": "Update 1",
+            "change": "Dual-Headed Blade was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Dragon Trident",
+    "url": "https://blox-fruits.fandom.com/wiki/Dragon_Trident",
+    "timestamp": "2025-08-08 08:28:11",
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Dragon Trident was nerfed.\n[X] Water Dragon Shower AoE was greatly reduced."
+        },
+        {
+            "version": "Update 24",
+            "change": "Dragon Trident's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Dragon Trident's moves were reworked.\n[X] Water Dragon Prison was renamed to [X] Water Dragon Shower.\nOld [Z] Sea Dragon FuryOld [X] Water Dragon Prison"
+        },
+        {
+            "version": "Update 14",
+            "change": "Dragon Trident was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/14"
+},
+{
+    "sword_name": "Triple Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/Triple_Katana",
+    "timestamp": "2025-08-08 08:28:11",
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Triple Katana was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Triple Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Uncommon",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Shark Saw",
+    "url": "https://blox-fruits.fandom.com/wiki/Shark_Saw",
+    "timestamp": "2025-08-08 08:28:11",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Shark Saw's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Shark Saw's moves were reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Shark Saw was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Uncommon",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Dual Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/Dual_Katana",
+    "timestamp": "2025-08-08 08:28:11",
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Dual Katana's moves were reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Dual Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Common",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Iron Mace",
+    "url": "https://blox-fruits.fandom.com/wiki/Iron_Mace",
+    "timestamp": "2025-08-08 08:28:11",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Iron Mace's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Iron Mace's moves were revamped."
+        },
+        {
+            "version": "Update 1",
+            "change": "Iron Mace was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Uncommon",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/Katana",
+    "timestamp": "2025-08-08 08:28:11",
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Katana's moves were reworked."
+        },
+        {
+            "version": "Update 17",
+            "change": "The Katana's slash animation was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "The Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Common",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Cutlass",
+    "url": "https://blox-fruits.fandom.com/wiki/Cutlass",
+    "timestamp": "2025-08-08 08:28:11",
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Cutlass's moves were reworked."
+        },
+        {
+            "version": "Update 17",
+            "change": "The Cutlass's slash animation was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "The Cutlass was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Common",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Twin Hooks",
+    "url": "https://blox-fruits.fandom.com/wiki/Twin_Hooks",
+    "timestamp": "2025-08-08 08:28:12",
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Twin Hooks' moves were revamped."
+        },
+        {
+            "version": "Update 15",
+            "change": "Twin Hooks were released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Uncommon",
+    "release_date": "Updates/15"
+}
+]

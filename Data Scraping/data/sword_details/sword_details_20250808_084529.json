@@ -1,0 +1,1775 @@
+[
+{
+    "sword_name": "Dark Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Dark_Blade",
+    "timestamp": "2025-08-08 08:45:31",
+    "abilities": [
+        {
+            "sword_name": "Dark Blade",
+            "keybind": "Z",
+            "ability_name": "One Thousand Slices",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Dark Blade",
+            "keybind": "X",
+            "ability_name": "Dark Air Slash",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Dark Blade",
+            "keybind": "Z",
+            "ability_name": "One Thousand Slices",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Dark Blade",
+            "keybind": "X",
+            "ability_name": "Dark Air Slash",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Dark Blade",
+            "keybind": "Z",
+            "ability_name": "One Thousand Slices",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Dark Blade",
+            "keybind": "X",
+            "ability_name": "Dark Air Slash",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Dark Blade",
+            "keybind": "Z",
+            "ability_name": "One Thousand Slices",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Dark Blade",
+            "keybind": "X",
+            "ability_name": "Dark Air Slash",
+            "mastery_cost": "50 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Changed the visuals for the [X] ability."
+        },
+        {
+            "version": "Update 21",
+            "change": "The strength of Dark Blade's Upgrading was nerfed.\n10% -> 8% Damage Boost."
+        },
+        {
+            "version": "Update 20",
+            "change": "The Dark Blade was reworked.\nAdded new model."
+        },
+        {
+            "version": "Update 20",
+            "change": "Increased the damage and speed of [X] Dark Air Slash V2 when held."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Improved the visual effects on the Dark Blade's abilities."
+        },
+        {
+            "version": "Update 15",
+            "change": "Reduced end-lag on the [Z] One Thousand Slices ability."
+        },
+        {
+            "version": "Update 11",
+            "change": "The Dark Blade was re-imagined:\nNew model.\nNew and faster combat animations.\nAlternative abilities (V2-exclusive):\nHolding the [Z] One Thousand Slices ability for at least 0.25s will move the player forward.\nThe [X] Dark Air Slash ability can be charged for up to 0.4s for a slightly faster attack, and to break Instinct."
+        },
+        {
+            "version": "Update 9",
+            "change": "The Dark Blade was slightly buffed."
+        },
+        {
+            "version": "Update 8",
+            "change": "The Dark Blade's rarity was changed to Mythical."
+        },
+        {
+            "version": "Update 5",
+            "change": "The Dark Blade was slightly nerfed.\nThe [Z] One Thousand Slices + [X] Dark Air Slash combo is no longer inescapable."
+        },
+        {
+            "version": "Update 4",
+            "change": "Added the Dark Blade's V2."
+        },
+        {
+            "version": "Update 2",
+            "change": "The Dark Blade was nerfed."
+        },
+        {
+            "version": "Update 1",
+            "change": "The Dark Blade was released as a Legendary sword."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Yama",
+    "url": "https://blox-fruits.fandom.com/wiki/Yama",
+    "timestamp": "2025-08-08 08:45:31",
+    "abilities": [
+        {
+            "sword_name": "Yama",
+            "keybind": "Z",
+            "ability_name": "Hellish Slash",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Yama",
+            "keybind": "X",
+            "ability_name": "Infernal Hurricane",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Yama's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Yama's moves were revamped."
+        },
+        {
+            "version": "Update 15",
+            "change": "Yama was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/15"
+},
+{
+    "sword_name": "Buddha",
+    "url": "https://blox-fruits.fandom.com/wiki/Buddha",
+    "timestamp": "2025-08-08 08:45:31",
+    "abilities": [
+        {
+            "sword_name": "Buddha",
+            "keybind": "Z",
+            "ability_name": "Transform",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Buddha",
+            "keybind": "X",
+            "ability_name": "Impact",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Buddha",
+            "keybind": "C",
+            "ability_name": "Buddha Leap",
+            "mastery_cost": "100 Mastery"
+        },
+        {
+            "sword_name": "Buddha",
+            "keybind": "V",
+            "ability_name": "Buddha Explosion",
+            "mastery_cost": "200 Mastery"
+        },
+        {
+            "sword_name": "Buddha",
+            "keybind": "Z",
+            "ability_name": "Shift",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Buddha",
+            "keybind": "X",
+            "ability_name": "Heavenly Impact",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Buddha",
+            "keybind": "C",
+            "ability_name": "Light of Annihilation",
+            "mastery_cost": "100 Mastery"
+        },
+        {
+            "sword_name": "Buddha",
+            "keybind": "V",
+            "ability_name": "Twilight of the Gods",
+            "mastery_cost": "200 Mastery"
+        },
+        {
+            "sword_name": "Buddha",
+            "keybind": "F",
+            "ability_name": "Retribution Dash",
+            "mastery_cost": "0 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Buddha V1 received a slightly higher Air Jump (around 1.5x) compared to untransformed."
+        },
+        {
+            "version": "Update 24",
+            "change": "Buddha icon was remade."
+        },
+        {
+            "version": "Update 20",
+            "change": "Buddha Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "Human: Buddha was renamed to \"Buddha\"."
+        },
+        {
+            "version": "Update 19",
+            "change": "Awakened Buddha's abilities damage were buffed."
+        },
+        {
+            "version": "Update 18",
+            "change": "While transformed, the damage of swords' M1 was nerfed.\nHuman: Buddha users now deal 27.5% decreased M1 damage, only in PvP."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "[X] Impact (V1) was reworked."
+        },
+        {
+            "version": "Update 15",
+            "change": "Human: Buddha received an awakening."
+        },
+        {
+            "version": "Update 1",
+            "change": "Human: Buddha was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Legendary",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Control",
+    "url": "https://blox-fruits.fandom.com/wiki/Control",
+    "timestamp": "2025-08-08 08:45:31",
+    "abilities": [
+        {
+            "sword_name": "Control",
+            "keybind": "Z",
+            "ability_name": "Control Area",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Control",
+            "keybind": "X",
+            "ability_name": "Levitate",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Control",
+            "keybind": "C",
+            "ability_name": "Echo Knife",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Control",
+            "keybind": "V",
+            "ability_name": "Gamma Rush",
+            "mastery_cost": "350 Mastery"
+        },
+        {
+            "sword_name": "Control",
+            "keybind": "F",
+            "ability_name": "Teleport",
+            "mastery_cost": "250 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Control Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Control was buffed.\n[Z] Control Area now lasts longer.\nLowered cooldown on [X] Levitate and [F] Teleport.\nIncreased the damage of [V] Gamma Rush, and it no longer shrinks after catching a player, and doesn't disappear after the move."
+        },
+        {
+            "version": "Update 16",
+            "change": "Control was buffed.\nIncreased the damage of [X] Levitate"
+        },
+        {
+            "version": "Update 14",
+            "change": "Control was buffed.\nIncreased the stun on [C] Echo Knife.\nSlightly increased damage on [V] Gamma Rush."
+        },
+        {
+            "version": "Update 11",
+            "change": "Control was buffed.\nDecreased the end-lag on [C] Echo Knife."
+        },
+        {
+            "version": "Update 10",
+            "change": "Control was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Mythical",
+    "release_date": "Updates/10"
+},
+{
+    "sword_name": "Jitte",
+    "url": "https://blox-fruits.fandom.com/wiki/Jitte",
+    "timestamp": "2025-08-08 08:45:31",
+    "abilities": [
+        {
+            "sword_name": "Jitte",
+            "keybind": "Z",
+            "ability_name": "Smoke Leopard",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Jitte",
+            "keybind": "X",
+            "ability_name": "Smoke Apparition",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Jitte was replaced by Flail."
+        },
+        {
+            "version": "Update 20",
+            "change": "Jitte's moves were revamped.\n[Z] Smoke Barrage was renamed to [Z] Smoke Leopard."
+        },
+        {
+            "version": "Update 10",
+            "change": "Jitte was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/10"
+},
+{
+    "sword_name": "Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Blade",
+    "timestamp": "2025-08-08 08:45:33",
+    "abilities": [
+        {
+            "sword_name": "Blade",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "sword_name": "Blade",
+            "keybind": "Z",
+            "ability_name": "Razor Cyclone",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Blade",
+            "keybind": "X",
+            "ability_name": "Blade Dance",
+            "mastery_cost": "20 Mastery"
+        },
+        {
+            "sword_name": "Blade",
+            "keybind": "C",
+            "ability_name": "Saw Shredder",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Blade",
+            "keybind": "F",
+            "ability_name": "Turbine Flight",
+            "mastery_cost": "80 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Chop was reworked and renamed to Blade.\nAdded a [TAP] ability.\n[Z] Tackle was renamed to [Z] Razor Cyclone.\n[X] Dance was renamed to [X] Blade Dance.\n[C] Party was renamed to [C] Saw Shredder.\n[F] Helicopter was renamed to [F] Turbine Flight."
+        },
+        {
+            "version": "Update 20",
+            "change": "Chop Fruit's model was remade."
+        },
+        {
+            "version": "Update 1",
+            "change": "Chop was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "release_date": "Updates/24"
+},
+{
+    "sword_name": "True Triple Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/True_Triple_Katana",
+    "timestamp": "2025-08-08 08:45:33",
+    "abilities": [
+        {
+            "sword_name": "True Triple Katana",
+            "keybind": "Z",
+            "ability_name": "Wolf Fang Rush",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "True Triple Katana",
+            "keybind": "X",
+            "ability_name": "Dragon Hurricane",
+            "mastery_cost": "350 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "The pull-back hitbox of [X] Dragon Hurricane was nerfed."
+        },
+        {
+            "version": "Update 26",
+            "change": "Instinct dodges no longer drain when moving out of the [X] move."
+        },
+        {
+            "version": "Update 24",
+            "change": "The pull-back hitbox of [X] Dragon Hurricane was slightly nerfed."
+        },
+        {
+            "version": "Update 24",
+            "change": "The True Triple Katana's model was revamped.\nOld True Triple Katana's Icon"
+        },
+        {
+            "version": "Update 20",
+            "change": "The True Triple Katana's moves were revamped."
+        },
+        {
+            "version": "Update 11",
+            "change": "The True Triple Katana was changed:\nThe range on [Z] was reduced by ~15%.\nThe stun on [Z] was reduced by 0.2 seconds.\nThe damage on [X] was reduced.\nThe tornado hitbox on [X] was fixed and reduced (it now acted more like a cone rather than a big sphere). The end delay was also increased by 0.1s."
+        },
+        {
+            "version": "Update 9",
+            "change": "The True Triple Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates/9"
+},
+{
+    "sword_name": "Triple Dark Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Triple_Dark_Blade",
+    "timestamp": "2025-08-08 08:45:33",
+    "abilities": [],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Triple Dark Blade's model and skills were revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Fixed Slayer Skin not applying on abilities."
+        },
+        {
+            "version": "Update 20",
+            "change": "Added the Triple Dark Blade's Upgrading."
+        },
+        {
+            "version": "Update 14",
+            "change": "The Triple Dark Blade has been nerfed."
+        },
+        {
+            "version": "Update 13-14",
+            "change": "The Triple Dark Blade was silently added into the game."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates"
+},
+{
+    "sword_name": "Hallow Scythe",
+    "url": "https://blox-fruits.fandom.com/wiki/Hallow_Scythe",
+    "timestamp": "2025-08-08 08:45:35",
+    "abilities": [
+        {
+            "sword_name": "Hallow Scythe",
+            "keybind": "Z",
+            "ability_name": "Death Cyclone",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Hallow Scythe",
+            "keybind": "X",
+            "ability_name": "Soul Execution",
+            "mastery_cost": "350 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 21",
+            "change": "Buffed Hallow Scythe's speed and damage.\n[X] move now breaks Instinct."
+        },
+        {
+            "version": "Update 21",
+            "change": "The effect of Hallow Scythe's Upgrading was nerfed.\n10% -> 8% Damage Boost"
+        },
+        {
+            "version": "Update 16",
+            "change": "Hallow Scythe was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates/16"
+},
+{
+    "sword_name": "Cursed Dual Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/Cursed_Dual_Katana",
+    "timestamp": "2025-08-08 08:45:35",
+    "abilities": [
+        {
+            "sword_name": "Cursed Dual Katana",
+            "keybind": "Z",
+            "ability_name": "Revolving Ravager",
+            "mastery_cost": "175 Mastery"
+        },
+        {
+            "sword_name": "Cursed Dual Katana",
+            "keybind": "X",
+            "ability_name": "Slayer of Goliath",
+            "mastery_cost": "375 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Cursed Dual Katana's model was reworked."
+        },
+        {
+            "version": "Update 18",
+            "change": "[X] Slayer of Goliath received a small visual change altering the spinning X that appears on the target's screen."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Cursed Dual Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Mythical",
+    "release_date": "Updates/17.3"
+},
+{
+    "sword_name": "Shizu",
+    "url": "https://blox-fruits.fandom.com/wiki/Shizu",
+    "timestamp": "2025-08-08 08:45:35",
+    "abilities": [
+        {
+            "sword_name": "Shizu",
+            "keybind": "Z",
+            "ability_name": "True Quiet Rush",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Shizu",
+            "keybind": "X",
+            "ability_name": "Focus Shot",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Shisui was remodeled and renamed to Shizu."
+        },
+        {
+            "version": "Update 20",
+            "change": "Shisui's moves were reworked."
+        },
+        {
+            "version": "Update 8",
+            "change": "Shisui was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Spikey Trident",
+    "url": "https://blox-fruits.fandom.com/wiki/Spikey_Trident",
+    "timestamp": "2025-08-08 08:45:35",
+    "abilities": [
+        {
+            "sword_name": "Spikey Trident",
+            "keybind": "Z",
+            "ability_name": "Dough Hurricane",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Spikey Trident",
+            "keybind": "X",
+            "ability_name": "Flying Trident Pull",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Spikey Trident's moves were revamped."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "The Spikey Trident was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/17.2"
+},
+{
+    "sword_name": "Tushita",
+    "url": "https://blox-fruits.fandom.com/wiki/Tushita",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Tushita",
+            "keybind": "Z",
+            "ability_name": "Heavenly Lunges",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Tushita",
+            "keybind": "X",
+            "ability_name": "Celestial Ravager",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Tushita's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Tushita's abilities were revamped."
+        },
+        {
+            "version": "Update 15",
+            "change": "Tushita was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/15"
+},
+{
+    "sword_name": "Shark Anchor",
+    "url": "https://blox-fruits.fandom.com/wiki/Shark_Anchor",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Shark Anchor",
+            "keybind": "Z",
+            "ability_name": "Typhoon Toss",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Shark Anchor",
+            "keybind": "X",
+            "ability_name": "Armor Breaker",
+            "mastery_cost": "350 Mastery"
+        }
+    ],
+    "change_history": [],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/20"
+},
+{
+    "sword_name": "Saishi",
+    "url": "https://blox-fruits.fandom.com/wiki/Saishi",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Saishi",
+            "keybind": "Z",
+            "ability_name": "Swords Dance",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Saishi",
+            "keybind": "X",
+            "ability_name": "True Air Slash",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Saddi was remodeled and renamed to Saishi."
+        },
+        {
+            "version": "Update 20",
+            "change": "Saddi's moves were reworked."
+        },
+        {
+            "version": "Update 8",
+            "change": "Saddi was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Rengoku",
+    "url": "https://blox-fruits.fandom.com/wiki/Rengoku",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Rengoku",
+            "keybind": "Z",
+            "ability_name": "Demon Slayer",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Rengoku",
+            "keybind": "X",
+            "ability_name": "Burning Slash",
+            "mastery_cost": "350 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Rengoku's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Rengoku's moves were reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Added burn damage to [Z] Demon Slayer."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Rengoku's passive idle stance was revamped."
+        },
+        {
+            "version": "Update 13",
+            "change": "Rengoku was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/13"
+},
+{
+    "sword_name": "Saber",
+    "url": "https://blox-fruits.fandom.com/wiki/Saber",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Saber",
+            "keybind": "Z",
+            "ability_name": "Deadly Rush",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Saber",
+            "keybind": "X",
+            "ability_name": "Triple Slash",
+            "mastery_cost": "125 Mastery"
+        },
+        {
+            "sword_name": "Saber",
+            "keybind": "Z",
+            "ability_name": "Deadly Rush",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Saber",
+            "keybind": "X",
+            "ability_name": "Triple Slash",
+            "mastery_cost": "125 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Saber's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Saber's moves were reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Saber was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Pole (2nd Form)",
+    "url": "https://blox-fruits.fandom.com/wiki/Pole_(2nd_Form)",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Pole (2nd Form)",
+            "keybind": "Z",
+            "ability_name": "Hand of God",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Pole (2nd Form)",
+            "keybind": "X",
+            "ability_name": "Electric Prison",
+            "mastery_cost": "350 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The model of Pole (2nd Form) was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "The moves of Pole (2nd Form) were reworked."
+        },
+        {
+            "version": "Update 14",
+            "change": "The Pole (2nd Form) was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/14"
+},
+{
+    "sword_name": "Pole (1st Form)",
+    "url": "https://blox-fruits.fandom.com/wiki/Pole_(1st_Form)",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Pole (1st Form)",
+            "keybind": "Z",
+            "ability_name": "Explosive Cloud",
+            "mastery_cost": "80 Mastery"
+        },
+        {
+            "sword_name": "Pole (1st Form)",
+            "keybind": "X",
+            "ability_name": "Lightning Rain",
+            "mastery_cost": "180 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Pole's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "The Pole's moves were revamped."
+        },
+        {
+            "version": "Update 3",
+            "change": "The Pole was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/3"
+},
+{
+    "sword_name": "Oroshi",
+    "url": "https://blox-fruits.fandom.com/wiki/Oroshi",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Oroshi",
+            "keybind": "Z",
+            "ability_name": "Continuous Slashing",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Oroshi",
+            "keybind": "X",
+            "ability_name": "Dragon Gust",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Wando was remodeled and renamed to Oroshi."
+        },
+        {
+            "version": "Update 20",
+            "change": "Wando was reworked.\n[X] Scatter Shot was renamed to [X] Dragon Gust."
+        },
+        {
+            "version": "Update 8",
+            "change": "Wando was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Koko",
+    "url": "https://blox-fruits.fandom.com/wiki/Koko",
+    "timestamp": "2025-08-08 08:45:36",
+    "abilities": [
+        {
+            "sword_name": "Koko",
+            "keybind": "Z",
+            "ability_name": "Electric Stab",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Koko",
+            "keybind": "X",
+            "ability_name": "Injection Shot",
+            "mastery_cost": "325 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Koko's moves were reworked."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Koko was buffed.\nNew: [X] Injection Shot can hit anywhere inside the user's Control Area."
+        },
+        {
+            "version": "Update 10",
+            "change": "Koko was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/10"
+},
+{
+    "sword_name": "Midnight Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Midnight_Blade",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Midnight Blade",
+            "keybind": "Z",
+            "ability_name": "Portal Opening",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Midnight Blade",
+            "keybind": "X",
+            "ability_name": "Crescent Dash",
+            "mastery_cost": "325 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Midnight Blade's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Midnight Blade's moves were reworked."
+        },
+        {
+            "version": "Update 12",
+            "change": "Midnight Blade was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/12"
+},
+{
+    "sword_name": "Fox Lamp",
+    "url": "https://blox-fruits.fandom.com/wiki/Fox_Lamp",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Fox Lamp",
+            "keybind": "Z",
+            "ability_name": "Scorching Azure",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Fox Lamp",
+            "keybind": "X",
+            "ability_name": "Infernal Firestorm",
+            "mastery_cost": "350 Mastery"
+        }
+    ],
+    "change_history": [],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/22"
+},
+{
+    "sword_name": "Dragonheart",
+    "url": "https://blox-fruits.fandom.com/wiki/Dragonheart",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Dragonheart",
+            "keybind": "Z",
+            "ability_name": "Draconic Blitz",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Dragonheart",
+            "keybind": "X",
+            "ability_name": "Infernal Catastrophe",
+            "mastery_cost": "350 Mastery"
+        }
+    ],
+    "change_history": [],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/24"
+},
+{
+    "sword_name": "Dark Dagger",
+    "url": "https://blox-fruits.fandom.com/wiki/Dark_Dagger",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Dark Dagger",
+            "keybind": "Z",
+            "ability_name": "Proficient Impale",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Dark Dagger",
+            "keybind": "X",
+            "ability_name": "Shaming Slash",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Dark Dagger's model was revamped."
+        },
+        {
+            "version": "Update 15",
+            "change": "Dark Dagger was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/15"
+},
+{
+    "sword_name": "Canvander",
+    "url": "https://blox-fruits.fandom.com/wiki/Canvander",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Canvander",
+            "keybind": "Z",
+            "ability_name": "Piercing Dash",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Canvander",
+            "keybind": "X",
+            "ability_name": "Scattering Gust",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/15"
+},
+{
+    "sword_name": "Buddy Sword",
+    "url": "https://blox-fruits.fandom.com/wiki/Buddy_Sword",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Buddy Sword",
+            "keybind": "Z",
+            "ability_name": "Heat Slash",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Buddy Sword",
+            "keybind": "X",
+            "ability_name": "Lightning Wave",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The [Z] and [X] startup animations were changed."
+        },
+        {
+            "version": "Update 17.1",
+            "change": "Buddy Sword was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/17"
+},
+{
+    "sword_name": "Bisento",
+    "url": "https://blox-fruits.fandom.com/wiki/Bisento",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Bisento",
+            "keybind": "Z",
+            "ability_name": "Wind Breaker",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Bisento",
+            "keybind": "X",
+            "ability_name": "Quake Sphere",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Bisento",
+            "keybind": "Z",
+            "ability_name": "Wind Breaker",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Bisento",
+            "keybind": "X",
+            "ability_name": "Quake Sphere",
+            "mastery_cost": "150 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Bisento's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Bisento's moves were revamped."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Bisento's animation was revamped."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Changed Bisento's price from   1,200,000 to   1,000,000."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Increased [X] Quake Sphere V2's hitbox."
+        },
+        {
+            "version": "Update 5",
+            "change": "Bisento was nerfed."
+        },
+        {
+            "version": "Update 3.5",
+            "change": "Bisento received a second version."
+        },
+        {
+            "version": "Update 3.5",
+            "change": "Made Bisento a bit bigger visually."
+        },
+        {
+            "version": "Update 2",
+            "change": "Bisento was nerfed."
+        },
+        {
+            "version": "Update 1",
+            "change": "Bisento was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Legendary",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Pipe",
+    "url": "https://blox-fruits.fandom.com/wiki/Pipe",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Pipe",
+            "keybind": "Z",
+            "ability_name": "Pipe Ignition",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Pipe",
+            "keybind": "X",
+            "ability_name": "Dragon Blast",
+            "mastery_cost": "50 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Pipe's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Pipe was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Pipe was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Wardens Sword",
+    "url": "https://blox-fruits.fandom.com/wiki/Wardens_Sword",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Wardens Sword",
+            "keybind": "Z",
+            "ability_name": "Multi-Target Slash",
+            "mastery_cost": "35 Mastery"
+        },
+        {
+            "sword_name": "Wardens Sword",
+            "keybind": "X",
+            "ability_name": "Tornado Slash",
+            "mastery_cost": "80 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Wardens Sword's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Wardens Sword's moves were reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Wardens Sword was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Trident",
+    "url": "https://blox-fruits.fandom.com/wiki/Trident",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Trident",
+            "keybind": "Z",
+            "ability_name": "Trident Throw",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "sword_name": "Trident",
+            "keybind": "X",
+            "ability_name": "Water Pulse",
+            "mastery_cost": "125 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Trident's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Trident's moves were reworked."
+        },
+        {
+            "version": "Update 3",
+            "change": "Trident was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/3"
+},
+{
+    "sword_name": "Soul Cane",
+    "url": "https://blox-fruits.fandom.com/wiki/Soul_Cane",
+    "timestamp": "2025-08-08 08:45:37",
+    "abilities": [
+        {
+            "sword_name": "Soul Cane",
+            "keybind": "Z",
+            "ability_name": "Soul Beam",
+            "mastery_cost": "40 Mastery"
+        },
+        {
+            "sword_name": "Soul Cane",
+            "keybind": "X",
+            "ability_name": "Soul Slashes",
+            "mastery_cost": "120 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Soul Cane's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Soul Cane's moves were reworked."
+        },
+        {
+            "version": "Update 2",
+            "change": "Soul Cane was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/2"
+},
+{
+    "sword_name": "Flail",
+    "url": "https://blox-fruits.fandom.com/wiki/Flail",
+    "timestamp": "2025-08-08 08:45:38",
+    "abilities": [
+        {
+            "sword_name": "Flail",
+            "keybind": "Z",
+            "ability_name": "Smoke Leopard",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Flail",
+            "keybind": "X",
+            "ability_name": "Smoke Apparition",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Jitte was reworked and renamed to Flail."
+        },
+        {
+            "version": "Update 20",
+            "change": "Jitte's moves were revamped.\n[Z] Smoke Barrage was renamed to [Z] Smoke Leopard."
+        },
+        {
+            "version": "Update 10",
+            "change": "Jitte was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/10"
+},
+{
+    "sword_name": "Gravity Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Gravity_Blade",
+    "timestamp": "2025-08-08 08:45:38",
+    "abilities": [
+        {
+            "sword_name": "Gravity Blade",
+            "keybind": "Z",
+            "ability_name": "Dimensional Grasp",
+            "mastery_cost": "125 Mastery"
+        },
+        {
+            "sword_name": "Gravity Blade",
+            "keybind": "X",
+            "ability_name": "Lunar Blitz",
+            "mastery_cost": "250 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Gravity Cane was renamed to Gravity Blade and received a visual rework."
+        },
+        {
+            "version": "Update 20",
+            "change": "Gravity Cane's moves were reworked.\n[Z] Gravity Push was renamed to [Z] Dimensional Grasp.\n[X] Meteor Barrage was renamed to [X] Lunar Blitz."
+        },
+        {
+            "version": "Update 8",
+            "change": "Gravity Cane was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Longsword",
+    "url": "https://blox-fruits.fandom.com/wiki/Longsword",
+    "timestamp": "2025-08-08 08:45:38",
+    "abilities": [
+        {
+            "sword_name": "Longsword",
+            "keybind": "Z",
+            "ability_name": "Annihilate",
+            "mastery_cost": "100 Mastery"
+        },
+        {
+            "sword_name": "Longsword",
+            "keybind": "X",
+            "ability_name": "Glorious Smash",
+            "mastery_cost": "200 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Longsword's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Longsword's moves were reworked."
+        },
+        {
+            "version": "Update 8",
+            "change": "Longsword was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/8"
+},
+{
+    "sword_name": "Dual-Headed Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Dual-Headed_Blade",
+    "timestamp": "2025-08-08 08:45:38",
+    "abilities": [
+        {
+            "sword_name": "Dual-Headed Blade",
+            "keybind": "Z",
+            "ability_name": "Assassinate",
+            "mastery_cost": "20 Mastery"
+        },
+        {
+            "sword_name": "Dual-Headed Blade",
+            "keybind": "X",
+            "ability_name": "Raging Wind",
+            "mastery_cost": "100 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Dual-Headed Blade's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Dual-Headed Blade's moves were revamped."
+        },
+        {
+            "version": "Update 1",
+            "change": "Dual-Headed Blade was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Dragon Trident",
+    "url": "https://blox-fruits.fandom.com/wiki/Dragon_Trident",
+    "timestamp": "2025-08-08 08:45:38",
+    "abilities": [
+        {
+            "sword_name": "Dragon Trident",
+            "keybind": "Z",
+            "ability_name": "Sea Dragon Fury",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Dragon Trident",
+            "keybind": "X",
+            "ability_name": "Water Dragon Shower",
+            "mastery_cost": "350 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Dragon Trident was nerfed.\n[X] Water Dragon Shower AoE was greatly reduced."
+        },
+        {
+            "version": "Update 24",
+            "change": "Dragon Trident's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Dragon Trident's moves were reworked.\n[X] Water Dragon Prison was renamed to [X] Water Dragon Shower.\nOld [Z] Sea Dragon FuryOld [X] Water Dragon Prison"
+        },
+        {
+            "version": "Update 14",
+            "change": "Dragon Trident was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Rare",
+    "release_date": "Updates/14"
+},
+{
+    "sword_name": "Shark Saw",
+    "url": "https://blox-fruits.fandom.com/wiki/Shark_Saw",
+    "timestamp": "2025-08-08 08:45:38",
+    "abilities": [
+        {
+            "sword_name": "Shark Saw",
+            "keybind": "Z",
+            "ability_name": "Consecutive Slashes",
+            "mastery_cost": "10 Mastery"
+        },
+        {
+            "sword_name": "Shark Saw",
+            "keybind": "X",
+            "ability_name": "Execution",
+            "mastery_cost": "60 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Shark Saw's model was reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Shark Saw's moves were reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Shark Saw was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Uncommon",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Triple Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/Triple_Katana",
+    "timestamp": "2025-08-08 08:45:38",
+    "abilities": [
+        {
+            "sword_name": "Triple Katana",
+            "keybind": "Z",
+            "ability_name": "Air Slashes Barrage",
+            "mastery_cost": "20 Mastery"
+        },
+        {
+            "sword_name": "Triple Katana",
+            "keybind": "X",
+            "ability_name": "Violent Rush",
+            "mastery_cost": "60 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Triple Katana was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Triple Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Uncommon",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/Katana",
+    "timestamp": "2025-08-08 08:45:39",
+    "abilities": [
+        {
+            "sword_name": "Katana",
+            "keybind": "Z",
+            "ability_name": "Quiet Rush",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Katana",
+            "keybind": "X",
+            "ability_name": "Air Slash",
+            "mastery_cost": "20 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Katana's moves were reworked."
+        },
+        {
+            "version": "Update 17",
+            "change": "The Katana's slash animation was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "The Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Common",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Iron Mace",
+    "url": "https://blox-fruits.fandom.com/wiki/Iron_Mace",
+    "timestamp": "2025-08-08 08:45:39",
+    "abilities": [
+        {
+            "sword_name": "Iron Mace",
+            "keybind": "Z",
+            "ability_name": "Mace Smash",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Iron Mace",
+            "keybind": "X",
+            "ability_name": "Killer Combo",
+            "mastery_cost": "30 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Iron Mace's model was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Iron Mace's moves were revamped."
+        },
+        {
+            "version": "Update 1",
+            "change": "Iron Mace was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Uncommon",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Dual Katana",
+    "url": "https://blox-fruits.fandom.com/wiki/Dual_Katana",
+    "timestamp": "2025-08-08 08:45:39",
+    "abilities": [
+        {
+            "sword_name": "Dual Katana",
+            "keybind": "Z",
+            "ability_name": "Whirlwind",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Dual Katana",
+            "keybind": "X",
+            "ability_name": "Tornado",
+            "mastery_cost": "30 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Dual Katana's moves were reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Dual Katana was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Common",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Cutlass",
+    "url": "https://blox-fruits.fandom.com/wiki/Cutlass",
+    "timestamp": "2025-08-08 08:45:39",
+    "abilities": [
+        {
+            "sword_name": "Cutlass",
+            "keybind": "Z",
+            "ability_name": "Quiet Rush",
+            "mastery_cost": "1 Mastery"
+        },
+        {
+            "sword_name": "Cutlass",
+            "keybind": "X",
+            "ability_name": "Air Slash",
+            "mastery_cost": "20 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "The Cutlass's moves were reworked."
+        },
+        {
+            "version": "Update 17",
+            "change": "The Cutlass's slash animation was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "The Cutlass was released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Common",
+    "release_date": "Updates/1"
+},
+{
+    "sword_name": "Twin Hooks",
+    "url": "https://blox-fruits.fandom.com/wiki/Twin_Hooks",
+    "timestamp": "2025-08-08 08:45:39",
+    "abilities": [
+        {
+            "sword_name": "Twin Hooks",
+            "keybind": "Z",
+            "ability_name": "Sky Cyclone",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "sword_name": "Twin Hooks",
+            "keybind": "X",
+            "ability_name": "Prehistoric Punt",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Twin Hooks' moves were revamped."
+        },
+        {
+            "version": "Update 15",
+            "change": "Twin Hooks were released."
+        }
+    ],
+    "type": "Swords",
+    "rarity": "Uncommon",
+    "release_date": "Updates/15"
+}
+]

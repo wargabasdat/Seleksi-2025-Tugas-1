@@ -1,0 +1,752 @@
+[
+{
+    "uid": "gun_acidum_rifle",
+    "gun_name": "Acidum Rifle",
+    "url": "https://blox-fruits.fandom.com/wiki/Acidum_Rifle",
+    "timestamp": "2025-08-08 19:27:48",
+    "abilities": [
+        {
+            "equipment_name": "Acidum Rifle",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Acidum Rifle",
+            "keybind": "Z",
+            "ability_name": "Spiky Bomb",
+            "mastery_cost": "100 Mastery"
+        },
+        {
+            "equipment_name": "Acidum Rifle",
+            "keybind": "X",
+            "ability_name": "Acidic Smoke",
+            "mastery_cost": "200 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Acidum Rifle was revamped."
+        },
+        {
+            "version": "Update 24",
+            "change": "The Acidum Rifle M1 now has a shorter range."
+        },
+        {
+            "version": "Update 8",
+            "change": "The Acidum Rifle was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 8"
+},
+{
+    "uid": "gun_flintlock",
+    "gun_name": "Flintlock",
+    "url": "https://blox-fruits.fandom.com/wiki/Flintlock",
+    "timestamp": "2025-08-08 19:27:48",
+    "abilities": [
+        {
+            "equipment_name": "Flintlock",
+            "keybind": "Z",
+            "ability_name": "Concentrated Shot",
+            "mastery_cost": "15 Mastery"
+        },
+        {
+            "equipment_name": "Flintlock",
+            "keybind": "X",
+            "ability_name": "Marksman Fury",
+            "mastery_cost": "80 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Flintlock was remodeled and reworked.\n[Z] Disabling Shot was renamed to [Z] Concentrated Shot.\n[X] Rapid Gun was renamed to [X] Marksman Fury."
+        },
+        {
+            "version": "Update 1",
+            "change": "The Flintlock was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Uncommon",
+    "release_date": "Update 1"
+},
+{
+    "uid": "gun_refined_musket",
+    "gun_name": "Refined Musket",
+    "url": "https://blox-fruits.fandom.com/wiki/Refined_Musket",
+    "timestamp": "2025-08-08 19:27:51",
+    "abilities": [
+        {
+            "equipment_name": "Refined Musket",
+            "keybind": "Z",
+            "ability_name": "Dragon Bullet",
+            "mastery_cost": "75 Mastery"
+        },
+        {
+            "equipment_name": "Refined Musket",
+            "keybind": "X",
+            "ability_name": "Bold Pistolero",
+            "mastery_cost": "200 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Refined Musket was revamped and renamed to Magma Blaster.\n[Z] Dragon Bullet -> [Z] Scorching Burst\n[X] Bold Pistolero -> [X] Magmatic Pressure"
+        },
+        {
+            "version": "Update 2",
+            "change": "The Refined Musket was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 2"
+},
+{
+    "uid": "gun_refined_flintlock",
+    "gun_name": "Refined Flintlock",
+    "url": "https://blox-fruits.fandom.com/wiki/Refined_Flintlock",
+    "timestamp": "2025-08-08 19:27:51",
+    "abilities": [
+        {
+            "equipment_name": "Refined Flintlock",
+            "keybind": "Z",
+            "ability_name": "Disabling Shot",
+            "mastery_cost": "40 Mastery"
+        },
+        {
+            "equipment_name": "Refined Flintlock",
+            "keybind": "X",
+            "ability_name": "Rapid Gun",
+            "mastery_cost": "80 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Refined Flintlock was revamped and renamed to Dual Flintlock."
+        },
+        {
+            "version": "Update 1",
+            "change": "Refined Flintlock was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 1"
+},
+{
+    "uid": "gun_bizarre_rifle",
+    "gun_name": "Bizarre Rifle",
+    "url": "https://blox-fruits.fandom.com/wiki/Bizarre_Rifle",
+    "timestamp": "2025-08-08 19:27:51",
+    "abilities": [
+        {
+            "equipment_name": "Bizarre Rifle",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Bizarre Rifle",
+            "keybind": "Z",
+            "ability_name": "Heat-Seeking Shot",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "equipment_name": "Bizarre Rifle",
+            "keybind": "X",
+            "ability_name": "Hellfire Shower",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Bizarre Rifle was revamped and renamed to Bizarre Revolver."
+        },
+        {
+            "version": "Update 12",
+            "change": "The Bizarre Rifle was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 12"
+},
+{
+    "uid": "gun_rubber",
+    "gun_name": "Rubber",
+    "url": "https://blox-fruits.fandom.com/wiki/Rubber",
+    "timestamp": "2025-08-08 19:27:51",
+    "abilities": [
+        {
+            "equipment_name": "Rubber",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "Z",
+            "ability_name": "Cannon",
+            "mastery_cost": "25 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "X",
+            "ability_name": "Smash",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "C",
+            "ability_name": "Rush",
+            "mastery_cost": "125 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "225 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "F",
+            "ability_name": "Slingshot",
+            "mastery_cost": "80 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "Z",
+            "ability_name": "Cannon",
+            "mastery_cost": "25 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "X",
+            "ability_name": "Smash",
+            "mastery_cost": "50 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "C",
+            "ability_name": "Rush",
+            "mastery_cost": "125 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "225 Mastery"
+        },
+        {
+            "equipment_name": "Rubber",
+            "keybind": "F",
+            "ability_name": "Slingshot",
+            "mastery_cost": "80 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The animation of [V] Transformation was changed."
+        },
+        {
+            "version": "Update 20",
+            "change": "Rubber Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Rubber was revamped."
+        },
+        {
+            "version": "Update 11",
+            "change": "[V] Transformation was buffed.\nEnergy regeneration was decreased to 25% instead of 50%."
+        },
+        {
+            "version": "Update 8",
+            "change": "Rubber was reworked and its visuals were enhanced."
+        },
+        {
+            "version": "Update 4",
+            "change": "Aura now works properly on Rubber."
+        },
+        {
+            "version": "Update 3.5",
+            "change": "Rubber was nerfed.\nRubber's 2nd Transformation's damage boost is now 22.5% instead of 25%."
+        },
+        {
+            "version": "Update 3",
+            "change": "Rubber was buffed.\nAdded immunity to Electric fighting style and Rumble."
+        },
+        {
+            "version": "Update 3",
+            "change": "Enlarged the Aura visual with Rubber."
+        },
+        {
+            "version": "Update 2",
+            "change": "Rubber was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Rubber was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Rare",
+    "release_date": "Update 1"
+},
+{
+    "uid": "gun_skull_guitar",
+    "gun_name": "Skull Guitar",
+    "url": "https://blox-fruits.fandom.com/wiki/Skull_Guitar",
+    "timestamp": "2025-08-08 19:27:51",
+    "abilities": [
+        {
+            "equipment_name": "Skull Guitar",
+            "keybind": "TAP",
+            "ability_name": "Undead Notes",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Skull Guitar",
+            "keybind": "Z",
+            "ability_name": "Soul Shaker",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "equipment_name": "Skull Guitar",
+            "keybind": "X",
+            "ability_name": "El Diablo",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Soul Guitar's model was revamped and renamed to Skull Guitar.\nOld Soul Guitar's icon."
+        },
+        {
+            "version": "Update 21",
+            "change": "The Soul Guitar no longer heals from ships."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "The Soul Guitar was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Mythical",
+    "release_date": "Update 17.3"
+},
+{
+    "uid": "gun_venom_bow",
+    "gun_name": "Venom Bow",
+    "url": "https://blox-fruits.fandom.com/wiki/Venom_Bow",
+    "timestamp": "2025-08-08 19:27:52",
+    "abilities": [
+        {
+            "equipment_name": "Venom Bow",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Venom Bow",
+            "keybind": "Z",
+            "ability_name": "Venomous Spit",
+            "mastery_cost": "125 Mastery"
+        },
+        {
+            "equipment_name": "Venom Bow",
+            "keybind": "X",
+            "ability_name": "Serpent Bite",
+            "mastery_cost": "250 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Serpent Bow was remodeled, revamped, and renamed to Venom Bow.\n[Z] Poisonous Blast was renamed to [Z] Venomous Spit.\n[X] Snake Bind was renamed to [X] Serpent Bite."
+        },
+        {
+            "version": "Update 15",
+            "change": "Serpent Bow was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Legendary",
+    "release_date": "Update 15"
+},
+{
+    "uid": "gun_dragonstorm",
+    "gun_name": "Dragonstorm",
+    "url": "https://blox-fruits.fandom.com/wiki/Dragonstorm",
+    "timestamp": "2025-08-08 19:27:52",
+    "abilities": [
+        {
+            "equipment_name": "Dragonstorm",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Dragonstorm",
+            "keybind": "Z",
+            "ability_name": "Draconic Cascade",
+            "mastery_cost": "125 Mastery"
+        },
+        {
+            "equipment_name": "Dragonstorm",
+            "keybind": "X",
+            "ability_name": "Infernal Comet",
+            "mastery_cost": "250 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "The effect of the Dragonstorm's Upgrading was increased.\n6% -> 8% Damage Boost."
+        },
+        {
+            "version": "Update 24",
+            "change": "The Dragonstorm was released.\nThe Dragonstorm's range was later nerfed."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Legendary",
+    "release_date": "Update 24"
+},
+{
+    "uid": "gun_refined_slingshot",
+    "gun_name": "Refined Slingshot",
+    "url": "https://blox-fruits.fandom.com/wiki/Refined_Slingshot",
+    "timestamp": "2025-08-08 19:27:52",
+    "abilities": [
+        {
+            "equipment_name": "Refined Slingshot",
+            "keybind": "Z",
+            "ability_name": "Ink Swarm",
+            "mastery_cost": "40 Mastery"
+        },
+        {
+            "equipment_name": "Refined Slingshot",
+            "keybind": "X",
+            "ability_name": "Cluster Bomb",
+            "mastery_cost": "80 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Refined Slingshot was remodeled and reworked.\n[Z] Sticky Pellet -> [Z] Ink Swarm\n[X] Explosive Pellet -> [X] Cluster Bomb"
+        },
+        {
+            "version": "Update 1",
+            "change": "The Refined Slingshot was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 1"
+},
+{
+    "uid": "gun_magma_blaster",
+    "gun_name": "Magma Blaster",
+    "url": "https://blox-fruits.fandom.com/wiki/Magma_Blaster",
+    "timestamp": "2025-08-08 19:27:52",
+    "abilities": [
+        {
+            "equipment_name": "Magma Blaster",
+            "keybind": "Z",
+            "ability_name": "Scorching Burst",
+            "mastery_cost": "75 Mastery"
+        },
+        {
+            "equipment_name": "Magma Blaster",
+            "keybind": "X",
+            "ability_name": "Magmatic Pressure",
+            "mastery_cost": "200 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Refined Musket was reworked and renamed to Magma Blaster.\n[Z] Dragon Bullet -> [Z] Scorching Burst\n[X] Bold Pistolero -> [X] Magmatic Pressure"
+        },
+        {
+            "version": "Update 2",
+            "change": "Refined Musket was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 24"
+},
+{
+    "uid": "gun_bazooka",
+    "gun_name": "Bazooka",
+    "url": "https://blox-fruits.fandom.com/wiki/Bazooka",
+    "timestamp": "2025-08-08 19:27:52",
+    "abilities": [
+        {
+            "equipment_name": "Bazooka",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Bazooka",
+            "keybind": "Z",
+            "ability_name": "Heat Wave",
+            "mastery_cost": "100 Mastery"
+        },
+        {
+            "equipment_name": "Bazooka",
+            "keybind": "X",
+            "ability_name": "Flaring Missiles",
+            "mastery_cost": "250 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Bazooka was remodeled and reworked.\n[Z] Alpha Wave -> [Z] Heat Wave\n[X] Incendiary Ammo -> [X] Flaring Missiles"
+        },
+        {
+            "version": "Update 2",
+            "change": "The Bazooka was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Legendary",
+    "release_date": "Update 3"
+},
+{
+    "uid": "gun_kabucha",
+    "gun_name": "Kabucha",
+    "url": "https://blox-fruits.fandom.com/wiki/Kabucha",
+    "timestamp": "2025-08-08 19:27:52",
+    "abilities": [
+        {
+            "equipment_name": "Kabucha",
+            "keybind": "Z",
+            "ability_name": "Blazing Phoenix",
+            "mastery_cost": "125 Mastery"
+        },
+        {
+            "equipment_name": "Kabucha",
+            "keybind": "X",
+            "ability_name": "Dragon Tempest",
+            "mastery_cost": "250 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Kabucha was revamped.\n[Z] Flying Fire Bird  was renamed to [Z] Blazing Phoenix.\n[X] Intense Wind was renamed to [X] Dragon Tempest."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "The VFX explosion of [Z] Flying Fire Bird was revamped."
+        },
+        {
+            "version": "Update 8",
+            "change": "The Kabucha was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Legendary",
+    "release_date": "Update 8"
+},
+{
+    "uid": "gun_dual_flintlock",
+    "gun_name": "Dual Flintlock",
+    "url": "https://blox-fruits.fandom.com/wiki/Dual_Flintlock",
+    "timestamp": "2025-08-08 19:27:53",
+    "abilities": [
+        {
+            "equipment_name": "Dual Flintlock",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Dual Flintlock",
+            "keybind": "Z",
+            "ability_name": "Splitting Beam",
+            "mastery_cost": "30 Mastery"
+        },
+        {
+            "equipment_name": "Dual Flintlock",
+            "keybind": "X",
+            "ability_name": "Bullet Storm",
+            "mastery_cost": "120 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Refined Flintlock was remodeled, reworked, and renamed to Dual Flintlock.\n[Z] Disabling Shot was renamed to [Z] Splitting Beam.\n[X] Rapid Gun was renamed to [X] Bullet Storm."
+        },
+        {
+            "version": "Update 1",
+            "change": "Refined Flintlock was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 1"
+},
+{
+    "uid": "gun_cannon",
+    "gun_name": "Cannon",
+    "url": "https://blox-fruits.fandom.com/wiki/Cannon",
+    "timestamp": "2025-08-08 19:27:53",
+    "abilities": [
+        {
+            "equipment_name": "Cannon",
+            "keybind": "Z",
+            "ability_name": "Chain Detonation",
+            "mastery_cost": "40 Mastery"
+        },
+        {
+            "equipment_name": "Cannon",
+            "keybind": "X",
+            "ability_name": "Incendiary Ammo",
+            "mastery_cost": "100 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Cannon was remodeled and reworked.\n[Z] Alpha Wave -> [Z] Chain Detonation"
+        },
+        {
+            "version": "Update 1",
+            "change": "The Cannon was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 1"
+},
+{
+    "uid": "gun_musket",
+    "gun_name": "Musket",
+    "url": "https://blox-fruits.fandom.com/wiki/Musket",
+    "timestamp": "2025-08-08 19:27:53",
+    "abilities": [
+        {
+            "equipment_name": "Musket",
+            "keybind": "Z",
+            "ability_name": "Draconic Bullet",
+            "mastery_cost": "20 Mastery"
+        },
+        {
+            "equipment_name": "Musket",
+            "keybind": "X",
+            "ability_name": "Torching Shot",
+            "mastery_cost": "50 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The Musket was remodeled and reworked.\n[Z] Dragon Bullet -> [Z] Draconic Bullet\n[X] Bold Pistolero -> [X] Torching Shot"
+        },
+        {
+            "version": "Update 1",
+            "change": "The Musket was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Uncommon",
+    "release_date": "Update 1"
+},
+{
+    "uid": "gun_slingshot",
+    "gun_name": "Slingshot",
+    "url": "https://blox-fruits.fandom.com/wiki/Slingshot",
+    "timestamp": "2025-08-08 19:27:53",
+    "abilities": [
+        {
+            "equipment_name": "Slingshot",
+            "keybind": "Z",
+            "ability_name": "Ink Bomb",
+            "mastery_cost": "20 Mastery"
+        },
+        {
+            "equipment_name": "Slingshot",
+            "keybind": "X",
+            "ability_name": "Proximity Bomb",
+            "mastery_cost": "40 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Slingshot was remodeled and reworked.\n[Z] Sticky Pellet -> [Z] Ink Bomb\n[X] Explosive Pellet -> [X] Proximity Bomb"
+        },
+        {
+            "version": "Update 1",
+            "change": "Slingshot was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Common",
+    "release_date": "Update 1"
+},
+{
+    "uid": "gun_bizarre_revolver",
+    "gun_name": "Bizarre Revolver",
+    "url": "https://blox-fruits.fandom.com/wiki/Bizarre_Revolver",
+    "timestamp": "2025-08-08 19:27:53",
+    "abilities": [
+        {
+            "equipment_name": "Bizarre Revolver",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A"
+        },
+        {
+            "equipment_name": "Bizarre Revolver",
+            "keybind": "Z",
+            "ability_name": "Space Bending Blast",
+            "mastery_cost": "150 Mastery"
+        },
+        {
+            "equipment_name": "Bizarre Revolver",
+            "keybind": "X",
+            "ability_name": "Dimensional Surge",
+            "mastery_cost": "300 Mastery"
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Bizarre Rifle was revamped and renamed to Bizarre Revolver.\n[Z] Heat-seeking Shot was renamed to [Z] Space Bending Blast.\n[X] Hellfire Shower was renamed to [X] Dimensional Surge."
+        },
+        {
+            "version": "Update 12",
+            "change": "Bizarre Rifle was released."
+        }
+    ],
+    "type": "Guns",
+    "rarity": "Rare",
+    "release_date": "Update 12"
+}
+]

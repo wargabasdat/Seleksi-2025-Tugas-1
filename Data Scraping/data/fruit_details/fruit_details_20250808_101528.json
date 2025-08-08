@@ -1,0 +1,4458 @@
+[
+{
+    "uid": "fruit_blade",
+    "fruit_name": "Blade",
+    "url": "https://blox-fruits.fandom.com/wiki/Blade",
+    "timestamp": "2025-08-08 10:15:29",
+    "abilities": [
+        {
+            "fruit_name": "Blade",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Blade",
+            "keybind": "Z",
+            "ability_name": "Razor Cyclone",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Blade",
+            "keybind": "X",
+            "ability_name": "Blade Dance",
+            "mastery_cost": "20 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Blade",
+            "keybind": "C",
+            "ability_name": "Saw Shredder",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Blade",
+            "keybind": "F",
+            "ability_name": "Turbine Flight",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Chop was reworked and renamed to Blade.\nAdded a [TAP] ability.\n[Z] Tackle was renamed to [Z] Razor Cyclone.\n[X] Dance was renamed to [X] Blade Dance.\n[C] Party was renamed to [C] Saw Shredder.\n[F] Helicopter was renamed to [F] Turbine Flight."
+        },
+        {
+            "version": "Update 20",
+            "change": "Chop Fruit's model was remade."
+        },
+        {
+            "version": "Update 1",
+            "change": "Chop was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "money_price": 30000,
+    "robux_price": 100,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/24"
+},
+{
+    "uid": "fruit_soul",
+    "fruit_name": "Soul",
+    "url": "https://blox-fruits.fandom.com/wiki/Soul",
+    "timestamp": "2025-08-08 10:15:31",
+    "abilities": [
+        {
+            "fruit_name": "Soul",
+            "keybind": "Z",
+            "ability_name": "Soul Snatcher",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Soul",
+            "keybind": "X",
+            "ability_name": "Wrath of Ra",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Soul",
+            "keybind": "C",
+            "ability_name": "Outraged Raijin",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Soul",
+            "keybind": "V",
+            "ability_name": "End of Times",
+            "mastery_cost": "350 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Soul",
+            "keybind": "F",
+            "ability_name": "Sky Ruler",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 17.3.5",
+            "change": "Soul was revamped and renamed to Spirit.\n[Z] Soul Snatcher was renamed to [Z] Frostfire Grasp.\n[C] Outraged Raijin was renamed to [C] Wrath of Shu."
+        },
+        {
+            "version": "Update 17.3.5",
+            "change": "Spirit users now get buddies overtime instead of getting them from NPCs or Players."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Soul received a balancing.\nChanges on how Soul works:\nThe size of [X] Wrath of Ra now scales with the blue bar.\nThe damage of [C] Outraged Raijin now scales with the red bar.\nNerfed base stats of both moves.\nRebalanced dashes and run speed on all the races. The speed gap between Rabbit and other races shouldn't be that huge anymore.\nCharacter gravity now slowly increases the further away the user is from the ground, to avoid sky camping."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Soul was buffed.\nReduced cooldowns on [X] Wrath of Ra, [C] Outraged Raijin, [F] Sky Ruler, and summoning buddies.\n[X] Wrath of Ra and [C] Outraged Raijin now have the same cooldown duration.\n[Z] Soul Snatcher can now steal up to 2 souls (spirit/buddies) by hitting multiple enemies at once.\nSlightly increased the mood damage modifier on the [V] End of Times move.\nBuffed the damage and hitbox on [C] Outraged Raijin."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Soul was nerfed.\nThe damage of [X] Wrath of Ra was reduced."
+        },
+        {
+            "version": "Update 17.1",
+            "change": "Soul was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Mythical",
+    "money_price": 3400000,
+    "robux_price": 2550,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/17.1"
+},
+{
+    "uid": "fruit_revive",
+    "fruit_name": "Revive",
+    "url": "https://blox-fruits.fandom.com/wiki/Revive",
+    "timestamp": "2025-08-08 10:15:31",
+    "abilities": [
+        {
+            "fruit_name": "Revive",
+            "keybind": "Z",
+            "ability_name": "Possession",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Revive",
+            "keybind": "X",
+            "ability_name": "Soul Ruler",
+            "mastery_cost": "60 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Revive",
+            "keybind": "C",
+            "ability_name": "Resurrection",
+            "mastery_cost": "110 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Revive",
+            "keybind": "F",
+            "ability_name": "Wandering Soul",
+            "mastery_cost": "30 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 21",
+            "change": "Revive was revamped and renamed to Ghost."
+        },
+        {
+            "version": "Update 20",
+            "change": "Revive Fruit's model was remade."
+        },
+        {
+            "version": "Update 16",
+            "change": "Revive was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Uncommon",
+    "money_price": 550000,
+    "robux_price": 975,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/16"
+},
+{
+    "uid": "fruit_door",
+    "fruit_name": "Door",
+    "url": "https://blox-fruits.fandom.com/wiki/Door",
+    "timestamp": "2025-08-08 10:15:31",
+    "abilities": [],
+    "change_history": [
+        {
+            "version": "Update 17.3.5",
+            "change": "Door was replaced by Portal."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Added short immunity frames to the user while teleporting with [C] Door Gateway."
+        },
+        {
+            "version": "Update 15",
+            "change": "Door was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Rare",
+    "money_price": 950000,
+    "robux_price": null,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/15"
+},
+{
+    "uid": "fruit_falcon",
+    "fruit_name": "Falcon",
+    "url": "https://blox-fruits.fandom.com/wiki/Falcon",
+    "timestamp": "2025-08-08 10:15:31",
+    "abilities": [
+        {
+            "fruit_name": "Falcon",
+            "keybind": "Z",
+            "ability_name": "Plumage",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Falcon",
+            "keybind": "X",
+            "ability_name": "Wind Burst",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Falcon",
+            "keybind": "C",
+            "ability_name": "Bone Crusher",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Falcon",
+            "keybind": "V",
+            "ability_name": "Soaring Talon",
+            "mastery_cost": "120 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Falcon",
+            "keybind": "F",
+            "ability_name": "Flight",
+            "mastery_cost": "20 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Falcon was replaced by Eagle."
+        },
+        {
+            "version": "Update 25",
+            "change": "Falcon was made unavailable to purchase from the Blox Fruit Dealer's stock and Shop."
+        },
+        {
+            "version": "Update 20",
+            "change": "Falcon Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "Bird: Falcon was renamed to \"Falcon\"."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Increased passive defense from 7.5% to 10%. (This passive is currently not working.)"
+        },
+        {
+            "version": "Update 15",
+            "change": "Bird: Falcon was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Uncommon",
+    "money_price": 300000,
+    "robux_price": 650,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/15"
+},
+{
+    "uid": "fruit_barrier",
+    "fruit_name": "Barrier",
+    "url": "https://blox-fruits.fandom.com/wiki/Barrier",
+    "timestamp": "2025-08-08 10:15:31",
+    "abilities": [
+        {
+            "fruit_name": "Barrier",
+            "keybind": "Z",
+            "ability_name": "Barrier Wall",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Barrier",
+            "keybind": "X",
+            "ability_name": "Surprise Attack",
+            "mastery_cost": "45 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Barrier",
+            "keybind": "C",
+            "ability_name": "Barrier Prison",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Barrier",
+            "keybind": "V",
+            "ability_name": "Barrier Towers",
+            "mastery_cost": "130 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Barrier",
+            "keybind": "F",
+            "ability_name": "Stairs",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Barrier was replaced by Creation."
+        },
+        {
+            "version": "Update 25",
+            "change": "Barrier was made unavailable to purchase from the Blox Fruit Dealer's stock and Shop."
+        },
+        {
+            "version": "Update 20",
+            "change": "Barrier Fruit's model was remade."
+        },
+        {
+            "version": "Update 8",
+            "change": "Barrier was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Rare",
+    "money_price": 800000,
+    "robux_price": 1250,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/8"
+},
+{
+    "uid": "fruit_chop",
+    "fruit_name": "Chop",
+    "url": "https://blox-fruits.fandom.com/wiki/Chop",
+    "timestamp": "2025-08-08 10:15:31",
+    "abilities": [
+        {
+            "fruit_name": "Chop",
+            "keybind": "Z",
+            "ability_name": "Tackle",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Chop",
+            "keybind": "X",
+            "ability_name": "Dance",
+            "mastery_cost": "20 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Chop",
+            "keybind": "C",
+            "ability_name": "Party",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Chop",
+            "keybind": "F",
+            "ability_name": "Helicopter",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Chop was replaced by Blade."
+        },
+        {
+            "version": "Update 20",
+            "change": "Chop Fruit's model was remade."
+        },
+        {
+            "version": "Update 1",
+            "change": "Chop was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "money_price": 30000,
+    "robux_price": 100,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_spirit",
+    "fruit_name": "Spirit",
+    "url": "https://blox-fruits.fandom.com/wiki/Spirit",
+    "timestamp": "2025-08-08 10:15:31",
+    "abilities": [
+        {
+            "fruit_name": "Spirit",
+            "keybind": "TAP",
+            "ability_name": "Tap",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spirit",
+            "keybind": "Z",
+            "ability_name": "Frostfire Grasp",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spirit",
+            "keybind": "X",
+            "ability_name": "Wrath of Ra",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spirit",
+            "keybind": "C",
+            "ability_name": "Wrath of Shu",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spirit",
+            "keybind": "V",
+            "ability_name": "End of Times",
+            "mastery_cost": "350 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spirit",
+            "keybind": "F",
+            "ability_name": "Sky Ruler",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Spirit Fruit's model's icon was remade."
+        },
+        {
+            "version": "Update 17.3.5",
+            "change": "Soul was revamped and renamed to Spirit.\n[Z] Soul Snatcher was renamed to [Z] Frostfire Grasp.\n[C] Outraged Raijin was renamed to [C] Wrath of Shu."
+        },
+        {
+            "version": "Update 17.3.5",
+            "change": "Spirit users now get Buddies overtime instead of getting them from NPCs or Players."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Soul received a balancing.\nChanges on how Soul works:\nThe size of [X] Wrath of Ra now scales with the blue bar.\nThe damage of [C] Outraged Raijin now scales with the red bar.\nNerfed base stats of both moves.\nRebalanced dashes and run speed on all the races. The speed gap between Rabbit and other races should not be that huge anymore.\nCharacter gravity now slowly increases the further away the user is from the ground, to avoid sky camping."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Soul was buffed.\nReduced cooldowns on [X] Wrath of Ra, [C] Outraged Raijin, [F] Sky Ruler, and summoning buddies.\n[X] Wrath of Ra and [C] Outraged Raijin now have the same cooldown duration.\n[Z] Soul Snatcher can now steal up to 2 souls (spirit/buddies) by hitting multiple enemies at once.\nSlightly increased the mood damage modifier on the [V] End of Times move.\nBuffed the damage and hitbox on [C] Outraged Raijin."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Soul was nerfed.\nThe damage of [X] Wrath of Ra was reduced."
+        },
+        {
+            "version": "Update 17.1",
+            "change": "Soul was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Mythical",
+    "money_price": 3400000,
+    "robux_price": 2550,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/17.1"
+},
+{
+    "uid": "fruit_leopard",
+    "fruit_name": "Leopard",
+    "url": "https://blox-fruits.fandom.com/wiki/Leopard",
+    "timestamp": "2025-08-08 10:15:31",
+    "abilities": [
+        {
+            "fruit_name": "Leopard",
+            "keybind": "Z",
+            "ability_name": "Finger Revolver",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "X",
+            "ability_name": "Spiraling Kick",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "C",
+            "ability_name": "Afterimage Assault",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "F",
+            "ability_name": "Body Flicker",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "Z",
+            "ability_name": "Finger Revolver",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "X",
+            "ability_name": "Spiraling Kick",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "C",
+            "ability_name": "Afterimage Assault",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Leopard",
+            "keybind": "F",
+            "ability_name": "Body Flicker",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Leopard Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Leopard was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Mythical",
+    "money_price": 5000000,
+    "robux_price": 3000,
+    "awakening_cost": null,
+    "release_date": "Updates/17.3"
+},
+{
+    "uid": "fruit_kilo",
+    "fruit_name": "Kilo",
+    "url": "https://blox-fruits.fandom.com/wiki/Kilo",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Kilo",
+            "keybind": "Z",
+            "ability_name": "10,000KG",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kilo",
+            "keybind": "X",
+            "ability_name": "20,000KG",
+            "mastery_cost": "20 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kilo",
+            "keybind": "C",
+            "ability_name": "50,000KG",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kilo",
+            "keybind": "F",
+            "ability_name": "Lighten",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Kilo was replaced by Rocket."
+        },
+        {
+            "version": "Update 15",
+            "change": "Kilo was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "money_price": 5000,
+    "robux_price": 50,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/15"
+},
+{
+    "uid": "fruit_gas",
+    "fruit_name": "Gas",
+    "url": "https://blox-fruits.fandom.com/wiki/Gas",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Gas",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "Z",
+            "ability_name": "Suffocating Fumes",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "X",
+            "ability_name": "Bursting Vapor",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "C",
+            "ability_name": "Smog Demons",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "V",
+            "ability_name": "Vapor Condensation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "F",
+            "ability_name": "Traveling Gas",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "Z",
+            "ability_name": "Suffocating Fumes",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "X",
+            "ability_name": "Bursting Vapor",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "C",
+            "ability_name": "Smog Demons",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "V",
+            "ability_name": "Vapor Condensation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gas",
+            "keybind": "F",
+            "ability_name": "Traveling Gas",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [],
+    "type": "Elemental",
+    "rarity": "Mythical",
+    "money_price": 3200000,
+    "robux_price": 2500,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/24"
+},
+{
+    "uid": "fruit_control",
+    "fruit_name": "Control",
+    "url": "https://blox-fruits.fandom.com/wiki/Control",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Control",
+            "keybind": "Z",
+            "ability_name": "Control Area",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Control",
+            "keybind": "X",
+            "ability_name": "Levitate",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Control",
+            "keybind": "C",
+            "ability_name": "Echo Knife",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Control",
+            "keybind": "V",
+            "ability_name": "Gamma Rush",
+            "mastery_cost": "350 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Control",
+            "keybind": "F",
+            "ability_name": "Teleport",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Control Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Control was buffed.\n[Z] Control Area now lasts longer.\nLowered cooldown on [X] Levitate and [F] Teleport.\nIncreased the damage of [V] Gamma Rush, and it no longer shrinks after catching a player, and doesn't disappear after the move."
+        },
+        {
+            "version": "Update 16",
+            "change": "Control was buffed.\nIncreased the damage of [X] Levitate"
+        },
+        {
+            "version": "Update 14",
+            "change": "Control was buffed.\nIncreased the stun on [C] Echo Knife.\nSlightly increased damage on [V] Gamma Rush."
+        },
+        {
+            "version": "Update 11",
+            "change": "Control was buffed.\nDecreased the end-lag on [C] Echo Knife."
+        },
+        {
+            "version": "Update 10",
+            "change": "Control was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Mythical",
+    "money_price": 3200000,
+    "robux_price": 2500,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/10"
+},
+{
+    "uid": "fruit_yeti",
+    "fruit_name": "Yeti",
+    "url": "https://blox-fruits.fandom.com/wiki/Yeti",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Yeti",
+            "keybind": "Z",
+            "ability_name": "Arctic Clap",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "X",
+            "ability_name": "Frostbite Boulder",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "C",
+            "ability_name": "Glacial Execution",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "F",
+            "ability_name": "Tundra Rush",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "Z",
+            "ability_name": "Arctic Clap",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "X",
+            "ability_name": "Frostbite Boulder",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "C",
+            "ability_name": "Glacial Execution",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Yeti",
+            "keybind": "F",
+            "ability_name": "Tundra Rush",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Yeti was nerfed.\nYeti's damage got reduced slightly.\nNerfed Z move range.\nThe X move can now be dodged by Instinct if the boulder directly hits in the air.\nNerfed C move range.\nNerfed defense buff to 35% instead of 50%."
+        },
+        {
+            "version": "Update 25",
+            "change": "Yeti was released.\nYeti's damage was buffed."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Mythical",
+    "money_price": 5000000,
+    "robux_price": 3000,
+    "awakening_cost": null,
+    "release_date": "Updates/25"
+},
+{
+    "uid": "fruit_dough",
+    "fruit_name": "Dough",
+    "url": "https://blox-fruits.fandom.com/wiki/Dough",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Dough",
+            "keybind": "Z",
+            "ability_name": "Fried Dough",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "X",
+            "ability_name": "Sticky Dough",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "C",
+            "ability_name": "Carved Dough",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "V",
+            "ability_name": "Restless Dough Barrage",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "F",
+            "ability_name": "Roller Donut",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "Z",
+            "ability_name": "Missile Jab",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "X",
+            "ability_name": "Pastry River",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "C",
+            "ability_name": "Piercing Clothesline",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "V",
+            "ability_name": "Dough Fist Fusillade",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Dough",
+            "keybind": "F",
+            "ability_name": "Scorching Donut",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Dough Fruit's icon was remade."
+        },
+        {
+            "version": "Update 20",
+            "change": "Dough Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "[C] Piercing Clothesline now needs to hit a player or an Enemy to activate."
+        },
+        {
+            "version": "Update 18",
+            "change": "[C] Piercing Clothesline\nAutomatically activates the skill even if it doesn't hit anyone.\nNow adjusts to the user's Aura color."
+        },
+        {
+            "version": "Update 18",
+            "change": "[X] Pastry River was nerfed. (Lost the auto aim ability and hit more targets)"
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Dough received an awakening."
+        },
+        {
+            "version": "Update 11",
+            "change": "Dough received a slight buff.\nSlightly reduced the delay on [V] Restless Dough Barrage.\nSlightly increased the hitbox on [X] Sticky Dough and [C] Carved Dough."
+        },
+        {
+            "version": "Update 10",
+            "change": "Dough was nerfed."
+        },
+        {
+            "version": "Update 9",
+            "change": "Dough was released as a special Natural-type Blox Fruit.\nDough had Elemental Reflex passive but required the user to have Instinct on."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Mythical",
+    "money_price": 2800000,
+    "robux_price": 2400,
+    "awakening_cost": null,
+    "release_date": "Updates/9"
+},
+{
+    "uid": "fruit_shadow",
+    "fruit_name": "Shadow",
+    "url": "https://blox-fruits.fandom.com/wiki/Shadow",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Shadow",
+            "keybind": "Z",
+            "ability_name": "Somber Rebellion",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Shadow",
+            "keybind": "X",
+            "ability_name": "Shade Nest",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Shadow",
+            "keybind": "C",
+            "ability_name": "Nightmare Leech",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Shadow",
+            "keybind": "V",
+            "ability_name": "Corvus Torment",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Shadow",
+            "keybind": "F",
+            "ability_name": "Umbrage",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Shadow Fruit's model was remade."
+        },
+        {
+            "version": "Update 16",
+            "change": "Shadow was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Mythical",
+    "money_price": 2900000,
+    "robux_price": 2425,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/16"
+},
+{
+    "uid": "fruit_mammoth",
+    "fruit_name": "Mammoth",
+    "url": "https://blox-fruits.fandom.com/wiki/Mammoth",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "Z",
+            "ability_name": "Ancient Cutter",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "X",
+            "ability_name": "True Prehistoric Punt",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "C",
+            "ability_name": "Colossal Crusher",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "F",
+            "ability_name": "Stampede",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "Z",
+            "ability_name": "Ancient Cutter",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "X",
+            "ability_name": "True Prehistoric Punt",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "C",
+            "ability_name": "Colossal Crusher",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Mammoth",
+            "keybind": "F",
+            "ability_name": "Stampede",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 23",
+            "change": "Mammoth's hitbox was broken for a brief amount of time, allowing users to stand in water and survive as the hitbox was just slightly above the water. This has been fixed in a later hotfix."
+        },
+        {
+            "version": "Update 20",
+            "change": "Mammoth was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Mythical",
+    "money_price": 2700000,
+    "robux_price": 2350,
+    "awakening_cost": null,
+    "release_date": "Updates/20"
+},
+{
+    "uid": "fruit_blizzard",
+    "fruit_name": "Blizzard",
+    "url": "https://blox-fruits.fandom.com/wiki/Blizzard",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Blizzard",
+            "keybind": "Z",
+            "ability_name": "Snowflake Shuriken",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Blizzard",
+            "keybind": "X",
+            "ability_name": "White Out",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Blizzard",
+            "keybind": "C",
+            "ability_name": "Howling Wind",
+            "mastery_cost": "160 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Blizzard",
+            "keybind": "V",
+            "ability_name": "Blizzard Domain",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Blizzard",
+            "keybind": "F",
+            "ability_name": "Tornado Flight",
+            "mastery_cost": "40 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Blizzard Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3.5",
+            "change": "Blizzard was released."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Legendary",
+    "money_price": 2400000,
+    "robux_price": 2250,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/17"
+},
+{
+    "uid": "fruit_gravity",
+    "fruit_name": "Gravity",
+    "url": "https://blox-fruits.fandom.com/wiki/Gravity",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Gravity",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gravity",
+            "keybind": "Z",
+            "ability_name": "Singularity",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gravity",
+            "keybind": "X",
+            "ability_name": "Orbital Chain",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gravity",
+            "keybind": "C",
+            "ability_name": "Gravitational Prison",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gravity",
+            "keybind": "V",
+            "ability_name": "Asteroid Crash",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Gravity",
+            "keybind": "F",
+            "ability_name": "Shooting Star",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Gravity was remade available to purchase."
+        },
+        {
+            "version": "Update 26",
+            "change": "Gravity Fruit's model was slightly remade again.\nThe color of the fruit model became darker.\nThe pink ring now rotates around the fruit."
+        },
+        {
+            "version": "Update 26",
+            "change": "Gravity Fruit's icon was remade."
+        },
+        {
+            "version": "Update 26",
+            "change": "Added [M1] attacks."
+        },
+        {
+            "version": "Update 26",
+            "change": "All moves were reworked.\n[Z] Gravity Push was renamed to [Z] Singularity.\n[X] Gravity Obeisance was renamed to [X] Orbital Chain.\n[C] Meteor Pitch was renamed to [C] Gravitational Prison.\n[V] Meteors Rain was renamed to [V] Asteroid Crash.\n[F] Boulder Flight was renamed to [F] Shooting Star.\nPrevious IconPrevious Inventory IconOld Gravity Fruit's model.Gravity Push (Old)Gravity Obeisance (Old)Meteor Pitch (Old)Meteors Rain (Old)Boulder Flight (Old)"
+        },
+        {
+            "version": "Update 25",
+            "change": "Gravity was made unavailable to purchase from the Blox Fruit Dealer's stock and Shop."
+        },
+        {
+            "version": "Update 20",
+            "change": "Gravity Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Gravity was reworked.\nEvery ability got a VFX rework.\nOld: [V] Meteors Rain could not be aimed and used to hit randomly.\nNew: [V] Meteors Rain can be aimed."
+        },
+        {
+            "version": "Update 7",
+            "change": "Made Gravity slightly more common."
+        },
+        {
+            "version": "Update 5",
+            "change": "Gravity was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Mythical",
+    "money_price": 2500000,
+    "robux_price": 2300,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/5"
+},
+{
+    "uid": "fruit_pain",
+    "fruit_name": "Pain",
+    "url": "https://blox-fruits.fandom.com/wiki/Pain",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Pain",
+            "keybind": "Z",
+            "ability_name": "Heavy Pain",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Pain",
+            "keybind": "X",
+            "ability_name": "Pain Barrage",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Pain",
+            "keybind": "C",
+            "ability_name": "Pain Nuke",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Pain",
+            "keybind": "V",
+            "ability_name": "Torture",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Pain",
+            "keybind": "F",
+            "ability_name": "Self Repel",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "2025-07-04:\nPain was made unavailable to purchase from the Blox Fruit Dealer's stock and Shop."
+        },
+        {
+            "version": "Update 20",
+            "change": "Paw was renamed to Pain.\n[Z] Heavy Paw was renamed to [Z] Heavy Pain.\n[X] Paw Barrage was renamed to [X] Pain Barrage.\n[C] Paw Nuke was renamed to [C] Pain Nuke."
+        },
+        {
+            "version": "Update 20",
+            "change": "Paw Fruit's model was remade."
+        },
+        {
+            "version": "Update 8",
+            "change": "Paw's visual was enhanced."
+        },
+        {
+            "version": "Update 7",
+            "change": "Paw was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Legendary",
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/7"
+},
+{
+    "uid": "fruit_portal",
+    "fruit_name": "Portal",
+    "url": "https://blox-fruits.fandom.com/wiki/Portal",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Portal",
+            "keybind": "TAP",
+            "ability_name": "Tap",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Portal",
+            "keybind": "Z",
+            "ability_name": "Portal Dash",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Portal",
+            "keybind": "X",
+            "ability_name": "Parallel Escape",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Portal",
+            "keybind": "C",
+            "ability_name": "World Warp",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Portal",
+            "keybind": "V",
+            "ability_name": "Dimensional Rift",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Portal",
+            "keybind": "F",
+            "ability_name": "Quantum Leap",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Blur background visual for entering [C] World Warp was changed back to the former visuals."
+        },
+        {
+            "version": "Update 24",
+            "change": "Removed the ability to stay in [X] Parallel Escape while using M1s, as well as slightly decreasing the total time of the move."
+        },
+        {
+            "version": "Update 24",
+            "change": "Added a blur background visual when entering a portal formed by [C] World Warp."
+        },
+        {
+            "version": "Update 24",
+            "change": "Players now have to close the screen of fruit shop in order to use the GUI of [C] World Warp."
+        },
+        {
+            "version": "Update 24",
+            "change": "Portal's M1 can no longer be used when talking to an NPC."
+        },
+        {
+            "version": "Update 24",
+            "change": "Enemies now gain approximately 60 invincibility frames when being forced out of [V] Dimensional Rift, effectively removing its ability to infinite combo."
+        },
+        {
+            "version": "Update 21",
+            "change": "Slightly increased cooldown of [V] Dimensional Rift and [X] Parallel Escape."
+        },
+        {
+            "version": "Update 20",
+            "change": "Portal Fruit's model was remade."
+        },
+        {
+            "version": "Update 18",
+            "change": "Slightly increased cooldowns on Tap' (Click)."
+        },
+        {
+            "version": "Update 17.3.5",
+            "change": "Door was reworked and was renamed to Portal.\n[Z] Spinning Door was renamed to [Z] Portal Dash.\n[X] Dimensional Door was renamed to [X] Parallel Escape.\n[C] Door Gateway was renamed to [C] World Warp.\nAdded [V] Dimensional Rift.\n[F] Hallway was renamed to [F] Quantum Leap."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Added short immunity frames to the user while teleporting with [C] Door Gateway."
+        },
+        {
+            "version": "Update 15",
+            "change": "Portal was released as Door."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Legendary",
+    "money_price": 1900000,
+    "robux_price": 2000,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/17"
+},
+{
+    "uid": "fruit_rumble",
+    "fruit_name": "Rumble",
+    "url": "https://blox-fruits.fandom.com/wiki/Rumble",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Rumble",
+            "keybind": "Z",
+            "ability_name": "Rumble Dragon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "X",
+            "ability_name": "Sky Thunder",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "C",
+            "ability_name": "Sky Beam",
+            "mastery_cost": "160 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "V",
+            "ability_name": "Thunder Bomb",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "F",
+            "ability_name": "Lightning Dash",
+            "mastery_cost": "30 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "Z",
+            "ability_name": "Lightning Beast",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "X",
+            "ability_name": "Thunderstorm",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "C",
+            "ability_name": "Sky Judgement",
+            "mastery_cost": "160 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "V",
+            "ability_name": "Thunderball Destruction",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Rumble",
+            "keybind": "F",
+            "ability_name": "Electric Flash",
+            "mastery_cost": "30 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "2025-07-18:\nRumble was made unavailable to purchase from the Blox Fruit Dealer's stock and Shop."
+        },
+        {
+            "version": "Update 24",
+            "change": "Rumble's icon was remade."
+        },
+        {
+            "version": "Update 20",
+            "change": "Rumble Fruit's model was remade."
+        },
+        {
+            "version": "Update 18",
+            "change": "[V] Thunderball Destruction (V2) now fires faster and deals reduced knockback."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Improved the visual effects on some Rumble V2 abilities."
+        },
+        {
+            "version": "Update 14",
+            "change": "Rumble received an awakening."
+        },
+        {
+            "version": "Update 5",
+            "change": "Rumble [V] and [F] moves were nerfed."
+        },
+        {
+            "version": "Update 3",
+            "change": "Rumble was released."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Legendary",
+    "money_price": 2100000,
+    "robux_price": 2100,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/3"
+},
+{
+    "uid": "fruit_sound",
+    "fruit_name": "Sound",
+    "url": "https://blox-fruits.fandom.com/wiki/Sound",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Sound",
+            "keybind": "Z",
+            "ability_name": "Rhapsody Notes",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "X",
+            "ability_name": "Fortissimo",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "C",
+            "ability_name": "Symphonic Radiance",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "V",
+            "ability_name": "Glorious Harmony",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "F",
+            "ability_name": "Tempo: Prestissimo",
+            "mastery_cost": "175 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "Z",
+            "ability_name": "Rhapsody Notes",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "X",
+            "ability_name": "Fortissimo",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "C",
+            "ability_name": "Symphonic Radiance",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "V",
+            "ability_name": "Glorious Harmony",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sound",
+            "keybind": "F",
+            "ability_name": "Tempo: Prestissimo",
+            "mastery_cost": "175 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [],
+    "type": "Natural",
+    "rarity": "Legendary",
+    "money_price": 1700000,
+    "robux_price": 1900,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/20"
+},
+{
+    "uid": "fruit_buddha",
+    "fruit_name": "Buddha",
+    "url": "https://blox-fruits.fandom.com/wiki/Buddha",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Buddha",
+            "keybind": "Z",
+            "ability_name": "Transform",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Buddha",
+            "keybind": "X",
+            "ability_name": "Impact",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Buddha",
+            "keybind": "C",
+            "ability_name": "Buddha Leap",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Buddha",
+            "keybind": "V",
+            "ability_name": "Buddha Explosion",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Buddha",
+            "keybind": "Z",
+            "ability_name": "Shift",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Buddha",
+            "keybind": "X",
+            "ability_name": "Heavenly Impact",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Buddha",
+            "keybind": "C",
+            "ability_name": "Light of Annihilation",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Buddha",
+            "keybind": "V",
+            "ability_name": "Twilight of the Gods",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Buddha",
+            "keybind": "F",
+            "ability_name": "Retribution Dash",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Buddha V1 received a slightly higher Air Jump (around 1.5x) compared to untransformed."
+        },
+        {
+            "version": "Update 24",
+            "change": "Buddha icon was remade."
+        },
+        {
+            "version": "Update 20",
+            "change": "Buddha Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "Human: Buddha was renamed to \"Buddha\"."
+        },
+        {
+            "version": "Update 19",
+            "change": "Awakened Buddha's abilities damage were buffed."
+        },
+        {
+            "version": "Update 18",
+            "change": "While transformed, the damage of swords' M1 was nerfed.\nHuman: Buddha users now deal 27.5% decreased M1 damage, only in PvP."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "[X] Impact (V1) was reworked."
+        },
+        {
+            "version": "Update 15",
+            "change": "Human: Buddha received an awakening."
+        },
+        {
+            "version": "Update 1",
+            "change": "Human: Buddha was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Legendary",
+    "money_price": 1200000,
+    "robux_price": 1650,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_love",
+    "fruit_name": "Love",
+    "url": "https://blox-fruits.fandom.com/wiki/Love",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Love",
+            "keybind": "Z",
+            "ability_name": "Heart Shot",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Love",
+            "keybind": "X",
+            "ability_name": "Cupid's Zone",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Love",
+            "keybind": "C",
+            "ability_name": "Irresistible Attraction",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Love",
+            "keybind": "V",
+            "ability_name": "Besto Friendo",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Love",
+            "keybind": "F",
+            "ability_name": "Flamingo Ride",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Love was nerfed.\n[X] Cupid's Zone no longer has infinite range."
+        },
+        {
+            "version": "Update 21",
+            "change": "Besto Friendo could jump, dash, and swim.\nAlso, it un-aggroed when you didn't have any tools selected."
+        },
+        {
+            "version": "Update 20",
+            "change": "Love Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "Love's price was increased.\nRare -> Legendary\n  700,000 ->   1,300,000\n  1,150 ->   1,700"
+        },
+        {
+            "version": "Update 19",
+            "change": "All moves were reworked.\n[Z] Mellowing Heart was renamed to [Z] Heart Shot.\n[X] Arrow of Imprisonment was renamed to [X] Cupid's Zone.\n[V] Scented Kicks was renamed to [V] Besto Friendo."
+        },
+        {
+            "version": "Update 15",
+            "change": "Love was released as a Rare Blox Fruit."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Legendary",
+    "money_price": 1300000,
+    "robux_price": 1700,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/15"
+},
+{
+    "uid": "fruit_spider",
+    "fruit_name": "Spider",
+    "url": "https://blox-fruits.fandom.com/wiki/Spider",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Spider",
+            "keybind": "Z",
+            "ability_name": "Spider Wraith",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "X",
+            "ability_name": "Multi-string Attack",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "C",
+            "ability_name": "Over-heated Sniper",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "V",
+            "ability_name": "Ultimate Thread",
+            "mastery_cost": "225 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "F",
+            "ability_name": "Spider Path",
+            "mastery_cost": "15 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "Z",
+            "ability_name": "Thermal Laceration",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 800
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "X",
+            "ability_name": "Silk Prison",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": 3500
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "C",
+            "ability_name": "Eternal White",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": 4500
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "V",
+            "ability_name": "Heavenly Punishment",
+            "mastery_cost": "225 Mastery",
+            "fragment_cost": 6000
+        },
+        {
+            "fruit_name": "Spider",
+            "keybind": "F",
+            "ability_name": "Spider Highway",
+            "mastery_cost": "15 Mastery",
+            "fragment_cost": 2500
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Spider Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "String was renamed to Spider.\n[Z] Rainbow String (V1) was renamed to \"Spider Wraith\".\n[F] String Path (V1) was renamed to \"Spider Path\".\n[F] God's Highway (V2) was renamed to \"Spider Highway\"."
+        },
+        {
+            "version": "Update 19",
+            "change": "All moves were reworked (with the exception of awakened [X] and [Z])."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Greatly increased the auto-aim and speed on the C move unawakened."
+        },
+        {
+            "version": "Update 13",
+            "change": "String received an awakening."
+        },
+        {
+            "version": "Update 3",
+            "change": "String was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Legendary",
+    "money_price": 1500000,
+    "robux_price": 1800,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/3"
+},
+{
+    "uid": "fruit_phoenix",
+    "fruit_name": "Phoenix",
+    "url": "https://blox-fruits.fandom.com/wiki/Phoenix",
+    "timestamp": "2025-08-08 10:15:32",
+    "abilities": [
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "Z",
+            "ability_name": "Cannon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "X",
+            "ability_name": "Regeneration Flames",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "C",
+            "ability_name": "Fast Kick",
+            "mastery_cost": "160 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "V",
+            "ability_name": "Full Transformation",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "F",
+            "ability_name": "Hybrid Flight",
+            "mastery_cost": "30 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "Z",
+            "ability_name": "Cannon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "X",
+            "ability_name": "Regeneration Flames",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "C",
+            "ability_name": "Fast Kick",
+            "mastery_cost": "160 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "V",
+            "ability_name": "Full Transformation",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "F",
+            "ability_name": "Hybrid Flight",
+            "mastery_cost": "30 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "Z",
+            "ability_name": "Cremation Cannon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "X",
+            "ability_name": "Blue Flames",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "C",
+            "ability_name": "Flame Exodus",
+            "mastery_cost": "160 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "V",
+            "ability_name": "Blazing Plumage",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "F",
+            "ability_name": "Swift Flight",
+            "mastery_cost": "30 Mastery",
+            "fragment_cost": 2000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "Z",
+            "ability_name": "Cremation Cannon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "X",
+            "ability_name": "Blue Flames",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "C",
+            "ability_name": "Flame Exodus",
+            "mastery_cost": "160 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "V",
+            "ability_name": "Blazing Plumage",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Phoenix",
+            "keybind": "F",
+            "ability_name": "Swift Flight",
+            "mastery_cost": "30 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Phoenix Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "Renamed from \"Bird: Phoenix\" to \"Phoenix\"."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "All Unawakened moves were reworked."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Bird: Phoenix received an awakening."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "The awakened version was severely nerfed."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "[X] moves's heal in V1 form costs more energy to keep the recovery rate with V2."
+        },
+        {
+            "version": "Update 2",
+            "change": "Bird: Phoenix was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Legendary",
+    "money_price": 1800000,
+    "robux_price": 2000,
+    "awakening_cost": null,
+    "release_date": "Updates/2"
+},
+{
+    "uid": "fruit_venom",
+    "fruit_name": "Venom",
+    "url": "https://blox-fruits.fandom.com/wiki/Venom",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Venom",
+            "keybind": "Z",
+            "ability_name": "Poison Daggers",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "X",
+            "ability_name": "Noxious Shot",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "C",
+            "ability_name": "Toxic Fog",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "F",
+            "ability_name": "Serpent’s Wrath",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "Z",
+            "ability_name": "Poison Daggers",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "X",
+            "ability_name": "Noxious Shot",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "C",
+            "ability_name": "Toxic Fog",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Venom",
+            "keybind": "F",
+            "ability_name": "Serpent's Wrath",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Venom Fruit's model's icon was remade."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Transformation now costs 20% of the user's Fury Meter."
+        },
+        {
+            "version": "Update 16",
+            "change": "Patched the infinite Fury Meter with Venom glitch."
+        },
+        {
+            "version": "Update 15",
+            "change": "Venom was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Mythical",
+    "money_price": 3000000,
+    "robux_price": 2450,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/15"
+},
+{
+    "uid": "fruit_creation",
+    "fruit_name": "Creation",
+    "url": "https://blox-fruits.fandom.com/wiki/Creation",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Creation",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "Z",
+            "ability_name": "Batter Up",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "X",
+            "ability_name": "Sleight of Hand",
+            "mastery_cost": "45 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "C",
+            "ability_name": "Sword Box",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "V",
+            "ability_name": "Magic City",
+            "mastery_cost": "130 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "F",
+            "ability_name": "Fortify",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "Z",
+            "ability_name": "Wall",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "X",
+            "ability_name": "Floor",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "C",
+            "ability_name": "Ramp",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "V",
+            "ability_name": "Erase",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Creation",
+            "keybind": "F",
+            "ability_name": "Exit",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Barrier was reworked and renamed to Creation.\n[M1] ability was added.\n[Z] Barrier Wall was replaced by [Z] Batter Up.\n[X] Surprise Attack was replaced by [X] Sleight of Hand.\n[C] Barrier Prison was replaced by [C] Sword Box\n[V] Barrier Towers was enhanced to become [V] Magic City.\n[F] Stairs was enhanced to become [F] Fortify."
+        },
+        {
+            "version": "Update 26",
+            "change": "Creation's rarity was changed from Rare to Legendary."
+        },
+        {
+            "version": "Update 26",
+            "change": "Creation's price was increased:\n  800,000 ->   1,400,000\n  1,250 ->   1,750"
+        },
+        {
+            "version": "Update 25",
+            "change": "Barrier was made unavailable to purchase from the Blox Fruit Dealer's stock and Shop. (Price in trading remains the same)"
+        },
+        {
+            "version": "Update 20",
+            "change": "Barrier Fruit's model was remade."
+        },
+        {
+            "version": "Update 8",
+            "change": "Barrier was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Legendary",
+    "money_price": 1400000,
+    "robux_price": 1750,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/26"
+},
+{
+    "uid": "fruit_ghost",
+    "fruit_name": "Ghost",
+    "url": "https://blox-fruits.fandom.com/wiki/Ghost",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Ghost",
+            "keybind": "Z",
+            "ability_name": "Shivering Possession",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ghost",
+            "keybind": "X",
+            "ability_name": "Spectral Release",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ghost",
+            "keybind": "C",
+            "ability_name": "Cries of the Underworld",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ghost",
+            "keybind": "V",
+            "ability_name": "Ghost Busters",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ghost",
+            "keybind": "F",
+            "ability_name": "Wandering Soul",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 21",
+            "change": "Revive was revamped and renamed to Ghost.\nGhost's rarity was changed from Uncommon to Rare."
+        },
+        {
+            "version": "Update 20",
+            "change": "Revive Fruit's model was remade."
+        },
+        {
+            "version": "Update 16",
+            "change": "Revive was released as an Uncommon Blox Fruit."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Rare",
+    "money_price": 940000,
+    "robux_price": 1275,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/16"
+},
+{
+    "uid": "fruit_light",
+    "fruit_name": "Light",
+    "url": "https://blox-fruits.fandom.com/wiki/Light",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Light",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "Z",
+            "ability_name": "Light Ray",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "X",
+            "ability_name": "Barrage of Light",
+            "mastery_cost": "40 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "C",
+            "ability_name": "Reflection Kick",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "V",
+            "ability_name": "Sky Beam Barrage",
+            "mastery_cost": "110 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "F",
+            "ability_name": "Light Flight",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "Z",
+            "ability_name": "Divine Arrow",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "X",
+            "ability_name": "Hand of the Emperor",
+            "mastery_cost": "40 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "C",
+            "ability_name": "Lightspeed Destroyer",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "V",
+            "ability_name": "Wrath of God",
+            "mastery_cost": "110 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Light",
+            "keybind": "F",
+            "ability_name": "Shining Flight",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Light Icon was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Light Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3.5",
+            "change": "Light's sword was replaced by a spear."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "All moves were reworked.\nUnawakened:\n[Z] Light Beam was renamed to [Z] Light Ray.\n[X] Light Barrage was renamed to [X] Barrage of Light.\n[C] Light Kick was renamed to [C] Reflection Kick."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "[X] Swords of Judgement (V2) was buffed.\nThe range of the projectiles was increased.\nNow ignores Instinct."
+        },
+        {
+            "version": "Update 12",
+            "change": "Light received an awakening."
+        },
+        {
+            "version": "Update 8",
+            "change": "Light's visuals were reworked and/or enhanced."
+        },
+        {
+            "version": "Update 7",
+            "change": "The speed of the flight move is now relative to the user's current health. (Example: 50% health = 50% speed; caps at 40% speed)"
+        },
+        {
+            "version": "Update 6",
+            "change": "Light's sword is no longer a move, but a passive click ability (M1), and a new [V] move have been made in place of it."
+        },
+        {
+            "version": "Update 2",
+            "change": "Added Light's sword."
+        },
+        {
+            "version": "Update 1",
+            "change": "Light was released."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Rare",
+    "money_price": 650000,
+    "robux_price": 1100,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_magma",
+    "fruit_name": "Magma",
+    "url": "https://blox-fruits.fandom.com/wiki/Magma",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Magma",
+            "keybind": "Z",
+            "ability_name": "Magma Clap",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "X",
+            "ability_name": "Magma Eruption",
+            "mastery_cost": "45 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "C",
+            "ability_name": "Magma Fist",
+            "mastery_cost": "95 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "V",
+            "ability_name": "Magma Meteors",
+            "mastery_cost": "140 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "F",
+            "ability_name": "Magma Floor",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "Z",
+            "ability_name": "Magma Shower",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "X",
+            "ability_name": "Volcanic Assault",
+            "mastery_cost": "45 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "C",
+            "ability_name": "Great Magma Hound",
+            "mastery_cost": "95 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "V",
+            "ability_name": "Volcanic Storm",
+            "mastery_cost": "140 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Magma",
+            "keybind": "F",
+            "ability_name": "Beast Ride",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Magma's Icon was revamped."
+        },
+        {
+            "version": "Update 21",
+            "change": "Magma's money price was increased.\n  850,000 ->   960,000"
+        },
+        {
+            "version": "Update 20",
+            "change": "Magma Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "All unawakened moves were reworked."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Awakened:\nUser can walk on water.\nThe Magma balls (big version of Scorching Puddles) deal way higher tick damage.\nSlightly buffed explosion damage on [Z].\nThe [C] move can ignore Instinct."
+        },
+        {
+            "version": "Update 16",
+            "change": "Reduced the range of the [Z] move Awakened."
+        },
+        {
+            "version": "Update 15",
+            "change": "Magma received an awakening."
+        },
+        {
+            "version": "Update 8",
+            "change": "Magma's visuals were reworked and/or enhanced."
+        },
+        {
+            "version": "Update 6",
+            "change": "Magma's [Z] and [C] have been reworked."
+        },
+        {
+            "version": "Update 6",
+            "change": "Magma's [V] was aimable."
+        },
+        {
+            "version": "Update 1",
+            "change": "Magma was released."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Rare",
+    "money_price": 960000,
+    "robux_price": 1300,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_rubber",
+    "fruit_name": "Rubber",
+    "url": "https://blox-fruits.fandom.com/wiki/Rubber",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Rubber",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "Z",
+            "ability_name": "Cannon",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "X",
+            "ability_name": "Smash",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "C",
+            "ability_name": "Rush",
+            "mastery_cost": "125 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "225 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "F",
+            "ability_name": "Slingshot",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "Z",
+            "ability_name": "Cannon",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "X",
+            "ability_name": "Smash",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "C",
+            "ability_name": "Rush",
+            "mastery_cost": "125 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "225 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rubber",
+            "keybind": "F",
+            "ability_name": "Slingshot",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "The animation of [V] Transformation was changed."
+        },
+        {
+            "version": "Update 20",
+            "change": "Rubber Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Rubber was revamped."
+        },
+        {
+            "version": "Update 11",
+            "change": "[V] Transformation was buffed.\nEnergy regeneration was decreased to 25% instead of 50%."
+        },
+        {
+            "version": "Update 8",
+            "change": "Rubber was reworked and its visuals were enhanced."
+        },
+        {
+            "version": "Update 4",
+            "change": "Aura now works properly on Rubber."
+        },
+        {
+            "version": "Update 3.5",
+            "change": "Rubber was nerfed.\nRubber's 2nd Transformation's damage boost is now 22.5% instead of 25%."
+        },
+        {
+            "version": "Update 3",
+            "change": "Rubber was buffed.\nAdded immunity to Electric fighting style and Rumble."
+        },
+        {
+            "version": "Update 3",
+            "change": "Enlarged the Aura visual with Rubber."
+        },
+        {
+            "version": "Update 2",
+            "change": "Rubber was reworked."
+        },
+        {
+            "version": "Update 1",
+            "change": "Rubber was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Rare",
+    "money_price": 750000,
+    "robux_price": 1200,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_quake",
+    "fruit_name": "Quake",
+    "url": "https://blox-fruits.fandom.com/wiki/Quake",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Quake",
+            "keybind": "Z",
+            "ability_name": "Quake Punch",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Quake",
+            "keybind": "X",
+            "ability_name": "Quake Wave",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Quake",
+            "keybind": "C",
+            "ability_name": "Quake Erupt",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Quake",
+            "keybind": "V",
+            "ability_name": "Dual Tsunami",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Quake",
+            "keybind": "Z",
+            "ability_name": "Fatal Demolisher",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 1000
+        },
+        {
+            "fruit_name": "Quake",
+            "keybind": "X",
+            "ability_name": "Air Crusher",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Quake",
+            "keybind": "C",
+            "ability_name": "Spatial Shockwave",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Quake",
+            "keybind": "V",
+            "ability_name": "Seaquake",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": 8000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Quake Icon was remade."
+        },
+        {
+            "version": "Update 20",
+            "change": "Quake Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Unawakened Quake's moves were reworked."
+        },
+        {
+            "version": "Update 15",
+            "change": "Awakened [V]'s cooldown has been reduced."
+        },
+        {
+            "version": "Update 12",
+            "change": "Awakened Quake was nerfed.\nSlightly reduced damage.\nAdded some end-lag to [Z] Fatal Demolisher (V2).\n[X] Air Crusher and [C] Spatial Shockwave (V2) has a longer wind up.\nDecreased the hitbox and speed of [X] Air Crusher (V2)."
+        },
+        {
+            "version": "Update 11",
+            "change": "Quake received an awakening."
+        },
+        {
+            "version": "Update 11",
+            "change": "Decreased the cooldown of [V] Dual Tsunami."
+        },
+        {
+            "version": "Update 3.5",
+            "change": "[X] Quake Wave now breaks instinct."
+        },
+        {
+            "version": "Update 2",
+            "change": "Increased cooldown, and decreased range."
+        },
+        {
+            "version": "Update 2",
+            "change": "Decreased the cooldown of [V] Dual Tsunami."
+        },
+        {
+            "version": "Update 1",
+            "change": "Quake was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Legendary",
+    "money_price": 1000000,
+    "robux_price": 1500,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_ice",
+    "fruit_name": "Ice",
+    "url": "https://blox-fruits.fandom.com/wiki/Ice",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Ice",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "Z",
+            "ability_name": "Ice Spears",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "X",
+            "ability_name": "Ice Surge",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "C",
+            "ability_name": "Ice Bird",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "V",
+            "ability_name": "Glacial Epoch",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "Z",
+            "ability_name": "Cold Storm",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "X",
+            "ability_name": "Glacial Surge",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "C",
+            "ability_name": "Frozen Dragon",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "V",
+            "ability_name": "Absolute Zero",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Ice",
+            "keybind": "F",
+            "ability_name": "Ice Skating",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Ice Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "The visuals of Ice's skills were revamped.\nIce's sword was replaced by a trident."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Ice was buffed.\nThe speed and stun of [C] Frozen Dragon (V2) were increased.\nThe stun time of [V] Absolute Zero (V2) was extended."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Ice was nerfed.\nThe ability to use [V] Absolute Zero in air was removed."
+        },
+        {
+            "version": "Update 11",
+            "change": "Ice received an awakening."
+        },
+        {
+            "version": "Update 6",
+            "change": "Added freezing water mechanic to [Z] Ice Spears."
+        },
+        {
+            "version": "Update 6",
+            "change": "[C] Ice Bird was remade."
+        },
+        {
+            "version": "Update 1",
+            "change": "Ice was released."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Uncommon",
+    "money_price": 350000,
+    "robux_price": 750,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_dark",
+    "fruit_name": "Dark",
+    "url": "https://blox-fruits.fandom.com/wiki/Dark",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Dark",
+            "keybind": "Z",
+            "ability_name": "Dark Rocks",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dark",
+            "keybind": "X",
+            "ability_name": "Black Spiral",
+            "mastery_cost": "40 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dark",
+            "keybind": "C",
+            "ability_name": "Black Hole",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dark",
+            "keybind": "V",
+            "ability_name": "Dark Bomb",
+            "mastery_cost": "110 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dark",
+            "keybind": "Z",
+            "ability_name": "Dimensional Slash",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Dark",
+            "keybind": "X",
+            "ability_name": "Abyssal Darkness",
+            "mastery_cost": "40 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Dark",
+            "keybind": "C",
+            "ability_name": "Endless Hole",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Dark",
+            "keybind": "V",
+            "ability_name": "World of Darkness",
+            "mastery_cost": "110 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Dark",
+            "keybind": "F",
+            "ability_name": "Ghastly Step",
+            "mastery_cost": "0 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Dark's icon was revamped."
+        },
+        {
+            "version": "Update 20",
+            "change": "Dark Fruit's model was revamped."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Dark was nerfed.\nThe hitbox of [X] Abyssal Darkness (V2) was reduced."
+        },
+        {
+            "version": "Update 12",
+            "change": "Dark received an awakening."
+        },
+        {
+            "version": "Update 1",
+            "change": "Dark was released."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Uncommon",
+    "money_price": 500000,
+    "robux_price": 950,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_diamond",
+    "fruit_name": "Diamond",
+    "url": "https://blox-fruits.fandom.com/wiki/Diamond",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Diamond",
+            "keybind": "TAP",
+            "ability_name": "Radiant Lunge",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Diamond",
+            "keybind": "Z",
+            "ability_name": "Encrust",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Diamond",
+            "keybind": "X",
+            "ability_name": "Shard Storm",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Diamond",
+            "keybind": "C",
+            "ability_name": "Shimmering Disruption",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Diamond",
+            "keybind": "V",
+            "ability_name": "Prismatic Reflection",
+            "mastery_cost": "110 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Diamond was nerfed.\n[Z] Encrust's defense was reduced from 25% to 23%.\n[X] Shard Storm's damage got slightly reduced.\n[C] Shimmering Disruption no longer stuns enemies.\n[V] Prismatic Reflection now can be dodged by Instinct and its AoE was reduced."
+        },
+        {
+            "version": "Update 24",
+            "change": "Diamond's icon was remade."
+        },
+        {
+            "version": "Update 24",
+            "change": "Added an [M1] attack."
+        },
+        {
+            "version": "Update 24",
+            "change": "All moves were reworked.\n[X] Beaming Tackle was renamed to [X] Shard Storm.\n[C] Diamond Hail was renamed to [C] Shimmering Disruption.\n[V] Solar Flare was renamed to [V] Prismatic Reflection."
+        },
+        {
+            "version": "Update 20",
+            "change": "Diamond Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Increased passive defense from 22.5% to 25%."
+        },
+        {
+            "version": "Update 15",
+            "change": "Diamond was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Uncommon",
+    "money_price": 600000,
+    "robux_price": 1000,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/15"
+},
+{
+    "uid": "fruit_spike",
+    "fruit_name": "Spike",
+    "url": "https://blox-fruits.fandom.com/wiki/Spike",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Spike",
+            "keybind": "Z",
+            "ability_name": "Spike Summon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spike",
+            "keybind": "X",
+            "ability_name": "Whirlwind",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spike",
+            "keybind": "C",
+            "ability_name": "Spiky Ball",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spike",
+            "keybind": "V",
+            "ability_name": "Spike Barrage",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Spike Fruit's icon was remade."
+        },
+        {
+            "version": "Update 20",
+            "change": "Spike Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Spike's price was increased.\n  7,500 ->   180,000\n  75 ->   380"
+        },
+        {
+            "version": "Update 17.3",
+            "change": "All moves were reworked and added new moves.\n[Z] Rush was renamed to [Z] Spike Summon.\n[X] Spiky Ball was renamed [X] Whirlwind and moved to [C] Spiky Ball."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Spike's moves cooldown was decreased."
+        },
+        {
+            "version": "Update 2",
+            "change": "Increased damage of the [X] Spiky Ball move."
+        },
+        {
+            "version": "Update 1",
+            "change": "Spike was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "money_price": 180000,
+    "robux_price": 380,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_bomb",
+    "fruit_name": "Bomb",
+    "url": "https://blox-fruits.fandom.com/wiki/Bomb",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Bomb",
+            "keybind": "Z",
+            "ability_name": "Targeted Bomb",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Bomb",
+            "keybind": "X",
+            "ability_name": "Bomb Grab",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Bomb",
+            "keybind": "C",
+            "ability_name": "Land Mines",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Bomb",
+            "keybind": "V",
+            "ability_name": "Self Destruct",
+            "mastery_cost": "125 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Bomb",
+            "keybind": "F",
+            "ability_name": "Explosive Jump",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Bomb Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Bomb's price was increased.\n  5,000 ->   80,000\n  60 ->   220"
+        },
+        {
+            "version": "Update 17.3",
+            "change": "All moves were reworked.\n[Z] Snipe was renamed to [Z] Targeted Bomb.\n[X] Ultimate Explosion was renamed to [X] Bomb Grab."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Lowered cooldown on both Bomb and Spike."
+        },
+        {
+            "version": "Update 8",
+            "change": "Reworked and/or Enhanced visuals of the Bomb move."
+        },
+        {
+            "version": "Update 1",
+            "change": "Bomb was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "money_price": 80000,
+    "robux_price": 220,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_flame",
+    "fruit_name": "Flame",
+    "url": "https://blox-fruits.fandom.com/wiki/Flame",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Flame",
+            "keybind": "Z",
+            "ability_name": "Fire Bullets",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "X",
+            "ability_name": "Burning Blast",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "C",
+            "ability_name": "Fire Column",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "V",
+            "ability_name": "Flame Destroyer",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "F",
+            "ability_name": "Fire Flight",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "Z",
+            "ability_name": "Blue Fire Bullets",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "X",
+            "ability_name": "Prominence Burst",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "C",
+            "ability_name": "Flaming Vortex",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "V",
+            "ability_name": "Hell's Core",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Flame",
+            "keybind": "F",
+            "ability_name": "Rocket Flight",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Flame's Model got reworked."
+        },
+        {
+            "version": "Update 24",
+            "change": "Flame’s Icon was remade"
+        },
+        {
+            "version": "Update 20",
+            "change": "Flame Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3.5",
+            "change": "[Z] Blue Fire Bullets (V2) was reworked."
+        },
+        {
+            "version": "Update 17.3.5",
+            "change": "Flame was buffed damage was added on all moves, [V] move received more consistent tick damage"
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Awakened and Unawakened Flame received a slight rework."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Awakened Flame was buffed slightly.\n[F] Rocket Flight now has a higher initial speed boost.\nIncreased the damage of [Z] Blue Fire Bullets. Additionally, it grows in size as it travels."
+        },
+        {
+            "version": "Update 11",
+            "change": "Flame received an awakening."
+        },
+        {
+            "version": "Update 8",
+            "change": "Flame's visual effect was enhanced."
+        },
+        {
+            "version": "Update 6",
+            "change": "[X] Burning Blast was remade."
+        },
+        {
+            "version": "Update 5",
+            "change": "Made some of Flame's moves cast faster."
+        },
+        {
+            "version": "Update 1",
+            "change": "Flame was released."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Uncommon",
+    "money_price": 250000,
+    "robux_price": 550,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_smoke",
+    "fruit_name": "Smoke",
+    "url": "https://blox-fruits.fandom.com/wiki/Smoke",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Smoke",
+            "keybind": "Z",
+            "ability_name": "Smoke Slam",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Smoke",
+            "keybind": "X",
+            "ability_name": "Smoke Blast",
+            "mastery_cost": "20 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Smoke",
+            "keybind": "C",
+            "ability_name": "Smoke Liberation",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Smoke",
+            "keybind": "F",
+            "ability_name": "Smoke Bomber",
+            "mastery_cost": "10 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Smoke Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "All Smoke's moves were reworked.\n[Z] Smoke Cloud was renamed to [Z] Smoke Slam.\n[X] Smoke Pull was renamed to [X] Smoke Blast.\n[C] Smoke Tackle was renamed to [C] Smoke Liberation.\n[F] Smoke Flight was renamed to [F] Smoke Bomber."
+        },
+        {
+            "version": "Update 1",
+            "change": "Smoke was released."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Common",
+    "money_price": 100000,
+    "robux_price": 250,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/1"
+},
+{
+    "uid": "fruit_sand",
+    "fruit_name": "Sand",
+    "url": "https://blox-fruits.fandom.com/wiki/Sand",
+    "timestamp": "2025-08-08 10:15:33",
+    "abilities": [
+        {
+            "fruit_name": "Sand",
+            "keybind": "Z",
+            "ability_name": "Desert Sword",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "X",
+            "ability_name": "Desert Funeral",
+            "mastery_cost": "40 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "C",
+            "ability_name": "Sand Tornado",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "V",
+            "ability_name": "Heavy Sand",
+            "mastery_cost": "120 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "F",
+            "ability_name": "Sand Flight",
+            "mastery_cost": "15 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "Z",
+            "ability_name": "Desert Blade",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": 500
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "X",
+            "ability_name": "Sand Coffin",
+            "mastery_cost": "40 Mastery",
+            "fragment_cost": 3000
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "C",
+            "ability_name": "Sandstorm",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": 4000
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "V",
+            "ability_name": "Deep Sand",
+            "mastery_cost": "120 Mastery",
+            "fragment_cost": 5000
+        },
+        {
+            "fruit_name": "Sand",
+            "keybind": "F",
+            "ability_name": "Tornado Flight",
+            "mastery_cost": "15 Mastery",
+            "fragment_cost": 2000
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Sand Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Unawakened Sand was reworked."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Awakened Sand was nerfed.\nRe-balanced the general damage.\n[X] Sand coffin now stuns the user for 1.8s after a successful grab."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Fast Mode now reduces the particle on [Z] Desert Blade and [V] Deep Sand to reduce lag."
+        },
+        {
+            "version": "Update 17.1",
+            "change": "Sand received an awakening."
+        },
+        {
+            "version": "Update 4",
+            "change": "Sand was released.\nSand also received a slight buff after the release.\nBuffed the damage and the hitbox of [X] Desert Funeral."
+        }
+    ],
+    "type": "Elemental",
+    "rarity": "Uncommon",
+    "money_price": 420000,
+    "robux_price": 850,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/4"
+},
+{
+    "uid": "fruit_spin",
+    "fruit_name": "Spin",
+    "url": "https://blox-fruits.fandom.com/wiki/Spin",
+    "timestamp": "2025-08-08 10:15:34",
+    "abilities": [
+        {
+            "fruit_name": "Spin",
+            "keybind": "Z",
+            "ability_name": "Razor Wind",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spin",
+            "keybind": "X",
+            "ability_name": "Tornado Assault",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spin",
+            "keybind": "C",
+            "ability_name": "Air Slasher",
+            "mastery_cost": "90 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spin",
+            "keybind": "F",
+            "ability_name": "Helicopter Flight",
+            "mastery_cost": "25 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Spin was reworked.\nChanged Spin's icon and reverted back to the old icon."
+        },
+        {
+            "version": "Update 20",
+            "change": "Spin Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Spin's price was decreased.\n  180,000 ->   7,500\n  380 ->   75"
+        },
+        {
+            "version": "Update 15",
+            "change": "Spin was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "money_price": 7500,
+    "robux_price": 75,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/15"
+},
+{
+    "uid": "fruit_spring",
+    "fruit_name": "Spring",
+    "url": "https://blox-fruits.fandom.com/wiki/Spring",
+    "timestamp": "2025-08-08 10:15:34",
+    "abilities": [
+        {
+            "fruit_name": "Spring",
+            "keybind": "Z",
+            "ability_name": "Knock",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spring",
+            "keybind": "X",
+            "ability_name": "Spring Snipe",
+            "mastery_cost": "20 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spring",
+            "keybind": "C",
+            "ability_name": "Spring Cannon",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spring",
+            "keybind": "V",
+            "ability_name": "Spring Emperor",
+            "mastery_cost": "125 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Spring",
+            "keybind": "F",
+            "ability_name": "Spring Leap",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Spring Fruit's model was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "Added [V] Spring Emperor."
+        },
+        {
+            "version": "Update 2",
+            "change": "Spring was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "money_price": 60000,
+    "robux_price": 180,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/2"
+},
+{
+    "uid": "fruit_eagle",
+    "fruit_name": "Eagle",
+    "url": "https://blox-fruits.fandom.com/wiki/Eagle",
+    "timestamp": "2025-08-08 10:15:34",
+    "abilities": [
+        {
+            "fruit_name": "Eagle",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Eagle",
+            "keybind": "Z",
+            "ability_name": "Wind Burst",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Eagle",
+            "keybind": "X",
+            "ability_name": "Feather Storm",
+            "mastery_cost": "35 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Eagle",
+            "keybind": "C",
+            "ability_name": "Bone Crusher",
+            "mastery_cost": "80 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Eagle",
+            "keybind": "V",
+            "ability_name": "Soaring Talon",
+            "mastery_cost": "110 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Eagle",
+            "keybind": "F",
+            "ability_name": "Flight",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Falcon was reworked and renamed to Eagle.\n[TAP] Normal Attack was added.\n[Z] Plumage was replaced by [Z] Wind Burst.\n[X] Wind Burst was moved to the [Z] move and replaced by [X] Feather Storm."
+        },
+        {
+            "version": "Update 26",
+            "change": "Eagle was made available to purchase."
+        },
+        {
+            "version": "Update 26",
+            "change": "Eagle's price was increased.\n  300,000 ->   550,000\n  650 ->   975"
+        },
+        {
+            "version": "Update 26",
+            "change": "Eagle was given usable skins."
+        },
+        {
+            "version": "Update 25",
+            "change": "Falcon was made unavailable to purchase from the Blox Fruit Dealer's stock and Shop."
+        },
+        {
+            "version": "Update 20",
+            "change": "Falcon Fruit's model was remade."
+        },
+        {
+            "version": "Update 19",
+            "change": "\"Bird: Falcon\" was renamed to \"Falcon\"."
+        },
+        {
+            "version": "Update 17.2",
+            "change": "Increased passive defense from 7.5% to 10%. (This passive never worked.)"
+        },
+        {
+            "version": "Update 15",
+            "change": "Bird: Falcon was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Uncommon",
+    "money_price": 550000,
+    "robux_price": 975,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/26"
+},
+{
+    "uid": "fruit_dragon",
+    "fruit_name": "Dragon",
+    "url": "https://blox-fruits.fandom.com/wiki/Dragon",
+    "timestamp": "2025-08-08 10:15:34",
+    "abilities": [
+        {
+            "fruit_name": "Dragon",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "Z",
+            "ability_name": "Heatwave Cannon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "X",
+            "ability_name": "Infernal Pincer",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "C",
+            "ability_name": "Scorching Downfall",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "V",
+            "ability_name": "Imperial Evolution",
+            "mastery_cost": "350 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "F",
+            "ability_name": "Draconic Soar",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "Z",
+            "ability_name": "Heatwave Cannon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "X",
+            "ability_name": "Infernal Pincer",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "C",
+            "ability_name": "Scorching Downfall",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "V",
+            "ability_name": "Imperial Evolution",
+            "mastery_cost": "350 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "F",
+            "ability_name": "Draconic Soar",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "Z",
+            "ability_name": "Heatwave Cannon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "X",
+            "ability_name": "Infernal Pincer",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "C",
+            "ability_name": "Scorching Downfall",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "V",
+            "ability_name": "Imperial Evolution",
+            "mastery_cost": "350 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "F",
+            "ability_name": "Draconic Soar",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "Z",
+            "ability_name": "Heatwave Cannon",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "X",
+            "ability_name": "Infernal Pincer",
+            "mastery_cost": "150 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "C",
+            "ability_name": "Scorching Downfall",
+            "mastery_cost": "250 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "V",
+            "ability_name": "Imperial Evolution",
+            "mastery_cost": "350 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Dragon",
+            "keybind": "F",
+            "ability_name": "Draconic Soar",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 26",
+            "change": "Buffed the Fury Meter gain from landing skills on base or hybrid mode."
+        },
+        {
+            "version": "Update 26",
+            "change": "Nerfed Dragon with the changes seen below:\nReduced the fury meter gain from landing skills on transformation.\nReduced transformed damage resistance from 60% to 53%.\nIncrease cooldowns for all moves (+0.5 seconds on each move).\nReduced damage of all moves (-5% on each move).\nSlightly decreased Western Dragon transformation's flight speed."
+        },
+        {
+            "version": "Update 24",
+            "change": "Dragon was remade available to purchase."
+        },
+        {
+            "version": "Update 24",
+            "change": "Dragon was reworked into two versions: Western and Eastern.\nAdded Dragon's Hybrid Form.\nAdded an M1 attack.\n[Z] Heatwave Beam was renamed to [Z] Heatwave Cannon.\n[X] Draconic Claw was renamed to [X] Infernal Pincer.\n[C] Fire Shower was renamed to [C] Scorching Downfall.\n[V] Transformation was renamed to [V] Imperial Evolution.\n[F] Dragon Flight was renamed to [F] Draconic Soar."
+        },
+        {
+            "version": "Update 23",
+            "change": "Dragon was made unavailable to purchase from the Blox Fruit Dealer and Shop.\nIts price was changed to \"IN PROGRESS\".\nIt started getting reworked."
+        },
+        {
+            "version": "Update 20",
+            "change": "Dragon Fruit's model icon was remade."
+        },
+        {
+            "version": "Update 17.3",
+            "change": "[C] Fire Shower and [X] Dragonic Claw were reworked.\nFire Shower's hitbox was reduced.\nBoth of these abilities got a small VFX rework."
+        },
+        {
+            "version": "Update 13",
+            "change": "Dragon was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Mythical",
+    "money_price": 15000000,
+    "robux_price": 5000,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/13"
+},
+{
+    "uid": "fruit_kitsune",
+    "fruit_name": "Kitsune",
+    "url": "https://blox-fruits.fandom.com/wiki/Kitsune",
+    "timestamp": "2025-08-08 10:15:34",
+    "abilities": [
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "Z",
+            "ability_name": "Accursed Enchantment",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "X",
+            "ability_name": "Tails of Burning Agony",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "C",
+            "ability_name": "Fox Fire Disruption",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "F",
+            "ability_name": "Wild Assault",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "TAP",
+            "ability_name": "Normal Attack",
+            "mastery_cost": "N/A",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "Z",
+            "ability_name": "Accursed Enchantment",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "X",
+            "ability_name": "Tails of Burning Agony",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "C",
+            "ability_name": "Fox Fire Disruption",
+            "mastery_cost": "100 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "V",
+            "ability_name": "Transformation",
+            "mastery_cost": "300 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Kitsune",
+            "keybind": "F",
+            "ability_name": "Wild Assault",
+            "mastery_cost": "200 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 24",
+            "change": "Transformed Kitsune's speed was severely nerfed, but then later got buffed to be slightly slower than its original speed."
+        },
+        {
+            "version": "Update 22",
+            "change": "Kitsune was released."
+        }
+    ],
+    "type": "Beast",
+    "rarity": "Mythical",
+    "money_price": 8000000,
+    "robux_price": 4000,
+    "awakening_cost": null,
+    "can_m1": "Yes",
+    "release_date": "Updates/22"
+},
+{
+    "uid": "fruit_rocket",
+    "fruit_name": "Rocket",
+    "url": "https://blox-fruits.fandom.com/wiki/Rocket",
+    "timestamp": "2025-08-08 10:15:34",
+    "abilities": [
+        {
+            "fruit_name": "Rocket",
+            "keybind": "Z",
+            "ability_name": "Missile Fist",
+            "mastery_cost": "1 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rocket",
+            "keybind": "X",
+            "ability_name": "Air Strike",
+            "mastery_cost": "20 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rocket",
+            "keybind": "C",
+            "ability_name": "Rocket Crash",
+            "mastery_cost": "50 Mastery",
+            "fragment_cost": null
+        },
+        {
+            "fruit_name": "Rocket",
+            "keybind": "F",
+            "ability_name": "Blast Off",
+            "mastery_cost": "75 Mastery",
+            "fragment_cost": null
+        }
+    ],
+    "change_history": [
+        {
+            "version": "Update 20",
+            "change": "Kilo was replaced by Rocket."
+        },
+        {
+            "version": "Update 15",
+            "change": "Kilo was released."
+        }
+    ],
+    "type": "Natural",
+    "rarity": "Common",
+    "money_price": 5000,
+    "robux_price": 50,
+    "awakening_cost": null,
+    "can_m1": "No",
+    "release_date": "Updates/20"
+}
+]

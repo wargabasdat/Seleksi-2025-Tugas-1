@@ -1,0 +1,299 @@
+2025-07-27 17:01:25,892 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:01:26,332 - WARNING - Tidak ada kartu buah ditemukan di https://bloxfruitsvalues.com/common. Periksa selektor 'fruit_cards'.
+2025-07-27 17:01:28,334 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:01:28,751 - WARNING - Tidak ada kartu buah ditemukan di https://bloxfruitsvalues.com/uncommon. Periksa selektor 'fruit_cards'.
+2025-07-27 17:01:30,752 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:01:31,647 - WARNING - Tidak ada kartu buah ditemukan di https://bloxfruitsvalues.com/rare. Periksa selektor 'fruit_cards'.
+2025-07-27 17:01:33,652 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:01:34,130 - WARNING - Tidak ada kartu buah ditemukan di https://bloxfruitsvalues.com/legendary. Periksa selektor 'fruit_cards'.
+2025-07-27 17:01:36,132 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:01:36,538 - WARNING - Tidak ada kartu buah ditemukan di https://bloxfruitsvalues.com/mythical. Periksa selektor 'fruit_cards'.
+2025-07-27 17:02:32,163 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:02:32,556 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:02:34,557 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:02:35,024 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:02:37,025 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:02:37,524 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:02:39,526 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:02:39,951 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:02:41,951 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:02:42,411 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:04:25,413 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:04:25,805 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:04:27,805 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:04:28,176 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:04:30,177 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:04:30,609 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:04:32,610 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:04:33,040 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:04:35,041 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:04:35,406 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:04:53,117 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:04:53,598 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:04:55,599 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:04:56,160 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:04:58,161 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:04:58,682 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:05:00,682 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:05:01,137 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:05:03,138 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:05:03,523 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:10:40,552 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:10:41,016 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:10:43,017 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:10:43,433 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:10:45,434 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:10:45,848 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:10:47,849 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:10:48,214 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:10:50,215 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:10:50,593 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:32:45,351 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:32:45,370 - ERROR - Gagal mengakses URL https://bloxfruitsvalues.com/common: HTTPSConnectionPool(host='bloxfruitsvalues.com', port=443): Max retries exceeded with url: /common (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D25FFFAA50>: Failed to resolve 'bloxfruitsvalues.com' ([Errno 11001] getaddrinfo failed)"))
+2025-07-27 17:32:47,372 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:32:47,376 - ERROR - Gagal mengakses URL https://bloxfruitsvalues.com/uncommon: HTTPSConnectionPool(host='bloxfruitsvalues.com', port=443): Max retries exceeded with url: /uncommon (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D25FF8F890>: Failed to resolve 'bloxfruitsvalues.com' ([Errno 11001] getaddrinfo failed)"))
+2025-07-27 17:32:49,377 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:32:49,379 - ERROR - Gagal mengakses URL https://bloxfruitsvalues.com/rare: HTTPSConnectionPool(host='bloxfruitsvalues.com', port=443): Max retries exceeded with url: /rare (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D2608942D0>: Failed to resolve 'bloxfruitsvalues.com' ([Errno 11001] getaddrinfo failed)"))
+2025-07-27 17:32:51,380 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:32:51,382 - ERROR - Gagal mengakses URL https://bloxfruitsvalues.com/legendary: HTTPSConnectionPool(host='bloxfruitsvalues.com', port=443): Max retries exceeded with url: /legendary (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D25FF8FB10>: Failed to resolve 'bloxfruitsvalues.com' ([Errno 11001] getaddrinfo failed)"))
+2025-07-27 17:32:53,383 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:32:53,385 - ERROR - Gagal mengakses URL https://bloxfruitsvalues.com/mythical: HTTPSConnectionPool(host='bloxfruitsvalues.com', port=443): Max retries exceeded with url: /mythical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D25FF8FD90>: Failed to resolve 'bloxfruitsvalues.com' ([Errno 11001] getaddrinfo failed)"))
+2025-07-27 17:33:11,260 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:33:11,694 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:33:13,695 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:33:14,588 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:33:16,589 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:33:16,927 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:33:18,929 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:33:19,314 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:33:21,315 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:33:21,698 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:34:23,051 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:34:23,493 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:34:25,494 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:34:26,015 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:34:28,015 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:34:28,407 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:34:30,407 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:34:30,948 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:34:32,949 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:34:33,355 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:36:21,408 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:36:21,802 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:36:23,825 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:36:24,257 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:36:26,258 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:36:27,223 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:36:29,224 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:36:29,586 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:36:31,586 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:36:32,082 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:37:56,427 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:37:56,868 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:37:58,869 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:37:59,308 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:38:01,309 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:38:01,754 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:38:03,755 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:38:04,192 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:38:06,192 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:38:07,141 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:42:08,692 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:42:09,142 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:42:11,143 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:42:11,739 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:42:13,740 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:42:14,185 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:42:16,186 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:42:16,620 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:42:18,621 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:42:19,161 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:57:06,815 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:57:07,341 - WARNING - Tidak ada kartu buah ditemukan di https://bloxfruitsvalues.com/common. Periksa selektor 'fruit_cards'.
+2025-07-27 17:57:09,344 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:57:09,878 - WARNING - Tidak ada kartu buah ditemukan di https://bloxfruitsvalues.com/uncommon. Periksa selektor 'fruit_cards'.
+2025-07-27 17:57:11,880 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:57:12,511 - WARNING - Tidak ada kartu buah ditemukan di https://bloxfruitsvalues.com/rare. Periksa selektor 'fruit_cards'.
+2025-07-27 17:57:18,701 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:57:19,140 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:57:21,141 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:57:21,688 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:57:23,690 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:57:24,225 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:57:26,226 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:57:27,253 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:57:29,254 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:57:29,752 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 17:59:27,589 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 17:59:28,068 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 17:59:30,070 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 17:59:30,673 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 17:59:32,675 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 17:59:33,164 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 17:59:35,166 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 17:59:35,783 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 17:59:37,785 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 17:59:38,996 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:04:53,357 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:04:53,830 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:04:55,831 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:04:56,228 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:04:58,229 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:04:58,631 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:05:00,631 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:05:01,042 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:05:03,043 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:05:03,482 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:05:36,687 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:05:37,090 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:05:39,091 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:05:39,526 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:05:41,526 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:05:41,903 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:05:43,904 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:05:44,455 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:05:46,456 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:05:46,890 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:09:54,455 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:09:54,831 - ERROR - Kesalahan tak terduga saat mengikis nilai buah dari 'common': name 'label_text' is not defined
+Traceback (most recent call last):
+  File "d:\Syafiq\5th_Semester\SELEKSI_BASDAT\Stage_2\TUGAS_SELEKSI_1_13523135\Data Scraping\src\fruit_values_scraper.py", line 70, in scrape_fruit_values
+    if label_text == "Value":
+       ^^^^^^^^^^
+NameError: name 'label_text' is not defined
+2025-07-27 18:09:56,840 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:09:57,230 - ERROR - Kesalahan tak terduga saat mengikis nilai buah dari 'uncommon': name 'label_text' is not defined
+Traceback (most recent call last):
+  File "d:\Syafiq\5th_Semester\SELEKSI_BASDAT\Stage_2\TUGAS_SELEKSI_1_13523135\Data Scraping\src\fruit_values_scraper.py", line 70, in scrape_fruit_values
+    if label_text == "Value":
+       ^^^^^^^^^^
+NameError: name 'label_text' is not defined
+2025-07-27 18:09:59,232 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:09:59,704 - ERROR - Kesalahan tak terduga saat mengikis nilai buah dari 'rare': name 'label_text' is not defined
+Traceback (most recent call last):
+  File "d:\Syafiq\5th_Semester\SELEKSI_BASDAT\Stage_2\TUGAS_SELEKSI_1_13523135\Data Scraping\src\fruit_values_scraper.py", line 70, in scrape_fruit_values
+    if label_text == "Value":
+       ^^^^^^^^^^
+NameError: name 'label_text' is not defined
+2025-07-27 18:10:01,706 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:10:02,260 - ERROR - Kesalahan tak terduga saat mengikis nilai buah dari 'legendary': name 'label_text' is not defined
+Traceback (most recent call last):
+  File "d:\Syafiq\5th_Semester\SELEKSI_BASDAT\Stage_2\TUGAS_SELEKSI_1_13523135\Data Scraping\src\fruit_values_scraper.py", line 70, in scrape_fruit_values
+    extracted_data = data_h2_element.get_text(strip=True)
+       ^^^^^^^^^^
+NameError: name 'label_text' is not defined
+2025-07-27 18:10:04,275 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:10:04,735 - ERROR - Kesalahan tak terduga saat mengikis nilai buah dari 'mythical': name 'label_text' is not defined
+Traceback (most recent call last):
+  File "d:\Syafiq\5th_Semester\SELEKSI_BASDAT\Stage_2\TUGAS_SELEKSI_1_13523135\Data Scraping\src\fruit_values_scraper.py", line 70, in scrape_fruit_values
+    extracted_data = data_h2_element.get_text(strip=True)
+       ^^^^^^^^^^
+NameError: name 'label_text' is not defined
+2025-07-27 18:10:19,887 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:10:20,303 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:10:22,304 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:10:22,729 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:10:24,729 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:10:25,643 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:10:27,645 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:10:28,016 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:10:30,017 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:10:30,419 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:11:19,057 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:11:19,478 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:11:21,480 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:11:21,873 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:11:23,877 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:11:24,259 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:11:26,259 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:11:26,835 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:11:28,836 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:11:29,289 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:11:48,622 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:11:49,090 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:11:51,090 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:11:51,500 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:11:53,501 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:11:53,921 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:11:55,922 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:11:56,349 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:11:58,350 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:11:58,793 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:12:47,393 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:12:48,031 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:12:50,032 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:12:50,577 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:12:52,578 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:12:53,129 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:12:55,130 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:12:55,846 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:12:57,847 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:12:58,437 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:13:03,147 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:13:03,578 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:13:05,578 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:13:06,107 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:13:08,109 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:13:08,614 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:13:10,615 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:13:11,103 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:13:13,104 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:13:13,544 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:13:35,203 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:13:35,788 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:13:37,788 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:13:38,162 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:13:40,163 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:13:40,555 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:13:42,555 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:13:42,984 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:13:44,985 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:13:45,364 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:15:00,002 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:15:00,425 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:15:02,426 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:15:02,792 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:15:04,793 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:15:05,166 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:15:07,167 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:15:07,579 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:15:09,580 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:15:09,996 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-27 18:18:22,049 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-27 18:18:22,479 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-27 18:18:24,479 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-27 18:18:24,973 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-27 18:18:26,974 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-27 18:18:27,830 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-27 18:18:29,831 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-27 18:18:30,739 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-27 18:18:32,740 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-27 18:18:33,215 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-30 14:55:05,322 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-30 14:55:07,420 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-30 14:55:09,421 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-30 14:55:10,225 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-30 14:55:12,227 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/rare
+2025-07-30 14:55:13,002 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-30 14:55:15,004 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/legendary
+2025-07-30 14:55:15,748 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-30 14:55:17,749 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/mythical
+2025-07-30 14:55:19,618 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
+2025-07-30 14:56:36,959 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/common
+2025-07-30 14:56:37,615 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-30 14:56:39,616 - INFO - Memulai scraping nilai buah dari https://bloxfruitsvalues.com/uncommon
+2025-07-30 15:10:09,557 - INFO - Memulai scraping kategori: uncommon dari https://bloxfruitsvalues.com/uncommon
+2025-07-30 15:10:09,564 - INFO - Ditemukan 6 kartu buah untuk kategori 'uncommon'.
+2025-07-30 15:10:09,567 - INFO - Berhasil mengikis 6 buah dari kategori 'uncommon'.
+2025-07-30 15:10:09,568 - INFO - Memulai scraping kategori: mythical dari https://bloxfruitsvalues.com/mythical
+2025-07-30 15:10:09,572 - INFO - Ditemukan 14 kartu buah untuk kategori 'mythical'.
+2025-07-30 15:10:09,578 - INFO - Memulai scraping kategori: common dari https://bloxfruitsvalues.com/common
+2025-07-30 15:10:09,581 - INFO - Ditemukan 7 kartu buah untuk kategori 'common'.
+2025-07-30 15:10:09,584 - INFO - Berhasil mengikis 7 buah dari kategori 'common'.
+2025-07-30 15:10:09,585 - INFO - Memulai scraping kategori: rare dari https://bloxfruitsvalues.com/rare
+2025-07-30 15:10:09,588 - INFO - Ditemukan 4 kartu buah untuk kategori 'rare'.
+2025-07-30 15:10:09,589 - INFO - Berhasil mengikis 4 buah dari kategori 'rare'.
+2025-07-30 15:10:09,590 - INFO - Memulai scraping kategori: legendary dari https://bloxfruitsvalues.com/legendary
+2025-07-30 15:10:09,594 - INFO - Ditemukan 11 kartu buah untuk kategori 'legendary'.
+2025-07-30 15:10:09,598 - INFO - Berhasil mengikis 11 buah dari kategori 'legendary'.
+2025-07-30 15:10:09,601 - INFO - Berhasil mengikis 14 buah dari kategori 'mythical'.
