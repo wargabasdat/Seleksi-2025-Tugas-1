@@ -167,7 +167,8 @@ CREATE TABLE public.games (
     release_id integer,
     title character varying(255) NOT NULL,
     initial_rank integer,
-    updated_at timestamp with time zone
+    updated_at timestamp with time zone,
+    timestamp_ekstraksi timestamp with time zone DEFAULT CURRENT_TIMESTAMP
 );
 
 
@@ -697,114 +698,114 @@ COPY public.game_publishers (game_id, publisher_id) FROM stdin;
 -- Data for Name: games; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.games (game_id, release_id, title, initial_rank, updated_at) FROM stdin;
-1	\N	Grand Theft Auto: San Andreas	1	\N
-2	\N	Resident Evil 4	2	\N
-3	\N	Final Fantasy X	3	\N
-4	\N	Bully	4	\N
-5	\N	God of War II	5	\N
-6	\N	Shadow of Colossus	6	\N
-7	\N	Metal Gear Solid 3: Snake Eater	7	\N
-8	\N	Devil May Cry 3: Special Edition	8	\N
-9	\N	Okami	9	\N
-10	\N	Kingdom Hearts	10	\N
-11	\N	Ace Combat 4: Shattered Skies	11	\N
-12	\N	WWE: Smackdown! Here Comes The Pain	12	\N
-13	\N	Jack and Dexter: Precursor Legacy	13	\N
-14	\N	Silent Hill 2	14	\N
-15	\N	Devil May Cry	15	\N
-17	\N	Tony Hawk: Underground	17	\N
-18	\N	Need For Speed Most Wanted	18	\N
-19	\N	Need For Speed Underground 2	19	\N
-20	\N	Rachet and Clank 3	20	\N
-21	\N	Kingdom Hearts 2	21	\N
-22	\N	Burnout 3: Takedown	22	\N
-23	\N	ICO	23	\N
-24	\N	Grand Theft Auto: Vice City	24	\N
-25	\N	Starwars Battlefront II	25	\N
-26	\N	Medal of Honor: Frontliner	26	\N
-27	\N	Suikoden III	27	\N
-28	\N	Tekken Tag Tournament	28	\N
-29	\N	Winning Eleven Berpangkat	29	\N
-30	\N	Disgaea: Hour of Darkness	30	\N
-31	\N	Def Jam: Fight of NY	31	\N
-32	\N	Gran Turismo 3: A-Spec	32	\N
-33	\N	Tony Hawk Underground 2	33	\N
-34	\N	Fatal Frame II:	34	\N
-35	\N	God Hand	35	\N
-36	\N	Black	36	\N
-37	\N	NBA Street Vol.2	37	\N
-38	\N	Tenchu: Wrath of Heaven	38	\N
-39	\N	Twisted Metal: Black	39	\N
-40	\N	GTA III	40	\N
-41	\N	The Lord of The Rings: The Return of the King	41	\N
-42	\N	Xenosaga Episode I: Der Wille zur Macth	42	\N
-43	\N	Klonoa 2: Lunatea’s vell	43	\N
-16	\N	Metal Gear Solid 2: Sons of Liberty	44	\N
-45	\N	Fatal Frame	45	\N
-46	\N	Prince of Persia: The Sands of Time	46	\N
-47	\N	NBA Street V3	47	\N
-48	\N	The Warriors	48	\N
-49	\N	Call of Duty 3	49	\N
-50	\N	SSX Tricky	50	\N
-51	\N	Time Splitter	51	\N
-52	\N	Tom Clancy’s Splinter Cell Pandora Tomorrow	52	\N
-53	\N	Dark Cloud 2	53	\N
-54	\N	Onimusha 2: Samurai’s destiny	54	\N
-55	\N	Dynasty Tactics	55	\N
-56	\N	Ace Combat 5: The Unsung War	56	\N
-57	\N	Resident Evil: Code Veronica	57	\N
-58	\N	The Lord of The Ring: The Two Towers	58	\N
-59	\N	Hitman 2: Silent Assasin	59	\N
-60	\N	Tony Hawk Pro Skater 4	60	\N
-61	\N	Crazy Taxi	61	\N
-62	\N	Mana Khemia 2: Fall of Alchemy	62	\N
-63	\N	Mana Khemia: Alchemist of Al-Revis	63	\N
-64	\N	Escape from Monkey Island	64	\N
-65	\N	Kingdom Heart Re:Chain Memories	65	\N
-66	\N	Shin Megami Tensei: Persona 4	66	\N
-67	\N	Naruto Ultimate Ninja 3	67	\N
-68	\N	Yakuza 2	68	\N
-69	\N	Dragon Quest VIII: Journey of The Cursed King	69	\N
-70	\N	The Sims Castaway	70	\N
-71	\N	Warriors Orochi 2	71	\N
-72	\N	Guitar Hero III: Legends of Rock	72	\N
-73	\N	Dynasty Warriors 4	73	\N
-74	\N	Dragon Ball Z: Budokai Tenkaichi	74	\N
-75	\N	Tales of Abyss	75	\N
-76	\N	Final Fantas XII	76	\N
-77	\N	Fatal Frame 3	77	\N
-78	\N	Onimusha Warlord	78	\N
-79	\N	Max Payne	79	\N
-80	\N	Socom III: U.S Navy Seal	80	\N
-81	\N	The Sims Bustin’ Out	81	\N
-82	\N	Tony Hawk: American Wasteland	82	\N
-83	\N	Fight Night: Round 2	83	\N
-84	\N	Mortal Combat: Shaolin Monks	84	\N
-85	\N	Prince of Persia: The Two Thrones	85	\N
-86	\N	Tekken 5	86	\N
-87	\N	Armored Core 2	87	\N
-88	\N	Dead or Alive 2: Hardcore	88	\N
-89	\N	Soul Reaver 2	89	\N
-90	\N	Theme Park Roller Coaster	90	\N
-91	\N	Destroy All Humas!	91	\N
-92	\N	Katamari Damacy	92	\N
-93	\N	Ape Escape II	93	\N
-94	\N	Rayman 2 Revolution	94	\N
-95	\N	Kessen II:	95	\N
-96	\N	Harvest Moon: Save The Homeland	96	\N
-97	\N	Final Fantasy X-2	97	\N
-98	\N	Dark Cloud	98	\N
-99	\N	Time Crisis II	99	\N
-100	\N	Shadow Hearts	100	\N
-101	\N	Soul Calibur 3	101	\N
-102	\N	Midnght Club 3 Dub Edition	102	\N
-103	\N	Shin Megami Tensei: Persona 3	103	\N
-104	\N	Jet Li: Rise of Honor	104	\N
-105	\N	Downhill	105	\N
-106	\N	Genji: Dawn of The Samurai	106	\N
-107	\N	Driv3r	107	\N
-108	\N	Enter The Matrix	108	\N
+COPY public.games (game_id, release_id, title, initial_rank, updated_at, timestamp_ekstraksi) FROM stdin;
+1	\N	Grand Theft Auto: San Andreas	1	\N	2025-08-08 14:16:49.689717+07
+2	\N	Resident Evil 4	2	\N	2025-08-08 14:16:49.689717+07
+3	\N	Final Fantasy X	3	\N	2025-08-08 14:16:49.689717+07
+4	\N	Bully	4	\N	2025-08-08 14:16:49.689717+07
+5	\N	God of War II	5	\N	2025-08-08 14:16:49.689717+07
+6	\N	Shadow of Colossus	6	\N	2025-08-08 14:16:49.689717+07
+7	\N	Metal Gear Solid 3: Snake Eater	7	\N	2025-08-08 14:16:49.689717+07
+8	\N	Devil May Cry 3: Special Edition	8	\N	2025-08-08 14:16:49.689717+07
+9	\N	Okami	9	\N	2025-08-08 14:16:49.689717+07
+10	\N	Kingdom Hearts	10	\N	2025-08-08 14:16:49.689717+07
+11	\N	Ace Combat 4: Shattered Skies	11	\N	2025-08-08 14:16:49.689717+07
+12	\N	WWE: Smackdown! Here Comes The Pain	12	\N	2025-08-08 14:16:49.689717+07
+13	\N	Jack and Dexter: Precursor Legacy	13	\N	2025-08-08 14:16:49.689717+07
+14	\N	Silent Hill 2	14	\N	2025-08-08 14:16:49.689717+07
+15	\N	Devil May Cry	15	\N	2025-08-08 14:16:49.689717+07
+17	\N	Tony Hawk: Underground	17	\N	2025-08-08 14:16:49.689717+07
+18	\N	Need For Speed Most Wanted	18	\N	2025-08-08 14:16:49.689717+07
+19	\N	Need For Speed Underground 2	19	\N	2025-08-08 14:16:49.689717+07
+20	\N	Rachet and Clank 3	20	\N	2025-08-08 14:16:49.689717+07
+21	\N	Kingdom Hearts 2	21	\N	2025-08-08 14:16:49.689717+07
+22	\N	Burnout 3: Takedown	22	\N	2025-08-08 14:16:49.689717+07
+23	\N	ICO	23	\N	2025-08-08 14:16:49.689717+07
+25	\N	Starwars Battlefront II	25	\N	2025-08-08 14:16:49.689717+07
+24	\N	Grand Theft Auto: Vice City	24	\N	2025-08-08 14:16:49.689717+07
+26	\N	Medal of Honor: Frontliner	26	\N	2025-08-08 14:16:49.689717+07
+27	\N	Suikoden III	27	\N	2025-08-08 14:16:49.689717+07
+28	\N	Tekken Tag Tournament	28	\N	2025-08-08 14:16:49.689717+07
+29	\N	Winning Eleven Berpangkat	29	\N	2025-08-08 14:16:49.689717+07
+30	\N	Disgaea: Hour of Darkness	30	\N	2025-08-08 14:16:49.689717+07
+31	\N	Def Jam: Fight of NY	31	\N	2025-08-08 14:16:49.689717+07
+32	\N	Gran Turismo 3: A-Spec	32	\N	2025-08-08 14:16:49.689717+07
+33	\N	Tony Hawk Underground 2	33	\N	2025-08-08 14:16:49.689717+07
+34	\N	Fatal Frame II:	34	\N	2025-08-08 14:16:49.689717+07
+35	\N	God Hand	35	\N	2025-08-08 14:16:49.689717+07
+36	\N	Black	36	\N	2025-08-08 14:16:49.689717+07
+37	\N	NBA Street Vol.2	37	\N	2025-08-08 14:16:49.689717+07
+38	\N	Tenchu: Wrath of Heaven	38	\N	2025-08-08 14:16:49.689717+07
+39	\N	Twisted Metal: Black	39	\N	2025-08-08 14:16:49.689717+07
+40	\N	GTA III	40	\N	2025-08-08 14:16:49.689717+07
+41	\N	The Lord of The Rings: The Return of the King	41	\N	2025-08-08 14:16:49.689717+07
+42	\N	Xenosaga Episode I: Der Wille zur Macth	42	\N	2025-08-08 14:16:49.689717+07
+43	\N	Klonoa 2: Lunatea’s vell	43	\N	2025-08-08 14:16:49.689717+07
+16	\N	Metal Gear Solid 2: Sons of Liberty	44	\N	2025-08-08 14:16:49.689717+07
+45	\N	Fatal Frame	45	\N	2025-08-08 14:16:49.689717+07
+46	\N	Prince of Persia: The Sands of Time	46	\N	2025-08-08 14:16:49.689717+07
+47	\N	NBA Street V3	47	\N	2025-08-08 14:16:49.689717+07
+48	\N	The Warriors	48	\N	2025-08-08 14:16:49.689717+07
+49	\N	Call of Duty 3	49	\N	2025-08-08 14:16:49.689717+07
+50	\N	SSX Tricky	50	\N	2025-08-08 14:16:49.689717+07
+51	\N	Time Splitter	51	\N	2025-08-08 14:16:49.689717+07
+52	\N	Tom Clancy’s Splinter Cell Pandora Tomorrow	52	\N	2025-08-08 14:16:49.689717+07
+53	\N	Dark Cloud 2	53	\N	2025-08-08 14:16:49.689717+07
+54	\N	Onimusha 2: Samurai’s destiny	54	\N	2025-08-08 14:16:49.689717+07
+55	\N	Dynasty Tactics	55	\N	2025-08-08 14:16:49.689717+07
+56	\N	Ace Combat 5: The Unsung War	56	\N	2025-08-08 14:16:49.689717+07
+107	\N	Driv3r	107	\N	2025-08-08 14:16:49.689717+07
+57	\N	Resident Evil: Code Veronica	57	\N	2025-08-08 14:16:49.689717+07
+58	\N	The Lord of The Ring: The Two Towers	58	\N	2025-08-08 14:16:49.689717+07
+59	\N	Hitman 2: Silent Assasin	59	\N	2025-08-08 14:16:49.689717+07
+60	\N	Tony Hawk Pro Skater 4	60	\N	2025-08-08 14:16:49.689717+07
+61	\N	Crazy Taxi	61	\N	2025-08-08 14:16:49.689717+07
+62	\N	Mana Khemia 2: Fall of Alchemy	62	\N	2025-08-08 14:16:49.689717+07
+63	\N	Mana Khemia: Alchemist of Al-Revis	63	\N	2025-08-08 14:16:49.689717+07
+64	\N	Escape from Monkey Island	64	\N	2025-08-08 14:16:49.689717+07
+65	\N	Kingdom Heart Re:Chain Memories	65	\N	2025-08-08 14:16:49.689717+07
+66	\N	Shin Megami Tensei: Persona 4	66	\N	2025-08-08 14:16:49.689717+07
+67	\N	Naruto Ultimate Ninja 3	67	\N	2025-08-08 14:16:49.689717+07
+68	\N	Yakuza 2	68	\N	2025-08-08 14:16:49.689717+07
+69	\N	Dragon Quest VIII: Journey of The Cursed King	69	\N	2025-08-08 14:16:49.689717+07
+70	\N	The Sims Castaway	70	\N	2025-08-08 14:16:49.689717+07
+71	\N	Warriors Orochi 2	71	\N	2025-08-08 14:16:49.689717+07
+72	\N	Guitar Hero III: Legends of Rock	72	\N	2025-08-08 14:16:49.689717+07
+73	\N	Dynasty Warriors 4	73	\N	2025-08-08 14:16:49.689717+07
+74	\N	Dragon Ball Z: Budokai Tenkaichi	74	\N	2025-08-08 14:16:49.689717+07
+75	\N	Tales of Abyss	75	\N	2025-08-08 14:16:49.689717+07
+76	\N	Final Fantas XII	76	\N	2025-08-08 14:16:49.689717+07
+77	\N	Fatal Frame 3	77	\N	2025-08-08 14:16:49.689717+07
+78	\N	Onimusha Warlord	78	\N	2025-08-08 14:16:49.689717+07
+79	\N	Max Payne	79	\N	2025-08-08 14:16:49.689717+07
+80	\N	Socom III: U.S Navy Seal	80	\N	2025-08-08 14:16:49.689717+07
+81	\N	The Sims Bustin’ Out	81	\N	2025-08-08 14:16:49.689717+07
+82	\N	Tony Hawk: American Wasteland	82	\N	2025-08-08 14:16:49.689717+07
+83	\N	Fight Night: Round 2	83	\N	2025-08-08 14:16:49.689717+07
+84	\N	Mortal Combat: Shaolin Monks	84	\N	2025-08-08 14:16:49.689717+07
+85	\N	Prince of Persia: The Two Thrones	85	\N	2025-08-08 14:16:49.689717+07
+86	\N	Tekken 5	86	\N	2025-08-08 14:16:49.689717+07
+87	\N	Armored Core 2	87	\N	2025-08-08 14:16:49.689717+07
+88	\N	Dead or Alive 2: Hardcore	88	\N	2025-08-08 14:16:49.689717+07
+89	\N	Soul Reaver 2	89	\N	2025-08-08 14:16:49.689717+07
+90	\N	Theme Park Roller Coaster	90	\N	2025-08-08 14:16:49.689717+07
+91	\N	Destroy All Humas!	91	\N	2025-08-08 14:16:49.689717+07
+92	\N	Katamari Damacy	92	\N	2025-08-08 14:16:49.689717+07
+93	\N	Ape Escape II	93	\N	2025-08-08 14:16:49.689717+07
+94	\N	Rayman 2 Revolution	94	\N	2025-08-08 14:16:49.689717+07
+95	\N	Kessen II:	95	\N	2025-08-08 14:16:49.689717+07
+96	\N	Harvest Moon: Save The Homeland	96	\N	2025-08-08 14:16:49.689717+07
+97	\N	Final Fantasy X-2	97	\N	2025-08-08 14:16:49.689717+07
+98	\N	Dark Cloud	98	\N	2025-08-08 14:16:49.689717+07
+99	\N	Time Crisis II	99	\N	2025-08-08 14:16:49.689717+07
+100	\N	Shadow Hearts	100	\N	2025-08-08 14:16:49.689717+07
+101	\N	Soul Calibur 3	101	\N	2025-08-08 14:16:49.689717+07
+102	\N	Midnght Club 3 Dub Edition	102	\N	2025-08-08 14:16:49.689717+07
+103	\N	Shin Megami Tensei: Persona 3	103	\N	2025-08-08 14:16:49.689717+07
+104	\N	Jet Li: Rise of Honor	104	\N	2025-08-08 14:16:49.689717+07
+105	\N	Downhill	105	\N	2025-08-08 14:16:49.689717+07
+106	\N	Genji: Dawn of The Samurai	106	\N	2025-08-08 14:16:49.689717+07
+108	\N	Enter The Matrix	108	\N	2025-08-08 14:16:49.689717+07
 \.
 
 
@@ -925,7 +926,7 @@ SELECT pg_catalog.setval('public.game_media_critic_id_seq', 1, false);
 -- Name: games_game_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.games_game_id_seq', 108, true);
+SELECT pg_catalog.setval('public.games_game_id_seq', 1728, true);
 
 
 --
