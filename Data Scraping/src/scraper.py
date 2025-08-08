@@ -124,5 +124,4 @@ with open('data/auditorium.json', 'w', encoding='utf-8') as f:
 
 print(f"Data berhasil disimpan ke masing-masing path")
 
-input("Enter to close the tab..")
 driver.quit()
