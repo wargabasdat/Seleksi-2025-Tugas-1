@@ -1,0 +1,78 @@
+=== SPOTIFY DATA EXTRACTION SUMMARY ===
+
+Total Genres: 53
+
+Playlist Count by Genre:
+--------------------------------------------------
+Afro                           |  53 playlists
+Alternative                    |  15 playlists
+Ambient                        |  68 playlists
+Anime                          |  62 playlists
+Arab                           |  10 playlists
+At Home                        |  33 playlists
+Blues                          |  13 playlists
+Caribbean                      |  14 playlists
+Chill                          |  31 playlists
+Classical                      |  55 playlists
+Cooking & Dining               |  14 playlists
+Country                        |  41 playlists
+Dance/Electronic               |  19 playlists
+Disney                         |  22 playlists
+EQUAL                          |  43 playlists
+Focus                          |  38 playlists
+Folk & Acoustic                |  52 playlists
+Fresh Finds                    |  21 playlists
+Funk & Disco                   |  17 playlists
+Gaming                         |  14 playlists
+Hip-Hop                        |  39 playlists
+In the car                     |  14 playlists
+Indie                          |  26 playlists
+Instrumental                   |  43 playlists
+J-Tracks                       |  30 playlists
+Jazz                           |  23 playlists
+K-pop                          |  80 playlists
+Karaoke                        |   9 playlists
+Kids & Family                  |  16 playlists
+Latin                          |  54 playlists
+Love                           |  58 playlists
+Malay pop                      |  30 playlists
+Metal                          |  21 playlists
+Mood                           |  21 playlists
+Nature & Noise                 |  42 playlists
+Netflix                        |  20 playlists
+New Releases                   |   1 playlists
+Party                          |  54 playlists
+Pop                            |  16 playlists
+Punk                           |   9 playlists
+R&B                            |  14 playlists
+RADAR                          |  20 playlists
+Rock                           |   7 playlists
+Sleep                          |  13 playlists
+Songwriters                    |  15 playlists
+Soul                           |  16 playlists
+Summer                         |  45 playlists
+Tastemakers                    |  34 playlists
+Travel                         |   8 playlists
+Trending                       |   9 playlists
+TV & Movies                    |   5 playlists
+Wellness                       |  17 playlists
+Workout                        |  16 playlists
+--------------------------------------------------
+Total Playlists: 1460
+
+Playlists with Detailed Info Only: 1460
+Playlists with Basic Info Only: 0
+
+Total Playlist-Song Relationships: 40
+
+Total Songs: 40
+
+Total Song-Artist Relationships: 45
+
+Total Artists: 35
+
+Total Albums: 34
+
+Total Users: 22
+
+Extraction completed successfully!

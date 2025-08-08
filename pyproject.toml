@@ -1,0 +1,15 @@
+[project]
+name = "seleksi-2025-tugas-1"
+version = "0.1.0"
+description = "Database Lab Assistant 2025 Recruitment"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "dotenv>=0.9.9",
+    "mysql-connector-python>=9.4.0",
+    "pandas>=2.3.1",
+    "pymysql>=1.1.1",
+    "selenium>=4.34.2",
+    "urllib3>=2.5.0",
+]
