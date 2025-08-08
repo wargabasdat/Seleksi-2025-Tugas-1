@@ -16,7 +16,7 @@ def get_coaster_detail(coaster_id):
 
     feature_div = soup.select_one("#feature > div")
 
-    # --- Location ---
+    # lokasi park
     city = region = country = None
     links = feature_div.find_all("a") if feature_div else []
     if len(links) >= 3:
@@ -24,7 +24,7 @@ def get_coaster_detail(coaster_id):
         region = links[-2].text.strip()
         country = links[-1].text.strip()
 
-    # --- Manufacturer ---
+    # id manufacturer
     manufacturer_id = None
     p_tags = soup.select("#feature p")
     manufacturer_tag = None
@@ -83,12 +83,11 @@ def get_manufacturer_details(manufacturer_id):
     }
 
 coasters = []
-parks_dict = {}  # park_id: {id, name, location}
-manufacturers_dict = {}  # manufacturer_id: {id, name, location}
+parks_dict = {} 
+manufacturers_dict = {} 
 
-# Loop halaman 1–9
 for page_num in range(1,10):
-    print(f"📄 Scraping page {page_num}...")
+    print(f"Scraping page {page_num}")
     url = f"{BASE_URL}/r.htm?page={page_num}&ot=2&op=2025"
     response = requests.get(url, headers=HEADERS)
     soup = BeautifulSoup(response.content, "html.parser")
@@ -114,14 +113,12 @@ for page_num in range(1,10):
         coaster_detail = get_coaster_detail(coaster_id)
         manufacturer_id = coaster_detail["manufacturer_id"]
 
-        # Simpan manufacturer ke dict
         if manufacturer_id and manufacturer_id not in manufacturers_dict:
-            print(f"🏭 Fetching manufacturer {manufacturer_id}...")
             manufacturer_data = get_manufacturer_details(manufacturer_id)
             if manufacturer_data:
                 manufacturers_dict[manufacturer_id] = manufacturer_data
 
-        # Coaster JSON
+        # buat struktur json nya
         coaster_data = {
             "id": coaster_id,
             "name": name_tag.text.strip() if name_tag else None,
@@ -133,9 +130,8 @@ for page_num in range(1,10):
             "opened": opened_tag.get("datetime", "").strip() if opened_tag else None
         }
         coasters.append(coaster_data)
-        print(f"✅ Coaster {coaster_id} scraped.")
+        print(f"Coaster {coaster_id} scraped.")
 
-        # Simpan data park jika belum ada
         if park_id and park_id not in parks_dict:
             parks_dict[park_id] = {
                 "id": park_id,
@@ -147,19 +143,19 @@ for page_num in range(1,10):
 
     time.sleep(1.5)
 
-# Simpan coasters.json
+# simpan ke coasters.json
 with open("data/roller_coasters.json", "w", encoding="utf-8") as f:
     json.dump(coasters, f, ensure_ascii=False, indent=2)
 
-# Simpan parks.json
+# simpan ke parks.json
 parks = list(parks_dict.values())
 with open("data/parks.json", "w", encoding="utf-8") as f:
     json.dump(parks, f, ensure_ascii=False, indent=2)
 
-# Simpan manufacturers.json
+# simpan ke manufacturers.json
 manufacturers = list(manufacturers_dict.values())
 with open("data/manufacturers.json", "w", encoding="utf-8") as f:
     json.dump(manufacturers, f, ensure_ascii=False, indent=2)
 
-print(f"🎢 Data berhasil disimpan ke roller_coasters.json ({len(coasters)} RC), "
-      f"parks.json ({len(parks)} Park), dan manufacturer.json ({len(manufacturers)} Manufacturer)")
+print(f"Data berhasil disimpan ke roller_coasters.json ({len(coasters)} rc), "
+      f"parks.json ({len(parks)} park), dan manufacturer.json ({len(manufacturers)} manufacturer)")
