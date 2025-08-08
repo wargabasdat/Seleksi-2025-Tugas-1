@@ -241,8 +241,31 @@ Saya juga membuat indeks dan trigger agar data yang masuk lebih akurat dan sesua
 </div>
 
 ## Data Warehouse (BONUS)
+### Star_Schema
+<div align="center">
+  <img src="Data Warehouse/design/star_schema.png" width="600"/>
+</div>
 
+Untuk design ini, saya menggunakan star_schema dengan fact table dan dimention table. Untuk fact table yaitu Fact_Top_Channels adalah tabel fakta yang berisi data terukur dan pasti, yaitu youtube_subscribers, facebook_followers, dan instagram_followers. Table Dim_Youtuber dan Dim_Channel sebagai tabel dimention yang memberikan konteks deskriptif, seperti gender, email, description, dan since.
 
+Fact_Top_Channels terhubung langsung ke kedua tabel dimention melalui foreign key (youtuber_name dan youtube_channel_link), yang membentuk struktur bintang.
+
+### Loading Data
+Pada tahap ini, saya membuat tabel dimention untuk youtuber dan channel beserta pengisian datanya yang diambil dari hasil scrapping
+<div align="center">
+  <img width="1343" height="740" alt="image" src="https://github.com/user-attachments/assets/14e3e53c-441c-4a8f-a5e7-    41d672802d1d" />
+</div>
+
+Selanjutnya, saya membuat Fact Table beserta insert data data yang diambil dari table youtubers dan channels
+<img width="1350" height="580" alt="image" src="https://github.com/user-attachments/assets/5ff124f6-3686-4443-995f-117bd6c54833" />
+
+### Query Analytics
+Analisis: Rata-Rata Subscribers Youtube berdasarkan tipe youtubernya
+<div align="center">
+  <img src="Data Warehouse/screenshoot/SS_Query Analytic.png" width="600"/>
+</div>
+
+Pada hasil ini, terbukti bahwa berhasil dan data sudah terhubung dengan baik
 
 ## Reference
 1. [Feedspot Website](https://videos.feedspot.com/mindfulness_youtube_channels/)
