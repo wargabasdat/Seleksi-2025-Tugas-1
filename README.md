@@ -231,6 +231,9 @@ Kelima file .JSON tadi digabungkan di kode python pada file `PSQLexporter.py` ya
 
 ## Data Warehouse
 ### 1. Struktur ERD, Diagram Relasional, Fact and Dimension Table
+
+ER dan diagram relasional yang dibuat dikhususkan berdasarkan hasil scraping yang bertujuan untuk menyesuaikan dalam proses pembuatan fact dan dimension table juga memudahkan pembuatan warehouse.
+
 #### ERD
 <div align="center">
   <img src="Data Warehouse/design/ER Diagram Manhwa (warehouse).png"/>
@@ -247,11 +250,20 @@ Kelima file .JSON tadi digabungkan di kode python pada file `PSQLexporter.py` ya
 </div>
 
 ## Automated Scheduling
+<div align="center">
+  <img src="Data Warehouse/design/Screenshot 2025-08-08 175220.png"/>
+  <img src="Data Warehouse/design/Screenshot 2025-08-08 180241.png"/>
+  <img src="Data Warehouse/design/Screenshot 2025-08-08 175029.png"/>
+  <img src="Data Warehouse/design/Screenshot 2025-08-08 175114.png"/>
+  <img src="Data Warehouse/design/Screenshot 2025-08-08 175154.png"/>
+  <img src="Data Warehouse/design/Screenshot 2025-08-08 174941.png"/>
+</div>
 
 ## Lampiran
+Selengkapnya dapat dilihat di folder masing-masing.
 
 ## Referensi
-[MyAnimeList](https://myanimelist.net/topmanga.php?type=manhwa&limit=0)
-[Dokumentasi Beautifulsoup4](https://beautiful-soup-4.readthedocs.io/)
-[Dokumentasi psycopg2](https://pypi.org/project/psycopg2/)
-[Dokumentasi PostgreSQL](https://www.postgresql.org/)
+1. [MyAnimeList](https://myanimelist.net/topmanga.php?type=manhwa&limit=0)
+2. [Dokumentasi Beautifulsoup4](https://beautiful-soup-4.readthedocs.io/)
+3. [Dokumentasi psycopg2](https://pypi.org/project/psycopg2/)
+4. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
