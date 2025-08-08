@@ -1,0 +1,2402 @@
+[
+    {
+        "score_id": 1,
+        "camera_id": 1,
+        "score_type": "Overall",
+        "score_value": 102
+    },
+    {
+        "score_id": 2,
+        "camera_id": 1,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.2
+    },
+    {
+        "score_id": 3,
+        "camera_id": 1,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.8
+    },
+    {
+        "score_id": 4,
+        "camera_id": 1,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 4489
+    },
+    {
+        "score_id": 5,
+        "camera_id": 2,
+        "score_type": "Overall",
+        "score_value": 101
+    },
+    {
+        "score_id": 6,
+        "camera_id": 2,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26
+    },
+    {
+        "score_id": 7,
+        "camera_id": 2,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.7
+    },
+    {
+        "score_id": 8,
+        "camera_id": 2,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 4505
+    },
+    {
+        "score_id": 9,
+        "camera_id": 3,
+        "score_type": "Overall",
+        "score_value": 100
+    },
+    {
+        "score_id": 10,
+        "camera_id": 3,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.3
+    },
+    {
+        "score_id": 11,
+        "camera_id": 3,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.8
+    },
+    {
+        "score_id": 12,
+        "camera_id": 3,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3376
+    },
+    {
+        "score_id": 13,
+        "camera_id": 4,
+        "score_type": "Overall",
+        "score_value": 100
+    },
+    {
+        "score_id": 14,
+        "camera_id": 4,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.3
+    },
+    {
+        "score_id": 15,
+        "camera_id": 4,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.7
+    },
+    {
+        "score_id": 16,
+        "camera_id": 4,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2841
+    },
+    {
+        "score_id": 17,
+        "camera_id": 5,
+        "score_type": "Overall",
+        "score_value": 100
+    },
+    {
+        "score_id": 18,
+        "camera_id": 5,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.4
+    },
+    {
+        "score_id": 19,
+        "camera_id": 5,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.8
+    },
+    {
+        "score_id": 20,
+        "camera_id": 5,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2660
+    },
+    {
+        "score_id": 21,
+        "camera_id": 6,
+        "score_type": "Overall",
+        "score_value": 100
+    },
+    {
+        "score_id": 22,
+        "camera_id": 6,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.4
+    },
+    {
+        "score_id": 23,
+        "camera_id": 6,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.1
+    },
+    {
+        "score_id": 24,
+        "camera_id": 6,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3525
+    },
+    {
+        "score_id": 25,
+        "camera_id": 7,
+        "score_type": "Overall",
+        "score_value": 100
+    },
+    {
+        "score_id": 26,
+        "camera_id": 7,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.1
+    },
+    {
+        "score_id": 27,
+        "camera_id": 7,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.8
+    },
+    {
+        "score_id": 28,
+        "camera_id": 7,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3187
+    },
+    {
+        "score_id": 29,
+        "camera_id": 8,
+        "score_type": "Overall",
+        "score_value": 100
+    },
+    {
+        "score_id": 30,
+        "camera_id": 8,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26
+    },
+    {
+        "score_id": 31,
+        "camera_id": 8,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.7
+    },
+    {
+        "score_id": 32,
+        "camera_id": 8,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3523
+    },
+    {
+        "score_id": 33,
+        "camera_id": 9,
+        "score_type": "Overall",
+        "score_value": 99
+    },
+    {
+        "score_id": 34,
+        "camera_id": 9,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.3
+    },
+    {
+        "score_id": 35,
+        "camera_id": 9,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.6
+    },
+    {
+        "score_id": 36,
+        "camera_id": 9,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2668
+    },
+    {
+        "score_id": 37,
+        "camera_id": 10,
+        "score_type": "Overall",
+        "score_value": 99
+    },
+    {
+        "score_id": 38,
+        "camera_id": 10,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26
+    },
+    {
+        "score_id": 39,
+        "camera_id": 10,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.8
+    },
+    {
+        "score_id": 40,
+        "camera_id": 10,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3344
+    },
+    {
+        "score_id": 41,
+        "camera_id": 11,
+        "score_type": "Overall",
+        "score_value": 98
+    },
+    {
+        "score_id": 42,
+        "camera_id": 11,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.3
+    },
+    {
+        "score_id": 43,
+        "camera_id": 11,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.2
+    },
+    {
+        "score_id": 44,
+        "camera_id": 11,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2548
+    },
+    {
+        "score_id": 45,
+        "camera_id": 12,
+        "score_type": "Overall",
+        "score_value": 98
+    },
+    {
+        "score_id": 46,
+        "camera_id": 12,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.3
+    },
+    {
+        "score_id": 47,
+        "camera_id": 12,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.4
+    },
+    {
+        "score_id": 48,
+        "camera_id": 12,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2451
+    },
+    {
+        "score_id": 49,
+        "camera_id": 13,
+        "score_type": "Overall",
+        "score_value": 98
+    },
+    {
+        "score_id": 50,
+        "camera_id": 13,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.9
+    },
+    {
+        "score_id": 51,
+        "camera_id": 13,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.5
+    },
+    {
+        "score_id": 52,
+        "camera_id": 13,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3163
+    },
+    {
+        "score_id": 53,
+        "camera_id": 14,
+        "score_type": "Overall",
+        "score_value": 98
+    },
+    {
+        "score_id": 54,
+        "camera_id": 14,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26
+    },
+    {
+        "score_id": 55,
+        "camera_id": 14,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.9
+    },
+    {
+        "score_id": 56,
+        "camera_id": 14,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3434
+    },
+    {
+        "score_id": 57,
+        "camera_id": 15,
+        "score_type": "Overall",
+        "score_value": 97
+    },
+    {
+        "score_id": 58,
+        "camera_id": 15,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.7
+    },
+    {
+        "score_id": 59,
+        "camera_id": 15,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.8
+    },
+    {
+        "score_id": 60,
+        "camera_id": 15,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2853
+    },
+    {
+        "score_id": 61,
+        "camera_id": 16,
+        "score_type": "Overall",
+        "score_value": 97
+    },
+    {
+        "score_id": 62,
+        "camera_id": 16,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.4
+    },
+    {
+        "score_id": 63,
+        "camera_id": 16,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.7
+    },
+    {
+        "score_id": 64,
+        "camera_id": 16,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3379
+    },
+    {
+        "score_id": 65,
+        "camera_id": 17,
+        "score_type": "Overall",
+        "score_value": 97
+    },
+    {
+        "score_id": 66,
+        "camera_id": 17,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.8
+    },
+    {
+        "score_id": 67,
+        "camera_id": 17,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.9
+    },
+    {
+        "score_id": 68,
+        "camera_id": 17,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3204
+    },
+    {
+        "score_id": 69,
+        "camera_id": 18,
+        "score_type": "Overall",
+        "score_value": 96
+    },
+    {
+        "score_id": 70,
+        "camera_id": 18,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25
+    },
+    {
+        "score_id": 71,
+        "camera_id": 18,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.7
+    },
+    {
+        "score_id": 72,
+        "camera_id": 18,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 4086
+    },
+    {
+        "score_id": 73,
+        "camera_id": 19,
+        "score_type": "Overall",
+        "score_value": 96
+    },
+    {
+        "score_id": 74,
+        "camera_id": 19,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.4
+    },
+    {
+        "score_id": 75,
+        "camera_id": 19,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.5
+    },
+    {
+        "score_id": 76,
+        "camera_id": 19,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2491
+    },
+    {
+        "score_id": 77,
+        "camera_id": 20,
+        "score_type": "Overall",
+        "score_value": 96
+    },
+    {
+        "score_id": 78,
+        "camera_id": 20,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.6
+    },
+    {
+        "score_id": 79,
+        "camera_id": 20,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.3
+    },
+    {
+        "score_id": 80,
+        "camera_id": 20,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2979
+    },
+    {
+        "score_id": 81,
+        "camera_id": 21,
+        "score_type": "Overall",
+        "score_value": 96
+    },
+    {
+        "score_id": 82,
+        "camera_id": 21,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.4
+    },
+    {
+        "score_id": 83,
+        "camera_id": 21,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.6
+    },
+    {
+        "score_id": 84,
+        "camera_id": 21,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3280
+    },
+    {
+        "score_id": 85,
+        "camera_id": 22,
+        "score_type": "Overall",
+        "score_value": 96
+    },
+    {
+        "score_id": 86,
+        "camera_id": 22,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.1
+    },
+    {
+        "score_id": 87,
+        "camera_id": 22,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.7
+    },
+    {
+        "score_id": 88,
+        "camera_id": 22,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3722
+    },
+    {
+        "score_id": 89,
+        "camera_id": 23,
+        "score_type": "Overall",
+        "score_value": 95
+    },
+    {
+        "score_id": 90,
+        "camera_id": 23,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.3
+    },
+    {
+        "score_id": 91,
+        "camera_id": 23,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.6
+    },
+    {
+        "score_id": 92,
+        "camera_id": 23,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3042
+    },
+    {
+        "score_id": 93,
+        "camera_id": 24,
+        "score_type": "Overall",
+        "score_value": 95
+    },
+    {
+        "score_id": 94,
+        "camera_id": 24,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.2
+    },
+    {
+        "score_id": 95,
+        "camera_id": 24,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.1
+    },
+    {
+        "score_id": 96,
+        "camera_id": 24,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3504
+    },
+    {
+        "score_id": 97,
+        "camera_id": 25,
+        "score_type": "Overall",
+        "score_value": 95
+    },
+    {
+        "score_id": 98,
+        "camera_id": 25,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.3
+    },
+    {
+        "score_id": 99,
+        "camera_id": 25,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.3
+    },
+    {
+        "score_id": 100,
+        "camera_id": 25,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3299
+    },
+    {
+        "score_id": 101,
+        "camera_id": 26,
+        "score_type": "Overall",
+        "score_value": 95
+    },
+    {
+        "score_id": 102,
+        "camera_id": 26,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.3
+    },
+    {
+        "score_id": 103,
+        "camera_id": 26,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.4
+    },
+    {
+        "score_id": 104,
+        "camera_id": 26,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2853
+    },
+    {
+        "score_id": 105,
+        "camera_id": 27,
+        "score_type": "Overall",
+        "score_value": 95
+    },
+    {
+        "score_id": 106,
+        "camera_id": 27,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.2
+    },
+    {
+        "score_id": 107,
+        "camera_id": 27,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.5
+    },
+    {
+        "score_id": 108,
+        "camera_id": 27,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3333
+    },
+    {
+        "score_id": 109,
+        "camera_id": 28,
+        "score_type": "Overall",
+        "score_value": 95
+    },
+    {
+        "score_id": 110,
+        "camera_id": 28,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25
+    },
+    {
+        "score_id": 111,
+        "camera_id": 28,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.7
+    },
+    {
+        "score_id": 112,
+        "camera_id": 28,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3407
+    },
+    {
+        "score_id": 113,
+        "camera_id": 29,
+        "score_type": "Overall",
+        "score_value": 95
+    },
+    {
+        "score_id": 114,
+        "camera_id": 29,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.6
+    },
+    {
+        "score_id": 115,
+        "camera_id": 29,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.1
+    },
+    {
+        "score_id": 116,
+        "camera_id": 29,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2746
+    },
+    {
+        "score_id": 117,
+        "camera_id": 30,
+        "score_type": "Overall",
+        "score_value": 94
+    },
+    {
+        "score_id": 118,
+        "camera_id": 30,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25
+    },
+    {
+        "score_id": 119,
+        "camera_id": 30,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.4
+    },
+    {
+        "score_id": 120,
+        "camera_id": 30,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3303
+    },
+    {
+        "score_id": 121,
+        "camera_id": 31,
+        "score_type": "Overall",
+        "score_value": 94
+    },
+    {
+        "score_id": 122,
+        "camera_id": 31,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.1
+    },
+    {
+        "score_id": 123,
+        "camera_id": 31,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.4
+    },
+    {
+        "score_id": 124,
+        "camera_id": 31,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2925
+    },
+    {
+        "score_id": 125,
+        "camera_id": 32,
+        "score_type": "Overall",
+        "score_value": 94
+    },
+    {
+        "score_id": 126,
+        "camera_id": 32,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.1
+    },
+    {
+        "score_id": 127,
+        "camera_id": 32,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.2
+    },
+    {
+        "score_id": 128,
+        "camera_id": 32,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2980
+    },
+    {
+        "score_id": 129,
+        "camera_id": 33,
+        "score_type": "Overall",
+        "score_value": 94
+    },
+    {
+        "score_id": 130,
+        "camera_id": 33,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.1
+    },
+    {
+        "score_id": 131,
+        "camera_id": 33,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.5
+    },
+    {
+        "score_id": 132,
+        "camera_id": 33,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2697
+    },
+    {
+        "score_id": 133,
+        "camera_id": 34,
+        "score_type": "Overall",
+        "score_value": 93
+    },
+    {
+        "score_id": 134,
+        "camera_id": 34,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.5
+    },
+    {
+        "score_id": 135,
+        "camera_id": 34,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.7
+    },
+    {
+        "score_id": 136,
+        "camera_id": 34,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3295
+    },
+    {
+        "score_id": 137,
+        "camera_id": 35,
+        "score_type": "Overall",
+        "score_value": 93
+    },
+    {
+        "score_id": 138,
+        "camera_id": 35,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.8
+    },
+    {
+        "score_id": 139,
+        "camera_id": 35,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.5
+    },
+    {
+        "score_id": 140,
+        "camera_id": 35,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2956
+    },
+    {
+        "score_id": 141,
+        "camera_id": 36,
+        "score_type": "Overall",
+        "score_value": 93
+    },
+    {
+        "score_id": 142,
+        "camera_id": 36,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.2
+    },
+    {
+        "score_id": 143,
+        "camera_id": 36,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.6
+    },
+    {
+        "score_id": 144,
+        "camera_id": 36,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3108
+    },
+    {
+        "score_id": 145,
+        "camera_id": 37,
+        "score_type": "Overall",
+        "score_value": 93
+    },
+    {
+        "score_id": 146,
+        "camera_id": 37,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25
+    },
+    {
+        "score_id": 147,
+        "camera_id": 37,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14
+    },
+    {
+        "score_id": 148,
+        "camera_id": 37,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3434
+    },
+    {
+        "score_id": 149,
+        "camera_id": 38,
+        "score_type": "Overall",
+        "score_value": 93
+    },
+    {
+        "score_id": 150,
+        "camera_id": 38,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.1
+    },
+    {
+        "score_id": 151,
+        "camera_id": 38,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.3
+    },
+    {
+        "score_id": 152,
+        "camera_id": 38,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2534
+    },
+    {
+        "score_id": 153,
+        "camera_id": 39,
+        "score_type": "Overall",
+        "score_value": 92
+    },
+    {
+        "score_id": 154,
+        "camera_id": 39,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.9
+    },
+    {
+        "score_id": 155,
+        "camera_id": 39,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.3
+    },
+    {
+        "score_id": 156,
+        "camera_id": 39,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3517
+    },
+    {
+        "score_id": 157,
+        "camera_id": 40,
+        "score_type": "Overall",
+        "score_value": 92
+    },
+    {
+        "score_id": 158,
+        "camera_id": 40,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.4
+    },
+    {
+        "score_id": 159,
+        "camera_id": 40,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.4
+    },
+    {
+        "score_id": 160,
+        "camera_id": 40,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2317
+    },
+    {
+        "score_id": 161,
+        "camera_id": 41,
+        "score_type": "Overall",
+        "score_value": 91
+    },
+    {
+        "score_id": 162,
+        "camera_id": 41,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.2
+    },
+    {
+        "score_id": 163,
+        "camera_id": 41,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.5
+    },
+    {
+        "score_id": 164,
+        "camera_id": 41,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3248
+    },
+    {
+        "score_id": 165,
+        "camera_id": 42,
+        "score_type": "Overall",
+        "score_value": 91
+    },
+    {
+        "score_id": 166,
+        "camera_id": 42,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.8
+    },
+    {
+        "score_id": 167,
+        "camera_id": 42,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.6
+    },
+    {
+        "score_id": 168,
+        "camera_id": 42,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2995
+    },
+    {
+        "score_id": 169,
+        "camera_id": 43,
+        "score_type": "Overall",
+        "score_value": 91
+    },
+    {
+        "score_id": 170,
+        "camera_id": 43,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26.5
+    },
+    {
+        "score_id": 171,
+        "camera_id": 43,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.6
+    },
+    {
+        "score_id": 172,
+        "camera_id": 43,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 966
+    },
+    {
+        "score_id": 173,
+        "camera_id": 44,
+        "score_type": "Overall",
+        "score_value": 91
+    },
+    {
+        "score_id": 174,
+        "camera_id": 44,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25
+    },
+    {
+        "score_id": 175,
+        "camera_id": 44,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.6
+    },
+    {
+        "score_id": 176,
+        "camera_id": 44,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2537
+    },
+    {
+        "score_id": 177,
+        "camera_id": 45,
+        "score_type": "Overall",
+        "score_value": 90
+    },
+    {
+        "score_id": 178,
+        "camera_id": 45,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.2
+    },
+    {
+        "score_id": 179,
+        "camera_id": 45,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.3
+    },
+    {
+        "score_id": 180,
+        "camera_id": 45,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3394
+    },
+    {
+        "score_id": 181,
+        "camera_id": 46,
+        "score_type": "Overall",
+        "score_value": 90
+    },
+    {
+        "score_id": 182,
+        "camera_id": 46,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.1
+    },
+    {
+        "score_id": 183,
+        "camera_id": 46,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.5
+    },
+    {
+        "score_id": 184,
+        "camera_id": 46,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1939
+    },
+    {
+        "score_id": 185,
+        "camera_id": 47,
+        "score_type": "Overall",
+        "score_value": 90
+    },
+    {
+        "score_id": 186,
+        "camera_id": 47,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.9
+    },
+    {
+        "score_id": 187,
+        "camera_id": 47,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.6
+    },
+    {
+        "score_id": 188,
+        "camera_id": 47,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2449
+    },
+    {
+        "score_id": 189,
+        "camera_id": 48,
+        "score_type": "Overall",
+        "score_value": 90
+    },
+    {
+        "score_id": 190,
+        "camera_id": 48,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.8
+    },
+    {
+        "score_id": 191,
+        "camera_id": 48,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.2
+    },
+    {
+        "score_id": 192,
+        "camera_id": 48,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2248
+    },
+    {
+        "score_id": 193,
+        "camera_id": 49,
+        "score_type": "Overall",
+        "score_value": 89
+    },
+    {
+        "score_id": 194,
+        "camera_id": 49,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.5
+    },
+    {
+        "score_id": 195,
+        "camera_id": 49,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.5
+    },
+    {
+        "score_id": 196,
+        "camera_id": 49,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2742
+    },
+    {
+        "score_id": 197,
+        "camera_id": 50,
+        "score_type": "Overall",
+        "score_value": 89
+    },
+    {
+        "score_id": 198,
+        "camera_id": 50,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.4
+    },
+    {
+        "score_id": 199,
+        "camera_id": 50,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.3
+    },
+    {
+        "score_id": 200,
+        "camera_id": 50,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3074
+    },
+    {
+        "score_id": 201,
+        "camera_id": 51,
+        "score_type": "Overall",
+        "score_value": 89
+    },
+    {
+        "score_id": 202,
+        "camera_id": 51,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.6
+    },
+    {
+        "score_id": 203,
+        "camera_id": 51,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.1
+    },
+    {
+        "score_id": 204,
+        "camera_id": 51,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3279
+    },
+    {
+        "score_id": 205,
+        "camera_id": 52,
+        "score_type": "Overall",
+        "score_value": 89
+    },
+    {
+        "score_id": 206,
+        "camera_id": 52,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.7
+    },
+    {
+        "score_id": 207,
+        "camera_id": 52,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.1
+    },
+    {
+        "score_id": 208,
+        "camera_id": 52,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2965
+    },
+    {
+        "score_id": 209,
+        "camera_id": 53,
+        "score_type": "Overall",
+        "score_value": 89
+    },
+    {
+        "score_id": 210,
+        "camera_id": 53,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 26
+    },
+    {
+        "score_id": 211,
+        "camera_id": 53,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13
+    },
+    {
+        "score_id": 212,
+        "camera_id": 53,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1158
+    },
+    {
+        "score_id": 213,
+        "camera_id": 54,
+        "score_type": "Overall",
+        "score_value": 89
+    },
+    {
+        "score_id": 214,
+        "camera_id": 54,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25
+    },
+    {
+        "score_id": 215,
+        "camera_id": 54,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14
+    },
+    {
+        "score_id": 216,
+        "camera_id": 54,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1555
+    },
+    {
+        "score_id": 217,
+        "camera_id": 55,
+        "score_type": "Overall",
+        "score_value": 88
+    },
+    {
+        "score_id": 218,
+        "camera_id": 55,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.1
+    },
+    {
+        "score_id": 219,
+        "camera_id": 55,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.5
+    },
+    {
+        "score_id": 220,
+        "camera_id": 55,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3207
+    },
+    {
+        "score_id": 221,
+        "camera_id": 56,
+        "score_type": "Overall",
+        "score_value": 88
+    },
+    {
+        "score_id": 222,
+        "camera_id": 56,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25
+    },
+    {
+        "score_id": 223,
+        "camera_id": 56,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.4
+    },
+    {
+        "score_id": 224,
+        "camera_id": 56,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1821
+    },
+    {
+        "score_id": 225,
+        "camera_id": 57,
+        "score_type": "Overall",
+        "score_value": 88
+    },
+    {
+        "score_id": 226,
+        "camera_id": 57,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.1
+    },
+    {
+        "score_id": 227,
+        "camera_id": 57,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12.3
+    },
+    {
+        "score_id": 228,
+        "camera_id": 57,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2434
+    },
+    {
+        "score_id": 229,
+        "camera_id": 58,
+        "score_type": "Overall",
+        "score_value": 88
+    },
+    {
+        "score_id": 230,
+        "camera_id": 58,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.7
+    },
+    {
+        "score_id": 231,
+        "camera_id": 58,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.7
+    },
+    {
+        "score_id": 232,
+        "camera_id": 58,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1992
+    },
+    {
+        "score_id": 233,
+        "camera_id": 59,
+        "score_type": "Overall",
+        "score_value": 87
+    },
+    {
+        "score_id": 234,
+        "camera_id": 59,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.7
+    },
+    {
+        "score_id": 235,
+        "camera_id": 59,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12.4
+    },
+    {
+        "score_id": 236,
+        "camera_id": 59,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2381
+    },
+    {
+        "score_id": 237,
+        "camera_id": 60,
+        "score_type": "Overall",
+        "score_value": 87
+    },
+    {
+        "score_id": 238,
+        "camera_id": 60,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.5
+    },
+    {
+        "score_id": 239,
+        "camera_id": 60,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.6
+    },
+    {
+        "score_id": 240,
+        "camera_id": 60,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1333
+    },
+    {
+        "score_id": 241,
+        "camera_id": 61,
+        "score_type": "Overall",
+        "score_value": 87
+    },
+    {
+        "score_id": 242,
+        "camera_id": 61,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 25.3
+    },
+    {
+        "score_id": 243,
+        "camera_id": 61,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13
+    },
+    {
+        "score_id": 244,
+        "camera_id": 61,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1307
+    },
+    {
+        "score_id": 245,
+        "camera_id": 62,
+        "score_type": "Overall",
+        "score_value": 87
+    },
+    {
+        "score_id": 246,
+        "camera_id": 62,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.8
+    },
+    {
+        "score_id": 247,
+        "camera_id": 62,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.9
+    },
+    {
+        "score_id": 248,
+        "camera_id": 62,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1379
+    },
+    {
+        "score_id": 249,
+        "camera_id": 63,
+        "score_type": "Overall",
+        "score_value": 87
+    },
+    {
+        "score_id": 250,
+        "camera_id": 63,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.1
+    },
+    {
+        "score_id": 251,
+        "camera_id": 63,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13
+    },
+    {
+        "score_id": 252,
+        "camera_id": 63,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3224
+    },
+    {
+        "score_id": 253,
+        "camera_id": 64,
+        "score_type": "Overall",
+        "score_value": 87
+    },
+    {
+        "score_id": 254,
+        "camera_id": 64,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.9
+    },
+    {
+        "score_id": 255,
+        "camera_id": 64,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.2
+    },
+    {
+        "score_id": 256,
+        "camera_id": 64,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3702
+    },
+    {
+        "score_id": 257,
+        "camera_id": 65,
+        "score_type": "Overall",
+        "score_value": 86
+    },
+    {
+        "score_id": 258,
+        "camera_id": 65,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.6
+    },
+    {
+        "score_id": 259,
+        "camera_id": 65,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12.4
+    },
+    {
+        "score_id": 260,
+        "camera_id": 65,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2308
+    },
+    {
+        "score_id": 261,
+        "camera_id": 66,
+        "score_type": "Overall",
+        "score_value": 86
+    },
+    {
+        "score_id": 262,
+        "camera_id": 66,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.6
+    },
+    {
+        "score_id": 263,
+        "camera_id": 66,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.9
+    },
+    {
+        "score_id": 264,
+        "camera_id": 66,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1482
+    },
+    {
+        "score_id": 265,
+        "camera_id": 67,
+        "score_type": "Overall",
+        "score_value": 86
+    },
+    {
+        "score_id": 266,
+        "camera_id": 67,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.4
+    },
+    {
+        "score_id": 267,
+        "camera_id": 67,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.2
+    },
+    {
+        "score_id": 268,
+        "camera_id": 67,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2133
+    },
+    {
+        "score_id": 269,
+        "camera_id": 68,
+        "score_type": "Overall",
+        "score_value": 86
+    },
+    {
+        "score_id": 270,
+        "camera_id": 68,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.3
+    },
+    {
+        "score_id": 271,
+        "camera_id": 68,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14
+    },
+    {
+        "score_id": 272,
+        "camera_id": 68,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1483
+    },
+    {
+        "score_id": 273,
+        "camera_id": 69,
+        "score_type": "Overall",
+        "score_value": 86
+    },
+    {
+        "score_id": 274,
+        "camera_id": 69,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.8
+    },
+    {
+        "score_id": 275,
+        "camera_id": 69,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.9
+    },
+    {
+        "score_id": 276,
+        "camera_id": 69,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1192
+    },
+    {
+        "score_id": 277,
+        "camera_id": 70,
+        "score_type": "Overall",
+        "score_value": 86
+    },
+    {
+        "score_id": 278,
+        "camera_id": 70,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.7
+    },
+    {
+        "score_id": 279,
+        "camera_id": 70,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.9
+    },
+    {
+        "score_id": 280,
+        "camera_id": 70,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2520
+    },
+    {
+        "score_id": 281,
+        "camera_id": 71,
+        "score_type": "Overall",
+        "score_value": 85
+    },
+    {
+        "score_id": 282,
+        "camera_id": 71,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.3
+    },
+    {
+        "score_id": 283,
+        "camera_id": 71,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 11.9
+    },
+    {
+        "score_id": 284,
+        "camera_id": 71,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2978
+    },
+    {
+        "score_id": 285,
+        "camera_id": 72,
+        "score_type": "Overall",
+        "score_value": 85
+    },
+    {
+        "score_id": 286,
+        "camera_id": 72,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.4
+    },
+    {
+        "score_id": 287,
+        "camera_id": 72,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 11.9
+    },
+    {
+        "score_id": 288,
+        "camera_id": 72,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2862
+    },
+    {
+        "score_id": 289,
+        "camera_id": 73,
+        "score_type": "Overall",
+        "score_value": 85
+    },
+    {
+        "score_id": 290,
+        "camera_id": 73,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.3
+    },
+    {
+        "score_id": 291,
+        "camera_id": 73,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12.7
+    },
+    {
+        "score_id": 292,
+        "camera_id": 73,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2221
+    },
+    {
+        "score_id": 293,
+        "camera_id": 74,
+        "score_type": "Overall",
+        "score_value": 85
+    },
+    {
+        "score_id": 294,
+        "camera_id": 74,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.5
+    },
+    {
+        "score_id": 295,
+        "camera_id": 74,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.7
+    },
+    {
+        "score_id": 296,
+        "camera_id": 74,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1405
+    },
+    {
+        "score_id": 297,
+        "camera_id": 75,
+        "score_type": "Overall",
+        "score_value": 85
+    },
+    {
+        "score_id": 298,
+        "camera_id": 75,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.4
+    },
+    {
+        "score_id": 299,
+        "camera_id": 75,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.7
+    },
+    {
+        "score_id": 300,
+        "camera_id": 75,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1437
+    },
+    {
+        "score_id": 301,
+        "camera_id": 76,
+        "score_type": "Overall",
+        "score_value": 85
+    },
+    {
+        "score_id": 302,
+        "camera_id": 76,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.6
+    },
+    {
+        "score_id": 303,
+        "camera_id": 76,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.3
+    },
+    {
+        "score_id": 304,
+        "camera_id": 76,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2993
+    },
+    {
+        "score_id": 305,
+        "camera_id": 77,
+        "score_type": "Overall",
+        "score_value": 84
+    },
+    {
+        "score_id": 306,
+        "camera_id": 77,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24
+    },
+    {
+        "score_id": 307,
+        "camera_id": 77,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.3
+    },
+    {
+        "score_id": 308,
+        "camera_id": 77,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1860
+    },
+    {
+        "score_id": 309,
+        "camera_id": 78,
+        "score_type": "Overall",
+        "score_value": 84
+    },
+    {
+        "score_id": 310,
+        "camera_id": 78,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.1
+    },
+    {
+        "score_id": 311,
+        "camera_id": 78,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14
+    },
+    {
+        "score_id": 312,
+        "camera_id": 78,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1306
+    },
+    {
+        "score_id": 313,
+        "camera_id": 79,
+        "score_type": "Overall",
+        "score_value": 84
+    },
+    {
+        "score_id": 314,
+        "camera_id": 79,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.1
+    },
+    {
+        "score_id": 315,
+        "camera_id": 79,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14
+    },
+    {
+        "score_id": 316,
+        "camera_id": 79,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1324
+    },
+    {
+        "score_id": 317,
+        "camera_id": 80,
+        "score_type": "Overall",
+        "score_value": 84
+    },
+    {
+        "score_id": 318,
+        "camera_id": 80,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.1
+    },
+    {
+        "score_id": 319,
+        "camera_id": 80,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14
+    },
+    {
+        "score_id": 320,
+        "camera_id": 80,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1438
+    },
+    {
+        "score_id": 321,
+        "camera_id": 81,
+        "score_type": "Overall",
+        "score_value": 84
+    },
+    {
+        "score_id": 322,
+        "camera_id": 81,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.2
+    },
+    {
+        "score_id": 323,
+        "camera_id": 81,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.9
+    },
+    {
+        "score_id": 324,
+        "camera_id": 81,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1284
+    },
+    {
+        "score_id": 325,
+        "camera_id": 82,
+        "score_type": "Overall",
+        "score_value": 83
+    },
+    {
+        "score_id": 326,
+        "camera_id": 82,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24
+    },
+    {
+        "score_id": 327,
+        "camera_id": 82,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.9
+    },
+    {
+        "score_id": 328,
+        "camera_id": 82,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1338
+    },
+    {
+        "score_id": 329,
+        "camera_id": 83,
+        "score_type": "Overall",
+        "score_value": 83
+    },
+    {
+        "score_id": 330,
+        "camera_id": 83,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.2
+    },
+    {
+        "score_id": 331,
+        "camera_id": 83,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.7
+    },
+    {
+        "score_id": 332,
+        "camera_id": 83,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1256
+    },
+    {
+        "score_id": 333,
+        "camera_id": 84,
+        "score_type": "Overall",
+        "score_value": 83
+    },
+    {
+        "score_id": 334,
+        "camera_id": 84,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.2
+    },
+    {
+        "score_id": 335,
+        "camera_id": 84,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.2
+    },
+    {
+        "score_id": 336,
+        "camera_id": 84,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1363
+    },
+    {
+        "score_id": 337,
+        "camera_id": 85,
+        "score_type": "Overall",
+        "score_value": 83
+    },
+    {
+        "score_id": 338,
+        "camera_id": 85,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24
+    },
+    {
+        "score_id": 339,
+        "camera_id": 85,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.6
+    },
+    {
+        "score_id": 340,
+        "camera_id": 85,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1431
+    },
+    {
+        "score_id": 341,
+        "camera_id": 86,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 342,
+        "camera_id": 86,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.8
+    },
+    {
+        "score_id": 343,
+        "camera_id": 86,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12.1
+    },
+    {
+        "score_id": 344,
+        "camera_id": 86,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2340
+    },
+    {
+        "score_id": 345,
+        "camera_id": 87,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 346,
+        "camera_id": 87,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.8
+    },
+    {
+        "score_id": 347,
+        "camera_id": 87,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 11.8
+    },
+    {
+        "score_id": 348,
+        "camera_id": 87,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2786
+    },
+    {
+        "score_id": 349,
+        "camera_id": 88,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 350,
+        "camera_id": 88,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.3
+    },
+    {
+        "score_id": 351,
+        "camera_id": 88,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12.8
+    },
+    {
+        "score_id": 352,
+        "camera_id": 88,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1385
+    },
+    {
+        "score_id": 353,
+        "camera_id": 89,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 354,
+        "camera_id": 89,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.5
+    },
+    {
+        "score_id": 355,
+        "camera_id": 89,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12
+    },
+    {
+        "score_id": 356,
+        "camera_id": 89,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 3253
+    },
+    {
+        "score_id": 357,
+        "camera_id": 90,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 358,
+        "camera_id": 90,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.8
+    },
+    {
+        "score_id": 359,
+        "camera_id": 90,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.1
+    },
+    {
+        "score_id": 360,
+        "camera_id": 90,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1235
+    },
+    {
+        "score_id": 361,
+        "camera_id": 91,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 362,
+        "camera_id": 91,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.9
+    },
+    {
+        "score_id": 363,
+        "camera_id": 91,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.1
+    },
+    {
+        "score_id": 364,
+        "camera_id": 91,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1208
+    },
+    {
+        "score_id": 365,
+        "camera_id": 92,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 366,
+        "camera_id": 92,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.7
+    },
+    {
+        "score_id": 367,
+        "camera_id": 92,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 14.1
+    },
+    {
+        "score_id": 368,
+        "camera_id": 92,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1162
+    },
+    {
+        "score_id": 369,
+        "camera_id": 93,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 370,
+        "camera_id": 93,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.6
+    },
+    {
+        "score_id": 371,
+        "camera_id": 93,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12.6
+    },
+    {
+        "score_id": 372,
+        "camera_id": 93,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1262
+    },
+    {
+        "score_id": 373,
+        "camera_id": 94,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 374,
+        "camera_id": 94,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.8
+    },
+    {
+        "score_id": 375,
+        "camera_id": 94,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.4
+    },
+    {
+        "score_id": 376,
+        "camera_id": 94,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1497
+    },
+    {
+        "score_id": 377,
+        "camera_id": 95,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 378,
+        "camera_id": 95,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.4
+    },
+    {
+        "score_id": 379,
+        "camera_id": 95,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.4
+    },
+    {
+        "score_id": 380,
+        "camera_id": 95,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1013
+    },
+    {
+        "score_id": 381,
+        "camera_id": 96,
+        "score_type": "Overall",
+        "score_value": 82
+    },
+    {
+        "score_id": 382,
+        "camera_id": 96,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.1
+    },
+    {
+        "score_id": 383,
+        "camera_id": 96,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.1
+    },
+    {
+        "score_id": 384,
+        "camera_id": 96,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1347
+    },
+    {
+        "score_id": 385,
+        "camera_id": 97,
+        "score_type": "Overall",
+        "score_value": 81
+    },
+    {
+        "score_id": 386,
+        "camera_id": 97,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24
+    },
+    {
+        "score_id": 387,
+        "camera_id": 97,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 11.7
+    },
+    {
+        "score_id": 388,
+        "camera_id": 97,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2293
+    },
+    {
+        "score_id": 389,
+        "camera_id": 98,
+        "score_type": "Overall",
+        "score_value": 81
+    },
+    {
+        "score_id": 390,
+        "camera_id": 98,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.1
+    },
+    {
+        "score_id": 391,
+        "camera_id": 98,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.2
+    },
+    {
+        "score_id": 392,
+        "camera_id": 98,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1131
+    },
+    {
+        "score_id": 393,
+        "camera_id": 99,
+        "score_type": "Overall",
+        "score_value": 81
+    },
+    {
+        "score_id": 394,
+        "camera_id": 99,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 23.5
+    },
+    {
+        "score_id": 395,
+        "camera_id": 99,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 12.2
+    },
+    {
+        "score_id": 396,
+        "camera_id": 99,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 2290
+    },
+    {
+        "score_id": 397,
+        "camera_id": 100,
+        "score_type": "Overall",
+        "score_value": 81
+    },
+    {
+        "score_id": 398,
+        "camera_id": 100,
+        "score_type": "Portrait (Color Depth)",
+        "score_value": 24.1
+    },
+    {
+        "score_id": 399,
+        "camera_id": 100,
+        "score_type": "Landscape (Dynamic Range)",
+        "score_value": 13.4
+    },
+    {
+        "score_id": 400,
+        "camera_id": 100,
+        "score_type": "Sports (Low-Light ISO)",
+        "score_value": 1016
+    }
+]
