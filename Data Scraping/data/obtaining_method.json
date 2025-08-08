@@ -1,0 +1,34 @@
+[
+    {
+        "method_id": 1,
+        "name": "Spirit Board"
+    },
+    {
+        "method_id": 2,
+        "name": "World of Light"
+    },
+    {
+        "method_id": 3,
+        "name": "Shopping"
+    },
+    {
+        "method_id": 4,
+        "name": "Summon"
+    },
+    {
+        "method_id": 5,
+        "name": "Challenge"
+    },
+    {
+        "method_id": 6,
+        "name": "Enhanced"
+    },
+    {
+        "method_id": 7,
+        "name": "amiibo"
+    },
+    {
+        "method_id": 8,
+        "name": "Present"
+    }
+]
