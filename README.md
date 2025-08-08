@@ -251,12 +251,12 @@ ER dan diagram relasional yang dibuat dikhususkan berdasarkan hasil scraping yan
 
 ## Automated Scheduling
 <div align="center">
-  <img src="Data Warehouse/design/Screenshot 2025-08-08 175220.png"/>
-  <img src="Data Warehouse/design/Screenshot 2025-08-08 180241.png"/>
-  <img src="Data Warehouse/design/Screenshot 2025-08-08 175029.png"/>
-  <img src="Data Warehouse/design/Screenshot 2025-08-08 175114.png"/>
-  <img src="Data Warehouse/design/Screenshot 2025-08-08 175154.png"/>
-  <img src="Data Warehouse/design/Screenshot 2025-08-08 174941.png"/>
+  <img src="Data Warehouse/screenshot/Screenshot 2025-08-08 175220.png"/>
+  <img src="Data Warehouse/screenshot/Screenshot 2025-08-08 180241.png"/>
+  <img src="Data Warehouse/screenshot/Screenshot 2025-08-08 175029.png"/>
+  <img src="Data Warehouse/screenshot/Screenshot 2025-08-08 175114.png"/>
+  <img src="Data Warehouse/screenshot/Screenshot 2025-08-08 175154.png"/>
+  <img src="Data Warehouse/screenshot/Screenshot 2025-08-08 174941.png"/>
 </div>
 
 ## Lampiran
