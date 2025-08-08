@@ -7,8 +7,8 @@
 </h1>
 
 ## Author
-**Nama:** [Nama Anda]  
-**NIM:** [NIM Anda]
+**Nama:** Naura Ayurachmani  
+**NIM:** 18223061
 
 ## Deskripsi Project
 
@@ -32,7 +32,9 @@ Project ini melakukan proses ETL (Extract, Transform, Load) untuk mengumpulkan d
 2. **Menjalankan Scraper:**
    ```bash
    cd "Data Scraping/src"
-   python main_scraper.py
+   python rank_scraping.py
+   python profile_scraping.py
+   python data_cleaning.py
    ```
 
 3. **Output:** File JSON akan tersimpan di folder `Data Scraping/data/`
@@ -95,10 +97,6 @@ Project ini melakukan proses ETL (Extract, Transform, Load) untuk mengumpulkan d
 
 ## Step 2: Data Modeling & Data Storing
 
-### ERD (Entity Relationship Diagram)
-
-![ERD Diagram](Data%20Storing/design/erd.png)
-
 **Entitas Utama:**
 - **Characters**: Menyimpan informasi dasar karakter
 - **Regions**: Daftar wilayah/negara
@@ -108,15 +106,15 @@ Project ini melakukan proses ETL (Extract, Transform, Load) untuk mengumpulkan d
 - **Goods, Spots, & News**: Informasi yang dapat diambil ketika melakukan scraping
 
 **Relationship:**
-- Characters 1:N Overall_Rankings
+- Characters 1:1 Overall_Rankings
 - Characters 1:N Region_Rankings  
 - Regions 1:N Region_Rankings
-- Characters 1:N Friends (self-referencing)
-- Characters 1:N Goods
+- Characters 1:N Friends 
+- Characters 1:1 Goods
+- Characters N:N Spots
+- Characters N:N News
 
 ### Diagram Relasional
-
-![Relational Diagram](Data%20Storing/design/relational_diagram.png)
 
 ### Proses Translasi ERD ke Relasional
 
@@ -124,7 +122,8 @@ Project ini melakukan proses ETL (Extract, Transform, Load) untuk mengumpulkan d
 2. **Mapping Atribut:** Atribut sederhana menjadi kolom tabel
 3. **Mapping Relationship:**
    - 1:N = Foreign key di tabel "N"
-   - M:N = Tabel junction (jika ada)
+   - N:N = Tabel junction
+   - 1:1 = Salah satu PK di salah satu tabel
 4. **Constraint Implementation:**
    - PRIMARY KEY untuk setiap tabel
    - FOREIGN KEY untuk menjaga referential integrity
@@ -159,38 +158,28 @@ Relationship "Characters has Rankings" → Foreign Key di tabel "overall_ranking
 3. **Proses yang dilakukan:**
    - Create tables dengan constraints
    - Import data dari JSON files
-   - Handle data cleaning (remove duplicates ID 93-98)
+   - Handle data cleaning (hapus duplikasi ID 93-98)
    - Validate data integrity
-
-### Screenshots Program
-
-#### Data Scraping Process
-![Scraping Process](Data%20Scraping/screenshot/scraping_process.png)
-
-#### Database Tables
-![Database Tables](Data%20Storing/screenshot/tables_created.png)
-
-#### Sample Data Queries
-![Sample Queries](Data%20Storing/screenshot/sample_queries.png)
-
+     
 ## Struktur Folder
 
 ```
 Seleksi-2025-Tugas-1/
 ├── Data Scraping/
 │   ├── src/
-│   │   ├── main_scraper.py
-│   │   ├── character_scraper.py
-│   │   └── ranking_scraper.py
+│   │   ├── data_cleaning.py
+│   │   ├── profile_scraping.py
+│   │   └── rank_scraping.py
 │   ├── data/
 │   │   ├── character.json
 │   │   ├── overall_ranking.json
 │   │   └── region_ranking.json
-│   └── screenshot/
+|   |   └── regio.json
+│   
 ├── Data Storing/
 │   ├── design/
 │   │   ├── erd.png
-│   │   └── relational_diagram.png
+│   │   └── relational.png
 │   ├── src/
 │   │   └── storing.py
 │   ├── export/
