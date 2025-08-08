@@ -1,0 +1,602 @@
+[
+    {
+        "rank": 1,
+        "name": "Nancy Jewel McDonie",
+        "job": "eks Momoland idola",
+        "country": "Korea"
+    },
+    {
+        "rank": 2,
+        "name": "Dasha Taran",
+        "job": "model",
+        "country": "Rusia"
+    },
+    {
+        "rank": 3,
+        "name": "Sana Twice",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 4,
+        "name": "Gal Gadot",
+        "job": "aktris dan model",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 5,
+        "name": "Jasmine Tookes",
+        "job": "model",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 6,
+        "name": "Sitala",
+        "job": "penyanyi",
+        "country": "Thailand"
+    },
+    {
+        "rank": 7,
+        "name": "Eleen Suliman",
+        "job": "model",
+        "country": "Saudi Arabi"
+    },
+    {
+        "rank": 8,
+        "name": "Andrea Botez",
+        "job": "pemain catur",
+        "country": "Kanada"
+    },
+    {
+        "rank": 9,
+        "name": "Jisoo BLACKPINK",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 10,
+        "name": "Savannah Clark",
+        "job": "penyanyi",
+        "country": "Australia"
+    },
+    {
+        "rank": 11,
+        "name": "Tzuyu Twice",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 12,
+        "name": "Rosé BLACKPINK",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 13,
+        "name": "Yael Shelbia",
+        "job": "model",
+        "country": "Israel"
+    },
+    {
+        "rank": 14,
+        "name": "Lisa BLACKPINK",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 15,
+        "name": "Nana",
+        "job": "aktris",
+        "country": "Korea"
+    },
+    {
+        "rank": 16,
+        "name": "Andrea Brillantes",
+        "job": "aktris",
+        "country": "Filipina"
+    },
+    {
+        "rank": 17,
+        "name": "Jeon Somi",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 18,
+        "name": "Nadia Ferreira",
+        "job": "model",
+        "country": "Paraguayan"
+    },
+    {
+        "rank": 19,
+        "name": "Nana Owada",
+        "job": "model dan aktris",
+        "country": "Jepang"
+    },
+    {
+        "rank": 20,
+        "name": "Chaeryeong ITZY",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 21,
+        "name": "Ivana Alaoui",
+        "job": "model dan penyanyi",
+        "country": "Filipina"
+    },
+    {
+        "rank": 22,
+        "name": "Alba Batista",
+        "job": "aktris",
+        "country": "Portugal"
+    },
+    {
+        "rank": 23,
+        "name": "Jenny",
+        "job": "penyanyi",
+        "country": "Korea"
+    },
+    {
+        "rank": 24,
+        "name": "Yurina Gyoten",
+        "job": "idol",
+        "country": "Jepang"
+    },
+    {
+        "rank": 25,
+        "name": "Sydney Sweeney",
+        "job": "aktris",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 26,
+        "name": "Emily May",
+        "job": "penyanyi",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 27,
+        "name": "Jang Wonyoung LE SSERAFIM",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 28,
+        "name": "Liza Soberano",
+        "job": "model dan aktris",
+        "country": "Filipina"
+    },
+    {
+        "rank": 29,
+        "name": "Halima Aden",
+        "job": "model dan desainer",
+        "country": "Somali"
+    },
+    {
+        "rank": 30,
+        "name": "Sorn",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 31,
+        "name": "Mai Omar",
+        "job": "aktris dan model",
+        "country": "Yaman"
+    },
+    {
+        "rank": 32,
+        "name": "Lyodra Ginting",
+        "job": "penyanyi",
+        "country": "Indonesia"
+    },
+    {
+        "rank": 33,
+        "name": "Emily Neren",
+        "job": "vlogger",
+        "country": "Norwegi"
+    },
+    {
+        "rank": 34,
+        "name": "Kang Seulgi RED VELVET.",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 35,
+        "name": "LiLi Rose",
+        "job": "tenaga kesehatan",
+        "country": "Swedia"
+    },
+    {
+        "rank": 36,
+        "name": "Danielle NEW JEANS",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 37,
+        "name": "Berta Castane",
+        "job": "aktris dan model",
+        "country": "Spanyol"
+    },
+    {
+        "rank": 38,
+        "name": "Song Yuqi",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 39,
+        "name": "Ana de Armas",
+        "job": "aktris",
+        "country": "Cuban"
+    },
+    {
+        "rank": 40,
+        "name": "HARVEY",
+        "job": "penyanyi",
+        "country": "Jepang"
+    },
+    {
+        "rank": 41,
+        "name": "Whitney Peak",
+        "job": "aktris",
+        "country": "Uganda"
+    },
+    {
+        "rank": 42,
+        "name": "Su Burcu Yazgi Coskun",
+        "job": "aktris dan model",
+        "country": "Turki"
+    },
+    {
+        "rank": 43,
+        "name": "Kimia Hosseini",
+        "job": "aktris",
+        "country": "Iran"
+    },
+    {
+        "rank": 44,
+        "name": "Vienna Maryce",
+        "job": "model",
+        "country": "Kanada"
+    },
+    {
+        "rank": 45,
+        "name": "Janine Gutierrez",
+        "job": "aktris",
+        "country": "Filipina"
+    },
+    {
+        "rank": 46,
+        "name": "Ningning AESPA",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 47,
+        "name": "Tian Xi Wei",
+        "job": "aktris",
+        "country": "China"
+    },
+    {
+        "rank": 48,
+        "name": "Thylane Blondeau",
+        "job": "model",
+        "country": "Prancis"
+    },
+    {
+        "rank": 49,
+        "name": "Beby Tsabina",
+        "job": "aktris dan model",
+        "country": "Indonesia"
+    },
+    {
+        "rank": 50,
+        "name": "Minni (G) Idle",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 51,
+        "name": "Desiree",
+        "job": "penyanyi dan penari",
+        "country": "Brazil"
+    },
+    {
+        "rank": 52,
+        "name": "Hande Erçel",
+        "job": "aktris dan model",
+        "country": "Turki"
+    },
+    {
+        "rank": 53,
+        "name": "Oktyabrina Maksimova",
+        "job": "model",
+        "country": "Rusia"
+    },
+    {
+        "rank": 54,
+        "name": "Rebecca Patricia Armstrong",
+        "job": "aktris dan penyanyi",
+        "country": "Inggris-Thailand"
+    },
+    {
+        "rank": 55,
+        "name": "Kwon Eun Bi",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 56,
+        "name": "Sasha Song",
+        "job": "model",
+        "country": "Belarusian"
+    },
+    {
+        "rank": 57,
+        "name": "Sandrinna Michelle Skornicki",
+        "job": "aktris",
+        "country": "Indonesian"
+    },
+    {
+        "rank": 58,
+        "name": "Disha Patani",
+        "job": "aktris",
+        "country": "India"
+    },
+    {
+        "rank": 59,
+        "name": "Kaylyn Slevin",
+        "job": "model dan aktris",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 60,
+        "name": "Ahlem Fekih",
+        "job": "model dan aktris",
+        "country": "Tunisia"
+    },
+    {
+        "rank": 61,
+        "name": "Kazuha LE SSERAFIM",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 62,
+        "name": "Halle Bailey",
+        "job": "aktris dan penyanyi",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 63,
+        "name": "Phoebe Dynevor",
+        "job": "aktris",
+        "country": "Inggris"
+    },
+    {
+        "rank": 64,
+        "name": "YooA",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 65,
+        "name": "Candela Gallo",
+        "job": "model",
+        "country": "Argentina"
+    },
+    {
+        "rank": 66,
+        "name": "Anna Jobling",
+        "job": "aktris",
+        "country": "Malaysia"
+    },
+    {
+        "rank": 67,
+        "name": "Brielle Clark",
+        "job": "attle",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 68,
+        "name": "Rainky Wai",
+        "job": "aktris",
+        "country": "Hong Kong"
+    },
+    {
+        "rank": 69,
+        "name": "Sheila Turkoru",
+        "job": "model dan aktris",
+        "country": "Turki"
+    },
+    {
+        "rank": 70,
+        "name": "Angourie Rice",
+        "job": "aktris",
+        "country": "Australia"
+    },
+    {
+        "rank": 71,
+        "name": "Belle Mariano",
+        "job": "aktris",
+        "country": "Filipina"
+    },
+    {
+        "rank": 72,
+        "name": "Ayaka",
+        "job": "idola",
+        "country": "Jepang"
+    },
+    {
+        "rank": 73,
+        "name": "Alice Pagani",
+        "job": "aktris dan model",
+        "country": "Italia"
+    },
+    {
+        "rank": 74,
+        "name": "Sadie Sink",
+        "job": "aktris",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 75,
+        "name": "Dita Karang Secret Number",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 76,
+        "name": "Ella Balinska",
+        "job": "aktris",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 77,
+        "name": "Violette Wautier",
+        "job": "penyanyi",
+        "country": "Thailand-Belgia"
+    },
+    {
+        "rank": 78,
+        "name": "Özge Yağız",
+        "job": "aktris",
+        "country": "Turki"
+    },
+    {
+        "rank": 79,
+        "name": "Ariana Grande",
+        "job": "penyanyi",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 80,
+        "name": "Enfa Walaha",
+        "job": "penyanyi",
+        "country": "Thailand"
+    },
+    {
+        "rank": 81,
+        "name": "Julia Butters",
+        "job": "aktris",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 82,
+        "name": "Yeji ITZY",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 83,
+        "name": "Emma Watson",
+        "job": "aktris",
+        "country": "Inggris"
+    },
+    {
+        "rank": 84,
+        "name": "Hina Yoshihara",
+        "job": "penyanyi",
+        "country": "Jepang"
+    },
+    {
+        "rank": 85,
+        "name": "Jourdan Dunn",
+        "job": "aktris dan supermodel",
+        "country": "Inggris"
+    },
+    {
+        "rank": 86,
+        "name": "Livvi Dunn",
+        "job": "atlet",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 87,
+        "name": "Ghouli Nazer",
+        "job": "aktris",
+        "country": "China"
+    },
+    {
+        "rank": 88,
+        "name": "Klelia Andriolatou",
+        "job": "aktris Greek actress",
+        "country": "Greek"
+    },
+    {
+        "rank": 89,
+        "name": "Banita Sandhu",
+        "job": "aktris",
+        "country": "Inggris-India"
+    },
+    {
+        "rank": 90,
+        "name": "Margot Robbie",
+        "job": "aktris",
+        "country": "Australia"
+    },
+    {
+        "rank": 91,
+        "name": "Chuu",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 92,
+        "name": "Leni Klum",
+        "job": "model",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 93,
+        "name": "Jenna Coleman",
+        "job": "aktris",
+        "country": "Inggris"
+    },
+    {
+        "rank": 94,
+        "name": "Shuhua",
+        "job": "idola K-Pop",
+        "country": "Korea"
+    },
+    {
+        "rank": 95,
+        "name": "Lupita Nyong'o",
+        "job": "aktris dan model",
+        "country": "Meksiko"
+    },
+    {
+        "rank": 96,
+        "name": "Lily-Rose Depp",
+        "job": "aktris",
+        "country": "Amerika Serikat"
+    },
+    {
+        "rank": 97,
+        "name": "Afra Saraçoğlu",
+        "job": "aktris dan model",
+        "country": "Turki"
+    },
+    {
+        "rank": 98,
+        "name": "Freen Sarocha",
+        "job": "aktris",
+        "country": "Thailand"
+    },
+    {
+        "rank": 99,
+        "name": "Harnaz Sandhu",
+        "job": "Miss Universe India ",
+        "country": "Miss Universe India"
+    },
+    {
+        "rank": 100,
+        "name": "Emilia Clarke",
+        "job": "aktris",
+        "country": "Inggris"
+    }
+]
