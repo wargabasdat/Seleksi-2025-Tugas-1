@@ -209,7 +209,36 @@ Nanti 5 file .JSON akan terekspor
 </div>
 
 ## Data Storing
-Kelima file .JSON tadi digabungkan di kode python pada file `PSQLexporter.py`
+Kelima file .JSON tadi digabungkan di kode python pada file `PSQLexporter.py` yang nantinya akan menghasilkan file .sql pada file `manhwalast.sql`.
+
+1. Buat database pada __PostgreSQL__, contoh:
+```sh
+    host="localhost",
+    user="postgres",
+    password="*isi sesuai password masing-masing*",
+    dbname="manhwa",
+    port=5432
+```
+
+2. Intall library di cmd
+```sh
+    $ pip install psycopg2
+```
+
+3. Buka folder hasil cloning
+```sh
+    $ cd Seleksi-2023-Tugas-1/Data Scraping/src
+```
+
+4. Jalankan program 
+```sh
+    $ PSQLexporter.py
+```
+
+5. Export database tersebut dalam formal SQL
+```sh
+    $ pg_dump -U <username> -d <database_name> -s > <output_file.sql>
+```
 
 ## Data Warehouse
 ### 1. Struktur ERD, Diagram Relasional, Fact and Dimension Table
@@ -240,34 +269,7 @@ Kelima file .JSON tadi digabungkan di kode python pada file `PSQLexporter.py`
 
 
 ### Data Storing
-1. Buat database pada __PostgreSQL__, contoh:
-```sh
-    host="localhost",
-    user="postgres",
-    password="@EgojihJiau02",
-    dbname="borma_dago",
-    port=5432
-```
 
-2. Intall library di cmd
-```sh
-    $ pip install psycopg2
-```
-
-3. Buka folder hasil cloning
-```sh
-    $ cd Seleksi-2023-Tugas-1/Data Scraping/src
-```
-
-4. Jalankan program 
-```sh
-    $ storing.py
-```
-
-5. Export database tersebut dalam formal SQL
-```sh
-    $ pg_dump -U <username> -d <database_name> -s > <output_file.sql>
-```
 
 ## JSON Structure
 Berikut adalah *6 instance* data JSON yang dihasilkan:
