@@ -180,6 +180,25 @@ Struktur data dinormalisasi minimal hingga 3NF (Third Normal Form) untuk menghin
   </table>
 </div>
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="Data Storing/screenshot/videogames_first.png" alt=" VideoGames " width="300"/>
+        <br><b>Videogame Table</b>
+      </td>
+      <td align="center">
+        <img src="Data Warehouse/screenshot/total_games_per_director_per_year_first.png" alt="Total Games per Director per Year" width="300"/>
+        <br><b>Total Games per Director per Year</b>
+      </td>
+      <td align="center">
+        <img src="Data Warehouse/screenshot/rating_trend_per_director_first.png" alt="Rating Trend per Director" width="300"/>
+        <br><b>Rating Trend per Director</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ##  Automated Scheduling
 Untuk mendukung pembaruan data secara berkala, proses insert/update data ke database dijadwalkan secara otomatis menggunakan Task Scheduler di Windows. Hal ini memastikan data selalu diperbarui tanpa perlu menjalankan skrip secara manual. Data yang baru atau diedit akan diperbarui dan diupdate informasi "extracted_at"-nya.
 
