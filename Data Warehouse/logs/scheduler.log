@@ -1,0 +1,15 @@
+2025-08-08 20:38:46,003 - INFO - MotoGP ETL Scheduler Starting...
+2025-08-08 20:38:46,004 - INFO - Schedule: Every day at 02:00 AM
+2025-08-08 20:38:46,004 - INFO - Schedule: Every 6 hours during business hours
+2025-08-08 20:38:46,004 - INFO - No batch history found
+2025-08-08 20:38:46,004 - INFO - Running initial ETL process...
+2025-08-08 20:38:46,004 - INFO - Starting scheduled ETL process
+2025-08-08 20:38:46,004 - INFO - Batch timestamp: 2025-08-08 20:38:46.004312
+2025-08-08 20:38:46,059 - INFO - Database connections verified
+2025-08-08 20:38:46,071 - INFO - Executing ETL processing script...
+2025-08-08 20:38:46,213 - INFO - ETL process completed successfully
+2025-08-08 20:38:46,213 - INFO - Records processed: 800
+2025-08-08 20:38:46,213 - INFO - Duration: 0.20 seconds
+2025-08-08 20:38:46,213 - INFO - Run info saved: SUCCESS
+2025-08-08 20:38:46,213 - INFO - Scheduler is running. Press Ctrl+C to stop.
+2025-08-08 20:38:48,851 - INFO - Scheduler stopped by user

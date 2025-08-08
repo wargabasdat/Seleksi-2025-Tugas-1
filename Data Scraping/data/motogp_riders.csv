@@ -1,0 +1,101 @@
+rank,country_code,country_name,rider_name,rider_link,wins,seasons_active,first_win,last_win,is_champion,is_active_2025,row_index
+1,ITA,Italy,Valentino Rossi,https://en.wikipedia.org/wiki/Valentino_Rossi,89,2000–2021,2000 500cc British Grand Prix,2017 MotoGP Dutch TT,True,False,1
+2,ESP,Spain,Marc Márquez,https://en.wikipedia.org/wiki/Marc_M%C3%A1rquez,70,2013–,2013 MotoGP Grand Prix of the Americas,2025 MotoGP Czech Republic Grand Prix,True,True,2
+3,ITA,Italy,Giacomo Agostini,https://en.wikipedia.org/wiki/Giacomo_Agostini,68,1965–1977,1965 500cc Finnish Grand Prix,1976 500cc West German Grand Prix,True,False,3
+4,AUS,Australia,Mick Doohan,https://en.wikipedia.org/wiki/Mick_Doohan,54,1989–1999,1990 500cc Hungarian Grand Prix,1998 500cc Argentine Grand Prix,True,False,4
+5,ESP,Spain,Jorge Lorenzo,https://en.wikipedia.org/wiki/Jorge_Lorenzo,47,2008–2019,2008 MotoGP Portuguese Grand Prix,2018 MotoGP Austrian Grand Prix,True,False,5
+6,AUS,Australia,Casey Stoner,https://en.wikipedia.org/wiki/Casey_Stoner,38,2006–2012,2007 MotoGP Qatar Grand Prix,2012 MotoGP Australian Grand Prix,True,False,6
+7,UK,United Kingdom,Mike Hailwood,https://en.wikipedia.org/wiki/Mike_Hailwood,37,1958–1967,1961 500cc Isle of Man TT,1967 500cc Canadian Grand Prix,True,False,7
+8,USA,United States,Eddie Lawson,https://en.wikipedia.org/wiki/Eddie_Lawson,31,1983–1992,1984 500cc South African Grand Prix,1992 500cc Hungarian Grand Prix,True,False,8
+8,ESP,Spain,Dani Pedrosa,https://en.wikipedia.org/wiki/Dani_Pedrosa,31,2006–201820212023–2024,2006 MotoGP Chinese Grand Prix,2017 MotoGP Valencian Grand Prix,True,False,9
+10,ITA,Italy,Francesco Bagnaia,https://en.wikipedia.org/wiki/Francesco_Bagnaia,30,2019–,2021 MotoGP Aragon Grand Prix,2025 MotoGP Grand Prix of the Americas,True,True,10
+11,USA,United States,Kevin Schwantz,https://en.wikipedia.org/wiki/Kevin_Schwantz,25,1986–1995,1988 500cc Japanese Grand Prix,1994 500cc British Grand Prix,True,False,11
+12,USA,United States,Wayne Rainey,https://en.wikipedia.org/wiki/Wayne_Rainey,24,1988–1993,1988 500cc British Grand Prix,1993 500cc Czech Republic Grand Prix,True,False,12
+13,UK,United Kingdom,Geoff Duke,https://en.wikipedia.org/wiki/Geoff_Duke,22,1950–1959,1950 500cc Isle of Man TT,1958 500cc Swedish Grand Prix,True,False,13
+13,UK,United Kingdom,John Surtees,https://en.wikipedia.org/wiki/John_Surtees,22,19521954–1960,1956 500cc Isle of Man TT,1960 500cc Nations Grand Prix,True,False,14
+13,USA,United States,Kenny Roberts,https://en.wikipedia.org/wiki/Kenny_Roberts,22,1978–1983,1978 500cc Austrian Grand Prix,1983 500cc San Marino Grand Prix,True,False,15
+16,USA,United States,Freddie Spencer,https://en.wikipedia.org/wiki/Freddie_Spencer,20,1980–198719891993,1982 500cc Belgian Grand Prix,1985 500cc Swedish Grand Prix,True,False,16
+17,UK,United Kingdom,Barry Sheene,https://en.wikipedia.org/wiki/Barry_Sheene,19,1974–1984,1975 500cc Dutch TT,1981 500cc Swedish Grand Prix,True,False,17
+18,AUS,Australia,Wayne Gardner,https://en.wikipedia.org/wiki/Wayne_Gardner,18,1983–1992,1986 500cc Spanish Grand Prix,1992 500cc British Grand Prix,True,False,18
+19,ESP,Spain,Àlex Crivillé,https://en.wikipedia.org/wiki/%C3%80lex_Crivill%C3%A9,15,1992–2001,1992 500cc Dutch TT,2000 500cc French Grand Prix,True,False,19
+19,ITA,Italy,Andrea Dovizioso,https://en.wikipedia.org/wiki/Andrea_Dovizioso,15,2008–2022,2009 MotoGP British Grand Prix,2020 MotoGP Austrian Grand Prix,True,False,20
+21,USA,United States,Randy Mamola,https://en.wikipedia.org/wiki/Randy_Mamola,13,1979–19901992,1980 500cc Belgian Grand Prix,1987 500cc San Marino Grand Prix,False,False,21
+21,ITA,Italy,Max Biaggi,https://en.wikipedia.org/wiki/Max_Biaggi,13,1998–2005,1998 500cc Japanese Grand Prix,2004 MotoGP German Grand Prix,True,False,22
+23,UK,United Kingdom,Phil Read,https://en.wikipedia.org/wiki/Phil_Read,11,1961–196419711973–1976,1964 500cc Ulster Grand Prix,1975 500cc Czechoslovak Grand Prix,True,False,23
+23,FRA,France,Fabio Quartararo,https://en.wikipedia.org/wiki/Fabio_Quartararo,11,2019–,2020 MotoGP Spanish Grand Prix,2022 MotoGP German Grand Prix,True,True,24
+25,ESP,Spain,Maverick Viñales,https://en.wikipedia.org/wiki/Maverick_Vi%C3%B1ales,10,2015–,2016 MotoGP British Grand Prix,2024 MotoGP Grand Prix of the Americas,True,True,25
+26,ESP,Spain,Sete Gibernau,https://en.wikipedia.org/wiki/Sete_Gibernau,9,1997–20062009,2001 500cc Valencian Grand Prix,2004 MotoGP Qatar Grand Prix,False,False,26
+26,ITA,Italy,Loris Capirossi,https://en.wikipedia.org/wiki/Loris_Capirossi,9,1995–19962000–2011,1996 500cc Australian Grand Prix,2007 MotoGP Japanese Grand Prix,True,False,27
+28,RAN,Federation of Rhodesia and Nyasaland,Gary Hocking,https://en.wikipedia.org/wiki/Gary_Hocking,8,1958–19591961–1962,1961 500cc West German Grand Prix,1962 500cc Isle of Man TT,True,False,28
+28,ITA,Italy,Luca Cadalora,https://en.wikipedia.org/wiki/Luca_Cadalora,8,19891993–2000,1993 500cc British Grand Prix,1996 500cc German Grand Prix,True,False,29
+28,USA,United States,Kenny Roberts Jr.,https://en.wikipedia.org/wiki/Kenny_Roberts_Jr.,8,1996–2007,1999 500cc Malaysian Grand Prix,2000 500cc Pacific Grand Prix,True,False,30
+28,ESP,Spain,Jorge Martín,https://en.wikipedia.org/wiki/Jorge_Mart%C3%ADn,8,2021–,2021 MotoGP Styrian Grand Prix,2024 MotoGP Indonesian Grand Prix,True,True,31
+32,BRA,Brazil,Alex Barros,https://en.wikipedia.org/wiki/Alex_Barros,7,1990–20052007,1993 500cc FIM Grand Prix,2005 MotoGP Portuguese Grand Prix,False,False,32
+32,ITA,Italy,Enea Bastianini,https://en.wikipedia.org/wiki/Enea_Bastianini,7,2021–,2022 MotoGP Qatar Grand Prix,2024 MotoGP Emilia Romagna Grand Prix,True,True,33
+34,ITA,Italy,Umberto Masetti,https://en.wikipedia.org/wiki/Umberto_Masetti,6,1950–19521954–1958,1950 500cc Belgian Grand Prix,1955 500cc Nations Grand Prix,True,False,34
+34,ITA,Italy,Marco Lucchinelli,https://en.wikipedia.org/wiki/Marco_Lucchinelli,6,1975–1986,1980 500cc German Grand Prix,1981 500cc Finnish Grand Prix,True,False,35
+34,ESP,Spain,Álex Rins,https://en.wikipedia.org/wiki/%C3%81lex_Rins,6,2017–,2019 MotoGP Grand Prix of the Americas,2023 MotoGP Grand Prix of the Americas,False,True,36
+37,UK,United Kingdom,Leslie Graham,https://en.wikipedia.org/wiki/Leslie_Graham,5,1949–1953,1949 500cc Swiss Grand Prix,1952 500cc Spanish Grand Prix,True,False,37
+37,NED,Netherlands,Wil Hartog,https://en.wikipedia.org/wiki/Wil_Hartog,5,1972–19731975–1981,1977 500cc Dutch TT,1980 500cc Finnish Grand Prix,False,False,38
+37,ITA,Italy,Franco Uncini,https://en.wikipedia.org/wiki/Franco_Uncini,5,1979–1985,1982 500cc Austrian Grand Prix,1982 500cc British Grand Prix,True,False,39
+37,ITA,Italy,Marco Melandri,https://en.wikipedia.org/wiki/Marco_Melandri,5,2003–20102015,2005 MotoGP Turkish Grand Prix,2006 MotoGP Australian Grand Prix,True,False,40
+37,PRT,Portugal,Miguel Oliveira,https://en.wikipedia.org/wiki/Miguel_Oliveira,5,2019–,2020 MotoGP Styrian Grand Prix,2022 MotoGP Thailand Grand Prix,False,True,41
+42,IRL,Republic of Ireland,Reg Armstrong,https://en.wikipedia.org/wiki/Reg_Armstrong,4,1949–1956,1952 500cc Isle of Man TT,1956 500cc West German Grand Prix,False,False,42
+42,ITA,Italy,Libero Liberati,https://en.wikipedia.org/wiki/Libero_Liberati,4,1952–19531955–1957,1957 500cc German Grand Prix,1957 500cc Nations Grand Prix,True,False,43
+42,USA,United States,John Kocinski,https://en.wikipedia.org/wiki/John_Kocinski,4,19891991–19941998–1999,1991 500cc Malaysian Grand Prix,1994 500cc Australian Grand Prix,True,False,44
+42,JPN,Japan,Tadayuki Okada,https://en.wikipedia.org/wiki/Tadayuki_Okada,4,1996–20002008,1997 500cc Indonesian Grand Prix,1999 500cc Australian Grand Prix,False,False,45
+42,AUS,Australia,Jack Miller,https://en.wikipedia.org/wiki/Jack_Miller_(motorcyclist),4,2015–,2016 MotoGP Dutch TT,2022 MotoGP Japanese Grand Prix,False,True,46
+42,ITA,Italy,Marco Bezzecchi,https://en.wikipedia.org/wiki/Marco_Bezzecchi,4,2022–,2023 MotoGP Argentine Grand Prix,2025 MotoGP British Grand Prix,False,True,47
+48,ITA,Italy,Alfredo Milani,https://en.wikipedia.org/wiki/Alfredo_Milani,3,1950–1957,1951 500cc French Grand Prix,1953 500cc Belgian Grand Prix,False,False,48
+48,UK,United Kingdom,John Hartle,https://en.wikipedia.org/wiki/John_Hartle,3,1955–19561958–19601963–19641967–1968,1956 500cc Ulster Grand Prix,1963 500cc Dutch TT,False,False,49
+48,ITA,Italy,Alberto Pagani,https://en.wikipedia.org/wiki/Alberto_Pagani,3,1960–19611968–1972,1969 500cc Nations Grand Prix,1972 500cc Yugoslavian Grand Prix,False,False,50
+48,AUS,Australia,Jack Findlay,https://en.wikipedia.org/wiki/Jack_Findlay,3,1958–1978,1971 500cc Ulster Grand Prix,1977 500cc Austrian Grand Prix,False,False,51
+48,USA,United States,Pat Hennen,https://en.wikipedia.org/wiki/Pat_Hennen,3,1976–1978,1976 500cc Finnish Grand Prix,1978 500cc Spanish Grand Prix,False,False,52
+48,VEN,Venezuela,Johnny Cecotto,https://en.wikipedia.org/wiki/Johnny_Cecotto,3,1976–1980,1977 500cc Finnish Grand Prix,1978 500cc Dutch TT,True,False,53
+48,AUS,Australia,Daryl Beattie,https://en.wikipedia.org/wiki/Daryl_Beattie,3,1992–1997,1993 500cc German Grand Prix,1995 500cc German Grand Prix,False,False,54
+48,JPN,Japan,Norifumi Abe,https://en.wikipedia.org/wiki/Norifumi_Abe,3,1994–2004,1996 500cc Japanese Grand Prix,2000 500cc Japanese Grand Prix,False,False,55
+48,AUS,Australia,Garry McCoy,https://en.wikipedia.org/wiki/Garry_McCoy,3,1998–20042006,2000 500cc South African Grand Prix,2000 500cc Valencian Grand Prix,False,False,56
+48,USA,United States,Nicky Hayden,https://en.wikipedia.org/wiki/Nicky_Hayden,3,2003–2016,2005 MotoGP United States Grand Prix,2006 MotoGP United States Grand Prix,True,False,57
+48,UK,United Kingdom,Cal Crutchlow,https://en.wikipedia.org/wiki/Cal_Crutchlow,3,2011–2022,2016 MotoGP Czech Republic Grand Prix,2018 MotoGP Argentine Grand Prix,False,False,58
+48,ITA,Italy,Franco Morbidelli,https://en.wikipedia.org/wiki/Franco_Morbidelli,3,2018–,2020 MotoGP San Marino Grand Prix,2020 MotoGP Valencian Grand Prix,True,True,59
+48,ESP,Spain,Aleix Espargaró,https://en.wikipedia.org/wiki/Aleix_Espargar%C3%B3,3,2009–20102012–2024,2022 MotoGP Argentine Grand Prix,2023 MotoGP Catalan Grand Prix,False,False,60
+61,ITA,Italy,Nello Pagani,https://en.wikipedia.org/wiki/Nello_Pagani,2,1949–1955,1949 500cc Dutch TT,1949 500cc Nations Grand Prix,True,False,61
+61,UK,United Kingdom,Fergus Anderson,https://en.wikipedia.org/wiki/Fergus_Anderson,2,19511953–1954,1951 500cc Swiss Grand Prix,1953 500cc Spanish Grand Prix,True,False,62
+61,SRA,Southern Rhodesia,Ray Amm,https://en.wikipedia.org/wiki/Ray_Amm,2,1951–1954,1953 500cc Isle of Man TT,1954 500cc Isle of Man TT,False,False,63
+61,RAN,Rhodesia,Jim Redman,https://en.wikipedia.org/wiki/Jim_Redman,2,1959–19601966,1966 500cc West German Grand Prix,1966 500cc Dutch TT,True,False,64
+61,FIN,Finland,Jarno Saarinen,https://en.wikipedia.org/wiki/Jarno_Saarinen,2,1973,1973 500cc French Grand Prix,1973 500cc Austrian Grand Prix,True,False,65
+61,ITA,Italy,Virginio Ferrari,https://en.wikipedia.org/wiki/Virginio_Ferrari,2,1976–1985,1978 500cc German Grand Prix,1979 500cc Dutch TT,False,False,66
+61,NED,Netherlands,Jack Middelburg,https://en.wikipedia.org/wiki/Jack_Middelburg,2,1977–1983,1980 500cc Dutch TT,1981 500cc British Grand Prix,False,False,67
+61,ESP,Spain,Carlos Checa,https://en.wikipedia.org/wiki/Carlos_Checa,2,1995–20072010,1996 500cc Catalan Grand Prix,1998 500cc Madrid Grand Prix,False,False,68
+61,JPN,Japan,Makoto Tamada,https://en.wikipedia.org/wiki/Makoto_Tamada,2,2003–2007,2004 MotoGP Rio de Janeiro Grand Prix,2004 MotoGP Japanese Grand Prix,False,False,69
+61,ITA,Italy,Danilo Petrucci,https://en.wikipedia.org/wiki/Danilo_Petrucci,2,2012–2023,2019 MotoGP Italian Grand Prix,2020 MotoGP French Grand Prix,False,False,70
+61,ZAF,South Africa,Brad Binder,https://en.wikipedia.org/wiki/Brad_Binder,2,2020–,2020 MotoGP Czech Republic Grand Prix,2021 MotoGP Austrian Grand Prix,True,True,71
+61,FRA,France,Johann Zarco,https://en.wikipedia.org/wiki/Johann_Zarco,2,2017–,2023 MotoGP Australian Grand Prix,2025 MotoGP French Grand Prix,True,True,72
+73,UK,United Kingdom,Harold Daniell,https://en.wikipedia.org/wiki/Harold_Daniell,1,1949–1950,1949 500cc Isle of Man TT,1949 500cc Isle of Man TT,False,False,73
+73,UK,United Kingdom,Bill Doran,https://en.wikipedia.org/wiki/Bill_Doran_(motorcyclist),1,19491951–1953,1949 500cc Belgian Grand Prix,1949 500cc Belgian Grand Prix,False,False,74
+73,UK,United Kingdom,Jack Brett,https://en.wikipedia.org/wiki/Jack_Brett,1,1949–19571959–1960,1952 500cc Swiss Grand Prix,1952 500cc Swiss Grand Prix,False,False,75
+73,UK,United Kingdom,Cromie McCandless,https://en.wikipedia.org/wiki/Cromie_McCandless,1,1949–1952,1952 500cc Ulster Grand Prix,1952 500cc Ulster Grand Prix,False,False,76
+73,AUS,Australia,Ken Kavanagh,https://en.wikipedia.org/wiki/Ken_Kavanagh,1,1951–19551959,1953 500cc Ulster Grand Prix,1953 500cc Ulster Grand Prix,False,False,77
+73,FRA,France,Pierre Monneret,https://en.wikipedia.org/wiki/Pierre_Monneret,1,1953–1956,1954 500cc French Grand Prix,1954 500cc French Grand Prix,False,False,78
+73,UK,United Kingdom,Dickie Dale,https://en.wikipedia.org/wiki/Dickie_Dale,1,19501953–1960,1954 500cc Spanish Grand Prix,1954 500cc Spanish Grand Prix,False,False,79
+73,ITA,Italy,Giuseppe Colnago,https://en.wikipedia.org/wiki/Giuseppe_Colnago,1,1952–195319551957,1955 500cc Belgian Grand Prix,1955 500cc Belgian Grand Prix,False,False,80
+73,UK,United Kingdom,Bill Lomas,https://en.wikipedia.org/wiki/Bill_Lomas,1,19521954–1956,1955 500cc Ulster Grand Prix,1955 500cc Ulster Grand Prix,True,False,81
+73,UK,United Kingdom,Bob McIntyre,https://en.wikipedia.org/wiki/Bob_McIntyre_(motorcyclist),1,1954–1961,1957 500cc Isle of Man TT,1957 500cc Isle of Man TT,False,False,82
+73,ITA,Italy,Remo Venturi,https://en.wikipedia.org/wiki/Remo_Venturi,1,1958–196019621964,1960 500cc Dutch TT,1960 500cc Dutch TT,False,False,83
+73,ARG,Argentina,Jorge Kissling,https://en.wikipedia.org/wiki/Jorge_Kissling,1,1961–1963,1961 500cc Argentine Grand Prix,1961 500cc Argentine Grand Prix,False,False,84
+73,UK,United Kingdom,Alan Shepherd,https://en.wikipedia.org/wiki/Alan_Shepherd,1,1959–19601962–1963,1962 500cc Finnish Grand Prix,1962 500cc Finnish Grand Prix,False,False,85
+73,ARG,Argentina,Benedicto Caldarella,https://en.wikipedia.org/wiki/Benedicto_Caldarella,1,1962–1964,1962 500cc Argentine Grand Prix,1962 500cc Argentine Grand Prix,False,False,86
+73,AUS,Australia,Jack Ahearn,https://en.wikipedia.org/wiki/Jack_Ahearn,1,1954–195519581962–1966,1964 500cc Finnish Grand Prix,1964 500cc Finnish Grand Prix,False,False,87
+73,UK,United Kingdom,Dick Creith,https://en.wikipedia.org/wiki/Dick_Creith,1,1964–1965,1965 500cc Ulster Grand Prix,1965 500cc Ulster Grand Prix,False,False,88
+73,CSK,Czechoslovakia,František Šťastný,https://en.wikipedia.org/wiki/Franti%C5%A1ek_%C5%A0%C5%A5astn%C3%BD,1,1962–19631965–1966,1966 500cc East German Grand Prix,1966 500cc East German Grand Prix,False,False,89
+73,UK,United Kingdom,Godfrey Nash,https://en.wikipedia.org/wiki/Godfrey_Nash,1,1968–1971,1969 500cc Yugoslavian Grand Prix,1969 500cc Yugoslavian Grand Prix,False,False,90
+73,ITA,Italy,Angelo Bergamonti,https://en.wikipedia.org/wiki/Angelo_Bergamonti,1,1967–1970,1970 500cc Spanish Grand Prix,1970 500cc Spanish Grand Prix,False,False,91
+73,UK,United Kingdom,Dave Simmonds,https://en.wikipedia.org/wiki/Dave_Simmonds,1,1970–1972,1971 500cc Spanish Grand Prix,1971 500cc Spanish Grand Prix,True,False,92
+73,UK,United Kingdom,Chas Mortimer,https://en.wikipedia.org/wiki/Chas_Mortimer,1,1972–1976,1972 500cc Spanish Grand Prix,1972 500cc Spanish Grand Prix,False,False,93
+73,NZL,New Zealand,Kim Newcombe,https://en.wikipedia.org/wiki/Kim_Newcombe,1,1972–1973,1973 500cc Yugoslavian Grand Prix,1973 500cc Yugoslavian Grand Prix,False,False,94
+73,GER,Germany,Edmund Czihak,https://en.wikipedia.org/w/index.php?title=Edmund_Czihak&action=edit&redlink=1,1,1974,1974 500cc German Grand Prix,1974 500cc German Grand Prix,False,False,95
+73,ITA,Italy,Gianfranco Bonera,https://en.wikipedia.org/wiki/Gianfranco_Bonera,1,1973–19751977–19781980,1974 500cc Nations Grand Prix,1974 500cc Nations Grand Prix,False,False,96
+73,UK,United Kingdom,Phil Carpenter,https://en.wikipedia.org/w/index.php?title=Phil_Carpenter_(motorcyclist)&action=edit&redlink=1,1,1974,1974 500cc Isle of Man TT,1974 500cc Isle of Man TT,False,False,97
+73,FIN,Finland,Teuvo Länsivuori,https://en.wikipedia.org/wiki/Teuvo_L%C3%A4nsivuori,1,1974–1978,1974 500cc Swedish Grand Prix,1974 500cc Swedish Grand Prix,False,False,98
+73,JPN,Japan,Hideo Kanaya,https://en.wikipedia.org/wiki/Hideo_Kanaya,1,1972–19731975,1975 500cc Austrian Grand Prix,1975 500cc Austrian Grand Prix,False,False,99
+73,UK,United Kingdom,Mick Grant,https://en.wikipedia.org/wiki/Mick_Grant,1,19701972–197619791984,1975 500cc Isle of Man TT,1975 500cc Isle of Man TT,False,False,100
