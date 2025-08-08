@@ -9,7 +9,6 @@ def clean_data(data, is_json=False):
         cleaned_text = data.encode("utf-8", "ignore").decode("utf-8")
         return f"'{cleaned_text.replace("'", "''")}'"
     elif isinstance(data, list):
-        # Mengonversi list menjadi string JSON
         json_string = json.dumps(data, ensure_ascii=False)
         cleaned_json = json_string.encode("utf-8", "ignore").decode("utf-8")
         return f"'{cleaned_json.replace("'", "''")}'"
@@ -17,10 +16,8 @@ def clean_data(data, is_json=False):
         return str(data)
 
 def main():
-    # Menentukan path relatif ke folder file JSON
     DATA_DIR = os.path.join(os.pardir, os.pardir, 'Data Scraping', 'data')
 
-    # Periksa apakah semua file JSON yang dibutuhkan ada di awal
     required_files = {
         "companies_data.json": os.path.join(DATA_DIR, "companies_data.json"),
         "new_authors_data.json": os.path.join(DATA_DIR, "new_authors_data.json"),
