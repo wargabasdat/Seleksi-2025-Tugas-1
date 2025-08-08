@@ -128,7 +128,7 @@ DBMS yang digunakan adalah **MariaDB / MySQL** karena mendukung tipe data yang d
 # Screenshots
 <img src="Data Storing/screenshot/painting.png" width="500">
 <img src="Data Storing/screenshot/museum(1).png" width="500">
-<img src="Data Storing/screenshot/artist(1).png" width="500">
+<img src="Data Storing/screenshot/art_subject.png" width="500">
 
 # Library
 ### Library yang Digunakan
