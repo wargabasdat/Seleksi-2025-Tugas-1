@@ -1,0 +1,38 @@
+[
+    {
+        "name":"The Show",
+        "schedule":"Tuesdays",
+        "episode":384,
+        "station":"SBS"
+    },
+    {
+        "name":"Show Champion",
+        "schedule":"Wednesdays",
+        "episode":532,
+        "station":"MBC M"
+    },
+    {
+        "name":"M Countdown",
+        "schedule":"Thursdays",
+        "episode":899,
+        "station":"Mnet"
+    },
+    {
+        "name":"Music Bank",
+        "schedule":"Fridays",
+        "episode":1256,
+        "station":"KBS"
+    },
+    {
+        "name":"Show! Music Core",
+        "schedule":"Saturdays",
+        "episode":906,
+        "station":"MBC"
+    },
+    {
+        "name":"Inkigayo",
+        "schedule":"Sundays",
+        "episode":1276,
+        "station":"SBS"
+    }
+]
