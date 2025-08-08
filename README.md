@@ -117,11 +117,96 @@ Topik ini dipilih karena data roller coaster memiliki struktur yang jelas, menar
 
 ## Struktur ERD dan Diagram Relasional RDBMS
 
-- **ERD (Entity-Relationship Diagram)**    
+- ### ERD (Entity-Relationship Diagram) ###
 ![ERD Roller Coaster](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/design/ERD.jpg)
 
-- **Diagram Relasional RDBMS**  
+Terdapat 6 entitas utama dalam ERD ini:
+1. **RollerCoaster**
+   - Atribut: `coaster_id`, `name`, `type`, `design`, `status`, `opened`
+   - Primary Key: `coaster_id`
+   - Relasi:
+        - **Belongs To** -> `Park`: Many to One
+        yaitu setiap roller coaster berada di tepat satu taman hiburan dan satu taman hiburan dapat memiliki banyak roller coaster.
+        - **Made By** -> `Manufacturer`: Many to One
+        yaitu setiap roller coaster dibuat oleh tepat satu produsen dan satu produsen dapat membuat banyak roller coaster.
+
+2. **Park**
+    - Atribut: `park_id`, `park_name`
+    - Primary Key: `park_id`
+    - Relasi:
+        - **Belongs To** -> `RollerCoaster`: One to Many
+        yaitu setiap taman hiburan dapat memiliki banyak roller coaster, tetapi setiap roller coaster hanya berada di satu taman hiburan.
+        - **Located In** -> `City`: Many to One
+        yaitu setiap taman hiburan berada di tepat satu kota dan satu kota dapat memiliki banyak taman hiburan.
+
+3. **Manufacturer**
+    - Atribut: `manufacturer_id`, `manufacturer_name`
+    - Primary Key: `manufacturer_id`
+    - Relasi:
+        - **Made By** -> `RollerCoaster`: One to Many
+        yaitu setiap produsen dapat membuat banyak roller coaster, tetapi setiap roller coaster hanya dibuat oleh satu produsen.
+        - **Located In** -> `City`: Many to One
+        yaitu setiap produsen berada di tepat satu kota dan satu kota dapat memiliki banyak produsen.
+
+4. **City**
+    - Atribut: `city_id`, `city_name`
+    - Primary Key: `city_id`
+    - Relasi:
+        - **Located In** -> `Park`: One to Many
+        yaitu setiap kota dapat memiliki banyak taman hiburan, tetapi setiap taman hiburan hanya berada di satu kota.
+        - **Located In** -> `Manufacturer`: One to Many
+        yaitu setiap kota dapat memiliki banyak produsen, tetapi setiap produsen hanya berada di satu kota
+        - **Located In** -> `Region`: Many to One
+        yaitu setiap kota berada di tepat satu wilayah dan satu wilayah dapat memiliki banyak kota.
+
+5. **Region**
+    - Atribut: `region_id`, `region_name`
+    - Primary Key: `region_id`
+    - Relasi:
+        - **Located In** -> `City`: One to Many
+        yaitu setiap wilayah dapat memiliki banyak kota, tetapi setiap kota hanya berada di satu wilayah.
+        - **Located In** -> `Country`: Many to One
+        yaitu setiap wilayah berada di tepat satu negara dan satu negara dapat memiliki banyak wilayah.
+
+6. **Country**
+    - Atribut: `country_id`, `country_name`
+    - Primary Key: `country_id`
+    - Relasi:
+        - **Located In** -> `Region`: One to Many
+        yaitu setiap negara dapat memiliki banyak wilayah, tetapi setiap wilayah hanya berada di satu negara.
+
+- ### Diagram Relasional RDBMS ###
 ![Diagram Relasional Roller Coaster](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/design/Relational_Diagram.jpg)
+
+Terdapat 6 tabel dalam diagram relasional ini yang merepresentasikan entitas dalam ERD:
+1. **RollerCoaster**
+    - Atribut: `coaster_id`, `park_id`, `manufacturer_id`, coaster_name`, coaster_type`, `coaster_design`, `coaster_status`, `opened`
+    - Primary Key: `coaster_id`
+    - Foreign Key: `park_id` (merujuk ke `Park.park_id`), `manufacturer_id` (merujuk ke `Manufacturer.manufacturer_id`)
+    
+2. **Park**
+    - Atribut: `park_id`, `park_name`, `city_id`
+    - Primary Key: `park_id`
+    - Foreign Key: `city_id` (merujuk ke `City.city_id`)
+
+3. **Manufacturer**
+    - Atribut: `manufacturer_id`, `manufacturer_name`, `city_id`
+    - Primary Key: `manufacturer_id`
+    - Foreign Key: `city_id` (merujuk ke `City.city_id`)
+
+4. **City**
+    - Atribut: `city_id`, `city_name`, `region_id`
+    - Primary Key: `city_id`
+    - Foreign Key: `region_id` (merujuk ke `Region.region_id`)
+
+5. **Region**
+    - Atribut: `region_id`, `region_name`, `country_id`
+    - Primary Key: `region_id`
+    - Foreign Key: `country_id` (merujuk ke `Country.country_id`)
+
+6. **Country**
+    - Atribut: `country_id`, `country_name`
+    - Primary Key: `country_id`
 
 ## Proses Translasi ERD menjadi Diagram Relasional
 Dalam ERD terdapat 6 entitas, yaitu `RollerCoaster`, `Park`, `Manufacturer`, `City`, `Region`, dan `Country`.
@@ -135,7 +220,23 @@ Seluruh hubungan antar entitas adalah one-to-many, sehingga proses translasi dil
 
 ## Screenshot Program
 
+1. **Hasil insert file SQL ke database**  
+![Insert File SQL ke Database](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/insertsql.png)
 
+2. **Hasil show table**
+![Show Table](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/showtable.png)
+
+3. **Hasil query untuk melihat data 10 roller coaster pertama**
+![Hasil Query 10 Roller Coaster Pertama](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/rollercoaster.png)
+
+4. **Hasil query untuk melihat data 10 roller coaster yang terletak di US**
+![Hasil Query 10 Roller Coaster yang Terletak di US](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/rc_in_us.png)
+
+5. **Hasil query untuk melihat data 10 taman hiburan roller coaster yang terletak di China**
+![Hasil Query 10 Taman Hiburan Roller Coaster yang Terletak di China](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/park_in_china.png)
+
+6. **Hasil query untuk melihat 10 produsen roller coaster teratas berdasarkan jumlah roller coaster yang mereka buat**
+![Hasil Query 10 Produsen Roller Coaster Teratas](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/top_manufacturer.png)
 
 ## Referensi
 
