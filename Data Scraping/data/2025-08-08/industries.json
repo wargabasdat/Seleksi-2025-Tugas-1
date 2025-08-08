@@ -1,0 +1,322 @@
+[
+  {
+    "industry_id": "ind_620636e9",
+    "industry_name": "Outsourcing",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_cdd630a5",
+    "industry_name": "Digital Entertainment",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_7a2c34cb",
+    "industry_name": "Logistics",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_cd37d9da",
+    "industry_name": "Clean Technology IT",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_3ceb499f",
+    "industry_name": "Internet marketing",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_96d1e119",
+    "industry_name": "IT & Cybersecurity",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_4706640a",
+    "industry_name": "Fashion",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_ee0288ec",
+    "industry_name": "Education Tech",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_f79d77f2",
+    "industry_name": "Property marketplaces",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_5c278c2e",
+    "industry_name": "SaaS",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_b1455e5b",
+    "industry_name": "Communities",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_aacfcbaa",
+    "industry_name": "Reviews & Recommendations",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_94b96d4d",
+    "industry_name": "Interface Design",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_9adbbf98",
+    "industry_name": "Web Development",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_c1f5c458",
+    "industry_name": "Enterprise Software",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_3bc9df58",
+    "industry_name": "Beauty ecommerce platforms",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_9c7cd759",
+    "industry_name": "Digital Media",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_38b5b5f6",
+    "industry_name": "Advertising",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_34c808d0",
+    "industry_name": "News",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_2a78df85",
+    "industry_name": "Internet technology",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_f9203ec0",
+    "industry_name": "Coworking",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_0a4cb9e1",
+    "industry_name": "Mobile Games",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_e8152379",
+    "industry_name": "General B2C/C2C",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_3c67cd46",
+    "industry_name": "Financial product comparison",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_49936202",
+    "industry_name": "Investment tools and platforms",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_8bbf74e4",
+    "industry_name": "Payments and remittance",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_eb1b15a2",
+    "industry_name": "Enterprise Application",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_9a942cd9",
+    "industry_name": "Human Resource",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_cd20ef17",
+    "industry_name": "Social Media Marketing",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_f615b63a",
+    "industry_name": "Social Recruiting",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_9ad05227",
+    "industry_name": "Software",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_ee27cde0",
+    "industry_name": "Marketing Automation",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_1445c481",
+    "industry_name": "Hardware & Software",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_5982950c",
+    "industry_name": "B2B ecommerce",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_b2698b63",
+    "industry_name": "Financial exchanges",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_86bd4849",
+    "industry_name": "Network Security",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_58b97f3c",
+    "industry_name": "Ecommerce aggregators",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_f175bc98",
+    "industry_name": "Miscellaneous ecommerce",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_ae1723e7",
+    "industry_name": "Designers",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_ccd3e1d8",
+    "industry_name": "Restaurants & Food",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_f4403288",
+    "industry_name": "Marketplaces (fashion and beauty)",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_5f4445a1",
+    "industry_name": "Entertainment Industry",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_933bf21a",
+    "industry_name": "Green",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_131260cb",
+    "industry_name": "Music",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_17088134",
+    "industry_name": "Recycling",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_ce55655f",
+    "industry_name": "Agricultural technology",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_4add517d",
+    "industry_name": "Artificial Intelligence",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_5cbd5840",
+    "industry_name": "Services",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_fb09ffa6",
+    "industry_name": "Hotels & Accomodation",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_214e2ba6",
+    "industry_name": "Telecommunications",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_145a070a",
+    "industry_name": "Transportation",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_6ae7a749",
+    "industry_name": "Full-time",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_3d84a8bd",
+    "industry_name": "Social Media",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_8b0109dd",
+    "industry_name": "Food and groceries platforms",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_168a3791",
+    "industry_name": "Developer APIs",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_f2047914",
+    "industry_name": "Digital bank",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_398ed329",
+    "industry_name": "Games",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_9c30e11e",
+    "industry_name": "Non Profit",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_4c02e384",
+    "industry_name": "Big Data",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_9df311e3",
+    "industry_name": "Retail (fashion and beauty)",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_d058025d",
+    "industry_name": "Robotics",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_cbc3a2b6",
+    "industry_name": "Healthtech AI",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_56148a8e",
+    "industry_name": "Consulting",
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "industry_id": "ind_b070ce5d",
+    "industry_name": "Consumer Electronics",
+    "scraped_at": "2025-08-08 20:00:02"
+  }
+]

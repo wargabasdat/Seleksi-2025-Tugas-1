@@ -1,0 +1,1026 @@
+[
+  {
+    "compensation_id": "pkg_93d06655",
+    "min_salary": 8000000,
+    "max_salary": 10000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_9749583d",
+    "min_salary": 1,
+    "max_salary": 2,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_567d01d6",
+    "min_salary": 6000000,
+    "max_salary": 6000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_822c6f38",
+    "min_salary": 10000000,
+    "max_salary": 10500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_8a019595",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_4140485c",
+    "min_salary": 8000000,
+    "max_salary": 8500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_c05686ed",
+    "min_salary": 1000,
+    "max_salary": 1200,
+    "currency": "MYR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_bd1e28a8",
+    "min_salary": 7000000,
+    "max_salary": 8500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_35e73ccb",
+    "min_salary": 3600,
+    "max_salary": 3900,
+    "currency": "SGD",
+    "with_equity": true,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_9e20deec",
+    "min_salary": 8000000,
+    "max_salary": 11000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_b9cec660",
+    "min_salary": 6000000,
+    "max_salary": 9000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_3d6a9c67",
+    "min_salary": 7000000,
+    "max_salary": 10000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_316c2cbb",
+    "min_salary": 9500000,
+    "max_salary": 10500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_da30dd4c",
+    "min_salary": 7000000,
+    "max_salary": 7500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_de1249bf",
+    "min_salary": 7000000,
+    "max_salary": 9500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_21a93f57",
+    "min_salary": 10000000,
+    "max_salary": 13000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_3c9de70a",
+    "min_salary": 11000000,
+    "max_salary": 15000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_253c02c5",
+    "min_salary": 5300000,
+    "max_salary": 8000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_64d51dde",
+    "min_salary": 7000000,
+    "max_salary": 9000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_67eb88f3",
+    "min_salary": 2000000,
+    "max_salary": 2000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_d5506bd4",
+    "min_salary": 7500000,
+    "max_salary": 12000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_5da31994",
+    "min_salary": 5500000,
+    "max_salary": 6500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_15bfbc3e",
+    "min_salary": 5500000,
+    "max_salary": 6000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_25e4938d",
+    "min_salary": 4000000,
+    "max_salary": 5000000,
+    "currency": "VND",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_1b1784b6",
+    "min_salary": 13000000,
+    "max_salary": 14000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_76cbc06a",
+    "min_salary": 11000000,
+    "max_salary": 13000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_0f9256ca",
+    "min_salary": 15500000,
+    "max_salary": 16500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_73c134e8",
+    "min_salary": 7500000,
+    "max_salary": 8000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_2958d81b",
+    "min_salary": 7200000,
+    "max_salary": 10800000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_e90aec12",
+    "min_salary": 5000000,
+    "max_salary": 8000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_608ea1fd",
+    "min_salary": 16500000,
+    "max_salary": 18500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_982fea78",
+    "min_salary": 9000000,
+    "max_salary": 10000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_6a83c388",
+    "min_salary": 14000000,
+    "max_salary": 18000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_cf7c1d4a",
+    "min_salary": 5500000,
+    "max_salary": 7000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_838c6091",
+    "min_salary": 7000000,
+    "max_salary": 12000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_81ad9c08",
+    "min_salary": 4000000,
+    "max_salary": 5000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_fcfc528b",
+    "min_salary": 10000000,
+    "max_salary": 11000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_8fe51175",
+    "min_salary": 10500000,
+    "max_salary": 12500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_cc1168ba",
+    "min_salary": 10000000,
+    "max_salary": 12000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_fd0eecda",
+    "min_salary": 15000000,
+    "max_salary": 18000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_3ba1dc2d",
+    "min_salary": 14000000,
+    "max_salary": 16000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_c6dcb635",
+    "min_salary": 10000000,
+    "max_salary": 15000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_11193b2f",
+    "min_salary": 1000000,
+    "max_salary": 1500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_841aab7e",
+    "min_salary": 6000000,
+    "max_salary": 12000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_54e03c9e",
+    "min_salary": 4500000,
+    "max_salary": 5500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_136922f5",
+    "min_salary": 6000000,
+    "max_salary": 8000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_5047dbae",
+    "min_salary": 5000000,
+    "max_salary": 7000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_ef5b1e77",
+    "min_salary": 6500000,
+    "max_salary": 9000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_f590c5cc",
+    "min_salary": 5000000,
+    "max_salary": 8500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_56c227b2",
+    "min_salary": 6000000,
+    "max_salary": 8500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_05c72e6d",
+    "min_salary": 15000000,
+    "max_salary": 25000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_31b62d7d",
+    "min_salary": 5000000,
+    "max_salary": 9000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_464f2da5",
+    "min_salary": 18000000,
+    "max_salary": 20000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_397cfc37",
+    "min_salary": 8800000,
+    "max_salary": 8800000,
+    "currency": null,
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_5a12623d",
+    "min_salary": 1,
+    "max_salary": 1,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_f2381a89",
+    "min_salary": 2200000,
+    "max_salary": 2500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_971bb9b1",
+    "min_salary": 5000000,
+    "max_salary": 11000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_95ae8f1d",
+    "min_salary": 13000000,
+    "max_salary": 26000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_8cde7994",
+    "min_salary": 8500000,
+    "max_salary": 10000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_09890443",
+    "min_salary": 9000000,
+    "max_salary": 12000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_8b4c7435",
+    "min_salary": 13000000,
+    "max_salary": 16000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_be9de83f",
+    "min_salary": 8000000,
+    "max_salary": 9000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_ede38846",
+    "min_salary": 12000000,
+    "max_salary": 15000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_7cd22d1e",
+    "min_salary": 6000000,
+    "max_salary": 7200000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_5940c19b",
+    "min_salary": 3000000,
+    "max_salary": 4000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_e09d5c3c",
+    "min_salary": 2345600,
+    "max_salary": 2567890,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_0fe2546a",
+    "min_salary": 10000000,
+    "max_salary": 11500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_7783f459",
+    "min_salary": 6500000,
+    "max_salary": 6800000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_ff4ad210",
+    "min_salary": 9000,
+    "max_salary": 9000,
+    "currency": null,
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_39740ba4",
+    "min_salary": 6000000,
+    "max_salary": 7000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_cfc9aa67",
+    "min_salary": 800,
+    "max_salary": 1000,
+    "currency": "MYR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_5198cc0b",
+    "min_salary": 2000000,
+    "max_salary": 2500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_10d9bc52",
+    "min_salary": 4000000,
+    "max_salary": 5000000,
+    "currency": "IDR",
+    "with_equity": true,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_b889c007",
+    "min_salary": 7000000,
+    "max_salary": 8000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_3d200299",
+    "min_salary": 3000000,
+    "max_salary": 5000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_d7e485c3",
+    "min_salary": 10000000,
+    "max_salary": 16000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_2d35f618",
+    "min_salary": 16000000,
+    "max_salary": 18000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_7e9ce1c0",
+    "min_salary": 20000000,
+    "max_salary": 25000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_cf239f18",
+    "min_salary": 6500000,
+    "max_salary": 7000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_ab921f28",
+    "min_salary": 8500000,
+    "max_salary": 9000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_547f8784",
+    "min_salary": 4500000,
+    "max_salary": 7000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_023379cc",
+    "min_salary": 10000000,
+    "max_salary": 14000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_43a18d93",
+    "min_salary": 11000000,
+    "max_salary": 12000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_6df3144f",
+    "min_salary": 8000000,
+    "max_salary": 10500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_1636ce6f",
+    "min_salary": 12000000,
+    "max_salary": 12500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_f7cf7a36",
+    "min_salary": 5500000,
+    "max_salary": 8000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_7ee28436",
+    "min_salary": 2500000,
+    "max_salary": 2500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_6cc1dc31",
+    "min_salary": 4000000,
+    "max_salary": 6000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_aeaa84c8",
+    "min_salary": 13000000,
+    "max_salary": 13000000,
+    "currency": null,
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_76f39d31",
+    "min_salary": 10,
+    "max_salary": 100,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_0ac5bc72",
+    "min_salary": 10000000,
+    "max_salary": 20000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_375391a1",
+    "min_salary": 8000000,
+    "max_salary": 15000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_9251fa1d",
+    "min_salary": 5000000,
+    "max_salary": 5500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_23165dfc",
+    "min_salary": 14000000,
+    "max_salary": 15000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_8cd73035",
+    "min_salary": 6000000,
+    "max_salary": 10000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_9eb8cc5e",
+    "min_salary": 8000,
+    "max_salary": 10000,
+    "currency": "MYR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_022c485c",
+    "min_salary": 20000000,
+    "max_salary": 30000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_4ffc3d42",
+    "min_salary": 12000000,
+    "max_salary": 13000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_0c54dd28",
+    "min_salary": 6500000,
+    "max_salary": 7100000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_f867c52c",
+    "min_salary": 7500000,
+    "max_salary": 8500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_857782df",
+    "min_salary": 7000000,
+    "max_salary": 15000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_99c064b1",
+    "min_salary": 25000000,
+    "max_salary": 40000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_a4fbd25b",
+    "min_salary": 1000000,
+    "max_salary": 2000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_8e7dcc95",
+    "min_salary": 12000000,
+    "max_salary": 12000000,
+    "currency": null,
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_8f9cde40",
+    "min_salary": 6500000,
+    "max_salary": 12000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_2bb396c9",
+    "min_salary": 5500000,
+    "max_salary": 7500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_2b1bfc3c",
+    "min_salary": 10000000,
+    "max_salary": 13500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_74ac8e92",
+    "min_salary": 8000000,
+    "max_salary": 12000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_60381dc7",
+    "min_salary": 10000000,
+    "max_salary": 12500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_c026d17f",
+    "min_salary": 10,
+    "max_salary": 10,
+    "currency": null,
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_d3edcb4b",
+    "min_salary": 1500000,
+    "max_salary": 1800000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_f008ccf6",
+    "min_salary": 6000,
+    "max_salary": 9000,
+    "currency": "MYR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_a6bbc261",
+    "min_salary": 10000000,
+    "max_salary": 30000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_4f7fa7a9",
+    "min_salary": 50000000,
+    "max_salary": 80000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_c2faaa49",
+    "min_salary": 5000000,
+    "max_salary": 6000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_cf34d0a9",
+    "min_salary": 164000,
+    "max_salary": 204000,
+    "currency": "SGD",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_e181020f",
+    "min_salary": 6700,
+    "max_salary": 8500,
+    "currency": "SGD",
+    "with_equity": true,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_8bc5b8e0",
+    "min_salary": 2000000,
+    "max_salary": 3000000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_f8003617",
+    "min_salary": 148800,
+    "max_salary": 184800,
+    "currency": "SGD",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_b987522b",
+    "min_salary": 213000,
+    "max_salary": 253000,
+    "currency": "SGD",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_9e7cd558",
+    "min_salary": 6000000,
+    "max_salary": 6000000,
+    "currency": null,
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_2dd718d2",
+    "min_salary": 5000000,
+    "max_salary": 5000000,
+    "currency": null,
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_a4bc76e9",
+    "min_salary": 1200000,
+    "max_salary": 1250000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_3695fbbb",
+    "min_salary": 312000,
+    "max_salary": 468000,
+    "currency": "SGD",
+    "with_equity": true,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_5a4d4df5",
+    "min_salary": 105600,
+    "max_salary": 158400,
+    "currency": "SGD",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_f0683732",
+    "min_salary": 56000,
+    "max_salary": 75000,
+    "currency": "SGD",
+    "with_equity": true,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_6d5c2208",
+    "min_salary": 3000000,
+    "max_salary": 4500000,
+    "currency": "IDR",
+    "with_equity": false,
+    "scraped_at": "2025-08-08 20:00:02"
+  },
+  {
+    "compensation_id": "pkg_0819a78e",
+    "min_salary": 184000,
+    "max_salary": 276000,
+    "currency": "SGD",
+    "with_equity": true,
+    "scraped_at": "2025-08-08 20:00:02"
+  }
+]

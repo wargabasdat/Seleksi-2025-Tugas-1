@@ -1,0 +1,78 @@
+2025-08-08 16:36:09,696 - INFO - Memasukkan 0 function
+2025-08-08 16:36:09,696 - INFO - Memasukkan 0 industry
+2025-08-08 16:36:09,697 - INFO - Memasukkan 0 company
+2025-08-08 16:36:09,697 - INFO - Memasukkan 0 location
+2025-08-08 16:36:09,697 - INFO - Memasukkan 0 compensation_package
+2025-08-08 16:36:09,697 - INFO - Memasukkan 0 company_industry
+2025-08-08 16:36:09,697 - INFO - Memasukkan 0 jobs
+2025-08-08 16:36:09,697 - INFO - Total job_id yang discrape hari ini: 0
+2025-08-08 16:36:09,697 - INFO - ✅ Semua data berhasil di-insert ke PostgreSQL.
+2025-08-08 17:06:04,733 - INFO - Memasukkan 0 function
+2025-08-08 17:06:04,733 - INFO - Memasukkan 0 industry
+2025-08-08 17:06:04,733 - INFO - Memasukkan 0 company
+2025-08-08 17:06:04,733 - INFO - Memasukkan 0 location
+2025-08-08 17:06:04,734 - INFO - Memasukkan 0 compensation_package
+2025-08-08 17:06:04,734 - INFO - Memasukkan 0 company_industry
+2025-08-08 17:06:04,734 - INFO - Memasukkan 0 jobs
+2025-08-08 17:06:04,734 - INFO - Total job_id yang discrape hari ini: 0
+2025-08-08 17:06:04,734 - INFO - ✅ Semua data berhasil di-insert ke PostgreSQL.
+2025-08-08 17:36:07,520 - INFO - Memasukkan 26 function
+2025-08-08 17:36:07,556 - INFO - Memasukkan 64 industry
+2025-08-08 17:36:07,563 - INFO - Memasukkan 142 company
+2025-08-08 17:36:07,576 - INFO - Memasukkan 33 location
+2025-08-08 17:36:07,580 - INFO - Memasukkan 128 compensation_package
+2025-08-08 17:36:07,597 - INFO - Memasukkan 146 company_industry
+2025-08-08 17:36:07,606 - INFO - Memasukkan 555 jobs
+2025-08-08 17:36:07,667 - INFO - Total job_id yang discrape hari ini: 555
+2025-08-08 17:36:07,679 - INFO - Menandai job lama sebagai non-aktif: 0 rows updated.
+2025-08-08 17:36:07,680 - INFO - ✅ Semua data berhasil di-insert ke PostgreSQL.
+2025-08-08 18:06:04,010 - INFO - Memasukkan 26 function
+2025-08-08 18:06:04,018 - INFO - Memasukkan 64 industry
+2025-08-08 18:06:04,023 - INFO - Memasukkan 142 company
+2025-08-08 18:06:04,035 - INFO - Memasukkan 33 location
+2025-08-08 18:06:04,038 - INFO - Memasukkan 128 compensation_package
+2025-08-08 18:06:04,060 - INFO - Memasukkan 146 company_industry
+2025-08-08 18:06:04,070 - INFO - Memasukkan 555 jobs
+2025-08-08 18:06:04,126 - INFO - Total job_id yang discrape hari ini: 555
+2025-08-08 18:06:04,140 - INFO - Menandai job lama sebagai non-aktif: 1 rows updated.
+2025-08-08 18:06:04,141 - INFO - ✅ Semua data berhasil di-insert ke PostgreSQL.
+2025-08-08 18:36:02,592 - INFO - Memasukkan 26 function
+2025-08-08 18:36:02,596 - INFO - Memasukkan 64 industry
+2025-08-08 18:36:02,602 - INFO - Memasukkan 142 company
+2025-08-08 18:36:02,614 - INFO - Memasukkan 33 location
+2025-08-08 18:36:02,617 - INFO - Memasukkan 128 compensation_package
+2025-08-08 18:36:02,636 - INFO - Memasukkan 146 company_industry
+2025-08-08 18:36:02,646 - INFO - Memasukkan 555 jobs
+2025-08-08 18:36:02,700 - INFO - Total job_id yang discrape hari ini: 555
+2025-08-08 18:36:02,707 - INFO - Menandai job lama sebagai non-aktif: 0 rows updated.
+2025-08-08 18:36:02,707 - INFO - ✅ Semua data berhasil di-insert ke PostgreSQL.
+2025-08-08 19:00:22,647 - INFO - Memasukkan 26 function
+2025-08-08 19:00:22,655 - INFO - Memasukkan 64 industry
+2025-08-08 19:00:22,661 - INFO - Memasukkan 142 company
+2025-08-08 19:00:22,675 - INFO - Memasukkan 33 location
+2025-08-08 19:00:22,677 - INFO - Memasukkan 128 compensation_package
+2025-08-08 19:00:22,693 - INFO - Memasukkan 146 company_industry
+2025-08-08 19:00:22,703 - INFO - Memasukkan 555 jobs
+2025-08-08 19:00:22,781 - INFO - Total job_id yang discrape hari ini: 555
+2025-08-08 19:00:22,789 - INFO - Menandai job lama sebagai non-aktif: 0 rows updated.
+2025-08-08 19:00:22,789 - INFO - ✅ Semua data berhasil di-insert ke PostgreSQL.
+2025-08-08 19:30:23,589 - INFO - Memasukkan 26 function
+2025-08-08 19:30:23,599 - INFO - Memasukkan 64 industry
+2025-08-08 19:30:23,606 - INFO - Memasukkan 142 company
+2025-08-08 19:30:23,621 - INFO - Memasukkan 33 location
+2025-08-08 19:30:23,624 - INFO - Memasukkan 128 compensation_package
+2025-08-08 19:30:23,654 - INFO - Memasukkan 146 company_industry
+2025-08-08 19:30:23,663 - INFO - Memasukkan 555 jobs
+2025-08-08 19:30:23,718 - INFO - Total job_id yang discrape hari ini: 555
+2025-08-08 19:30:23,726 - INFO - Menandai job lama sebagai non-aktif: 0 rows updated.
+2025-08-08 19:30:23,727 - INFO - ✅ Semua data berhasil di-insert ke PostgreSQL.
+2025-08-08 20:06:02,837 - INFO - Memasukkan 26 function
+2025-08-08 20:06:02,875 - INFO - Memasukkan 64 industry
+2025-08-08 20:06:02,882 - INFO - Memasukkan 142 company
+2025-08-08 20:06:02,900 - INFO - Memasukkan 33 location
+2025-08-08 20:06:02,904 - INFO - Memasukkan 128 compensation_package
+2025-08-08 20:06:03,008 - INFO - Memasukkan 146 company_industry
+2025-08-08 20:06:03,031 - INFO - Memasukkan 555 jobs
+2025-08-08 20:06:03,194 - INFO - Total job_id yang discrape hari ini: 555
+2025-08-08 20:06:03,204 - INFO - Menandai job lama sebagai non-aktif: 0 rows updated.
+2025-08-08 20:06:03,205 - INFO - ✅ Semua data berhasil di-insert ke PostgreSQL.
