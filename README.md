@@ -12,13 +12,13 @@
 </div>
 
 
-## 👤 Author
+##  Author
 - **Nama**: Heleni Gratia Meitrina Tampubolon
 - **NIM**: 13523107
 
 
 
-## 📘 Deskripsi Proyek
+##  Deskripsi Proyek
 
 Proyek ini merupakan implementasi ETL (Extract, Transform, Load) dari data video game yang diambil dari web IMDb Video Games. Data mencakup informasi video game seperti judul, tahun rilis, rating, age rating, deskripsi, sutradara, dan aktor. Data kemudian disimpan dalam PostgreSQL dengan desain RDBMS terstruktur.
 
@@ -29,7 +29,7 @@ Topik video game dipilih karena memiliki:
 - Sumber data terbuka dari IMDb.
 
 
-## ⚙️ Cara Menjalankan Scraper & Insert Data
+##  Cara Menjalankan Scraper & Insert Data
 
 ### 1. Scraping Data
 Scraper mengambil data dari web IMDb menggunakan `DataScraping_VideoGames.ipynb`.
@@ -55,7 +55,7 @@ cd Data Storing/src
 python3 create_tables.py
 python3 insert_data.py
 ```
-## 📂 Struktur File JSON
+##  Struktur File JSON
 
 #### videogames.json
 Berisi daftar video game beserta metadata dan relasinya terhadap sutradara dan pemeran. Setiap elemen di dalam array JSON ini memiliki struktur sebagai berikut:
@@ -107,7 +107,7 @@ Penjelasan:
 
 Struktur ini mencerminkan relasi many-to-many antara entitas videogame - star dan videogame - director, yang kemudian direpresentasikan di RDBMS menggunakan tabel relasi cast_credit dan director_credit.
 
-## 🗂️ Struktur ERD & Diagram Relasional RDBMS
+##  Struktur ERD & Diagram Relasional RDBMS
 
 ####  Entity-Relationship Diagram (ERD)
 <img src="Data Storing/design/ERD_VideoGame.png" alt="Relational Schema" width="600"/>
@@ -124,7 +124,7 @@ Relasi:
 - Satu video game bisa memiliki banyak star dan director, dan sebaliknya satu star/director bisa terlibat di banyak videogame.
 Oleh karena itu, digunakan dua tabel penghubung (cast_credit dan director_credit) untuk menyimpan relasi many-to-many.
 
-## 🔄 Proses Translasi ERD ke Diagram Relasional
+##  Proses Translasi ERD ke Diagram Relasional
 Proses translasi dari ERD (Entity Relationship Diagram) ke model relasional dilakukan melalui langkah-langkah berikut:
 1. Entitas menjadi Tabel
 
@@ -159,7 +159,7 @@ Kolom foreign key digunakan untuk menjaga integritas data antar tabel:
 
 Struktur data dinormalisasi minimal hingga 3NF (Third Normal Form) untuk menghindari redundansi data dan menjaga integritas.Seperti, informasi direktur dan aktor dipisah dalam tabel tersendiri sehingga tidak perlu diulang pada setiap entri game.
 
-## 📸 Screenshots
+##  Screenshots
 
 <div align="center">
   <table>
@@ -180,8 +180,8 @@ Struktur data dinormalisasi minimal hingga 3NF (Third Normal Form) untuk menghin
   </table>
 </div>
 
-## ⏰ Penjadwalan Otomatis
-Untuk mendukung pembaruan data secara berkala, proses insert/update data ke database dijadwalkan secara otomatis menggunakan Task Scheduler di Windows. Hal ini memastikan data selalu diperbarui tanpa perlu menjalankan skrip secara manual.
+##  Automated Scheduling
+Untuk mendukung pembaruan data secara berkala, proses insert/update data ke database dijadwalkan secara otomatis menggunakan Task Scheduler di Windows. Hal ini memastikan data selalu diperbarui tanpa perlu menjalankan skrip secara manual. Data yang baru atau diedit akan diperbarui dan diupdate informasi "extracted_at"-nya.
 
 Menjalankan di Windows:
 1. Buka Task Scheduler di Windows.
@@ -217,8 +217,8 @@ Task akan muncul di daftar Task Scheduler Library.
 
 Dengan proses ini, pembaruan data dilakukan secara otomatis dan efisien tanpa perlu intervensi manual. Timestamp pada kolom extracted_at juga mencatat waktu ekstraksi terbaru untuk setiap data yang diperbarui.
 
-## 📚 Referensi
-📦 Library yang Digunakan
+## Referensi
+ Library yang Digunakan
 - selenium: untuk melakukan web scraping berbasis browser.
 
 - bs4 / BeautifulSoup: untuk parsing konten HTML dari halaman web.
@@ -237,6 +237,6 @@ Dengan proses ini, pembaruan data dilakukan secara otomatis dan efisien tanpa pe
 
 - os: untuk navigasi sistem file.
 
-🌐 Sumber Data
+ Sumber Data
 
 IMDb List: https://www.imdb.com/list/ls507147151/
