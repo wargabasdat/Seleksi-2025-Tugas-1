@@ -1,0 +1,24 @@
+[
+    {
+        "scraped_at": "2025-08-08T17:33:47.910753",
+        "source_url": "https://revenue.ennead.cc/revenue",
+        "total_games": 139,
+        "total_regions": 5,
+        "total_revenue_records": 1712,
+        "months_extracted": [
+            "Jan_2025",
+            "Feb_2025",
+            "Mar_2025",
+            "Apr_2025",
+            "May_2025",
+            "Jun_2025",
+            "Jul_2025"
+        ],
+        "files_created": [
+            "games.json",
+            "regions.json",
+            "revenue.json",
+            "metadata.json"
+        ]
+    }
+]
