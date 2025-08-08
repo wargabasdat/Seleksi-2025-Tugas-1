@@ -109,6 +109,31 @@ Export database tersebut dalam format SQL
 $ pg_dump -U postgres -d kalmstudios -s > kalmstudios.sql
 ```
 
+### Data Warehousing
+Buat database pada PostgreSQL, contoh:
+```python
+host="localhost",
+user="postgres", 
+password="your_password",
+dbname="kalmstudios_warehouse",
+port=5432
+```
+
+Buka folder hasil cloning
+```bash
+$ cd Seleksi-2025-Tugas-1/Data\ Warehouse/src
+```
+
+Jalankan program
+```bash
+$ python warehousing.py
+```
+
+Export database tersebut dalam format SQL
+```bash
+$ pg_dump -U postgres -d kalmstudios_warehouse -s > kalmstudios_warehouse.sql
+```
+
 ## Struktur File JSON
 ### Data Hasil Preprocessing (`data/preprocessed/`)
 
@@ -212,7 +237,7 @@ File JSON yang menyimpan data jadwal yang di-scrape
 ### Relational Diagram
 ![Relational Diagram](Data%20Storing/design/Relational%20Diagram.png)
 
-### Penjelasan Konversi
+### Penjelasan Proses Translasi
 #### 1. Pemetaan entity menjadi relasi
 ##### a. Strong Entity
 Strong Entity adalah entitas yang dapat berdiri sendiri dan memiliki Primary Key sendiri. Pada Strong Entity, atribut yang dimilikinya akan diturunkan menjadi kolom pada tabel di relational diagram. Untuk menjaga konsistensi data, derived attribute yang ada pada ER diagram akan dihapus pada relational diagram.
@@ -258,7 +283,7 @@ Class_Equipment = (class_id, equipment_id)
 
 ## Screenshots
 
-### Tabel Database
+### Data Storing
 #### 1. Tabel Categories
 ![Categories Table](Data%20Storing/screenshot/ss_categories.png)
 #### 2. Tabel Classes
@@ -276,7 +301,33 @@ Class_Equipment = (class_id, equipment_id)
 #### 8. Tabel Schedule
 ![Schedule_Table](Data%20Storing/screenshot/ss_schedules.png)
 
-### Program
+### Data Warehouse
+#### 1. Tabel Dim_Classes
+![Dim Classes Table](Data%20Warehouse/screenshot/ss_dimclasses.png)
+#### 2. Tabel Dim_Date
+![Dim Date Table](Data%20Warehouse/screenshot/ss_dimdate.png)
+#### 3. Tabel Dim_Instructor
+![Dim Instructor Table](Data%20Warehouse/screenshot/ss_diminstructor.png)
+#### 4. Tabel Dim_Location
+![Dim Location Table](Data%20Warehouse/screenshot/ss_dimlocation.png)
+#### 5. Tabel Fact_Class_Summary
+![Fact Class Summary Table](Data%20Warehouse/screenshot/ss_factclasssummary.png)
+
+### Query Examples
+#### Query 1: Studio Utilization Overview
+![Query Result 1](Data%20Warehouse/screenshot/query1.png)
+#### Query 2: Instructor Workload
+![Query Result 2](Data%20Warehouse/screenshot/query2.png)
+#### Query 3: Daily Schedule Statistics
+![Query Result 3](Data%20Warehouse/screenshot/query3.png)
+
+## Data Warehouse
+
+### Star Schema
+![Star Schema Diagram](Data%20Warehouse/design/star_schema.png)
+
+## Translasi
+Dalam proses translasi dari ERD ke star schema warehouse, dilakukan beberapa transformasi. **fact_class_summary** ditambahkan kolom `class_key`, `instructor_key`, `date_key`, dan `location_key` sebagai foreign key dari sisi many karena adanya relasi many-to-one dengan masing-masing dimension table. **dim_classes** ditambahkan kolom `category_name` sebagai denormalisasi dari relasi one-to-many dengan tabel `categories` untuk menghindari join yang kompleks. Relasi many-to-many antara `classes` dan `equipment` tidak ditranslasi langsung, melainkan diagregasi menjadi kolom `equipment_count` di fact table. **dim_date** dan **dim_location** merupakan dimension table baru yang diekstrak dari data operasional untuk mendukung analisis.
 
 ## Referensi
 
