@@ -14,49 +14,24 @@ sys.path.append(os.path.join(os.path.dirname(__file__)))
 from extractor.extractor import Extractor
 
 class PlaylistExtractor(Extractor):
-    """Playlist data extractor from collection pages
-    
-    Inherits from Extractor abstract base class.
-    
-    Attributes:
-        user_id_map: Dictionary mapping user IDs to usernames for later user extraction
-        processed_playlist_ids: Dictionary tracking playlist_id to genre_id mappings
-    """
+    """Extracts playlist data from Spotify genre collection pages."""
     
     def __init__(self, browser) -> None:
-        """Initialize the PlaylistExtractor with a browser instance
         
-        Args:
-            browser: Selenium Chrome WebDriver instance
-        """
         super().__init__(browser)
         self.user_id_map: Dict[str, str] = {}
-        self.processed_playlist_ids: Dict[str, str] = {}  # Track playlist_id -> genre_id
+        self.processed_playlist_ids: Dict[str, str] = {}
     
     def get_data(self, genres: List[Dict[str, str]], playlist_limit: Optional[int] = None) -> List[Dict[str, Any]]:
-        """Extract playlists from multiple genres
-        
-        Args:
-            genres: List of genre dictionaries with 'url', 'genre_id', and 'name' keys
-            playlist_limit: Maximum number of playlists to extract from each genre.
-                           If None, extracts all playlists found.
-            
-        Returns:
-            List of playlist data dictionaries
-            
-        Raises:
-            TimeoutException: If any genre page fails to load
-            WebDriverException: If browser automation fails
-        """
 
         self.data = []
         self.duplicate_info = []
         self.processed_playlist_ids = {}
         
         for genre in genres:
-            genre_url = genre['url']
             genre_name = genre['name']
             genre_id = genre['genre_id']
+            genre_url = f"https://open.spotify.com/genre/{genre_id}"
             
             logging.info(f"[Playlist] Processing playlists for genre: {genre_name}")
             playlists = self._get_playlists_from_genre(genre_url, genre_id, playlist_limit)
@@ -71,31 +46,11 @@ class PlaylistExtractor(Extractor):
         return self.data
     
     def get_user_id_map(self) -> Dict[str, str]:
-        """Get the runtime map of user IDs to usernames
-        
-        Returns:
-            Dictionary mapping user IDs to their usernames
-        """
         return self.user_id_map.copy()
     
     
     def _get_playlists_from_genre(self, genre_url: str, genre_id: str, playlist_limit: Optional[int] = None) -> List[Dict[str, Any]]:
-        """Extract playlists from a single genre page
-        
-        Args:
-            genre_url: Full URL of the genre page to scrape
-            genre_id: Unique identifier for the genre
-            playlist_limit: Maximum number of playlists to extract from this genre
-            
-        Returns:
-            List of playlist dictionaries
-            
-        Raises:
-            TimeoutException: If page fails to load within timeout
-            WebDriverException: If browser automation fails
-        """
 
-        logging.info(f"[Playlist] Navigating to genre page: {genre_url}")
         self.browser.get(genre_url)
         
         WebDriverWait(self.browser, 15).until(
@@ -200,34 +155,19 @@ class PlaylistExtractor(Extractor):
         base_data = {
             'playlist_id': playlist_id,
             'genre_id': genre_id,
-            'name': playlist_name,
-            'url': full_url
+            'name': playlist_name
         }
 
         if detailed_data:
             base_data.update(detailed_data)
-        
             return base_data
-        
-        else:
-            return None
+        return None
     
     def _get_playlist_details(self, playlist_url: str, playlist_id: str) -> Optional[Dict[str, Any]]:
-        """Navigate to playlist page and extract detailed information
-        
-        Args:
-            playlist_url: Full URL of the playlist page
-            playlist_id: Unique identifier for the playlist
-            
-        Returns:
-            Dictionary with detailed playlist data or None if extraction fails
-        """
         
         try:
-            logging.info(f"[Playlist] Getting details for playlist: {playlist_id}")
             self.browser.get(playlist_url)
             
-            # Wait for all playlist detail elements to load completely
             try:
                 WebDriverWait(self.browser, 30).until(
                     lambda driver: (
@@ -247,9 +187,8 @@ class PlaylistExtractor(Extractor):
                         (driver.find_elements(By.CSS_SELECTOR, 'span.lp9Tfm4rsM9_pfbIE0zd') or True)
                     )
                 )
-                logging.info(f"[Playlist] All detail elements loaded for playlist: {playlist_id}")
             except:
-                logging.warning(f"[Playlist] Timeout waiting for playlist details to load: {playlist_id}")
+                logging.warning(f"[Playlist] Timeout waiting for playlist details: {playlist_id}")
             
             time.sleep(3)
             
@@ -325,14 +264,6 @@ class PlaylistExtractor(Extractor):
     
     
     def _convert_duration_to_minutes(self, duration_text: str) -> Optional[int]:
-        """Convert duration text to minutes (number only)
-        
-        Args:
-            duration_text: Duration in format like "1 hr 30 min" or "45 min"
-            
-        Returns:
-            Duration in minutes as integer, or None if parsing fails
-        """
         try:
             total_minutes = 0
             
@@ -351,7 +282,6 @@ class PlaylistExtractor(Extractor):
             return None
     
     def _save_duplicate_info(self) -> None:
-        """Save duplicate playlist debug information to a text file"""
         try:
             with open("Data Scraping/data/duplicate_playlists.txt", "w", encoding="utf-8") as f:
                 f.write("=== DUPLICATE PLAYLIST DEBUG INFO ===\n\n")
@@ -367,6 +297,6 @@ class PlaylistExtractor(Extractor):
 
                     f.write("Total duplicates found: {}\n".format(len(self.duplicate_info)))
                         
-            logging.info(f"[Playlist] Duplicate debug info saved to duplicate_playlists.txt ({len(self.duplicate_info)} entries)")
+            logging.info(f"[Playlist] Saved duplicate info: {len(self.duplicate_info)} entries")
         except Exception as e:
             logging.warning(f"[Playlist] Failed to save duplicate debug info: {str(e)}")
