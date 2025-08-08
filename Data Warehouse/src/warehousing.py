@@ -309,4 +309,4 @@ if wh_conn:
 
 # make dump to export to sql
 # pg_dump -U <username> -h <hostname> -p <port> <database_name> > <dump_file_name>.sql
-# pg_dump -U postgres -h localhost -p 5432 warehouse_kodekiddo > warehouse_kodekiddo.sqlLast ran warehousing.py - 2025-08-07 23:02:32.896550 
+# pg_dump -U postgres -h localhost -p 5432 warehouse_kodekiddo > warehouse_kodekiddo.sql 

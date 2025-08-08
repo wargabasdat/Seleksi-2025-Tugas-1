@@ -445,4 +445,4 @@ if conn is not None:
 
 # make dump to export to sql
 # pg_dump -U <username> -h <hostname> -p <port> <database_name> > <dump_file_name>.sql
-# pg_dump -U postgres -h localhost -p 5432 kodekiddo > kodekiddo.sqlLast ran storing.py 
+# pg_dump -U postgres -h localhost -p 5432 kodekiddo > kodekiddo.sql
