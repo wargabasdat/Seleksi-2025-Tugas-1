@@ -1,0 +1,138 @@
+[
+    {
+        "CityID": "0",
+        "CityName": "Bandung"
+    },
+    {
+        "CityID": "1",
+        "CityName": "Purwakarta"
+    },
+    {
+        "CityID": "2",
+        "CityName": "Karawang"
+    },
+    {
+        "CityID": "3",
+        "CityName": "Cikarang"
+    },
+    {
+        "CityID": "4",
+        "CityName": "Cirebon"
+    },
+    {
+        "CityID": "5",
+        "CityName": "Bogor"
+    },
+    {
+        "CityID": "6",
+        "CityName": "Bekasi"
+    },
+    {
+        "CityID": "7",
+        "CityName": "Jakarta"
+    },
+    {
+        "CityID": "8",
+        "CityName": "Depok"
+    },
+    {
+        "CityID": "9",
+        "CityName": "Tangerang"
+    },
+    {
+        "CityID": "10",
+        "CityName": "Tegal"
+    },
+    {
+        "CityID": "11",
+        "CityName": "Serang"
+    },
+    {
+        "CityID": "12",
+        "CityName": "Purwokerto"
+    },
+    {
+        "CityID": "13",
+        "CityName": "Yogyakarta"
+    },
+    {
+        "CityID": "14",
+        "CityName": "Lampung"
+    },
+    {
+        "CityID": "15",
+        "CityName": "Solo"
+    },
+    {
+        "CityID": "16",
+        "CityName": "Madiun"
+    },
+    {
+        "CityID": "17",
+        "CityName": "Gresik"
+    },
+    {
+        "CityID": "18",
+        "CityName": "Kediri"
+    },
+    {
+        "CityID": "19",
+        "CityName": "Mojokerto"
+    },
+    {
+        "CityID": "20",
+        "CityName": "Surabaya"
+    },
+    {
+        "CityID": "21",
+        "CityName": "Blitar"
+    },
+    {
+        "CityID": "22",
+        "CityName": "Malang"
+    },
+    {
+        "CityID": "23",
+        "CityName": "Probolinggo"
+    },
+    {
+        "CityID": "24",
+        "CityName": "Palembang"
+    },
+    {
+        "CityID": "25",
+        "CityName": "Jember"
+    },
+    {
+        "CityID": "26",
+        "CityName": "Mataram"
+    },
+    {
+        "CityID": "27",
+        "CityName": "Batam"
+    },
+    {
+        "CityID": "28",
+        "CityName": "Padang"
+    },
+    {
+        "CityID": "29",
+        "CityName": "Pekanbaru"
+    },
+    {
+        "CityID": "30",
+        "CityName": "Makassar"
+    },
+    {
+        "CityID": "31",
+        "CityName": "Balikpapan"
+    },
+    {
+        "CityID": "32",
+        "CityName": "Samarinda"
+    },
+    {
+        "CityID": "33",
+        "CityName": "Medan"
+    }
+]
