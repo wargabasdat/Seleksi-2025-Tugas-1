@@ -30,6 +30,8 @@ CREATE TABLE IF NOT EXISTS Villain_FullName (
   fullname TEXT,
   PRIMARY KEY (name, fullname),
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Villain_Alias (
@@ -37,6 +39,8 @@ CREATE TABLE IF NOT EXISTS Villain_Alias (
   alias TEXT,
   PRIMARY KEY (name, alias),
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Villain_Crime (
@@ -44,6 +48,8 @@ CREATE TABLE IF NOT EXISTS Villain_Crime (
   crime TEXT,
   PRIMARY KEY (name, crime),
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Villain_Goal (
@@ -51,6 +57,8 @@ CREATE TABLE IF NOT EXISTS Villain_Goal (
   goal TEXT,
   PRIMARY KEY (name, goal),
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Villain_Origin (
@@ -58,6 +66,8 @@ CREATE TABLE IF NOT EXISTS Villain_Origin (
   origin TEXT,
   PRIMARY KEY (name, origin),
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Villain_Type (
@@ -65,11 +75,15 @@ CREATE TABLE IF NOT EXISTS Villain_Type (
   type_of_villain TEXT,
   PRIMARY KEY (name, type_of_villain),
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Evil_Doer (
   name TEXT PRIMARY KEY,
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS ED_Occupation (
@@ -77,6 +91,8 @@ CREATE TABLE IF NOT EXISTS ED_Occupation (
   occupation TEXT,
   PRIMARY KEY (name, occupation),
   FOREIGN KEY (name) REFERENCES Evil_Doer(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS ED_Power (
@@ -84,12 +100,16 @@ CREATE TABLE IF NOT EXISTS ED_Power (
   power TEXT,
   PRIMARY KEY (name, power),
   FOREIGN KEY (name) REFERENCES Evil_Doer(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Evil_Organization (
   name TEXT PRIMARY KEY,
   foundation TEXT,
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS EO_Agent (
@@ -97,6 +117,8 @@ CREATE TABLE IF NOT EXISTS EO_Agent (
   agent TEXT,
   PRIMARY KEY (name, agent),
   FOREIGN KEY (name) REFERENCES Evil_Organization(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS EO_Commander (
@@ -104,6 +126,8 @@ CREATE TABLE IF NOT EXISTS EO_Commander (
   commander TEXT,
   PRIMARY KEY (name, commander),
   FOREIGN KEY (name) REFERENCES Evil_Organization(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS EO_Headquarter (
@@ -111,6 +135,8 @@ CREATE TABLE IF NOT EXISTS EO_Headquarter (
   headquarter TEXT,
   PRIMARY KEY (name, headquarter),
   FOREIGN KEY (name) REFERENCES Evil_Organization(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS EO_Power (
@@ -118,6 +144,8 @@ CREATE TABLE IF NOT EXISTS EO_Power (
   power TEXT,
   PRIMARY KEY (name, power),
   FOREIGN KEY (name) REFERENCES Evil_Organization(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Evil_Family (
@@ -126,6 +154,8 @@ CREATE TABLE IF NOT EXISTS Evil_Family (
   patriarch TEXT,
   matriarch TEXT,
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS EF_Member (
@@ -133,12 +163,16 @@ CREATE TABLE IF NOT EXISTS EF_Member (
   member TEXT,
   PRIMARY KEY (name, member),
   FOREIGN KEY (name) REFERENCES Evil_Family(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS Hostile_Species (
   name TEXT PRIMARY KEY,
   homeworld TEXT,
   FOREIGN KEY (name) REFERENCES Villain(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS HS_Member (
@@ -146,6 +180,8 @@ CREATE TABLE IF NOT EXISTS HS_Member (
   relative_member TEXT,
   PRIMARY KEY (name, relative_member),
   FOREIGN KEY (name) REFERENCES Hostile_Species(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS HS_Abilities (
@@ -153,6 +189,8 @@ CREATE TABLE IF NOT EXISTS HS_Abilities (
   ability TEXT,
   PRIMARY KEY (name, ability),
   FOREIGN KEY (name) REFERENCES Hostile_Species(name)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 );
 \n`;
 
