@@ -1,0 +1,82 @@
+[
+    {
+        "Genre Name": "Action",
+        "Total Works": 10668,
+        "Description": "Exciting action sequences take priority and significant conflicts between characters are usually resolved with one's physical power. While the overarching plot may involve one group against another, the narrative in action stories is always focused on the strengths/weaknesses of individual characters and the effort they put into their personal battles with the opposing group's members.\n\nContrast with Military or Sports where the narrative is on collective achievement, or monster-of-the-week where the brief action scenes are a predicted climax to the episode's plot."
+    },
+    {
+        "Genre Name": "Fantasy",
+        "Total Works": 14509,
+        "Description": "Magical powers and/or fantastical creatures are prevalent in the world and necessary for the story's narrative. These fantastical elements cannot be explained by modern science and are commonplace or normal to much of the main cast.\n\nFantasy stories can take place in imaginary worlds, in alternate universes of Earth/Japan, or on Earth as we know it. Modern-day fantasies set on Earth include stories where: many of the main plot points take place in a self-contained and/or fantastical area only accessible to the main cast; RPG-like elements are enforced on our world after a large-scale event; or many characters use magic or have imaginary powers which manifest/manipulate elements akin to magic.\n\nIf all fantastical elements fall within the Super Power or Mahou Shoujo themes, then Fantasy will not be double-tagged. Similarly, if all fantastical elements are isolated to one type of event (e.g. Time Travel, Reincarnation, Isekai) then Fantasy will not be tagged.\n\nWhen searching for High Fantasy stories, excluding Urban Fantasy can help refine your search."
+    },
+    {
+        "Genre Name": "Horror",
+        "Total Works": 1961,
+        "Description": "Creating—and maintaining—a sense of dread in the audience takes priority, eliciting shock, fear, or disgust through atmosphere and frightening scenarios. Mood must be of equal or greater importance than setting and characterization in horror stories. Almost always, the main cast will be under constant threat of danger.\n\nMany stories can incorporate elements of horror as a plot device to unnerve the audience, but the overarching narrative must be focused on evoking and maintaining apprehension to be Horror. Contrast with Suspense where the audience craves to know what will happen next rather than fearing it."
+    },
+    {
+        "Genre Name": "Adventure",
+        "Total Works": 4502,
+        "Description": "Whether aiming for a specific goal or just struggling to survive, the main character is thrust into unfamiliar situations or lands and continuously faces unexpected dangers. The narrative of adventure stories is always on how the characters react to sudden events or trials during the journey, indicating personal growth or setback based on which actions or choices are taken.\n\nCharacter development as a response to the journey's dangers is a requirement of adventure stories. Simply experiencing foreign lands or worlds is not adventure."
+    },
+    {
+        "Genre Name": "Romance",
+        "Total Works": 19737,
+        "Description": "Falling in love and struggling to progress towards—or maintain—a romantic relationship take priority, while other subplots either take backseat or are designed to develop the main love story. The narrative focuses on the thoughts and emotions of the characters, illustrating the connections between them and explaining their reactions to events or conflict. Almost always, the story ends happily and the couple is rewarded for their efforts with lasting love.\n\nRomance stories require significant romantic development leading to some kind of conclusion: either to begin the relationship, continue it, or end it. Open-ended romantic endings are only acceptable when the work is an incomplete adaptation of a Romance source. \"Teasing\" stories which do not narrate significant romantic development but have a conclusion should be tagged Romantic Subplot.\n\nA story can be simply Romance. Since they are plot-driven stories showing humans experiencing romantic struggle, most Romance has some Drama inherently. For both tags, the drama should be focused not only on the relationship but also on the side storylines; for example, one character overcoming the death of a loved one or a drug addiction. Comedy requires Romance narratives to be focused on eliciting laughter, not only using comedy for lightheartedness. Slice of Life and Romance are incompatible by definition."
+    },
+    {
+        "Genre Name": "Sci-Fi",
+        "Total Works": 3601,
+        "Description": "Imagined technological advancements or natural settings which are currently unreal in the present day but could be invented, caused, or explained by science in the future. The narrative of science fiction (Sci-Fi or SF) stories focuses on the societal or individual reprecussions caused by the imagined technology or natural phenomenon, and are frequently dystopian in nature. \n\nSufficient world-building is required for a work to be Sci-Fi; an alien simply visiting from outer space and living on Earth with unusual powers would be Supernatural. Characters in Sci-Fi stories can have unnatural powers without a Fantasy/Supernatural tag, but there should be a plausible scientific reason for these powers described by the creator. A futuristic setting with impossible, unexplained powers (e.g. humans randomly evolved to control the weather via thought) would be Fantasy."
+    },
+    {
+        "Genre Name": "Girls Love",
+        "Total Works": 2007,
+        "Description": "Same-sex romantic/sexual relationships between women are the focus of these stories.\n\nIn Japan, the term Yuri is commonly used to refer this media. Girls Love and its abbreviation GL are also used, but to a lesser extent. These stories vary in their explicit content levels, with some focusing mainly on relationship development and others incorporating more sexual content.\n\nIn the West, the terms Shoujo Ai and Yuri were often used to refer to non-sexual and sexual GL stories, respectively. However, while the term Shoujo Ai sounds like it comes from Japanese, it has a very different meaning in Japan, which can create confusion.\n\nTo avoid this, we depreciated these Western terms on MAL, and now use the term \"Girls Love\" instead. This was chosen over the term Yuri to match Boys Love and avoid confusion from the Western usage. This means that if you want to search for what the West calls Shoujo Ai stories, you should look for Girls Love titles without an explicit genre; if you want to search for Yuri, then you should look for Girls Love titles tagged Erotica."
+    },
+    {
+        "Genre Name": "Boys Love",
+        "Total Works": 11311,
+        "Description": "Same-sex romantic/sexual relationships between men are the focus of these stories.\n\nIn Japan, the term Boys Love and its abbreviation BL are commonly used to refer media written by women for female audiences. These stories vary in their explicit content levels, with some being more focused on relationship development and others focused more on erotic scenes.\n\nIn the West, the terms Shounen Ai and Yaoi were often used to refer to non-sexual and sexual BL stories, respectively. However, while the term Shounen Ai comes from Japanese, it doesn't mean the same thing in Japan, which can create confusion.\n\nTo avoid this, we depreciated these Western terms on MAL, and now use the Japanese term \"Boys Love\" instead. This means that if you want to search for what the West calls Shounen Ai, you should look for Boys Love titles without an explicit genre; if you want to search for Yaoi, then you should look for Boys Love titles tagged Erotica."
+    },
+    {
+        "Genre Name": "Sports",
+        "Total Works": 1296,
+        "Description": "Training for and participating in a sport take priority, with the goal of furthering one's athletic abilities—either to win a competition or achieve some social standing. While the featured sport may be individual or team, the main cast will always overcome conflict through discussion and insights gained from other athletes or coaches. This creates a general sense of collective support and achievement that is always present in Sports stories.\n\nContrast with Action where the narrative is on resolving conflict with one's physical power. While both Action and Sports may focus on exciting action sequencies, the two genres are mutually exclusive."
+    },
+    {
+        "Genre Name": "Slice of Life",
+        "Total Works": 5406,
+        "Description": "Slice of Life stories are focused on a seemingly random and mundane period of the main characters' lives. The absence of a central plot to carry the story towards a charted destination means Slice of Life stories frequently lack overarching conflict and resolution. While life is not without conflict and Slice of Life neither, here conflict appears and dissipates seemingly at will, without a specific narrative to enforce it.\n\nSlow story pacing or episodic storytelling does not equal Slice of Life. Drama/Romance stories can be slow and soft while maintaining a central plot of human/relationship struggle. Comedy stories may lack progress and have mundane settings, but they have narratives focused on eliciting laughter rather than amusing moments happening naturally. Thus, Slice of Life is incompatible with Comedy, Drama, and Romance by definition."
+    },
+    {
+        "Genre Name": "Supernatural",
+        "Total Works": 8387,
+        "Description": "Taking place on Earth as we know it, supernatural stories incorporate elements or attributes that are unnatural and unexplainable by science. These supernatural elements may be rumored, but a rational person would be shocked to discover they actually exist. Creatures common in folklore, urban legends, or superstition are often featured. Humans may also be granted supernatural powers, either by an inhuman being or through a paranormal concept that is defined by the \"hidden\" society.\n\nCharacter traits alone do not determine if a story is Supernatural; the unreal elements should be prevalent throughout the story and necessary for the main narrative. Furthermore, supernatural elements in the story should occur within the normal world, and not within a self-contained and/or fantastical area only accessible to the main cast (e.g. the underworld). Unnatural abilities or afflictions should be within the realm of superstition and not be akin to magic. If the only supernatural aspect in the story are these powers and they are not based on a shared concept (e.g. manipulating one's blood), then check Super Power.\n\nWhen searching for stories featuring creatures, spirits, or gods from folklore, the Mythology and Vampire themes can help refine your search."
+    },
+    {
+        "Genre Name": "Comedy",
+        "Total Works": 16104,
+        "Description": "Uplifting the audience with positive emotion takes priority, eliciting laughter, amusement, or general entertainment. Almost always, comedy stories are episodic or have happy endings.\n\nNearly every work will use comedy as a plot device to relieve tension, but the overarching narrative must be focused on evoking amusement to be Comedy. Drama and Comedy are not mutually exclusive, but mixing them requires the audience facing human struggle with lightheartedness. Slice of Life and Comedy are incompatible by definition."
+    },
+    {
+        "Genre Name": "Suspense",
+        "Total Works": 853,
+        "Description": "Instilling a sense of anticipation and excitement takes priority, and is accomplished with a narrative that is rife with twists, turns, and red herrings. Uncertainty is present every step of the way, often drawn out for maximum effect. A variety of tools are used to keep the audience on the edge of their seats, such as withholding important information, intentional misdirection, or even outright subversion of expectations.\n\nSuspenseful moments do not mean a work is Suspense; the feeling of anticipation or anxiety must be maintained throughout the story. Contrast with Horror where the audience is in a constant state of apprehension and dreads the next event, rather than craving it. While Mystery also instills anticipation, the tension is focused on discovering the solution to a puzzle, rather than knowing what the characters will do next. Sometimes a story can mix Suspense with Horror or Mystery, but this is rare."
+    },
+    {
+        "Genre Name": "Mystery",
+        "Total Works": 2739,
+        "Description": "Whether its solving a crime or finding an explanation for a puzzling circumstance, the main cast willingly or reluctantly become investigators who must work to answer the who, what, why, and/or how of the current dilemma. The narrative of mystery stories is always on collecting evidence, identifying suspects, and theorizing possible scenarios for the unexplainable, before finally capturing the perpetrator or resolving the current situation.\n\nAlmost always, the audience has the same information as the main characters and anticipation is directed towards discovering the explanation, not what will transpire after the answer is found. Contrast with Suspense or Horror where often the audience has more information than the cast, which heightens the tension or fear of what will happen next."
+    },
+    {
+        "Genre Name": "Drama",
+        "Total Works": 11020,
+        "Description": "Plot-driven stories focused on realistic characters experiencing human struggle. Because drama stories ask the question of what it means to be human, the conflict and emotions will be relatable, even if the settings or characters themselves are not. Here, you will see humanity at its worst, its best, and everything in between.\n\nSimply having a serious tone, dramatic moments, or evoking tears does not equal Drama. If the narrative focuses on eliciting emotional reactions rather than on characterization, then it is melodrama and not Drama. Slice of Life and Drama are incompatible by definition."
+    },
+    {
+        "Genre Name": "Ecchi",
+        "Total Works": 3958,
+        "Description": null
+    }
+]
