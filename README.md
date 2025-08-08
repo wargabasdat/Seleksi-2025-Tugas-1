@@ -275,3 +275,9 @@ Topik resep kue dipilih karena:
 
 - **Sumber Data**:
   - [Shugary Sweets](https://www.shugarysweets.com) – sumber resep kue populer
+
+- **Sumber Dokumentasi**:
+- [web scraping](https://www.dicoding.com/blog/tutorial-membuat-web-scraper-dengan-python/)
+- [data warehouse](https://student-activity.binus.ac.id/himsisfo/2021/12/jenis-jenis-skema-pada-data-warehouse/)
+- [ERD](https://www.geeksforgeeks.org/generalization-specialization-and-aggregation-in-er-model/)
+
