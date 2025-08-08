@@ -43,7 +43,7 @@ Topik ini dipilih karena data roller coaster memiliki struktur yang jelas, menar
 
 ## Struktur File JSON
 
-- **`roller_coasters.json`**  
+1. **`roller_coasters.json`**  
     ```json
     [
         {
@@ -69,7 +69,7 @@ Topik ini dipilih karena data roller coaster memiliki struktur yang jelas, menar
   - `status`: Status operasional roller coaster.
   - `opened`: Tanggal pembukaan roller coaster.
 
-- **`parks.json`**  
+2. **`parks.json`**  
     ```json
     [
         {
@@ -85,14 +85,14 @@ Topik ini dipilih karena data roller coaster memiliki struktur yang jelas, menar
     ]
     ```
 **Keterangan:**
-    - `id`: ID unik taman hiburan.
-    - `name`: Nama taman hiburan.
-    - `location`: Lokasi taman hiburan yang mencakup:
-        - `city`: Kota tempat taman berada.
-        - `region`: Wilayah atau provinsi.
-        - `country`: Negara tempat taman berada.
+   - `id`: ID unik taman hiburan.
+   - `name`: Nama taman hiburan.
+   - `location`: Lokasi taman hiburan yang mencakup:
+      - `city`: Kota tempat taman berada.
+      - `region`: Wilayah atau provinsi.
+      - `country`: Negara tempat taman berada.
 
-- **`manufacturers.json`**  
+3. **`manufacturers.json`**  
     ```json
     [
         {
@@ -108,12 +108,12 @@ Topik ini dipilih karena data roller coaster memiliki struktur yang jelas, menar
     ]
     ```
 **Keterangan:**
-    - `id`: ID unik produsen roller coaster.
-    - `name`: Nama produsen roller coaster.
-    - `location`: Lokasi produsen yang mencakup:
-        - `city`: Kota tempat produsen berada.
-        - `region`: Wilayah atau provinsi.
-        - `country`: Negara tempat produsen berada.
+   - `id`: ID unik produsen roller coaster.
+   - `name`: Nama produsen roller coaster.
+   - `location`: Lokasi produsen yang mencakup:
+     - `city`: Kota tempat produsen berada.
+     - `region`: Wilayah atau provinsi.
+     - `country`: Negara tempat produsen berada.
 
 ## Struktur ERD dan Diagram Relasional RDBMS
 
@@ -125,54 +125,54 @@ Terdapat 6 entitas utama dalam ERD ini:
    - Atribut: `coaster_id`, `name`, `type`, `design`, `status`, `opened`
    - Primary Key: `coaster_id`
    - Relasi:
-        - **Belongs To** -> `Park`: Many to One
+        - **Belongs To** -> `Park`: Many to One,
         yaitu setiap roller coaster berada di tepat satu taman hiburan dan satu taman hiburan dapat memiliki banyak roller coaster.
-        - **Made By** -> `Manufacturer`: Many to One
+        - **Made By** -> `Manufacturer`: Many to One,
         yaitu setiap roller coaster dibuat oleh tepat satu produsen dan satu produsen dapat membuat banyak roller coaster.
 
 2. **Park**
     - Atribut: `park_id`, `park_name`
     - Primary Key: `park_id`
     - Relasi:
-        - **Belongs To** -> `RollerCoaster`: One to Many
+        - **Belongs To** -> `RollerCoaster`: One to Many,
         yaitu setiap taman hiburan dapat memiliki banyak roller coaster, tetapi setiap roller coaster hanya berada di satu taman hiburan.
-        - **Located In** -> `City`: Many to One
+        - **Located In** -> `City`: Many to One,
         yaitu setiap taman hiburan berada di tepat satu kota dan satu kota dapat memiliki banyak taman hiburan.
 
 3. **Manufacturer**
     - Atribut: `manufacturer_id`, `manufacturer_name`
     - Primary Key: `manufacturer_id`
     - Relasi:
-        - **Made By** -> `RollerCoaster`: One to Many
+        - **Made By** -> `RollerCoaster`: One to Many,
         yaitu setiap produsen dapat membuat banyak roller coaster, tetapi setiap roller coaster hanya dibuat oleh satu produsen.
-        - **Located In** -> `City`: Many to One
+        - **Located In** -> `City`: Many to One,
         yaitu setiap produsen berada di tepat satu kota dan satu kota dapat memiliki banyak produsen.
 
 4. **City**
     - Atribut: `city_id`, `city_name`
     - Primary Key: `city_id`
     - Relasi:
-        - **Located In** -> `Park`: One to Many
+        - **Located In** -> `Park`: One to Many,
         yaitu setiap kota dapat memiliki banyak taman hiburan, tetapi setiap taman hiburan hanya berada di satu kota.
-        - **Located In** -> `Manufacturer`: One to Many
+        - **Located In** -> `Manufacturer`: One to Many,
         yaitu setiap kota dapat memiliki banyak produsen, tetapi setiap produsen hanya berada di satu kota
-        - **Located In** -> `Region`: Many to One
+        - **Located In** -> `Region`: Many to One,
         yaitu setiap kota berada di tepat satu wilayah dan satu wilayah dapat memiliki banyak kota.
 
 5. **Region**
     - Atribut: `region_id`, `region_name`
     - Primary Key: `region_id`
     - Relasi:
-        - **Located In** -> `City`: One to Many
+        - **Located In** -> `City`: One to Many,
         yaitu setiap wilayah dapat memiliki banyak kota, tetapi setiap kota hanya berada di satu wilayah.
-        - **Located In** -> `Country`: Many to One
+        - **Located In** -> `Country`: Many to One,
         yaitu setiap wilayah berada di tepat satu negara dan satu negara dapat memiliki banyak wilayah.
 
 6. **Country**
     - Atribut: `country_id`, `country_name`
     - Primary Key: `country_id`
     - Relasi:
-        - **Located In** -> `Region`: One to Many
+        - **Located In** -> `Region`: One to Many,
         yaitu setiap negara dapat memiliki banyak wilayah, tetapi setiap wilayah hanya berada di satu negara.
 
 - ### Diagram Relasional RDBMS ###
