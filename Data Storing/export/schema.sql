@@ -80,18 +80,21 @@ CREATE TABLE ability (
 );
 
 CREATE TABLE update_item (
-    change_history_id SERIAL PRIMARY KEY,
     update_id VARCHAR(255) NOT NULL REFERENCES update(update_id) ON DELETE CASCADE,
+    change_history_id INT NOT NULL,
     equipment_id VARCHAR(255) NOT NULL REFERENCES equipment(equipment_id) ON DELETE CASCADE,
-    change TEXT
+    change TEXT,
+    PRIMARY KEY (update_id, change_history_id)
 );
 
 CREATE TABLE stock_item (
     stock_event_id VARCHAR(255) NOT NULL REFERENCES stock_event(stock_event_id) ON DELETE CASCADE,
+    stock_item_id INT NOT NULL,
     fruit_id VARCHAR(255) NOT NULL REFERENCES fruit(equipment_id) ON DELETE CASCADE,
-    -- Menggunakan nama 'fruit_id' agar sesuai ERD, merujuk ke equipment_id di tabel fruit
-    PRIMARY KEY (stock_event_id, fruit_id)
+    PRIMARY KEY (stock_event_id, stock_item_id)
 );
+
+
 
 -- Menambahkan indeks untuk foreign key agar query lebih cepat
 CREATE INDEX ON ability (equipment_id);

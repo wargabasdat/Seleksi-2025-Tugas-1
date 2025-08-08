@@ -186,16 +186,30 @@ def transform_abilities(df_all_items: pd.DataFrame) -> pd.DataFrame:
     return result[['equipment_id', 'ability_id', 'ability_name', 'keybind', 'mastery_cost', 'fragment_cost']]
 
 def transform_update_items(df_all_items: pd.DataFrame) -> pd.DataFrame:
-    """Mengekstrak riwayat perubahan dari semua item."""
+    """
+    Mengekstrak riwayat perubahan, menghasilkan change_history_id yang unik per update.
+    """
     df_exploded = df_all_items.explode('change_history').dropna(subset=['change_history'])
+    if df_exploded.empty:
+        return pd.DataFrame(columns=['update_id', 'change_history_id', 'equipment_id', 'change'])
+
     history_df = pd.json_normalize(df_exploded['change_history'])
     result = pd.concat([df_exploded[['uid']].reset_index(drop=True), history_df], axis=1)
+    result.rename(columns={'uid': 'equipment_id'}, inplace=True)
     
-    # Ekstrak update_id
+    # Ekstrak update_id dari kolom 'version'
     result['update_id'] = result['version'].str.split(':').str[0].str.split('-').str[0].str.strip()
     result['update_id'] = result['update_id'].replace({'Update 17': 'Update 17.1'})
+
+    # Membuat change_history_id yang unik untuk setiap update_id (dimulai dari 1)
+    result['change_history_id'] = result.groupby('update_id').cumcount() + 1
     
-    return result[['update_id', 'uid', 'change']].rename(columns={'uid': 'equipment_id'})
+    # Pastikan kolom 'change' ada, jika tidak, isi dengan None
+    if 'change' not in result.columns:
+        result['change'] = None
+
+    # Pilih dan urutkan kolom sesuai skema tabel baru
+    return result[['update_id', 'change_history_id', 'equipment_id', 'change']]
     
 def transform_stock(df_stock: pd.DataFrame, df_fruits: pd.DataFrame) -> (pd.DataFrame, pd.DataFrame):
     """Memisahkan data stock menjadi stock_event dan stock_item."""
@@ -205,13 +219,15 @@ def transform_stock(df_stock: pd.DataFrame, df_fruits: pd.DataFrame) -> (pd.Data
     df_stock_items = df_stock.dropna(subset=['fruit_name']).copy()
     
     fruit_name_to_uid = df_fruits.set_index('fruit_name')['uid'].to_dict()
+    
     df_stock_items['fruit_id'] = df_stock_items['fruit_name'].map(fruit_name_to_uid)
+    df_stock_items['stock_item_id'] = df_stock_items.groupby('stock_event_uid').cumcount() + 1
     
     df_stock_items.dropna(subset=['fruit_id'], inplace=True)
     
     return (
         df_stock_events[['stock_event_id', 'timestamp', 'stock_start_time']],
-        df_stock_items[['stock_event_uid', 'fruit_id']].rename(columns={'stock_event_uid': 'stock_event_id'})
+        df_stock_items[['stock_event_uid', 'stock_item_id', 'fruit_id']].rename(columns={'stock_event_uid': 'stock_event_id'})
     )
 
 # ===================================================================
@@ -278,9 +294,9 @@ def run_pipeline():
         with conn.cursor() as cur:
             cur.execute("TRUNCATE TABLE update_item RESTART IDENTITY;")
         # Hapus argumen pkey_cols untuk melakukan INSERT biasa
-        bulk_insert(conn, df_update_items, 'update_item')
+        bulk_insert(conn, df_update_items, 'update_item', ['update_id', 'change_history_id'])
         bulk_insert(conn, df_stock_events, 'stock_event', ['stock_event_id'])
-        bulk_insert(conn, df_stock_items, 'stock_item', ['stock_event_id', 'fruit_id'])
+        bulk_insert(conn, df_stock_items, 'stock_item', ['stock_event_id', 'stock_item_id'])
 
         conn.commit()
         logging.info("🎉 Semua data berhasil dimuat dan di-commit ke database.")
