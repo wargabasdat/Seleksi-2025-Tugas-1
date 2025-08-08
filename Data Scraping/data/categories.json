@@ -1,0 +1,46 @@
+[
+  {
+    "category_id": "C001",
+    "name": "Dress"
+  },
+  {
+    "category_id": "C002",
+    "name": "Top"
+  },
+  {
+    "category_id": "C003",
+    "name": "Outerwear"
+  },
+  {
+    "category_id": "C004",
+    "name": "Card"
+  },
+  {
+    "category_id": "C005",
+    "name": "Pants"
+  },
+  {
+    "category_id": "C006",
+    "name": "Skirt"
+  },
+  {
+    "category_id": "C007",
+    "name": "Overall"
+  },
+  {
+    "category_id": "C008",
+    "name": "Accesories"
+  },
+  {
+    "category_id": "C009",
+    "name": "Blanket"
+  },
+  {
+    "category_id": "C010",
+    "name": "Cushion"
+  },
+  {
+    "category_id": "C011",
+    "name": "Vests"
+  }
+]
