@@ -8,9 +8,8 @@
 
 ## Data Bioskop CGV
 
-### Author
-* **Muhammad Aymar Barkhaya**
-* **18223051**
+### 1. Author
+* **Muhammad Aymar Barkhaya - 18223051**
 
 ---
 
@@ -59,20 +58,14 @@ Data dari _scraper_ dipisahkan ke dalam tiga file JSON untuk menghindari redunda
     * `CinemaName`
     * `CinemaAddress`
     * `CityID` (Foreign Key)
-    * `auditoriumTypes` (List of strings)
+    * `AuditoriumTypes`
 
 ---
 
-### 5. Struktur ERD dan Diagram Relasional
+### 5. Struktur ERD dan Translasi ke Diagram Relasional
 
-ERD di atas adalah model konseptual yang menggambarkan hubungan antar entitas. Relasi "Berada di" antara `City` dan `Cinema` menunjukkan hubungan **one-to-many**, sedangkan relasi "Terdiri dari" antara `Cinema` dan `AuditoriumType` menunjukkan hubungan **many-to-many**.
+ERD adalah model konseptual yang menggambarkan hubungan antar entitas. Relasi "Berada di" antara `City` dan `Cinema` menunjukkan hubungan **one-to-many**, sedangkan relasi "Terdiri dari" antara `Cinema` dan `AuditoriumType` menunjukkan hubungan **many-to-many**.
 
-
-Diagram di atas adalah model relasional yang telah diimplementasikan di RDBMS.
-
----
-
-### 6. Proses Translasi ERD ke Diagram Relasional
 Proses translasi dari ERD ke diagram relasional dilakukan dengan beberapa langkah:
 1.  **Entitas menjadi Tabel**: Setiap entitas di ERD (`City`, `Cinema`, `AuditoriumType`) diterjemahkan menjadi tabel di skema relasional.
 2.  **Membuat Foreign Key**: Relasi one-to-many (`City` dan `Cinema`) diimplementasikan dengan menambahkan `CityID` sebagai _Foreign Key_ di tabel `Cinema`.
@@ -81,30 +74,30 @@ Proses translasi dari ERD ke diagram relasional dilakukan dengan beberapa langka
 ---
 
 ### 7. _Screenshots_
-Berikut adalah tangkapan layar yang menunjukkan implementasi _database_ dan hasil kueri di **PostgreSQL CLI**.
+Berikut adalah beberapa _screenshots_ yang menunjukkan implementasi _database_ dan hasil query di **PostgreSQL CLI**.
 
 
-![Daftar tabel yang telah dibuat](Data Storing/screenshot/table list.png)
+![Daftar tabel yang telah dibuat](Data%20Storing/screenshot/table%20list.png)
 
 
-![Data city](Data Storing\screenshot\select all city query.png)
+![Data city](Data%20Storing\screenshot\select%20all%20city%20query.png)
 
 
-![Data cinema](Data Storing\screenshot\select all cinema query.png)
+![Data cinema](Data%20Storing\screenshot\select%20all%20cinema%20query.png)
 
 
-![Data auditorium](Data Storing\screenshot\select all auditoriumtype query.png)
+![Data auditorium](Data%20Storing\screenshot\select%20all%20auditoriumtype%20query.png)
 
 
-![Data cinema_auditorium](Data Storing\screenshot\select all cinema_auditorium query.png)
+![Data cinema_auditorium](Data%20Storing\screenshot\select%20all%20cinema_auditorium%20query.png)
 
 
-![Banyak bioskop per kota](Data Storing/screenshot/bioskop count per city.png)
+![Banyak bioskop per kota](Data%20Storing/screenshot/bioskop%20count%20per%20city.png)
 
 
-![Jumlah studio per jenis auditorium](Data Storing\screenshot\auditorium type count.png)
+![Jumlah studio per jenis auditorium](Data%20Storing\screenshot\auditorium%20type%20count.png)
 
-![Jenis auditorium yang ada di kota Bandung](Data Storing\screenshot\bandung available auditorium.png)
+![Jenis auditorium yang ada di kota Bandung](Data%20Storing\screenshot\bandung%20available%20auditorium.png)
 
 ---
 
@@ -114,4 +107,7 @@ Berikut adalah tangkapan layar yang menunjukkan implementasi _database_ dan hasi
 * **Database**: PostgreSQL
 * **Tool Scraping**: Selenium WebDriver
 * **Tool Database**: psql
-* **Youtube Tutorial**: https://youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&si=gbUG1bVbkaMQZ1LK, https://youtu.be/qw--VYLpxG4?si=OD1K6I9TnNs54Ojv, https://youtu.be/M2NzvnfS-hI?si=LKvQmu7kQrbbYiK4
+* **Youtube Tutorial**:
+    - https://youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&si=gbUG1bVbkaMQZ1LK
+    - https://youtu.be/qw--VYLpxG4?si=OD1K6I9TnNs54Ojv
+    - https://youtu.be/M2NzvnfS-hI?si=LKvQmu7kQrbbYiK4
