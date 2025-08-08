@@ -1,6 +1,7 @@
 import time
 import json
 import re
+import os
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -19,6 +20,20 @@ def get_driver():
     driver.set_page_load_timeout(60)
     driver.implicitly_wait(10)
     return driver
+
+def append_and_dedup_json(file_path, new_data, key='product_id'):
+    if os.path.exists(file_path):
+        with open(file_path, 'r', encoding='utf-8') as f:
+            old_data = json.load(f)
+    else:
+        old_data = []
+
+    combined = old_data + new_data
+    unique_dict = {str(item[key]): item for item in combined} 
+    unique_data = list(unique_dict.values())
+
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(unique_data, f, indent=2, ensure_ascii=False)
 
 def clean_description(text):
     text = re.split(r"Details|CARE INSTRUCTIONS|Shipping/Returns|Return/Shipping|SHIPPING", text, flags=re.IGNORECASE)[0]
@@ -61,7 +76,7 @@ def get_product_detail(driver, url):
     name = "Nama Tidak Ditemukan"
     if soup.title and soup.title.string:
         name = soup.title.string.split("–")[0].strip()
-    
+
     material, size, category, raw_desc = "", "", "uncategorized", ""
     price, compare_at_price = 0, 0
     detail_script = soup.find("script", type="application/ld+json")
@@ -122,7 +137,6 @@ def main():
     base_url = "https://dumaofficial.com"
     start_url = f"{base_url}/collections/all"
 
-    # Inisialisasi list untuk setiap file JSON
     all_products_data = []
     discount_products_data = []
     normal_products_data = []
@@ -133,7 +147,6 @@ def main():
     print("\nTahap 2: Memproses setiap URL untuk mendapatkan detail produk")
     total_urls = len(all_product_urls)
     for i, url in enumerate(all_product_urls):
-        
         if i > 0 and i % 100 == 0:
             print(f"\nTelah memproses {i} produk. Merestart browser untuk menyegarkan sesi...")
             driver.quit()
@@ -141,7 +154,7 @@ def main():
             print("Browser berhasil direstart, melanjutkan proses.\n")
 
         print(f"Memproses produk {i + 1}/{total_urls}...")
-        
+
         try:
             detail = get_product_detail(driver, url)
         except InvalidSessionIdException:
@@ -157,8 +170,6 @@ def main():
         category_id = get_category_id(detail['category'])
         category_set.add((category_id, detail['category'].title()))
 
-
-        # 1. Data untuk products.json 
         full_record = {
             "product_id": detail['product_id'], "name": detail['name'], "category_id": category_id,
             "description": detail['description'], "material": detail['material'], "size": detail['size'],
@@ -167,23 +178,19 @@ def main():
         all_products_data.append(full_record)
         print(f"  -> Berhasil scrape: {detail['name']}")
 
-        # 2. Cek apakah produk diskon atau normal
         is_discounted = detail['compare_at_price'] and detail['compare_at_price'] > detail['price']
-        
+
         if is_discounted:
-            # Jika diskon, buat record untuk discount_products.json
             discount_record = {
                 "product_id": detail['product_id'],
                 "normal_price": detail['compare_at_price']
             }
             discount_products_data.append(discount_record)
         else:
-            # Jika tidak diskon, buat record untuk normal_products.json
             normal_record = {
                 "product_id": detail['product_id']
             }
             normal_products_data.append(normal_record)
-            
 
     driver.quit()
 
@@ -193,20 +200,15 @@ def main():
     print(f"Total normal products found: {len(normal_products_data)}")
     print("------------------------------------------\n")
 
-    with open("products.json", "w", encoding="utf-8") as f:
-        json.dump(all_products_data, f, indent=2, ensure_ascii=False)
-    
-    with open("discount_products.json", "w", encoding="utf-8") as f:
-        json.dump(discount_products_data, f, indent=2, ensure_ascii=False)
-        
-    with open("normal_products.json", "w", encoding="utf-8") as f:
-        json.dump(normal_products_data, f, indent=2, ensure_ascii=False)
+    append_and_dedup_json("/Users/allodyaq/Seleksi-2025-Tugas-1/Data Scraping/data/products.json", all_products_data)
+    append_and_dedup_json("/Users/allodyaq/Seleksi-2025-Tugas-1/Data Scraping/data/discount_products.json", discount_products_data)
+    append_and_dedup_json("/Users/allodyaq/Seleksi-2025-Tugas-1/Data Scraping/data/normal_products.json", normal_products_data)
 
     categories = sorted(list(category_set), key=lambda x: x[0])
-    with open("categories.json", "w", encoding="utf-8") as f:
+    with open("/Users/allodyaq/Seleksi-2025-Tugas-1/Data Scraping/data/categories.json", "w", encoding="utf-8") as f:
         json.dump([{"category_id": cid, "name": name} for cid, name in categories if cid != "C999"], f, indent=2, ensure_ascii=False)
 
-    print("All data has been saved to .json files: products.json, discount_products.json, normal_products.json, and categories.json")
+    print("All data has been saved to .json files.")
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,7 @@
 import time
 import json
 import re
+import os
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -21,6 +22,20 @@ def get_driver():
     driver.set_page_load_timeout(60)
     driver.implicitly_wait(10)
     return driver
+
+def append_and_dedup_json(file_path, new_data, key='variant_id'):
+    if os.path.exists(file_path):
+        with open(file_path, 'r', encoding='utf-8') as f:
+            old_data = json.load(f)
+    else:
+        old_data = []
+
+    combined = old_data + new_data
+
+    unique_data = {str(item[key]): item for item in combined}.values()
+
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(list(unique_data), f, indent=2, ensure_ascii=False)
 
 def parse_color(variant_name):
     """Mengekstrak warna dari nama varian, yang biasanya ada di bagian akhir."""
@@ -145,8 +160,9 @@ def main():
     print(f"Scraping complete. Total variants: {len(variant_data)}")
     print("---------------------------------------\n")
     
-    with open("variants.json", "w", encoding="utf-8") as f:
-        json.dump(variant_data, f, indent=2, ensure_ascii=False)
+    output_path = "/Users/allodyaq/Seleksi-2025-Tugas-1/Data Scraping/data/variants.json"
+    append_and_dedup_json(output_path, variant_data, key='variant_id')
+    print(f"Data has been appended and saved to {output_path}")
         
     print("All data has been saved to .json files")
 
