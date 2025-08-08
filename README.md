@@ -192,7 +192,7 @@ Untuk mengotomatiskan keseluruhan proses ETL (Extract, Transform, Load) dari awa
     3.  **ETL Data Warehouse**: Menjalankan `Data Warehouse/src/etl.py` untuk melakukan transformasi dan memuat data ke dalam Data Warehouse.
 
 ### Cara Menjalankan Pipeline
-Untuk memicu keseluruhan proses ETL secara manual, Anda dapat menjalankan skrip orkestrator dari direktori utama proyek:
+Untuk memicu keseluruhan proses ETL secara manual, dapat menjalankan skrip orkestrator dari direktori utama proyek:
 ```bash
 python AutoScheduler/pipeline.py
 ```
