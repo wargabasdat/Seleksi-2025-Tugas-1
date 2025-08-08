@@ -110,7 +110,7 @@ Berikut adalah langkah-langkah untuk mentranslasi ERD ke model relasional:
 ## 3. Data Warehouse (Bonus)
 
 ### Desain Star Schema
-![Star Schema](<Data Warehouse/design/star_schema.png>)
+![star schem](<Data Warehouse/design/star scheme.png>)
 
 ### Contoh Query Analitik
 
