@@ -324,7 +324,7 @@ Class_Equipment = (class_id, equipment_id)
 ## Data Warehouse
 
 ### Star Schema
-![Star Schema Diagram](Data%20Warehouse/design/star_schema.png)
+![Star Schema Diagram](Data%20Warehouse/design/Star%20Schema.png)
 
 ## Translasi
 Dalam proses translasi dari ERD ke star schema warehouse, dilakukan beberapa transformasi. **fact_class_summary** ditambahkan kolom `class_key`, `instructor_key`, `date_key`, dan `location_key` sebagai foreign key dari sisi many karena adanya relasi many-to-one dengan masing-masing dimension table. **dim_classes** ditambahkan kolom `category_name` sebagai denormalisasi dari relasi one-to-many dengan tabel `categories` untuk menghindari join yang kompleks. Relasi many-to-many antara `classes` dan `equipment` tidak ditranslasi langsung, melainkan diagregasi menjadi kolom `equipment_count` di fact table. **dim_date** dan **dim_location** merupakan dimension table baru yang diekstrak dari data operasional untuk mendukung analisis.
