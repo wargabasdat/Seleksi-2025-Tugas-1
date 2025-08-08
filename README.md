@@ -80,24 +80,24 @@ Berikut adalah beberapa _screenshots_ yang menunjukkan implementasi _database_ d
 ![Daftar tabel yang telah dibuat](Data%20Storing/screenshot/table%20list.png)
 
 
-![Data city](Data%20Storing\screenshot\select%20all%20city%20query.png)
+![Data city](Data%20Storing/screenshot/select%20all%20city%20query.png)
 
 
-![Data cinema](Data%20Storing\screenshot\select%20all%20cinema%20query.png)
+![Data cinema](Data%20Storing/screenshot/select%20all%20cinema%20query.png)
 
 
-![Data auditorium](Data%20Storing\screenshot\select%20all%20auditoriumtype%20query.png)
+![Data auditorium](Data%20Storing/screenshot/select%20all%20auditoriumtype%20query.png)
 
 
-![Data cinema_auditorium](Data%20Storing\screenshot\select%20all%20cinema_auditorium%20query.png)
+![Data cinema_auditorium](Data%20Storing/screenshot/select%20all%20cinema_auditorium%20query.png)
 
 
 ![Banyak bioskop per kota](Data%20Storing/screenshot/bioskop%20count%20per%20city.png)
 
 
-![Jumlah studio per jenis auditorium](Data%20Storing\screenshot\auditorium%20type%20count.png)
+![Jumlah studio per jenis auditorium](Data%20Storing/screenshot/auditorium%20type%20count.png)
 
-![Jenis auditorium yang ada di kota Bandung](Data%20Storing\screenshot\bandung%20available%20auditorium.png)
+![Jenis auditorium yang ada di kota Bandung](Data%20Storing/screenshot/bandung%20available%20auditorium.png)
 
 ---
 
