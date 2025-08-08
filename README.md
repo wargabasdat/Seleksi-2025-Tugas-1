@@ -25,7 +25,7 @@ Proyek ini merupakan implementasi ETL (Extract, Transform, Load) dari data video
 **Alasan pemilihan topik:**
 Topik video game dipilih karena memiliki:
 - Struktur data yang memiliki banyak atribut dan cocok untuk relasi antar entitas.
-- Popularitas dan relevansi bagi pengguna internet modern.
+- Popularitas bagi pengguna internet.
 - Sumber data terbuka dari IMDb.
 
 
