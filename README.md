@@ -130,27 +130,30 @@ JSON ini menyimpan data mengenai suatu revenue per bulannya.
 ```
 
 ## Entity Relationship Diagram (ERD)
+<img width="451" height="567" alt="erd_seleksi_basdat drawio" src="https://github.com/user-attachments/assets/924e0ae8-51d8-48ca-ac7c-8f058940edab" />
 
 
 ## Diagram pada DBMS
 ```sql
-CREATE TABLE games (
+-- create games table
+CREATE TABLE Games (
     game_id INT AUTO_INCREMENT PRIMARY KEY,
     game_name VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
-CREATE TABLE regions (
+-- create regions table
+CREATE TABLE Regions (
     region_id INT AUTO_INCREMENT PRIMARY KEY,
     region_name VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE revenue (
+-- create revenue table
+CREATE TABLE Revenue (
     revenue_id INT AUTO_INCREMENT PRIMARY KEY,
-    game_id INT NOT NULL,
-    region_id INT NOT NULL,
+    in_id INT NOT NULL,
     month VARCHAR(255) NOT NULL,
     revenue_text VARCHAR(50),
     revenue_value DECIMAL(15,2) DEFAULT 0.00,
@@ -161,9 +164,18 @@ CREATE TABLE revenue (
     scraped_at TIMESTAMP,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
+    FOREIGN KEY (in_id) REFERENCES In(in_id) ON DELETE CASCADE,
+    UNIQUE KEY unique_game_region_month (in_id, month)
+);
+
+CREATE TABLE In (
+    in_id INT AUTO_INCREMENT PRIMARY KEY,
+    game_id INT NOT NULL,
+    region_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE KEY unique_game_region (game_id, region_id)
     FOREIGN KEY (game_id) REFERENCES games(game_id) ON DELETE CASCADE,
     FOREIGN KEY (region_id) REFERENCES regions(region_id) ON DELETE CASCADE,
-    UNIQUE KEY unique_game_region_month (game_id, region_id, month)
 );
 ```
 
@@ -171,7 +183,11 @@ CREATE TABLE revenue (
 Translasi dilakukan dengan membuat tiap entitas terlebih dahulu. Setelah itu, dilihat pada relasi yang dimiliki setiap entitas, apakah ada yang many-to-many. Jika ya, maka relasi tersebut akan menjadi entitas tersendiri. Berlanjut kepada pendataan atribut untuk setiap entitas. Untuk entitas yang memiliki hubungan one-to-many atau many-to-one, PK pada entitas yang berperan sebagai one akan dimiliki oleh entitas yang berperan sebagai many sebagai FK. Setelah itu ubah menjadi syntax SQL (create table dan sebagainya).
 
 ## Screenshot
-
+<img width="1294" height="466" alt="Screenshot 2025-08-08 192300" src="https://github.com/user-attachments/assets/01b86f51-7353-4bf4-af6c-06ce70601b05" />
+<img width="758" height="473" alt="Screenshot 2025-08-08 192323" src="https://github.com/user-attachments/assets/2756d56c-ac22-4c81-92bc-e5c6b090708d" />
+<img width="997" height="693" alt="Screenshot 2025-08-08 193142" src="https://github.com/user-attachments/assets/1988146e-ee48-4ba3-818b-f02b0f0f29cf" />
+<img width="1176" height="963" alt="Screenshot 2025-08-08 193202" src="https://github.com/user-attachments/assets/5fff0a30-3694-4e1c-828e-56c3764cbd31" />
+<img width="1185" height="963" alt="Screenshot 2025-08-08 192404" src="https://github.com/user-attachments/assets/dfa2bd6e-b372-4323-845e-382dd0e4036e" />
 
 ## Referensi
 1. (selenium)[http://selenium.dev/]
