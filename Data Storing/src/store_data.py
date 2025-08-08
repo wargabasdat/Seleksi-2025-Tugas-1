@@ -155,29 +155,35 @@ def transform_specialized_items(df: pd.DataFrame, new_cols: Dict[str, str], fina
     return df.rename(columns=new_cols)[final_cols]
 
 def transform_abilities(df_all_items: pd.DataFrame) -> pd.DataFrame:
-    """Mengekstrak semua ability dari semua item dan membersihkan kolom numerik."""
+    """
+    Mengekstrak semua ability, menghasilkan ability_id yang unik per equipment,
+    dan membersihkan kolom numerik.
+    """
     df_exploded = df_all_items.explode('abilities').dropna(subset=['abilities'])
+    if df_exploded.empty:
+        return pd.DataFrame(columns=['equipment_id', 'ability_id', 'ability_name', 'keybind', 'mastery_cost', 'fragment_cost'])
+
     abilities_df = pd.json_normalize(df_exploded['abilities'])
     result = pd.concat([df_exploded[['uid']].reset_index(drop=True), abilities_df], axis=1)
     result.rename(columns={'uid': 'equipment_id'}, inplace=True)
     
-    # === MULAI PERBAIKAN PENTING ===
-    # Proses pembersihan untuk kolom biaya, yang mungkin bernilai besar (di atas 2 Milyar)
+    result['ability_id'] = result.groupby('equipment_id').cumcount() + 1
+
     for col in ['mastery_cost', 'fragment_cost']:
         if col in result.columns:
-            # Ubah ke string untuk menghapus koma, lalu ubah ke numerik
-            series = result[col].astype(str).str.replace(',', '', regex=False)
-            # Gunakan Int64 untuk menampung angka besar (BIGINT) dan nilai kosong (NA)
+            series = result[col].astype(str)
+            if col == 'mastery_cost':
+                series = series.str.extract(r'(\d+)')[0]
+            series = series.str.replace(',', '', regex=False)
             result[col] = pd.to_numeric(series, errors='coerce').astype('Int64')
         else:
-            # Jika kolom tidak ada, buat sebagai kolom kosong bertipe Int64
             result[col] = pd.Series([pd.NA] * len(result), dtype='Int64')
-            
-    # Pastikan kolom non-numerik lainnya juga ada
+        
     for col in ['ability_name', 'keybind']:
         if col not in result.columns:
             result[col] = None
-    return result[['equipment_id', 'ability_name', 'keybind', 'mastery_cost', 'fragment_cost']]
+    
+    return result[['equipment_id', 'ability_id', 'ability_name', 'keybind', 'mastery_cost', 'fragment_cost']]
 
 def transform_update_items(df_all_items: pd.DataFrame) -> pd.DataFrame:
     """Mengekstrak riwayat perubahan dari semua item."""
@@ -267,10 +273,7 @@ def run_pipeline():
         bulk_insert(conn, df_sword_table, 'sword', ['equipment_id'])
         bulk_insert(conn, df_gun_table, 'gun', ['equipment_id'])
         
-        with conn.cursor() as cur:
-          cur.execute("TRUNCATE TABLE ability RESTART IDENTITY;")
-        # Hapus argumen pkey_cols untuk melakukan INSERT biasa
-        bulk_insert(conn, df_abilities, 'ability')
+        bulk_insert(conn, df_abilities, 'ability', ['equipment_id', 'ability_id'])
 
         with conn.cursor() as cur:
             cur.execute("TRUNCATE TABLE update_item RESTART IDENTITY;")

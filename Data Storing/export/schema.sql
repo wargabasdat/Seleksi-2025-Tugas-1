@@ -70,12 +70,13 @@ CREATE TABLE gun (
 -- ====================================================================
 
 CREATE TABLE ability (
-    ability_id SERIAL PRIMARY KEY,
     equipment_id VARCHAR(255) NOT NULL REFERENCES equipment(equipment_id) ON DELETE CASCADE,
+    ability_id INT NOT NULL,
     ability_name VARCHAR(255),
     keybind VARCHAR(50),
     mastery_cost VARCHAR(50),
-    fragment_cost INT
+    fragment_cost INT,
+    PRIMARY KEY (equipment_id, ability_id)
 );
 
 CREATE TABLE update_item (
