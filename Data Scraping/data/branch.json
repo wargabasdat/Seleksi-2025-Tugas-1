@@ -1,19 +1,27 @@
 [
   {
+    "branch_name": "Gading Serpong",
+    "address": "Ruko Golden 8 Blok C no.2Jl. Ki Hajar DewantaraSummarecon Gading SerpongSerpong Banten Indonesia"
+  },
+  {
+    "branch_name": "Center BSD City",
+    "address": "Avenix 92, Blok E no.3 BSD CityJl. BSD Raya Barat, Tangerang Selatan, Banten 15345"
+  },
+  {
     "branch_name": "Center Karawaci",
     "address": "Jl. Taman Permata no.20. Lippo Karawaci.Binong, Curug, Tangerang Banten"
   },
   {
     "branch_name": "Center Bintaro, Tangerang Selatan",
-    "address": "( Shining Stars Acedemy Bintaro), Jl. Elang Blok HF1 no.15, Pondok Pucung, Pondok Aren, Bintaro, Tangerang Selatan, Banten"
+    "address": "( Shining Stars Acedemy Bintaro)Jl. Elang Blok HF1 no.15Pondok Pucung, Pondok Aren, BintaroTangerang Selatan – Banten"
   },
   {
     "branch_name": "Center Permata Buana, Jakarta",
-    "address": "Rukan Taman Permata Buana, Jl. Pulau Bira Raya Blok B9/23,Puri Kembangan, Jakarta barat"
+    "address": "Rukan Taman Permata BuanaJl. Pulau Bira Raya Blok B9/23,Puri Kembangan, Jakarta barat"
   },
   {
     "branch_name": "Kepa Duri, Kebon Jeruk",
-    "address": "Jl. Mangga XVII Blok A-1C, Duri Kepa, Kebon Jeruk, Jakarta Barat, 11510"
+    "address": "Jl. Mangga XVII Blok A-1CDuri Kepa – Kebon JerukJakarta Barat 11510"
   },
   {
     "branch_name": "Center Pantai Indah Kapuk",
@@ -25,15 +33,15 @@
   },
   {
     "branch_name": "Center Pondok Indah, Jakarta Selatan",
-    "address": "Plaza 5 Pondok Indah B11, Jl. Margaguna Raya, Jakarta Selatan, 12140"
+    "address": "Plaza 5 Pondok Indah B11Jl. Margaguna Raya,Jakarta Selatan, 12140"
   },
   {
     "branch_name": "Center Cibubur",
-    "address": "Ruko Proland Ciangsana no.3Jl. Ciangsana, Gunung Putri Bogor, Jawa Barat, 16968"
+    "address": "Ruko Proland Ciangsana no.3Jl. Ciangsana, Gunung PutriBogor – Jawa Barat 16968"
   },
   {
     "branch_name": "Center Cipinang Indah",
-    "address": "Jl. Cendrawasih Blok A / 16, Cipinang Indah II RT.004/RW.004, Pd. Bambu, Duren Sawit, Jakarta Timur 13430"
+    "address": "Jl. Cendrawasih Blok A / 16Cipinang Indah II RT.004/RW.004Pd. Bambu, Duren Sawit, Jakarta Timur 13430"
   },
   {
     "branch_name": "Grand Galaxy, Bekasi",
@@ -53,11 +61,11 @@
   },
   {
     "branch_name": "Center Semarang",
-    "address": "Jl. Pemuda no. 138, Gramedia Amaris lt.3,Semarang, Jawa Tengah"
+    "address": "Jl. Pemuda no. 138Gramedia Amaris lt.3,Semarang, Jawa Tengah"
   },
   {
     "branch_name": "Pati - Jawa Tengah",
-    "address": "Ruko Tentrem No. 7CJln. Setiabudi No.7 Pecinan, Pati KidulPati 59114, Jawa Tengah"
+    "address": "Ruko Tentrem No. 7CJln. Setiabudi No.7 Pecinan, Pati KidulPati 59114 – Jawa Tengah"
   },
   {
     "branch_name": "Center Kudus",
@@ -101,7 +109,7 @@
   },
   {
     "branch_name": "Center Pekanbaru",
-    "address": "Kompleks Pemuda City Walk Blok B No. 26, Jl. PemudaKota Pekanbaru, Riau 28291"
+    "address": "Kompleks Pemuda City Walk Blok B No. 26, Jl. PemudaKota Pekanbaru, Riau 28291"
   },
   {
     "branch_name": "Center Pontianak",

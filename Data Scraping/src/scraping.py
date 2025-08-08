@@ -1,36 +1,64 @@
-import requests
+import os
+import re
+import json
+import time
+import subprocess
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import json
-import time
-import re
 
 def driver():
+    try:
+        subprocess.run(['taskkill', '/f', '/im', 'chrome.exe'], capture_output=True, check=False)
+        subprocess.run(['taskkill', '/f', '/im', 'chromedriver.exe'], capture_output=True, check=False)
+        print("Chrome processes killed")
+        time.sleep(3)
+    except:
+        pass
+    
     options = Options()
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu") 
-    options.add_argument("--window-size=1920,1080") 
+    options.add_argument('--headless=new')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--disable-web-security')
+    options.add_argument('--disable-features=VizDisplayCompositor')
+    options.add_argument('--window-size=1920,1080')
+    options.add_argument('--incognito')
+    options.add_argument('--disable-extensions')
+    options.add_argument('--disable-plugins')
+    options.add_argument('--max_old_space_size=4096')
+    options.add_argument('--disable-background-timer-throttling')
+    options.add_argument('--disable-backgrounding-occluded-windows')
+    options.add_argument('--disable-renderer-backgrounding')
+    options.add_argument('--disable-background-networking')
+    options.add_argument('--disable-default-apps')
+    options.add_argument('--disable-sync')
+    options.add_argument('--no-first-run')
+    options.add_argument('--disable-component-update')
     
-    custom_user_agent = (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
-    )
-    options.add_argument(f"user-agent={custom_user_agent}")
-    service = Service(r'C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\chromedriver-win64\chromedriver.exe')
+    try:
+        from webdriver_manager.chrome import ChromeDriverManager
+        service = Service(ChromeDriverManager().install())
+        print("Using ChromeDriverManager")
+    except Exception as e:
+        print(f"ChromeDriverManager failed: {e}")
+        # Use local chromedriver
+        service = Service(r'C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\chromedriver-win64\chromedriver.exe')
+        print("Using local chromedriver")
     
-    driver = webdriver.Chrome(service=service, options=options)
-    
-    driver.implicitly_wait(10)
-    
-    return driver
+    try:
+        driver = webdriver.Chrome(service=service, options=options)
+        driver.implicitly_wait(10)
+        print("Chrome driver created successfully for Task Scheduler")
+        return driver
+    except Exception as e:
+        print(f"Chrome driver creation failed: {e}")
+        raise e
+
 
 def get_program(html_text, data):
     soup = BeautifulSoup(html_text, 'lxml')
@@ -46,7 +74,7 @@ def get_program(html_text, data):
             })
             j += 1
     except Exception as e:
-        print("Error dalam scraping program")
+        print({e})
 
     return data
 
@@ -591,8 +619,24 @@ def get_webinar(html_text, data):
     return data
 
 def write_json(data, filename):
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    base_path = r'C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_18223085\Data Scraping\data'
+    
+    file = os.path.basename(filename)
+    full_path = os.path.join(base_path, file)
+    
+    # Create directory if not exists
+    os.makedirs(base_path, exist_ok=True)
+    
+    try:
+        with open(full_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        
+        print(f"JSON saved: {full_path}")
+        return True
+        
+    except Exception as e:
+        print(f"Error saving {full_path}: {e}")
+        return False
 
 def main():
     # all data container
@@ -619,7 +663,7 @@ def main():
     try:
         all_data['program'] = get_program(html_text, [])
         print("Berhasil scrape program")
-        write_json(all_data['program'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/program.json')
+        write_json(all_data['program'], 'program.json')
         time.sleep(3)
     except Exception as e:
         print("Error dalam scraping program")
@@ -631,7 +675,7 @@ def main():
         html_text = web_driver.page_source
         all_data['coding_class_info'] = get_coding_class_info(html_text, [])
         print("Berhasil scrape coding class info")
-        write_json(all_data['coding_class_info'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/coding_class_info.json')
+        write_json(all_data['coding_class_info'], 'coding_class_info.json')
     except Exception as e:
         print("Error dalam scraping coding class info")
 
@@ -642,7 +686,7 @@ def main():
         html_text = web_driver.page_source
         all_data['thematic_class'] = get_thematic_class(html_text, [])
         print("Berhasil scrape thematic class")
-        write_json(all_data['thematic_class'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/thematic_class.json')
+        write_json(all_data['thematic_class'], 'thematic_class.json')
     except Exception as e:
         print("Error dalam scraping thematic class")   
 
@@ -653,7 +697,7 @@ def main():
         html_text = web_driver.page_source
         all_data['kiddo_stem_program'] = get_kiddo_stem_program(html_text, [])
         print("Berhasil scrape kiddo stem")
-        write_json(all_data['kiddo_stem_program'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/kiddo_stem_program.json')
+        write_json(all_data['kiddo_stem_program'], 'kiddo_stem_program.json')
         time.sleep(3)
     except Exception as e:
         print("Error dalam scraping kiddo stem")    
@@ -664,7 +708,7 @@ def main():
         html_text = web_driver.page_source
         all_data['kinder_coding_package'] = get_kinder_coding_packages(html_text, [])
         print("Berhasil scrape kinder coding package")
-        write_json(all_data['kinder_coding_package'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/kinder_coding_package.json')
+        write_json(all_data['kinder_coding_package'], 'kinder_coding_package.json')
         time.sleep(3)
     except Exception as e:
         print("Error scrape kinder coding package")
@@ -677,8 +721,8 @@ def main():
         try:
             all_data['books'], all_data['book_writer'] = get_book(html_text, [])
             print("Berhasil scrape book")
-            write_json(all_data['books'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/books.json')
-            write_json(all_data['book_writer'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/book_writer.json')
+            write_json(all_data['books'], 'books.json')
+            write_json(all_data['book_writer'], 'book_writer.json')
             time.sleep(3)
         except Exception as e:
             print("Error dalam scraping book")  
@@ -687,7 +731,7 @@ def main():
         try:
             all_data['books_price'] = get_book_price(html_text, [])
             print("Berhasil scrape book price")
-            write_json(all_data['books_price'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/books_price.json')
+            write_json(all_data['books_price'], 'books_price.json')
             time.sleep(3)
         except Exception as e:
             print("Error dalam scraping book price") 
@@ -696,7 +740,7 @@ def main():
         try:
             all_data['zone'] = get_zona(html_text, [])
             print("Berhasil scrape zone")
-            write_json(all_data['zone'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/zone.json')
+            write_json(all_data['zone'], 'zone.json')
             time.sleep(3)
         except Exception as e:
             print("Error dalam scraping zone")  
@@ -729,7 +773,7 @@ def main():
                 print(f"Error scrape branch {link}: {e}")
         
         print("Berhasil scrape branch")
-        write_json(all_data['branch'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/branch.json')
+        write_json(all_data['branch'], 'branch.json')
         
     except Exception as e:
         print(f"Error dalam scraping branch: {e}")  
@@ -743,7 +787,7 @@ def main():
         html_text = web_driver.page_source
         all_data['paud_teacher_training'] = get_paud_training(html_text, [])
         print("Berhasil scrape paud teacher training")
-        write_json(all_data['paud_teacher_training'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/paud_teacher_training.json')
+        write_json(all_data['paud_teacher_training'], 'paud_teacher_training.json')
         time.sleep(3)
     except Exception as e:
         print("Error scrape paud training")
@@ -754,7 +798,7 @@ def main():
         html_text = web_driver.page_source
         all_data['school_teacher_training'] = get_school_training(html_text, [], web_driver)
         print("Berhasil scrape school teacher training")
-        write_json(all_data['school_teacher_training'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/school_teacher_training.json')
+        write_json(all_data['school_teacher_training'], 'school_teacher_training.json')
         time.sleep(3)
     except Exception as e:
         print("Error scrape school teacher training")
@@ -765,7 +809,7 @@ def main():
         html_text = web_driver.page_source
         all_data['webinar'] = get_webinar(html_text, [])
         print("Berhasil scrape webinar")
-        write_json(all_data['webinar'], 'TUGAS_SELEKSI_1_18223085/Data Scraping/data/webinar.json')
+        write_json(all_data['webinar'], 'webinar.json')
         time.sleep(3)
     except Exception as e:
         print("Error scrape webinar")
@@ -776,4 +820,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
