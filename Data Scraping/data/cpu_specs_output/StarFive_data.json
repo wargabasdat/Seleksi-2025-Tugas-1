@@ -1,0 +1,32 @@
+[
+    {
+        "name": "StarFive JH-7110 SoC",
+        "url": "https://www.techpowerup.com/cpu-specs/jh-7110-soc.c4026",
+        "manufacturer": "Other",
+        "cores": 5,
+        "threads": 5,
+        "frequency_ghz": 1250.0,
+        "turbo_clock_ghz": 1500.0,
+        "cache_l1_kb": 64,
+        "cache_l2_kb": 2,
+        "cache_l3_mb": null,
+        "tdp_watts": 5,
+        "launch_price_usd": null,
+        "process_size_nm": 14,
+        "codename": "7-Series",
+        "generation": "Core IP (7-Series)",
+        "socket": "mBGA 625",
+        "release_date": "Aug 23rd, 2022",
+        "integrated_graphics": "ImgTec BXE-4-32",
+        "memory_support": "DDR3, DDR4 Depends on motherboard",
+        "multiplier_unlocked": "No",
+        "features": [
+            "RV64GC",
+            "RV32IMFC",
+            "AES",
+            "3DES",
+            "HASH",
+            "PKA"
+        ]
+    }
+]
