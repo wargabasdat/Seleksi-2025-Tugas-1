@@ -60,7 +60,7 @@ stock_event_uid: id stok, timestamp: waktu scraping, stock_start_time: waktu mul
 
 #### Translasi Struktur ERD ke Diagram Relasional RDBMS
 ![Relational Diagram Database](Data%20Storing/design/Relational_Diagram.png)
-
+Setiap entitas pada ERD dapat ditranslasikan menjadi tabel di Relational Diagram. Tidak ada tabel tambahan karena tidak ada many-to-many relationship. ERD ditranslasikan menjadi diagram relasional sesuai aturan translasi, seperti menambahkan FK pada sisi entitas yang berpartisipasi total pada relasi, menggunakan PK komposit untuk weak entity, dan cukup mencantumkan PK dan atribut tambahan tanpa atribut turunan untuk entitas turunan
 #### Hasil Program
 ![ability](Data%20Storing/screenshot/ability.png)
 ![ability](Data%20Storing/screenshot/fruit.png)
