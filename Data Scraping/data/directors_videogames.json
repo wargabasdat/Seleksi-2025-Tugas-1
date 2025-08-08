@@ -1,0 +1,342 @@
+[
+    {
+        "id": 1,
+        "name": "Neil Druckmann"
+    },
+    {
+        "id": 2,
+        "name": "Bruce Straley"
+    },
+    {
+        "id": 3,
+        "name": "Konrad Tomaszkiewicz"
+    },
+    {
+        "id": 4,
+        "name": "Cory Barlog"
+    },
+    {
+        "id": 5,
+        "name": "Hideo Kojima"
+    },
+    {
+        "id": 6,
+        "name": "Eiji Aonuma"
+    },
+    {
+        "id": 7,
+        "name": "Yoichi Yamada"
+    },
+    {
+        "id": 8,
+        "name": "Yoshiaki Koizumi"
+    },
+    {
+        "id": 9,
+        "name": "Casey Hudson"
+    },
+    {
+        "id": 10,
+        "name": "Yoshinori Kitase"
+    },
+    {
+        "id": 11,
+        "name": "Yasushi Matsumura"
+    },
+    {
+        "id": 12,
+        "name": "Masato Yagi"
+    },
+    {
+        "id": 13,
+        "name": "Akihiko Matsui"
+    },
+    {
+        "id": 14,
+        "name": "Takashi Tokita"
+    },
+    {
+        "id": 15,
+        "name": "Todd Howard"
+    },
+    {
+        "id": 16,
+        "name": "Sefton Hill"
+    },
+    {
+        "id": 17,
+        "name": "Hidemaro Fujibayashi"
+    },
+    {
+        "id": 18,
+        "name": "Hiroki Hirano"
+    },
+    {
+        "id": 19,
+        "name": "Kentaro Tominaga"
+    },
+    {
+        "id": 20,
+        "name": "Amy Hennig"
+    },
+    {
+        "id": 21,
+        "name": "David Speyrer"
+    },
+    {
+        "id": 22,
+        "name": "Takayuki Kobayashi"
+    },
+    {
+        "id": 23,
+        "name": "Masashi Tsuboyama"
+    },
+    {
+        "id": 24,
+        "name": "Feargus Urquhart"
+    },
+    {
+        "id": 25,
+        "name": "Nate Fox"
+    },
+    {
+        "id": 26,
+        "name": "Katsura Hashino"
+    },
+    {
+        "id": 27,
+        "name": "Guillermo del Toro"
+    },
+    {
+        "id": 28,
+        "name": "Takashi Tezuka"
+    },
+    {
+        "id": 29,
+        "name": "Ron Gilbert"
+    },
+    {
+        "id": 30,
+        "name": "Fumito Ueda"
+    },
+    {
+        "id": 31,
+        "name": "David Cage"
+    },
+    {
+        "id": 32,
+        "name": "Ryan Smith"
+    },
+    {
+        "id": 33,
+        "name": "Shinji Mikami"
+    },
+    {
+        "id": 34,
+        "name": "Kuniomi Matsushita"
+    },
+    {
+        "id": 35,
+        "name": "Sean Ainsworth"
+    },
+    {
+        "id": 36,
+        "name": "Nick Herman"
+    },
+    {
+        "id": 37,
+        "name": "Dennis Lenart"
+    },
+    {
+        "id": 38,
+        "name": "Hidetaka Miyazaki"
+    },
+    {
+        "id": 39,
+        "name": "Petri Järvilehto"
+    },
+    {
+        "id": 40,
+        "name": "Tetsuya Nomura"
+    },
+    {
+        "id": 41,
+        "name": "Gabe Newell"
+    },
+    {
+        "id": 42,
+        "name": "Randy Pitchford"
+    },
+    {
+        "id": 43,
+        "name": "Daniel Vávra"
+    },
+    {
+        "id": 44,
+        "name": "Warren Spector"
+    },
+    {
+        "id": 45,
+        "name": "Tim Schafer"
+    },
+    {
+        "id": 46,
+        "name": "Toru Hagihara"
+    },
+    {
+        "id": 47,
+        "name": "Shigeru Miyamoto"
+    },
+    {
+        "id": 48,
+        "name": "Mathijs de Jonge"
+    },
+    {
+        "id": 49,
+        "name": "Ken Levine"
+    },
+    {
+        "id": 50,
+        "name": "Stig Asmussen"
+    },
+    {
+        "id": 51,
+        "name": "Dan Tudge"
+    },
+    {
+        "id": 52,
+        "name": "David Jaffe"
+    },
+    {
+        "id": 53,
+        "name": "Greg Tiernan"
+    },
+    {
+        "id": 54,
+        "name": "Yajuan Cheng"
+    },
+    {
+        "id": 55,
+        "name": "Jun'ya Morita"
+    },
+    {
+        "id": 56,
+        "name": "Markus Mäki"
+    },
+    {
+        "id": 57,
+        "name": "Hideki Kamiya"
+    },
+    {
+        "id": 58,
+        "name": "Keiichiro Toyama"
+    },
+    {
+        "id": 59,
+        "name": "Jason Anderson"
+    },
+    {
+        "id": 60,
+        "name": "Leonard Boyarsky"
+    },
+    {
+        "id": 61,
+        "name": "Matt Samia"
+    },
+    {
+        "id": 62,
+        "name": "Mark Schwarz"
+    },
+    {
+        "id": 63,
+        "name": "Duane Stinnett"
+    },
+    {
+        "id": 64,
+        "name": "Martin Hollis"
+    },
+    {
+        "id": 65,
+        "name": "Masahiro Sakurai"
+    },
+    {
+        "id": 66,
+        "name": "Yoshio Sakamoto"
+    },
+    {
+        "id": 67,
+        "name": "Hiroyuki Itô"
+    },
+    {
+        "id": 68,
+        "name": "Jonathan Ackley"
+    },
+    {
+        "id": 69,
+        "name": "Larry Ahern"
+    },
+    {
+        "id": 70,
+        "name": "Keiji Okayasu"
+    },
+    {
+        "id": 71,
+        "name": "Yu Suzuki"
+    },
+    {
+        "id": 72,
+        "name": "Hal Barwood"
+    },
+    {
+        "id": 73,
+        "name": "Shinta Nojiri"
+    },
+    {
+        "id": 74,
+        "name": "Kazuki Hosokawa"
+    },
+    {
+        "id": 75,
+        "name": "Toshihiro Nagoshi"
+    },
+    {
+        "id": 76,
+        "name": "Justin Richmond"
+    },
+    {
+        "id": 77,
+        "name": "Jason West"
+    },
+    {
+        "id": 78,
+        "name": "Kenta Motokura"
+    },
+    {
+        "id": 79,
+        "name": "Zane Lyon"
+    },
+    {
+        "id": 80,
+        "name": "Chris Parker"
+    },
+    {
+        "id": 81,
+        "name": "Chris 'Crispy' Brion"
+    },
+    {
+        "id": 82,
+        "name": "Dave Grossman"
+    },
+    {
+        "id": 83,
+        "name": "Didrik Tollefsen"
+    },
+    {
+        "id": 84,
+        "name": "Ragnar Tørnquist"
+    },
+    {
+        "id": 85,
+        "name": "Matthew Samia"
+    }
+]

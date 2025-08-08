@@ -1,0 +1,1481 @@
+[
+    {
+        "title": "Red Dead Redemption II",
+        "year": "2018",
+        "age rating": "M",
+        "rating": "9.7",
+        "description": "Follows outlaw Arthur Morgan and his gang, led by the charismatic Dutch Van der Linde, as they struggle to cope with the loss of their way of life amidst the decline of the Wild West at the turn of the 20th century.",
+        "directors": [],
+        "stars": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "title": "The Last of Us",
+        "year": "2013",
+        "age rating": "M",
+        "rating": "9.7",
+        "description": "In a hostile, post-pandemic world, Joel and Ellie, brought together by desperate circumstances, must rely on each other to survive a brutal journey across what remains of the United States.",
+        "directors": [
+            1,
+            2
+        ],
+        "stars": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "year": "2015",
+        "age rating": "M",
+        "rating": "9.6",
+        "description": "The monster slayer Geralt of Rivia must find his adoptive daughter who is being pursued by the Wild Hunt, and prevent the White Frost from bringing about the end of the world.",
+        "directors": [
+            3
+        ],
+        "stars": [
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "title": "God of War",
+        "year": "2018",
+        "age rating": "M",
+        "rating": "9.5",
+        "description": "After wiping out the gods of Mount Olympus, Kratos moves on to the frigid lands of Scandinavia, where he and his son must embark on an odyssey across a dangerous world of gods and monsters.",
+        "directors": [
+            4
+        ],
+        "stars": [
+            10,
+            11,
+            12
+        ]
+    },
+    {
+        "title": "Metal Gear Solid",
+        "year": "1998",
+        "age rating": "M",
+        "rating": "9.5",
+        "description": "A crack government anti-terrorist squad takes over an obscure Alaskan nuclear disposal facility. Solid Snake is up for the task to infiltrate the facility, rescue the two hostages and thwart the terrorists' plans.",
+        "directors": [
+            5
+        ],
+        "stars": [
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "title": "The Legend of Zelda: Ocarina of Time",
+        "year": "1998",
+        "age rating": "E",
+        "rating": "9.6",
+        "description": "A young Kokiri boy discovers that his destiny is to free the Seven Sages and save the land of Hyrule from the treacherous sorcerer Ganondorf.",
+        "directors": [
+            6,
+            7,
+            8
+        ],
+        "stars": [
+            16,
+            17,
+            18
+        ]
+    },
+    {
+        "title": "Grand Theft Auto V",
+        "year": "2013",
+        "age rating": "M",
+        "rating": "9.4",
+        "description": "Three very different criminals team up for a series of heists and walk into some of the most thrilling experiences in the corrupt city of Los Santos in the sate of Southern San Andreas.",
+        "directors": [],
+        "stars": [
+            19,
+            20,
+            21
+        ]
+    },
+    {
+        "title": "Mass Effect 2",
+        "year": "2010",
+        "age rating": "M",
+        "rating": "9.5",
+        "description": "After being revived from death and having to join a pro-human organization without a choice, Commander Shepard must assemble a team, battle a new threat, and make tough choices in order to save the galaxy from total annihilation once more.",
+        "directors": [
+            9
+        ],
+        "stars": [
+            22,
+            23,
+            24
+        ]
+    },
+    {
+        "title": "Uncharted 4: A Thief's End",
+        "year": "2016",
+        "age rating": "T",
+        "rating": "9.4",
+        "description": "Thrown back into the dangerous underworld he'd tried to leave behind, Nathan Drake must decide what he's willing to sacrifice to save the ones he loves.",
+        "directors": [
+            1,
+            2
+        ],
+        "stars": [
+            25,
+            4,
+            26
+        ]
+    },
+    {
+        "title": "Metal Gear Solid 3: Snake Eater",
+        "year": "2004",
+        "age rating": "M",
+        "rating": "9.5",
+        "description": "In 1964, a U.S. government operative codenamed \"Snake\" must infiltrate mountainous Soviet territory to rescue a scientist building a weapon of terrible power.",
+        "directors": [
+            5
+        ],
+        "stars": [
+            13,
+            27,
+            28
+        ]
+    },
+    {
+        "title": "Star Wars: Knights of the Old Republic",
+        "year": "2003",
+        "age rating": "T",
+        "rating": "9.5",
+        "description": "A republic soldier, training to become a Jedi Knight, is given the task of halting the conquest of Darth Malak by discovering the location of a weapon known as the Star Forge.",
+        "directors": [
+            9
+        ],
+        "stars": [
+            29,
+            30,
+            31
+        ]
+    },
+    {
+        "title": "Final Fantasy VII",
+        "year": "1997",
+        "age rating": "T",
+        "rating": "9.5",
+        "description": "A former soldier from an evil company joins a mercenary clan to fight the company he once served.",
+        "directors": [
+            10,
+            11,
+            12
+        ],
+        "stars": []
+    },
+    {
+        "title": "Chrono Trigger",
+        "year": "1995",
+        "age rating": "E",
+        "rating": "9.4",
+        "description": "Crono, a young boy, is thrust to adventure by destiny to destroy an oncoming threat that will destroy the world in 1999.",
+        "directors": [
+            10,
+            13,
+            14
+        ],
+        "stars": []
+    },
+    {
+        "title": "Grand Theft Auto: San Andreas",
+        "year": "2004",
+        "age rating": "M",
+        "rating": "9.4",
+        "description": "In 1992, Carl \"CJ\" Johnson, a member of the Grove Street gang, comes home after a family tragedy to find the streets of Los Santos overtaken by crime and corruption, which he must take back before things become worse.",
+        "directors": [],
+        "stars": [
+            32,
+            33,
+            34
+        ]
+    },
+    {
+        "title": "The Elder Scrolls V: Skyrim",
+        "year": "2011",
+        "age rating": "M",
+        "rating": "9.3",
+        "description": "After escaping execution, the last living Dragonborn must grow in strength and power to defeat the dragons that have once again begun to plague the land of Skyrim.",
+        "directors": [
+            15
+        ],
+        "stars": [
+            35,
+            36,
+            37
+        ]
+    },
+    {
+        "title": "Red Dead Redemption",
+        "year": "2010",
+        "age rating": "M",
+        "rating": "9.4",
+        "description": "Follows a former outlaw, John Marston, who is forced by the federal government to hunt down the members of his old gang during the decline of the American frontier in the year 1911.",
+        "directors": [],
+        "stars": [
+            3,
+            38,
+            39
+        ]
+    },
+    {
+        "title": "Batman: Arkham City",
+        "year": "2011",
+        "age rating": "T",
+        "rating": "9.4",
+        "description": "When part of Gotham is turned into a private reserve for criminals known as Arkham City, all hell is sure to break loose, and the Dark Knight is the only one who can stop it.",
+        "directors": [
+            16
+        ],
+        "stars": [
+            40,
+            41,
+            42
+        ]
+    },
+    {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "year": "2017",
+        "age rating": "E10+",
+        "rating": "9.4",
+        "description": "After a century of hibernation, Link reawakens to once again save a ruined Hyrule from a great evil.",
+        "directors": [
+            17,
+            18,
+            19
+        ],
+        "stars": [
+            43,
+            44,
+            45
+        ]
+    },
+    {
+        "title": "Uncharted 2: Among Thieves",
+        "year": "2009",
+        "age rating": "18+",
+        "rating": "9.3",
+        "description": "After being tracked down by Harry Flynn, Nathan Drake goes on a quest for Marco Polo's lost fleet. However when things take an unexpected turn for the worst, Drake must rely on those closest to him in order to find the Cintomani Stone.",
+        "directors": [
+            20,
+            2
+        ],
+        "stars": [
+            25,
+            46,
+            47
+        ]
+    },
+    {
+        "title": "Portal 2",
+        "year": "2011",
+        "age rating": "E10+",
+        "rating": "9.4",
+        "description": "Many years after \"Portal,\" Chell reawakens at Aperture Science and tries to stop GLaDOS once again with the help of Wheatley, who has his own plans for the historical facility.",
+        "directors": [],
+        "stars": [
+            48,
+            49,
+            50
+        ]
+    },
+    {
+        "title": "Half-Life 2",
+        "year": "2004",
+        "age rating": "M",
+        "rating": "9.4",
+        "description": "Dr. Freeman is taken out of stasis by his \"employer\" to help rid the planet of invading aliens forces known as the Combine that entered through the portals he helped create.",
+        "directors": [
+            21
+        ],
+        "stars": [
+            51,
+            52,
+            53
+        ]
+    },
+    {
+        "title": "Metal Gear Solid 4: Guns of the Patriots",
+        "year": "2008",
+        "age rating": "M",
+        "rating": "9.3",
+        "description": "When the nations of the world rely upon private military companies to fight their battles for them, renegade Liquid Ocelot emerges as the head of a potent coalition of mercenary powers. Solid Snake returns to save the world once again.",
+        "directors": [
+            5
+        ],
+        "stars": [
+            13,
+            54,
+            15
+        ]
+    },
+    {
+        "title": "Silent Hill 2",
+        "year": "2001",
+        "age rating": "M",
+        "rating": "9.4",
+        "description": "After receiving a letter from his late wife, from Silent Hill, James Sunderland heads towards the town to search for her, only to come across a terrifying road of truth and redemption.",
+        "directors": [
+            22,
+            23
+        ],
+        "stars": [
+            55,
+            56,
+            57
+        ]
+    },
+    {
+        "title": "Fallout 2: A Post-Nuclear Role-Playing Game",
+        "year": "1998",
+        "age rating": "M",
+        "rating": "9.4",
+        "description": "In a post-nuclear future, the descendant of an ancient exiled hero must leave his tribe in search of the Garden of Eden Creation Kit, the last chance of survival for his people.",
+        "directors": [
+            24
+        ],
+        "stars": [
+            58,
+            59,
+            60
+        ]
+    },
+    {
+        "title": "Baldur's Gate II: Shadows of Amn",
+        "year": "2000",
+        "age rating": "T",
+        "rating": "9.4",
+        "description": "Jon Irenicus, a sadistic secretive powerful mage bent on revenge, captures Gorion's ward and his/her party for a diabolical experiment.",
+        "directors": [
+            24
+        ],
+        "stars": [
+            61,
+            58,
+            62
+        ]
+    },
+    {
+        "title": "Planescape: Torment",
+        "year": "1999",
+        "age rating": "T",
+        "rating": "9.3",
+        "description": "In the city of Sigil, the only place from which all realities of the Planescape universe can be reached, an immortal amnesiac, the Nameless One, must uncover his past, the mystery of his immortality as well as who's trying to kill him.",
+        "directors": [],
+        "stars": [
+            63,
+            64,
+            29
+        ]
+    },
+    {
+        "title": "Ghost of Tsushima",
+        "year": "2020",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "Set in 1274 on the Tsushima Island, the last samurai, Jin Sakai, must master a new fighting style, the way of the Ghost, to defeat the Mongol forces and fight for the freedom and independence of Japan.",
+        "directors": [
+            25
+        ],
+        "stars": [
+            65,
+            66,
+            67
+        ]
+    },
+    {
+        "title": "Persona 5",
+        "year": "2016",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "A group of high school students create a vigilante group to expose the crimes of corrupt adults but soon find themselves in the midst of a worldwide conspiracy and targeted by powerful individuals who would do anything to silence them.",
+        "directors": [
+            26
+        ],
+        "stars": [
+            68,
+            69,
+            70
+        ]
+    },
+    {
+        "title": "P.T.",
+        "year": "2014",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "The player must navigate a series of continuously looping hallways, solving cryptic puzzles, all while being hunted by a hostile apparition named Lisa.",
+        "directors": [
+            27,
+            5
+        ],
+        "stars": []
+    },
+    {
+        "title": "Super Mario World",
+        "year": "1990",
+        "age rating": "E",
+        "rating": "9.2",
+        "description": "While Mario and Luigi are vacationing in Dinosaur Land, Bowser kidnaps the Princess. Mario and his new dino friend Yoshi go on a mission to save her.",
+        "directors": [
+            28
+        ],
+        "stars": []
+    },
+    {
+        "title": "The Secret of Monkey Island",
+        "year": "1990",
+        "age rating": "E",
+        "rating": "9.3",
+        "description": "Young pirate wanna-be Guybrush Threepwood sets out to pass the Three Trials, woo the governess Elaine Marley, reach the fabled Monkey Island and vanquish the nefarious ghost pirate LeChuck.",
+        "directors": [
+            29
+        ],
+        "stars": [
+            71,
+            72,
+            73
+        ]
+    },
+    {
+        "title": "The Legend of Zelda: A Link to the Past",
+        "year": "1991",
+        "age rating": "E",
+        "rating": "9.2",
+        "description": "The wizard Agahnim has abducted seven maidens, intent on using their power to open a portal to the Dark World. Armed with a trusty sword and shield, Link begins a great and treacherous journey.",
+        "directors": [
+            28,
+            17
+        ],
+        "stars": []
+    },
+    {
+        "title": "Shadow of the Colossus",
+        "year": "2005",
+        "age rating": "T",
+        "rating": "9.2",
+        "description": "A young man brings a deceased woman to a forbidden land inhabited by colossal beings said to house the power to revive the dead.",
+        "directors": [
+            30
+        ],
+        "stars": [
+            74,
+            75,
+            76
+        ]
+    },
+    {
+        "title": "Detroit: Become Human",
+        "year": "2018",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Three androids go on a quest to discover who they really are.",
+        "directors": [
+            31
+        ],
+        "stars": [
+            77,
+            78,
+            79
+        ]
+    },
+    {
+        "title": "Spider-Man",
+        "year": "2018",
+        "age rating": "T",
+        "rating": "9.2",
+        "description": "When a new villain threatens New York City, Peter Parker and Spider-Man's worlds collide. To save the city and those he loves, he must rise up and be greater.",
+        "directors": [
+            32
+        ],
+        "stars": [
+            80,
+            81,
+            82
+        ]
+    },
+    {
+        "title": "Mass Effect",
+        "year": "2007",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "In a technologically advanced future, an elite human soldier takes command of a prototype star ship and works to defend the galaxy from danger.",
+        "directors": [
+            9
+        ],
+        "stars": [
+            83,
+            84,
+            85
+        ]
+    },
+    {
+        "title": "Grand Theft Auto: Vice City",
+        "year": "2002",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "In 1986, after doing 15 years in prison in Liberty City, gangster Tommy Vercetti is sent away to Vice City to take over the town and rise to the top of the criminal empire.",
+        "directors": [],
+        "stars": [
+            86,
+            87,
+            88
+        ]
+    },
+    {
+        "title": "Batman: Arkham Asylum",
+        "year": "2009",
+        "age rating": "T",
+        "rating": "9.1",
+        "description": "Batman battles his archenemy, the Joker, who instigates an elaborate plot to seize control of Arkham Asylum, trap Batman inside with many of his incarcerated foes, and threaten Gotham City with hidden bombs.",
+        "directors": [
+            16
+        ],
+        "stars": [
+            41,
+            40,
+            89
+        ]
+    },
+    {
+        "title": "Resident Evil 4",
+        "year": "2005",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "Six years after the events in Raccoon City, Leon Kennedy, now a federal agent, is sent to a rural part of Spain to rescue the U.S. President's kidnapped daughter, Ashley Graham from a sinister cult.",
+        "directors": [
+            33,
+            34
+        ],
+        "stars": [
+            90,
+            91,
+            92
+        ]
+    },
+    {
+        "title": "The Walking Dead: A Telltale Game Series",
+        "year": "2012",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "In a world devastated by the undead, a convicted criminal is given a second chance at life when he comes across a little girl named Clementine.",
+        "directors": [
+            35,
+            36,
+            37
+        ],
+        "stars": [
+            93,
+            94,
+            95
+        ]
+    },
+    {
+        "title": "Bloodborne",
+        "year": "2015",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "A hunter awakens in the plagued lands of Yharnam, where the denizens have succumbed to beasthood, in an attempt to learn the truth and how to end the plague, unbeknownst of the true horror lurking within the city.",
+        "directors": [
+            38
+        ],
+        "stars": [
+            96,
+            97,
+            98
+        ]
+    },
+    {
+        "title": "Max Payne",
+        "year": "2001",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "A troubled NYPD cop is framed for murder and finds himself being hunted by the police, the mob, and a ruthless corporation.",
+        "directors": [
+            39
+        ],
+        "stars": [
+            99,
+            100,
+            101
+        ]
+    },
+    {
+        "title": "Kingdom Hearts",
+        "year": "2002",
+        "age rating": "E",
+        "rating": "9.1",
+        "description": "When his world is destroyed and his friends mysteriously disappear, a young boy named Sora is thrust into a quest to find his missing friends and prevent the armies of darkness from destroying many other worlds.",
+        "directors": [
+            40
+        ],
+        "stars": [
+            102,
+            69,
+            103
+        ]
+    },
+    {
+        "title": "God of War II",
+        "year": "2007",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "After being betrayed by the gods of Olympus and annulled of his divine powers, Kratos must embark on a journey to meet the Sisters of Fate and take his revenge on Olympus.",
+        "directors": [
+            4
+        ],
+        "stars": [
+            104,
+            105,
+            106
+        ]
+    },
+    {
+        "title": "God of War II",
+        "year": "2007",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "After being betrayed by the gods of Olympus and annulled of his divine powers, Kratos must embark on a journey to meet the Sisters of Fate and take his revenge on Olympus.",
+        "directors": [
+            4
+        ],
+        "stars": [
+            104,
+            105,
+            106
+        ]
+    },
+    {
+        "title": "Fallout",
+        "year": "1997",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "After being sent by the overseer of his vault to search for a new water purifying chip, the player discovers the horrors of post apocalyptic America, and the threat of the Master's Army.",
+        "directors": [
+            24
+        ],
+        "stars": [
+            58,
+            107,
+            108
+        ]
+    },
+    {
+        "title": "Half-Life",
+        "year": "1998",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Dr. Gordon Freeman must fight his way out of a secret research facility after a teleportation experiment goes disastrously wrong.",
+        "directors": [
+            41,
+            42
+        ],
+        "stars": [
+            109,
+            110,
+            111
+        ]
+    },
+    {
+        "title": "Mafia: The City of Lost Heaven",
+        "year": "2002",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Set within the fictional American city of Lost Heaven during the 1930s, the story follows the rise and fall of taxi driver-turned-mobster Tommy Angelo within the Salieri crime family.",
+        "directors": [
+            43
+        ],
+        "stars": [
+            112,
+            113,
+            114
+        ]
+    },
+    {
+        "title": "Deus Ex",
+        "year": "2000",
+        "age rating": "M",
+        "rating": "9.2",
+        "description": "In a dark cyberpunk future where poverty, disease, oppression and terrorism are widespread, J.C. Denton, a new cybernetically-enhanced special agent, finds evidence of a massive conspiracy when his brother, also an agent, goes rogue.",
+        "directors": [
+            44
+        ],
+        "stars": [
+            115,
+            116,
+            117
+        ]
+    },
+    {
+        "title": "Grim Fandango",
+        "year": "1998",
+        "age rating": "T",
+        "rating": "9.1",
+        "description": "Manuel Calavera is a travel agent in The Land of the Dead who has stumbled across a ring of corruption.",
+        "directors": [
+            45
+        ],
+        "stars": [
+            118,
+            119,
+            120
+        ]
+    },
+    {
+        "title": "Castlevania: Symphony of the Night",
+        "year": "1997",
+        "age rating": "T",
+        "rating": "9.2",
+        "description": "In 1797, Shaft manages to regain power through a curse placed on Richter Belmont. Four years later, Dracula's son Alucard awakens from his eternal slumber, intent on destroying his evil father once and for all.",
+        "directors": [
+            46
+        ],
+        "stars": [
+            121,
+            122,
+            123
+        ]
+    },
+    {
+        "title": "Super Mario Bros. 3",
+        "year": "1988",
+        "age rating": "E",
+        "rating": "9.2",
+        "description": "King Koopa has kidnapped Princess Toadstool, taken over all seven kingdoms in the Mushroom World, and put his seven kids in charge of all of them. It's the Mario Brothers to the rescue.",
+        "directors": [
+            47,
+            28
+        ],
+        "stars": []
+    },
+    {
+        "title": "Monkey Island 2: LeChuck's Revenge",
+        "year": "1991",
+        "age rating": "E",
+        "rating": "9.2",
+        "description": "Having vanquished the ghost pirate LeChuck with a soft drink, Guybrush Threepwood now seeks the treasure of Big Whoop. During his quest he discovers LeChuck is back from the dead. Once again.",
+        "directors": [
+            29
+        ],
+        "stars": [
+            71,
+            72,
+            73
+        ]
+    },
+    {
+        "title": "Mass Effect 3",
+        "year": "2012",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Earth is under attack by a monstrous race of gigantic living ships known as the Reapers. Even if Commander Shepard could unite all surviving species in the galaxy, only a miracle could save them. Then again, Shepard did come back from the dead.",
+        "directors": [
+            9
+        ],
+        "stars": [
+            29,
+            124,
+            84
+        ]
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "year": "2017",
+        "age rating": "T",
+        "rating": "8.9",
+        "description": "In a primitive tribal world where strange, monstrous, animalistic machines roam the wilderness, a brave young female warrior goes on a quest to learn the truth about her mysterious origin and the state the world is in.",
+        "directors": [
+            48
+        ],
+        "stars": [
+            125,
+            126,
+            127
+        ]
+    },
+    {
+        "title": "BioShock Infinite",
+        "year": "2013",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "A man is sent to the flying city of Columbia to find a missing girl. However, upon arrival he discovers that the city, its people, and his objective are all not what they seem.",
+        "directors": [
+            49
+        ],
+        "stars": [
+            4,
+            128,
+            129
+        ]
+    },
+    {
+        "title": "God of War III",
+        "year": "2010",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Armed with his deadly double-chained blades, Kratos must take on Greek mythology's darkest creatures to destroy Olympus and the mighty Zeus himself.",
+        "directors": [
+            50
+        ],
+        "stars": [
+            130,
+            131,
+            132
+        ]
+    },
+    {
+        "title": "BioShock",
+        "year": "2007",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "In 1960, a lone survivor of a plane crash named Jack discovers an abandoned underwater utopia, only to find out that the mystery behind its creation is much more sinister than he first believed.",
+        "directors": [
+            49
+        ],
+        "stars": [
+            133,
+            134,
+            135
+        ]
+    },
+    {
+        "title": "Assassin's Creed II",
+        "year": "2009",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "Desmond Miles is trained to become a modern-day Assassin through the resurrected memories of ancestor Ezio Auditore da Firenze, who uncovers a massive Templar conspiracy in Renaissance Italy leading to the new Pope.",
+        "directors": [],
+        "stars": [
+            136,
+            137,
+            25
+        ]
+    },
+    {
+        "title": "Assassin's Creed II",
+        "year": "2009",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "Desmond Miles is trained to become a modern-day Assassin through the resurrected memories of ancestor Ezio Auditore da Firenze, who uncovers a massive Templar conspiracy in Renaissance Italy leading to the new Pope.",
+        "directors": [],
+        "stars": [
+            136,
+            137,
+            25
+        ]
+    },
+    {
+        "title": "Final Fantasy X",
+        "year": "2001",
+        "age rating": "T",
+        "rating": "9.1",
+        "description": "A celebrated young athlete is drawn from his futuristic hometown and convenient lifestyle to a harsh and techno-phobic land by a mysterious force only known as Sin.",
+        "directors": [
+            10
+        ],
+        "stars": [
+            138,
+            139,
+            140
+        ]
+    },
+    {
+        "title": "Fallout 3",
+        "year": "2008",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "Centuries following nuclear war, a teen leaves the safety of an underground vault in order to find their father, who left in hopes of creating a water purifier.",
+        "directors": [
+            15
+        ],
+        "stars": [
+            141,
+            142,
+            59
+        ]
+    },
+    {
+        "title": "Dragon Age: Origins",
+        "year": "2009",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "After four hundred years since the last Blight, a new Archdemon seeks to destroy the land of Ferelden. It is up to the player - as one of the remaining Grey Wardens - to unite the divided armies of Ferelden and save humanity.",
+        "directors": [
+            51
+        ],
+        "stars": [
+            143,
+            144,
+            145
+        ]
+    },
+    {
+        "title": "God of War",
+        "year": "2005",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "After 10 years of endless nightmares and servitude to the gods of Olympus, Kratos is assigned with a final task, to kill Ares, the God of War.",
+        "directors": [
+            52,
+            53
+        ],
+        "stars": [
+            104,
+            105,
+            146
+        ]
+    },
+    {
+        "title": "Dark Souls III",
+        "year": "2016",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "The fire is fading. Darkness creeps across the land. The Lords of Cinder charged with watching over the First Flame have abandoned their thrones. The Champion of Ash, an undead is chosen to return them to their thrones.",
+        "directors": [
+            38,
+            54,
+            55
+        ],
+        "stars": [
+            147,
+            148,
+            149
+        ]
+    },
+    {
+        "title": "Max Payne 2: The Fall of Max Payne",
+        "year": "2003",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "The brooding cop has left the DEA and returned to the NYPD. When his latest case ends up involving the thought-dead femme fatale Mona Sax, he finds that his journey through the night is far from over.",
+        "directors": [
+            56
+        ],
+        "stars": [
+            99,
+            150,
+            151
+        ]
+    },
+    {
+        "title": "Resident Evil 2",
+        "year": "1998",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Two months after the mansion events, the deadly T-virus escapes into the streets of Raccoon City. Leon Kennedy and Claire Redfield find the police office left abandoned. In an underground facility the story of Umbrella Corp. gets unfolded.",
+        "directors": [
+            57
+        ],
+        "stars": [
+            152,
+            153,
+            154
+        ]
+    },
+    {
+        "title": "Dark Souls",
+        "year": "2011",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "After narrowly escaping a doomed fate in an asylum, an undead warrior fights his way through the desolate remains of Lordran, once a sprawling utopia lead by the gods, to seek his purpose and fulfill a centuries old prophecy.",
+        "directors": [
+            38
+        ],
+        "stars": [
+            155,
+            156,
+            157
+        ]
+    },
+    {
+        "title": "Portal",
+        "year": "2007",
+        "age rating": "T",
+        "rating": "9.1",
+        "description": "A test subject wakes up in a scientific facility controlled by a sadistic artificial intelligence and must escape with the help of the only instrument she has--a gun that makes portals.",
+        "directors": [],
+        "stars": [
+            48,
+            158,
+            159
+        ]
+    },
+    {
+        "title": "Silent Hill",
+        "year": "1999",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "Harry awakes from a car crash to notice his daughter, Cheryl, vanished. As he searches for her, through the eerie town of Silent Hill, a terrifying descent into the unknown is set.",
+        "directors": [
+            58
+        ],
+        "stars": [
+            160,
+            161,
+            162
+        ]
+    },
+    {
+        "title": "Vampire: The Masquerade - Bloodlines",
+        "year": "2004",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Beginning your journey as a new Kindred, you must choose your path to follow the high class Vampire Society, or the lawbreaking group of Anarchs as you find your place in this new world.",
+        "directors": [
+            59,
+            60
+        ],
+        "stars": [
+            163,
+            164,
+            165
+        ]
+    },
+    {
+        "title": "The Legend of Zelda: Majora's Mask",
+        "year": "2000",
+        "age rating": "E",
+        "rating": "9.0",
+        "description": "After becoming the hero of Hyrule, Link stumbles into the enchanted land of Termina, where a falling moon will crush the world in three days.",
+        "directors": [
+            6,
+            8
+        ],
+        "stars": [
+            17,
+            166,
+            167
+        ]
+    },
+    {
+        "title": "Super Mario 64",
+        "year": "1996",
+        "age rating": "K-A",
+        "rating": "9.1",
+        "description": "When the evil Bowser steals 120 power stars and traps Princess Peach within the walls of her own castle, it's up to Mario to save her once again.",
+        "directors": [
+            47
+        ],
+        "stars": [
+            168,
+            169
+        ]
+    },
+    {
+        "title": "StarCraft",
+        "year": "1998",
+        "age rating": "T",
+        "rating": "9.1",
+        "description": "In 2499 in the Koprulu sector, a ferocious collective race known as the Zerg arrives to massacre the exiled human colonies while a highly advanced race, the Protoss, intervenes to exterminate the Zerg.",
+        "directors": [
+            61,
+            62,
+            63
+        ],
+        "stars": [
+            170,
+            171,
+            172
+        ]
+    },
+    {
+        "title": "GoldenEye 007",
+        "year": "1997",
+        "age rating": "T",
+        "rating": "9.1",
+        "description": "James Bond must track down agent-turned-terrorist Alec Trevelyan to stop the launch of a powerful satellite. Play the game that set the stage for the First-person shooter genre on the console.",
+        "directors": [
+            64
+        ],
+        "stars": [
+            173,
+            174,
+            175
+        ]
+    },
+    {
+        "title": "Super Smash Bros. Melee",
+        "year": "2001",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Smash Bros. installment for the GameCube with fast-paced, highly competitive and technical gameplay of realtime chess and hype using various Nintendo characters, with simple controls yet deep mechanics.",
+        "directors": [
+            65
+        ],
+        "stars": [
+            176,
+            168,
+            16
+        ]
+    },
+    {
+        "title": "Super Metroid",
+        "year": "1994",
+        "age rating": "E",
+        "rating": "9.1",
+        "description": "Samus Aran returns to the brooding planet Zebes to recover the last metroid from the Space Pirates.",
+        "directors": [
+            66
+        ],
+        "stars": [
+            177,
+            178
+        ]
+    },
+    {
+        "title": "Half-Life 2: Episode Two",
+        "year": "2007",
+        "age rating": "M",
+        "rating": "9.1",
+        "description": "Gordon Freeman, along with the help of human and non-human allies, continues his fight against the ruthless alien force known as the Combine.",
+        "directors": [
+            21
+        ],
+        "stars": [
+            51,
+            179,
+            180
+        ]
+    },
+    {
+        "title": "Final Fantasy VI",
+        "year": "1994",
+        "age rating": "T",
+        "rating": "9.1",
+        "description": "A mysterious woman joins a group of mercenaries in order to find out about her destiny and means of saving the world from an evil madman.",
+        "directors": [
+            67,
+            10
+        ],
+        "stars": []
+    },
+    {
+        "title": "The Curse of Monkey Island",
+        "year": "1997",
+        "age rating": "K-A",
+        "rating": "9.1",
+        "description": "After unwittingly turning his true love Elaine into solid gold with a cursed engagement ring, Guybrush Threepwood must find a map, a ship and a crew, sail to Blood Island and track down an uncursed diamond ring to reverse the curse.",
+        "directors": [
+            68,
+            69
+        ],
+        "stars": [
+            71,
+            73,
+            72
+        ]
+    },
+    {
+        "title": "Shenmue",
+        "year": "1999",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Ryo, a respected Japanese student sees his father killed in front of his own eyes. He sets out to find the man in charge of his fathers death and the mystery of who and why?",
+        "directors": [
+            70,
+            71
+        ],
+        "stars": [
+            181,
+            182,
+            183
+        ]
+    },
+    {
+        "title": "Indiana Jones and the Fate of Atlantis",
+        "year": "1992",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Indiana Jones must fight the nazis again in search for Atlantis and a newly discovered mineral of unbelievable power, the Orichalcum.",
+        "directors": [
+            72
+        ],
+        "stars": [
+            184,
+            185,
+            186
+        ]
+    },
+    {
+        "title": "Metal Gear: Ghost Babel",
+        "year": "2000",
+        "age rating": "E",
+        "rating": "9.0",
+        "description": "In this non-canonical sequel to Metal Gear Solid, Solid Snake is called upon from his home in Alaska to infiltrate an enemy base searching for Metal Gear.",
+        "directors": [
+            73
+        ],
+        "stars": []
+    },
+    {
+        "title": "Batman: Arkham Knight",
+        "year": "2015",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "With his back against the wall, Batman turns to his closest allies to help him save Gotham City from the clutches of Scarecrow and the Arkham Knight's army. A familiar face also returns to give The Dark Knight a message he cannot ignore.",
+        "directors": [
+            16
+        ],
+        "stars": [
+            187,
+            188,
+            4
+        ]
+    },
+    {
+        "title": "Super Smash Bros. Ultimate",
+        "year": "2018",
+        "age rating": "E10+",
+        "rating": "8.8",
+        "description": "Super Smash Bros. Ultimate for the Nintendo Switch brings back every fighter in the history of the series, adds newcomers and over 100 stages, and introduces a new adventure mode called \"World of Light''.",
+        "directors": [
+            65
+        ],
+        "stars": [
+            189,
+            190,
+            191
+        ]
+    },
+    {
+        "title": "Yakuza 0",
+        "year": "2015",
+        "age rating": "M",
+        "rating": "8.9",
+        "description": "Kiryu and Majima, both Yakuza's who are in different cities in Japan in 1988, as the fate of the two characters become intertwined in a gritty, violent, and often touching narrative.",
+        "directors": [
+            74,
+            75
+        ],
+        "stars": [
+            192,
+            193,
+            194
+        ]
+    },
+    {
+        "title": "Uncharted 3: Drake's Deception",
+        "year": "2011",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Treasure hunter Nathan Drake embarks on a quest in search of the Atlantis of the Sands while battling an ancient, sinister organization.",
+        "directors": [
+            20,
+            76
+        ],
+        "stars": [
+            25,
+            26,
+            46
+        ]
+    },
+    {
+        "title": "Metal Gear Solid 2: Sons of Liberty",
+        "year": "2001",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "Two years after the death of Solid Snake, a rookie FOX-HOUND agent, on his first mission, infiltrates an offshore decontamination facility to rescue the President.",
+        "directors": [
+            5
+        ],
+        "stars": [
+            13,
+            195,
+            196
+        ]
+    },
+    {
+        "title": "Call of Duty 4: Modern Warfare",
+        "year": "2007",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "The Call of Duty series returns this time into a modern day setting. The player takes control of a character nicknamed \"Soap,\" for the majority of the campaign and will need to progress through many modern warfare scenarios.",
+        "directors": [
+            77
+        ],
+        "stars": [
+            197,
+            198,
+            199
+        ]
+    },
+    {
+        "title": "Super Mario Odyssey",
+        "year": "2017",
+        "age rating": "E10+",
+        "rating": "9.0",
+        "description": "Mario must travel to worlds unknown in order to stop Bowser from marrying Princess Peach.",
+        "directors": [
+            78
+        ],
+        "stars": [
+            200,
+            16,
+            201
+        ]
+    },
+    {
+        "title": "South Park: The Stick of Truth",
+        "year": "2014",
+        "age rating": "M",
+        "rating": "8.8",
+        "description": "As the New Kid, discover the lost Stick of Truth, and earn your place at the side of Stan, Kyle, Cartman and Kenny as their new friend.",
+        "directors": [
+            79,
+            80,
+            81
+        ],
+        "stars": [
+            202,
+            203,
+            204
+        ]
+    },
+    {
+        "title": "The Legend of Zelda: Twilight Princess",
+        "year": "2006",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "Link, a young man from a small farming village, finds Hyrule is being consumed by an otherworldly twilight. Guided by a strange pixie named Midna, he endeavors to return light to the land and confront the usurper king Zant.",
+        "directors": [
+            6
+        ],
+        "stars": [
+            205,
+            206,
+            207
+        ]
+    },
+    {
+        "title": "Super Mario Galaxy",
+        "year": "2007",
+        "age rating": "E",
+        "rating": "9.1",
+        "description": "When Princess Peach is abducted as part of Bowser's galaxy creation scheme, stalwart plumber Mario must leap to her rescue, with the help of new celestial friends and powers.",
+        "directors": [
+            8
+        ],
+        "stars": [
+            168,
+            201,
+            208
+        ]
+    },
+    {
+        "title": "The Legend of Zelda: The Wind Waker",
+        "year": "2002",
+        "age rating": "E",
+        "rating": "9.0",
+        "description": "After his sister gets kidnapped from their peaceful island, a young boy aims to emulate the Hero of Time by saving her.",
+        "directors": [
+            6
+        ],
+        "stars": [
+            209,
+            210,
+            211
+        ]
+    },
+    {
+        "title": "Day of the Tentacle",
+        "year": "1993",
+        "age rating": "E",
+        "rating": "8.9",
+        "description": "A disembodied tentacle is accidentally exposed to nuclear waste, giving it human abilities and an ambition to take over the world.",
+        "directors": [
+            82,
+            45
+        ],
+        "stars": [
+            212,
+            184,
+            186
+        ]
+    },
+    {
+        "title": "Baldur's Gate",
+        "year": "1998",
+        "age rating": "T",
+        "rating": "8.9",
+        "description": "The main character, ward of mystical monk Gorion, whose name, sex, race and class are defined by the players, leaves his order's keep for the first time and starts a journey to discover his true identity. But someone wants him dead.",
+        "directors": [
+            24
+        ],
+        "stars": [
+            62,
+            213,
+            108
+        ]
+    },
+    {
+        "title": "Diablo II",
+        "year": "2000",
+        "age rating": "M",
+        "rating": "9.0",
+        "description": "Evil has survived. Diablo, the Lord of Terror, now seeks to free his demonic brothers. The armies of Heaven are forbidden to interfere with his plan, so an Amazon, a Barbarian, a Necromancer, a Paladin and a Sorceresses join the battle.",
+        "directors": [],
+        "stars": [
+            214,
+            215,
+            216
+        ]
+    },
+    {
+        "title": "The Longest Journey",
+        "year": "1999",
+        "age rating": "M",
+        "rating": "8.9",
+        "description": "April Ryan is a young visual-arts student in Venice, Newport. She's been having some strange dreams lately, but little does she know about the important role she'll have in changing the future.",
+        "directors": [
+            83,
+            84
+        ],
+        "stars": [
+            217,
+            218,
+            219
+        ]
+    },
+    {
+        "title": "System Shock 2",
+        "year": "1999",
+        "age rating": "M",
+        "rating": "8.9",
+        "description": "An agent is deployed on a mission to explore a distant planet, but instead wakes up from his cryosleep five months later only to discover that the ship's artificial intelligence has been corrupted and the humans infected by an alien race.",
+        "directors": [
+            49
+        ],
+        "stars": [
+            220,
+            221,
+            222
+        ]
+    },
+    {
+        "title": "StarCraft: Brood War",
+        "year": "1998",
+        "age rating": "T",
+        "rating": "9.0",
+        "description": "After the events of StarCraft (1998) the Protoss try to unite their divided race while still fighting the weakened Zerg which is also attacked by human expedition from Earth.",
+        "directors": [
+            85
+        ],
+        "stars": [
+            170,
+            223,
+            224
+        ]
+    }
+]
