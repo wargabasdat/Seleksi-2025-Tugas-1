@@ -13,7 +13,3 @@ export PATH=/Applications/Postgres.app/Contents/Versions/17/bin:/opt/homebrew/op
 echo "--> Starting run_etl.py..." >> "$LOG_FILE"
 "/Users/allodyaq/anaconda3/bin/python" "run_etl.py" >> "$LOG_FILE" 2>&1
 echo "--> Finished run_etl.py." >> "$LOG_FILE"
-
-echo "\n==================================================" >> "$LOG_FILE"
-echo "Wrapper script finished at: $(date)" >> "$LOG_FILE"
-echo "====================================================" >> "$LOG_FILE"

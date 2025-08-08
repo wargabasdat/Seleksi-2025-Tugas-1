@@ -43,3 +43,6 @@ for step_name, script_path in steps:
         print(f"   -> ERROR: File not found, skipping: {script_path}", file=sys.stderr)
         continue
     run_script(script_path)
+
+
+    
