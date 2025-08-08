@@ -42,7 +42,6 @@ cd  C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\TUGAS_SELEKSI_1_182230
 2. Install Chrome WebDriver
 Lakukan instalasi WebDriver sesuai dengan instruksi pada tautan https://developer.chrome.com/docs/chromedriver/get-started. Sesuaikan baris ini pada ```scraping.py``` dengan _path_ hasil instalasi Chrome WebDriver.
 ```
-bash
 service = Service(r'C:\Users\Velicia\OneDrive\Documents\ITB\SeleksiBasdat\chromedriver-win64\chromedriver.exe')
 ```
 3. Jalankan program ```scraping.py```
