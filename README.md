@@ -174,10 +174,10 @@ Terdapat satu relasi many-to-many (antara dim_game dan dim_country) dalam ERD se
 
 ## **Beberapa *screenshot* dari Program** 
 Berikut beberapa tangkapan layar hasil *query* dari *database* program:
-![Query 1 Database](Data Storing/screenshot/query_1.png)
-![Query 2 Database](Data Storing/screenshot/query_2.png)
-![Query 1 Data Warehouse](Data Warehouse/screenshot/query_1.png)
-![Query 4 Data Warehouse](Data Warehouse/screenshot/query_4.png)
+![Query 1 Database](./Data%20Storing/screenshot/query_1.png)  
+![Query 2 Database](./Data%20Storing/screenshot/query_2.png)  
+![Query 1 Data Warehouse](./Data%20Warehouse/screenshot/query_1.png)  
+![Query 4 Data Warehouse](./Data%20Warehouse/screenshot/query_4.png)
 
 ## **Automated Scheduling** 
 ### **Cara Menjalankan Program Secara Otomatis**
