@@ -17,6 +17,17 @@ CREATE TABLE Regions (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+
+CREATE TABLE InRelation(
+    in_id INT AUTO_INCREMENT PRIMARY KEY,
+    game_id INT NOT NULL,
+    region_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE KEY unique_game_region (game_id, region_id),
+    FOREIGN KEY (game_id) REFERENCES games(game_id) ON DELETE CASCADE,
+    FOREIGN KEY (region_id) REFERENCES regions(region_id) ON DELETE CASCADE
+);
+
 -- create revenue table
 CREATE TABLE Revenue (
     revenue_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -31,16 +42,6 @@ CREATE TABLE Revenue (
     scraped_at TIMESTAMP,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
-    FOREIGN KEY (in_id) REFERENCES In(in_id) ON DELETE CASCADE,
+    FOREIGN KEY (in_id) REFERENCES InRelation(in_id) ON DELETE CASCADE,
     UNIQUE KEY unique_game_region_month (in_id, month)
-);
-
-CREATE TABLE In (
-    in_id INT AUTO_INCREMENT PRIMARY KEY,
-    game_id INT NOT NULL,
-    region_id INT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE KEY unique_game_region (game_id, region_id),
-    FOREIGN KEY (game_id) REFERENCES games(game_id) ON DELETE CASCADE,
-    FOREIGN KEY (region_id) REFERENCES regions(region_id) ON DELETE CASCADE,
 );
