@@ -1,78 +1,248 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2025 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# Database Roller Coaster yang Dibuka pada Tahun 2025
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Author
+**Nama:** *Anella Utari Gunadi*  
+**NIM:** *13523078*  
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+---
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Deskripsi Singkat
+Proyek ini merupakan implementasi web scraping menggunakan **Python**, **BeautifulSoup**, dan **Requests** untuk mengumpulkan data roller coaster yang baru dibuka pada tahun 2025 yang diambil dari [rcdb.com](https://rcdb.com/r.htm?order=1&ot=2&op=2025).  
+Scraper ini menghasilkan tiga file JSON:  
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+1. **`roller_coasters.json`** → berisi detail roller coaster seperti nama, park_id, manufacturer_id, jenis, desain, status, dan tanggal dibuka.  
+2. **`parks.json`** → berisi nama taman hiburan dan lokasinya.  
+3. **`manufacturers.json`** → berisi nama produsen roller coaster beserta lokasinya.  
 
+Topik ini dipilih karena data roller coaster memiliki struktur yang jelas, menarik untuk dianalisis, dan cocok untuk mempraktikkan integrasi antara web scraping, penyimpanan data yang terstruktur, dan pemodelan basis data.
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+---
 
+## Cara Menggunakan Scraper
 
+1. **Instal dependensi**  
+   ```bash
+   pip install requests beautifulsoup4
 
+2. **Jalankan scraper**  
+   Pastikan Anda berada di direktori `Data Scraping/src` dengan mengetik
+   ```bash
+   cd Data Scraping/src
+   ```
+   Kemudian jalankan perintah berikut:  
+   ```bash
+   python scrape.py
+   ```
+   Program akan otomatis mengunjungi halaman RCDB, mengambil detail roller coaster, park, dan manufacturer, lalu menyimpannya ke folder `Data Scraping/data/`
+
+3. **Output yang dihasilkan**  
+   Setelah proses scraping selesai, hasilnya akan disimpan dalam tiga file JSON di dalam folder `Data Scraping/data/`:
+   - `roller_coasters.json`
+   - `parks.json`
+   - `manufacturers.json`
+
+## Struktur File JSON
+
+1. **`roller_coasters.json`**  
+    ```json
+    [
+        {
+            "id": 21311,
+            "name": "Adrena-Line",
+            "park_id": 21275,
+            "manufacturer_id": 6836,
+            "type": "Steel",
+            "design": "Suspended",
+            "status": "Under Construction",
+            "opened": "2025"
+        },
+        ...
+    ]
+    ```
+**Keterangan:**
+  - `id`: ID unik roller coaster.
+  - `name`: Nama roller coaster.
+  - `park_id`: ID taman hiburan tempat roller coaster berada.
+  - `manufacturer_id`: ID produsen roller coaster.
+  - `type`: Jenis konstruksi roller coaster.
+  - `design`: Desain kursi roller coaster.
+  - `status`: Status operasional roller coaster.
+  - `opened`: Tanggal pembukaan roller coaster.
+
+2. **`parks.json`**  
+    ```json
+    [
+        {
+            "id": 21275,
+            "name": "Six Flags Qiddiya City",
+            "location": {
+            "city": "Al Muzahimiyah",
+            "region": "Ar Riyadh",
+            "country": "Saudi Arabia"
+            }
+        },
+        ...
+    ]
+    ```
+**Keterangan:**
+   - `id`: ID unik taman hiburan.
+   - `name`: Nama taman hiburan.
+   - `location`: Lokasi taman hiburan yang mencakup:
+      - `city`: Kota tempat taman berada.
+      - `region`: Wilayah atau provinsi.
+      - `country`: Negara tempat taman berada.
+
+3. **`manufacturers.json`**  
+    ```json
+    [
+        {
+            "id": 6836,
+            "name": "Vekoma",
+            "location": {
+            "city": "Vlodrop",
+            "region": "Limburg",
+            "country": "Netherlands"
+            }
+        },
+        ...
+    ]
+    ```
+**Keterangan:**
+   - `id`: ID unik produsen roller coaster.
+   - `name`: Nama produsen roller coaster.
+   - `location`: Lokasi produsen yang mencakup:
+     - `city`: Kota tempat produsen berada.
+     - `region`: Wilayah atau provinsi.
+     - `country`: Negara tempat produsen berada.
+
+## Struktur ERD dan Diagram Relasional RDBMS
+
+- ### ERD (Entity-Relationship Diagram) ###
+![ERD Roller Coaster](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/design/ERD.jpg)
+
+Terdapat 6 entitas utama dalam ERD ini:
+1. **RollerCoaster**
+   - Atribut: `coaster_id`, `name`, `type`, `design`, `status`, `opened`
+   - Primary Key: `coaster_id`
+   - Relasi:
+        - **Belongs To** -> `Park`: Many to One,
+        yaitu setiap roller coaster berada di tepat satu taman hiburan dan satu taman hiburan dapat memiliki banyak roller coaster.
+        - **Made By** -> `Manufacturer`: Many to One,
+        yaitu setiap roller coaster dibuat oleh tepat satu produsen dan satu produsen dapat membuat banyak roller coaster.
+
+2. **Park**
+    - Atribut: `park_id`, `park_name`
+    - Primary Key: `park_id`
+    - Relasi:
+        - **Belongs To** -> `RollerCoaster`: One to Many,
+        yaitu setiap taman hiburan dapat memiliki banyak roller coaster, tetapi setiap roller coaster hanya berada di satu taman hiburan.
+        - **Located In** -> `City`: Many to One,
+        yaitu setiap taman hiburan berada di tepat satu kota dan satu kota dapat memiliki banyak taman hiburan.
+
+3. **Manufacturer**
+    - Atribut: `manufacturer_id`, `manufacturer_name`
+    - Primary Key: `manufacturer_id`
+    - Relasi:
+        - **Made By** -> `RollerCoaster`: One to Many,
+        yaitu setiap produsen dapat membuat banyak roller coaster, tetapi setiap roller coaster hanya dibuat oleh satu produsen.
+        - **Located In** -> `City`: Many to One,
+        yaitu setiap produsen berada di tepat satu kota dan satu kota dapat memiliki banyak produsen.
+
+4. **City**
+    - Atribut: `city_id`, `city_name`
+    - Primary Key: `city_id`
+    - Relasi:
+        - **Located In** -> `Park`: One to Many,
+        yaitu setiap kota dapat memiliki banyak taman hiburan, tetapi setiap taman hiburan hanya berada di satu kota.
+        - **Located In** -> `Manufacturer`: One to Many,
+        yaitu setiap kota dapat memiliki banyak produsen, tetapi setiap produsen hanya berada di satu kota
+        - **Located In** -> `Region`: Many to One,
+        yaitu setiap kota berada di tepat satu wilayah dan satu wilayah dapat memiliki banyak kota.
+
+5. **Region**
+    - Atribut: `region_id`, `region_name`
+    - Primary Key: `region_id`
+    - Relasi:
+        - **Located In** -> `City`: One to Many,
+        yaitu setiap wilayah dapat memiliki banyak kota, tetapi setiap kota hanya berada di satu wilayah.
+        - **Located In** -> `Country`: Many to One,
+        yaitu setiap wilayah berada di tepat satu negara dan satu negara dapat memiliki banyak wilayah.
+
+6. **Country**
+    - Atribut: `country_id`, `country_name`
+    - Primary Key: `country_id`
+    - Relasi:
+        - **Located In** -> `Region`: One to Many,
+        yaitu setiap negara dapat memiliki banyak wilayah, tetapi setiap wilayah hanya berada di satu negara.
+
+- ### Diagram Relasional RDBMS ###
+![Diagram Relasional Roller Coaster](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/design/Relational_Diagram.jpg)
+
+Terdapat 6 tabel dalam diagram relasional ini yang merepresentasikan entitas dalam ERD:
+1. **RollerCoaster**
+    - Atribut: `coaster_id`, `park_id`, `manufacturer_id`, coaster_name`, coaster_type`, `coaster_design`, `coaster_status`, `opened`
+    - Primary Key: `coaster_id`
+    - Foreign Key: `park_id` (merujuk ke `Park.park_id`), `manufacturer_id` (merujuk ke `Manufacturer.manufacturer_id`)
+    
+2. **Park**
+    - Atribut: `park_id`, `park_name`, `city_id`
+    - Primary Key: `park_id`
+    - Foreign Key: `city_id` (merujuk ke `City.city_id`)
+
+3. **Manufacturer**
+    - Atribut: `manufacturer_id`, `manufacturer_name`, `city_id`
+    - Primary Key: `manufacturer_id`
+    - Foreign Key: `city_id` (merujuk ke `City.city_id`)
+
+4. **City**
+    - Atribut: `city_id`, `city_name`, `region_id`
+    - Primary Key: `city_id`
+    - Foreign Key: `region_id` (merujuk ke `Region.region_id`)
+
+5. **Region**
+    - Atribut: `region_id`, `region_name`, `country_id`
+    - Primary Key: `region_id`
+    - Foreign Key: `country_id` (merujuk ke `Country.country_id`)
+
+6. **Country**
+    - Atribut: `country_id`, `country_name`
+    - Primary Key: `country_id`
+
+## Proses Translasi ERD menjadi Diagram Relasional
+Dalam ERD terdapat 6 entitas, yaitu `RollerCoaster`, `Park`, `Manufacturer`, `City`, `Region`, dan `Country`.
+Seluruh hubungan antar entitas adalah one-to-many, sehingga proses translasi dilakukan dengan cara:
+    - Menambahkan foreign key pada entitas yang memiliki hubungan many yang merujuk ke entitas yang memiliki hubungan one.
+    - Memastikan setiap entitas memiliki primary key yang unik.
+    Contoh:
+        - `RoallerCoaster.park_id` -> foreign key ke `Park.park_id`
+        - `RollerCoaster.manufacturer_id` -> foreign key ke `Manufacturer.manufacturer_id`
+        - dan seterusnya untuk entitas lainnya.
+
+## Screenshot Program
+
+1. **Hasil insert file SQL ke database**  
+![Insert File SQL ke Database](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/insertsql.png)
+
+2. **Hasil show table**
+![Show Table](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/showtable.png)
+
+3. **Hasil query untuk melihat data 10 roller coaster pertama**
+![Hasil Query 10 Roller Coaster Pertama](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/rollercoaster.png)
+
+4. **Hasil query untuk melihat data 10 roller coaster yang terletak di US**
+![Hasil Query 10 Roller Coaster yang Terletak di US](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/rc_in_us.png)
+
+5. **Hasil query untuk melihat data 10 taman hiburan roller coaster yang terletak di China**
+![Hasil Query 10 Taman Hiburan Roller Coaster yang Terletak di China](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/park_in_china.png)
+
+6. **Hasil query untuk melihat 10 produsen roller coaster teratas berdasarkan jumlah roller coaster yang mereka buat**
+![Hasil Query 10 Produsen Roller Coaster Teratas](https://raw.githubusercontent.com/AnellaUtari/Seleksi-2025-Tugas-1/main/Data%20Storing/screenshot/top_manufacturer.png)
+
+## Referensi
+
+- **Library yang digunakan**  
+    - [Requests](https://docs.python-requests.org/en/latest/)
+    - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+- **Sumber data**  
+    - [RCDB - Roller Coaster Database](https://rcdb.com/r.htm?order=1&ot=2&op=2025)

@@ -1,0 +1,2022 @@
+[
+  {
+    "id": 21311,
+    "name": "Adrena-Line",
+    "park_id": 21275,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Suspended",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22190,
+    "name": "Aerozuum",
+    "park_id": 22189,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Suspended",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22016,
+    "name": "AlpenFury",
+    "park_id": 4539,
+    "manufacturer_id": 6848,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-12"
+  },
+  {
+    "id": 15999,
+    "name": "Andromeda Base",
+    "park_id": 4977,
+    "manufacturer_id": 7489,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20825,
+    "name": "Antares",
+    "park_id": 5951,
+    "manufacturer_id": 15977,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-31"
+  },
+  {
+    "id": 21330,
+    "name": "Aquila",
+    "park_id": 17863,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-01-19"
+  },
+  {
+    "id": 21976,
+    "name": "Ashara: Goddess of Fire",
+    "park_id": 20617,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 19899,
+    "name": "Attack of the Aswang",
+    "park_id": 19898,
+    "manufacturer_id": 7042,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22637,
+    "name": "Aurora",
+    "park_id": 20757,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Suspended",
+    "status": "Operating",
+    "opened": "2025-06-27"
+  },
+  {
+    "id": 21838,
+    "name": "Balade Enchantée",
+    "park_id": 19561,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-05"
+  },
+  {
+    "id": 21785,
+    "name": "Beach Rescue Racer",
+    "park_id": 4601,
+    "manufacturer_id": 6861,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-03-08"
+  },
+  {
+    "id": 18347,
+    "name": "Big Air Coaster",
+    "park_id": 18057,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22111,
+    "name": "Big Bad Wolf: The Wolf’s Revenge",
+    "park_id": 4548,
+    "manufacturer_id": 6831,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Operating",
+    "opened": "2025-05-23"
+  },
+  {
+    "id": 22055,
+    "name": "Big LEGO Coaster",
+    "park_id": 19273,
+    "manufacturer_id": 6831,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Operating",
+    "opened": "2025-07-05"
+  },
+  {
+    "id": 18394,
+    "name": "Bolt",
+    "park_id": 5232,
+    "manufacturer_id": 7125,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22338,
+    "name": "Boomerang",
+    "park_id": 22337,
+    "manufacturer_id": 6971,
+    "type": "Steel",
+    "design": "Wing",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 21983,
+    "name": "Braus & Saus",
+    "park_id": 4879,
+    "manufacturer_id": 12029,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-12"
+  },
+  {
+    "id": 21710,
+    "name": "Brush Creek Holl'r",
+    "park_id": 21709,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-04"
+  },
+  {
+    "id": 20876,
+    "name": "Bulderbaan",
+    "park_id": 20875,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-10-01"
+  },
+  {
+    "id": 22729,
+    "name": "Capybara Coaster",
+    "park_id": 22728,
+    "manufacturer_id": 6892,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-03"
+  },
+  {
+    "id": 21809,
+    "name": "Cétautomatix",
+    "park_id": 4790,
+    "manufacturer_id": 6948,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21937,
+    "name": "Chenille",
+    "park_id": 19017,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-19"
+  },
+  {
+    "id": 22458,
+    "name": "Chicken Coop",
+    "park_id": 5761,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22892,
+    "name": "Chicken Coop",
+    "park_id": 22545,
+    "manufacturer_id": 22121,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-07-24"
+  },
+  {
+    "id": 22005,
+    "name": "Ch'ti Turbo",
+    "park_id": 19561,
+    "manufacturer_id": 16578,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20267,
+    "name": "Cinderoller Coaster",
+    "park_id": 5455,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-01"
+  },
+  {
+    "id": 19998,
+    "name": "Circuit Breaker",
+    "park_id": 18828,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-10-19"
+  },
+  {
+    "id": 22745,
+    "name": "City Spinner",
+    "park_id": 22743,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-03"
+  },
+  {
+    "id": 21314,
+    "name": "Colossus",
+    "park_id": 21275,
+    "manufacturer_id": 6860,
+    "type": "Wood",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22837,
+    "name": "Congo Cruizer",
+    "park_id": 5142,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22738,
+    "name": "Cosmic Coaster",
+    "park_id": 22737,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-08-08"
+  },
+  {
+    "id": 21928,
+    "name": "Cowabunga Carts",
+    "park_id": 4793,
+    "manufacturer_id": 6861,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-17"
+  },
+  {
+    "id": 22167,
+    "name": "Crazy 8 Family Coaster",
+    "park_id": 4647,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07"
+  },
+  {
+    "id": 20199,
+    "name": "Crazy Crab",
+    "park_id": 4739,
+    "manufacturer_id": 6848,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-24"
+  },
+  {
+    "id": 22473,
+    "name": "Crazy Mouse",
+    "park_id": 6300,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22788,
+    "name": "Crazy Mouse",
+    "park_id": 4862,
+    "manufacturer_id": 6902,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22654,
+    "name": "Crazy Roller Coaster",
+    "park_id": 22653,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22376,
+    "name": "Cupid Roller Coaster",
+    "park_id": 5137,
+    "manufacturer_id": 7980,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20551,
+    "name": "Curse of the Werewolf",
+    "park_id": 17569,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-22"
+  },
+  {
+    "id": 18058,
+    "name": "Cyclone",
+    "park_id": 18057,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21005,
+    "name": "Daddy Pig's Roller Coaster",
+    "park_id": 14026,
+    "manufacturer_id": 6892,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-03-01"
+  },
+  {
+    "id": 20216,
+    "name": "Défi du Dragon",
+    "park_id": 5113,
+    "manufacturer_id": 6948,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-03-22"
+  },
+  {
+    "id": 22136,
+    "name": "Delia's Adventure",
+    "park_id": 20617,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22054,
+    "name": "Dinoachterbahn",
+    "park_id": 13367,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-05"
+  },
+  {
+    "id": 22623,
+    "name": "DinoRunner",
+    "park_id": 4968,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-18"
+  },
+  {
+    "id": 22824,
+    "name": "Disney Rollercoaster",
+    "park_id": 22823,
+    "manufacturer_id": 6914,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 21667,
+    "name": "Drachenblitz",
+    "park_id": 13160,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-06"
+  },
+  {
+    "id": 18854,
+    "name": "Draco´Snow",
+    "park_id": 21412,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-05"
+  },
+  {
+    "id": 21321,
+    "name": "Dragon",
+    "park_id": 19273,
+    "manufacturer_id": 6861,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-05"
+  },
+  {
+    "id": 22205,
+    "name": "Dragon's Apprentice Coaster",
+    "park_id": 19273,
+    "manufacturer_id": 6892,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-05"
+  },
+  {
+    "id": 20464,
+    "name": "Erdbeer Raupenbahn",
+    "park_id": 20463,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-15"
+  },
+  {
+    "id": 21315,
+    "name": "Falcons Flight",
+    "park_id": 21275,
+    "manufacturer_id": 6837,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22427,
+    "name": "Familienachterbahn",
+    "park_id": 17263,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-24"
+  },
+  {
+    "id": 22829,
+    "name": "Family Ride",
+    "park_id": 16018,
+    "manufacturer_id": 7536,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22428,
+    "name": "Family Roller Coaster",
+    "park_id": 9583,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-01-02"
+  },
+  {
+    "id": 22998,
+    "name": "Family Roller Coaster",
+    "park_id": 6148,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22033,
+    "name": "Fire Runner",
+    "park_id": 17529,
+    "manufacturer_id": 10583,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-18"
+  },
+  {
+    "id": 21294,
+    "name": "Flash Coaster",
+    "park_id": 5745,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-23"
+  },
+  {
+    "id": 21088,
+    "name": "Flash: Vertical Velocity",
+    "park_id": 4534,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-03-29"
+  },
+  {
+    "id": 22429,
+    "name": "Fruit Worm Pulley",
+    "park_id": 9583,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-01-02"
+  },
+  {
+    "id": 22920,
+    "name": "Fruit Worm Pulley",
+    "park_id": 22919,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 21112,
+    "name": "Georgia Gold Rusher",
+    "park_id": 4535,
+    "manufacturer_id": 6837,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-03-15"
+  },
+  {
+    "id": 21880,
+    "name": "Gold Rush",
+    "park_id": 21879,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-27"
+  },
+  {
+    "id": 19903,
+    "name": "Gozimba",
+    "park_id": 4890,
+    "manufacturer_id": 15977,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22382,
+    "name": "Happy Caterpillar",
+    "park_id": 19364,
+    "manufacturer_id": 6862,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 19395,
+    "name": "Helios",
+    "park_id": 5591,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-12"
+  },
+  {
+    "id": 20550,
+    "name": "Hiccup's Wing Gliders",
+    "park_id": 17569,
+    "manufacturer_id": 6837,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-22"
+  },
+  {
+    "id": 19724,
+    "name": "Hot Wheels Boneshaker: The Ultimate Ride",
+    "park_id": 19393,
+    "manufacturer_id": 6887,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 19394,
+    "name": "Hot Wheels Twin Mill Racer",
+    "park_id": 19393,
+    "manufacturer_id": 6887,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20683,
+    "name": "Inverse Time and Space Roller Coaster",
+    "park_id": 19049,
+    "manufacturer_id": 6837,
+    "type": "Steel",
+    "design": "Wing",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21312,
+    "name": "Iron Rattler",
+    "park_id": 21275,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20618,
+    "name": "Izari's Flight",
+    "park_id": 20617,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22612,
+    "name": "Katta-Kutter Panorama",
+    "park_id": 4883,
+    "manufacturer_id": 22708,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22122,
+    "name": "Knollis Hafenflitzer",
+    "park_id": 20463,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-15"
+  },
+  {
+    "id": 22872,
+    "name": "Kyrnica Expres",
+    "park_id": 21225,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05"
+  },
+  {
+    "id": 21662,
+    "name": "Laka Laka",
+    "park_id": 4628,
+    "manufacturer_id": 6953,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-12"
+  },
+  {
+    "id": 21250,
+    "name": "Lil Dipper Roller Coaster",
+    "park_id": 20452,
+    "manufacturer_id": 6872,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21895,
+    "name": "Loco Motion Mini Spinning Roller Coaster",
+    "park_id": 21894,
+    "manufacturer_id": 6892,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-08-28"
+  },
+  {
+    "id": 19013,
+    "name": "Mad Racers",
+    "park_id": 17706,
+    "manufacturer_id": 6860,
+    "type": "Wood",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 15485,
+    "name": "Mad Ramp Peak",
+    "park_id": 4977,
+    "manufacturer_id": 7489,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22412,
+    "name": "Magic Tornado",
+    "park_id": 20350,
+    "manufacturer_id": 6892,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22945,
+    "name": "Magic Twist",
+    "park_id": 6276,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22363,
+    "name": "Marvelous Adventure",
+    "park_id": 22361,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21756,
+    "name": "Masters of Spinjitzu",
+    "park_id": 12557,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-11"
+  },
+  {
+    "id": 21793,
+    "name": "Mecalodon",
+    "park_id": 4847,
+    "manufacturer_id": 6948,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-05"
+  },
+  {
+    "id": 22644,
+    "name": "Mermaid Ride",
+    "park_id": 20757,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-27"
+  },
+  {
+    "id": 21380,
+    "name": "Mine-Cart Madness",
+    "park_id": 17569,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-22"
+  },
+  {
+    "id": 22970,
+    "name": "Mixed Coaster",
+    "park_id": 22969,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-12"
+  },
+  {
+    "id": 22982,
+    "name": "Montanha Russa",
+    "park_id": 22981,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-11"
+  },
+  {
+    "id": 21787,
+    "name": "Mountain Mayhem Fun Coaster",
+    "park_id": 21786,
+    "manufacturer_id": 14793,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20894,
+    "name": "Olympia Looping",
+    "park_id": 4926,
+    "manufacturer_id": 6951,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-03-15"
+  },
+  {
+    "id": 22461,
+    "name": "Orient Express",
+    "park_id": 4749,
+    "manufacturer_id": 6904,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 19715,
+    "name": "Palindrome",
+    "park_id": 18828,
+    "manufacturer_id": 6948,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-10-19"
+  },
+  {
+    "id": 22480,
+    "name": "Plantation Coaster",
+    "park_id": 22478,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22635,
+    "name": "Pomme",
+    "park_id": 22634,
+    "manufacturer_id": 14971,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-05"
+  },
+  {
+    "id": 22740,
+    "name": "Puppy Coaster",
+    "park_id": 22737,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-08-08"
+  },
+  {
+    "id": 21997,
+    "name": "Quantum Trek",
+    "park_id": 5211,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-01-23"
+  },
+  {
+    "id": 22256,
+    "name": "Racing Coaster",
+    "park_id": 22255,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-20"
+  },
+  {
+    "id": 21885,
+    "name": "Rapterra",
+    "park_id": 4544,
+    "manufacturer_id": 6831,
+    "type": "Steel",
+    "design": "Wing",
+    "status": "Operating",
+    "opened": "2025-03-29"
+  },
+  {
+    "id": 22261,
+    "name": "Roller Coaster",
+    "park_id": 22260,
+    "manufacturer_id": 6892,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-25"
+  },
+  {
+    "id": 22547,
+    "name": "Roller Coaster",
+    "park_id": 22545,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-07-24"
+  },
+  {
+    "id": 23031,
+    "name": "Roller Coaster F1",
+    "park_id": 21225,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07"
+  },
+  {
+    "id": 23038,
+    "name": "Ruka Coaster",
+    "park_id": 23037,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-17"
+  },
+  {
+    "id": 22636,
+    "name": "Runaway Train",
+    "park_id": 4811,
+    "manufacturer_id": 14971,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22964,
+    "name": "Runaway Train",
+    "park_id": 22992,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 21309,
+    "name": "Saw Mill Falls",
+    "park_id": 21275,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 23015,
+    "name": "Sayakat",
+    "park_id": 23013,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-08-29"
+  },
+  {
+    "id": 21308,
+    "name": "Sea Stallion",
+    "park_id": 21275,
+    "manufacturer_id": 6905,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20472,
+    "name": "Serpentikha",
+    "park_id": 4628,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Suspended",
+    "status": "Operating",
+    "opened": "2025-03-25"
+  },
+  {
+    "id": 22615,
+    "name": "Shark Coaster",
+    "park_id": 21222,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22839,
+    "name": "Shark Trip",
+    "park_id": 21864,
+    "manufacturer_id": 18869,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 21136,
+    "name": "Silberberg Coaster",
+    "park_id": 21135,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-06"
+  },
+  {
+    "id": 22124,
+    "name": "Siren’s Curse",
+    "park_id": 4529,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-28"
+  },
+  {
+    "id": 22973,
+    "name": "Snoopy's Flying Ace Adventure",
+    "park_id": 5492,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-18"
+  },
+  {
+    "id": 22011,
+    "name": "Snoopy’s Racing Railway",
+    "park_id": 4542,
+    "manufacturer_id": 12029,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-24"
+  },
+  {
+    "id": 21576,
+    "name": "Snow Drift",
+    "park_id": 4812,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-08-03"
+  },
+  {
+    "id": 22739,
+    "name": "Soaring Dragon",
+    "park_id": 22737,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025-08-08"
+  },
+  {
+    "id": 22377,
+    "name": "Space Roller Coaster",
+    "park_id": 5137,
+    "manufacturer_id": 7125,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Operating",
+    "opened": "2025-06"
+  },
+  {
+    "id": 22915,
+    "name": "Space Shuttle",
+    "park_id": 15194,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 20850,
+    "name": "Speed of Light",
+    "park_id": 20617,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Suspended",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22971,
+    "name": "Spellbound Storm",
+    "park_id": 22768,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-07"
+  },
+  {
+    "id": 22422,
+    "name": "Spin Coaster",
+    "park_id": 22421,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-19"
+  },
+  {
+    "id": 21399,
+    "name": "Spinning Coaster",
+    "park_id": 5401,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-05"
+  },
+  {
+    "id": 22372,
+    "name": "Spinning Coaster",
+    "park_id": 22371,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22713,
+    "name": "Spinning  Coaster",
+    "park_id": 4996,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-19"
+  },
+  {
+    "id": 22749,
+    "name": "Spinning UFO",
+    "park_id": 22748,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21313,
+    "name": "Spitfire",
+    "park_id": 21275,
+    "manufacturer_id": 6837,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20549,
+    "name": "Stardust Racers",
+    "park_id": 17569,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-22"
+  },
+  {
+    "id": 22712,
+    "name": "Superman",
+    "park_id": 6359,
+    "manufacturer_id": 6873,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 20864,
+    "name": "Tecuani Beast",
+    "park_id": 20617,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21398,
+    "name": "Thor",
+    "park_id": 20757,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-27"
+  },
+  {
+    "id": 21892,
+    "name": "Tortoise and the Hare",
+    "park_id": 6754,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-01-10"
+  },
+  {
+    "id": 21320,
+    "name": "Transformers",
+    "park_id": 21318,
+    "manufacturer_id": 6930,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22989,
+    "name": "Travel Duck",
+    "park_id": 22988,
+    "manufacturer_id": 22121,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-01"
+  },
+  {
+    "id": 21310,
+    "name": "Twilight Express",
+    "park_id": 21275,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22758,
+    "name": "Twist-N-Shout",
+    "park_id": 22757,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-16"
+  },
+  {
+    "id": 22952,
+    "name": "Twist-N-Shout",
+    "park_id": 22951,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-09"
+  },
+  {
+    "id": 22675,
+    "name": "UFO Tour",
+    "park_id": 22674,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 23014,
+    "name": "Ulan",
+    "park_id": 23013,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-08-29"
+  },
+  {
+    "id": 22672,
+    "name": "Undersea Adventure",
+    "park_id": 22671,
+    "manufacturer_id": 22121,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 19051,
+    "name": "Vesmír",
+    "park_id": 19050,
+    "manufacturer_id": 20308,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22716,
+    "name": "Veyron",
+    "park_id": 20757,
+    "manufacturer_id": 7042,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-06-27"
+  },
+  {
+    "id": 22957,
+    "name": "Warrior Challenge",
+    "park_id": 22768,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-18"
+  },
+  {
+    "id": 21673,
+    "name": "Wiener Looping",
+    "park_id": 4926,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-23"
+  },
+  {
+    "id": 21783,
+    "name": "Wild Buffalo",
+    "park_id": 5217,
+    "manufacturer_id": 6860,
+    "type": "Wood",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-26"
+  },
+  {
+    "id": 13470,
+    "name": "Wild Chase Coaster",
+    "park_id": 4976,
+    "manufacturer_id": 7243,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-10"
+  },
+  {
+    "id": 20970,
+    "name": "Wild West Coaster",
+    "park_id": 11420,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22720,
+    "name": "Wisconsin Dells Mountain Coaster",
+    "park_id": 22719,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-24"
+  },
+  {
+    "id": 22031,
+    "name": "Wrath of Rakshasa",
+    "park_id": 4530,
+    "manufacturer_id": 6831,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-31"
+  },
+  {
+    "id": 22053,
+    "name": "Yeti Trek",
+    "park_id": 4754,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-03"
+  },
+  {
+    "id": 20669,
+    "name": "YoY",
+    "park_id": 4794,
+    "manufacturer_id": 10583,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-05"
+  },
+  {
+    "id": 17539,
+    "name": "unknown",
+    "park_id": 19161,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 18851,
+    "name": "unknown",
+    "park_id": 21410,
+    "manufacturer_id": 7140,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 19269,
+    "name": "unknown",
+    "park_id": 17817,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 19270,
+    "name": "unknown",
+    "park_id": 17817,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 19271,
+    "name": "unknown",
+    "park_id": 17817,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 19272,
+    "name": "unknown",
+    "park_id": 17817,
+    "manufacturer_id": 6831,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20263,
+    "name": "unknown",
+    "park_id": 19161,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20476,
+    "name": "unknown",
+    "park_id": 19161,
+    "manufacturer_id": 6860,
+    "type": "Wood",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20504,
+    "name": "unknown",
+    "park_id": 14134,
+    "manufacturer_id": 6861,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20505,
+    "name": "unknown",
+    "park_id": 14134,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20681,
+    "name": "unknown",
+    "park_id": 20680,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 20941,
+    "name": "unknown",
+    "park_id": 20940,
+    "manufacturer_id": 6892,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-01"
+  },
+  {
+    "id": 20995,
+    "name": "unknown",
+    "park_id": 20519,
+    "manufacturer_id": 6856,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21236,
+    "name": "unknown",
+    "park_id": 18708,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21774,
+    "name": "unknown",
+    "park_id": 21773,
+    "manufacturer_id": 12208,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21820,
+    "name": "unknown",
+    "park_id": 21374,
+    "manufacturer_id": 6831,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025-09"
+  },
+  {
+    "id": 21866,
+    "name": "unknown",
+    "park_id": 4871,
+    "manufacturer_id": 6948,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 21886,
+    "name": "unknown",
+    "park_id": 20940,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-01"
+  },
+  {
+    "id": 21887,
+    "name": "unknown",
+    "park_id": 20940,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025-07"
+  },
+  {
+    "id": 22043,
+    "name": "unknown",
+    "park_id": 22042,
+    "manufacturer_id": 12962,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22090,
+    "name": "unknown",
+    "park_id": 8697,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22118,
+    "name": "unknown",
+    "park_id": 5715,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22241,
+    "name": "unknown",
+    "park_id": 18828,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-10-19"
+  },
+  {
+    "id": 22254,
+    "name": "unknown",
+    "park_id": 22253,
+    "manufacturer_id": 6836,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22257,
+    "name": "unknown",
+    "park_id": 5166,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-09"
+  },
+  {
+    "id": 22262,
+    "name": "unknown",
+    "park_id": 17949,
+    "manufacturer_id": 12208,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22431,
+    "name": "unknown",
+    "park_id": 22430,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-03"
+  },
+  {
+    "id": 22446,
+    "name": "unknown",
+    "park_id": 22445,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-02"
+  },
+  {
+    "id": 22447,
+    "name": "unknown",
+    "park_id": 6737,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22451,
+    "name": "unknown",
+    "park_id": 22450,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22479,
+    "name": "unknown",
+    "park_id": 22476,
+    "manufacturer_id": 20692,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22649,
+    "name": "unknown",
+    "park_id": 8992,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-03"
+  },
+  {
+    "id": 22668,
+    "name": "unknown",
+    "park_id": 22667,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22695,
+    "name": "unknown",
+    "park_id": 22694,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22702,
+    "name": "unknown",
+    "park_id": 22701,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-04"
+  },
+  {
+    "id": 22703,
+    "name": "unknown",
+    "park_id": 22701,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-04-04"
+  },
+  {
+    "id": 22706,
+    "name": "unknown",
+    "park_id": 22430,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-03"
+  },
+  {
+    "id": 22707,
+    "name": "unknown",
+    "park_id": 22430,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-05-03"
+  },
+  {
+    "id": 22714,
+    "name": "unknown",
+    "park_id": 18867,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025-05-01"
+  },
+  {
+    "id": 22730,
+    "name": "unknown",
+    "park_id": 5227,
+    "manufacturer_id": 7761,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22775,
+    "name": "unknown",
+    "park_id": 22774,
+    "manufacturer_id": 7140,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025"
+  },
+  {
+    "id": 22777,
+    "name": "unknown",
+    "park_id": 9172,
+    "manufacturer_id": 8770,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22787,
+    "name": "unknown",
+    "park_id": 22786,
+    "manufacturer_id": 7514,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22852,
+    "name": "unknown",
+    "park_id": 5999,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22854,
+    "name": "unknown",
+    "park_id": 22853,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025-10-01"
+  },
+  {
+    "id": 22871,
+    "name": "unknown",
+    "park_id": 4602,
+    "manufacturer_id": 7028,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22950,
+    "name": "unknown",
+    "park_id": 20680,
+    "manufacturer_id": 7492,
+    "type": "Steel",
+    "design": "Inverted",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22956,
+    "name": "unknown",
+    "park_id": 5252,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 22979,
+    "name": "unknown",
+    "park_id": 9307,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07-16"
+  },
+  {
+    "id": 22997,
+    "name": "unknown",
+    "park_id": 22996,
+    "manufacturer_id": 6905,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Under Construction",
+    "opened": "2025"
+  },
+  {
+    "id": 23000,
+    "name": "unknown",
+    "park_id": 22999,
+    "manufacturer_id": null,
+    "type": "Steel",
+    "design": "Sit Down",
+    "status": "Operating",
+    "opened": "2025-07"
+  }
+]
