@@ -2,13 +2,7 @@ import json
 import os
 
 def clean_data(data, is_json=False):
-    """
-    Fungsi untuk membersihkan dan memformat data untuk penyisipan SQL.
-    - Meng-escape tanda kutip tunggal untuk SQL.
-    - Mengonversi list menjadi string JSON.
-    - Mengembalikan keyword NULL untuk nilai None.
-    - Membersihkan karakter yang tidak kompatibel dengan UTF-8.
-    """
+
     if data is None:
         return '"null"' if is_json else 'NULL'
     elif isinstance(data, str):
@@ -194,7 +188,6 @@ def main():
                 values_list_batch.append(f"({values_tuple})")
 
             if values_list_batch:
-                # Tambahkan OVERRIDING SYSTEM VALUE untuk tabel SERIAL
                 overriding = " OVERRIDING SYSTEM VALUE"
                 if table_name in ["Company", "Author", "Manhwa", "Genre", "Character"]:
                      sql = f"INSERT INTO \"{table_name}\" ({', '.join(insert_columns)}){overriding} VALUES\n" + ",\n".join(values_list_batch) + ";"

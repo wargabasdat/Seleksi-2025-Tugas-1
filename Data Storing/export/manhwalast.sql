@@ -1,7 +1,5 @@
--- Menonaktifkan pemeriksaan kunci asing untuk mencegah kesalahan penyisipan karena ketergantungan
 SET session_replication_role = 'replica';
 
--- Hapus tabel yang ada untuk memastikan dasar yang bersih
 DROP TABLE IF EXISTS "Rating" CASCADE;
 DROP TABLE IF EXISTS "Peran" CASCADE;
 DROP TABLE IF EXISTS "Kategori" CASCADE;
@@ -17,7 +15,6 @@ DROP TABLE IF EXISTS "Illustrator" CASCADE;
 DROP TABLE IF EXISTS "Author" CASCADE;
 DROP TABLE IF EXISTS "Company" CASCADE;
 
--- Buat tabel
 
 CREATE TABLE "Company" ("id_company" SERIAL PRIMARY KEY, "company_name" VARCHAR(255));
 CREATE TABLE "Author" ("id_author" SERIAL PRIMARY KEY, "given_name" VARCHAR(255), "family_name" VARCHAR(255), "birthday" VARCHAR(255), "website" VARCHAR(255), "member_favorites" INT, "published_manga" JSON, "id_company" INT, "id_mentor" INT);
@@ -2085,13 +2082,8 @@ Lookism
 (1676, 'Sia Seo', 'Supporting', '["Yumi''s Cells"]', 0, 'No biography written.'),
 (1677, 'Wook', 'Supporting', '["Yumi''s Cells"]', 0, 'Wook is a supporting character in Yumi''s Cells. He works as an assistant manager in the sales department in the same building where Yumi works. He sets up Yumi on a blind date with his friend, Woong.');
 
--- Data untuk tabel penghubung --
 
-
--- Data untuk tabel Menulis --
-
-
--- Tambahkan batasan kunci asing --
+-- Batasan kunci asing --
 
 ALTER TABLE "Author" ADD FOREIGN KEY ("id_company") REFERENCES "Company" ("id_company");
 ALTER TABLE "Author" ADD FOREIGN KEY ("id_mentor") REFERENCES "Author" ("id_author");
@@ -2109,5 +2101,4 @@ ALTER TABLE "Peran" ADD FOREIGN KEY ("id_character") REFERENCES "Character" ("id
 ALTER TABLE "Rating" ADD FOREIGN KEY ("id_user") REFERENCES "User" ("id_user");
 ALTER TABLE "Rating" ADD FOREIGN KEY ("id_manhwa") REFERENCES "Manhwa" ("id_manhwa");
 
--- Mengaktifkan kembali pemeriksaan kunci asing --
 SET session_replication_role = 'origin';
