@@ -120,9 +120,8 @@ DBMS yang digunakan adalah **MariaDB / MySQL** karena mendukung tipe data yang d
 
 ## Translasi ER Diagram ke Relational Diagram
 - Setiap entitas pada ERD menjadi tabel di RDBMS.
-- Setiap hubungan many-to-many (contoh: Artist ↔ Art_Style) diubah menjadi tabel penghubung (Artist_Style).
-- Untuk setiap hubungan many-to-one (contoh: Museum ↔ City), tabel yang memiliki kardinalitas many ditambah atribut primary key dari tabel yang memiliki kardinalitas satu.
-- Atribut kunci primer menjadi kolom id_... dengan tipe integer (auto increment).
+- Setiap hubungan many-to-many (contoh: Artist ↔ Art_Style) diubah menjadi tabel penghubung (Artist_Style)).
+- Untuk setiap hubungan many-to-one, tabel yang memiliki kardinalitas many ditambah atribut primary key dari tabel yang memiliki kardinalitas satu (contoh: Museum ↔ City, tabel museum ditambah 1 atribut yaitu id_city).
 - Foreign key digunakan untuk menjaga referensial antar tabel.
 
 # Screenshots
