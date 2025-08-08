@@ -1,0 +1,22 @@
+# File environment, berisi kredensial atau kunci API
+.env
+
+# Folder cache Python
+__pycache__/
+*.pyc
+
+# Folder virtual environment 
+.venv/
+venv/
+env/
+
+# File spesifik IDE/Editor
+.vscode/
+!.vscode/settings.json
+
+# File log
+*.log
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
