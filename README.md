@@ -127,7 +127,42 @@ menyimpan data boss beserta _loot drop_, letak negara, dan versi rilis.
 },
 ```
 
+## Struktur ERD
+![ERD Diagram](Data%20Storing/design/diagram%20ERD.png)
 
+**Entitas Utama:**
+- **Character**
+- **Weapon**
+- **Domain**
+- **Artifacts**
+- **Version**
+- **Boss**
+- **Unit**: entitas berupa satu karakter, satu weapon, dan 0-2 set artefak
+- **Party**: kumpulan dari 1-4 karakter
+
+dalam mengubah ke dalam diagram relasional, dilakukan tahap-tahapan seperti yang telah dipelajari, meliputi:
+- memecah atribut berganda
+- mengubah relasi many-to-many menjadi tabel baru
+- mengubah relasi many-to-one menjadi atribut dari entitas yang terhubung satu
+
+## Struktur Diagram Relasional
+![Relational Diagram](Data%20Storing/design/diagram%20relasional.png)
+
+## Screenshots
+Hasil implementasi _database_ ke dalam DBMS terlihat sebagai berikut
+
+
+![p](Data%20Storing/screenshot/tables.png)
+
+
+dengan screenshot-screenshot lain terdapat pada folder "Data Storing/screenshot"
+
+## Bonus
+dilakukan bonus _automated scheduling_, dijalankan menggunakan task scheduler pada windows dan hasil dinyatakan pada file log.txt
+
+
+<img width="834" height="357" alt="image" src="https://github.com/user-attachments/assets/83eba7f3-f378-44c4-b0ea-5eec67619366" />
+<img width="1015" height="143" alt="image" src="https://github.com/user-attachments/assets/30098cbc-a968-4f71-8800-d33b922ae491" />
 
 ## Author
 | Nama | NIM |
