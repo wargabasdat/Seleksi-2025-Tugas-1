@@ -3,6 +3,7 @@
 <h2 align="center">
   <br>
   Data Scraping, Storing, Warehousing, and Automation of
+  <br>
   <a href="https://dumaofficial.com">Duma Official</a> Fashion Catalog
   <br>
   <br>
@@ -384,15 +385,15 @@ Pendekatan ini sengaja dibuat tidak ternormalisasi (denormalized) untuk menghind
 
 ### 2. Data Scraping 
 <div align="left">
-  <img src="Data Scraping/screenshot/ss_scraping-1.png" alt="Scraping 1"/>
+  <img src="Data Scraping/screenshot/ss_scraping-1.png" alt="Scraping 1" width="800"/>
 </div>
 
 <div align="left">
-  <img src="Data Scraping/screenshot/ss_scraping-2.png" alt="Scraping 2"/>
+  <img src="Data Scraping/screenshot/ss_scraping-2.png" alt="Scraping 2" width="800"/>
 </div>
 
 <div align="left">
-  <img src="Data Scraping/screenshot/ss_scraping-2.png" alt="Scraping 3"/>
+  <img src="Data Scraping/screenshot/ss_scraping-2.png" alt="Scraping 3" width="800"/>
 </div>
 
 ### 3. Data Storing
@@ -430,7 +431,7 @@ Pendekatan ini sengaja dibuat tidak ternormalisasi (denormalized) untuk menghind
 </div>
 
 <div align="left">
-  <img src="Data Storing/screenshot/normal_products-2.png" alt="Normal Products 2"/>
+  <img src="Data Storing/screenshot/normal_products-2.png" alt="Normal Products 2" width="180"/>
 </div>
 
 #### Tabel Discount Products
@@ -439,7 +440,7 @@ Pendekatan ini sengaja dibuat tidak ternormalisasi (denormalized) untuk menghind
 </div>
 
 <div align="left">
-  <img src="Data Storing/screenshot/discount_products-2.png" alt="Discount Products 2"/>
+  <img src="Data Storing/screenshot/discount_products-2.png" alt="Discount Products 2" width="400"/>
 </div>
 
 #### Tabel Variants
@@ -493,7 +494,7 @@ Pendekatan ini sengaja dibuat tidak ternormalisasi (denormalized) untuk menghind
   <img src="Data Warehouse/screenshot/dim_variants-1.png" alt="Dim Variants 1"/>
 </div>
 <div align="left">
-  <img src="Data Warehouse/screenshot/dim_variants-2.png" alt="Dim Variants 2"/>
+  <img src="Data Warehouse/screenshot/dim_variants-2.png" alt="Dim Variants 2"width="850"/>
 </div>
 
 #### Tabel Fact Catalog
@@ -501,46 +502,45 @@ Pendekatan ini sengaja dibuat tidak ternormalisasi (denormalized) untuk menghind
   <img src="Data Warehouse/screenshot/fact_catalog-1.png" alt="Fact Catalog 1"/>
 </div>
 <div align="left">
-  <img src="Data Warehouse/screenshot/fact_catalog-2.png" alt="Fact Catalog 2"/>
+  <img src="Data Warehouse/screenshot/fact_catalog-2.png" alt="Fact Catalog 2" width="700"/>
 </div>
 
 #### Query Rata-Rata Harga per Kategori
 <div align="left">
-  <img src="Data Warehouse/screenshot/query_avg_price_per_category.png" alt="Query 1"/>
+  <img src="Data Warehouse/screenshot/query_avg_price_per_category.png" alt="Query 1" width="600"/>
 </div>
 
 #### Query Jumlah Produk Terbanyak per Kategori
 <div align="left">
-  <img src="Data Warehouse/screenshot/query_max_product_based_on_category.png" alt="Query 2"/>
+  <img src="Data Warehouse/screenshot/query_max_product_based_on_category.png" alt="Query 2" width="600"/>
 </div>
 
 #### Query 5 Produk Termahal vs 5 Produk Termurah
 <div align="left">
-  <img src="Data Warehouse/screenshot/query_most_expensive_products_vs_cheapest_products.png" alt="Query 3"/>
+  <img src="Data Warehouse/screenshot/query_most_expensive_products_vs_cheapest_products.png" alt="Query 3" width="500"/>
 </div>
 
 ### 5. Automated Scheduling
 #### Hasil TXT Automated Scheduling
 <div align="left">
-  <img src="Data Warehouse/screenshot/automated_scheduling_proof.png" alt="Automated Scheduling Proof"/>
+  <img src="Data Warehouse/screenshot/automated_scheduling_proof.png" alt="Automated Scheduling Proof" width="600"/>
 </div>
 
 ### crontab 
 <div align="left">
-  <img src="Data Warehouse/screenshot/ss_crontab-1.png" alt="Crontab 1"/>
+  <img src="Data Warehouse/screenshot/ss_crontab-1.png" alt="Crontab 1" width="800"/>
 </div>
 <div align="left">
-  <img src="Data Warehouse/screenshot/ss_crontab-2.png" alt="Crontab 2"/>
+  <img src="Data Warehouse/screenshot/ss_crontab-2.png" alt="Crontab 2" width="800"/>
 </div>
 
 ## Referensi
 1.  **[Duma Official - All Products](https://dumaofficial.com/collections/all)** 
 2.  **[Dokumentasi PostgreSQL](https://www.postgresql.org/)** 
 3.  **[Dokumentasi Selenium](https://pypi.org/project/selenium/)** 
-4.  **[Dokumentasi Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/)**
+4.  **[Dokumentasi Beautifulsoup4](https://pypi.org/project/beautifulsoup4/)**
 5.  **[Dokumentasi psycopg2](https://pypi.org/project/psycopg2-binary/)** 
-6.  **[Dokumentasi pandas](https://pandas.pydata.org/)**
-7.  **[Dokumentasi cron](https://man7.org/linux/man-pages/man5/crontab.5.html)**
+6.  **[Dokumentasi cron](https://man7.org/linux/man-pages/man5/crontab.5.html)**
    
 ## Author
 Allodya Qonnita Arofa - 18223054
