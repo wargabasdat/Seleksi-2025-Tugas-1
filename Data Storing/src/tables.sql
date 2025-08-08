@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS game_revenue;
 USE game_revenue;
 
 -- create games table
-CREATE TABLE games (
+CREATE TABLE Games (
     game_id INT AUTO_INCREMENT PRIMARY KEY,
     game_name VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -11,17 +11,16 @@ CREATE TABLE games (
 );
 
 -- create regions table
-CREATE TABLE regions (
+CREATE TABLE Regions (
     region_id INT AUTO_INCREMENT PRIMARY KEY,
     region_name VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- create revenue table
-CREATE TABLE revenue (
+CREATE TABLE Revenue (
     revenue_id INT AUTO_INCREMENT PRIMARY KEY,
-    game_id INT NOT NULL,
-    region_id INT NOT NULL,
+    in_id INT NOT NULL,
     month VARCHAR(255) NOT NULL,
     revenue_text VARCHAR(50),
     revenue_value DECIMAL(15,2) DEFAULT 0.00,
@@ -32,8 +31,16 @@ CREATE TABLE revenue (
     scraped_at TIMESTAMP,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
-    FOREIGN KEY (game_id) REFERENCES games(game_id) ON DELETE CASCADE,
-    FOREIGN KEY (region_id) REFERENCES regions(region_id) ON DELETE CASCADE,
-    UNIQUE KEY unique_game_region_month (game_id, region_id, month)
+    FOREIGN KEY (in_id) REFERENCES In(in_id) ON DELETE CASCADE,
+    UNIQUE KEY unique_game_region_month (in_id, month)
 );
 
+CREATE TABLE In (
+    in_id INT AUTO_INCREMENT PRIMARY KEY,
+    game_id INT NOT NULL,
+    region_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE KEY unique_game_region (game_id, region_id),
+    FOREIGN KEY (game_id) REFERENCES games(game_id) ON DELETE CASCADE,
+    FOREIGN KEY (region_id) REFERENCES regions(region_id) ON DELETE CASCADE,
+);
