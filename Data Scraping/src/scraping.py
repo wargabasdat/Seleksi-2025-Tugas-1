@@ -75,15 +75,6 @@ def _parse_val(cell):
     m = re.search(r"-?\d+\.?\d*", raw)
     return float(m.group(0)) if m else None
 
-def _normalize_date(d: str) -> str:
-    d = _clean(d)
-    for fmt in ("%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%d", "%b %d, %Y", "%B %d, %Y"):
-        try:
-            return datetime.strptime(d, fmt).strftime("%Y-%m-%d")
-        except Exception:
-            continue
-    return d
-
 def extract_table(page) -> List[Dict]:
     table = page.locator("table.sortable-theme-bootstrap").first
     if table.count() == 0:
@@ -101,7 +92,7 @@ def extract_table(page) -> List[Dict]:
         # Company - Valuation ($B) - Date Joined - Country - City - Industry - Select Investors
         company = _parse_company(tds[0])
         valuation_b = _parse_val(tds[1])
-        date_joined = _normalize_date(_clean(tds[2].inner_text()))
+        date_joined = _clean(tds[2].inner_text())
         country = _clean(tds[3].inner_text())
         city = _clean(tds[4].inner_text())
         industry = _clean(tds[5].inner_text())

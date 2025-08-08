@@ -38,7 +38,7 @@ def main():
         city_rows.append({
             "city_id": cid,
             "city_name": city,
-            "country_id": country_id_map[ctry],  # ctry always in map since pair contains a country
+            "country_id": country_id_map[ctry],
         })
 
     country_rows = [{"country_id": cid, "country_name": name} for name, cid in country_id_map.items()]
@@ -49,12 +49,12 @@ def main():
         city = (r.get("city") or "").strip()
         new_r = {
             "company": r.get("company"),
-            "valuation_billion_usd": r.get("valuation_billion_usd"),
+            "valuation": r.get("valuation"),
             "date_joined": r.get("date_joined"),
             "country_id": country_id_map.get(ctry),
             "city_id": city_id_map.get((ctry, city)) if ctry and city else None,
             "industry": r.get("industry"),
-            "selected_investors": r.get("selected_investors"),
+            "investors": r.get("selected_investors"),
         }
         new_records.append(new_r)
 
