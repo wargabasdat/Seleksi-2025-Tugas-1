@@ -1,13 +1,3 @@
-Author (Nama dan NIM).
-Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut.
-Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya.
-Penjelasan struktur dari file JSON yang dihasilkan scraper.
-Struktur ERD dan diagram relasional RDBMS.
-Penjelasan mengenai proses translasi ERD menjadi diagram relasional.
-Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan).
-Referensi (library yang digunakan, halaman web yang di-scrape, etc).
-
-
 # Tugas 1 - Seleksi Lab Basis Data  
 
 ## Author  
