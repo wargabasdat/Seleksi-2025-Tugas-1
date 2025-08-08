@@ -20,7 +20,7 @@ DBMS yang digunakan adalah **MariaDB / MySQL** karena mendukung tipe data yang d
 
 1. **Clone repository & masuk ke folder proyek**
     ```bash
-    git clone <URL_REPO>
+    git clone "https://github.com/maymilla/Seleksi-Basdat-2025-Tugas-1.git"
     cd Seleksi-Basdat-2025-Tugas-1
     ```
 
