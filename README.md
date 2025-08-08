@@ -45,7 +45,15 @@ cd '../Data Storing'
 python src/store_data.py
 ```
 
-
+#### Struktur JSON
+1. fruit_stock.json
+stock_event_uid: id stok, timestamp: waktu scraping, stock_start_time: waktu mulai stok,  fruit_name: nama buah yg stok, price: harga buah yg stok
+2. fruit_values.json
+4. fruits.json
+5. guns.json
+6. swords.json
+7. update_logs.json
+   
 ### Step 2: Data Modeling + Data Storing
 #### Struktur ERD
 ![ERD Database](Data%20Storing/design/ER_Diagram.png)
