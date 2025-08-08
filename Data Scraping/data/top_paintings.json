@@ -1,0 +1,992 @@
+[
+  {
+    "title": "Starry Night",
+    "year": "1889",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "836",
+    "canvas_price_euro": "58.32",
+    "sku": "VVG-1101",
+    "original_size": "73.7 x 92.1 cm",
+    "museum": "Museum of Modern Art New"
+  },
+  {
+    "title": "Napoleon Crossing the Alps on 20th May 1800",
+    "year": "1803",
+    "artist": "Jacques-Louis David",
+    "oil_price_euro": "2698",
+    "canvas_price_euro": "59.65",
+    "sku": "DJL-6869",
+    "original_size": "267 x 223 cm",
+    "museum": "Museum of Palace of Versailles"
+  },
+  {
+    "title": "Irises",
+    "year": "1889",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "1120",
+    "canvas_price_euro": "55.67",
+    "sku": "VVG-1102",
+    "original_size": "71 x 93 cm",
+    "museum": "J. Paul Getty Museum Los"
+  },
+  {
+    "title": "The Kiss",
+    "year": "c.1907/08",
+    "artist": "Gustav Klimt",
+    "oil_price_euro": "4563",
+    "canvas_price_euro": "72.90",
+    "sku": "KLG-2628",
+    "original_size": "180 x 180 cm",
+    "museum": "Galerie Belvedere"
+  },
+  {
+    "title": "Water Lily Pond, (Symphony in Green)",
+    "year": "1899",
+    "artist": "Claude Monet",
+    "oil_price_euro": "746",
+    "canvas_price_euro": "70.65",
+    "sku": "MCL-2302",
+    "original_size": "88.3 x 93.1 cm",
+    "museum": "National Gallery"
+  },
+  {
+    "title": "The Garden of Earthly Delights",
+    "year": "c.1490/00",
+    "artist": "Hieronymus Bosch",
+    "oil_price_euro": "14798",
+    "canvas_price_euro": "67.73",
+    "sku": "BHE-16869",
+    "original_size": "183 x 171 cm",
+    "museum": "Prado Museum"
+  },
+  {
+    "title": "The Scream",
+    "year": "1893",
+    "artist": "Edvard Munch",
+    "oil_price_euro": "581",
+    "canvas_price_euro": "54.48",
+    "sku": "MUN-16483",
+    "original_size": "91 x 68 cm",
+    "museum": "Nasjonalgalleriet"
+  },
+  {
+    "title": "The Girl with a Pearl Earring",
+    "year": "c.1665/66",
+    "artist": "Johannes Vermeer, van Delft",
+    "oil_price_euro": "708",
+    "canvas_price_euro": "48.10",
+    "sku": "VVD-1071",
+    "original_size": "46.5 x 40 cm",
+    "museum": "Mauritshuis Royal Picture Gallery The"
+  },
+  {
+    "title": "The Wanderer Above a Sea of Mist",
+    "year": "1818",
+    "artist": "Caspar David Friedrich",
+    "oil_price_euro": "811",
+    "canvas_price_euro": "57.13",
+    "sku": "FCD-2921",
+    "original_size": "98.4 x 74.8 cm",
+    "museum": "Hamburger Kunsthalle"
+  },
+  {
+    "title": "The Man with the Golden Helmet",
+    "year": "1636",
+    "artist": "van Rijn Rembrandt",
+    "oil_price_euro": "1099",
+    "canvas_price_euro": "54.35",
+    "sku": "REM-9087",
+    "original_size": "67.5 x 50.7 cm",
+    "museum": "Kaiser-Friedrich-Museums-Verein"
+  },
+  {
+    "title": "The Swing",
+    "year": "1767",
+    "artist": "Jean-Honore Fragonard",
+    "oil_price_euro": "2795",
+    "canvas_price_euro": "56.47",
+    "sku": "FJH-2957",
+    "original_size": "81 x 64.2 cm",
+    "museum": "The Wallace Collection"
+  },
+  {
+    "title": "The Cafe Terrace on the Place du Forum, Arles",
+    "year": "1888",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "936",
+    "canvas_price_euro": "58.85",
+    "sku": "VVG-1251",
+    "original_size": "81 x 65.5 cm",
+    "museum": "Kroller-Mueller Museum"
+  },
+  {
+    "title": "Blossoming Almond Tree",
+    "year": "1890",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "978",
+    "canvas_price_euro": "57.53",
+    "sku": "VVG-1203",
+    "original_size": "73.5 x 92 cm",
+    "museum": "Van Gogh Museum"
+  },
+  {
+    "title": "The Lady of Shalott",
+    "year": "1888",
+    "artist": "John William Waterhouse",
+    "oil_price_euro": "2269",
+    "canvas_price_euro": "55.94",
+    "sku": "WJW-964",
+    "original_size": "153 x 200 cm",
+    "museum": "Tate Gallery"
+  },
+  {
+    "title": "Portrait of Adele Bloch-Bauer I",
+    "year": "1907",
+    "artist": "Gustav Klimt",
+    "oil_price_euro": "2444",
+    "canvas_price_euro": "72.90",
+    "sku": "KLG-2643",
+    "original_size": "138 x 138 cm",
+    "museum": "Neue Galerie New"
+  },
+  {
+    "title": "Dancers in Blue",
+    "year": "1890",
+    "artist": "Hilaire Germain Edgar Degas",
+    "oil_price_euro": "751",
+    "canvas_price_euro": "64.42",
+    "sku": "DEE-2851",
+    "original_size": "85 x 75.5 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "Mona Lisa (La Gioconda)",
+    "year": "c.1503/06",
+    "artist": "Leonardo da Vinci",
+    "oil_price_euro": "1997",
+    "canvas_price_euro": "50.10",
+    "sku": "VIL-1010",
+    "original_size": "77 x 53 cm",
+    "museum": "Louvre Museum"
+  },
+  {
+    "title": "The Birth of Venus",
+    "year": "c.1485",
+    "artist": "Sandro Botticelli",
+    "oil_price_euro": "5541",
+    "canvas_price_euro": "48.10",
+    "sku": "BSF-158",
+    "original_size": "180 x 280 cm",
+    "museum": "Galleria degli Uffizi"
+  },
+  {
+    "title": "Two Sisters (On the Terrace)",
+    "year": "1881",
+    "artist": "Pierre-Auguste Renoir",
+    "oil_price_euro": "1088",
+    "canvas_price_euro": "58.59",
+    "sku": "RPA-1815",
+    "original_size": "100.5 x 81 cm",
+    "museum": "Art Institute of Chicago"
+  },
+  {
+    "title": "Luncheon of the Boating Party",
+    "year": "c.1880/81",
+    "artist": "Pierre-Auguste Renoir",
+    "oil_price_euro": "10904",
+    "canvas_price_euro": "53.68",
+    "sku": "RPA-1901",
+    "original_size": "130.1 x 175.5 cm",
+    "museum": "Phillips Collection"
+  },
+  {
+    "title": "Woman with a Parasol - Madame Monet and Her Son",
+    "year": "1875",
+    "artist": "Claude Monet",
+    "oil_price_euro": "790",
+    "canvas_price_euro": "58.72",
+    "sku": "MCL-2473",
+    "original_size": "100 x 81 cm",
+    "museum": "National Gallery of Art"
+  },
+  {
+    "title": "Composition 8",
+    "year": "1923",
+    "artist": "Wassily Kandinsky",
+    "oil_price_euro": "2562",
+    "canvas_price_euro": "50.90",
+    "sku": "KAW-16092",
+    "original_size": "140 x 201 cm",
+    "museum": "Solomon R. Guggenheim Museum New"
+  },
+  {
+    "title": "Storm on the Sea of Galilee",
+    "year": "1633",
+    "artist": "van Rijn Rembrandt",
+    "oil_price_euro": "4501",
+    "canvas_price_euro": "58.59",
+    "sku": "REM-2002",
+    "original_size": "161.7 x 129.8 cm",
+    "museum": "Isabella Stewart Gardner Museum"
+  },
+  {
+    "title": "Flaming June",
+    "year": "1895",
+    "artist": "Lord Frederick Leighton",
+    "oil_price_euro": "2224",
+    "canvas_price_euro": "72.90",
+    "sku": "LLF-2580",
+    "original_size": "120.6 x 120.6 cm",
+    "museum": "Museo de"
+  },
+  {
+    "title": "The Lunch on the Grass",
+    "year": "1863",
+    "artist": "Edouard Manet",
+    "oil_price_euro": "1762",
+    "canvas_price_euro": "57.00",
+    "sku": "MED-3338",
+    "original_size": "208 x 264 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "The Calling of Saint Matthew",
+    "year": "1599",
+    "artist": "Michelangelo Merisi da Caravaggio",
+    "oil_price_euro": "11725",
+    "canvas_price_euro": "77.01",
+    "sku": "CMM-4033",
+    "original_size": "328 x 348 cm",
+    "museum": "San Luigi dei Francesi"
+  },
+  {
+    "title": "Impression, Sunrise (Soleil Levant)",
+    "year": "1872",
+    "artist": "Claude Monet",
+    "oil_price_euro": "504",
+    "canvas_price_euro": "56.07",
+    "sku": "MCL-2446",
+    "original_size": "50 x 65 cm",
+    "museum": "Musee Marmottan Monet"
+  },
+  {
+    "title": "Wheat Field with Cypresses",
+    "year": "1889",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "743",
+    "canvas_price_euro": "57.13",
+    "sku": "VVG-1145",
+    "original_size": "73 x 93.4 cm",
+    "museum": "Metropolitan Museum of Art New"
+  },
+  {
+    "title": "Lady Godiva",
+    "year": "c.1898",
+    "artist": "John Collier",
+    "oil_price_euro": "1872",
+    "canvas_price_euro": "56.33",
+    "sku": "HJC-5564",
+    "original_size": "142.2 x 183 cm",
+    "museum": "Herbert Art Gallery and Museum"
+  },
+  {
+    "title": "The Ninth Wave",
+    "year": "1850",
+    "artist": "Ivan Konstantinovich Aivazovsky",
+    "oil_price_euro": "1643",
+    "canvas_price_euro": "48.51",
+    "sku": "AYV-10",
+    "original_size": "221 x 332 cm",
+    "museum": "State Russian Museum St."
+  },
+  {
+    "title": "Primavera",
+    "year": "c.1482",
+    "artist": "Sandro Botticelli",
+    "oil_price_euro": "9654",
+    "canvas_price_euro": "48.10",
+    "sku": "BSF-159",
+    "original_size": "203 x 314 cm",
+    "museum": "Galleria degli Uffizi"
+  },
+  {
+    "title": "Las Meninas (The Maids of Honor)",
+    "year": "c.1656",
+    "artist": "Diego Rodriguez de Silva Velazquez",
+    "oil_price_euro": "3114",
+    "canvas_price_euro": "63.36",
+    "sku": "VDZ-1052",
+    "original_size": "318 x 276 cm",
+    "museum": "Prado Museum"
+  },
+  {
+    "title": "The Skiff (La Yole)",
+    "year": "1875",
+    "artist": "Pierre-Auguste Renoir",
+    "oil_price_euro": "773",
+    "canvas_price_euro": "55.41",
+    "sku": "RPA-8347",
+    "original_size": "71 x 92 cm",
+    "museum": "National Gallery"
+  },
+  {
+    "title": "American Gothic",
+    "year": "1930",
+    "artist": "Grant Wood",
+    "oil_price_euro": "3567",
+    "canvas_price_euro": "60.31",
+    "sku": "WOO-16484",
+    "original_size": "78 x 65.3 cm",
+    "museum": "Art Institute of Chicago"
+  },
+  {
+    "title": "Vase with Irises Against a Yellow Background",
+    "year": "1890",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "743",
+    "canvas_price_euro": "57.39",
+    "sku": "VVG-1208",
+    "original_size": "92 x 73.5 cm",
+    "museum": "Van Gogh Museum"
+  },
+  {
+    "title": "Saturn Devouring one of His Sons",
+    "year": "c.1821/23",
+    "artist": "Francisco de Goya",
+    "oil_price_euro": "1066",
+    "canvas_price_euro": "48.51",
+    "sku": "GOY-14766",
+    "original_size": "143.5 x 81.4 cm",
+    "museum": "Prado Museum"
+  },
+  {
+    "title": "The Night Watch",
+    "year": "1642",
+    "artist": "van Rijn Rembrandt",
+    "oil_price_euro": "20708",
+    "canvas_price_euro": "59.25",
+    "sku": "REM-2014",
+    "original_size": "363 x 437 cm",
+    "museum": "Rijksmuseum"
+  },
+  {
+    "title": "The Milkmaid (The Kitchen Maid)",
+    "year": "c.1658/60",
+    "artist": "Johannes Vermeer, van Delft",
+    "oil_price_euro": "1914",
+    "canvas_price_euro": "48.10",
+    "sku": "VVD-1067",
+    "original_size": "45.5 x 41 cm",
+    "museum": "Rijksmuseum"
+  },
+  {
+    "title": "View of Toledo",
+    "year": "c.1599/00",
+    "artist": "Domenikos Theotokopoulos El Greco",
+    "oil_price_euro": "3625",
+    "canvas_price_euro": "64.95",
+    "sku": "GEL-4593",
+    "original_size": "121.3 x 108.6 cm",
+    "museum": "Metropolitan Museum of Art New"
+  },
+  {
+    "title": "Dance at Bougival",
+    "year": "1883",
+    "artist": "Pierre-Auguste Renoir",
+    "oil_price_euro": "1098",
+    "canvas_price_euro": "48.10",
+    "sku": "RPA-1814",
+    "original_size": "182 x 98 cm",
+    "museum": "Boston Museum of Fine Arts"
+  },
+  {
+    "title": "Still Life: Vase with Fourteen Sunflowers",
+    "year": "1888",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "780",
+    "canvas_price_euro": "57.39",
+    "sku": "VVG-1260",
+    "original_size": "92.1 x 73 cm",
+    "museum": "National Gallery"
+  },
+  {
+    "title": "The Angelus",
+    "year": "c.1857/59",
+    "artist": "Jean-Francois Millet",
+    "oil_price_euro": "795",
+    "canvas_price_euro": "60.58",
+    "sku": "MJF-3332",
+    "original_size": "56 x 66 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "Lady with an Ermine (Cecilia Gallerani)",
+    "year": "1496",
+    "artist": "Leonardo da Vinci",
+    "oil_price_euro": "1750",
+    "canvas_price_euro": "50.58",
+    "sku": "VIL-1009",
+    "original_size": "53.4 x 39.3 cm",
+    "museum": "Czartoryski Museum"
+  },
+  {
+    "title": "The Sistine Madonna",
+    "year": "1513",
+    "artist": "Raffaello Sanzio Raphael",
+    "oil_price_euro": "3017",
+    "canvas_price_euro": "53.68",
+    "sku": "RSA-2046",
+    "original_size": "269.5 x 201 cm",
+    "museum": "Gemaldegalerie Alte Meister"
+  },
+  {
+    "title": "Self-Portrait with Bandaged Ear",
+    "year": "1889",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "628",
+    "canvas_price_euro": "72.90",
+    "sku": "VVG-1119",
+    "original_size": "60.5 x 50 cm",
+    "museum": "Courtauld Institute of Art"
+  },
+  {
+    "title": "The Sleeping Gypsy",
+    "year": "1897",
+    "artist": "Henri Rousseau (Le Douanier)",
+    "oil_price_euro": "1186",
+    "canvas_price_euro": "48.10",
+    "sku": "ROH-17711",
+    "original_size": "129.5 x 200.7 cm",
+    "museum": "Museum of Modern Art New"
+  },
+  {
+    "title": "Liberty Leading the People",
+    "year": "1830",
+    "artist": "Eugene Delacroix",
+    "oil_price_euro": "7889",
+    "canvas_price_euro": "58.45",
+    "sku": "DEX-18136",
+    "original_size": "260 x 325 cm",
+    "museum": "Louvre Museum"
+  },
+  {
+    "title": "Nude Descending a Staircase II",
+    "year": "1912",
+    "artist": "Marcel Duchamp",
+    "oil_price_euro": "1616",
+    "canvas_price_euro": "48.10",
+    "sku": "DUC-17712",
+    "original_size": "147 x 89.2 cm",
+    "museum": "Philadelphia Museum of Art"
+  },
+  {
+    "title": "A Bar at the Folies-Bergere",
+    "year": "c.1881/82",
+    "artist": "Edouard Manet",
+    "oil_price_euro": "1952",
+    "canvas_price_euro": "53.42",
+    "sku": "MED-3351",
+    "original_size": "96 x 130 cm",
+    "museum": "Courtauld Institute of Art"
+  },
+  {
+    "title": "The Sleeping Venus",
+    "year": "c.1508/10",
+    "artist": "Giorgio da Castelfranco Giorgione",
+    "oil_price_euro": "1944",
+    "canvas_price_euro": "48.10",
+    "sku": "GGC-12045",
+    "original_size": "108.5 x 175 cm",
+    "museum": "Gemaldegalerie Alte Meister"
+  },
+  {
+    "title": "The Polar Sea (The Sea of Ice)",
+    "year": "c.1823/24",
+    "artist": "Caspar David Friedrich",
+    "oil_price_euro": "2269",
+    "canvas_price_euro": "55.54",
+    "sku": "FCD-2908",
+    "original_size": "96.7 x 126.9 cm",
+    "museum": "Hamburger Kunsthalle"
+  },
+  {
+    "title": "Olympia",
+    "year": "1863",
+    "artist": "Edouard Manet",
+    "oil_price_euro": "1375",
+    "canvas_price_euro": "49.31",
+    "sku": "MED-3330",
+    "original_size": "130 x 190 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "Madame X (Madame Pierre Gautreau)",
+    "year": "1884",
+    "artist": "John Singer Sargent",
+    "oil_price_euro": "3060",
+    "canvas_price_euro": "48.10",
+    "sku": "SAR-1720",
+    "original_size": "208.6 x 110 cm",
+    "museum": "Metropolitan Museum of Art New"
+  },
+  {
+    "title": "Ophelia",
+    "year": "c.1851/52",
+    "artist": "Sir John Everett Millais",
+    "oil_price_euro": "5479",
+    "canvas_price_euro": "49.57",
+    "sku": "MJE-2557",
+    "original_size": "76.2 x 111.8 cm",
+    "museum": "Tate Gallery"
+  },
+  {
+    "title": "Red Nude (Nude on a Cushion)",
+    "year": "1917",
+    "artist": "Amedeo Modigliani",
+    "oil_price_euro": "943",
+    "canvas_price_euro": "48.10",
+    "sku": "MOA-2541",
+    "original_size": "60 x 92 cm",
+    "museum": "Private Collection"
+  },
+  {
+    "title": "Self Portrait",
+    "year": "1889",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "710",
+    "canvas_price_euro": "59.91",
+    "sku": "VVG-1158",
+    "original_size": "65 x 54 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "The Astronomer",
+    "year": "1668",
+    "artist": "Johannes Vermeer, van Delft",
+    "oil_price_euro": "1678",
+    "canvas_price_euro": "54.23",
+    "sku": "VVD-1086",
+    "original_size": "50 x 45 cm",
+    "museum": "Louvre Museum"
+  },
+  {
+    "title": "Dance at the Moulin de la Galette",
+    "year": "1876",
+    "artist": "Pierre-Auguste Renoir",
+    "oil_price_euro": "10706",
+    "canvas_price_euro": "53.95",
+    "sku": "RPA-1872",
+    "original_size": "131 x 175 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "Carnation, Lily, Lily, Rose",
+    "year": "c.1885/86",
+    "artist": "John Singer Sargent",
+    "oil_price_euro": "1674",
+    "canvas_price_euro": "64.42",
+    "sku": "SAR-1731",
+    "original_size": "174 x 153.7 cm",
+    "museum": "Tate Gallery"
+  },
+  {
+    "title": "The Fighting Temeraire",
+    "year": "1839",
+    "artist": "Joseph Mallord William Turner",
+    "oil_price_euro": "1026",
+    "canvas_price_euro": "54.35",
+    "sku": "TJW-14402",
+    "original_size": "90.7 x 121.6 cm",
+    "museum": "National Gallery"
+  },
+  {
+    "title": "The Abduction of Psyche",
+    "year": "1895",
+    "artist": "Adolphe-William Bouguereau",
+    "oil_price_euro": "2558",
+    "canvas_price_euro": "49.98",
+    "sku": "BWA-226",
+    "original_size": "209 x 120 cm",
+    "museum": "Private Collection"
+  },
+  {
+    "title": "The Odalisque",
+    "year": "1745",
+    "artist": "Francois Boucher",
+    "oil_price_euro": "1392",
+    "canvas_price_euro": "56.33",
+    "sku": "BFR-7310",
+    "original_size": "53 x 64 cm",
+    "museum": "Louvre Museum"
+  },
+  {
+    "title": "School of Athens",
+    "year": "c.1510/11",
+    "artist": "Raffaello Sanzio Raphael",
+    "oil_price_euro": "10205",
+    "canvas_price_euro": "51.83",
+    "sku": "RSA-5563",
+    "original_size": "547 x 770 cm",
+    "museum": "Pinacoteca Vatican"
+  },
+  {
+    "title": "Netherlandish Proverbs",
+    "year": "1559",
+    "artist": "Pieter Bruegel the Elder",
+    "oil_price_euro": "21040",
+    "canvas_price_euro": "51.69",
+    "sku": "BEP-463",
+    "original_size": "117 x 163 cm",
+    "museum": "Gemaldegalerie"
+  },
+  {
+    "title": "The Gleaners",
+    "year": "1857",
+    "artist": "Jean-Francois Millet",
+    "oil_price_euro": "1088",
+    "canvas_price_euro": "54.48",
+    "sku": "MJF-10549",
+    "original_size": "83.5 x 110 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "The Dance Class",
+    "year": "c.1873/76",
+    "artist": "Hilaire Germain Edgar Degas",
+    "oil_price_euro": "2089",
+    "canvas_price_euro": "63.36",
+    "sku": "DEE-2812",
+    "original_size": "85 x 75 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "The Nude Maja",
+    "year": "c.1797/00",
+    "artist": "Francisco de Goya",
+    "oil_price_euro": "1241",
+    "canvas_price_euro": "62.46",
+    "sku": "GOY-14767",
+    "original_size": "98 x 191 cm",
+    "museum": "Prado Museum"
+  },
+  {
+    "title": "The Death of Marat",
+    "year": "1793",
+    "artist": "Jacques-Louis David",
+    "oil_price_euro": "1619",
+    "canvas_price_euro": "55.41",
+    "sku": "DJL-3954",
+    "original_size": "165 x 128 cm",
+    "museum": "Royal Museums of Fine Arts"
+  },
+  {
+    "title": "The Annunciation",
+    "year": "c.1472/75",
+    "artist": "Leonardo da Vinci",
+    "oil_price_euro": "3614",
+    "canvas_price_euro": "48.10",
+    "sku": "VIL-1007",
+    "original_size": "98 x 217 cm",
+    "museum": "Galleria degli Uffizi"
+  },
+  {
+    "title": "The Hunters in the Snow (Winter)",
+    "year": "1565",
+    "artist": "Pieter Bruegel the Elder",
+    "oil_price_euro": "19427",
+    "canvas_price_euro": "52.09",
+    "sku": "BEP-461",
+    "original_size": "117 x 162 cm",
+    "museum": "Kunsthistorisches Museum"
+  },
+  {
+    "title": "Napoleon I on the Imperial Throne",
+    "year": "1806",
+    "artist": "Jean Auguste Dominique Ingres",
+    "oil_price_euro": "5053",
+    "canvas_price_euro": "48.10",
+    "sku": "JAI-799",
+    "original_size": "260 x 163 cm",
+    "museum": "Musee de l'Armee"
+  },
+  {
+    "title": "Whistler's Mother",
+    "year": "c.1834",
+    "artist": "James Whistler",
+    "oil_price_euro": "760",
+    "canvas_price_euro": "64.82",
+    "sku": "WHJ-17709",
+    "original_size": "144.3 x 162.4 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "Boreas",
+    "year": "1903",
+    "artist": "John William Waterhouse",
+    "oil_price_euro": "1238",
+    "canvas_price_euro": "53.55",
+    "sku": "WJW-8159",
+    "original_size": "94 x 68.8 cm",
+    "museum": "Private Collection"
+  },
+  {
+    "title": "The Oath of the Horatii",
+    "year": "1784",
+    "artist": "Jacques-Louis David",
+    "oil_price_euro": "7480",
+    "canvas_price_euro": "93.94",
+    "sku": "DJL-3955",
+    "original_size": "330 x 425 cm",
+    "museum": "Louvre Museum"
+  },
+  {
+    "title": "The Gross Clinic",
+    "year": "1875",
+    "artist": "Thomas Eakins",
+    "oil_price_euro": "4055",
+    "canvas_price_euro": "58.45",
+    "sku": "EAT-869",
+    "original_size": "243.8 x 198.1 cm",
+    "museum": "Philadelphia Museum of Art"
+  },
+  {
+    "title": "Jean de Dinteville, Georges de Selve (Ambassadors)",
+    "year": "1533",
+    "artist": "Hans Holbein the Younger",
+    "oil_price_euro": "20788",
+    "canvas_price_euro": "73.96",
+    "sku": "HHY-2758",
+    "original_size": "209.5 x 207 cm",
+    "museum": "National Gallery"
+  },
+  {
+    "title": "The Laughing Cavalier",
+    "year": "1624",
+    "artist": "Frans Hals",
+    "oil_price_euro": "1573",
+    "canvas_price_euro": "59.65",
+    "sku": "HAF-3254",
+    "original_size": "83 x 67 cm",
+    "museum": "The Wallace Collection"
+  },
+  {
+    "title": "The Floor Scrapers",
+    "year": "1875",
+    "artist": "Gustave Caillebotte",
+    "oil_price_euro": "1721",
+    "canvas_price_euro": "51.16",
+    "sku": "GUC-498",
+    "original_size": "102 x 146 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "The Night Cafe in the Place Lamartine in Arles",
+    "year": "1888",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "773",
+    "canvas_price_euro": "58.06",
+    "sku": "VVG-1250",
+    "original_size": "72.4 x 92.1 cm",
+    "museum": "Yale University Art Gallery"
+  },
+  {
+    "title": "The Grande Odalisque",
+    "year": "1814",
+    "artist": "Jean Auguste Dominique Ingres",
+    "oil_price_euro": "2170",
+    "canvas_price_euro": "48.10",
+    "sku": "JAI-817",
+    "original_size": "91 x 162 cm",
+    "museum": "Louvre Museum"
+  },
+  {
+    "title": "Breezing Up (A Fair Wind)",
+    "year": "c.1873/76",
+    "artist": "Winslow Homer",
+    "oil_price_euro": "1063",
+    "canvas_price_euro": "48.10",
+    "sku": "HOM-15791",
+    "original_size": "61.5 x 97 cm",
+    "museum": "National Gallery of Art"
+  },
+  {
+    "title": "Madonna della Seggiola",
+    "year": "c.1512/14",
+    "artist": "Raffaello Sanzio Raphael",
+    "oil_price_euro": "1638",
+    "canvas_price_euro": "72.90",
+    "sku": "RSA-2038",
+    "original_size": "71 x 71 cm",
+    "museum": "Palazzo Pitti"
+  },
+  {
+    "title": "The Shepherds of Arcadia (Et In Arcadia Ego)",
+    "year": "c.1638/40",
+    "artist": "Nicolas Poussin",
+    "oil_price_euro": "3953",
+    "canvas_price_euro": "51.96",
+    "sku": "PON-3274",
+    "original_size": "85 x 121 cm",
+    "museum": "Louvre Museum"
+  },
+  {
+    "title": "The Arnolfini Portrait",
+    "year": "1434",
+    "artist": "Jan van Eyck",
+    "oil_price_euro": "4257",
+    "canvas_price_euro": "53.15",
+    "sku": "EJV-890",
+    "original_size": "82.2 x 60 cm",
+    "museum": "National Gallery"
+  },
+  {
+    "title": "Boulevard Montmartre - Afternoon, Sunshine",
+    "year": "1897",
+    "artist": "Camille Jacob Pissarro",
+    "oil_price_euro": "845",
+    "canvas_price_euro": "57.39",
+    "sku": "PIC-2150",
+    "original_size": "74 x 92.8 cm",
+    "museum": "The State Hermitage Museum St."
+  },
+  {
+    "title": "The 3rd of May 1808 in Madrid",
+    "year": "1814",
+    "artist": "Francisco de Goya",
+    "oil_price_euro": "4681",
+    "canvas_price_euro": "56.07",
+    "sku": "GOY-16852",
+    "original_size": "268 x 347 cm",
+    "museum": "Prado Museum"
+  },
+  {
+    "title": "The Tempest",
+    "year": "c.1505",
+    "artist": "Giorgio da Castelfranco Giorgione",
+    "oil_price_euro": "2357",
+    "canvas_price_euro": "66.01",
+    "sku": "GGC-18034",
+    "original_size": "82 x 73 cm",
+    "museum": "Galleria dell'Accademia"
+  },
+  {
+    "title": "Stacks of Wheat (End of Summer)",
+    "year": "1891",
+    "artist": "Claude Monet",
+    "oil_price_euro": "677",
+    "canvas_price_euro": "48.10",
+    "sku": "MCL-10685",
+    "original_size": "60 x 100 cm",
+    "museum": "Art Institute of Chicago"
+  },
+  {
+    "title": "Virgin and Child with St. Anne",
+    "year": "c.1502/13",
+    "artist": "Leonardo da Vinci",
+    "oil_price_euro": "6179",
+    "canvas_price_euro": "93.60",
+    "sku": "VIL-8240",
+    "original_size": "168.5 x 130 cm",
+    "museum": "Louvre Museum"
+  },
+  {
+    "title": "Mont Sainte-Victoire and the Viaduct of the Arc ...",
+    "year": "c.1882/85",
+    "artist": "Paul Cezanne",
+    "oil_price_euro": "832",
+    "canvas_price_euro": "58.59",
+    "sku": "CEZ-629",
+    "original_size": "65.4 x 81.6 cm",
+    "museum": "Metropolitan Museum of Art New"
+  },
+  {
+    "title": "Paris Street; Rainy Weather",
+    "year": "1877",
+    "artist": "Gustave Caillebotte",
+    "oil_price_euro": "2089",
+    "canvas_price_euro": "55.41",
+    "sku": "GUC-513",
+    "original_size": "212.2 x 276.2 cm",
+    "museum": "Art Institute of Chicago"
+  },
+  {
+    "title": "Two Tahitian Women",
+    "year": "1899",
+    "artist": "Paul Gauguin",
+    "oil_price_euro": "807",
+    "canvas_price_euro": "56.47",
+    "sku": "GAP-3007",
+    "original_size": "94 x 72.4 cm",
+    "museum": "Metropolitan Museum of Art New"
+  },
+  {
+    "title": "Boulevard des Capucines",
+    "year": "c.1873/74",
+    "artist": "Claude Monet",
+    "oil_price_euro": "753",
+    "canvas_price_euro": "54.48",
+    "sku": "MCL-2491",
+    "original_size": "80.3 x 60.3 cm",
+    "museum": "Nelson-Atkins Museum of Art Kansas"
+  },
+  {
+    "title": "The Supper at Emmaus",
+    "year": "1601",
+    "artist": "Michelangelo Merisi da Caravaggio",
+    "oil_price_euro": "9585",
+    "canvas_price_euro": "86.24",
+    "sku": "CMM-2778",
+    "original_size": "141 x 196.2 cm",
+    "museum": "National Gallery"
+  },
+  {
+    "title": "Europa",
+    "year": "c.1559/62",
+    "artist": "Tiziano Vecellio Titian",
+    "oil_price_euro": "1938",
+    "canvas_price_euro": "63.89",
+    "sku": "TTV-12042",
+    "original_size": "178.7 x 205.5 cm",
+    "museum": "Isabella Stewart Gardner Museum"
+  },
+  {
+    "title": "Portrait of Doctor Gachet",
+    "year": "1890",
+    "artist": "Vincent van Gogh",
+    "oil_price_euro": "620",
+    "canvas_price_euro": "60.58",
+    "sku": "VVG-1229",
+    "original_size": "68 x 57 cm",
+    "museum": "Musee d'Orsay"
+  },
+  {
+    "title": "Bacchus and Ariadne",
+    "year": "c.1520/23",
+    "artist": "Tiziano Vecellio Titian",
+    "oil_price_euro": "3485",
+    "canvas_price_euro": "65.88",
+    "sku": "TTV-4947",
+    "original_size": "176.5 x 191 cm",
+    "museum": "National Gallery"
+  },
+  {
+    "title": "Nafeaffaa Ipolpo (When Will You Marry)",
+    "year": "1892",
+    "artist": "Paul Gauguin",
+    "oil_price_euro": "753",
+    "canvas_price_euro": "52.22",
+    "sku": "GAP-3021",
+    "original_size": "105 x 77.5 cm",
+    "museum": "Kunstmuseum"
+  },
+  {
+    "title": "A Man with a Quilted Sleeve (Ariosto)",
+    "year": "c.1510/12",
+    "artist": "Tiziano Vecellio Titian",
+    "oil_price_euro": "1641",
+    "canvas_price_euro": "59.91",
+    "sku": "TTV-3180",
+    "original_size": "81.2 x 66.3 cm",
+    "museum": "National Gallery"
+  }
+]
