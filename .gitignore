@@ -1,4 +1,4 @@
-run_all.sh
 logs/
 __pycache__/
 env/
+.DS_Store
