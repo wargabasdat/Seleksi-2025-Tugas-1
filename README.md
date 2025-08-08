@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2024 <br>
+  Seleksi Warga Basdat 2025 <br>
   ETL Project
   <br>
   <br>
@@ -8,7 +8,7 @@
 
 <h2 align="left">
   <br>
-  DATA SCRAPING, STORING, AND VISUALIZATION OF MINDFULNESS YOUTUBE CHANNELS BY <a
+  DATA SCRAPING, STORING, AND WAREHOUSE OF MINDFULNESS YOUTUBE CHANNELS BY <a
   href="https://videos.feedspot.com/mindfulness_youtube_channels/">Feedspot</a>
   <br>
   <br>
@@ -243,7 +243,7 @@ Saya juga membuat indeks dan trigger agar data yang masuk lebih akurat dan sesua
 ## Data Warehouse (BONUS)
 ### Star_Schema
 <div align="center">
-  <img src="Data Warehouse/design/star_schema.png" width="600"/>
+  <img src="Data Warehouse/design/Star_Schema.png" width="600"/>
 </div>
 
 Untuk design ini, saya menggunakan star_schema dengan fact table dan dimention table. Untuk fact table yaitu Fact_Top_Channels adalah tabel fakta yang berisi data terukur dan pasti, yaitu youtube_subscribers, facebook_followers, dan instagram_followers. Table Dim_Youtuber dan Dim_Channel sebagai tabel dimention yang memberikan konteks deskriptif, seperti gender, email, description, dan since.
@@ -257,12 +257,14 @@ Pada tahap ini, saya membuat tabel dimention untuk youtuber dan channel beserta 
 </div>
 
 Selanjutnya, saya membuat Fact Table beserta insert data data yang diambil dari table youtubers dan channels
-<img width="1350" height="580" alt="image" src="https://github.com/user-attachments/assets/5ff124f6-3686-4443-995f-117bd6c54833" />
+<div align="center">
+  <img width="1350" height="580" alt="image" src="https://github.com/user-attachments/assets/5ff124f6-3686-4443-995f-117bd6c54833" />
+</div>
 
 ### Query Analytics
 Analisis: Rata-Rata Subscribers Youtube berdasarkan tipe youtubernya
 <div align="center">
-  <img src="Data Warehouse/screenshoot/SS_Query Analytic.png" width="600"/>
+  <img src="Data Warehouse/screenshot/SS_Query Analytic.png" width="600"/>
 </div>
 
 Pada hasil ini, terbukti bahwa berhasil dan data sudah terhubung dengan baik
