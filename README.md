@@ -210,11 +210,34 @@ Nanti 5 file .JSON akan terekspor
 
 ## Data Storing
 
+
 ## Data Warehouse
+### 1. Struktur ERD, Diagram Relasional, Fact and Dimension Table
+#### ERD
+<div align="center">
+  <img src="Data Warehouse/design/ER Diagram Manhwa (warehouse).png"/>
+</div>
+
+#### Diagram Relasional
+<div align="center">
+  <img src="Data Warehouse/design/Relational Diagram Manhwa (warehouse).png"/>
+</div>
+
+#### Fact and Dimension Table
+<div align="center">
+  <img src="Data Warehouse/design/Fact and Dimension Table (warehouse).png"/>
+</div>
+
+## Automated Scheduling
 
 ## Lampiran
 
 ## Referensi
+[MyAnimeList](https://myanimelist.net/topmanga.php?type=manhwa&limit=0)
+[Dokumentasi Beautifulsoup4](https://beautiful-soup-4.readthedocs.io/)
+[Dokumentasi psycopg2](https://pypi.org/project/psycopg2/)
+[Dokumentasi PostgreSQL](https://www.postgresql.org/)
+
 
 ### Data Storing
 1. Buat database pada __PostgreSQL__, contoh:
