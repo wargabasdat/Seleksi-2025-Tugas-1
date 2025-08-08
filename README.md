@@ -5,11 +5,10 @@
 
 ## Deskripsi Singkat
 
-Project ini mengimplementasikan proses ETL (Extract, Transform, Load) lengkap untuk data BoardGameGeek Top 100 board games. Topik dipilih karena:
+Topik yang saya angkat adalah 100 board game terpopuler dan detail board game berdasarkan data dari situs BoardGameGeek, salah satu direktori terbesar dan paling terpercaya untuk permainan papan di seluruh dunia. Data yang saya scraping mencakup judul, tahun rilis, rating komunitas, jumlah pemain, kategori, mekanik permainan, publisher, dan perancang game.
+Data ini menurut saya menarik karena memiliki struktur kompleks dan relasional alami (satu game bisa punya banyak designer, publisher, kategori, dsb), sehingga cocok untuk diubah ke dalam relational database bermanfaat untuk analisis seperti: tren genre populer, hubungan antara tahun rilis dan rating, atau komparasi antar publisher.
 
-1. **Data Complexity**: BoardGameGeek memiliki struktur data yang kompleks dengan banyak relasi many-to-many
-2. **Real-world Relevance**: Data board games memiliki aplikasi nyata untuk analisis pasar dan rekomendasi
-3. **Technical Challenge**: Memungkinkan demonstrasi kemampuan scraping, database design, dan ETL pipeline
+Untuk pengelolaan data, saya menggunakan MySQL sebagai DBMS karena kompatibel dengan sistem lokal saya (macOS), memiliki dokumentasi kuat dan community support luas, mendukung semua fitur RDBMS yang saya butuhkan (foreign key, constraint, join, indexing).
 
 ### Database Management System
 - **RDBMS**: MySQL 8.0+
