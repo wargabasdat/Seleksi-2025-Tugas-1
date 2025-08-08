@@ -1,9 +1,14 @@
 import os
 import sys
 import logging
+import time
 
 from typing import List, Dict, Any, Optional
 from bs4 import BeautifulSoup
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
 sys.path.append(os.path.join(os.path.dirname(__file__)))
 from extractor.extractor import Extractor
@@ -17,29 +22,42 @@ class GenreExtractor(Extractor):
         self.genre_links: List[Dict[str, str]] = []
     
     def get_data(self) -> List[Dict[str, str]]:
-        
-        page_source = self.browser.page_source
-        soup = BeautifulSoup(page_source, 'html.parser')
-        
-        genre_links = soup.find_all('a', {
-            'class': 'CqCtb3wr4SK8AiZwxeH0',
-            'draggable': 'false'
-        })
-        
-        if not genre_links:
+        try:
+            logging.info("[Genre] Waiting for genre content to load...")
+            
+            wait = WebDriverWait(self.browser, 30)
+            wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/genre/']")))
+            
+            time.sleep(3)
+            
+            page_source = self.browser.page_source
+            soup = BeautifulSoup(page_source, 'html.parser')
+            
             genre_links = soup.find_all('a', href=lambda x: isinstance(x, str) and '/genre/' in x)
-        
-        extracted_links = []
-        for link in genre_links:
-            genre_data = self._process_genre_link(link)
-            if genre_data:
-                extracted_links.append(genre_data)
-        
-        self.genre_links = extracted_links
-        self.data = extracted_links
-        logging.info(f"[Genre] Successfully extracted {len(extracted_links)} genre links")
+            
+            if not genre_links:
+                logging.warning("[Genre] No genre links found with href selector, trying alternative selectors...")
+                genre_links = soup.find_all('a', {'draggable': 'false'})
+                genre_links = [link for link in genre_links if link.get('href') and '/genre/' in link.get('href')]
+            
+            extracted_links = []
+            for link in genre_links:
+                genre_data = self._process_genre_link(link)
+                if genre_data:
+                    extracted_links.append(genre_data)
+            
+            self.genre_links = extracted_links
+            self.data = extracted_links
+            logging.info(f"[Genre] Successfully extracted {len(extracted_links)} genre links")
 
-        return extracted_links
+            return extracted_links
+            
+        except TimeoutException:
+            logging.error("[Genre] Timeout waiting for genre content to load")
+            return []
+        except Exception as e:
+            logging.error(f"[Genre] Error extracting genre data: {e}")
+            return []
             
     def _process_genre_link(self, link: Any) -> Optional[Dict[str, str]]:
         
