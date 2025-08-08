@@ -14,7 +14,10 @@ def to_bool(value):
     return value.lower() == "supported"
 
 def load_json(filename):
-    path = os.path.join("Data Scraping", "data", "preprocessed", filename)
+    base_path = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "..", "Data Scraping", "data", "preprocessed")
+    )
+    path = os.path.join(base_path, filename)
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 

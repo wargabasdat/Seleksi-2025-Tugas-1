@@ -14,6 +14,15 @@ import time
 import random
 import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))      # .../Data Scraping/src
+PROJECT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))# .../Data Scraping
+RAW_DIR = os.path.join(PROJECT_DIR, "data", "raw")         # .../Data Scraping/data/raw
+DATA_DIR = os.path.join(PROJECT_DIR, "data")               # .../Data Scraping/data
+INCOMPLETE_PATH = os.path.join(DATA_DIR, "incompleteData.txt")
+GAME_JSON_PATH = os.path.join(RAW_DIR, "game.json")
+COMM_JSON_PATH = os.path.join(RAW_DIR, "community.json")
+CREATOR_JSON_PATH = os.path.join(RAW_DIR, "creator.json")
+
 def setup_chrome_driver():
     chrome_options = Options()
     # chrome_options.add_argument("--headless")
@@ -107,8 +116,8 @@ def validate_game_data(driver, data: list):
         return data
     else:
         print('\n\n ERROR: ROW DID NOT HAVE CORRECT NUMBER OF FEATURES \n\n')
-        os.makedirs('./data', exist_ok=True)
-        with open('./data/incompleteData.txt', 'a', encoding='utf-8') as f:
+        os.makedirs(DATA_DIR, exist_ok=True)
+        with open(INCOMPLETE_PATH, 'a', encoding='utf-8') as f:
             f.write(driver.page_source)
             for attribute in data:
                 f.write(str(attribute))
@@ -159,19 +168,19 @@ def scrape_community(driver, game_url):
     return community_data, creator_name, creator_link
 
 def write_data_to_json(data: list):
-    file_location = 'data/raw/game.json'
-    field_names = ['Date', 'Active Users', 'Favorites', 'Total Visits', 'Voice Chat', 'Camera', 
-               'Date Created', 'Last Updated', 'Server Size', 'Genre', 'Title', 'Community',
-               'Maturity', 'Thumbs Up', 'Thumbs Down', 'gameID', 'URL']
+    os.makedirs(RAW_DIR, exist_ok=True)
+    field_names = ['Date','Active Users','Favorites','Total Visits','Voice Chat','Camera',
+                   'Date Created','Last Updated','Server Size','Genre','Title','Community',
+                   'Maturity','Thumbs Up','Thumbs Down','gameID','URL']
 
     json_data = []
     for row in data:
         if len(row) == len(field_names):
             game_dict = {field_names[i]: row[i] for i in range(len(row))}
             json_data.append(game_dict)
-    with open(file_location, 'w', encoding='utf-8') as f:
+    with open(GAME_JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump(json_data, f, indent=2, ensure_ascii=False)
-    print(f'Data saved to: {file_location}')
+    print(f'Data saved to: {GAME_JSON_PATH}')
     print(f'Total games saved: {len(json_data)}')
 
 def scrape_creator(driver, creator_name, creator_link):
@@ -206,9 +215,8 @@ def scrape_creator(driver, creator_name, creator_link):
 
     return creator_data
 
-
 def save_json(data_list, file_path):
-    os.makedirs('./data', exist_ok=True)
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data_list, f, indent=2, ensure_ascii=False)
         
@@ -264,8 +272,8 @@ def main():
                 continue
 
         write_data_to_json(final_data)
-        save_json(community_json, './data/raw/community.json')
-        save_json(creator_json, './data/raw/creator.json')
+        save_json(community_json, COMM_JSON_PATH)
+        save_json(creator_json, CREATOR_JSON_PATH)
 
     finally:
         driver.quit()

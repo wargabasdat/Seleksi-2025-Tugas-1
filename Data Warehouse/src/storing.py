@@ -59,6 +59,13 @@ def create_tables():
             member INT
         );
         """,
+        # dim_genre (baru)
+        """
+        CREATE TABLE dim_genre (
+            genre_id INT PRIMARY KEY,
+            genre_name VARCHAR(100)
+        );
+        """,
         # dim_game
         """
         CREATE TABLE dim_game (
@@ -69,9 +76,8 @@ def create_tables():
             genre_id INT,
             url TEXT,
             community_id INT,
-            country_id INT,
-            FOREIGN KEY (community_id) REFERENCES dim_community(community_id),
-            FOREIGN KEY (country_id) REFERENCES dim_country(country_id)
+            FOREIGN KEY (genre_id) REFERENCES dim_genre(genre_id),
+            FOREIGN KEY (community_id) REFERENCES dim_community(community_id)
         );
         """,
         # dim_game_per_country
@@ -112,6 +118,17 @@ def create_tables():
 def insert_data(cursor, conn):
     cursor.execute(f"USE {DB_NAME}")
 
+    # Insert genres
+    genres = load_json("genre_preprocessed.json")
+    for genre in genres:
+        cursor.execute("""
+            INSERT IGNORE INTO dim_genre (genre_id, genre_name)
+            VALUES (%s, %s)
+        """, (
+            genre.get("genre_id"),
+            genre.get("genre_name")
+        ))
+
     # Insert communities
     communities = load_json("community_preprocessed.json")
     for comm in communities:
@@ -127,7 +144,6 @@ def insert_data(cursor, conn):
     # Insert games and facts
     games = load_json("game_preprocessed.json")
     for g in games:
-        # Validate game_id
         try:
             game_id = int(g["gameID"])
             if game_id <= 0:
@@ -140,7 +156,7 @@ def insert_data(cursor, conn):
         date_val = g.get("Date")
         community_id = g.get("communityID")
 
-        # Insert into dim_date (auto derive attributes)
+        # Insert into dim_date
         cursor.execute("""
             INSERT IGNORE INTO dim_date (date, day, month, quarter, semester, year)
             VALUES (%s, DAY(%s), MONTH(%s), QUARTER(%s),
@@ -152,9 +168,9 @@ def insert_data(cursor, conn):
             cursor.execute("""
                 INSERT IGNORE INTO dim_game (
                     game_id, title, date_created, last_updated,
-                    genre_id, url, community_id, country_id
+                    genre_id, url, community_id
                 )
-                VALUES (%s,%s,%s,%s,%s,%s,%s,NULL)
+                VALUES (%s,%s,%s,%s,%s,%s,%s)
             """, (
                 game_id,
                 g.get("Title"),
