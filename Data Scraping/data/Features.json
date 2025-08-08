@@ -1,0 +1,802 @@
+[
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "FHD FaceTime HD camera with Advanced image signal processor with computational video",
+    "backlit_keyboard": "Yes",
+    "microphone": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+    "speakers": "Six Speaker Sound System with force-cancelling woofers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "FHD FaceTime HD camera with Advanced image signal processor with computational video",
+    "backlit_keyboard": "Yes",
+    "microphone": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+    "speakers": "Six Speaker Sound System with force-cancelling woofers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "UHD 8.0MP with large sensor + IR discrete, with E-shutter, ToF sensor, MIPI, fixed focus",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual-microphone array with smart noise-cancelling",
+    "speakers": "Stereo speakers, 2W x2 woofers and 2W x2 tweeters, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5.0MP + IR with privacy shutter and Ultrasonic Human Presence Detection, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual-microphone array, far-field, Dolby Voice",
+    "speakers": "2x 2W Stereo Speakers, Dolby Audio",
+    "security_lock_slot": "Kensington Nano Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5.0MP + IR, with privacy shutter, fixed focus / FHD 1080p + IR, with privacy shutter, fixed focus",
+    "backlit_keyboard": "Yes",
+    "microphone": "Quad-microphone array, 3D array",
+    "speakers": "4 stereo speakers, 2W x2 (woofers), 2W x2 (tweeters), optimized with Dolby Atmos, Smart Amplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD FaceTime HD camera with Advanced image signal processor with computational video",
+    "backlit_keyboard": "Yes",
+    "microphone": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+    "speakers": "Six Speaker Sound System with force-cancelling woofers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5.0MP + IR with privacy shutter and Ultrasonic Human Presence Detection, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphone Array, far-field, Dolby Voice",
+    "speakers": "2x 2W Stereo Speakers, Dolby Audio",
+    "security_lock_slot": "Kensington Nano Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with E-shutter, fixed focus, with ToF sensor",
+    "backlit_keyboard": "optional",
+    "microphone": "Quad-microphone array with noise-cancelling",
+    "speakers": "2x 4W Stereo Speakers, optimized with Dolby Atmos, Amplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with Windows Hello",
+    "backlit_keyboard": "Yes",
+    "microphone": "Array Microphone with AI noise-canceling technology",
+    "speakers": "2x Stereo Speakers with Smart Amplifier Technology, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5.0MP, with E-shutter, fixed focus / HD 720p, with E-shutter, fixed focus",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual-microphone array",
+    "speakers": "4 stereo speakers, 2W x2 (woofers), 2W x2 (tweeters), optimized with Nahimic Audio, Smart Amplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with support for Windows Hello",
+    "backlit_keyboard": "optional",
+    "microphone": "Array Microphone with Cortana Support",
+    "speakers": "Speaker, Smart Amp Technology, harman/kardon",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "9MP IR AI camera with temporal noise reduction",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Digital Microphones",
+    "speakers": "Quad Speakers, HP Audio Boost, DTS:X Ultra, Poly Studio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "QHD IR HDR with Windows Hello Face Recognition",
+    "backlit_keyboard": "Yes",
+    "microphone": "3x Microphones with Acer Purified Voice 2.0 and AI Noise Reduction",
+    "speakers": "Dual Speakers, DTS: X Ultrasound Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5MP IR Camera",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Microphones",
+    "speakers": "Audio by Poly Studio, quad stereo speakers with discrete amplifiers",
+    "security_lock_slot": "HP Tamper Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with Windows Hello",
+    "backlit_keyboard": "Yes",
+    "microphone": "Array Microphone with AI noise-canceling technology",
+    "speakers": "4x Stereo Speakers with Smart Amplifier Technology, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "1080p FaceTime HD camera with Advanced image signal processor with computational video",
+    "backlit_keyboard": "optional",
+    "microphone": "Three-mic array with directional beamforming, Dolby Atmos",
+    "speakers": "6x Surround Speakers with support for Spatial Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with Windows Hello",
+    "backlit_keyboard": "optional",
+    "microphone": "Array Microphone with AI noise-canceling technology",
+    "speakers": "2x Stereo Speakers with Smart Amplifier Technology, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5MP IR camera",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Microphone with AI Noise Reduction",
+    "speakers": "4x Stereo Speakers, Bang & Olufsen",
+    "security_lock_slot": "Nano Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Built-in Microphones with Acer Purified Voice",
+    "speakers": "Speaker System optimized by DTS X:Ultra Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD / FHD with E-shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphone Array",
+    "speakers": "2x 2W Stereo Speakers, audio by HARMAN certification, optimized with Nahimic Audio, Smart Amplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "1080p FaceTime HD camera with Advanced image signal processor with computational video",
+    "backlit_keyboard": "Yes",
+    "microphone": "Three-mic array with directional beamforming, Dolby Atmos",
+    "speakers": "4x Surround Speakers with support for Spatial Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR with Windows Hello",
+    "backlit_keyboard": "optional",
+    "microphone": "3x Microphone Array with Ai noise-canceling",
+    "speakers": "4x Speakers, Smart Amp, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR with support for Windows Hello, privacy shutter",
+    "backlit_keyboard": "Yes",
+    "microphone": "Array Microphone",
+    "speakers": "Stereo Speakers, Smart Amp Technology, harman/kardon",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphones with Acer Purified Voice",
+    "speakers": "Speaker, DTS X: Ultra",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "13MP Camera + 5MP IR Camera",
+    "backlit_keyboard": "Yes",
+    "microphone": "3x Microphone Array",
+    "speakers": "2x 2W dual-force with Smart Amp Technology, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with E-shutter, fixed focus, ToF sensor",
+    "backlit_keyboard": "Yes",
+    "microphone": "Quad Microphone Array",
+    "speakers": "4 stereo speakers, 2W x2 (woofers), 2W x2 (tweeters), optimized with Dolby Atmos, Smart Amplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with HDR, 3D Noise Reduction+ (3DNR+)",
+    "backlit_keyboard": "Yes",
+    "microphone": "Yes",
+    "speakers": "2x 2W Stereo Speakers, Nahimic 3 Audio Enhance, Hi-Res Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD",
+    "backlit_keyboard": "optional",
+    "microphone": "2x Microphones with Acer Purified Voice, AI noise reduction",
+    "speakers": "Stereo Speakers, DTS X: Ultra",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "FHD 1080p + IR discrete, with E-shutter, fixed focus, temporal noise reduction",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Microphone Array",
+    "speakers": "2x Stereo Speakers, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with HDR, 3D Noise Reduction+ (3DNR+)",
+    "backlit_keyboard": "Yes",
+    "microphone": "Yes",
+    "speakers": "4x 2W Speakers + 2x 2W Woofers, Dynaudio system, Nahimic 3 Audio Enhance, Hi-Res Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD",
+    "backlit_keyboard": "optional",
+    "microphone": "Array Microphone with AI Noise Cancelling",
+    "speakers": "2x Stereo Speakers, Smart Amp, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Yes",
+    "speakers": "2x 2W Stereo Speakers, Nahimic Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD with Temporal Noise Reduction",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphones with Acer Purified Voice, AI noise reduction",
+    "speakers": "Speakers by DTS X: Ultra Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD / FHD",
+    "backlit_keyboard": "optional",
+    "microphone": "Microphone with Cortana and Alexa voice-recognition",
+    "speakers": "Speakers by Harman Kardon",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR with HDR, 3D Noise Reduction+ (3DNR+)",
+    "backlit_keyboard": "optional",
+    "microphone": "Yes",
+    "speakers": "2x 2W Speakers + 4x 2W Woofers, Dynaudio, Nahimic 3, Hi-Res Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD",
+    "backlit_keyboard": "optional",
+    "microphone": "Array Microphone with AI Noise Cancelling, support for Microsoft Cortana near field/Far Field",
+    "speakers": "2x Stereo Speakers, Dolby Atmos",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR",
+    "backlit_keyboard": "Yes",
+    "microphone": "Digital Array Microphones",
+    "speakers": "6x 3W Stereo Speakers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD & IR with privacy shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Microphone, far-field, Dolby Voice",
+    "speakers": "2x 2W Stereo Speakers, Dolby Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD with Temporal Noise Reduction",
+    "backlit_keyboard": "Yes",
+    "microphone": "3x Microphone Array with Acer Purified Voice, AI noise-canceling",
+    "speakers": "Stereo Speakers, DTS X: Ultra",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "FHD IR with HDR, 3D Noise Reduction+ (3DNR+)",
+    "backlit_keyboard": "Yes",
+    "microphone": "Yes",
+    "speakers": "4x 2W Speakers + 2x 2W Woofer, Dynaudio system, Nahimic 3D Audio, Hi-Res Audio Enhance",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR with support for Windows Hello, privacy shutter",
+    "backlit_keyboard": "optional",
+    "microphone": "Array Microphone with Cortana Support",
+    "speakers": "Speaker, Smart Amp Technology, harman/kardon",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD with 3D Noise Reduction (3DNR)",
+    "backlit_keyboard": "Yes",
+    "microphone": "Yes",
+    "speakers": "2x 2W Stereo Speakers, Nahimic 3D Audio, Hi-Res Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR",
+    "backlit_keyboard": "Yes",
+    "microphone": "Array Microphone with AI Noise Cancelling, support for Microsoft Cortana near field/Far Field",
+    "speakers": "2x Stereo Speakers, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "IR FHD type (30fps@1080p) with HDR 3D Noise Reduction+ (3DNR+)",
+    "backlit_keyboard": "Yes",
+    "microphone": "3x Spatial Array Microphone with AI Noise Cancellation Pro",
+    "speakers": "2x 2W Stereo Speakers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with support for Windows Hello, privacy shutter",
+    "backlit_keyboard": "Yes",
+    "microphone": "Array Microphone",
+    "speakers": "Stereo Speakers with Smart Amp Technology",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD",
+    "backlit_keyboard": "optional",
+    "microphone": "Array Microphone with AI Noise Cancelling",
+    "speakers": "2x Stereo Speakers, Smart Amp, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD with Temporal Noise Reduction",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Microphones with AI noise reduction",
+    "speakers": "Speakers by DTS X: Ultra Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5MP Camera with HP Auto Frame and HP Dynamic Voice Leveling",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphones with AI noise reduction",
+    "speakers": "Quad Speakers, Bang & Olufsen with discrete amplifier",
+    "security_lock_slot": "Nano Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD with privacy shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Microphone, far-field, Dolby Voice",
+    "speakers": "2x 2W Stereo Speakers, Dolby Atmos",
+    "security_lock_slot": "Kensington Nano Lock"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "1080p FaceTime HD camera with Advanced image signal processor with computational video",
+    "backlit_keyboard": "Yes",
+    "microphone": "Three-mic array with directional beamforming, Dolby Atmos",
+    "speakers": "6x Surround Speakers with support for Spatial Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5MP",
+    "backlit_keyboard": "optional",
+    "microphone": "Yes",
+    "speakers": "Audio by Bang & Olufsen",
+    "security_lock_slot": "Yes"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD + IR scanner",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Digital Microphones",
+    "speakers": "2x 2.5W Woofers + 2x 2.5W Tweeters",
+    "security_lock_slot": "Wedge Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD / FHD",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Microphone, far-field, Dolby Voice",
+    "speakers": "2x 2W Stereo Speakers, Dolby Audio",
+    "security_lock_slot": "Kensington Nano Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Array Microphone with Qualcomm Audio and Voice Communication Suite",
+    "speakers": null,
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "5MP IR camera with temporal noise reduction",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Digital Microphones",
+    "speakers": "Dual Speakers, HP Audio Boost, DTS:X Ultra, Poly Studio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Array Microphones",
+    "speakers": "2x 2W Woofers + 2x 2W Tweeters Stereo Speakers",
+    "security_lock_slot": "Wedge Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "1080p FaceTime HD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Three-mic array with directional beamforming",
+    "speakers": "Four-speaker sound system",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD",
+    "backlit_keyboard": "optional",
+    "microphone": "Array Microphone with AI Noise Cancelling",
+    "speakers": "2x Stereo Speakers, Smart Amp, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD RGB IR",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual-array microphone on FPC",
+    "speakers": "4x 2.5W Stereo Speakers",
+    "security_lock_slot": "Wedge Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Digital Array Microphones",
+    "speakers": "2x 2W Stereo Speakers",
+    "security_lock_slot": "Wedge Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5.0MP + IR discrete, with privacy shutter, fixed focus",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual-microphone array, 360 far-field, Dolby Voice",
+    "speakers": "2x 2W Stereo Speakers, Dolby Audio",
+    "security_lock_slot": "Kensington Nano Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD with Temporal Noise Reduction",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Microphones with Acer Purified Voice, AI noise reduction",
+    "speakers": "Speaker System optimized by DTS X:Ultra Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD / FHD with E-camera shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual array microphone",
+    "speakers": "2x 2W Stereo Speakers, audio by HARMAN certification, optimized with Nahimic Audio, Smart Amplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR with privacy shutter, fixed focus",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Microphone Array with noise-cancelling",
+    "speakers": "2x 2W Stereo Speakers, Dolby Atmos, Smart Aplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "1080p FaceTime HD camera with Advanced image signal processor with computational video",
+    "backlit_keyboard": "optional",
+    "microphone": "Three-mic array with directional beamforming, Dolby Atmos",
+    "speakers": "4x Surround Speakers with support for Spatial Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "Yes",
+    "backlit_keyboard": "optional",
+    "microphone": "Microphone with Acer Purified Voice and AI Noise Reduction",
+    "speakers": "Yes",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD with Temporal Noise Reduction",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphones with Acer Purified Voice",
+    "speakers": "Stereo Speakers, DTS X:Ultra Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD 1080p + IR hybrid, with privacy shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual-microphone array, 360° far-field, Dolby Voice",
+    "speakers": "2x 2W Stereo Speakers, Dolby Audio",
+    "security_lock_slot": "Kensington Nano Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Microphone with Acer Purified Voice, support for Cortana",
+    "speakers": "Audio by DTS:X Ultra",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD with Temporal Noise Reduction",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphone with Acer Purified Voice",
+    "speakers": "Speaker System optimized by DTS X:Ultra Audio",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD",
+    "backlit_keyboard": "optional",
+    "microphone": "Digital Array Microphones",
+    "speakers": "2x 2.5W Stereo Speakers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD / FHD",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphone Array",
+    "speakers": "2x 2W Stereo Speakers, Nahimic Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with temporal noise reduction",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Array Digital Microphones",
+    "speakers": "Dual Speakers, HP Audio Boost, DTS:X Ultra, HyperX",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5.0MP + IR, with E-shutter, fixed focus, with ToF sensor",
+    "backlit_keyboard": "Yes",
+    "microphone": "Quad-microphone array",
+    "speakers": "6 stereo speakers, 2W x4 (dual side woofers), 2W x2 (tweeters), optimized with Dolby Atmos, Smart Amplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Digital Array Microphones",
+    "speakers": "2x 2W Stereo Speakers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD / FHD with E-shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphone Array",
+    "speakers": "2x 2W Stereo Speakers, Nahimic Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "HD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Digital Array Microphones",
+    "speakers": "4x Stereo Speakers (2x 2.5W Tweeters + 2x 2.5W Woofers), SoundWire",
+    "security_lock_slot": "Wedge Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR with e-shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Quad-microphone array",
+    "speakers": "2x 2W Tweeters + 2x 2W Woofers, optimized with Dolby Atmos, Smart Amplifier (AMP)",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD / FHD with E-shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphone Array",
+    "speakers": "2x 2W Stereo Speakers, Nahimic Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "FHD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Yes",
+    "speakers": "2x Stereo Speakers",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD / FHD / IR with privacy shutter, MIPI, fixed focus, Computer Vision",
+    "backlit_keyboard": "optional",
+    "microphone": "Quad Array Microphone, 360° far-field, Dolby Voice",
+    "speakers": "2x 2W woofers + 2x 0.8W tweeters Stereo Speakers, Dolby Atmos",
+    "security_lock_slot": "Kensington Nano Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD",
+    "backlit_keyboard": "optional",
+    "microphone": "Array Microphone with AI Noise Cancelling, support for Microsoft Cortana near field/Far Field",
+    "speakers": "2x Stereo Speakers, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD IR",
+    "backlit_keyboard": "optional",
+    "microphone": "Digital Array Microphones",
+    "speakers": "2x 2W Tweeters + 2x 3W Woofers",
+    "security_lock_slot": "Wedge Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD / FHD with E-camera shutter, fixed focus",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Microphone",
+    "speakers": "2x 2W Stereo Speakers, Nahimic Audio",
+    "security_lock_slot": null
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "QHD with Temporal Noise Reduction",
+    "backlit_keyboard": "Yes",
+    "microphone": "3x Microphones with Acer Purified Voice 2.0 and AI Noise Reduction",
+    "speakers": "Speaker System optimized by DTS X:Ultra Audio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "QHD front-facing Surface Studio Camera, Windows Studio Effects",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Studio Mics with voice focus",
+    "speakers": "2W Stereo Speakers with Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD / FHD",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Array Microphones, 360° far-field, Dolby Voice",
+    "speakers": "2x 2W Stereo Speakers, Dolby Audio",
+    "security_lock_slot": "Kensington Nano Lock"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "FHD",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Array Microphones",
+    "speakers": "2x 2W Tweeters + 2x 2W Woofers, Qualcomm Aqstic Speaker Max technology",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD with Windows Hello Face Authentication",
+    "backlit_keyboard": "optional",
+    "microphone": "Dual Microphone Array with Waves MaxxVoice",
+    "speakers": "2x 3W Woofers + 2x 2W Tweeters Stereo Speakers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "Yes",
+    "web_camera": "FHD with Temporal Noise Reduction",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Microphones with Acer Purified Voice, AI noise reduction",
+    "speakers": "Stereo Speakers, DTS X: Ultra",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "HD & IR",
+    "backlit_keyboard": "optional",
+    "microphone": null,
+    "speakers": "2x 2W Stereo Speakers, Dolby Atmos",
+    "security_lock_slot": null
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD with Windows Hello Face Authentication",
+    "backlit_keyboard": "Yes",
+    "microphone": "2x Digital Array Microphones",
+    "speakers": "2x 2W Stereo Speakers, Waves MaxxAudio",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with Windows Hello",
+    "backlit_keyboard": "Yes",
+    "microphone": "Array Microphone",
+    "speakers": "Speaker, Smart Amp Technology, harman/kardon",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5MP Webcam",
+    "backlit_keyboard": "optional",
+    "microphone": "World Facing dual array digital microphones",
+    "speakers": "2x Stereo Speakers, Bang & Olufsen",
+    "security_lock_slot": "Yes"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "FHD IR with privacy shutter, fixed focus, with ToF sensor",
+    "backlit_keyboard": "Yes",
+    "microphone": "Dual Microphone Array",
+    "speakers": "2x 2W Stereo Speakers, Dolby Atmos",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD",
+    "backlit_keyboard": "Yes",
+    "microphone": "2x Microphones with Acer Purified Voice",
+    "speakers": "Stereo Speakers, DTS X: Ultra",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5MP Webcam",
+    "backlit_keyboard": "Yes",
+    "microphone": "Yes",
+    "speakers": "Quad Stereo Speakers, Bang & Olufsen",
+    "security_lock_slot": "Nano Lock"
+  },
+  {
+    "fingerprint_reader": "No",
+    "web_camera": "HD",
+    "backlit_keyboard": "optional",
+    "microphone": "Yes",
+    "speakers": "2x 2W Stereo Speakers, DTS Audio Processing",
+    "security_lock_slot": "Kensington Lock"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "FHD IR",
+    "backlit_keyboard": "optional",
+    "microphone": "Digital-array microphones",
+    "speakers": "2x 2.5W Stereo Speakers",
+    "security_lock_slot": "No"
+  },
+  {
+    "fingerprint_reader": "optional",
+    "web_camera": "5MP with IR",
+    "backlit_keyboard": "optional",
+    "microphone": "Yes",
+    "speakers": "2x Stereo Speakers",
+    "security_lock_slot": "Nano K-Lock"
+  }
+]

@@ -1,0 +1,982 @@
+[
+  {
+    "3x_usb_type-c": "4.0, Thunderbolt 5, Power Delivery (PD), DisplayPort",
+    "hdmi": "Yes",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "Yes",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz)",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, DisplayPort",
+    "hdmi": "1.4b",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "Yes",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (4K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (4K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "Thunderbolt 5, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "1x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "2x_usb_type-c": "Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E / Wi-Fi 7",
+    "bluetooth": "5.3 / 5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort, Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort, Sleep and Charge",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "No"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "4.0, Thunderbolt 5, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "4.0, Thunderbolt 3, Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "Thunderbolt 5, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2x2 (20 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "4.0, Thunderbolt 4, DisplayPort",
+    "hdmi": "2.1 (8K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "4.0, Thunderbolt 3, Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "Wi-Fi 6E",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E / Wi-Fi 7",
+    "bluetooth": "5.3 / 5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "2x_usb_type-c": "Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (4K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "Thunderbolt 5, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz / 4K@120Hz)",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "4.0, Thunderbolt 5, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "1x_usb_type-c": "Thunderbolt 4, DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "2.0",
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "3.2 Gen 1 (5 Gbps), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz / 4K@120Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "1x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz / 4K@120Hz)",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "Yes",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "displayport_mini": "Yes",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.0",
+    "card_reader": "SD",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz / 4K@120Hz)",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz / 4K@120Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (4K@60Hz)",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "Yes",
+    "card_reader": "SD",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.0b",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), DisplayPort",
+    "2x_usb_type-c": "Thunderbolt 4",
+    "hdmi": "2.1",
+    "card_reader": "SD, SDHC, SDXC",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.0",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "2x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort, Sleep and Charge",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), DisplayPort",
+    "2x_usb_type-c": "Thunderbolt 4, Power Delivery (PD)",
+    "hdmi": "2.1",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "wi-fi": "802.11ax Wi-Fi 6",
+    "bluetooth": "5.0",
+    "audio_jack": "3.5mm Combo Jack",
+    "magsafe_3_charging_port": "Yes"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-c": "Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), DisplayPort",
+    "2x_usb_type-c": "Thunderbolt 4",
+    "hdmi": "2.1",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (4K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "1.4b",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "2x_usb_type-c": "3.2 Gen 2 (10 Gbps)",
+    "hdmi": "Yes",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD)",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz / 4K@120Hz)",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort, Sleep and Charge",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "",
+    "hdmi": "2.1 (4K@60Hz)",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 1 (5 Gbps)",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, DisplayPort",
+    "hdmi": "2.1",
+    "displayport_mini": "Yes",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500, 5000 Mbit/s",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz)",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "4x_usb_type-c": "Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "No"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (8K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.0b",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "1x_usb_type-c": "4.0, DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "2x_usb_type-c": "Thunderbolt 4, Power Delivery (PD)",
+    "card_reader": "SD, SDHC, SDXC",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "2x_usb_type-c": "4.0, Power Delivery (PD)",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "No"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.0",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "No"
+  },
+  {
+    "3x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4",
+    "hdmi": "Yes",
+    "card_reader": "microSD",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.1",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "Thunderbolt 4",
+    "hdmi": "No",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.0",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "3x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 2 (10 Gbps)",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11be",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort, Sleep and Charge",
+    "hdmi": "2.0b",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1 (4K@60Hz)",
+    "card_reader": "SD (SD, SDHC, SDXC)",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 2 (10 Gbps), Sleep and Charge",
+    "1x_usb_type-c": "4.0, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "microSD (microSD, microSDHC, microSDXC)",
+    "ethernet_lan": "10, 100, 1000, 2500 Mbit/s",
+    "wi-fi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps), Power Delivery (PD)",
+    "2x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "3.2 Gen 2 (10 Gbps), DisplayPort",
+    "hdmi": "2.1 (4K@60Hz)",
+    "card_reader": "No",
+    "ethernet_lan": "10, 100, 1000 Mbit/s",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.3",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "1x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "1x_usb_type-c": "4.0, Thunderbolt 4, Power Delivery (PD), DisplayPort",
+    "hdmi": "2.1",
+    "card_reader": "No",
+    "ethernet_lan": "No",
+    "wi-fi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "audio_jack": "3.5mm Combo Jack"
+  },
+  {
+    "2x_usb_type-c": "Thunderbolt 4",
+    "2x_usb_type-a": "3.2 Gen 1 (5 Gbps)",
+    "hdmi": "2.0",
+    "card_reader": "No",
+    "wi-fi": "802.11ax",
+    "bluetooth": "5.2",
+    "audio_jack": "3.5mm Combo Jack",
+    "nano_sim": "Yes"
+  }
+]

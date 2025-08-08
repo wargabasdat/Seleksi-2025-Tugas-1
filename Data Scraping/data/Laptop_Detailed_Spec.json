@@ -1,0 +1,1002 @@
+[
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "soldered SSD",
+    "ram": "up to 128GB",
+    "os": "macOS",
+    "battery": "72.4Wh",
+    "body_material": "Aluminum",
+    "dimensions": "312.6 x 221.2 x 15.5 mm (12.31\" x 8.71\" x 0.61\")",
+    "weight": "1.60 kg (3.5 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "soldered SSD",
+    "ram": "up to 128GB",
+    "os": "macOS, Chrome OS",
+    "battery": null,
+    "body_material": "Aluminum",
+    "dimensions": "355.7 X 248.1 X 16.8 mm",
+    "weight": "2.14 kg (4.7 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2242 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "339.55 x 228.5 x 12.9 mm (13.37\" x 9.00\" x 0.51\")",
+    "weight": "1.40 kg (3.1 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 128GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home",
+    "battery": "90Wh",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "365 x 262 x 24.66 mm (14.37\" x 10.31\" x 0.97\")",
+    "weight": "2.22 kg (4.9 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2242 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "317 x 228 x 15.45 - 15.95 mm (12.48\" x 8.98\" x 0.61\")",
+    "weight": "1.38 kg (3 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": null,
+    "ram": "up to 128GB",
+    "os": "macOS",
+    "battery": "100Wh",
+    "body_material": "Aluminum",
+    "dimensions": "355.7 X 248.1 X 16.8 mm",
+    "weight": "2.14 kg (4.7 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 128GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11, Windows 11 Home, No OS",
+    "battery": "75Wh",
+    "body_material": "Aluminum",
+    "dimensions": "325.5 x 227.6 x 18.5 mm (12.81\" x 8.96\" x 0.73\")",
+    "weight": "1.61 kg (3.5 lbs)"
+  },
+  {
+    "storage": "up to 1000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 16GB",
+    "os": "Windows 11 Home, No OS, Windows 11 Pro",
+    "battery": "73Wh",
+    "body_material": "Aluminum",
+    "dimensions": "325.5 x 226.49 x 15.6 mm (12.81\" x 8.92\" x 0.61\")",
+    "weight": "1.49 kg (3.3 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 5.0 x4 + 1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, No OS",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "354 x 268 x 22.8 ~ 30.8 mm (13.94\" x 10.55\" x 0.90\")",
+    "weight": "2.73 kg (6 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 5.0 x4 + 1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, No OS, Chrome OS",
+    "battery": "99.9Wh",
+    "body_material": null,
+    "dimensions": "364.38 x 275.94 x 21.9 ~ 26.65 mm (14.35\" x 10.86\" x 0.86\")",
+    "weight": "2.57 kg (5.7 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11, Windows 11 Pro, Windows 10 Pro, DOS",
+    "battery": "75Wh, 4-cell , 75Wh, 4-cell",
+    "body_material": "Aluminum, Magnesium alloy",
+    "dimensions": "313.5 x 217.9 x 14.6 - 19.9 mm (12.34\" x 8.58\" x 0.57\")",
+    "weight": "1.60 kg (3.5 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": null,
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 11, Chrome OS",
+    "battery": "64Wh",
+    "body_material": null,
+    "dimensions": "313.69 x 216.15 x 14.98 mm (12.35\" x 8.51\" x 0.59\")",
+    "weight": "1.34 kg (3 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Pro",
+    "battery": "70Wh",
+    "body_material": null,
+    "dimensions": "356 x 249.42 x 9.9 - 15.9 mm (14.02\" x 9.82\" x 0.39\")",
+    "weight": "1.50 kg (3.3 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": "68Wh",
+    "body_material": "Aluminum",
+    "dimensions": "313.94 x 219.96 x 10.5 – 14.9 mm (12.36\" x 8.66\" x 0.41\")",
+    "weight": "1.18 kg (2.6 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": "90Wh",
+    "body_material": null,
+    "dimensions": "399 x 298 x 23.5 ~ 32.0 mm (15.71\" x 11.73\" x 0.93\")",
+    "weight": "3.48 kg (7.7 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": null,
+    "ram": "up to 24GB",
+    "os": "macOS, DOS",
+    "battery": null,
+    "body_material": "Aluminum",
+    "dimensions": "340.4 x 237.6 x 11.5 mm (13.40\" x 9.35\" x 0.45\")",
+    "weight": "1.51 kg (3.3 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, No OS, Windows 11 Home, Chrome OS",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "399 x 298 x 23.5 ~ 32.0 mm (15.71\" x 11.73\" x 0.93\")",
+    "weight": "3.42 kg (7.5 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home, Chrome OS, DOS, Windows 10 Home",
+    "battery": "51Wh, 3-cell, 38Wh, 3-cell",
+    "body_material": "Aluminum",
+    "dimensions": "315.46 x 244.02 x 19.2 mm (12.42\" x 9.61\" x 0.76\")",
+    "weight": "1.36 kg (3 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Chrome OS, DOS",
+    "battery": "76Wh",
+    "body_material": "Aluminum",
+    "dimensions": "356 x 249.17 x 18.82 - 20.83 mm (14.02\" x 9.81\" x 0.74\")",
+    "weight": "2.05 kg (4.5 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Chrome OS, Windows 11 Home, No OS, DOS, Windows 11",
+    "battery": "99.9Wh, 80Wh",
+    "body_material": "Aluminum",
+    "dimensions": "363.5 x 262.1 x 21.95 - 25.9 mm (14.31\" x 10.32\" x 0.86\")",
+    "weight": "2.62 kg (5.8 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "soldered PCIe NVMe 3.0 x4See photo",
+    "ram": "up to 24GB",
+    "os": "macOS, Chrome OS",
+    "battery": null,
+    "body_material": "Aluminum",
+    "dimensions": "304.1 x 215 x 11.3 mm (11.97\" x 8.46\" x 0.44\")",
+    "weight": "1.24 kg (2.7 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Chrome OS, Windows 11, DOS, Windows 10 Pro, No OS",
+    "battery": "76Wh, 4-cell , 76Wh, 4-cell",
+    "body_material": "Aluminum",
+    "dimensions": "312 x 227 x 18.5 - 20.5 mm (12.28\" x 8.94\" x 0.73\")",
+    "weight": "1.65 kg (3.6 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 11",
+    "battery": "75Wh, 4-cell",
+    "body_material": "Aluminum",
+    "dimensions": "312.4 x 220.1 x 14.9 mm (12.30\" x 8.67\" x 0.59\")",
+    "weight": "1.20 kg (2.6 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 10 Home, Windows 11 Home, Windows 10 Pro, Windows 11 Pro, Chrome OS, DOS, Windows 11, Linux",
+    "battery": "90Wh, 4-cell",
+    "body_material": "Aluminum",
+    "dimensions": "357.78 x 278.74 x 24.90 - 26.90 mm (14.09\" x 10.97\" x 0.98\")",
+    "weight": "2.60 kg (5.7 lbs)"
+  },
+  {
+    "storage": "up to 1000GB SSD",
+    "storage_type": null,
+    "ram": "up to 128GB",
+    "os": "Windows 11 Home, Windows 11 Pro",
+    "battery": "70Wh",
+    "body_material": null,
+    "dimensions": "300 x 204 x 12.9 ~ 14.9 mm (11.81\" x 8.03\" x 0.51\")",
+    "weight": "1.20 kg (2.6 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2242 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": "70Wh",
+    "body_material": "Aluminum",
+    "dimensions": "343.8 x 235.4 x 13.9 mm (13.54\" x 9.27\" x 0.55\")",
+    "weight": "1.53 kg (3.4 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 5.0 x4 + 1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, DOS",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "357 x 284 x 22.2 ~ 28.55 mm (14.06\" x 11.18\" x 0.87\")",
+    "weight": "2.70 kg (6 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, DOS, Windows 11",
+    "battery": "90Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "357.78 x 277.55 x 24.9 - 26.9 mm (14.09\" x 10.93\" x 0.98\")",
+    "weight": "2.65 kg (5.8 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": "55Wh",
+    "body_material": null,
+    "dimensions": "311.8 x 212.3 x 6.7 - 17.18 mm (12.28\" x 8.36\" x 0.26\")",
+    "weight": "1.21 kg (2.7 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD",
+    "storage_type": "3x 2280 M.2 NVMe PCIe 4.0 x4 + 1x 2280 M.2 NVMe PCIe 5.0 x4See photo",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "404 x 307.5 x 24 - 32.05 mm (15.91\" x 12.11\" x 0.94\")",
+    "weight": "3.60 kg (7.9 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Pro, No OS, DOS, Windows 11",
+    "battery": "90Wh, 4-cell, 90, 90Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "399 x 294 x 23.1 x 30.8 mm (15.71\" x 11.57\" x 0.91\")",
+    "weight": "3.00 kg (6.6 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Home, Windows 11 Pro, DOS, Windows 11, No OS",
+    "battery": "90Wh, 4-cell, 90Wh",
+    "body_material": "Aluminum",
+    "dimensions": "359 x 259 x 26.9 mm (14.13\" x 10.20\" x 1.06\")",
+    "weight": "2.30 kg (5.1 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 10 Pro, Windows 11 Pro, No OS, DOS, Windows 10 Home, Windows 11",
+    "battery": "90Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "400.2 x 293.25 x 27.9 - 28.9 mm (15.76\" x 11.55\" x 1.10\")",
+    "weight": "3.10 kg (6.8 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 3.0 x4See photo",
+    "ram": "up to 16GB",
+    "os": "Windows 11 Home, Windows 10 Home, Windows 10 Pro, Windows 11 Pro, Windows 11, DOS, No OS, Chrome OS",
+    "battery": "75Wh, 4-cell, 75Wh, 4-cell",
+    "body_material": "Aluminum",
+    "dimensions": "313.6 x 220.6 x 16.9 mm (12.35\" x 8.69\" x 0.67\")",
+    "weight": "1.39 kg (3.1 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Windows 10 Pro, DOS, Windows 11, No OS",
+    "battery": "99.9Wh, 4-cell",
+    "body_material": "Aluminum, Magnesium alloy",
+    "dimensions": "355.8 x 259.7 x 19.95 mm (14.01\" x 10.22\" x 0.79\")",
+    "weight": "1.99 kg (4.4 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 10 Home, Windows 11 Pro, Windows 10 Pro, Windows 11, No OS",
+    "battery": "90Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "395 x 264 x 22.9 - 25.4 mm (15.55\" x 10.39\" x 0.90\")",
+    "weight": "2.60 kg (5.7 lbs)"
+  },
+  {
+    "storage": "up to 16384GB SSD",
+    "storage_type": "2x 2230 / 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro",
+    "battery": "90Wh, 90Wh, 6-cell",
+    "body_material": "Aluminum, Magnesium alloy",
+    "dimensions": "364.81 x 289.98 x 18.57 mm (14.36\" x 11.42\" x 0.73\")",
+    "weight": "2.66 kg (5.9 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home",
+    "battery": "68Wh",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "366.5 x 250 x 22.7 mm (14.43\" x 9.84\" x 0.89\")",
+    "weight": "2.23 kg (4.9 lbs)"
+  },
+  {
+    "storage": "up to 8192GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 68GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Windows 10 Home, Windows 10 Pro, No OS, DOS, Windows 11",
+    "battery": "90Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "357.78 x 278.63 x 25.95 - 27.85 mm (14.09\" x 10.97\" x 1.02\")",
+    "weight": "2.80 kg (6.2 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 5.0 x4 +1x 2280 M.2 NVMe PCIe 4.0 x4",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "404 x 307.5 x 24 - 32.05 mm (15.91\" x 12.11\" x 0.94\")",
+    "weight": "3.60 kg (7.9 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, No OS, Windows 10 Pro",
+    "battery": "75Wh, 4-cell",
+    "body_material": "Aluminum",
+    "dimensions": "310.5 x 221.9 x 13.9 - 15.9 mm (12.22\" x 8.74\" x 0.55\")",
+    "weight": "1.30 kg (2.9 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 5.0 x4 + 1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, No OS, DOS",
+    "battery": "65Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "359 x 266.4 x 21.8 - 27.7 mm (14.13\" x 10.49\" x 0.86\")",
+    "weight": "2.30 kg (5.1 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4 + 1x 2280 M.2 NVMe PCIe 4.0 x2See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, No OS, Windows 11 Pro",
+    "battery": "73Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "311 x 227 x 16.9 - 19.9 mm (12.24\" x 8.94\" x 0.67\")",
+    "weight": "1.46 kg (3.2 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": "82Wh",
+    "body_material": null,
+    "dimensions": "358 x 258.55 x 16.9 - 17.35 mm (14.09\" x 10.18\" x 0.67\")",
+    "weight": "2.10 kg (4.6 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD + up to 4000GB HDD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Windows 10 Pro, No OS, Windows 11, Windows 10 Home, Chrome OS",
+    "battery": "75Wh, 4-cell , 75Wh, 4-cell",
+    "body_material": "Aluminum",
+    "dimensions": "312.4 x 220.1 x 14.9 mm (12.30\" x 8.67\" x 0.59\")",
+    "weight": "1.20 kg (2.6 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD + up to 8000GB HDD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 11, DOS, Windows 10 Pro, No OS",
+    "battery": "90Wh, 4-cell, 90Wh, 90Wh, 4-cell , 90Wh, 4-cel",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "395 x 282 x 23.4 - 28.3 mm (15.55\" x 11.10\" x 0.92\")",
+    "weight": "3.00 kg (6.6 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, No OS",
+    "battery": "90Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "400.2 x 293.25 x 27.9 - 28.9 mm (15.76\" x 11.55\" x 1.10\")",
+    "weight": "3.25 kg (7.2 lbs)"
+  },
+  {
+    "storage": "up to 1000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Pro",
+    "battery": "51Wh, 3-cell, 51Wh, 3-cell",
+    "body_material": "Magnesium alloy",
+    "dimensions": "315.72 x 225.80 x 17.92 – 19.2 mm (12.43\" x 8.89\" x 0.71\")",
+    "weight": "1.33 kg (2.9 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 128GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home, Windows 10 Home, No OS",
+    "battery": "94Wh, 94Wh, 6-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum, Glass Fiber, Magnesium alloy",
+    "dimensions": "364 x 266 x 30.23 mm (14.33\" x 10.47\" x 1.19\")",
+    "weight": "2.95 kg (6.5 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": null,
+    "ram": "up to 32GB",
+    "os": "macOS",
+    "battery": null,
+    "body_material": "Aluminum",
+    "dimensions": "340.4 x 237.6 x 11.5 mm (13.40\" x 9.35\" x 0.45\")",
+    "weight": "1.51 kg (3.3 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home",
+    "battery": "68Wh, 6-cell, 68.4Wh, 6-cell, 68Wh, 4-cell",
+    "body_material": "Aluminum, Magnesium alloy",
+    "dimensions": "297.18 x 220.21 x 16.25 mm (11.70\" x 8.67\" x 0.64\")",
+    "weight": "0.99 kg (2.2 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD + up to 512GB HDD",
+    "storage_type": "2x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 128GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home",
+    "battery": "93Wh, 6-cell, 83Wh, 83Wh, 6-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum, Carbon",
+    "dimensions": "356 x 258.34 x 23.20 - 25.90 mm (14.02\" x 10.17\" x 0.91\")",
+    "weight": "2.60 kg (5.7 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Pro",
+    "battery": "54.7Wh, 41Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum, Carbon, Glass Fiber",
+    "dimensions": "305.8 x 217.89 x 18.25 mm (12.04\" x 8.58\" x 0.72\")",
+    "weight": "1.20 kg (2.6 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2230 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": "54Wh",
+    "body_material": "Aluminum",
+    "dimensions": "314 x 223.7 x 14.69 – 15.64 mm (12.36\" x 8.81\" x 0.58\")",
+    "weight": "1.44 kg (3.2 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 16GB",
+    "os": "Windows 11 Home, Windows 10 Home, Windows 11 Pro, Windows 11",
+    "battery": "43Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "297.66 x 209.04 x 16.5 mm (11.72\" x 8.23\" x 0.65\")",
+    "weight": "0.99 kg (2.2 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 10 Pro, Windows 11 Home, Windows 11 Pro",
+    "battery": "99.5Wh",
+    "body_material": "Aluminum",
+    "dimensions": "353.58 x 240.33 x 20.50 - 22.17 mm (13.92\" x 9.46\" x 0.81\")",
+    "weight": "2.03 kg (4.5 lbs)"
+  },
+  {
+    "storage": "up to 25000GB SSD",
+    "storage_type": null,
+    "ram": "up to 24GB",
+    "os": "macOS, Chrome OS",
+    "battery": "52.6Wh",
+    "body_material": "Aluminum",
+    "dimensions": "304.1 x 215 x 11.3 mm (11.97\" x 8.46\" x 0.44\")",
+    "weight": "1.24 kg (2.7 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Home, Windows 10 Home, Windows 10 Pro, Windows 11 Pro, Windows 11, No OS, DOS",
+    "battery": "90Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "395 x 282 x 23.4 - 30.8 mm (15.55\" x 11.10\" x 0.92\")",
+    "weight": "2.80 kg (6.2 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2230 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": "60Wh",
+    "body_material": "Aluminum",
+    "dimensions": "310.5 x 215 x 14.92 - 16.28 mm (12.22\" x 8.46\" x 0.59\")",
+    "weight": "1.54 kg (3.4 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 128GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Pro",
+    "battery": "83Wh, 6-cell, 83Wh",
+    "body_material": "Aluminum",
+    "dimensions": "356 x 258.34 x 22.30 - 23.20 mm (14.02\" x 10.17\" x 0.88\")",
+    "weight": "2.60 kg (5.7 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home",
+    "battery": "54.7Wh",
+    "body_material": "Magnesium alloy",
+    "dimensions": "301.7 x 214.6 x 16.4 mm (11.88\" x 8.45\" x 0.65\")",
+    "weight": "1.20 kg (2.6 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, No OS, Windows 11 Pro",
+    "battery": "90Wh",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "400.2 x 293.25 x 27.9 - 28.9 mm (15.76\" x 11.55\" x 1.10\")",
+    "weight": "3.10 kg (6.8 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD",
+    "storage_type": "2x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 11, DOS, No OS",
+    "battery": "99.9Wh, 99.99Wh, 80Wh",
+    "body_material": "Aluminum",
+    "dimensions": "363.4 x 262.15 x 21.95 - 25.90 mm (14.31\" x 10.32\" x 0.86\")",
+    "weight": "2.80 kg (6.2 lbs)"
+  },
+  {
+    "storage": "up to 6000GB SSD",
+    "storage_type": "1x 2242 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11, Windows 11 Home, Windows 11 Pro, Windows 10 S, Windows 10 Home, Windows 10 Pro, Chrome OS",
+    "battery": "71Wh, 4-cell , 71Wh, 4-cell",
+    "body_material": "Aluminum",
+    "dimensions": "317.87 x 222.50 x 16.49 mm (12.51\" x 8.76\" x 0.65\")",
+    "weight": "1.49 kg (3.3 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": null,
+    "ram": "up to 32GB",
+    "os": "macOS, Chrome OS",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "304.1 x 215 x 11.3 mm (11.97\" x 8.46\" x 0.44\")",
+    "weight": "1.24 kg (2.7 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Chrome OS, Windows 10 Home, Windows 10 Pro, No OS, DOS, Windows 11, Linux",
+    "battery": "76Wh",
+    "body_material": "Aluminum",
+    "dimensions": "325.12 x 256.54 x 19.52 – 20.90 mm (12.80\" x 10.10\" x 0.77\")",
+    "weight": "1.90 kg (4.2 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11, Windows 10 Home, Windows 10 Pro, Windows 11 Pro, No OS",
+    "battery": "90Wh, 4-cell, 90Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "360.1 x 279.9 x 25.9 - 27.9 mm (14.18\" x 11.02\" x 1.02\")",
+    "weight": "2.60 kg (5.7 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home, DOS, Windows 10 Home",
+    "battery": "52.5Wh, 39.3Wh, 39.3Wh , 39.3Wh, 3-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum, Carbon",
+    "dimensions": "317.7 x 226.9 x 17.9 mm (12.51\" x 8.93\" x 0.70\")",
+    "weight": "1.32 kg (2.9 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD + up to 4000GB HDD",
+    "storage_type": "2x 2280 PCIe NVMe 4.0 x4 RAIDSee photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, No OS, Windows 11 Pro, Windows 10 Home, Windows 10 Pro, Linux, DOS, Windows 11",
+    "battery": "90Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "400.5 x 294.5 x 27.9 - 28.6 mm (15.77\" x 11.59\" x 1.10\")",
+    "weight": "3.00 kg (6.6 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home, No OS, DOS, Windows 11",
+    "battery": "90Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "404 x 311.6 x 26.9 - 28.9 mm (15.91\" x 12.27\" x 1.06\")",
+    "weight": "3.25 kg (7.2 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 128GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Home, Windows 10 Pro",
+    "battery": "90Wh, 90Wh, 6-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "363.90 x 249.90 x 19.99 - 23.50 mm (14.33\" x 9.84\" x 0.79\")",
+    "weight": "2.60 kg (5.7 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD + up to 4000GB HDD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 10 Home, Windows 11 Pro, Windows 10 Pro, No OS, DOS, Windows 11, Chrome OS",
+    "battery": "80Wh, 60Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "359.7 x 260.3 x 19.9 - 25.2 mm (14.16\" x 10.25\" x 0.78\")",
+    "weight": "2.40 kg (5.3 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Home, Windows 10 Pro, Windows 11 Pro, No OS, DOS, Windows 11",
+    "battery": "97Wh, 6-cell, 97Wh, 6-cell",
+    "body_material": "Aluminum",
+    "dimensions": "356.61 x 268.98 x 19.9 mm (14.04\" x 10.59\" x 0.78\")",
+    "weight": "2.17 kg (4.8 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Windows 10 Pro, Windows 11, Chrome OS",
+    "battery": "84Wh",
+    "body_material": "Aluminum",
+    "dimensions": "362.72 x 253.69 x 17.9 - 18.3 mm (14.28\" x 9.99\" x 0.70\")",
+    "weight": "1.93 kg (4.3 lbs)"
+  },
+  {
+    "storage": "up to 20000GB SSD",
+    "storage_type": "2x 2230 / 2280 M.2 NVMe PCIe 4.0 x4 or + 2x 2230 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Windows 10 Pro, Windows 11",
+    "battery": "97Wh, 97Wh, 6-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "410.30 x 319.90 x 24.10 - 25.10 mm (16.15\" x 12.59\" x 0.95\")",
+    "weight": "4.23 kg (9.3 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 10 Pro, Windows 11 Pro, Windows 10 Home, No OS, Chrome OS, Windows 11",
+    "battery": "80Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "359.7 x 260.5 x 19.9 - 21.9 mm (14.16\" x 10.26\" x 0.78\")",
+    "weight": "2.30 kg (5.1 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro",
+    "battery": "72",
+    "body_material": "Carbon, Magnesium alloy",
+    "dimensions": "310.60 x 210.35 x 7.49 - 18.95 mm (12.23\" x 8.28\" x 0.29\")",
+    "weight": "1.49 kg (3.3 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2242 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro",
+    "battery": null,
+    "body_material": "Aluminum",
+    "dimensions": "325 x 225.15 x 12.9 mm (12.80\" x 8.86\" x 0.51\")",
+    "weight": "1.28 kg (2.8 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2242 / 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Home, Windows 10 Pro, No OS, Windows 11, DOS",
+    "battery": "80Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "363.4 x 261.75 x 21.99 - 26.95 mm (14.31\" x 10.31\" x 0.87\")",
+    "weight": "2.50 kg (5.5 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11, Windows 11 Pro",
+    "battery": "76Wh",
+    "body_material": "Aluminum",
+    "dimensions": "312.42 x 226.06 x 18.9 - 19.9 mm (12.30\" x 8.90\" x 0.74\")",
+    "weight": "1.70 kg (3.7 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "DOS, Windows 11 Pro, Windows 11 Home, Windows 10 Pro, Windows 10 Home",
+    "battery": "57Wh, 4-cell , 57Wh, 4-cell",
+    "body_material": "Aluminum, Carbon",
+    "dimensions": "315.6 x 222.5 x 14.96 - 15.36 mm (12.43\" x 8.76\" x 0.59\")",
+    "weight": "1.12 kg (2.5 lbs)"
+  },
+  {
+    "storage": "up to 16000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4 + 1x 2280 M.2 NVMe PCIe 4.0 x2See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro, No OS",
+    "battery": "90Wh",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "354 x 269 x 17.9 ~ 25.7 mm (13.94\" x 10.59\" x 0.70\")",
+    "weight": "2.20 kg (4.9 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 512GB",
+    "os": "Windows 11 Pro, Windows 10 Home, Windows 11 Home, Windows 11, Windows 10 Pro",
+    "battery": "86Wh, 6-cell, 86Wh",
+    "body_material": "Aluminum, Carbon",
+    "dimensions": "344.72 x 230.14 x 11.65 - 18 mm (13.57\" x 9.06\" x 0.46\")",
+    "weight": "1.92 kg (4.2 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "2x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 96GB",
+    "os": "Windows 11 Home, Windows 10 Home, Windows 10 Pro, Windows 11 Pro, Windows 11, Chrome OS, No OS, DOS",
+    "battery": "80Wh, 80Wh, 4-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "363.4 x 260.35 x 22.45-26.75 mm (14.31\" x 10.25\" x 0.88\")",
+    "weight": "2.55 kg (5.6 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x or 2x 2280 M.2 NVMe PCIe4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro",
+    "battery": "65Wh",
+    "body_material": "Aluminum",
+    "dimensions": "312.9 x 222.11 x 10 - 17.9 mm (12.32\" x 8.74\" x 0.39\")",
+    "weight": "1.32 kg (2.9 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2230 M.2 NVMe PCIe 4.0 x4",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Chrome OS",
+    "battery": "48Wh",
+    "body_material": "Aluminum",
+    "dimensions": "287 x 209 x 9.3 mm (11.30\" x 8.23\" x 0.37\")",
+    "weight": "0.90 kg (2 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Pro",
+    "battery": "57Wh, 57Wh",
+    "body_material": "Aluminum, Carbon, Magnesium alloy",
+    "dimensions": "317.5 x 226.9 x 16.9 mm (12.50\" x 8.93\" x 0.67\")",
+    "weight": "1.21 kg (2.7 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2230 / 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro",
+    "battery": "55Wh",
+    "body_material": "Aluminum",
+    "dimensions": "295.4 x 199.1 x 15.25 - 15.95 mm (11.63\" x 7.84\" x 0.60\")",
+    "weight": "1.23 kg (2.7 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Chrome OS",
+    "battery": "99.5Wh, 6-cell, 99.5Wh",
+    "body_material": "Aluminum",
+    "dimensions": "358.18 x 240.05 x 18.70 mm (14.10\" x 9.45\" x 0.74\")",
+    "weight": "2.13 kg (4.7 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Windows 11, Chrome OS",
+    "battery": "76Wh, 4-cell",
+    "body_material": "Aluminum",
+    "dimensions": "322.79 x 228.12 x 17.9 mm (12.71\" x 8.98\" x 0.70\")",
+    "weight": "1.55 kg (3.4 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home",
+    "battery": "56Wh, 56Wh, 3-cell",
+    "body_material": "Aluminum",
+    "dimensions": "298 x 209 x 12.9 mm (11.73\" x 8.23\" x 0.51\")",
+    "weight": "1.20 kg (2.6 lbs)"
+  },
+  {
+    "storage": "up to 8000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Home, Windows 11 Pro, Windows 10 Pro, Windows 10 Home",
+    "battery": "70Wh, 6-cell, 70Wh, 6-cell",
+    "body_material": "Aluminum",
+    "dimensions": "320 x 215.98 x 6.70 - 18.03 mm (12.60\" x 8.50\" x 0.26\")",
+    "weight": "1.68 kg (3.7 lbs)"
+  },
+  {
+    "storage": "up to 16384GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x2 + 1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 11",
+    "battery": "90Wh",
+    "body_material": "Aluminum",
+    "dimensions": "354.9 x 246.9 x 14.9 - 17.3 mm (13.97\" x 9.72\" x 0.59\")",
+    "weight": "1.85 kg (4.1 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 10 Pro, Windows 11 Home, DOS",
+    "battery": "51Wh, 3-cell, 53.8Wh, 3-cell",
+    "body_material": "Aluminum",
+    "dimensions": "315.6 x 224.3 x 19.2 mm (12.43\" x 8.83\" x 0.76\")",
+    "weight": "1.45 kg (3.2 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4 + 1x 2242 M.2 NVMe PCIe 4.0 x4",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro, No OS, Windows 11",
+    "battery": "84Wh",
+    "body_material": "Aluminum",
+    "dimensions": "356 x 251 x 17.5 mm (14.02\" x 9.88\" x 0.69\")",
+    "weight": "1.91 kg (4.2 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "2x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, No OS, Windows 11 Home, Linux, Windows 11",
+    "battery": "90Wh",
+    "body_material": "Plastic / Polycarbonate",
+    "dimensions": "360.1 x 279.9 x 25.9 - 27.9 mm (14.18\" x 11.02\" x 1.02\")",
+    "weight": "2.65 kg (5.8 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 32GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Pro",
+    "battery": "68Wh, 6-cell, 68Wh, 86Wh, 6-cell",
+    "body_material": "Aluminum, Magnesium alloy",
+    "dimensions": "297.18 x 220.21 x 16.4 mm (11.70\" x 8.67\" x 0.65\")",
+    "weight": "0.99 kg (2.2 lbs)"
+  },
+  {
+    "storage": "up to 4000GB SSD",
+    "storage_type": "1x 2280 M.2 NVMe PCIe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 11 Home, Windows 10 Pro, Windows 10 Home, No OS, DOS",
+    "battery": "53.5Wh, 53.5Wh, 3-cell",
+    "body_material": "Plastic / Polycarbonate, Aluminum",
+    "dimensions": "314.70 x 233.5 x 18.6 - 22.3 mm (12.39\" x 9.19\" x 0.73\")",
+    "weight": "1.60 kg (3.5 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": null,
+    "ram": "up to 32GB",
+    "os": "Windows 11 Home, Windows 11 Pro",
+    "battery": null,
+    "body_material": null,
+    "dimensions": "356.78 x 250.60 x 14.13 - 15.57 mm (14.05\" x 9.87\" x 0.56\")",
+    "weight": "1.87 kg (4.1 lbs)"
+  },
+  {
+    "storage": "up to 2000GB SSD",
+    "storage_type": "1x 2280 PCIe NVMe 4.0 x4See photo",
+    "ram": "up to 64GB",
+    "os": "Windows 11 Pro, Windows 10 Pro",
+    "battery": "51Wh, 3-cell, 38Wh, 3-cell",
+    "body_material": "Aluminum",
+    "dimensions": "315.2 x 224.3 x 19.3 mm (12.41\" x 8.83\" x 0.76\")",
+    "weight": "1.16 kg (2.6 lbs)"
+  }
+]

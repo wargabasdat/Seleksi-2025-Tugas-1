@@ -1,0 +1,1562 @@
+[
+  {
+    "gpu": "Apple M4 Pro (20-core GPU)",
+    "laptop_rank": 1,
+    "laptop_name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)"
+  },
+  {
+    "gpu": "Apple M4 Pro (16-core GPU)",
+    "laptop_rank": 1,
+    "laptop_name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)"
+  },
+  {
+    "gpu": "Apple M4 Max (40-core GPU)",
+    "laptop_rank": 1,
+    "laptop_name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)"
+  },
+  {
+    "gpu": "Apple M4 Max (32-core GPU)",
+    "laptop_rank": 1,
+    "laptop_name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)"
+  },
+  {
+    "gpu": "Apple M4 Pro (20-core GPU)",
+    "laptop_rank": 2,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2024)"
+  },
+  {
+    "gpu": "Apple M4 Max (40-core GPU)",
+    "laptop_rank": 2,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2024)"
+  },
+  {
+    "gpu": "Apple M4 Max (32-core GPU)",
+    "laptop_rank": 2,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2024)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 140V",
+    "laptop_rank": 3,
+    "laptop_name": "Lenovo ThinkPad X9-15 Gen 1"
+  },
+  {
+    "gpu": "Intel Arc Graphics 130V",
+    "laptop_rank": 3,
+    "laptop_name": "Lenovo ThinkPad X9-15 Gen 1"
+  },
+  {
+    "gpu": "NVIDIA RTX 500 Ada Generation (35W)",
+    "laptop_rank": 4,
+    "laptop_name": "Lenovo ThinkPad P16v Gen 2 (Intel)"
+  },
+  {
+    "gpu": "NVIDIA RTX 3000 Ada Generation (50W)",
+    "laptop_rank": 4,
+    "laptop_name": "Lenovo ThinkPad P16v Gen 2 (Intel)"
+  },
+  {
+    "gpu": "NVIDIA RTX 2000 Ada Generation (50W)",
+    "laptop_rank": 4,
+    "laptop_name": "Lenovo ThinkPad P16v Gen 2 (Intel)"
+  },
+  {
+    "gpu": "NVIDIA RTX 1000 Ada Generation (50W)",
+    "laptop_rank": 4,
+    "laptop_name": "Lenovo ThinkPad P16v Gen 2 (Intel)"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 4,
+    "laptop_name": "Lenovo ThinkPad P16v Gen 2 (Intel)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 140V",
+    "laptop_rank": 5,
+    "laptop_name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 130V",
+    "laptop_rank": 5,
+    "laptop_name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 5,
+    "laptop_name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)"
+  },
+  {
+    "gpu": "Apple M3 Pro GPU (18-core)",
+    "laptop_rank": 6,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2023)"
+  },
+  {
+    "gpu": "Apple M3 Pro GPU (14-core)",
+    "laptop_rank": 6,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2023)"
+  },
+  {
+    "gpu": "Apple M3 Max GPU (40-core)",
+    "laptop_rank": 6,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2023)"
+  },
+  {
+    "gpu": "Apple M3 Max GPU (30-core)",
+    "laptop_rank": 6,
+    "laptop_name": "Apple MacBook Pro 16 (Late 2023)"
+  },
+  {
+    "gpu": "NVIDIA RTX 500 Ada Generation (50W)",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "gpu": "Intel Arc (7-Cores)",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "gpu": "AMD Radeon 780M",
+    "laptop_rank": 7,
+    "laptop_name": "Lenovo ThinkPad P14s Gen 5 (Intel)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 (Laptop, 63W, 6GB)",
+    "laptop_rank": 8,
+    "laptop_name": "Lenovo Yoga Pro 7 (14\", 14ARP8)"
+  },
+  {
+    "gpu": "AMD Radeon 680M",
+    "laptop_rank": 8,
+    "laptop_name": "Lenovo Yoga Pro 7 (14\", 14ARP8)"
+  },
+  {
+    "gpu": "AMD Radeon 660M",
+    "laptop_rank": 8,
+    "laptop_name": "Lenovo Yoga Pro 7 (14\", 14ARP8)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5080 (Laptop)",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 Ti (Laptop)",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 (Laptop)",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5060 (Laptop)",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5050 (Laptop)",
+    "laptop_rank": 9,
+    "laptop_name": "ASUS ROG Strix G16 G615"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5090 (Laptop)",
+    "laptop_rank": 10,
+    "laptop_name": "Lenovo Legion Pro 7i (16\", Gen 10)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5080 (Laptop)",
+    "laptop_rank": 10,
+    "laptop_name": "Lenovo Legion Pro 7i (16\", Gen 10)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 Ti (Laptop)",
+    "laptop_rank": 10,
+    "laptop_name": "Lenovo Legion Pro 7i (16\", Gen 10)"
+  },
+  {
+    "gpu": "Intel Arc 140T",
+    "laptop_rank": 11,
+    "laptop_name": "ASUS Zenbook DUO (UX8406)"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 11,
+    "laptop_name": "ASUS Zenbook DUO (UX8406)"
+  },
+  {
+    "gpu": "Intel Arc (7-Cores)",
+    "laptop_rank": 11,
+    "laptop_name": "ASUS Zenbook DUO (UX8406)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 140V",
+    "laptop_rank": 12,
+    "laptop_name": "HP OmniBook Ultra Flip (14-fh0000)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 130V",
+    "laptop_rank": 12,
+    "laptop_name": "HP OmniBook Ultra Flip (14-fh0000)"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 12,
+    "laptop_name": "HP OmniBook Ultra Flip (14-fh0000)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 140V",
+    "laptop_rank": 13,
+    "laptop_name": "Acer Swift 16 AI (SF16-51 / SF16-51T)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 130V",
+    "laptop_rank": 13,
+    "laptop_name": "Acer Swift 16 AI (SF16-51 / SF16-51T)"
+  },
+  {
+    "gpu": "Intel Graphics (4-Cores)",
+    "laptop_rank": 14,
+    "laptop_name": "HP EliteBook 1040 G11"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 14,
+    "laptop_name": "HP EliteBook 1040 G11"
+  },
+  {
+    "gpu": "Intel Arc (7-Cores)",
+    "laptop_rank": 14,
+    "laptop_name": "HP EliteBook 1040 G11"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5090 (Laptop)",
+    "laptop_rank": 15,
+    "laptop_name": "ASUS ROG Strix SCAR 18 G835"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5080 (Laptop)",
+    "laptop_rank": 15,
+    "laptop_name": "ASUS ROG Strix SCAR 18 G835"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 Ti (Laptop)",
+    "laptop_rank": 15,
+    "laptop_name": "ASUS ROG Strix SCAR 18 G835"
+  },
+  {
+    "gpu": "Apple M3 GPU (10-core)",
+    "laptop_rank": 16,
+    "laptop_name": "Apple MacBook Air 15 (Early 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5080 (Laptop)",
+    "laptop_rank": 17,
+    "laptop_name": "ASUS ROG Strix G18 G815"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 Ti (Laptop)",
+    "laptop_rank": 17,
+    "laptop_name": "ASUS ROG Strix G18 G815"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 (Laptop)",
+    "laptop_rank": 17,
+    "laptop_name": "ASUS ROG Strix G18 G815"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5060 (Laptop)",
+    "laptop_rank": 17,
+    "laptop_name": "ASUS ROG Strix G18 G815"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5050 (Laptop)",
+    "laptop_rank": 17,
+    "laptop_name": "ASUS ROG Strix G18 G815"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 18,
+    "laptop_name": "HP EliteBook 840 G10"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 110W)",
+    "laptop_rank": 19,
+    "laptop_name": "Acer Predator Triton Neo 16 (PTN16-51)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop)",
+    "laptop_rank": 19,
+    "laptop_name": "Acer Predator Triton Neo 16 (PTN16-51)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop)",
+    "laptop_rank": 19,
+    "laptop_name": "Acer Predator Triton Neo 16 (PTN16-51)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop, 175W)",
+    "laptop_rank": 20,
+    "laptop_name": "Lenovo Legion Pro 7i (16\", Gen 9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 20,
+    "laptop_name": "Lenovo Legion Pro 7i (16\", Gen 9)"
+  },
+  {
+    "gpu": "Apple M3 GPU (8-core)",
+    "laptop_rank": 21,
+    "laptop_name": "Apple MacBook Air 13 (Early 2024)"
+  },
+  {
+    "gpu": "Apple M3 GPU (10-core)",
+    "laptop_rank": 21,
+    "laptop_name": "Apple MacBook Air 13 (Early 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop, 125W)",
+    "laptop_rank": 22,
+    "laptop_name": "ASUS ROG Zephyrus G14 (GA402, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 125W)",
+    "laptop_rank": 22,
+    "laptop_name": "ASUS ROG Zephyrus G14 (GA402, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 125W)",
+    "laptop_rank": 22,
+    "laptop_name": "ASUS ROG Zephyrus G14 (GA402, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 120W)",
+    "laptop_rank": 22,
+    "laptop_name": "ASUS ROG Zephyrus G14 (GA402, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 (Laptop, 95W)",
+    "laptop_rank": 22,
+    "laptop_name": "ASUS ROG Zephyrus G14 (GA402, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 125W)",
+    "laptop_rank": 22,
+    "laptop_name": "ASUS ROG Zephyrus G14 (GA402, 2023)"
+  },
+  {
+    "gpu": "Intel Graphics (4-Cores)",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "gpu": "Intel Arc 140T",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "gpu": "Intel Arc 130T",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "gpu": "Intel Arc (7-Cores)",
+    "laptop_rank": 23,
+    "laptop_name": "ASUS Zenbook 14 OLED (UX3405)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 24,
+    "laptop_name": "Acer Predator Helios 16 (PH16-71)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 24,
+    "laptop_name": "Acer Predator Helios 16 (PH16-71)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 24,
+    "laptop_name": "Acer Predator Helios 16 (PH16-71)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 24,
+    "laptop_name": "Acer Predator Helios 16 (PH16-71)"
+  },
+  {
+    "gpu": "AMD Radeon 8060S Graphics",
+    "laptop_rank": 25,
+    "laptop_name": "ASUS ROG Flow Z13 GZ302"
+  },
+  {
+    "gpu": "AMD Radeon 8050S Graphics",
+    "laptop_rank": 25,
+    "laptop_name": "ASUS ROG Flow Z13 GZ302"
+  },
+  {
+    "gpu": "Intel Arc Graphics 140V",
+    "laptop_rank": 26,
+    "laptop_name": "Lenovo Yoga Slim 7 Aura Edition (15ILL9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5080 (Laptop)",
+    "laptop_rank": 27,
+    "laptop_name": "MSI Vector 16 HX AI (A2XWx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 Ti (Laptop)",
+    "laptop_rank": 27,
+    "laptop_name": "MSI Vector 16 HX AI (A2XWx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 (Laptop)",
+    "laptop_rank": 27,
+    "laptop_name": "MSI Vector 16 HX AI (A2XWx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 28,
+    "laptop_name": "Acer Predator Helios 16 (PH16-72)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 28,
+    "laptop_name": "Acer Predator Helios 16 (PH16-72)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 28,
+    "laptop_name": "Acer Predator Helios 16 (PH16-72)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 140V",
+    "laptop_rank": 29,
+    "laptop_name": "Lenovo ThinkPad X9-14 Gen 1"
+  },
+  {
+    "gpu": "Intel Arc Graphics 130V",
+    "laptop_rank": 29,
+    "laptop_name": "Lenovo ThinkPad X9-14 Gen 1"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5090 (Laptop)",
+    "laptop_rank": 30,
+    "laptop_name": "MSI Titan 18 HX AI (A2XWx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5080 (Laptop)",
+    "laptop_rank": 30,
+    "laptop_name": "MSI Titan 18 HX AI (A2XWx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 31,
+    "laptop_name": "ASUS ROG Strix G18 (G814, 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 31,
+    "laptop_name": "ASUS ROG Strix G18 (G814, 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 31,
+    "laptop_name": "ASUS ROG Strix G18 (G814, 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 32,
+    "laptop_name": "MSI Pulse 15 (B13Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 32,
+    "laptop_name": "MSI Pulse 15 (B13Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 33,
+    "laptop_name": "Acer Nitro 17 (AN17-41)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 33,
+    "laptop_name": "Acer Nitro 17 (AN17-41)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 33,
+    "laptop_name": "Acer Nitro 17 (AN17-41)"
+  },
+  {
+    "gpu": "AMD Radeon RX Vega 8 (R4000/5000, 15W)",
+    "laptop_rank": 34,
+    "laptop_name": "ASUS Zenbook 14 UM3402 (Ryzen 7000 Series)"
+  },
+  {
+    "gpu": "AMD Radeon RX Vega 7 (R4000/5000, 15W)",
+    "laptop_rank": 34,
+    "laptop_name": "ASUS Zenbook 14 UM3402 (Ryzen 7000 Series)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 105W)",
+    "laptop_rank": 35,
+    "laptop_name": "MSI Stealth 16 AI Studio (A1Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 105W)",
+    "laptop_rank": 35,
+    "laptop_name": "MSI Stealth 16 AI Studio (A1Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 105W)",
+    "laptop_rank": 35,
+    "laptop_name": "MSI Stealth 16 AI Studio (A1Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop, 105W)",
+    "laptop_rank": 35,
+    "laptop_name": "MSI Stealth 16 AI Studio (A1Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 2050 (Laptop)",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 (Laptop)",
+    "laptop_rank": 36,
+    "laptop_name": "ASUS TUF Gaming A17 (FA707, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop, 175W)",
+    "laptop_rank": 37,
+    "laptop_name": "Alienware x16 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 37,
+    "laptop_name": "Alienware x16 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 37,
+    "laptop_name": "Alienware x16 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 37,
+    "laptop_name": "Alienware x16 R2"
+  },
+  {
+    "gpu": "NVIDIA T600",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "gpu": "NVIDIA T1200",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "gpu": "NVIDIA RTX A2000 (Laptop)",
+    "laptop_rank": 38,
+    "laptop_name": "Lenovo ThinkPad P15v Gen 3 (Intel)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 39,
+    "laptop_name": "Acer Predator Helios Neo 16 (PHN16-72)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 39,
+    "laptop_name": "Acer Predator Helios Neo 16 (PHN16-72)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop)",
+    "laptop_rank": 39,
+    "laptop_name": "Acer Predator Helios Neo 16 (PHN16-72)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5090 (Laptop)",
+    "laptop_rank": 40,
+    "laptop_name": "MSI Raider A18 HX (A9Wx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5080 (Laptop)",
+    "laptop_rank": 40,
+    "laptop_name": "MSI Raider A18 HX (A9Wx)"
+  },
+  {
+    "gpu": "AMD Radeon 890M",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "gpu": "AMD Radeon 880M",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "gpu": "AMD Radeon 860M",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "gpu": "AMD Radeon 840M",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "gpu": "AMD Radeon 780M",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "gpu": "AMD Radeon 660M",
+    "laptop_rank": 41,
+    "laptop_name": "ASUS Vivobook S 14 OLED (M5406)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 115W)",
+    "laptop_rank": 42,
+    "laptop_name": "MSI Sword 16 HX (B13Vx / B14Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 115W)",
+    "laptop_rank": 42,
+    "laptop_name": "MSI Sword 16 HX (B13Vx / B14Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 115W)",
+    "laptop_rank": 42,
+    "laptop_name": "MSI Sword 16 HX (B13Vx / B14Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 (Laptop)",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5060 (Laptop)",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 100W)",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 100W)",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5050 (Laptop)",
+    "laptop_rank": 43,
+    "laptop_name": "ASUS TUF Gaming A14 FA401"
+  },
+  {
+    "gpu": "AMD Radeon 880M",
+    "laptop_rank": 44,
+    "laptop_name": "MSI Summit A16 AI+ (A3HMx)"
+  },
+  {
+    "gpu": "AMD Radeon 860M",
+    "laptop_rank": 45,
+    "laptop_name": "ASUS Zenbook 14 OLED (UM3406)"
+  },
+  {
+    "gpu": "AMD Radeon 840M",
+    "laptop_rank": 45,
+    "laptop_name": "ASUS Zenbook 14 OLED (UM3406)"
+  },
+  {
+    "gpu": "AMD Radeon 780M",
+    "laptop_rank": 45,
+    "laptop_name": "ASUS Zenbook 14 OLED (UM3406)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop, 175W)",
+    "laptop_rank": 46,
+    "laptop_name": "ASUS ROG Strix SCAR 17 G733 (2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 46,
+    "laptop_name": "ASUS ROG Strix SCAR 17 G733 (2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 47,
+    "laptop_name": "Acer Nitro 17 (AN17-71)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 47,
+    "laptop_name": "Acer Nitro 17 (AN17-71)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 48,
+    "laptop_name": "HP EliteBook x360 1040 G10"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 48,
+    "laptop_name": "HP EliteBook x360 1040 G10"
+  },
+  {
+    "gpu": "Intel UHD Graphics Xe G4 (48EU)",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "gpu": "Intel UHD Graphics Xe 750 (32EU)",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "gpu": "NVIDIA RTX A5500 (Laptop)",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "gpu": "NVIDIA RTX A4500 (Laptop)",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "gpu": "NVIDIA RTX A3000 (Laptop)",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "gpu": "NVIDIA RTX A2000 (Laptop)",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "gpu": "NVIDIA RTX A1000 (Laptop)",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "gpu": "Intel Arc Pro A30M Graphics",
+    "laptop_rank": 49,
+    "laptop_name": "Lenovo ThinkPad P16 Gen 1"
+  },
+  {
+    "gpu": "Apple M4 (10-core GPU)",
+    "laptop_rank": 50,
+    "laptop_name": "Apple MacBook Air 15 (Early 2025)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 51,
+    "laptop_name": "HP Elite Dragonfly G3"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 51,
+    "laptop_name": "HP Elite Dragonfly G3"
+  },
+  {
+    "gpu": "NVIDIA RTX A4500 (Laptop, 135W)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "NVIDIA RTX A3000 (Laptop, 135W)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "NVIDIA RTX A1000 (Laptop, 95W)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "Intel UHD Graphics Xe 750 (32EU)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "NVIDIA RTX A5500 (Laptop, 135W)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "NVIDIA RTX A4500 (Laptop)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "NVIDIA RTX A2000 (Laptop, 95W)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "NVIDIA RTX A2000 (Laptop)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3080 Ti (Laptop, 135W)",
+    "laptop_rank": 52,
+    "laptop_name": "Dell Precision 16 7670"
+  },
+  {
+    "gpu": "Intel UHD Graphics (Alder Lake, 64EU)",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 53,
+    "laptop_name": "Lenovo ThinkPad X13 Gen 3 (Intel)"
+  },
+  {
+    "gpu": "Qualcomm Snapdragon X Elite Adreno GPU",
+    "laptop_rank": 54,
+    "laptop_name": "Dell Latitude 14 7455"
+  },
+  {
+    "gpu": "AMD Radeon 780M",
+    "laptop_rank": 55,
+    "laptop_name": "HP Pavilion Aero 13 (13z-bg0000)"
+  },
+  {
+    "gpu": "AMD Radeon 760M",
+    "laptop_rank": 55,
+    "laptop_name": "HP Pavilion Aero 13 (13z-bg0000)"
+  },
+  {
+    "gpu": "NVIDIA RTX 2000 Ada Generation (95W)",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "gpu": "NVIDIA RTX A1000 (Laptop)",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "gpu": "NVIDIA RTX 5000 Ada Generation (Laptop)",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "gpu": "NVIDIA RTX 4000 Ada Generation (Laptop)",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "gpu": "NVIDIA RTX 3500 Ada Generation (Laptop)",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "gpu": "NVIDIA RTX 2000 Ada Generation (Laptop)",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "gpu": "NVIDIA RTX 1000 Ada Generation",
+    "laptop_rank": 56,
+    "laptop_name": "Dell Precision 16 5690"
+  },
+  {
+    "gpu": "Apple M2 GPU (8-core)",
+    "laptop_rank": 57,
+    "laptop_name": "Apple MacBook Air 13 (2022)"
+  },
+  {
+    "gpu": "Apple M2 GPU (10-core)",
+    "laptop_rank": 57,
+    "laptop_name": "Apple MacBook Air 13 (2022)"
+  },
+  {
+    "gpu": "Apple M1 GPU (8-core)",
+    "laptop_rank": 57,
+    "laptop_name": "Apple MacBook Air 13 (2022)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 58,
+    "laptop_name": "ASUS ROG Strix G17 G713P (2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 58,
+    "laptop_name": "ASUS ROG Strix G17 G713P (2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 58,
+    "laptop_name": "ASUS ROG Strix G17 G713P (2023)"
+  },
+  {
+    "gpu": "Intel Graphics (4-Cores)",
+    "laptop_rank": 59,
+    "laptop_name": "Dell Latitude 14 9450 (2-in-1)"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 59,
+    "laptop_name": "Dell Latitude 14 9450 (2-in-1)"
+  },
+  {
+    "gpu": "Intel UHD Graphics 770",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "gpu": "NVIDIA RTX A1000 (Laptop)",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "gpu": "NVIDIA RTX 4000 Ada Generation (Laptop)",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "gpu": "NVIDIA RTX 3500 Ada Generation (Laptop)",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "gpu": "NVIDIA RTX 2000 Ada Generation (Laptop)",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop)",
+    "laptop_rank": 60,
+    "laptop_name": "Dell Precision 16 7680"
+  },
+  {
+    "gpu": "Intel Graphics (4-Cores)",
+    "laptop_rank": 61,
+    "laptop_name": "Lenovo ThinkPad X13 2-in-1 Gen 5"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 62,
+    "laptop_name": "Acer Nitro 17 (AN17-42)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 62,
+    "laptop_name": "Acer Nitro 17 (AN17-42)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 62,
+    "laptop_name": "Acer Nitro 17 (AN17-42)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop, 175W)",
+    "laptop_rank": 63,
+    "laptop_name": "Lenovo Legion Pro 7i (16\" Intel, Gen 8)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 63,
+    "laptop_name": "Lenovo Legion Pro 7i (16\" Intel, Gen 8)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 63,
+    "laptop_name": "Lenovo Legion Pro 7i (16\" Intel, Gen 8)"
+  },
+  {
+    "gpu": "Intel UHD Graphics (Alder Lake, 64EU)",
+    "laptop_rank": 64,
+    "laptop_name": "Lenovo Yoga 7i (14\", 2023)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 64,
+    "laptop_name": "Lenovo Yoga 7i (14\", 2023)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 64,
+    "laptop_name": "Lenovo Yoga 7i (14\", 2023)"
+  },
+  {
+    "gpu": "Apple M4 (8-core GPU)",
+    "laptop_rank": 65,
+    "laptop_name": "Apple MacBook Air 13 (Early 2025)"
+  },
+  {
+    "gpu": "Apple M4 (10-core GPU)",
+    "laptop_rank": 65,
+    "laptop_name": "Apple MacBook Air 13 (Early 2025)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 125W)",
+    "laptop_rank": 66,
+    "laptop_name": "Acer Predator Helios Neo 14 (PHN14-51)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 120W)",
+    "laptop_rank": 66,
+    "laptop_name": "Acer Predator Helios Neo 14 (PHN14-51)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop)",
+    "laptop_rank": 66,
+    "laptop_name": "Acer Predator Helios Neo 14 (PHN14-51)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 67,
+    "laptop_name": "Acer Nitro 16 (AN16-51)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 67,
+    "laptop_name": "Acer Nitro 16 (AN16-51)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 68,
+    "laptop_name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3070 Ti (Laptop, 150W)",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3060 (Laptop, 130W)",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 Ti (Laptop, 95W)",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 (Laptop, 95W)",
+    "laptop_rank": 69,
+    "laptop_name": "Acer Nitro 5 (AN517-55)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop, 175W)",
+    "laptop_rank": 70,
+    "laptop_name": "Acer Predator Helios 18 (PH18-72)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 70,
+    "laptop_name": "Acer Predator Helios 18 (PH18-72)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 71,
+    "laptop_name": "Alienware m16 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 71,
+    "laptop_name": "Alienware m16 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 71,
+    "laptop_name": "Alienware m16 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 100W)",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 (Laptop, 95W, 6GB)",
+    "laptop_rank": 72,
+    "laptop_name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 73,
+    "laptop_name": "HP OMEN Transcend 16 (16t-u1000, 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 130W)",
+    "laptop_rank": 73,
+    "laptop_name": "HP OMEN Transcend 16 (16t-u1000, 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 130W)",
+    "laptop_rank": 73,
+    "laptop_name": "HP OMEN Transcend 16 (16t-u1000, 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 95W)",
+    "laptop_rank": 73,
+    "laptop_name": "HP OMEN Transcend 16 (16t-u1000, 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop)",
+    "laptop_rank": 73,
+    "laptop_name": "HP OMEN Transcend 16 (16t-u1000, 2024)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 100W)",
+    "laptop_rank": 74,
+    "laptop_name": "Lenovo Yoga Pro 9 (16IMH9, Discrete)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 100W)",
+    "laptop_rank": 74,
+    "laptop_name": "Lenovo Yoga Pro 9 (16IMH9, Discrete)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 100W)",
+    "laptop_rank": 74,
+    "laptop_name": "Lenovo Yoga Pro 9 (16IMH9, Discrete)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop, 175W)",
+    "laptop_rank": 75,
+    "laptop_name": "Alienware m18 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4080 (Laptop, 175W)",
+    "laptop_rank": 75,
+    "laptop_name": "Alienware m18 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 75,
+    "laptop_name": "Alienware m18 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 75,
+    "laptop_name": "Alienware m18 R2"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 76,
+    "laptop_name": "Lenovo Legion Slim 5 (16\", Gen 9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 76,
+    "laptop_name": "Lenovo Legion Slim 5 (16\", Gen 9)"
+  },
+  {
+    "gpu": "NVIDIA RTX 3000 Ada Generation (50W)",
+    "laptop_rank": 77,
+    "laptop_name": "Dell Precision 14 5490"
+  },
+  {
+    "gpu": "NVIDIA RTX 2000 Ada Generation (50W)",
+    "laptop_rank": 77,
+    "laptop_name": "Dell Precision 14 5490"
+  },
+  {
+    "gpu": "NVIDIA RTX 1000 Ada Generation",
+    "laptop_rank": 77,
+    "laptop_name": "Dell Precision 14 5490"
+  },
+  {
+    "gpu": "Qualcomm Snapdragon X Elite Adreno GPU",
+    "laptop_rank": 78,
+    "laptop_name": "Lenovo Yoga Slim 7 (14Q8X9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4090 (Laptop)",
+    "laptop_rank": 79,
+    "laptop_name": "Lenovo Legion Pro 5i (16\", Gen 9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 105W)",
+    "laptop_rank": 80,
+    "laptop_name": "Acer Predator Triton 14 (PT14-51)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 105W)",
+    "laptop_rank": 80,
+    "laptop_name": "Acer Predator Triton 14 (PT14-51)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 81,
+    "laptop_name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 82,
+    "laptop_name": "ASUS TUF Gaming A16 FA608"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 82,
+    "laptop_name": "ASUS TUF Gaming A16 FA608"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 50W)",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 50W)",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 50W)",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "gpu": "Intel UHD Graphics (Alder Lake, 64EU)",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "gpu": "Intel Arc A370M",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop)",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop)",
+    "laptop_rank": 83,
+    "laptop_name": "Dell XPS 15 9530"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 84,
+    "laptop_name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 84,
+    "laptop_name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 140W)",
+    "laptop_rank": 84,
+    "laptop_name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)"
+  },
+  {
+    "gpu": "AMD Radeon 890M",
+    "laptop_rank": 85,
+    "laptop_name": "Acer Swift 14 AI (SF14-61 / SF14-61T)"
+  },
+  {
+    "gpu": "AMD Radeon 880M",
+    "laptop_rank": 85,
+    "laptop_name": "Acer Swift 14 AI (SF14-61 / SF14-61T)"
+  },
+  {
+    "gpu": "Qualcomm Snapdragon X Elite Adreno GPU",
+    "laptop_rank": 86,
+    "laptop_name": "Microsoft Surface Pro 11"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 87,
+    "laptop_name": "Lenovo ThinkPad T14s Gen 3 (Intel)"
+  },
+  {
+    "gpu": "Qualcomm Snapdragon X Elite Adreno GPU",
+    "laptop_rank": 88,
+    "laptop_name": "Dell XPS 13 9345"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 50W)",
+    "laptop_rank": 89,
+    "laptop_name": "Dell XPS 16 9640 (NVIDIA RTX 4050, 4060)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 50W)",
+    "laptop_rank": 89,
+    "laptop_name": "Dell XPS 16 9640 (NVIDIA RTX 4050, 4060)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 (Laptop, 50W, 6GB)",
+    "laptop_rank": 90,
+    "laptop_name": "Acer Swift X (SFX14-71G)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 90,
+    "laptop_name": "Acer Swift X (SFX14-71G)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop)",
+    "laptop_rank": 90,
+    "laptop_name": "Acer Swift X (SFX14-71G)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 91,
+    "laptop_name": "Lenovo ThinkBook 13x Gen 2"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 91,
+    "laptop_name": "Lenovo ThinkBook 13x Gen 2"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 92,
+    "laptop_name": "Dell XPS 14 9440"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop)",
+    "laptop_rank": 92,
+    "laptop_name": "Dell XPS 14 9440"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5070 (Laptop)",
+    "laptop_rank": 93,
+    "laptop_name": "ASUS ProArt P16 (H7606)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 5060 (Laptop)",
+    "laptop_rank": 93,
+    "laptop_name": "ASUS ProArt P16 (H7606)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 105W)",
+    "laptop_rank": 93,
+    "laptop_name": "ASUS ProArt P16 (H7606)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 105W)",
+    "laptop_rank": 93,
+    "laptop_name": "ASUS ProArt P16 (H7606)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop)",
+    "laptop_rank": 93,
+    "laptop_name": "ASUS ProArt P16 (H7606)"
+  },
+  {
+    "gpu": "NVIDIA T550",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "gpu": "NVIDIA RTX A500 (Laptop, 30W)",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "gpu": "AMD Radeon 780M",
+    "laptop_rank": 94,
+    "laptop_name": "HP ZBook Firefly 14 G10"
+  },
+  {
+    "gpu": "Intel Arc (8-Cores)",
+    "laptop_rank": 95,
+    "laptop_name": "Lenovo IdeaPad Pro 5 (16IMH9)"
+  },
+  {
+    "gpu": "Intel Arc (7-Cores)",
+    "laptop_rank": 95,
+    "laptop_name": "Lenovo IdeaPad Pro 5 (16IMH9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop)",
+    "laptop_rank": 95,
+    "laptop_name": "Lenovo IdeaPad Pro 5 (16IMH9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 (Laptop)",
+    "laptop_rank": 95,
+    "laptop_name": "Lenovo IdeaPad Pro 5 (16IMH9)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4070 (Laptop, 140W)",
+    "laptop_rank": 96,
+    "laptop_name": "Acer Nitro 16 (AN16-42)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 140W)",
+    "laptop_rank": 96,
+    "laptop_name": "Acer Nitro 16 (AN16-42)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 97,
+    "laptop_name": "HP Elite Dragonfly G4"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 97,
+    "laptop_name": "HP Elite Dragonfly G4"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4060 (Laptop, 45W)",
+    "laptop_rank": 98,
+    "laptop_name": "MSI Cyborg 14 (A13Ux / A13Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 4050 (Laptop, 45W)",
+    "laptop_rank": 98,
+    "laptop_name": "MSI Cyborg 14 (A13Ux / A13Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 3050 (Laptop, 45W)",
+    "laptop_rank": 98,
+    "laptop_name": "MSI Cyborg 14 (A13Ux / A13Vx)"
+  },
+  {
+    "gpu": "NVIDIA GeForce RTX 2050 (Laptop, 45W)",
+    "laptop_rank": 98,
+    "laptop_name": "MSI Cyborg 14 (A13Ux / A13Vx)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 140V",
+    "laptop_rank": 99,
+    "laptop_name": "Dell 16 Plus (DB16250)"
+  },
+  {
+    "gpu": "Intel Arc Graphics 130V",
+    "laptop_rank": 99,
+    "laptop_name": "Dell 16 Plus (DB16250)"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (96EU)",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  },
+  {
+    "gpu": "Intel Iris Xe Graphics G7 (80EU)",
+    "laptop_rank": 100,
+    "laptop_name": "HP EliteBook 1040 G9"
+  }
+]

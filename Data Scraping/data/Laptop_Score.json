@@ -1,0 +1,1002 @@
+[
+  {
+    "rank": 1,
+    "name": "Apple MacBook Pro 14 (M4 Pro / M4 Max, Late 2024)",
+    "color_score": "8.6/10",
+    "max_brightness_score": "7.7/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "7.2/10",
+    "total_score": "8.44/10"
+  },
+  {
+    "rank": 2,
+    "name": "Apple MacBook Pro 16 (Late 2024)",
+    "color_score": "8.1/10",
+    "max_brightness_score": "7.7/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "7.2/10",
+    "total_score": "8.36/10"
+  },
+  {
+    "rank": 3,
+    "name": "Lenovo ThinkPad X9-15 Gen 1",
+    "color_score": "8.3/10",
+    "max_brightness_score": "7.1/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "7.1/10",
+    "total_score": "8.18/10"
+  },
+  {
+    "rank": 4,
+    "name": "Lenovo ThinkPad P16v Gen 2 (Intel)",
+    "color_score": "9.6/10",
+    "max_brightness_score": "6.7/10",
+    "contrast_score": "6.4/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "7.5/10",
+    "total_score": "8.06/10"
+  },
+  {
+    "rank": 5,
+    "name": "Lenovo Yoga 7i 2-in-1 (14\", Gen 10)",
+    "color_score": "8.4/10",
+    "max_brightness_score": "7.0/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "6.2/10",
+    "total_score": "7.98/10"
+  },
+  {
+    "rank": 6,
+    "name": "Apple MacBook Pro 16 (Late 2023)",
+    "color_score": "8.6/10",
+    "max_brightness_score": "7.7/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.2/10",
+    "total_score": "7.87/10"
+  },
+  {
+    "rank": 7,
+    "name": "Lenovo ThinkPad P14s Gen 5 (Intel)",
+    "color_score": "9.6/10",
+    "max_brightness_score": "5.5/10",
+    "contrast_score": "5.2/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.84/10"
+  },
+  {
+    "rank": 8,
+    "name": "Lenovo Yoga Pro 7 (14\", 14ARP8)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "5.7/10",
+    "contrast_score": "5.5/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "7.81/10"
+  },
+  {
+    "rank": 9,
+    "name": "ASUS ROG Strix G16 G615",
+    "color_score": "9.0/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.4/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.9/10",
+    "total_score": "7.74/10"
+  },
+  {
+    "rank": 10,
+    "name": "Lenovo Legion Pro 7i (16\", Gen 10)",
+    "color_score": "8.6/10",
+    "max_brightness_score": "7.1/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "6.0/10",
+    "total_score": "7.74/10"
+  },
+  {
+    "rank": 11,
+    "name": "ASUS Zenbook DUO (UX8406)",
+    "color_score": "8.4/10",
+    "max_brightness_score": "6.1/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.7/10",
+    "total_score": "7.73/10"
+  },
+  {
+    "rank": 12,
+    "name": "HP OmniBook Ultra Flip (14-fh0000)",
+    "color_score": "8.4/10",
+    "max_brightness_score": "6.1/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.6/10",
+    "total_score": "7.68/10"
+  },
+  {
+    "rank": 13,
+    "name": "Acer Swift 16 AI (SF16-51 / SF16-51T)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "6.1/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.5/10",
+    "total_score": "7.64/10"
+  },
+  {
+    "rank": 14,
+    "name": "HP EliteBook 1040 G11",
+    "color_score": "8.1/10",
+    "max_brightness_score": "6.2/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.6/10",
+    "total_score": "7.64/10"
+  },
+  {
+    "rank": 15,
+    "name": "ASUS ROG Strix SCAR 18 G835",
+    "color_score": "8.6/10",
+    "max_brightness_score": "7.5/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.8/10",
+    "total_score": "7.58/10"
+  },
+  {
+    "rank": 16,
+    "name": "Apple MacBook Air 15 (Early 2024)",
+    "color_score": "7.9/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.5/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "7.55/10"
+  },
+  {
+    "rank": 17,
+    "name": "ASUS ROG Strix G18 G815",
+    "color_score": "8.6/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.6/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "8.9/10",
+    "total_score": "7.55/10"
+  },
+  {
+    "rank": 18,
+    "name": "HP EliteBook 840 G10",
+    "color_score": "8.6/10",
+    "max_brightness_score": "6.1/10",
+    "contrast_score": "5.1/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "7.8/10",
+    "total_score": "7.54/10"
+  },
+  {
+    "rank": 19,
+    "name": "Acer Predator Triton Neo 16 (PTN16-51)",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.6/10",
+    "contrast_score": "5.1/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "7.6/10",
+    "total_score": "7.53/10"
+  },
+  {
+    "rank": 20,
+    "name": "Lenovo Legion Pro 7i (16\", Gen 9)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.4/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.50/10"
+  },
+  {
+    "rank": 21,
+    "name": "Apple MacBook Air 13 (Early 2024)",
+    "color_score": "7.8/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.4/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "7.8/10",
+    "total_score": "7.48/10"
+  },
+  {
+    "rank": 22,
+    "name": "ASUS ROG Zephyrus G14 (GA402, 2023)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.0/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "7.8/10",
+    "total_score": "7.48/10"
+  },
+  {
+    "rank": 23,
+    "name": "ASUS Zenbook 14 OLED (UX3405)",
+    "color_score": "7.9/10",
+    "max_brightness_score": "5.5/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.4/10",
+    "total_score": "7.48/10"
+  },
+  {
+    "rank": 24,
+    "name": "Acer Predator Helios 16 (PH16-71)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "5.1/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.46/10"
+  },
+  {
+    "rank": 25,
+    "name": "ASUS ROG Flow Z13 GZ302",
+    "color_score": "8.6/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "5.3/10",
+    "dci_p3_score": "8.9/10",
+    "eye_safety_score": "7.8/10",
+    "total_score": "7.45/10"
+  },
+  {
+    "rank": 26,
+    "name": "Lenovo Yoga Slim 7 Aura Edition (15ILL9)",
+    "color_score": "9.8/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "5.7/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "6.6/10",
+    "total_score": "7.43/10"
+  },
+  {
+    "rank": 27,
+    "name": "MSI Vector 16 HX AI (A2XWx)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "4.9/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.42/10"
+  },
+  {
+    "rank": 28,
+    "name": "Acer Predator Helios 16 (PH16-72)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "4.9/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "7.42/10"
+  },
+  {
+    "rank": 29,
+    "name": "Lenovo ThinkPad X9-14 Gen 1",
+    "color_score": "7.9/10",
+    "max_brightness_score": "6.2/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "6.4/10",
+    "total_score": "7.42/10"
+  },
+  {
+    "rank": 30,
+    "name": "MSI Titan 18 HX AI (A2XWx)",
+    "color_score": "8.6/10",
+    "max_brightness_score": "7.2/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "3.9/10",
+    "total_score": "7.42/10"
+  },
+  {
+    "rank": 31,
+    "name": "ASUS ROG Strix G18 (G814, 2024)",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "5.4/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "7.40/10"
+  },
+  {
+    "rank": 32,
+    "name": "MSI Pulse 15 (B13Vx)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "5.0/10",
+    "contrast_score": "5.1/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.38/10"
+  },
+  {
+    "rank": 33,
+    "name": "Acer Nitro 17 (AN17-41)",
+    "color_score": "9.6/10",
+    "max_brightness_score": "5.3/10",
+    "contrast_score": "5.0/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "7.36/10"
+  },
+  {
+    "rank": 34,
+    "name": "ASUS Zenbook 14 UM3402 (Ryzen 7000 Series)",
+    "color_score": "9.4/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "5.8/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "7.34/10"
+  },
+  {
+    "rank": 35,
+    "name": "MSI Stealth 16 AI Studio (A1Vx)",
+    "color_score": "9.4/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "4.9/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "7.6/10",
+    "total_score": "7.33/10"
+  },
+  {
+    "rank": 36,
+    "name": "ASUS TUF Gaming A17 (FA707, 2023)",
+    "color_score": "9.4/10",
+    "max_brightness_score": "5.3/10",
+    "contrast_score": "4.7/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.32/10"
+  },
+  {
+    "rank": 37,
+    "name": "Alienware x16 R2",
+    "color_score": "9.6/10",
+    "max_brightness_score": "5.2/10",
+    "contrast_score": "4.8/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "7.6/10",
+    "total_score": "7.31/10"
+  },
+  {
+    "rank": 38,
+    "name": "Lenovo ThinkPad P15v Gen 3 (Intel)",
+    "color_score": "6.6/10",
+    "max_brightness_score": "6.2/10",
+    "contrast_score": "5.7/10",
+    "dci_p3_score": "7.5/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.30/10"
+  },
+  {
+    "rank": 39,
+    "name": "Acer Predator Helios Neo 16 (PHN16-72)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "5.0/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "7.6/10",
+    "total_score": "7.29/10"
+  },
+  {
+    "rank": 40,
+    "name": "MSI Raider A18 HX (A9Wx)",
+    "color_score": "3.9/10",
+    "max_brightness_score": "7.2/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.8/10",
+    "total_score": "7.29/10"
+  },
+  {
+    "rank": 41,
+    "name": "ASUS Vivobook S 14 OLED (M5406)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "6.2/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.3/10",
+    "total_score": "7.28/10"
+  },
+  {
+    "rank": 42,
+    "name": "MSI Sword 16 HX (B13Vx / B14Vx)",
+    "color_score": "8.6/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.0/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "7.7/10",
+    "total_score": "7.27/10"
+  },
+  {
+    "rank": 43,
+    "name": "ASUS TUF Gaming A14 FA401",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.6/10",
+    "contrast_score": "6.1/10",
+    "dci_p3_score": "6.6/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.27/10"
+  },
+  {
+    "rank": 44,
+    "name": "MSI Summit A16 AI+ (A3HMx)",
+    "color_score": "8.6/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "4.9/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "7.7/10",
+    "total_score": "7.26/10"
+  },
+  {
+    "rank": 45,
+    "name": "ASUS Zenbook 14 OLED (UM3406)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "6.2/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.3/10",
+    "total_score": "7.25/10"
+  },
+  {
+    "rank": 46,
+    "name": "ASUS ROG Strix SCAR 17 G733 (2023)",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.2/10",
+    "contrast_score": "4.8/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.24/10"
+  },
+  {
+    "rank": 47,
+    "name": "Acer Nitro 17 (AN17-71)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.2/10",
+    "contrast_score": "4.8/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "7.21/10"
+  },
+  {
+    "rank": 48,
+    "name": "HP EliteBook x360 1040 G10",
+    "color_score": "8.4/10",
+    "max_brightness_score": "5.5/10",
+    "contrast_score": "5.7/10",
+    "dci_p3_score": "7.2/10",
+    "eye_safety_score": "9.2/10",
+    "total_score": "7.21/10"
+  },
+  {
+    "rank": 49,
+    "name": "Lenovo ThinkPad P16 Gen 1",
+    "color_score": "6.3/10",
+    "max_brightness_score": "6.5/10",
+    "contrast_score": "5.7/10",
+    "dci_p3_score": "7.7/10",
+    "eye_safety_score": "7.7/10",
+    "total_score": "7.20/10"
+  },
+  {
+    "rank": 50,
+    "name": "Apple MacBook Air 15 (Early 2025)",
+    "color_score": "5.7/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.2/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "7.19/10"
+  },
+  {
+    "rank": 51,
+    "name": "HP Elite Dragonfly G3",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.3/10",
+    "contrast_score": "6.0/10",
+    "dci_p3_score": "6.1/10",
+    "eye_safety_score": "9.2/10",
+    "total_score": "7.19/10"
+  },
+  {
+    "rank": 52,
+    "name": "Dell Precision 16 7670",
+    "color_score": "9.4/10",
+    "max_brightness_score": "6.1/10",
+    "contrast_score": "5.3/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.18/10"
+  },
+  {
+    "rank": 53,
+    "name": "Lenovo ThinkPad X13 Gen 3 (Intel)",
+    "color_score": "9.6/10",
+    "max_brightness_score": "4.9/10",
+    "contrast_score": "4.8/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "7.7/10",
+    "total_score": "7.17/10"
+  },
+  {
+    "rank": 54,
+    "name": "Dell Latitude 14 7455",
+    "color_score": "8.3/10",
+    "max_brightness_score": "5.5/10",
+    "contrast_score": "6.0/10",
+    "dci_p3_score": "6.7/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "7.15/10"
+  },
+  {
+    "rank": 55,
+    "name": "HP Pavilion Aero 13 (13z-bg0000)",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.6/10",
+    "contrast_score": "5.5/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "7.7/10",
+    "total_score": "7.14/10"
+  },
+  {
+    "rank": 56,
+    "name": "Dell Precision 16 5690",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.4/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.14/10"
+  },
+  {
+    "rank": 57,
+    "name": "Apple MacBook Air 13 (2022)",
+    "color_score": "5.2/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "5.4/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "7.11/10"
+  },
+  {
+    "rank": 58,
+    "name": "ASUS ROG Strix G17 G713P (2023)",
+    "color_score": "8.4/10",
+    "max_brightness_score": "5.2/10",
+    "contrast_score": "5.3/10",
+    "dci_p3_score": "8.9/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.11/10"
+  },
+  {
+    "rank": 59,
+    "name": "Dell Latitude 14 9450 (2-in-1)",
+    "color_score": "8.3/10",
+    "max_brightness_score": "6.1/10",
+    "contrast_score": "6.1/10",
+    "dci_p3_score": "7.2/10",
+    "eye_safety_score": "7.3/10",
+    "total_score": "7.11/10"
+  },
+  {
+    "rank": 60,
+    "name": "Dell Precision 16 7680",
+    "color_score": "9.4/10",
+    "max_brightness_score": "6.1/10",
+    "contrast_score": "5.3/10",
+    "dci_p3_score": "9.5/10",
+    "eye_safety_score": "7.6/10",
+    "total_score": "7.04/10"
+  },
+  {
+    "rank": 61,
+    "name": "Lenovo ThinkPad X13 2-in-1 Gen 5",
+    "color_score": "7.9/10",
+    "max_brightness_score": "5.4/10",
+    "contrast_score": "5.5/10",
+    "dci_p3_score": "6.0/10",
+    "eye_safety_score": "9.4/10",
+    "total_score": "7.04/10"
+  },
+  {
+    "rank": 62,
+    "name": "Acer Nitro 17 (AN17-42)",
+    "color_score": "8.1/10",
+    "max_brightness_score": "4.9/10",
+    "contrast_score": "5.4/10",
+    "dci_p3_score": "8.9/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.03/10"
+  },
+  {
+    "rank": 63,
+    "name": "Lenovo Legion Pro 7i (16\" Intel, Gen 8)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "6.0/10",
+    "contrast_score": "5.3/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.03/10"
+  },
+  {
+    "rank": 64,
+    "name": "Lenovo Yoga 7i (14\", 2023)",
+    "color_score": "7.8/10",
+    "max_brightness_score": "5.3/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "5.5/10",
+    "total_score": "7.03/10"
+  },
+  {
+    "rank": 65,
+    "name": "Apple MacBook Air 13 (Early 2025)",
+    "color_score": "4.9/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "5.2/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "7.9/10",
+    "total_score": "7.02/10"
+  },
+  {
+    "rank": 66,
+    "name": "Acer Predator Helios Neo 14 (PHN14-51)",
+    "color_score": "8.1/10",
+    "max_brightness_score": "5.6/10",
+    "contrast_score": "4.9/10",
+    "dci_p3_score": "6.0/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.02/10"
+  },
+  {
+    "rank": 67,
+    "name": "Acer Nitro 16 (AN16-51)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.9/10",
+    "contrast_score": "5.2/10",
+    "dci_p3_score": "6.3/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "7.00/10"
+  },
+  {
+    "rank": 68,
+    "name": "Lenovo ThinkPad T14 Gen 4 (Intel, Integrated)",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.4/10",
+    "contrast_score": "6.1/10",
+    "dci_p3_score": "6.7/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "6.99/10"
+  },
+  {
+    "rank": 69,
+    "name": "Acer Nitro 5 (AN517-55)",
+    "color_score": "7.1/10",
+    "max_brightness_score": "5.1/10",
+    "contrast_score": "5.0/10",
+    "dci_p3_score": "9.7/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "6.99/10"
+  },
+  {
+    "rank": 70,
+    "name": "Acer Predator Helios 18 (PH18-72)",
+    "color_score": "8.1/10",
+    "max_brightness_score": "7.0/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "4.2/10",
+    "total_score": "6.99/10"
+  },
+  {
+    "rank": 71,
+    "name": "Alienware m16 R2",
+    "color_score": "8.3/10",
+    "max_brightness_score": "5.1/10",
+    "contrast_score": "5.4/10",
+    "dci_p3_score": "7.2/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "6.97/10"
+  },
+  {
+    "rank": 72,
+    "name": "Lenovo Legion Slim 5i / S5 (16\" Intel, 2023)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "5.3/10",
+    "contrast_score": "5.1/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "6.97/10"
+  },
+  {
+    "rank": 73,
+    "name": "HP OMEN Transcend 16 (16t-u1000, 2024)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "5.6/10",
+    "contrast_score": "4.9/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "6.97/10"
+  },
+  {
+    "rank": 74,
+    "name": "Lenovo Yoga Pro 9 (16IMH9, Discrete)",
+    "color_score": "7.4/10",
+    "max_brightness_score": "7.3/10",
+    "contrast_score": "7.2/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "4.4/10",
+    "total_score": "6.96/10"
+  },
+  {
+    "rank": 75,
+    "name": "Alienware m18 R2",
+    "color_score": "7.8/10",
+    "max_brightness_score": "5.1/10",
+    "contrast_score": "4.8/10",
+    "dci_p3_score": "9.1/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "6.95/10"
+  },
+  {
+    "rank": 76,
+    "name": "Lenovo Legion Slim 5 (16\", Gen 9)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.5/10",
+    "contrast_score": "5.1/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "6.94/10"
+  },
+  {
+    "rank": 77,
+    "name": "Dell Precision 14 5490",
+    "color_score": "8.4/10",
+    "max_brightness_score": "5.7/10",
+    "contrast_score": "6.4/10",
+    "dci_p3_score": "7.2/10",
+    "eye_safety_score": "7.8/10",
+    "total_score": "6.93/10"
+  },
+  {
+    "rank": 78,
+    "name": "Lenovo Yoga Slim 7 (14Q8X9)",
+    "color_score": "8.4/10",
+    "max_brightness_score": "6.8/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "2.6/10",
+    "total_score": "6.93/10"
+  },
+  {
+    "rank": 79,
+    "name": "Lenovo Legion Pro 5i (16\", Gen 9)",
+    "color_score": "8.6/10",
+    "max_brightness_score": "5.4/10",
+    "contrast_score": "5.2/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "6.93/10"
+  },
+  {
+    "rank": 80,
+    "name": "Acer Predator Triton 14 (PT14-51)",
+    "color_score": "6.6/10",
+    "max_brightness_score": "6.3/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "4.1/10",
+    "total_score": "6.92/10"
+  },
+  {
+    "rank": 81,
+    "name": "Lenovo ThinkPad X1 Carbon (11th Gen, 2023)",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.4/10",
+    "contrast_score": "6.0/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "6.92/10"
+  },
+  {
+    "rank": 82,
+    "name": "ASUS TUF Gaming A16 FA608",
+    "color_score": "8.6/10",
+    "max_brightness_score": "5.4/10",
+    "contrast_score": "4.9/10",
+    "dci_p3_score": "6.6/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "6.91/10"
+  },
+  {
+    "rank": 83,
+    "name": "Dell XPS 15 9530",
+    "color_score": "8.1/10",
+    "max_brightness_score": "6.0/10",
+    "contrast_score": "6.0/10",
+    "dci_p3_score": "8.1/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "6.90/10"
+  },
+  {
+    "rank": 84,
+    "name": "Lenovo Legion Pro 5 / Pro 5i (16″ Intel, 2023)",
+    "color_score": "8.3/10",
+    "max_brightness_score": "5.4/10",
+    "contrast_score": "5.7/10",
+    "dci_p3_score": "6.1/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "6.89/10"
+  },
+  {
+    "rank": 85,
+    "name": "Acer Swift 14 AI (SF14-61 / SF14-61T)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "5.5/10",
+    "contrast_score": "6.0/10",
+    "dci_p3_score": "6.3/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "6.89/10"
+  },
+  {
+    "rank": 86,
+    "name": "Microsoft Surface Pro 11",
+    "color_score": "9.0/10",
+    "max_brightness_score": "6.1/10",
+    "contrast_score": "4.8/10",
+    "dci_p3_score": "6.7/10",
+    "eye_safety_score": "6.4/10",
+    "total_score": "6.88/10"
+  },
+  {
+    "rank": 87,
+    "name": "Lenovo ThinkPad T14s Gen 3 (Intel)",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.4/10",
+    "contrast_score": "6.1/10",
+    "dci_p3_score": "6.3/10",
+    "eye_safety_score": "8.2/10",
+    "total_score": "6.87/10"
+  },
+  {
+    "rank": 88,
+    "name": "Dell XPS 13 9345",
+    "color_score": "8.1/10",
+    "max_brightness_score": "5.7/10",
+    "contrast_score": "6.6/10",
+    "dci_p3_score": "6.1/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "6.87/10"
+  },
+  {
+    "rank": 89,
+    "name": "Dell XPS 16 9640 (NVIDIA RTX 4050, 4060)",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.7/10",
+    "contrast_score": "6.4/10",
+    "dci_p3_score": "7.1/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "6.86/10"
+  },
+  {
+    "rank": 90,
+    "name": "Acer Swift X (SFX14-71G)",
+    "color_score": "7.8/10",
+    "max_brightness_score": "5.2/10",
+    "contrast_score": "5.5/10",
+    "dci_p3_score": "6.9/10",
+    "eye_safety_score": "7.6/10",
+    "total_score": "6.85/10"
+  },
+  {
+    "rank": 91,
+    "name": "Lenovo ThinkBook 13x Gen 2",
+    "color_score": "9.2/10",
+    "max_brightness_score": "5.5/10",
+    "contrast_score": "5.7/10",
+    "dci_p3_score": "6.3/10",
+    "eye_safety_score": "6.7/10",
+    "total_score": "6.84/10"
+  },
+  {
+    "rank": 92,
+    "name": "Dell XPS 14 9440",
+    "color_score": "8.8/10",
+    "max_brightness_score": "5.8/10",
+    "contrast_score": "6.7/10",
+    "dci_p3_score": "5.8/10",
+    "eye_safety_score": "8.0/10",
+    "total_score": "6.84/10"
+  },
+  {
+    "rank": 93,
+    "name": "ASUS ProArt P16 (H7606)",
+    "color_score": "8.6/10",
+    "max_brightness_score": "6.0/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "2.2/10",
+    "total_score": "6.84/10"
+  },
+  {
+    "rank": 94,
+    "name": "HP ZBook Firefly 14 G10",
+    "color_score": "8.3/10",
+    "max_brightness_score": "5.6/10",
+    "contrast_score": "6.0/10",
+    "dci_p3_score": "6.9/10",
+    "eye_safety_score": "7.9/10",
+    "total_score": "6.82/10"
+  },
+  {
+    "rank": 95,
+    "name": "Lenovo IdeaPad Pro 5 (16IMH9)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "5.4/10",
+    "contrast_score": "5.3/10",
+    "dci_p3_score": "5.2/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "6.82/10"
+  },
+  {
+    "rank": 96,
+    "name": "Acer Nitro 16 (AN16-42)",
+    "color_score": "8.4/10",
+    "max_brightness_score": "6.0/10",
+    "contrast_score": "4.8/10",
+    "dci_p3_score": "7.1/10",
+    "eye_safety_score": "7.4/10",
+    "total_score": "6.81/10"
+  },
+  {
+    "rank": 97,
+    "name": "HP Elite Dragonfly G4",
+    "color_score": "7.4/10",
+    "max_brightness_score": "5.3/10",
+    "contrast_score": "5.6/10",
+    "dci_p3_score": "5.2/10",
+    "eye_safety_score": "9.2/10",
+    "total_score": "6.80/10"
+  },
+  {
+    "rank": 98,
+    "name": "MSI Cyborg 14 (A13Ux / A13Vx)",
+    "color_score": "9.0/10",
+    "max_brightness_score": "5.7/10",
+    "contrast_score": "5.1/10",
+    "dci_p3_score": "6.4/10",
+    "eye_safety_score": "8.1/10",
+    "total_score": "6.80/10"
+  },
+  {
+    "rank": 99,
+    "name": "Dell 16 Plus (DB16250)",
+    "color_score": "8.1/10",
+    "max_brightness_score": "6.3/10",
+    "contrast_score": "10.0/10",
+    "dci_p3_score": "9.9/10",
+    "eye_safety_score": "3.4/10",
+    "total_score": "6.79/10"
+  },
+  {
+    "rank": 100,
+    "name": "HP EliteBook 1040 G9",
+    "color_score": "8.3/10",
+    "max_brightness_score": "5.6/10",
+    "contrast_score": "6.1/10",
+    "dci_p3_score": "7.2/10",
+    "eye_safety_score": "7.6/10",
+    "total_score": "6.79/10"
+  }
+]
