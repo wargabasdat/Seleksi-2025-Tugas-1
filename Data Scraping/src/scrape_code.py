@@ -811,5 +811,5 @@ class SugarySweetsRecipeScraper:
 if __name__ == "__main__":
     scraper = SugarySweetsRecipeScraper()
     
-    # Run scraper for pages 2-16, maximum 100 recipes
+    # Run scraper for pages 2-16, maximum 110 recipes
     scraper.run_scraper(start_page=2, end_page=16, max_recipes=110)
