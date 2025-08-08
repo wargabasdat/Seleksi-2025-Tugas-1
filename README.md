@@ -1,78 +1,142 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2025 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# Tugas 1 - Seleksi Lab Basis Data  
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Author  
+- **Nama:** Mayla Yaffa Ludmilla
+- **NIM:** 13523050
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+---
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Deskripsi Singkat  
+Proyek ini bertujuan untuk membangun basis data karya seni lukis berdasarkan data dari situs TOPofART (https://www.topofart.com), yaitu situs yang menjul reproduksi karya lukis terkenal di dunia.  
+Data yang dikumpulkan mencakup **informasi seniman**, **gaya seni (art styles)**, **subjek seni (art subjects)**, **museum**, dan **lukisan** beserta harga reproduksinya.  
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+Saya memilih topik ini karena saya terkadang suka melukis dan suka belajar mengenai lukisan dan topik ini memiliki relasi yang dapat diimplementasikan dengan baik di RDBMS.   
 
+DBMS yang digunakan adalah **MariaDB / MySQL** karena mendukung tipe data yang dibutuhkan dan saya pernah menggunakannya dengan Python, bahasa yang saya pilih untuk web-scrape.
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+---
 
+## Cara Menggunakan Scraper  
 
+1. **Clone repository & masuk ke folder proyek**
+    ```bash
+    git clone "https://github.com/maymilla/Seleksi-Basdat-2025-Tugas-1.git"
+    cd Seleksi-Basdat-2025-Tugas-1
+    ```
 
+2. **Aktifkan Virtual Environment** (opsional, tetapi disarankan)  
+    ```bash
+    python -m venv .venv
+    .venv\Scripts\activate   # Windows
+    source .venv/bin/activate  # Mac/Linux
+    ```
+
+3. **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Jalankan scraper**  
+    Scraper utama terdapat di folder `Data Scraping/src/`:
+    ```bash
+    python Data\ Scraping/src/scrape_artists.py
+    python Data\ Scraping/src/scrape_art_mvt.py
+    python Data\ Scraping/src/scrape_paintings.py
+    ```
+    Output akan disimpan ke folder `Data Scraping/data/` dalam format JSON.
+
+5. **Gunakan hasil output untuk populate database**  
+    Jalankan script `Data Storing/src/store_top_paintings.py`:
+    ```bash
+    python Data\ Storing/src/store_data.py
+    ```
+    Pastikan `DB_CONFIG` di script sudah sesuai dengan konfigurasi database lokal kamu.
+
+---
+
+## Struktur File JSON  
+
+### 1. artists.json 
+```json
+{
+  "name": "Vincent van Gogh",
+  "url": "https://www.topofart.com/artists/Vincent-van-Gogh/",
+  "birth_year": "1853",
+  "death_year": "1890",
+  "nationality": "Dutch",
+  "art_style": "Post-Impressionist",
+  "biography": "...",
+  "total_pages": 18,
+  "paintings": [
+    {
+      "title": "Starry Night",
+      "year": "1889",
+      "artist": "Vincent van Gogh",
+      "oil_price_euro": "836",
+      "canvas_price_euro": "58.32",
+      "sku": "VVG-1101",
+      "original_size": "73.7 x 92.1 cm",
+      "museum": "Museum of Modern Art",
+      "city": "New York",
+      "country": "USA"
+    }
+  ]
+}
+```
+### 2. art_styles.json
+
+```json
+{ "name": "High Renaissance" }
+```
+
+### 3. art_subjects.json
+```json
+{ "name": "Landscapes" }
+```
+
+### 4. museums.json
+```json
+{
+  "name": "Museum of Modern Art",
+  "city_name": "New York",
+  "country": "USA"
+}
+```
+
+### cities.json
+```json
+{ "name": "New York", "country": "USA" }
+```
+
+### 6. countries.json
+```json
+{ "name": "USA" }
+```
+# ER Diagram
+<img width="1351" height="721" alt="ER Diagram" src="https://github.com/user-attachments/assets/21262484-d9c0-4483-ac49-848d009687f0" /><img width="1511" height="541" alt="ER Diagram" src="https://github.com/user-attachments/assets/a46d6cac-c0aa-4a6f-a8e8-461ddb365d3b" />
+
+# Relational Diagram
+<img width="1511" height="541" alt="Relational Diagram" src="https://github.com/user-attachments/assets/2cb812bd-bdf3-4b0d-b708-ead90639a39a" />
+
+## Translasi ER Diagram ke Relational Diagram
+- Setiap entitas pada ERD menjadi tabel di RDBMS.
+- Setiap hubungan many-to-many (contoh: Artist ↔ Art_Style) diubah menjadi tabel penghubung (Artist_Style).
+- Untuk setiap hubungan many-to-one (contoh: Museum ↔ City), tabel yang memiliki kardinalitas many ditambah atribut primary key dari tabel yang memiliki kardinalitas satu.
+- Atribut kunci primer menjadi kolom id_... dengan tipe integer (auto increment).
+- Foreign key digunakan untuk menjaga referensial antar tabel.
+
+# Screenshots
+<img src="Data Storing/screenshot/painting.png" width="500">
+<img src="Data Storing/screenshot/museum(1).png" width="500">
+<img src="Data Storing/screenshot/artist(1).png" width="500">
+
+# Library
+### Library yang Digunakan
+* requests – HTTP requests untuk scraping.
+* beautifulsoup4 – Parsing HTML.
+* re – Ekstraksi pola teks dengan regex.
+* mysql-connector-python – Koneksi Python ke MySQL/MariaDB.
+* json – Membaca/menulis file JSON.
+
+### Sumber Data
+topofart.com
