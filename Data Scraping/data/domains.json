@@ -1,0 +1,200 @@
+[
+    {
+        "Name": "City of Gold",
+        "Artifacts": [
+            "Desert Pavilion Chronicle",
+            "Flower of Paradise Lost",
+            "Resolution of Sojourner",
+            "Brave Heart"
+        ],
+        "Region": "Sumeru",
+        "Version": "3.3"
+    },
+    {
+        "Name": "Clear Pool and Mountain Cavern",
+        "Artifacts": [
+            "Bloodstained Chivalry",
+            "Noblesse Oblige",
+            "Gambler",
+            "Scholar"
+        ],
+        "Region": "Liyue",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Denouement of Sin",
+        "Artifacts": [
+            "Marechaussee Hunter",
+            "Golden Troupe",
+            "Resolution of Sojourner",
+            "Defender's Will"
+        ],
+        "Region": "Fontaine",
+        "Version": "4.0"
+    },
+    {
+        "Name": "Derelict Masonry Dock",
+        "Artifacts": [
+            "Long Night's Oath",
+            "Finale of the Deep Galleries",
+            "Tiny Miracle",
+            "Scholar"
+        ],
+        "Region": "Natlan",
+        "Version": "5.5"
+    },
+    {
+        "Name": "Domain of Guyun",
+        "Artifacts": [
+            "Archaic Petra",
+            "Retracing Bolide",
+            "Brave Heart",
+            "Lucky Dog"
+        ],
+        "Region": "Liyue",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Faded Theater",
+        "Artifacts": [
+            "Fragment of Harmonic Whimsy",
+            "Unfinished Reverie",
+            "Brave Heart",
+            "Scholar"
+        ],
+        "Region": "Fontaine",
+        "Version": "4.6"
+    },
+    {
+        "Name": "Hidden Palace of Zhou Formula",
+        "Artifacts": [
+            "Crimson Witch of Flames",
+            "Lavawalker",
+            "Defender's Will",
+            "Martial Artist"
+        ],
+        "Region": "Liyue",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Midsummer Courtyard",
+        "Artifacts": [
+            "Thundering Fury",
+            "Thundersoother",
+            "Resolution of Sojourner",
+            "Adventurer"
+        ],
+        "Region": "Mondstadt",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Molten Iron Fortress",
+        "Artifacts": [
+            "Nymph's Dream",
+            "Vourukasha's Glow",
+            "Martial Artist",
+            "Scholar"
+        ],
+        "Region": "Sumeru",
+        "Version": "3.6"
+    },
+    {
+        "Name": "Momiji-Dyed Court",
+        "Artifacts": [
+            "Shimenawa's Reminiscence",
+            "Emblem of Severed Fate",
+            "Resolution of Sojourner",
+            "Tiny Miracle"
+        ],
+        "Region": "Inazuma",
+        "Version": "2.0"
+    },
+    {
+        "Name": "Peak of Vindagnyr",
+        "Artifacts": [
+            "Blizzard Strayer",
+            "Heart of Depth",
+            "Defender's Will",
+            "Gambler"
+        ],
+        "Region": "Mondstadt",
+        "Version": "1.2"
+    },
+    {
+        "Name": "Ridge Watch",
+        "Artifacts": [
+            "Tenacity of the Millelith",
+            "Pale Flame",
+            "Brave Heart",
+            "Martial Artist"
+        ],
+        "Region": "Liyue",
+        "Version": "1.5"
+    },
+    {
+        "Name": "Sanctum of Rainbow Spirits",
+        "Artifacts": [
+            "Scroll of the Hero of Cinder City",
+            "Obsidian Codex",
+            "Resolution of Sojourner",
+            "Gambler"
+        ],
+        "Region": "Natlan",
+        "Version": "5.0"
+    },
+    {
+        "Name": "Slumbering Court",
+        "Artifacts": [
+            "Husk of Opulent Dreams",
+            "Ocean-Hued Clam",
+            "Defender's Will",
+            "Brave Heart"
+        ],
+        "Region": "Inazuma",
+        "Version": "2.3"
+    },
+    {
+        "Name": "Spire of Solitary Enlightenment",
+        "Artifacts": [
+            "Deepwood Memories",
+            "Gilded Dreams",
+            "Tiny Miracle",
+            "Gambler"
+        ],
+        "Region": "Sumeru",
+        "Version": "3.0"
+    },
+    {
+        "Name": "The Lost Valley",
+        "Artifacts": [
+            "Vermillion Hereafter",
+            "Echoes of an Offering",
+            "Martial Artist",
+            "Gambler"
+        ],
+        "Region": "Liyue",
+        "Version": "2.6"
+    },
+    {
+        "Name": "Valley of Remembrance",
+        "Artifacts": [
+            "Viridescent Venerer",
+            "Maiden Beloved",
+            "Tiny Miracle",
+            "Traveling Doctor"
+        ],
+        "Region": "Mondstadt",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Waterfall Wen",
+        "Artifacts": [
+            "Song of Days Past",
+            "Nighttime Whispers in the Echoing Woods",
+            "Tiny Miracle",
+            "Martial Artist"
+        ],
+        "Region": "Fontaine",
+        "Version": "4.3"
+    }
+]

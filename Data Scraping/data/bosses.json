@@ -1,0 +1,224 @@
+[
+    {
+        "Name": "Anemo Hypostasis",
+        "Region": "Mondstadt",
+        "Boss Drop": "Hurricane Seed",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Electro Hypostasis",
+        "Region": "Mondstadt",
+        "Boss Drop": "Lightning Prism",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Cryo Regisvine",
+        "Region": "Mondstadt",
+        "Boss Drop": "Hoarfrost Core",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Cryo Hypostasis",
+        "Region": "Mondstadt",
+        "Boss Drop": "Crystalline Bloom",
+        "Version": "1.5"
+    },
+    {
+        "Name": "Geo Hypostasis",
+        "Region": "Liyue",
+        "Boss Drop": "Basalt Pillar",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Pyro Regisvine",
+        "Region": "Liyue",
+        "Boss Drop": "Everflame Seed",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Rhodeia of Loch",
+        "Region": "Liyue",
+        "Boss Drop": "Cleansing Heart",
+        "Version": "1.0"
+    },
+    {
+        "Name": "Primo Geovishap",
+        "Region": "Liyue",
+        "Boss Drop": "Juvenile Jade",
+        "Version": "1.3"
+    },
+    {
+        "Name": "Ruin Serpent",
+        "Region": "Liyue",
+        "Boss Drop": "Runic Fang",
+        "Version": "2.6"
+    },
+    {
+        "Name": "Solitary Suanni",
+        "Region": "Liyue",
+        "Boss Drop": "Cloudseam Scale",
+        "Version": "4.4"
+    },
+    {
+        "Name": "Maguu Kenki",
+        "Region": "Inazuma",
+        "Boss Drop": "Marionette Core",
+        "Version": "1.6"
+    },
+    {
+        "Name": "Perpetual Mechanical Array",
+        "Region": "Inazuma",
+        "Boss Drop": "Perpetual Heart",
+        "Version": "2.0"
+    },
+    {
+        "Name": "Pyro Hypostasis",
+        "Region": "Inazuma",
+        "Boss Drop": "Smoldering Pearl",
+        "Version": "2.0"
+    },
+    {
+        "Name": "Hydro Hypostasis",
+        "Region": "Inazuma",
+        "Boss Drop": "Dew of Repudiation",
+        "Version": "2.1"
+    },
+    {
+        "Name": "Thunder Manifestation",
+        "Region": "Inazuma",
+        "Boss Drop": "Storm Beads",
+        "Version": "2.1"
+    },
+    {
+        "Name": "Golden Wolflord",
+        "Region": "Inazuma",
+        "Boss Drop": "Riftborn Regalia",
+        "Version": "2.3"
+    },
+    {
+        "Name": "Coral Defenders",
+        "Region": "Inazuma",
+        "Boss Drop": "Dragonheir's False Fin",
+        "Version": "2.4"
+    },
+    {
+        "Name": "Jadeplume Terrorshroom",
+        "Region": "Sumeru",
+        "Boss Drop": "Majestic Hooked Beak",
+        "Version": "3.0"
+    },
+    {
+        "Name": "Electro Regisvine",
+        "Region": "Sumeru",
+        "Boss Drop": "Thunderclap Fruitcore",
+        "Version": "3.0"
+    },
+    {
+        "Name": "Aeonblight Drake",
+        "Region": "Sumeru",
+        "Boss Drop": "Perpetual Caliber",
+        "Version": "3.1"
+    },
+    {
+        "Name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+        "Region": "Sumeru",
+        "Boss Drop": "Light Guiding Tetrahedron",
+        "Version": "3.1"
+    },
+    {
+        "Name": "Dendro Hypostasis",
+        "Region": "Sumeru",
+        "Boss Drop": "Quelled Creeper",
+        "Version": "3.2"
+    },
+    {
+        "Name": "Setekh Wenut",
+        "Region": "Sumeru",
+        "Boss Drop": "Pseudo-Stamens",
+        "Version": "3.4"
+    },
+    {
+        "Name": "Iniquitous Baptist",
+        "Region": "Sumeru",
+        "Boss Drop": "Evergloom Ring",
+        "Version": "3.6"
+    },
+    {
+        "Name": "Icewind Suite",
+        "Region": "Fontaine",
+        "Boss Drop": "Artificed Spare Clockwork Component - Coppelia",
+        "Version": "4.0"
+    },
+    {
+        "Name": "Emperor of Fire and Iron",
+        "Region": "Fontaine",
+        "Boss Drop": "Emperor's Resolution",
+        "Version": "4.0"
+    },
+    {
+        "Name": "Millennial Pearl Seahorse",
+        "Region": "Fontaine",
+        "Boss Drop": "Fontemer Unihorn",
+        "Version": "4.1"
+    },
+    {
+        "Name": "Prototype Cal. Breguet",
+        "Region": "Fontaine",
+        "Boss Drop": "\"Tourbillon Device\"",
+        "Version": "4.1"
+    },
+    {
+        "Name": "Hydro Tulpa",
+        "Region": "Fontaine",
+        "Boss Drop": "Water That Failed To Transcend",
+        "Version": "4.2"
+    },
+    {
+        "Name": "\"Statue of Marble and Brass\"",
+        "Region": "Fontaine",
+        "Boss Drop": "Fragment of a Golden Melody",
+        "Version": "4.6"
+    },
+    {
+        "Name": "Holawaqa Ngoubou",
+        "Region": "Natlan",
+        "Boss Drop": "Mark of the Binding Blessing",
+        "Version": "4.0"
+    },
+    {
+        "Name": "Kongamato",
+        "Region": "Natlan",
+        "Boss Drop": "Overripe Flamegranate",
+        "Version": "4.0"
+    },
+    {
+        "Name": "Secret Source Automaton: Configuration Device",
+        "Region": "Natlan",
+        "Boss Drop": "Gold-Inscribed Secret Source Core",
+        "Version": "5.1"
+    },
+    {
+        "Name": "Tenebrous Papilla",
+        "Region": "Natlan",
+        "Boss Drop": "Ensnaring Gaze",
+        "Version": "5.2"
+    },
+    {
+        "Name": "Wayward Hermetic Spiritspeaker",
+        "Region": "Natlan",
+        "Boss Drop": "Talisman of the Enigmatic Land",
+        "Version": "5.3"
+    },
+    {
+        "Name": "Lava Dragon Statue",
+        "Region": "Natlan",
+        "Boss Drop": "Sparkless Statue Core",
+        "Version": "5.5"
+    },
+    {
+        "Name": "Secret Source Automaton: Overseer Device",
+        "Region": "Natlan",
+        "Boss Drop": "Secret Source Airflow Accumulator",
+        "Version": "5.6"
+    }
+]
