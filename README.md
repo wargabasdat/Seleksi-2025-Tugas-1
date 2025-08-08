@@ -156,6 +156,65 @@ Nanti 5 file .JSON akan terekspor
     }
 ```
 
+## Data Modeling
+### 1. Struktur ERD dan Diagram Relasional RDBMS
+#### ERD
+<div align="center">
+  <img src="Data Storing/design/Entity Relationship Diagram Manhwa.png"/>
+</div>
+
+#### Diaram Relasional
+<div align="center">
+  <img src="Data Storing/design/Relational Diagram Manhwa.png"/>
+</div>
+
+### 2. Proses Translasi ERD menjadi Diagram Relasional
+#### Derived, Multivalued, Composite Attribute
+<div align="center">
+  <img src="Data Storing/design/derived, multivalued, composite.png"/>
+</div>
+
+#### One to Many
+<div align="center">
+  <img src="Data Storing/design/one to many (1).png"/>
+  <img src="Data Storing/design/one to many (2).png"/>
+</div>
+
+#### Many to Many
+<div align="center">
+  <img src="Data Storing/design/many to many (1).png"/>
+  <img src="Data Storing/design/many to many (2).png"/>
+  <img src="Data Storing/design/many to many (3).png"/>
+</div>
+
+
+#### Unary (One to Many)
+<div align="center">
+  <img src="Data Storing/design/unary one to many.png"/>
+</div>
+
+#### Relationship Set with Attribute
+<div align="center">
+  <img src="Data Storing/design/relationship set with attribute.png"/>
+</div>
+
+#### Weak Entity
+<div align="center">
+  <img src="Data Storing/design/weak entity.png"/>
+</div>
+
+#### Specialization
+<div align="center">
+  <img src="Data Storing/design/specialization.png"/>
+</div>
+
+## Data Storing
+
+## Data Warehouse
+
+## Lampiran
+
+## Referensi
 
 ### Data Storing
 1. Buat database pada __PostgreSQL__, contoh:
@@ -464,6 +523,3 @@ Data yang ada juga memberikan kesimpulan perusahaan mana saja yang paling banyak
 3. [Dokumentasi Beautifulsoup4](https://beautiful-soup-4.readthedocs.io/)
 4. [Dokumentasi psycopg2](https://pypi.org/project/psycopg2/)
 5. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
-
-## Author
-Jihan Aurelia - 18222001
