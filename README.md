@@ -18,11 +18,6 @@
 
 - [Contributors](#contributors)
 - [About](#about)
-- [Prologue](#prologue)
-- [Milestones](#milestones)
-- [The OS](#os)
-- [How to Run?](#run)
-- [Acknowledgements](#acknowledgements)
 ---
 
 ### Contributors <a name="contributors"></a>
