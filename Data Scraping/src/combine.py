@@ -11,17 +11,17 @@ def combine_json_files(input_dir, output_file):
     
     # Cek apakah direktori input ada
     if not os.path.isdir(input_dir):
-        print(f"Error: Direktori tidak ditemukan di '{input_dir}'")
+        print(f"Error: Direktori '{input_dir}' salah.")
         return
 
-    print(f"Membaca file dari direktori: '{input_dir}'...")
+    print(f"Membaca file dari : '{input_dir}'...")
     
     # Loop untuk setiap item di dalam direktori input
     for filename in os.listdir(input_dir):
         # Proses hanya jika file berakhiran .json
         if filename.endswith('.json'):
             file_path = os.path.join(input_dir, filename)
-            print(f"  -> Memproses file: {filename}")
+            print(f"Memproses file: {filename}")
             
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
@@ -36,13 +36,13 @@ def combine_json_files(input_dir, output_file):
                         all_data.append(data_from_file)
 
             except json.JSONDecodeError:
-                print(f"     Peringatan: File {filename} bukan JSON yang valid atau kosong. Dilewati.")
+                print(f"Peringatan: File {filename} bukan JSON yang valid.")
             except Exception as e:
-                print(f"     Error saat membaca file {filename}: {e}")
+                print(f"Error file {filename}: {e}")
 
     # Cek apakah ada data yang berhasil dikumpulkan
     if not all_data:
-        print("Tidak ada data yang berhasil dikumpulkan. File output tidak dibuat.")
+        print("Semua data gagal.")
         return
 
     print(f"\nTotal {len(all_data)} data berhasil digabungkan.")
@@ -57,10 +57,10 @@ def combine_json_files(input_dir, output_file):
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(all_data, f, ensure_ascii=False, indent=4)
         
-        print(f"✅ Berhasil! Semua data telah disimpan di: '{output_file}'")
+        print(f"Semua data telah disimpan di: '{output_file}'")
         
     except Exception as e:
-        print(f"Error saat menyimpan file output: {e}")
+        print(f"Error : {e}")
 
 
 if __name__ == "__main__":

@@ -39,7 +39,7 @@ def get_search_terms():
 def get_links_from_search(session, search_term):
     encoded_term = quote_plus(search_term)
     search_url = f"{CPU_SPECS_URL}?q={encoded_term}&ajax=true"
-    print(f"Mencari dengan kata kunci: '{search_term}'...")
+    print(f"Kategori : '{search_term}'...")
 
     try:
         response = session.get(search_url, timeout=10)
@@ -56,12 +56,12 @@ def get_links_from_search(session, search_term):
                 return list(links_on_page)
 
     except Exception as e:
-        print(f"  -> Gagal memproses pencarian '{search_term}': {e}")
+        print(f"Error memproses '{search_term}': {e}")
     return []
 
 # Scrape dan parsing informasi detail dari halaman prosesor
 def scrape_and_parse_cpu_detail(session, detail_url):
-    print(f"Mengambil data dari: {detail_url}")
+    print(f"Mengambil dari : {detail_url}")
     try:
         response = session.get(detail_url, timeout=15)
         response.raise_for_status()
@@ -117,7 +117,7 @@ def scrape_and_parse_cpu_detail(session, detail_url):
             "features": feature_list if feature_list else None
         }
     except Exception as e:
-        print(f"  --> Gagal memproses {detail_url}: {e}")
+        print(f"Error {detail_url}: {e}")
         return None
 
 # Menyimpan data hasil scraping
@@ -125,7 +125,7 @@ def save_progress(data, search_term, output_dir):
     output_filename = os.path.join(output_dir, f"{search_term.replace(' ', '_')}_data.json")
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-    print(f"✅ Data untuk '{search_term}' disimpan di '{output_filename}'")
+    print(f"'{search_term}' disimpan di '{output_filename}'")
 
 # Melakukan request HTTP
 def safe_request(url, session, max_retries=5):
@@ -133,7 +133,7 @@ def safe_request(url, session, max_retries=5):
         resp = session.get(url, timeout=15)
         if resp.status_code == 429:
             wait_time = 30 * math.pow(2, attempt)  # 30s, 60s, 120s...
-            print(f"Rate limit! Tunggu {wait_time:.0f} detik...")
+            print(f"Rate limit! Tunggu {wait_time:.0f} detik")
             time.sleep(wait_time)
             continue
         return resp
@@ -152,11 +152,11 @@ if __name__ == "__main__":
 
     # Memulai scraping untuk setiap kata kunci pencarian
     for term in search_terms:
-        print(f"\n--- Memulai scraping untuk '{term}' ---")
+        print(f"\nMulai scraping untuk '{term}'")
         all_cpu_links = get_links_from_search(session, term)
         
         if not all_cpu_links:
-            print(f"  -> Tidak ada link ditemukan untuk '{term}', lanjut ke pencarian berikutnya.")
+            print(f"Tidak ada link ditemukan untuk '{term}'.")
             continue
         
         all_cpu_details = []

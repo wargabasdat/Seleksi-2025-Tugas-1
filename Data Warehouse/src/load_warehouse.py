@@ -69,22 +69,22 @@ def main():
         s_cursor = source_conn.cursor(dictionary=True)
         wh_cursor = wh_conn.cursor()
 
-        print("\nMembuat tabel-tabel data warehouse...")
+        print("\nMembuat tabel")
         for table_name in reversed(list(TABLES.keys())):
             wh_cursor.execute(f"DROP TABLE IF EXISTS {table_name};")
         for table_name in TABLES:
             wh_cursor.execute(TABLES[table_name])
-            print(f"  -> Tabel '{table_name}' berhasil dibuat.")
+            print(f"Tabel '{table_name}' berhasil dibuat.")
         
         # Extract
-        print("\n(E) Extract: Mengambil data dari database operasional...")
+        print("\nExtract data dari database")
         extract_query = "SELECT p.*, m.name as manufacturer_name, s.name as socket_name, c.name as codename_name, g.name as generation_name, gr.name as graphics_name, mt.name as memory_type_name FROM processor p LEFT JOIN manufacturer m ON p.manufacturer_id = m.manufacturer_id LEFT JOIN socket s ON p.socket_id = s.socket_id LEFT JOIN codename c ON p.codename_id = c.codename_id LEFT JOIN generation g ON p.generation_id = g.generation_id LEFT JOIN graphics gr ON p.graphics_id = gr.graphics_id LEFT JOIN memory_type mt ON p.memory_type_id = mt.memory_type_id;"
         s_cursor.execute(extract_query)
         processors_data = s_cursor.fetchall()
-        print(f"  -> Berhasil mengambil {len(processors_data)} record prosesor.")
+        print(f"Berhasil mengambil {len(processors_data)} record prosesor.")
 
         # Load
-        print("\n(T, L) Transform & Load: Memasukkan data ke dimension dan fact tables...")
+        print("\nTransform & Load: Memasukkan data ke dimension dan fact tables")
         
         dim_keys = {'manufacturer': {}, 'socket': {}, 'graphics': {}, 'date': {}}
 
@@ -143,10 +143,10 @@ def main():
             ))
 
         wh_conn.commit()
-        print(f"✅ Berhasil! Seluruh data telah dimasukkan ke data warehouse '{WAREHOUSE_DB_NAME}'.")
+        print(f"Data warehouse '{WAREHOUSE_DB_NAME}' berhasil dibuat.")
 
     except Error as e:
-        print(f"\n❌ Error saat terhubung atau memproses database: {e}")
+        print(f"\nError : {e}")
         if wh_conn:
             wh_conn.rollback()
     finally:
@@ -154,7 +154,6 @@ def main():
         if 'source_conn' in locals() and source_conn.is_connected(): source_conn.close()
         if 'wh_cursor' in locals() and wh_cursor: wh_cursor.close()
         if 'wh_conn' in locals() and wh_conn.is_connected(): wh_conn.close()
-        print("Semua koneksi MySQL ditutup.")
 
 if __name__ == "__main__":
     main()

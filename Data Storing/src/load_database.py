@@ -112,7 +112,7 @@ def main():
         cursor.execute(f"USE {DB_NAME}")
 
         # Buat tabel
-        print("Membuat tabel...")
+        print("Membuat tabel")
         # Hapus tabel dengan urutan yang benar untuk menghindari error foreign key
         for table_name in reversed(list(TABLES.keys())):
             cursor.execute(f"DROP TABLE IF EXISTS {table_name};")
@@ -120,16 +120,16 @@ def main():
         for table_name in TABLES:
             table_sql = TABLES[table_name]
             try:
-                print(f"  -> Membuat tabel: {table_name}", end='')
+                print(f"Membuat tabel: {table_name}", end='')
                 cursor.execute(table_sql)
-                print(" -> OK")
+                print("OK")
             except Error as err:
-                print(f" -> Gagal: {err}")
+                print(f"Gagal: {err}")
         
         # Memasukkan data
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        print(f"\nMemulai proses data loading untuk {len(data)} CPU...")
+        print(f"\nMemulai proses data loading untuk {len(data)} CPU")
 
         # Mapping dictionaries untuk menyimpan ID
         dim_map = {
@@ -178,10 +178,10 @@ def main():
                         cursor.execute("INSERT INTO processor_features (processor_id, feature_id) VALUES (%s, %s) ON DUPLICATE KEY UPDATE processor_id=processor_id;", (processor_id, feature_id))
 
         conn.commit()
-        print(f"\n✅ Berhasil! Seluruh data telah dimasukkan ke database '{DB_NAME}'.")
+        print(f"\nDatabase'{DB_NAME}' berhasil dibuat.")
 
     except Error as e:
-        print(f"\n❌ Error saat terhubung atau memproses database: {e}")
+        print(f"\nError : {e}")
         if conn:
             conn.rollback()
     finally:

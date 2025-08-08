@@ -44,10 +44,9 @@ def preprocess_data(input_path, output_path):
     try:
         with open(input_path, 'r', encoding='utf-8') as f:
             all_data = json.load(f)
-        print(f"Berhasil memuat {len(all_data)} data dari '{input_path}'")
+        print(f"Ada {len(all_data)} data dari '{input_path}'")
     except FileNotFoundError:
         print(f"Error: File input tidak ditemukan di '{input_path}'")
-        print("Pastikan nama file dan path-nya sudah benar.")
         return
     
     preprocessed_list = []
@@ -67,9 +66,9 @@ def preprocess_data(input_path, output_path):
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(preprocessed_list, f, ensure_ascii=False, indent=4)
-        print(f"✅ Preprocessing selesai. Data bersih disimpan di '{output_path}'")
+        print(f"Preprocessing selesai. Disimpan di '{output_path}'")
     except Exception as e:
-        print(f"Error saat menyimpan file output: {e}")
+        print(f"Error : {e}")
 
 
 if __name__ == "__main__":
