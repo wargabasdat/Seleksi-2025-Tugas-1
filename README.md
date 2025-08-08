@@ -21,7 +21,7 @@ __MyAnimeList__ adalah salah satu platform basis data terbesar di dunia untuk ko
 
 Proyek ini bertujuan untuk melakukan ekstraksi data terperinci dari daftar tersebut. Data yang diambil tidak hanya mencakup judul dan peringkat, tetapi juga informasi penting lainnya seperti penulis (author), karakter, genre, dan perusahaan penerbit.
 
-Untuk menyimpan dan mengorganisasi data yang kompleks ini, saya merancang sebuah skema database yang relevan. Alasan utama saya memilih topik ini adalah karena saya gemar membaca manhwa. Namun, akhir-akhir ini, saya kebingungan harus membaca manhwa yang mana yang bagus. Dan saya memilih MyAnimeList sebagai objek *web scraping* adalah karena datanya sangat terstruktur dan konsisten, memungkinkan ekstraksi data yang komprehensif.
+Untuk menyimpan dan mengorganisasi data yang kompleks ini, saya merancang sebuah skema database yang relevan. Alasan utama saya memilih topik ini adalah karena saya gemar membaca manhwa. Namun, akhir-akhir ini, saya kebingungan harus membaca manhwa yang mana yang bagus. Dan saya memilih __MyAnimeList__ sebagai objek *web scraping* adalah karena datanya sangat terstruktur dan konsisten, memungkinkan ekstraksi data yang komprehensif.
 
 Hasil dari proyek ini diharapkan dapat menghasilkan sebuah database yang rapi dan siap untuk dianalisis. Analisis tersebut dapat memberikan wawasan berharga tentang tren manhwa paling populer, korelasi antara skor dengan genre atau penulis, dan menyediakan dataset yang fleksibel untuk berbagai keperluan penelitian atau visualisasi.
 
@@ -209,7 +209,7 @@ Nanti 5 file .JSON akan terekspor
 </div>
 
 ## Data Storing
-
+Kelima file .JSON tadi digabungkan di kode python pada file `PSQLexporter.py`
 
 ## Data Warehouse
 ### 1. Struktur ERD, Diagram Relasional, Fact and Dimension Table
