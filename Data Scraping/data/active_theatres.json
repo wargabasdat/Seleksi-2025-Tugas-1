@@ -1,0 +1,166 @@
+[
+    {
+        "Theatre_name":"Al Hirschfeld Theatre",
+        "Capacity":"1,424"
+    },
+    {
+        "Theatre_name":"Ambassador Theatre (Broadway)",
+        "Capacity":"1,125"
+    },
+    {
+        "Theatre_name":"August Wilson Theatre",
+        "Capacity":"1,228"
+    },
+    {
+        "Theatre_name":"Belasco Theatre (Broadway)",
+        "Capacity":"1,018"
+    },
+    {
+        "Theatre_name":"Bernard B. Jacobs Theatre",
+        "Capacity":"1,078"
+    },
+    {
+        "Theatre_name":"Booth Theatre",
+        "Capacity":"766"
+    },
+    {
+        "Theatre_name":"Broadhurst Theatre",
+        "Capacity":"1,186"
+    },
+    {
+        "Theatre_name":"Broadway Theatre (53rd Street)",
+        "Capacity":"1,761"
+    },
+    {
+        "Theatre_name":"Circle in the Square Theatre",
+        "Capacity":"840"
+    },
+    {
+        "Theatre_name":"Ethel Barrymore Theatre",
+        "Capacity":"1,096"
+    },
+    {
+        "Theatre_name":"Eugene O'Neill Theatre",
+        "Capacity":"1,066"
+    },
+    {
+        "Theatre_name":"Gerald Schoenfeld Theatre",
+        "Capacity":"1,079"
+    },
+    {
+        "Theatre_name":"Gershwin Theatre",
+        "Capacity":"1,933"
+    },
+    {
+        "Theatre_name":"Hayes Theater",
+        "Capacity":"597"
+    },
+    {
+        "Theatre_name":"Hudson Theatre",
+        "Capacity":"975"
+    },
+    {
+        "Theatre_name":"Imperial Theatre",
+        "Capacity":"1,443"
+    },
+    {
+        "Theatre_name":"James Earl Jones Theatre",
+        "Capacity":"1,084"
+    },
+    {
+        "Theatre_name":"John Golden Theatre",
+        "Capacity":"805"
+    },
+    {
+        "Theatre_name":"Lena Horne Theatre",
+        "Capacity":"1,094"
+    },
+    {
+        "Theatre_name":"Longacre Theatre",
+        "Capacity":"1,091"
+    },
+    {
+        "Theatre_name":"Lunt-Fontanne Theatre",
+        "Capacity":"1,519"
+    },
+    {
+        "Theatre_name":"Lyceum Theatre (Broadway)",
+        "Capacity":"922"
+    },
+    {
+        "Theatre_name":"Lyric Theatre (New York City, 1998)",
+        "Capacity":"1,622"
+    },
+    {
+        "Theatre_name":"Majestic Theatre (Broadway)",
+        "Capacity":"1,645"
+    },
+    {
+        "Theatre_name":"Marquis Theatre",
+        "Capacity":"1,612"
+    },
+    {
+        "Theatre_name":"Minskoff Theatre",
+        "Capacity":"1,710"
+    },
+    {
+        "Theatre_name":"Music Box Theatre",
+        "Capacity":"1,009"
+    },
+    {
+        "Theatre_name":"Nederlander Theatre",
+        "Capacity":"1,235"
+    },
+    {
+        "Theatre_name":"Neil Simon Theatre",
+        "Capacity":"1,467"
+    },
+    {
+        "Theatre_name":"New Amsterdam Theatre",
+        "Capacity":"1,747"
+    },
+    {
+        "Theatre_name":"Palace Theatre (New York City)",
+        "Capacity":"1,743"
+    },
+    {
+        "Theatre_name":"Richard Rodgers Theatre",
+        "Capacity":"1,400"
+    },
+    {
+        "Theatre_name":"Samuel J. Friedman Theatre",
+        "Capacity":"650"
+    },
+    {
+        "Theatre_name":"Shubert Theatre (Broadway)",
+        "Capacity":"1,460"
+    },
+    {
+        "Theatre_name":"Stephen Sondheim Theatre",
+        "Capacity":"1,055"
+    },
+    {
+        "Theatre_name":"St. James Theatre",
+        "Capacity":"1,709"
+    },
+    {
+        "Theatre_name":"Studio 54",
+        "Capacity":"1,006"
+    },
+    {
+        "Theatre_name":"Todd Haimes Theatre",
+        "Capacity":"740"
+    },
+    {
+        "Theatre_name":"Vivian Beaumont Theater",
+        "Capacity":"1,080"
+    },
+    {
+        "Theatre_name":"Walter Kerr Theatre",
+        "Capacity":"945"
+    },
+    {
+        "Theatre_name":"Winter Garden Theatre",
+        "Capacity":"1,526"
+    }
+]

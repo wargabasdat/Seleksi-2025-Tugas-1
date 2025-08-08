@@ -1,0 +1,42 @@
+[
+    {
+        "Theatre_name":"Edison Theatre",
+        "Current_use":"Event space",
+        "Last_opened":"1991"
+    },
+    {
+        "Theatre_name":"Ed Sullivan Theater",
+        "Current_use":"Television studio",
+        "Last_opened":"1936"
+    },
+    {
+        "Theatre_name":"Empire Theatre (42nd Street)",
+        "Current_use":"Movie theater",
+        "Last_opened":"1931"
+    },
+    {
+        "Theatre_name":"Liberty Theatre",
+        "Current_use":"Event space",
+        "Last_opened":"1933"
+    },
+    {
+        "Theatre_name":"New Victory Theater",
+        "Current_use":"Off-BroadwayTheatre for Young Audiences",
+        "Last_opened":"1930"
+    },
+    {
+        "Theatre_name":"Sony Hall",
+        "Current_use":"Concert venue",
+        "Last_opened":"1982"
+    },
+    {
+        "Theatre_name":"Mark Hellinger Theatre",
+        "Current_use":"Nondenominational church",
+        "Last_opened":"1989"
+    },
+    {
+        "Theatre_name":"Times Square Theater",
+        "Current_use":"vacant",
+        "Last_opened":"1933"
+    }
+]
