@@ -1,6 +1,6 @@
 # 🍰 Cake Recipes Project – Database Operasional & Data Warehouse
 
-## 📑 Daftar Isi
+## Daftar Isi
 1. [Author](#1-author)
 2. [Deskripsi Singkat](#2-deskripsi-singkat)
 3. [Tools & Teknologi](#3-tools--teknologi)
