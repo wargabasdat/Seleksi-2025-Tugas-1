@@ -3,76 +3,176 @@
   Seleksi Warga Basdat 2025 <br>
   ETL Project
   <br>
+  -- Gacha Game Revenue --
   <br>
 </h1>
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Author
+Bertha Soliany Frandi - 13523026
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+## Overview
+Repositori ini adalah repositori hasil pengerjaan dari seleksi Laboratorium Basdat 2025. Terdapat data scraping, data modeling, dan data scraping yang dilakukan. Topik yang dibawakan adalah revenue untuk gacha game. Data diambil dari (Gacha Revenue Tracker)[https://revenue.ennead.cc/revenue]. Scraping dilakukan dengan python menggunakan selenium dan DBMS yang digunakan adalah MariaDB. Topik dipilih dikarenakan ketertarikan pembuat pada gacha game yang dimana gacha game semakin lama semakin digemari oleh masyarakat, menjadikannya topik yang menarik untuk ditelusuri.
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Prerequisites
+1. Python
+2. MariaDB
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+## How To Run
+1. Clone repositori
+```bash
+git clone https://github.com/BerthaSoliany/Seleksi-2025-Tugas-1.git
+cd Seleksi-2025-Tugas-1
+```
+2. Install prerequisites
+3. Buat virtual environment
+```bash
+python -m venv venv
+```
+4. Aktifkan venv
+```bash
+.\venv\Scripts\activate
+```
+5. Install requirement
+```bash
+pip install -r requirements.txt
+```
+6. (Scrape data)[#scraping]
+7. (Setup database dan masukan data hasil scraping ke database)[#database]
+
+### Scraping
+1. Pergi ke directory data scraping
+```bash
+cd "Data Scraping/src"
+```
+2. Jalankan perintah berikut
+```bash
+python scraper.py
+```
+3. Tunggu program selesai berjalan dan selamat melihat datanya!
+4. Data ada berada pada folder data. Terdapat 4 file, yaitu games.json, metadata.json, regions.json, dan revenue.json
+
+### Database
+1. Pergi ke directory data storing
+```bash
+cd "Data Storing"
+```
+2. Setup database
+```bash
+mysql -u root -p < src/tables.sql
+```
+3. Jalankan importer.py
+```bash
+python "src/importer.py"
+```
+4. Lihat data dengan masuk ke MariaDB
+```bash
+mysql -u root -p
+```
+> [!NOTE]
+> Jika ditanya password, langsung saja tekan tombol spasi karena password tidak di set.
+
+## Struktur JSON
+### games.json
+JSON ini adalah untuk menyimpan data mengenai nama game. Diberikan id untuk masing-masing game agar mempermudah dalam mengambil referensi di file JSON lainnya.
+```json
+[
+    {
+        "game_id": 1,
+        "game_name": "Honkai: Star Rail"
+    },
+]
+```
+
+### regions.json
+JSON ini menyimpan data mengenai region yang dimiliki oleh game-game yang didapat dari hasil scraping.
+```json
+[
+    {
+        "region_id": 1,
+        "region_name": "GLOBAL"
+    },
+]
+```
+
+### revenue.json
+JSON ini menyimpan data mengenai suatu revenue per bulannya.
+```json
+[
+    {
+        "revenue_id": 1,
+        "game_id": 1,
+        "region_id": 1,
+        "month": "Jul_2025",
+        "revenue_text": "$92,450,000",
+        "revenue_value": 92450000.0,
+        "rank": 1,
+        "trend_direction": "up",
+        "trend_value": 14,
+        "currency": "USD",
+        "scraped_at": "2025-08-08T17:04:23.580824Z"
+    }
+]
+```
+
+### metadata.json
+```json
+[
+    {
+        "scraped_at": "2025-08-08T17:33:47.910753",
+        "source_url": "https://revenue.ennead.cc/revenue",
+        "total_games": 139,
+        "total_regions": 5,
+        "total_revenue_records": 1712,
+        "months_extracted": ["Jan_2025", "Feb_2025", ..., "Jul_2025"],
+        "files_created": ["games.json", "regions.json", "revenue.json", "metadata.json"]
+    }
+]
+```
+
+## Entity Relationship Diagram (ERD)
 
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+## Diagram pada DBMS
+```sql
+CREATE TABLE games (
+    game_id INT AUTO_INCREMENT PRIMARY KEY,
+    game_name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE regions (
+    region_id INT AUTO_INCREMENT PRIMARY KEY,
+    region_name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE revenue (
+    revenue_id INT AUTO_INCREMENT PRIMARY KEY,
+    game_id INT NOT NULL,
+    region_id INT NOT NULL,
+    month VARCHAR(255) NOT NULL,
+    revenue_text VARCHAR(50),
+    revenue_value DECIMAL(15,2) DEFAULT 0.00,
+    rank_position INT,
+    trend_direction ENUM('up', 'down', 'stable', 'new') DEFAULT 'stable',
+    trend_value INT,
+    currency VARCHAR(3) DEFAULT 'USD',
+    scraped_at TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (game_id) REFERENCES games(game_id) ON DELETE CASCADE,
+    FOREIGN KEY (region_id) REFERENCES regions(region_id) ON DELETE CASCADE,
+    UNIQUE KEY unique_game_region_month (game_id, region_id, month)
+);
+```
+
+## Proses translasi
+Translasi dilakukan dengan membuat tiap entitas terlebih dahulu. Setelah itu, dilihat pada relasi yang dimiliki setiap entitas, apakah ada yang many-to-many. Jika ya, maka relasi tersebut akan menjadi entitas tersendiri. Berlanjut kepada pendataan atribut untuk setiap entitas. Untuk entitas yang memiliki hubungan one-to-many atau many-to-one, PK pada entitas yang berperan sebagai one akan dimiliki oleh entitas yang berperan sebagai many sebagai FK. Setelah itu ubah menjadi syntax SQL (create table dan sebagainya).
+
+## Screenshot
 
 
-
+## Referensi
+1. (selenium)[http://selenium.dev/]
+2. (gacharevenue)[https://revenue.ennead.cc/revenue]
