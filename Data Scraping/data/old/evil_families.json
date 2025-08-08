@@ -1,0 +1,34 @@
+{
+  "timestamp": "07/08/2025, 17.50.11",
+  "data": [
+    {
+      "name": "Zabi Family",
+      "url": "https://villains.fandom.com/wiki/Zabi_Family",
+      "fullname": "Zabi Family",
+      "alias": "Zabi Family Dictatorship",
+      "origin": "Mobile Suit Gundam",
+      "home_base_of_operations": "Principality of Zeon",
+      "patriarch": "Degwin Sodo Zabi",
+      "matriarch": "Naliss Zabi",
+      "relatives_members": [
+        "Gihren Zabi",
+        "Sasro Zabi",
+        "Kycilia Zabi",
+        "Dozle Zabi",
+        "Garma Zabi",
+        "Zenna Zabi",
+        "Mineva Lao Zabi"
+      ],
+      "goals": "Conquer the Earth Sphere.",
+      "crimes": [
+        "Murder",
+        "Corruption",
+        "Conspiracy",
+        "Genocide",
+        "Abuse of power",
+        "War crimes"
+      ],
+      "type_of_villains": "Totalitarian Aristocrats"
+    }
+  ]
+}

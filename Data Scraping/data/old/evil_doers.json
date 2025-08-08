@@ -1,0 +1,611 @@
+{
+  "timestamp": "07/08/2025, 17.50.11",
+  "data": [
+    {
+      "name": "A (Bungo Stray Dogs)",
+      "url": "https://villains.fandom.com/wiki/A_(Bungo_Stray_Dogs)",
+      "alias": [
+        "A",
+        "Ace"
+      ],
+      "origin": "Bungo Stray Dogs",
+      "occupation": "Port Mafia executive",
+      "skills": [
+        "The Madness of the Jewel King",
+        "Master gambler"
+      ],
+      "goals": [
+        "Overthrow Ougai Mori",
+        "Convince Fyodor Dostoyevsky to join him ."
+      ],
+      "crimes": [
+        "Murder",
+        "Coercion",
+        "Attempted treason",
+        "Kidnapping",
+        "Assault",
+        "Organized crime",
+        "Blackmail",
+        "Abuse"
+      ],
+      "type_of_villain": "Sadistic Gambler"
+    },
+    {
+      "name": "Ba Nan Ji",
+      "url": "https://villains.fandom.com/wiki/Ba_Nan_Ji",
+      "fullname": [
+        "Ba Nan Ji",
+        "Ma Nan Ci"
+      ],
+      "alias": [
+        "馬南慈",
+        "Demon of Ganmon",
+        "Iron Hammer of Ganmon",
+        "Father",
+        "Ba Nan Ji-sama/Lord Ba Nan Ji",
+        "Ba Nan Ji-dono",
+        "General Ba Nan Ji",
+        "General",
+        "Old Man",
+        "Banana, Banana Man",
+        "One Eye"
+      ],
+      "origin": "Kingdom",
+      "occupation": [
+        "Leader of the Ba Nan Ji Army",
+        "Deputy of the Ri Boku Army",
+        "Vassal of Ri Boku",
+        "General in the Zhao Military"
+      ],
+      "skills": [
+        "High Intelligence",
+        "Superhuman Strength",
+        "Superhuman Speed",
+        "Superhuman Durability",
+        "Superhuman Endurance",
+        "Superhuman Reflexes",
+        "Combat Specialist",
+        "Podao Expertise",
+        "Strategy"
+      ],
+      "goals": [
+        "Defend the land of Zhao from invaders.",
+        "Defeat and destroy the armies of Qin.",
+        "Help Ri Boku in placing Ka as the rightful king of Zhao",
+        "Recover strength and one day return to power.",
+        "Prevent the state of Qin from taking and conquering the city of Gyou.",
+        "Kill Ou Sen.",
+        "Kill Ou Hon of the Gyoku Hou and Shin of the Hi Shin Units.",
+        "Prevent the death of Chou Ga Ryuu.",
+        "Kill A Kou, 1st commander of the Ou Sen Army.",
+        "Declare war on the state of Qin.",
+        "Defend the lands of Zhao from the Xiongnu."
+      ],
+      "crimes": [
+        "Mass Murder",
+        "Treason",
+        "Death threats",
+        "Attempted Murder"
+      ],
+      "type_of_villain": [
+        "Thrill Seeking Right-Hand",
+        "Berserk Military Veteran"
+      ]
+    },
+    {
+      "name": "C-Kira",
+      "url": "https://villains.fandom.com/wiki/C-Kira",
+      "alias": [
+        "Cheap Kira",
+        "C-Kira",
+        "Kira"
+      ],
+      "origin": "The C-Kira Story",
+      "skills": "The Death Note",
+      "goals": "Kill the elderly of Japan",
+      "crimes": [
+        "Mass murder",
+        "Assisted suicide"
+      ],
+      "type_of_villain": "Remorseful Serial Killer"
+    },
+    {
+      "name": "D (So I'm a Spider, So What?)",
+      "url": "https://villains.fandom.com/wiki/D_(So_I%27m_a_Spider,_So_What%3F)",
+      "fullname": "Wakaba Hiiro",
+      "alias": [
+        "D",
+        "God of the End",
+        "God of Death",
+        "Evil God",
+        "Queen",
+        "Absolute Paradox",
+        "Baldy"
+      ],
+      "origin": "So I'm a Spider, So What?",
+      "occupation": [
+        "Underworld manager",
+        "Administrator"
+      ],
+      "skills": [
+        "Physical Strength beyond the System",
+        "Intelligence",
+        "Conjuring",
+        "Counter-measure resistance",
+        "Dimensional manipulation",
+        "Item creation",
+        "Aura of terror",
+        "Immortality",
+        "Telepathy",
+        "Darkness",
+        "Stealth",
+        "Miscellaneous skills"
+      ],
+      "goals": "Manage the System and other worlds.",
+      "crimes": [
+        "Soul collection",
+        "Mass murder",
+        "Malefic",
+        "Forced reincarnation"
+      ],
+      "type_of_villain": "Hedonistic Control Freak"
+    },
+    {
+      "name": "E.N.D.",
+      "url": "https://villains.fandom.com/wiki/E.N.D.",
+      "fullname": "Etherious Natsu Dragneel",
+      "alias": [
+        "E.N.D.",
+        "Master E.N.D.",
+        "Natsu Dragneel",
+        "Natsu",
+        "The Strongest, Most Vile Demon in the Book of Zeref",
+        "[The] Monster",
+        "A Superdemon",
+        "One of Zeref's Pathetic Demons",
+        "The Destroyer of All, E.N...",
+        "[Zeref's] Little Brother",
+        "The Ultimate Etherious"
+      ],
+      "origin": "Fairy Tail",
+      "occupation": [
+        "Dragon Slayer Wizard",
+        "Fairy Tail Guild Wizard"
+      ],
+      "skills": [
+        "Intelligence and knowledge",
+        "Hand-to-hand combat and fighting skills",
+        "Indomitable willpower",
+        "Superhuman strength, senses, agility and durability",
+        "Flight",
+        "Human-Dragon hybrid physiology",
+        "Human-Dragon-Demon hybrid physiology",
+        "Transformation Magic",
+        "Fire Magic",
+        "Flame Magic",
+        "Fire Dragon Slayer Magic",
+        "Flame God Slayer Magic",
+        "Time Magic",
+        "Curse Power",
+        "Curses"
+      ],
+      "goals": [
+        "Kill his brother Zeref Dragneel .",
+        "Protect his friends, especially Lucy Heartfilia ."
+      ],
+      "crimes": [
+        "Attempted murder",
+        "Attempted fratricide",
+        "Dark power creation"
+      ],
+      "type_of_villain": "Dissociative Protagonist"
+    },
+    {
+      "name": "Fabiano",
+      "url": "https://villains.fandom.com/wiki/Fabiano",
+      "fullname": "Fabiano",
+      "origin": "Edens Zero",
+      "occupation": [
+        "Agent of the Nero Empire",
+        "Member of the Oceans 6"
+      ],
+      "skills": "Ether Gear",
+      "goals": "Defeat the Nero Empire's enemies.",
+      "crimes": "Participating in a genocidal war",
+      "type_of_villain": "Honorable Enforcer"
+    },
+    {
+      "name": "Ga'aoqi",
+      "url": "https://villains.fandom.com/wiki/Ga%27aoqi",
+      "fullname": "Ga'aoqi",
+      "origin": "Vinland Saga",
+      "occupation": "Warrior for an unknown Tribe",
+      "skills": [
+        "Spear-wielding",
+        "Fighting prowess"
+      ],
+      "goals": "Pillage the homes from the Nords in order to find a sword.",
+      "crimes": [
+        "Serial murder",
+        "Theft",
+        "Pillaging"
+      ],
+      "type_of_villain": "Opportunistic Warmonger"
+    },
+    {
+      "name": "H.N. Elly",
+      "url": "https://villains.fandom.com/wiki/H.N._Elly",
+      "fullname": [
+        "Kirstein",
+        "The Box Witch"
+      ],
+      "alias": "H.N. Elly",
+      "origin": "Puella Magi Madoka Magica",
+      "occupation": "Witch",
+      "skills": "Marking Humans with her \"kiss\"",
+      "crimes": [
+        "Driving people to suicide",
+        "Torture"
+      ],
+      "type_of_villain": "Fallen Hero"
+    },
+    {
+      "name": "I (Shin Kamen Rider)",
+      "url": "https://villains.fandom.com/wiki/I_(Shin_Kamen_Rider)",
+      "fullname": "I",
+      "alias": "The Great Leader",
+      "origin": "Shin Kamen Rider",
+      "occupation": "Leader of Shocker",
+      "skills": [
+        "High intelligence",
+        "Vast computational capability"
+      ],
+      "goals": "Guide humanity to achieve \"happiness\" by any means.",
+      "crimes": [
+        "Kidnapping",
+        "Unethical experimentation"
+      ],
+      "type_of_villain": "Artificial Intelligence"
+    },
+    {
+      "name": "J. Geil",
+      "url": "https://villains.fandom.com/wiki/J._Geil",
+      "fullname": [
+        "John Geil",
+        "John Gail",
+        "John Guile",
+        "John Gale"
+      ],
+      "alias": [
+        "J. Geil",
+        "J. Gail",
+        "J. Guile",
+        "J. Gale",
+        "Centerfold",
+        "The Double Right-Handed Man",
+        "The Man With Two Right Hands",
+        "Assassin Reflected in the Mirror"
+      ],
+      "origin": "JoJo's Bizarre Adventure: Stardust Crusaders",
+      "occupation": [
+        "Serial killer",
+        "Mercenary"
+      ],
+      "skills": [
+        "Hanged Man:",
+        "Attacking his enemies' reflections",
+        "Invincibility while in a reflection",
+        "Knifesmanship",
+        "Luminal speed"
+      ],
+      "goals": [
+        "Rape as many women as he can .",
+        "Kill Polnareff and the rest of the crusaders ."
+      ],
+      "crimes": [
+        "Serial murder",
+        "Serial rape",
+        "Pedophilia",
+        "Assault",
+        "Attempted incrimination"
+      ],
+      "type_of_villain": "Sadistic Serial Killer"
+    },
+    {
+      "name": "K (Bloody Monday)",
+      "url": "https://villains.fandom.com/wiki/K_(Bloody_Monday)",
+      "fullname": "Anzai Mako",
+      "alias": "K, Anko, High Priest K",
+      "origin": "Bloody Monday (manga series)",
+      "occupation": "newspaper club, cult leader",
+      "skills": "charisma, deception, technology",
+      "goals": "Break the cult leader Kamishima Shimon out of prison (stated)Take Shimon's place as cult leader (succeeded), Activate a neutron bomb killing everyone in Tokyo (failed)",
+      "type_of_villain": "Terrorist, Dark Messiah"
+    },
+    {
+      "name": "L'Arc Berg",
+      "url": "https://villains.fandom.com/wiki/L%27Arc_Berg",
+      "fullname": "L'Arc Berg Sickle",
+      "alias": [
+        "L'Arc",
+        "Boy",
+        "The Scythe Hero",
+        "Young Master"
+      ],
+      "origin": "The Rising of the Shield Hero",
+      "occupation": [
+        "Hunting Hero",
+        "King of an unnamed country"
+      ],
+      "skills": "Charisma",
+      "goals": [
+        "Kill Naofumi and his party and destroy their world to save his own .",
+        "Reunite with Kizuna.",
+        "Help Naofumi and the other cardinal heroes save the Eight Worlds .",
+        "Run and protect his country.",
+        "Be with Therese ."
+      ],
+      "crimes": [
+        "Attempted mass murder",
+        "Conspiracy"
+      ],
+      "type_of_villain": "Tragic Extremist"
+    },
+    {
+      "name": "Maashiima",
+      "url": "https://villains.fandom.com/wiki/Maashiima"
+    },
+    {
+      "name": "N (Pokémon)",
+      "url": "https://villains.fandom.com/wiki/N_(Pok%C3%A9mon)",
+      "fullname": "Natural Harmonia Gropius",
+      "alias": [
+        "N",
+        "King N",
+        "Freak Without a Human Heart"
+      ],
+      "origin": [
+        "Pokémon Black",
+        "Pokémon White"
+      ],
+      "occupation": [
+        "Leader and false king of Team Plasma",
+        "Wandering Pokémon trainer"
+      ],
+      "skills": [
+        "Pokémon training expertise",
+        "Ability to communicate with other Pokémon",
+        "Charisma"
+      ],
+      "goals": [
+        "Forever separate Pokémon and Humans from each other .",
+        "Help Nate and Ghetsis fight off Giovanni.",
+        "Assist in the defense of Pasio against Team Rocket ."
+      ],
+      "crimes": [
+        "Attempting to force everyone to release their Pokémon",
+        "Oppression",
+        "Conspiracy"
+      ],
+      "type_of_villain": "Honorable Freedom Fighter"
+    },
+    {
+      "name": "Obed Marsh",
+      "url": "https://villains.fandom.com/wiki/Obed_Marsh",
+      "fullname": "Obed Marsh",
+      "alias": "Captain Obed",
+      "origin": "The Shadow Over Innsmouth",
+      "occupation": [
+        "Captain",
+        "Leader of the Esoteric Order of Dagon"
+      ],
+      "skills": [
+        "Oratory",
+        "Knowledge of black rites"
+      ],
+      "goals": "Continue profiting from sacrifice to the Deep Ones",
+      "crimes": [
+        "Human sacrifice",
+        "Rape by proxy"
+      ],
+      "type_of_villain": "Greedy Dark Priest"
+    },
+    {
+      "name": "Page One",
+      "url": "https://villains.fandom.com/wiki/Page_One",
+      "fullname": "Page One",
+      "alias": [
+        "Pay-Pay",
+        "Page One-sama"
+      ],
+      "origin": "One Piece",
+      "occupation": [
+        "Pirate",
+        "Shinuchi",
+        "Member of the Beast Pirates",
+        "Member of the Tobiroppo",
+        "Yamato's Follower"
+      ],
+      "skills": [
+        "Haki User",
+        "Dragon-Dragon Fruit, Model: Spinosaurus",
+        "Ryu Ryu no Mi, Model: Spinosaurus"
+      ],
+      "goals": [
+        "Assist his crew.",
+        "Kill Sanji and Usopp .",
+        "Serving Yamato"
+      ],
+      "crimes": [
+        "Piracy",
+        "Attempted murders",
+        "Mass property damage",
+        "Animal cruelty",
+        "Conspiracy"
+      ],
+      "type_of_villain": "Sibling Pirate"
+    },
+    {
+      "name": "Ra-Dorudo-Gu",
+      "url": "https://villains.fandom.com/wiki/Ra-Dorudo-Gu",
+      "fullname": "Ra-Dorudo-Gu",
+      "alias": "Unidentified Life Form #8",
+      "origin": "Kamen Rider Kuuga",
+      "occupation": [
+        "Member of the Ra Group of the Gurongi",
+        "Judge of the Gurongi Game"
+      ],
+      "goals": "Ensure the commencement of the Gegeru.",
+      "crimes": "Instigating Mass Murder",
+      "type_of_villain": "Right-Hand"
+    },
+    {
+      "name": "S-Hawk",
+      "url": "https://villains.fandom.com/wiki/S-Hawk",
+      "fullname": "S-Hawk",
+      "alias": "Hawk-eyes",
+      "origin": "One Piece",
+      "occupation": "Seraphim",
+      "skills": [
+        "Superhuman strength",
+        "Superhuman speed",
+        "Swordsmanship",
+        "Shape-shifting"
+      ],
+      "goals": "Complete his mission as ordered by whoever orders him to complete it.",
+      "crimes": [
+        "Assault",
+        "Attempted murder"
+      ],
+      "type_of_villain": "Clone Swordsman"
+    },
+    {
+      "name": "Tabitha (Pokémon)",
+      "url": "https://villains.fandom.com/wiki/Tabitha_(Pok%C3%A9mon)",
+      "fullname": [
+        "Tabitha",
+        "Harlan",
+        "Homura",
+        "Kalle",
+        "Tatiano",
+        "Kelvin",
+        "Ottavio",
+        "Hogeol"
+      ],
+      "alias": "Field Commander Harlan",
+      "origin": "Pokémon",
+      "occupation": [
+        "Admin of Team Magma",
+        "Scientist"
+      ],
+      "skills": [
+        "Training Pokémon",
+        "Scientifical knowledge"
+      ],
+      "goals": [
+        "Capturing Groudon in order to expand the lands.",
+        "Getting a promotion .",
+        "Protecting Pasio from Team Rocket ."
+      ],
+      "crimes": [
+        "Theft",
+        "Terrorism"
+      ],
+      "type_of_villain": "Enigmatic Right-Hand"
+    },
+    {
+      "name": "Ubik",
+      "url": "https://villains.fandom.com/wiki/Ubik",
+      "fullname": "Ubik",
+      "origin": "Berserk",
+      "occupation": "Member of the God Hand",
+      "skills": [
+        "Reality warping",
+        "Illusory powers",
+        "Immortality",
+        "Levitation"
+      ],
+      "goals": [
+        "Serve The Idea of Evil and its purpose of giving reason for humanity's suffering.",
+        "Maintain and enforce the Law of Causality."
+      ],
+      "crimes": [
+        "Psychological torture",
+        "Mass murder",
+        "Mass human sacrifice",
+        "Corruption",
+        "Terrorism"
+      ],
+      "type_of_villain": "Deal-Making Trickster"
+    },
+    {
+      "name": "X (Dice)",
+      "url": "https://villains.fandom.com/wiki/X_(Dice)",
+      "alias": [
+        "X",
+        "Game Master"
+      ],
+      "origin": "DICE",
+      "occupation": "Game master",
+      "skills": [
+        "Auto-teleportation",
+        "Time-stop",
+        "Telekinesis",
+        "Duplicating",
+        "Pocket dimension creation",
+        "Reality-warping",
+        "Flying",
+        "Wish granting",
+        "High-intelligence",
+        "Semi-omniscient",
+        "Immortality",
+        "Power bestowing"
+      ],
+      "goals": [
+        "Put as many as \"DICERS\" into chaotic situations to observe their reactions",
+        "Defeat the protagonist"
+      ],
+      "crimes": [
+        "Harassing",
+        "Murder",
+        "Manipulating",
+        "Hacking",
+        "Putting individuals into his twisted games and observe to see the final results"
+      ],
+      "type_of_villain": "Tragic Cosmic Entity"
+    },
+    {
+      "name": "Yachiru Unohana",
+      "url": "https://villains.fandom.com/wiki/Yachiru_Unohana",
+      "fullname": "Yachiru Unohana",
+      "alias": [
+        "Retsu Unohana",
+        "Captain Unohana",
+        "The First Kenpachi",
+        "Kenpachi Unohana",
+        "Death Sword"
+      ],
+      "origin": "Bleach",
+      "occupation": [
+        "Criminal",
+        "1st Kenpachi/1st Captain of 11th division",
+        "Captain of 4th division",
+        "President of Ikebana club"
+      ],
+      "skills": [
+        "Master swordsmanship",
+        "Master healer",
+        "Master of Kidō",
+        "Immense spiritual power",
+        "Wisdom",
+        "Charisma"
+      ],
+      "goals": [
+        "Find someone that can rival her .",
+        "Die at Kenpachi Zaraki's hands for atone her \"sin\" and test his power progression ."
+      ],
+      "crimes": "Serial murder",
+      "type_of_villain": "Redeemed Serial Killer"
+    }
+  ]
+}
