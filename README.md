@@ -1,78 +1,277 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2025 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# 🍰 Cake Recipes Project – Database Operasional & Data Warehouse
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## 📑 Daftar Isi
+1. [Author](#1-author)
+2. [Deskripsi Singkat](#2-deskripsi-singkat)
+3. [Tools & Teknologi](#3-tools--teknologi)
+4. [Cara Menggunakan Scraper & Transformasi Data](#4-cara-menggunakan-scraper--transformasi-data)
+5. [Struktur File JSON](#5-struktur-file-json)
+6. [Database Operasional](#6-database-operasional)
+   - [Struktur Tabel](#struktur-tabel-database-operasional)
+   - [ERD & Diagram Relasional](#erd--diagram-relasional)
+   - [Translasi ERD ke Diagram Relasional](#translasi-erd-ke-diagram-relasional)
+7. [Data Warehouse](#7-data-warehouse)
+   - [Struktur Tabel](#struktur-tabel-data-warehouse)
+   - [ERD & Star Schema](#erd--star-schema)
+   - [Translasi ERD ke Data Warehouse](#translasi-erd-ke-data-warehouse)
+8. [Screenshot Program](#8-screenshot-program)
+9. [Referensi](#9-referensi)
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+---
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## 1. Author
+- **Nama**: Matilda Angelina Sumaryo  
+- **NIM**: 18223125  
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+---
+
+## 2. Deskripsi Singkat
+Proyek ini membangun **sistem pengelolaan data resep kue** dengan alur:
+1. **Scraping data** dari situs resep kue.
+2. **Penyimpanan data** ke **Database Operasional (MySQL)**.
+3. **Proses ETL** untuk mentransformasi data ke **Data Warehouse**.
+4. **Analisis berbasis Star Schema**.
+
+Topik resep kue dipilih karena:
+- Data terstruktur (kategori, bahan, instruksi).
+- Cocok untuk latihan **ETL** dan **pemodelan data warehouse**.
+
+**DBMS**: MySQL (untuk database operasional & data warehouse).
+
+---
+
+## 3. Tools & Teknologi
+- **Python**: `pandas`, `sqlalchemy`, `pymysql`, `requests`, `BeautifulSoup`
+- **MySQL**: Database Operasional & Data Warehouse
+- **VSCode**: Pengembangan
+
+---
+
+## 4. Cara Menggunakan Scraper & Transformasi Data
+1. Install Python 3.
+2. Install library:
+   ```bash
+   pip install requests beautifulsoup4 pandas sqlalchemy pymysql
+   ```
+3. Jalankan scraper:
+   ```bash
+   python "Data Scraping/src/scrape_code.py"
+   ```
+4. Hasil scraping tersimpan di `Data Scraping/data`:
+   - `categories.json`
+   - `ingredients.json`
+   - `instructions.json`
+   - `recipes.json`
+5. Masukkan data ke **Database Operasional**:
+   - Jalankan `Data Storing/src/create.sql`
+   - Jalankan `Data Storing/src/insert_data.py`
+6. Bangun **Data Warehouse**:
+   - Jalankan `Data Warehouse/src/create.sql`
+   - Jalankan `Data Warehouse/src/etl_db_to_dw.py`
+
+---
+
+## 5. Struktur File JSON
+### `categories.json`
+| Kolom         | Tipe Data | Keterangan |
+| ------------- | --------- | ---------- |
+| category_id   | integer   | ID kategori unik |
+| name          | string    | Nama kategori |
+| description   | string    | Deskripsi kategori |
+
+### `ingredients.json`
+| Kolom         | Tipe Data | Keterangan |
+| ------------- | --------- | ---------- |
+| ingredient_id | integer   | ID bahan unik |
+| recipe_id     | integer   | ID resep terkait |
+| name          | string    | Nama bahan |
+| quantity      | string    | Jumlah bahan |
+| unit          | string    | Satuan |
+| text          | string    | Teks bahan asli |
+
+### `instructions.json`
+| Kolom         | Tipe Data | Keterangan |
+| ------------- | --------- | ---------- |
+| instruction_id| integer   | ID langkah unik |
+| recipe_id     | integer   | ID resep terkait |
+| step_number   | integer   | Urutan langkah |
+| text          | string    | Isi instruksi |
+
+### `recipes.json`
+| Kolom         | Tipe Data | Keterangan |
+| ------------- | --------- | ---------- |
+| recipe_id     | integer   | ID resep unik |
+| recipe_name   | string    | Nama resep |
+| description   | string    | Deskripsi resep |
+| author        | string    | Penulis resep |
+| url           | string    | Link sumber |
+| published_date| string    | Tanggal publikasi |
+| image_url     | string    | Link gambar |
+| prep_time     | string    | Waktu persiapan |
+| cook_time     | string    | Waktu memasak |
+| chill_time    | string    | Waktu pendinginan |
+| total_time    | string    | Total waktu |
+| servings      | string    | Jumlah porsi |
+| scraped_at    | string    | Timestamp scraping |
+| ingredients_count | integer | Jumlah bahan |
+| instructions_count| integer | Jumlah langkah |
+| category_name | string    | Nama kategori |
+
+---
+
+## 6. Database Operasional
+
+### Struktur Tabel Database Operasional
+#### `categories`
+| Kolom | Tipe Data | Keterangan |
+| ----- | --------- | ---------- |
+| category_id | int (PK) | ID kategori unik |
+| name | varchar | Nama kategori |
+| description | text | Deskripsi kategori |
+
+#### `recipes`
+| Kolom | Tipe Data | Keterangan |
+| ----- | --------- | ---------- |
+| recipe_id | int (PK) | ID resep unik |
+| title | varchar | Judul resep |
+| description | text | Deskripsi resep |
+| author | varchar | Penulis resep |
+| url | varchar | Link sumber |
+| published_date | date | Tanggal publikasi |
+| image_url | varchar | Link gambar |
+| prep_time | varchar | Waktu persiapan |
+| cook_time | varchar | Waktu memasak |
+| chill_time | varchar | Waktu pendinginan |
+| total_time | varchar | Total waktu |
+| servings | varchar | Jumlah porsi |
+| scraped_at | timestamp | Timestamp scraping |
+| category_id | int (FK) | Kategori resep |
+
+#### `ingredients`
+| Kolom | Tipe Data | Keterangan |
+| ----- | --------- | ---------- |
+| ingredient_id | int (PK) | ID bahan unik |
+| recipe_id | int (FK) | Resep terkait |
+| quantity | decimal | Jumlah bahan |
+| unit | varchar | Satuan |
+| name | text | Nama bahan |
+
+#### `instructions`
+| Kolom | Tipe Data | Keterangan |
+| ----- | --------- | ---------- |
+| instruction_id | int (PK) | ID langkah unik |
+| recipe_id | int (FK) | Resep terkait |
+| step_number | int | Urutan langkah |
+| text | text | Isi langkah |
+
+---
+
+### ERD & Diagram Relasional
+**ERD:**  
+![ERD](Data%20Storing/design/cake_recipes_db-erd.drawio.png)  
+
+**Diagram Relasional:**  
+![Relational Model](Data%20Storing/design/cake_recipes_db-model-relational.drawio.png)  
+
+---
+
+### Translasi ERD ke Diagram Relasional
+1. Entity → tabel.
+2. Attribute → kolom tabel.
+3. Primary Key → PK.
+4. Relationship → FK.
+5. Kardinalitas menentukan apakah perlu tabel tambahan.
+
+---
+
+## 7. Data Warehouse
+
+### Struktur Tabel Data Warehouse
+#### Dimensi
+- ### `dim_categories`
+| Kolom        | Tipe Data                                                          | Keterangan         |
+| ------------ | ------------------------------------------------------------------ | ------------------ |
+| category\_id | INT (PK, AUTO\_INCREMENT)                                          | ID unik kategori   |
+| name         | VARCHAR(100), UNIQUE, NOT NULL                                     | Nama kategori      |
+| description  | TEXT                                                               | Deskripsi kategori |
+| created\_at  | TIMESTAMP, default CURRENT\_TIMESTAMP                              | Waktu dibuat       |
+| updated\_at  | TIMESTAMP, default CURRENT\_TIMESTAMP ON UPDATE CURRENT\_TIMESTAMP | Waktu diperbarui   |
+
+- ### `dim_recipes`
+| Kolom               | Tipe Data                                                          | Keterangan                                     |
+| ------------------- | ------------------------------------------------------------------ | ---------------------------------------------- |
+| recipe\_id          | INT (PK)                                                           | ID unik resep                                  |
+| url                 | TEXT                                                               | URL sumber resep                               |
+| title               | VARCHAR(255), NOT NULL                                             | Judul resep                                    |
+| description         | TEXT                                                               | Deskripsi resep                                |
+| scraped\_at         | VARCHAR(128)                                                       | Waktu scraping                                 |
+| difficulty\_level   | VARCHAR(50)                                                        | Tingkat kesulitan resep (field tambahan di DW) |
+| author              | VARCHAR(100)                                                       | Nama penulis resep                             |
+| image\_url          | TEXT                                                               | URL gambar resep                               |
+| published\_date     | VARCHAR(128)                                                       | Tanggal publikasi                              |
+| ingredients\_count  | INT                                                                | Jumlah bahan                                   |
+| instructions\_count | INT                                                                | Jumlah langkah                                 |
+| created\_at         | TIMESTAMP, default CURRENT\_TIMESTAMP                              | Waktu dibuat                                   |
+| updated\_at         | TIMESTAMP, default CURRENT\_TIMESTAMP ON UPDATE CURRENT\_TIMESTAMP | Waktu diperbarui                               |
+
+- ### `dim_ingredients`
+| Kolom          | Tipe Data                                                          | Keterangan       |
+| -------------- | ------------------------------------------------------------------ | ---------------- |
+| ingredient\_id | INT                                                                | ID unik bahan    |
+| recipe\_id     | INT (FK → dim\_recipes.recipe\_id)                                 | ID resep terkait |
+| quantity       | DECIMAL(10,2)                                                      | Jumlah bahan     |
+| unit           | VARCHAR(50)                                                        | Satuan bahan     |
+| name           | TEXT                                                               | Nama bahan       |
+| created\_at    | TIMESTAMP, default CURRENT\_TIMESTAMP                              | Waktu dibuat     |
+| updated\_at    | TIMESTAMP, default CURRENT\_TIMESTAMP ON UPDATE CURRENT\_TIMESTAMP | Waktu diperbarui |
+
+- ### `fact_recipes`
+| Kolom               | Tipe Data                                                          | Keterangan                |
+| ------------------- | ------------------------------------------------------------------ | ------------------------- |
+| recipe\_id          | INT (PK, FK → dim\_recipes.recipe\_id)                             | ID resep                  |
+| category            | VARCHAR(100), FK → dim\_categories.name                            | Nama kategori             |
+| chill\_time         | INT                                                                | Waktu pendinginan (menit) |
+| prep\_time          | INT                                                                | Waktu persiapan (menit)   |
+| cook\_time          | INT                                                                | Waktu memasak (menit)     |
+| servings            | INT                                                                | Jumlah porsi              |
+| total\_time         | INT                                                                | Total waktu (menit)       |
+| ingredients\_count  | INT                                                                | Jumlah bahan              |
+| instructions\_count | INT                                                                | Jumlah langkah            |
+| created\_at         | TIMESTAMP, default CURRENT\_TIMESTAMP                              | Waktu dibuat              |
+| updated\_at         | TIMESTAMP, default CURRENT\_TIMESTAMP ON UPDATE CURRENT\_TIMESTAMP | Waktu diperbarui          |
 
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+### ERD & Star Schema
+![ERD DW](Data%20Warehouse/design/datawrehouse_erd.png)  
+![Star Schema](Data%20Warehouse/design/datawarehouse_star_schema.png)  
 
+---
 
+### Translasi ERD ke Data Warehouse
+1. Entity → tabel dimensi/fakta.
+2. PK dimensi → FK di fakta.
+3. Atribut deskriptif di dimensi.
+4. Atribut terukur di fakta.
 
+---
+
+## 8. Screenshot Program
+**Database Operasional:**  
+![DB Screenshot 1](Data%20Storing/screenshot/Screenshot%202025-08-04%20155512.png)  
+![DB Screenshot 2](Data%20Storing/screenshot/Screenshot%202025-08-04%20155611.png)  
+
+**Data Warehouse:**  
+![DW Screenshot 1](Data%20Warehouse/screenshot/Screenshot%202025-08-08%20111831.png)  
+![DW Screenshot 2](Data%20Warehouse/screenshot/Screenshot%202025-08-08%20111844.png)  
+
+---
+
+## 9. Referensi
+- **Library Python**:
+  - `requests` → HTTP request
+  - `beautifulsoup4` → Parsing HTML
+  - `json` untuk menyimpan hasil scraping
+  - `sqlalchemy`,`mysql.connector`, `pymysql` → Koneksi MySQL
+
+- **Sumber Data**:
+  - [Shugary Sweets](https://www.shugarysweets.com) – sumber resep kue populer
