@@ -1,0 +1,1619 @@
+[
+    {
+        "id": 1,
+        "peringkat": "1",
+        "nama": "Mount Everest",
+        "ketinggian_m": 8849,
+        "id_pegunungan": 1,
+        "lintang": 27.983333333333334,
+        "bujur": 86.91666666666667,
+        "id_negara": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 2,
+        "peringkat": "1",
+        "nama": "Sagarmatha",
+        "ketinggian_m": 8849,
+        "id_pegunungan": 1,
+        "lintang": 27.983333333333334,
+        "bujur": 86.91666666666667,
+        "id_negara": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 3,
+        "peringkat": "1",
+        "nama": "Chomolungma",
+        "ketinggian_m": 8849,
+        "id_pegunungan": 1,
+        "lintang": 27.983333333333334,
+        "bujur": 86.91666666666667,
+        "id_negara": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 4,
+        "peringkat": "2",
+        "nama": "K2",
+        "ketinggian_m": 8611,
+        "id_pegunungan": 2,
+        "lintang": 35.86666666666667,
+        "bujur": 76.5,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 5,
+        "peringkat": "3",
+        "nama": "Kangchenjunga",
+        "ketinggian_m": 8586,
+        "id_pegunungan": 3,
+        "lintang": 27.7,
+        "bujur": 88.13333333333334,
+        "id_negara": [
+            1,
+            4
+        ]
+    },
+    {
+        "id": 6,
+        "peringkat": "4",
+        "nama": "Lhotse",
+        "ketinggian_m": 8516,
+        "id_pegunungan": 1,
+        "lintang": 27.95,
+        "bujur": 86.91666666666667,
+        "id_negara": [
+            2,
+            1
+        ]
+    },
+    {
+        "id": 7,
+        "peringkat": "5",
+        "nama": "Makalu",
+        "ketinggian_m": 8485,
+        "id_pegunungan": 1,
+        "lintang": 27.883333333333333,
+        "bujur": 87.08333333333333,
+        "id_negara": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 8,
+        "peringkat": "6",
+        "nama": "Cho Oyu",
+        "ketinggian_m": 8188,
+        "id_pegunungan": 1,
+        "lintang": 28.083333333333332,
+        "bujur": 86.65,
+        "id_negara": [
+            2,
+            1
+        ]
+    },
+    {
+        "id": 9,
+        "peringkat": "7",
+        "nama": "Dhaulagiri I",
+        "ketinggian_m": 8167,
+        "id_pegunungan": 4,
+        "lintang": 28.683333333333334,
+        "bujur": 83.48333333333333,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 10,
+        "peringkat": "8",
+        "nama": "Manaslu",
+        "ketinggian_m": 8163,
+        "id_pegunungan": 5,
+        "lintang": 28.55,
+        "bujur": 84.55,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 11,
+        "peringkat": "9",
+        "nama": "Nanga Parbat",
+        "ketinggian_m": 8126,
+        "id_pegunungan": 6,
+        "lintang": 35.233333333333334,
+        "bujur": 74.58333333333333,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 12,
+        "peringkat": "10",
+        "nama": "Annapurna I",
+        "ketinggian_m": 8091,
+        "id_pegunungan": 7,
+        "lintang": 28.583333333333332,
+        "bujur": 83.81666666666666,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 13,
+        "peringkat": "11",
+        "nama": "Gasherbrum I",
+        "ketinggian_m": 8080,
+        "id_pegunungan": 2,
+        "lintang": 35.71666666666667,
+        "bujur": 76.68333333333334,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 14,
+        "peringkat": "11",
+        "nama": "Hidden Peak",
+        "ketinggian_m": 8080,
+        "id_pegunungan": 2,
+        "lintang": 35.71666666666667,
+        "bujur": 76.68333333333334,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 15,
+        "peringkat": "11",
+        "nama": "K5",
+        "ketinggian_m": 8080,
+        "id_pegunungan": 2,
+        "lintang": 35.71666666666667,
+        "bujur": 76.68333333333334,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 16,
+        "peringkat": "12",
+        "nama": "Broad Peak",
+        "ketinggian_m": 8051,
+        "id_pegunungan": 2,
+        "lintang": 35.8,
+        "bujur": 76.56666666666666,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 17,
+        "peringkat": "13",
+        "nama": "Gasherbrum II",
+        "ketinggian_m": 8035,
+        "id_pegunungan": 2,
+        "lintang": 35.75,
+        "bujur": 76.65,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 18,
+        "peringkat": "13",
+        "nama": "K4",
+        "ketinggian_m": 8035,
+        "id_pegunungan": 2,
+        "lintang": 35.75,
+        "bujur": 76.65,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 19,
+        "peringkat": "14",
+        "nama": "Shishapangma",
+        "ketinggian_m": 8027,
+        "id_pegunungan": 8,
+        "lintang": 28.35,
+        "bujur": 85.76666666666667,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 20,
+        "peringkat": "14",
+        "nama": "Gosainthan",
+        "ketinggian_m": 8027,
+        "id_pegunungan": 8,
+        "lintang": 28.35,
+        "bujur": 85.76666666666667,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 21,
+        "peringkat": "15",
+        "nama": "Gyachung Kang",
+        "ketinggian_m": 7952,
+        "id_pegunungan": 1,
+        "lintang": 28.083333333333332,
+        "bujur": 86.73333333333333,
+        "id_negara": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 22,
+        "peringkat": "16",
+        "nama": "Annapurna II",
+        "ketinggian_m": 7937,
+        "id_pegunungan": 7,
+        "lintang": 28.533333333333335,
+        "bujur": 84.11666666666666,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 23,
+        "peringkat": "17",
+        "nama": "Gasherbrum IV",
+        "ketinggian_m": 7932,
+        "id_pegunungan": 2,
+        "lintang": 35.75,
+        "bujur": 76.6,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 24,
+        "peringkat": "17",
+        "nama": "K3",
+        "ketinggian_m": 7932,
+        "id_pegunungan": 2,
+        "lintang": 35.75,
+        "bujur": 76.6,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 25,
+        "peringkat": "18",
+        "nama": "Himalchuli",
+        "ketinggian_m": 7893,
+        "id_pegunungan": 5,
+        "lintang": 28.433333333333334,
+        "bujur": 84.63333333333334,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 26,
+        "peringkat": "19",
+        "nama": "Distaghil Sar",
+        "ketinggian_m": 7884,
+        "id_pegunungan": 9,
+        "lintang": 36.31666666666667,
+        "bujur": 75.18333333333334,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 27,
+        "peringkat": "20",
+        "nama": "Ngadi Chuli",
+        "ketinggian_m": 7871,
+        "id_pegunungan": 5,
+        "lintang": 28.5,
+        "bujur": 84.56666666666666,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 28,
+        "peringkat": "21",
+        "nama": "Khunyang Chhish",
+        "ketinggian_m": 7823,
+        "id_pegunungan": 9,
+        "lintang": 36.2,
+        "bujur": 75.2,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 29,
+        "peringkat": "22",
+        "nama": "Masherbrum",
+        "ketinggian_m": 7821,
+        "id_pegunungan": 10,
+        "lintang": 35.63333333333333,
+        "bujur": 76.3,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 30,
+        "peringkat": "22",
+        "nama": "K1",
+        "ketinggian_m": 7821,
+        "id_pegunungan": 10,
+        "lintang": 35.63333333333333,
+        "bujur": 76.3,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 31,
+        "peringkat": "23",
+        "nama": "Nanda Devi",
+        "ketinggian_m": 7816,
+        "id_pegunungan": 11,
+        "lintang": 30.366666666666667,
+        "bujur": 79.96666666666667,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 32,
+        "peringkat": "24",
+        "nama": "Chomo Lonzo",
+        "ketinggian_m": 7804,
+        "id_pegunungan": 1,
+        "lintang": 27.916666666666668,
+        "bujur": 87.1,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 33,
+        "peringkat": "25",
+        "nama": "Batura Sar",
+        "ketinggian_m": 7795,
+        "id_pegunungan": 12,
+        "lintang": 36.5,
+        "bujur": 74.51666666666667,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 34,
+        "peringkat": "26",
+        "nama": "Rakaposhi",
+        "ketinggian_m": 7788,
+        "id_pegunungan": 13,
+        "lintang": 36.13333333333333,
+        "bujur": 74.48333333333333,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 35,
+        "peringkat": "27",
+        "nama": "Namcha Barwa",
+        "ketinggian_m": 7782,
+        "id_pegunungan": 14,
+        "lintang": 29.616666666666667,
+        "bujur": 95.05,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 36,
+        "peringkat": "28",
+        "nama": "Kanjut Sar",
+        "ketinggian_m": 7760,
+        "id_pegunungan": 9,
+        "lintang": 36.2,
+        "bujur": 75.41666666666667,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 37,
+        "peringkat": "29",
+        "nama": "Kamet",
+        "ketinggian_m": 7756,
+        "id_pegunungan": 11,
+        "lintang": 30.916666666666668,
+        "bujur": 79.58333333333333,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 38,
+        "peringkat": "30",
+        "nama": "Dhaulagiri II",
+        "ketinggian_m": 7751,
+        "id_pegunungan": 4,
+        "lintang": 28.75,
+        "bujur": 83.38333333333334,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 39,
+        "peringkat": "31",
+        "nama": "Saltoro Kangri",
+        "ketinggian_m": 7742,
+        "id_pegunungan": 15,
+        "lintang": 35.38333333333333,
+        "bujur": 76.83333333333333,
+        "id_negara": [
+            3,
+            4
+        ]
+    },
+    {
+        "id": 40,
+        "peringkat": "31",
+        "nama": "K10",
+        "ketinggian_m": 7742,
+        "id_pegunungan": 15,
+        "lintang": 35.38333333333333,
+        "bujur": 76.83333333333333,
+        "id_negara": [
+            3,
+            4
+        ]
+    },
+    {
+        "id": 41,
+        "peringkat": "32",
+        "nama": "Kumbhakarna",
+        "ketinggian_m": 7711,
+        "id_pegunungan": 3,
+        "lintang": 27.666666666666668,
+        "bujur": 88.03333333333333,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 42,
+        "peringkat": "32",
+        "nama": "Jannu",
+        "ketinggian_m": 7711,
+        "id_pegunungan": 3,
+        "lintang": 27.666666666666668,
+        "bujur": 88.03333333333333,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 43,
+        "peringkat": "33",
+        "nama": "Tirich Mir",
+        "ketinggian_m": 7708,
+        "id_pegunungan": 16,
+        "lintang": 36.25,
+        "bujur": 71.83333333333333,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 44,
+        "peringkat": "34",
+        "nama": "Gurla Mandhata",
+        "ketinggian_m": 7694,
+        "id_pegunungan": 17,
+        "lintang": 30.433333333333334,
+        "bujur": 81.28333333333333,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 45,
+        "peringkat": "35",
+        "nama": "Saser KangriI",
+        "ketinggian_m": 7672,
+        "id_pegunungan": 18,
+        "lintang": 34.86666666666667,
+        "bujur": 77.75,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 46,
+        "peringkat": "35",
+        "nama": "K22",
+        "ketinggian_m": 7672,
+        "id_pegunungan": 18,
+        "lintang": 34.86666666666667,
+        "bujur": 77.75,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 47,
+        "peringkat": "36",
+        "nama": "Chogolisa",
+        "ketinggian_m": 7665,
+        "id_pegunungan": 10,
+        "lintang": 35.6,
+        "bujur": 76.56666666666666,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 48,
+        "peringkat": "37",
+        "nama": "Kongur Tagh",
+        "ketinggian_m": 7649,
+        "id_pegunungan": 19,
+        "lintang": 38.583333333333336,
+        "bujur": 75.3,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 49,
+        "peringkat": "38",
+        "nama": "Shispare",
+        "ketinggian_m": 7611,
+        "id_pegunungan": 12,
+        "lintang": 36.43333333333333,
+        "bujur": 74.66666666666667,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 50,
+        "peringkat": "39",
+        "nama": "Trivor",
+        "ketinggian_m": 7577,
+        "id_pegunungan": 9,
+        "lintang": 36.28333333333333,
+        "bujur": 75.08333333333333,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 51,
+        "peringkat": "40",
+        "nama": "Gangkhar Puensum",
+        "ketinggian_m": 7570,
+        "id_pegunungan": 20,
+        "lintang": 28.033333333333335,
+        "bujur": 90.45,
+        "id_negara": [
+            5,
+            2
+        ]
+    },
+    {
+        "id": 52,
+        "peringkat": "41",
+        "nama": "Gongga Shan",
+        "ketinggian_m": 7556,
+        "id_pegunungan": 21,
+        "lintang": 29.583333333333332,
+        "bujur": 101.86666666666666,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 53,
+        "peringkat": "41",
+        "nama": "Minya Konka",
+        "ketinggian_m": 7556,
+        "id_pegunungan": 21,
+        "lintang": 29.583333333333332,
+        "bujur": 101.86666666666666,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 54,
+        "peringkat": "42",
+        "nama": "Annapurna III",
+        "ketinggian_m": 7555,
+        "id_pegunungan": 7,
+        "lintang": 28.583333333333332,
+        "bujur": 83.98333333333333,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 55,
+        "peringkat": "43",
+        "nama": "Skyang Kangri",
+        "ketinggian_m": 7545,
+        "id_pegunungan": 2,
+        "lintang": 35.916666666666664,
+        "bujur": 76.56666666666666,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 56,
+        "peringkat": "44",
+        "nama": "Changtse",
+        "ketinggian_m": 7543,
+        "id_pegunungan": 1,
+        "lintang": 28.016666666666666,
+        "bujur": 86.9,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 57,
+        "peringkat": "45",
+        "nama": "Kula Kangri",
+        "ketinggian_m": 7538,
+        "id_pegunungan": 20,
+        "lintang": 28.216666666666665,
+        "bujur": 90.6,
+        "id_negara": [
+            2,
+            5
+        ]
+    },
+    {
+        "id": 58,
+        "peringkat": "46",
+        "nama": "Kongur Tiube",
+        "ketinggian_m": 7530,
+        "id_pegunungan": 19,
+        "lintang": 38.6,
+        "bujur": 75.18333333333334,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 59,
+        "peringkat": "47",
+        "nama": "Mamostong Kangri",
+        "ketinggian_m": 7516,
+        "id_pegunungan": 22,
+        "lintang": 35.13333333333333,
+        "bujur": 77.56666666666666,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 60,
+        "peringkat": "48",
+        "nama": "Saser Kangri II E",
+        "ketinggian_m": 7513,
+        "id_pegunungan": 18,
+        "lintang": 34.8,
+        "bujur": 77.8,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 61,
+        "peringkat": "49",
+        "nama": "Muztagh Ata",
+        "ketinggian_m": 7509,
+        "id_pegunungan": 23,
+        "lintang": 38.266666666666666,
+        "bujur": 75.1,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 62,
+        "peringkat": "50",
+        "nama": "Ismoil Somoni Peak",
+        "ketinggian_m": 7495,
+        "id_pegunungan": 24,
+        "lintang": 38.93333333333333,
+        "bujur": 72.0,
+        "id_negara": [
+            6
+        ]
+    },
+    {
+        "id": 63,
+        "peringkat": "51",
+        "nama": "Saser Kangri III",
+        "ketinggian_m": 7495,
+        "id_pegunungan": 18,
+        "lintang": 34.833333333333336,
+        "bujur": 77.78333333333333,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 64,
+        "peringkat": "52",
+        "nama": "Noshaq",
+        "ketinggian_m": 7492,
+        "id_pegunungan": 16,
+        "lintang": 36.416666666666664,
+        "bujur": 71.81666666666666,
+        "id_negara": [
+            7,
+            3
+        ]
+    },
+    {
+        "id": 65,
+        "peringkat": "53",
+        "nama": "Pumari Chhish",
+        "ketinggian_m": 7492,
+        "id_pegunungan": 9,
+        "lintang": 36.2,
+        "bujur": 75.25,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 66,
+        "peringkat": "54",
+        "nama": "Passu Sar",
+        "ketinggian_m": 7476,
+        "id_pegunungan": 12,
+        "lintang": 36.483333333333334,
+        "bujur": 74.58333333333333,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 67,
+        "peringkat": "55",
+        "nama": "Yukshin Gardan Sar",
+        "ketinggian_m": 7469,
+        "id_pegunungan": 9,
+        "lintang": 36.25,
+        "bujur": 75.36666666666666,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 68,
+        "peringkat": "56",
+        "nama": "Teram Kangri I",
+        "ketinggian_m": 7462,
+        "id_pegunungan": 25,
+        "lintang": 35.56666666666667,
+        "bujur": 77.06666666666666,
+        "id_negara": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 69,
+        "peringkat": "57",
+        "nama": "Jongsong Peak",
+        "ketinggian_m": 7462,
+        "id_pegunungan": 3,
+        "lintang": 27.866666666666667,
+        "bujur": 88.13333333333334,
+        "id_negara": [
+            4,
+            2,
+            1
+        ]
+    },
+    {
+        "id": 70,
+        "peringkat": "58",
+        "nama": "Malubiting",
+        "ketinggian_m": 7458,
+        "id_pegunungan": 13,
+        "lintang": 36.0,
+        "bujur": 74.86666666666666,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 71,
+        "peringkat": "59",
+        "nama": "Gangapurna",
+        "ketinggian_m": 7455,
+        "id_pegunungan": 7,
+        "lintang": 28.6,
+        "bujur": 83.95,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 72,
+        "peringkat": "60",
+        "nama": "Jengish Chokusu",
+        "ketinggian_m": 7439,
+        "id_pegunungan": 26,
+        "lintang": 42.03333333333333,
+        "bujur": 80.11666666666666,
+        "id_negara": [
+            8,
+            2
+        ]
+    },
+    {
+        "id": 73,
+        "peringkat": "60",
+        "nama": "Tömür",
+        "ketinggian_m": 7439,
+        "id_pegunungan": 26,
+        "lintang": 42.03333333333333,
+        "bujur": 80.11666666666666,
+        "id_negara": [
+            8,
+            2
+        ]
+    },
+    {
+        "id": 74,
+        "peringkat": "60",
+        "nama": "Pik Pobedy",
+        "ketinggian_m": 7439,
+        "id_pegunungan": 26,
+        "lintang": 42.03333333333333,
+        "bujur": 80.11666666666666,
+        "id_negara": [
+            8,
+            2
+        ]
+    },
+    {
+        "id": 75,
+        "peringkat": "61",
+        "nama": "K12",
+        "ketinggian_m": 7428,
+        "id_pegunungan": 15,
+        "lintang": 35.28333333333333,
+        "bujur": 77.01666666666667,
+        "id_negara": [
+            3,
+            4
+        ]
+    },
+    {
+        "id": 76,
+        "peringkat": "62",
+        "nama": "Yangra",
+        "ketinggian_m": 7422,
+        "id_pegunungan": 27,
+        "lintang": 28.383333333333333,
+        "bujur": 85.11666666666666,
+        "id_negara": [
+            2,
+            1
+        ]
+    },
+    {
+        "id": 77,
+        "peringkat": "62",
+        "nama": "Ganesh I",
+        "ketinggian_m": 7422,
+        "id_pegunungan": 27,
+        "lintang": 28.383333333333333,
+        "bujur": 85.11666666666666,
+        "id_negara": [
+            2,
+            1
+        ]
+    },
+    {
+        "id": 78,
+        "peringkat": "63",
+        "nama": "Sia Kangri",
+        "ketinggian_m": 7422,
+        "id_pegunungan": 25,
+        "lintang": 35.65,
+        "bujur": 76.75,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 79,
+        "peringkat": "64",
+        "nama": "Momhil Sar",
+        "ketinggian_m": 7414,
+        "id_pegunungan": 9,
+        "lintang": 36.31666666666667,
+        "bujur": 75.03333333333333,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 80,
+        "peringkat": "65",
+        "nama": "Kabru N",
+        "ketinggian_m": 7412,
+        "id_pegunungan": 3,
+        "lintang": 27.633333333333333,
+        "bujur": 88.11666666666666,
+        "id_negara": [
+            4,
+            1
+        ]
+    },
+    {
+        "id": 81,
+        "peringkat": "66",
+        "nama": "Skil Brum",
+        "ketinggian_m": 7410,
+        "id_pegunungan": 2,
+        "lintang": 35.85,
+        "bujur": 76.41666666666667,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 82,
+        "peringkat": "67",
+        "nama": "Haramosh Peak",
+        "ketinggian_m": 7409,
+        "id_pegunungan": 13,
+        "lintang": 35.833333333333336,
+        "bujur": 74.88333333333334,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 83,
+        "peringkat": "68",
+        "nama": "Istor-o-Nal",
+        "ketinggian_m": 7403,
+        "id_pegunungan": 16,
+        "lintang": 36.36666666666667,
+        "bujur": 71.88333333333334,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 84,
+        "peringkat": "69",
+        "nama": "Ghent Kangri",
+        "ketinggian_m": 7401,
+        "id_pegunungan": 15,
+        "lintang": 35.516666666666666,
+        "bujur": 76.8,
+        "id_negara": [
+            3,
+            4
+        ]
+    },
+    {
+        "id": 85,
+        "peringkat": "70",
+        "nama": "Ultar",
+        "ketinggian_m": 7388,
+        "id_pegunungan": 12,
+        "lintang": 36.38333333333333,
+        "bujur": 74.71666666666667,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 86,
+        "peringkat": "71",
+        "nama": "Rimo I",
+        "ketinggian_m": 7385,
+        "id_pegunungan": 22,
+        "lintang": 35.35,
+        "bujur": 77.36666666666666,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 87,
+        "peringkat": "72",
+        "nama": "Churen Himal",
+        "ketinggian_m": 7385,
+        "id_pegunungan": 4,
+        "lintang": 28.733333333333334,
+        "bujur": 83.21666666666667,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 88,
+        "peringkat": "73",
+        "nama": "Teram Kangri III",
+        "ketinggian_m": 7382,
+        "id_pegunungan": 25,
+        "lintang": 35.583333333333336,
+        "bujur": 77.03333333333333,
+        "id_negara": [
+            4,
+            2
+        ]
+    },
+    {
+        "id": 89,
+        "peringkat": "74",
+        "nama": "Sherpi Kangri",
+        "ketinggian_m": 7380,
+        "id_pegunungan": 15,
+        "lintang": 35.45,
+        "bujur": 76.76666666666667,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 90,
+        "peringkat": "75",
+        "nama": "Labuche Kang",
+        "ketinggian_m": 7367,
+        "id_pegunungan": 28,
+        "lintang": 28.3,
+        "bujur": 86.35,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 91,
+        "peringkat": "76",
+        "nama": "Kirat Chuli",
+        "ketinggian_m": 7362,
+        "id_pegunungan": 3,
+        "lintang": 27.783333333333335,
+        "bujur": 88.18333333333334,
+        "id_negara": [
+            1,
+            4
+        ]
+    },
+    {
+        "id": 92,
+        "peringkat": "77",
+        "nama": "Saraghrar",
+        "ketinggian_m": 7349,
+        "id_pegunungan": 16,
+        "lintang": 36.53333333333333,
+        "bujur": 72.1,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 93,
+        "peringkat": "78",
+        "nama": "Jomolhari",
+        "ketinggian_m": 7326,
+        "id_pegunungan": 29,
+        "lintang": 27.816666666666666,
+        "bujur": 89.26666666666667,
+        "id_negara": [
+            5,
+            2
+        ]
+    },
+    {
+        "id": 94,
+        "peringkat": "78",
+        "nama": "Chomo Lhari",
+        "ketinggian_m": 7326,
+        "id_pegunungan": 29,
+        "lintang": 27.816666666666666,
+        "bujur": 89.26666666666667,
+        "id_negara": [
+            5,
+            2
+        ]
+    },
+    {
+        "id": 95,
+        "peringkat": "79",
+        "nama": "Chamlang",
+        "ketinggian_m": 7321,
+        "id_pegunungan": 1,
+        "lintang": 27.766666666666666,
+        "bujur": 86.96666666666667,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 96,
+        "peringkat": "80",
+        "nama": "Chongtar",
+        "ketinggian_m": 7315,
+        "id_pegunungan": 2,
+        "lintang": 35.9,
+        "bujur": 76.41666666666667,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 97,
+        "peringkat": "81",
+        "nama": "Baltoro Kangri",
+        "ketinggian_m": 7312,
+        "id_pegunungan": 10,
+        "lintang": 35.63333333333333,
+        "bujur": 76.66666666666667,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 98,
+        "peringkat": "82",
+        "nama": "Siguang Ri",
+        "ketinggian_m": 7309,
+        "id_pegunungan": 1,
+        "lintang": 28.133333333333333,
+        "bujur": 86.68333333333334,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 99,
+        "peringkat": "83",
+        "nama": "The Crown",
+        "ketinggian_m": 7295,
+        "id_pegunungan": 30,
+        "lintang": 36.1,
+        "bujur": 76.2,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 100,
+        "peringkat": "83",
+        "nama": "Huang Guan Shan",
+        "ketinggian_m": 7295,
+        "id_pegunungan": 30,
+        "lintang": 36.1,
+        "bujur": 76.2,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 101,
+        "peringkat": "84",
+        "nama": "Gyala Peri",
+        "ketinggian_m": 7294,
+        "id_pegunungan": 14,
+        "lintang": 29.8,
+        "bujur": 94.96666666666667,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 102,
+        "peringkat": "85",
+        "nama": "Porong Ri",
+        "ketinggian_m": 7292,
+        "id_pegunungan": 31,
+        "lintang": 28.383333333333333,
+        "bujur": 85.71666666666667,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 103,
+        "peringkat": "86",
+        "nama": "Baintha Brakk",
+        "ketinggian_m": 7285,
+        "id_pegunungan": 32,
+        "lintang": 35.93333333333333,
+        "bujur": 75.75,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 104,
+        "peringkat": "86",
+        "nama": "The Ogre",
+        "ketinggian_m": 7285,
+        "id_pegunungan": 32,
+        "lintang": 35.93333333333333,
+        "bujur": 75.75,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 105,
+        "peringkat": "87",
+        "nama": "Yutmaru Sar",
+        "ketinggian_m": 7283,
+        "id_pegunungan": 9,
+        "lintang": 36.21666666666667,
+        "bujur": 75.36666666666666,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 106,
+        "peringkat": "88",
+        "nama": "K6",
+        "ketinggian_m": 7282,
+        "id_pegunungan": 10,
+        "lintang": 35.416666666666664,
+        "bujur": 76.55,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 107,
+        "peringkat": "88",
+        "nama": "Baltistan Peak",
+        "ketinggian_m": 7282,
+        "id_pegunungan": 10,
+        "lintang": 35.416666666666664,
+        "bujur": 76.55,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 108,
+        "peringkat": "89",
+        "nama": "Kangpenqing",
+        "ketinggian_m": 7281,
+        "id_pegunungan": 33,
+        "lintang": 28.55,
+        "bujur": 85.53333333333333,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 109,
+        "peringkat": "89",
+        "nama": "Gang Benchhen",
+        "ketinggian_m": 7281,
+        "id_pegunungan": 33,
+        "lintang": 28.55,
+        "bujur": 85.53333333333333,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 110,
+        "peringkat": "90",
+        "nama": "Muztagh Tower",
+        "ketinggian_m": 7276,
+        "id_pegunungan": 2,
+        "lintang": 35.81666666666667,
+        "bujur": 76.35,
+        "id_negara": [
+            3,
+            2
+        ]
+    },
+    {
+        "id": 111,
+        "peringkat": "91",
+        "nama": "Mana Peak",
+        "ketinggian_m": 7272,
+        "id_pegunungan": 11,
+        "lintang": 30.866666666666667,
+        "bujur": 79.6,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 112,
+        "peringkat": "92",
+        "nama": "Diran",
+        "ketinggian_m": 7266,
+        "id_pegunungan": 13,
+        "lintang": 36.11666666666667,
+        "bujur": 74.65,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 113,
+        "peringkat": "93",
+        "nama": "Labuche Kang III",
+        "ketinggian_m": 7250,
+        "id_pegunungan": 28,
+        "lintang": 28.3,
+        "bujur": 86.38333333333334,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 114,
+        "peringkat": "93",
+        "nama": "Labuche Kang East",
+        "ketinggian_m": 7250,
+        "id_pegunungan": 28,
+        "lintang": 28.3,
+        "bujur": 86.38333333333334,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 115,
+        "peringkat": "94",
+        "nama": "Putha Hiunchuli",
+        "ketinggian_m": 7246,
+        "id_pegunungan": 4,
+        "lintang": 28.733333333333334,
+        "bujur": 83.13333333333334,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 116,
+        "peringkat": "95",
+        "nama": "Apsarasas Kangri",
+        "ketinggian_m": 7245,
+        "id_pegunungan": 25,
+        "lintang": 35.53333333333333,
+        "bujur": 77.13333333333334,
+        "id_negara": [
+            4,
+            2
+        ]
+    },
+    {
+        "id": 117,
+        "peringkat": "96",
+        "nama": "Mukut Parbat",
+        "ketinggian_m": 7242,
+        "id_pegunungan": 11,
+        "lintang": 30.933333333333334,
+        "bujur": 79.56666666666666,
+        "id_negara": [
+            4,
+            2
+        ]
+    },
+    {
+        "id": 118,
+        "peringkat": "97",
+        "nama": "Rimo III",
+        "ketinggian_m": 7233,
+        "id_pegunungan": 22,
+        "lintang": 35.36666666666667,
+        "bujur": 77.35,
+        "id_negara": [
+            4
+        ]
+    },
+    {
+        "id": 119,
+        "peringkat": "98",
+        "nama": "Langtang Lirung",
+        "ketinggian_m": 7227,
+        "id_pegunungan": 31,
+        "lintang": 28.25,
+        "bujur": 85.51666666666667,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 120,
+        "peringkat": "99",
+        "nama": "Karjiang",
+        "ketinggian_m": 7221,
+        "id_pegunungan": 20,
+        "lintang": 28.25,
+        "bujur": 90.63333333333334,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 121,
+        "peringkat": "100",
+        "nama": "Annapurna Dakshin (Annapurna South)",
+        "ketinggian_m": 7219,
+        "id_pegunungan": 7,
+        "lintang": 28.516666666666666,
+        "bujur": 83.8,
+        "id_negara": [
+            1
+        ]
+    },
+    {
+        "id": 122,
+        "peringkat": "101",
+        "nama": "Khartaphu",
+        "ketinggian_m": 7213,
+        "id_pegunungan": 1,
+        "lintang": 28.05,
+        "bujur": 86.96666666666667,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 123,
+        "peringkat": "102",
+        "nama": "Tongshanjiabu",
+        "ketinggian_m": 7207,
+        "id_pegunungan": 34,
+        "lintang": 28.183333333333334,
+        "bujur": 89.95,
+        "id_negara": [
+            5,
+            2
+        ]
+    },
+    {
+        "id": 124,
+        "peringkat": "103",
+        "nama": "Malangutti Sar",
+        "ketinggian_m": 7207,
+        "id_pegunungan": 9,
+        "lintang": 36.35,
+        "bujur": 75.13333333333334,
+        "id_negara": [
+            3
+        ]
+    },
+    {
+        "id": 125,
+        "peringkat": "104",
+        "nama": "Noijin Kangsang",
+        "ketinggian_m": 7206,
+        "id_pegunungan": 35,
+        "lintang": 28.933333333333334,
+        "bujur": 90.16666666666667,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 126,
+        "peringkat": "104",
+        "nama": "Norin Kang",
+        "ketinggian_m": 7206,
+        "id_pegunungan": 35,
+        "lintang": 28.933333333333334,
+        "bujur": 90.16666666666667,
+        "id_negara": [
+            2
+        ]
+    },
+    {
+        "id": 127,
+        "peringkat": "105",
+        "nama": "Langtang Ri",
+        "ketinggian_m": 7205,
+        "id_pegunungan": 31,
+        "lintang": 28.366666666666667,
+        "bujur": 85.68333333333334,
+        "id_negara": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 128,
+        "peringkat": "106",
+        "nama": "Kangphu Kang",
+        "ketinggian_m": 7204,
+        "id_pegunungan": 34,
+        "lintang": 28.15,
+        "bujur": 90.06666666666666,
+        "id_negara": [
+            5,
+            2
+        ]
+    },
+    {
+        "id": 129,
+        "peringkat": "106",
+        "nama": "Shimokangri",
+        "ketinggian_m": 7204,
+        "id_pegunungan": 34,
+        "lintang": 28.15,
+        "bujur": 90.06666666666666,
+        "id_negara": [
+            5,
+            2
+        ]
+    },
+    {
+        "id": 130,
+        "peringkat": "107",
+        "nama": "Singhi Kangri",
+        "ketinggian_m": 7202,
+        "id_pegunungan": 25,
+        "lintang": 35.583333333333336,
+        "bujur": 76.98333333333333,
+        "id_negara": [
+            4,
+            2
+        ]
+    },
+    {
+        "id": 131,
+        "peringkat": "108",
+        "nama": "Lupghar Sar",
+        "ketinggian_m": 7200,
+        "id_pegunungan": 9,
+        "lintang": 36.35,
+        "bujur": 75.03333333333333,
+        "id_negara": [
+            3
+        ]
+    }
+]

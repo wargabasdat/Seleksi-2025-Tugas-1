@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "nama": "Mahalangur Himalaya",
+        "jumlah_gunung": 12
+    },
+    {
+        "id": 2,
+        "nama": "Baltoro Karakoram",
+        "jumlah_gunung": 13
+    },
+    {
+        "id": 3,
+        "nama": "Kangchenjunga Himalaya",
+        "jumlah_gunung": 6
+    },
+    {
+        "id": 4,
+        "nama": "Dhaulagiri Himalaya",
+        "jumlah_gunung": 4
+    },
+    {
+        "id": 5,
+        "nama": "Manaslu Himalaya",
+        "jumlah_gunung": 3
+    },
+    {
+        "id": 6,
+        "nama": "Nanga Parbat Himalaya",
+        "jumlah_gunung": 1
+    },
+    {
+        "id": 7,
+        "nama": "Annapurna Himalaya",
+        "jumlah_gunung": 5
+    },
+    {
+        "id": 8,
+        "nama": "Jugal Himalaya",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 9,
+        "nama": "Hispar Karakoram",
+        "jumlah_gunung": 10
+    },
+    {
+        "id": 10,
+        "nama": "Masherbrum Karakoram",
+        "jumlah_gunung": 6
+    },
+    {
+        "id": 11,
+        "nama": "Garhwal Himalaya",
+        "jumlah_gunung": 4
+    },
+    {
+        "id": 12,
+        "nama": "Batura Karakoram",
+        "jumlah_gunung": 4
+    },
+    {
+        "id": 13,
+        "nama": "Rakaposhi-Haramosh Karakoram",
+        "jumlah_gunung": 4
+    },
+    {
+        "id": 14,
+        "nama": "Assam Himalaya",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 15,
+        "nama": "Saltoro Karakoram",
+        "jumlah_gunung": 5
+    },
+    {
+        "id": 16,
+        "nama": "Hindu Kush",
+        "jumlah_gunung": 4
+    },
+    {
+        "id": 17,
+        "nama": "Nalakankar Himalaya",
+        "jumlah_gunung": 1
+    },
+    {
+        "id": 18,
+        "nama": "Saser Karakoram",
+        "jumlah_gunung": 4
+    },
+    {
+        "id": 19,
+        "nama": "Kongur Shan (Eastern Pamirs)",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 20,
+        "nama": "Kula Kangri Himalaya",
+        "jumlah_gunung": 3
+    },
+    {
+        "id": 21,
+        "nama": "Daxue Mountains (Hengduan Shan)",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 22,
+        "nama": "Rimo Karakoram",
+        "jumlah_gunung": 3
+    },
+    {
+        "id": 23,
+        "nama": "Muztagata (Eastern Pamirs)",
+        "jumlah_gunung": 1
+    },
+    {
+        "id": 24,
+        "nama": "Pamir (Academy of Sciences Range)",
+        "jumlah_gunung": 1
+    },
+    {
+        "id": 25,
+        "nama": "Siachen Karakoram",
+        "jumlah_gunung": 5
+    },
+    {
+        "id": 26,
+        "nama": "Tian Shan",
+        "jumlah_gunung": 3
+    },
+    {
+        "id": 27,
+        "nama": "Ganesh Himalaya",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 28,
+        "nama": "Labuche Himalaya",
+        "jumlah_gunung": 3
+    },
+    {
+        "id": 29,
+        "nama": "Jomolhari Himalaya",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 30,
+        "nama": "Yengisogat Karakoram",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 31,
+        "nama": "Langtang Himalaya",
+        "jumlah_gunung": 3
+    },
+    {
+        "id": 32,
+        "nama": "Panmah Karakoram",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 33,
+        "nama": "Himalaya",
+        "jumlah_gunung": 2
+    },
+    {
+        "id": 34,
+        "nama": "Lunana Himalaya",
+        "jumlah_gunung": 3
+    },
+    {
+        "id": 35,
+        "nama": "Nagarze Himalaya",
+        "jumlah_gunung": 2
+    }
+]
