@@ -106,7 +106,8 @@ Topik ini dipilih karena author memiliki pengetahuan yang cukup dalam mengenai i
     }
 
 ## Struktur ERD dan Diagram Relasional RDMS
-![Tampilan awal program](Data Storing/design/ERD.drawio.png)
+/Data Storing/design/ERD.png
+
 
 ## Referensi
 https://www.ssbwiki.com/List_of_spirits_(complete_list)#cite_note-TnT-1
