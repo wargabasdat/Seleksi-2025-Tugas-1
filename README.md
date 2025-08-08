@@ -27,9 +27,7 @@ Hasil dari proyek ini diharapkan dapat menghasilkan sebuah database yang rapi da
 
 
 ## Program Specification
-Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *Data Storing* dengan library berikut,
-- `Selenium`
-    - __Pertimbangan__ : website Borma memiliki elemen website yang dinamis seperti adanya tombol dan gulir untuk mengakses informasi produk sehingga library ini digunakan untuk menangkap informasi produk yang tercantum di beberapa halaman yang berbeda. 
+Bahasa pemrograman __Python__ saya gunakan untuk melakukan *Data Scraping* dan *Data Storing* dengan library berikut, 
 - `Beautifulsoup4`
     - __Pertimbangan__ : Beautiful Soup relatif ringan dan cepat untuk pemrosesan string HTML dibandingkan dengan Selenium. Selain itu, memungkinkan pengambilan data yang lebih spesifik dan terstruktur berdasarkan parsing HTML yang sudah dimuat.
 - `psycopg2`
@@ -173,12 +171,17 @@ Nanti 5 file .JSON akan terekspor
 <div align="center">
   <img src="Data Storing/design/derived, multivalued, composite.png"/>
 </div>
+derived attribute dihapus dan dijadikan view.
+composite attributes hanya diambil bagian detailnya saja. 
+multivalued attributes dibuat entitas baru yang isinya primary key dari entitas yang lama beserta atribut dirinya.
+
 
 #### One to Many
 <div align="center">
   <img src="Data Storing/design/one to many (1).png"/>
   <img src="Data Storing/design/one to many (2).png"/>
 </div>
+primary key dari entity yang "one" ditambahkan ke entity yang "many"
 
 #### Many to Many
 <div align="center">
@@ -186,27 +189,31 @@ Nanti 5 file .JSON akan terekspor
   <img src="Data Storing/design/many to many (2).png"/>
   <img src="Data Storing/design/many to many (3).png"/>
 </div>
-
+dibuat entity baru yang berisikan primary key dari kedua entity sebelumnya.
 
 #### Unary (One to Many)
 <div align="center">
   <img src="Data Storing/design/unary one to many.png"/>
 </div>
+karena dia unary one to many, maka dibuat atribut baru dari primary key entity tersebut, dimana hal ini entity itu sendiri (self referencing).
 
 #### Relationship Set with Attribute
 <div align="center">
   <img src="Data Storing/design/relationship set with attribute.png"/>
 </div>
+karena many to many, dibuat entity baru yang berisikin primary key dari kedua atribut tersebut dan juga atribut tambahan yang terpisah.
 
 #### Weak Entity
 <div align="center">
   <img src="Data Storing/design/weak entity.png"/>
 </div>
+entity yang weak ditambahkan primary key dari entity yang strong.
 
 #### Specialization
 <div align="center">
   <img src="Data Storing/design/specialization.png"/>
 </div>
+entity "child" ditambahkan primary key dari entity "parent".
 
 ## Data Storing
 Kelima file .JSON tadi digabungkan di kode python pada file `PSQLexporter.py` yang nantinya akan menghasilkan file .sql pada file `manhwalast.sql`.
