@@ -36,6 +36,7 @@ Project ini melakukan proses ETL (Extract, Transform, Load) untuk mengumpulkan d
    python profile_scraping.py
    python data_cleaning.py
    ```
+   URL utama akan di-scrape terlebih dahulu dengan *rank_scraping.py* yang berguna untuk mengambil informasi utama dari Sanrio Character Ranking 2025. Kemudian untuk mendapatkan informasi dari setiap karakter, scrape dilakukan dengan *profile_scraping.py* yang telah dilengkapi dengan ArgosTranslate untuk menerjemahkan bahasa jepang ke bahasa inggris. Selanjutnya data akan dirapikan menggunakan *data_cleaning.py* untuk menghapus karakter non-ASCII dan sebagainya
 
 3. **Output:** File JSON akan tersimpan di folder `Data Scraping/data/`
 
@@ -97,6 +98,9 @@ Project ini melakukan proses ETL (Extract, Transform, Load) untuk mengumpulkan d
 
 ## Step 2: Data Modeling & Data Storing
 
+### ERD (Entity Relationship Diagram)
+![ERD](Data%20Storing/design/ERD.png)
+
 **Entitas Utama:**
 - **Characters**: Menyimpan informasi dasar karakter
 - **Regions**: Daftar wilayah/negara
@@ -115,6 +119,7 @@ Project ini melakukan proses ETL (Extract, Transform, Load) untuk mengumpulkan d
 - Characters N:N News
 
 ### Diagram Relasional
+![Diagram Relasional](Data%20Storing/design/Relational.png)
 
 ### Proses Translasi ERD ke Relasional
 
@@ -174,7 +179,7 @@ Seleksi-2025-Tugas-1/
 │   │   ├── character.json
 │   │   ├── overall_ranking.json
 │   │   └── region_ranking.json
-|   |   └── regio.json
+|   |   └── region.json
 │   
 ├── Data Storing/
 │   ├── design/
@@ -187,6 +192,24 @@ Seleksi-2025-Tugas-1/
 │   └── screenshot/
 └── README.md
 ```
+
+## Screenshots Program
+
+### Final Database Tables
+![Database Tables](Data%20Storing/screenshot/list_of_tables.png)
+
+### Query Example
+![Database Tables](Data%20Storing/screenshot/query_regions_ranking.png)
+
+## Referensi
+
+### Libraries Used:
+- `requests` - HTTP requests
+- `beautifulsoup4` - HTML parsing
+- `selenium` - Browser automation
+- `psycopg2` - PostgreSQL adapter
+- `json` - JSON data handling
+- `argostranslate` - Translator offline
 
 ### Website Sources:
 - [Sanrio Official Website](https://www.sanrio.com/)
