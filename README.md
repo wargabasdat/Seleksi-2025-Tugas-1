@@ -68,6 +68,8 @@ Jalankan program scraping jadwal
 $ python schedule_scraper.py
 ```
 
+**Output:** Data mentah hasil scraping akan tersimpan di folder `Data Scraping/data/raw/`
+
 ### Data Preprocessing
 Masuk ke folder Data Scraping
 ```bash
@@ -78,6 +80,8 @@ Jalankan preprocessing
 ```bash
 $ python preprocessor.py
 ```
+
+**Output:** Data hasil preprocessing akan tersimpan di folder `Data Scraping/data/preprocessed/`
 
 ### Data Storing
 Buat database pada PostgreSQL, contoh:
