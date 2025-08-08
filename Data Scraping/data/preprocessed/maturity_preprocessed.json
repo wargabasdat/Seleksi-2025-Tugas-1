@@ -1,0 +1,18 @@
+[
+  {
+    "maturity_id": 1,
+    "maturity_level": "Mild"
+  },
+  {
+    "maturity_id": 2,
+    "maturity_level": "Minimal"
+  },
+  {
+    "maturity_id": 3,
+    "maturity_level": "-"
+  },
+  {
+    "maturity_id": 4,
+    "maturity_level": "Moderate"
+  }
+]
