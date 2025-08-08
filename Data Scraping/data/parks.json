@@ -137,7 +137,11 @@
   {
     "id": 22337,
     "name": "Balalyk Park",
-    "location": null
+    "location": {
+      "city": "Balalyk Park",
+      "region": "Bishkek",
+      "country": "Kyrgyzstan"
+    }
   },
   {
     "id": 4879,
@@ -556,7 +560,11 @@
   {
     "id": 4628,
     "name": "Aztlán Parque Urbano",
-    "location": null
+    "location": {
+      "city": "Aztlán Parque Urbano",
+      "region": "Mexico City",
+      "country": "Mexico"
+    }
   },
   {
     "id": 20452,
@@ -730,6 +738,15 @@
     }
   },
   {
+    "id": 23037,
+    "name": "Ruka Ski Resort & Ski Inn",
+    "location": {
+      "city": "Kuusamo",
+      "region": "North Ostrobothnia",
+      "country": "Finland"
+    }
+  },
+  {
     "id": 4811,
     "name": "Clarence Pier",
     "location": {
@@ -750,7 +767,11 @@
   {
     "id": 23013,
     "name": "Eurasia",
-    "location": null
+    "location": {
+      "city": "Eurasia",
+      "region": "Bishkek",
+      "country": "Kyrgyzstan"
+    }
   },
   {
     "id": 21222,
@@ -1349,11 +1370,19 @@
   {
     "id": 22996,
     "name": "Hi Space",
-    "location": null
+    "location": {
+      "city": "Hi Space",
+      "region": "Chongqing",
+      "country": "China"
+    }
   },
   {
     "id": 22999,
     "name": "Siri Cafe Ranong",
-    "location": null
+    "location": {
+      "city": "Siri Cafe Ranong",
+      "region": "Ranong",
+      "country": "Thailand"
+    }
   }
 ]

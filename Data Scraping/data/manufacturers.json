@@ -1,0 +1,408 @@
+[
+  {
+    "id": 6836,
+    "name": "Vekoma",
+    "location": {
+      "city": "Vlodrop",
+      "region": "Limburg",
+      "country": "Netherlands"
+    }
+  },
+  {
+    "id": 7514,
+    "name": "Wiegand",
+    "location": {
+      "city": "Rasdorf",
+      "region": "Hesse",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 6848,
+    "name": "Premier Rides",
+    "location": {
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 7489,
+    "name": "Dynamic Attractions",
+    "location": {
+      "city": "Orlando",
+      "region": "Florida",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 15977,
+    "name": "RES Rides AG",
+    "location": {
+      "city": "Altendorf",
+      "region": "Schwyz",
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": 7042,
+    "name": "Preston & Barbieri",
+    "location": {
+      "city": "Reggio Emilia",
+      "region": "Emilia-Romagna",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 6861,
+    "name": "Zierer",
+    "location": {
+      "city": "Deggendorf",
+      "region": "Bavaria",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 7028,
+    "name": "SBF Visa Group",
+    "location": {
+      "city": "Casale di Scodosia",
+      "region": "Veneto",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 6831,
+    "name": "Bolliger & Mabillard",
+    "location": {
+      "city": "Monthey",
+      "region": "Valais",
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": 7125,
+    "name": "Beijing Shibaolai Amusement Equipment / 北京实宝来游乐设备有限公司",
+    "location": {
+      "city": "Chaoyang",
+      "region": "Beijing",
+      "country": "China"
+    }
+  },
+  {
+    "id": 6971,
+    "name": "Pax Company",
+    "location": {
+      "city": "Krasnogorsk",
+      "region": "Moscow",
+      "country": "Russia"
+    }
+  },
+  {
+    "id": 12029,
+    "name": "ART Engineering GmbH",
+    "location": {
+      "city": "Kirchzarten",
+      "region": "Baden-Württemberg",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 6892,
+    "name": "Zamperla",
+    "location": {
+      "city": "Altavilla Vicentina",
+      "region": "Veneto",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 6948,
+    "name": "Gerstlauer Amusement Rides GmbH",
+    "location": {
+      "city": "Münsterhausen",
+      "region": "Bavaria",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 22121,
+    "name": "Risheng Amusement Rides / 日晟游乐",
+    "location": {
+      "city": "Zhongshan",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 16578,
+    "name": "Modern Amusement Group",
+    "location": {
+      "city": "Zhengzhou",
+      "region": "Henan",
+      "country": "China"
+    }
+  },
+  {
+    "id": 6860,
+    "name": "Great Coasters International",
+    "location": {
+      "city": "Sunbury",
+      "region": "Pennsylvania",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 7492,
+    "name": "Jinma Rides / 金马游乐",
+    "location": {
+      "city": "Zhongshan",
+      "region": "Guangdong",
+      "country": "China"
+    }
+  },
+  {
+    "id": 6902,
+    "name": "Reverchon",
+    "location": {
+      "city": "Samois Cedex",
+      "region": "Île-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "id": 7980,
+    "name": "Hebei Zhongye Metallurgical Equipment Manufacturing Co., Ltd / 河北中冶冶金设备制造有限公司",
+    "location": {
+      "city": "Xingtai",
+      "region": "Hebei",
+      "country": "China"
+    }
+  },
+  {
+    "id": 6856,
+    "name": "Mack Rides GmbH & Co KG",
+    "location": {
+      "city": "Waldkirch",
+      "region": "Baden-Württemberg",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 6914,
+    "name": "B. A. Schiff & Associates",
+    "location": {
+      "city": "Miami",
+      "region": "Florida",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 6837,
+    "name": "Intamin Amusement Rides",
+    "location": null
+  },
+  {
+    "id": 7536,
+    "name": "DAL Amusement Rides Company",
+    "location": {
+      "city": "Gebze",
+      "region": "Kocaeli",
+      "country": "Turkey"
+    }
+  },
+  {
+    "id": 10583,
+    "name": "Rocky Mountain Construction",
+    "location": {
+      "city": "Hayden",
+      "region": "Idaho",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 6862,
+    "name": "Pinfari",
+    "location": {
+      "city": "Suzzara",
+      "region": "Lombardy",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 6887,
+    "name": "Chance Rides",
+    "location": {
+      "city": "Wichita",
+      "region": "Kansas",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 22708,
+    "name": "Inno-Heege GmbH & Co. KG",
+    "location": {
+      "city": "Düngenheim",
+      "region": "Rhineland-Palatinate",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 6953,
+    "name": "Fabbri",
+    "location": {
+      "city": "Bergantino",
+      "region": "Veneto",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 6872,
+    "name": "Allan Herschell Company",
+    "location": {
+      "city": "North Tonawanda",
+      "region": "New York",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 14793,
+    "name": "MND Group",
+    "location": {
+      "city": "Sainte-Hélène-du-Lac",
+      "region": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    }
+  },
+  {
+    "id": 6951,
+    "name": "BHS",
+    "location": null
+  },
+  {
+    "id": 6904,
+    "name": "Wisdom Rides",
+    "location": {
+      "city": "Merino",
+      "region": "Colorado",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 14971,
+    "name": "Güven Amusement Rides Factory",
+    "location": {
+      "city": "Kazan",
+      "region": "Ankara",
+      "country": "Turkey"
+    }
+  },
+  {
+    "id": 6905,
+    "name": "Maurer Rides GmbH",
+    "location": {
+      "city": "München",
+      "region": "Bavaria",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 18869,
+    "name": "Kılıç Lunapark",
+    "location": {
+      "city": "Odunpazarı",
+      "region": "Eskişehir",
+      "country": "Turkey"
+    }
+  },
+  {
+    "id": 6873,
+    "name": "S.D.C.",
+    "location": {
+      "city": "Reggio Emilia",
+      "region": "Emilia-Romagna",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 6930,
+    "name": "S&S Worldwide",
+    "location": {
+      "city": "Logan",
+      "region": "Utah",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 20308,
+    "name": "InterTech",
+    "location": {
+      "city": "Dolná Streda",
+      "region": "Trnava",
+      "country": "Slovakia"
+    }
+  },
+  {
+    "id": 7243,
+    "name": "Interlink",
+    "location": {
+      "city": "Gloucestershire",
+      "region": "England",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 7140,
+    "name": "Sunkid GmbH",
+    "location": {
+      "city": "Imst",
+      "region": "Tyrol",
+      "country": "Austria"
+    }
+  },
+  {
+    "id": 12208,
+    "name": "Zhipao / 河北智跑游乐设备制造有限公司 / Zhìpǎo",
+    "location": {
+      "city": "Xingtai",
+      "region": "Hebei",
+      "country": "China"
+    }
+  },
+  {
+    "id": 12962,
+    "name": "Aquatic Development Group",
+    "location": {
+      "city": "Cohoes",
+      "region": "New York",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 20692,
+    "name": "Xi'an Shuobo Amusement Equipment / 西安硕博游乐设备技术开发有限",
+    "location": {
+      "city": "Xi'an",
+      "region": "Shaanxi",
+      "country": "China"
+    }
+  },
+  {
+    "id": 7761,
+    "name": "Gosetto",
+    "location": {
+      "city": "Treviso",
+      "region": "Veneto",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 8770,
+    "name": "Chang Long / 昌龙",
+    "location": {
+      "city": "Baoding",
+      "region": "Hebei",
+      "country": "China"
+    }
+  }
+]
