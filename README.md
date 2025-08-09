@@ -1,78 +1,280 @@
+# MotoGP Race Winners ETL Project
+
 <h1 align="center">
   <br>
   Seleksi Warga Basdat 2025 <br>
-  ETL Project
+  MotoGP Race Winners ETL Project
   <br>
   <br>
 </h1>
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Author
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+**Nama:** Alvin Christopher Santausa  
+**NIM:** 13523033  
+**Email:** 13523033@std.stei.itb.ac.id
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Deskripsi Project
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+### Topik dan Motivasi
 
+Project ini mengimplementasikan sistem ETL (Extract, Transform, Load) lengkap untuk data pemenang balapan MotoGP/500cc dari Wikipedia. Saya memilih topik MotoGP karena:
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
+1. **Data yang kaya dan terstruktur**: MotoGP memiliki sejarah panjang dengan data statistik yang komprehensif
+2. **Relevansi olahraga**: Sebagai salah satu ajang balap motor paling prestigious di dunia
+3. **Kompleksitas data**: Melibatkan berbagai entitas seperti pembalap, negara, konstruktor, dan tim yang memungkinkan desain database yang menarik
+4. **Potensi analisis**: Data historis yang memungkinkan analisis tren, performa pembalap, dan dominasi negara tertentu
 
+### DBMS yang Digunakan
 
+- **Database Utama**: MariaDB/MySQL untuk penyimpanan data operasional
+- **Data Warehouse**: MariaDB/MySQL dengan skema star schema untuk keperluan analitik
+- **Alasan pemilihan**: Kompatibilitas tinggi, performa baik, dan mudah diintegrasikan dengan Python
 
+## Cara Menggunakan
+
+### 1. Data Scraping
+
+```bash
+cd "Data Scraping/src"
+python main.py
+```
+
+**Output yang dihasilkan:**
+
+- `../data/motogp_riders.csv`: Data pembalap dalam format CSV
+- `../data/motogp_riders.json`: Data pembalap dalam format JSON
+- `../data/motogp_countries.csv`: Data statistik per negara
+- `../data/motogp_countries.json`: Data statistik per negara dalam JSON
+
+### 2. Database Setup dan Data Loading
+
+```bash
+cd "Data Storing/src"
+# Setup database schema
+mysql -u root -p < schema.sql
+
+# Load data ke database
+python insert_data.py
+```
+
+### 3. Data Warehouse ETL
+
+```bash
+cd "Data Warehouse/src"
+# Manual ETL execution
+python processing.py
+
+# Automated scheduling (runs ETL daily at 02:00)
+python scheduler.py
+```
+
+## Struktur File JSON
+
+### motogp_riders.json
+
+```json
+[
+  {
+    "rank": "1",
+    "country_code": "ITA",
+    "country_name": "Italy",
+    "rider_name": "Giacomo Agostini",
+    "rider_link": "https://en.wikipedia.org/wiki/Giacomo_Agostini",
+    "wins": 68,
+    "seasons_active": "1965–1977",
+    "first_win": "1965",
+    "last_win": "1976",
+    "is_champion": true,
+    "is_active_2025": false,
+    "row_index": 1
+  }
+]
+```
+
+**Penjelasan field:**
+
+- `rank`: Peringkat pembalap berdasarkan jumlah kemenangan
+- `country_code`: Kode negara (3 huruf)
+- `country_name`: Nama lengkap negara
+- `rider_name`: Nama lengkap pembalap
+- `rider_link`: Link Wikipedia pembalap
+- `wins`: Jumlah total kemenangan
+- `seasons_active`: Periode aktif pembalap
+- `first_win`: Tahun kemenangan pertama
+- `last_win`: Tahun kemenangan terakhir
+- `is_champion`: Apakah pernah menjadi juara dunia
+- `is_active_2025`: Status aktif di musim 2025
+- `row_index`: Index urutan data
+
+### motogp_countries.json
+
+```json
+[
+  {
+    "rank": "1",
+    "country": "Italy",
+    "total_wins": 347,
+    "number_of_riders": 52
+  }
+]
+```
+
+## Struktur Database
+
+### ERD (Entity Relationship Diagram)
+
+![ERD Data Storing](Data%20Storing/design/ERD.png)
+
+**Entitas utama:**
+
+1. **pembalap**: Data utama pembalap
+2. **negara**: Data negara asal pembalap
+3. **konstruktor**: Pabrikan motor (Honda, Yamaha, Ducati, dll)
+4. **tim**: Tim balap
+5. **sponsor**: Sponsor tim/pembalap
+6. **balapan**: Data balapan dan pemenang
+
+### Diagram Relasional
+
+![Relational Model Data Storing](Data%20Storing/design/relational-model.png)
+
+**Tabel utama:**
+
+- `pembalap` (PK: id_pembalap, FK: id_negara)
+- `negara` (PK: id_negara)
+- `konstruktor` (PK: id_konstruktor)
+- `tim` (PK: id_tim, FK: id_konstruktor)
+- `sponsor` (PK: id_sponsor)
+- `balapan` (PK: id_balapan, FK: id_pembalap_pemenang)
+- `pembalap_tim` (Many-to-many relationship)
+- `tim_sponsor` (Many-to-many relationship)
+
+## Data Warehouse
+
+### Fact and Dimension Tables
+
+![Fact Table Design](Data%20Warehouse/design/fact%20table.png)
+
+**Skema Star Schema:**
+
+- **Fact Table**: `fact_kemenangan_pembalap`
+- **Dimension Tables**:
+  - `dim_pembalap`
+  - `dim_negara`
+  - `dim_waktu`
+  - `dim_status_pembalap`
+
+## Proses Translasi ERD ke Diagram Relasional
+
+### 1. Mapping Entitas
+
+- Setiap entitas dalam ERD menjadi tabel dalam diagram relasional
+- Atribut entitas menjadi kolom tabel
+- Key attributes menjadi primary key
+- Lalu juga beberapa relasi ada yang menjadi tabel seperti relasi memenangi, bekerja-sama dll
+
+### 2. Data Warehouse Design
+
+- **Dimensional Modeling**: Menggunakan star schema
+- **Fact Table**: Menyimpan metrics (total_kemenangan, win_rate) (karena berfokus pada kemenangan pembalap)
+- **Dimension Tables**: Menyimpan descriptive attributes
+- **Surrogate Keys**: Auto-increment keys untuk dimension tables
+
+## Automated Scheduling
+
+### Sistem Scheduling
+
+Project ini mengimplementasikan automated scheduling untuk proses ETL menggunakan Python `schedule` library.
+
+**File:** `Data Warehouse/src/scheduler.py`
+
+### Fitur Scheduling:
+
+1. **Daily ETL Execution**: Berjalan setiap hari pukul 02:00
+2. **Batch Tracking**: Mencegah redundansi data dengan tracking batch_date
+3. **Comprehensive Logging**: Log semua aktivitas untuk monitoring
+4. **Error Handling**: Graceful error handling dan recovery
+5. **Data Validation**: Quality checks setelah ETL
+
+### Konfigurasi Scheduling:
+
+```python
+# Daily execution at 02:00
+schedule.every().day.at("02:00").do(run_etl_job)
+
+# Optional: Weekly cleanup at Sunday 03:00
+schedule.every().sunday.at("03:00").do(cleanup_old_logs)
+```
+
+### Service Management:
+
+```bash
+# Start scheduling service
+cd "Data Warehouse"
+chmod +x etl-service.sh
+./etl-service.sh start
+
+# Stop service
+./etl-service.sh stop
+
+# Check status
+./etl-service.sh status
+```
+
+### Batch Tracking System:
+
+- Menggunakan `batch_date` untuk tracking eksekusi harian
+- Prevents data duplication pada re-run
+- Maintains data lineage dan audit trail
+
+## Screenshots Program
+
+### Data Scraping Results
+
+### Beberapa Database Operations
+
+![Database Query Results](Data%20Storing/screenshot/daftar_semua_pembalap.png)
+![Ducati Riders Query](Data%20Storing/screenshot/pembalap_yang_membalap_dengan_konstruktor_ducati.png)
+
+### Beberapa Data Warehouse Analytics
+
+![Top 10 Winners Analysis](Data%20Warehouse/screenshot/Top%2010%20pembalap%20dengan%20kemenangan%20terbanyak.png)
+![Country Analysis](Data%20Warehouse/screenshot/Analisis%20kemenangan%20tiap%20negara.png)
+![Decade Trends](Data%20Warehouse/screenshot/Tren%20kemenangan%20tiap%20dekade.png)
+
+## Referensi
+
+### Libraries yang Digunakan
+
+- **requests**
+- **beautifulsoup4**
+- **pandas**
+- **mysql-connector-python**
+- **faker**
+- **schedule**
+
+### Sumber Data
+
+- **Primary Source**: [List of 500cc/MotoGP race winners - Wikipedia](https://en.wikipedia.org/wiki/List_of_500cc/MotoGP_race_winners)
+- **Additional Reference**: [MotoGP Official Website](https://www.motogp.com/)
+
+### Tools dan Platform
+
+- **Database**: MariaDB/MySQL
+- **Programming Language**: Python 3.9+
+
+### Dependencies
+
+```
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+pandas>=1.5.0
+mysql-connector-python>=8.0.0
+faker>=19.0.0
+schedule>=1.2.0
+```
+
+---
+
+**Note**: Project ini dibuat sebagai bagian dari Seleksi Asisten Lab Basis Data 2025, Institut Teknologi Bandung.
