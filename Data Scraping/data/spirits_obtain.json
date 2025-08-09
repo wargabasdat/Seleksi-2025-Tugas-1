@@ -1,0 +1,8334 @@
+[
+    {
+        "spirits_id": 3,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 3,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 18,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 19,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 20,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 20,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 21,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 22,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 23,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 23,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 24,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 25,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 26,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 27,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 28,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 29,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 29,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 29,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 30,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 30,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 30,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 31,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 31,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 32,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 33,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 34,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 35,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 35,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 36,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 36,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 36,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 37,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 37,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 38,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 39,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 39,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 40,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 40,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 41,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 41,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 42,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 43,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 43,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 44,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 44,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 45,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 46,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 46,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 47,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 47,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 48,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 48,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 48,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 49,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 50,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 50,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 51,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 51,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 52,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 53,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 53,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 54,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 55,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 55,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 56,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 57,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 58,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 59,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 59,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 60,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 60,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 61,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 61,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 62,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 62,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 63,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 63,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 64,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 65,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 65,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 66,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 66,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 67,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 67,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 68,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 69,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 69,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 70,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 70,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 71,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 71,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 72,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 73,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 74,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 75,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 75,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 76,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 77,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 77,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 78,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 78,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 79,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 79,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 80,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 80,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 81,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 81,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 82,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 82,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 83,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 84,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 85,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 86,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 87,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 88,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 89,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 89,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 90,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 91,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 91,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 92,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 93,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 94,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 95,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 96,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 97,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 97,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 98,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 99,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 100,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 100,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 101,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 102,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 102,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 103,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 103,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 104,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 104,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 105,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 105,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 106,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 107,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 108,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 108,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 109,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 110,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 110,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 111,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 111,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 112,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 113,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 113,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 114,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 114,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 115,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 116,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 116,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 117,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 117,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 118,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 119,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 119,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 120,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 121,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 122,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 123,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 123,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 124,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 125,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 126,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 127,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 128,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 129,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 130,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 130,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 131,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 131,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 132,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 132,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 133,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 137,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 138,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 138,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 139,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 140,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 140,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 141,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 142,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 142,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 143,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 144,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 144,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 145,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 145,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 146,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 147,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 148,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 148,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 149,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 150,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 150,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 151,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 151,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 152,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 152,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 153,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 153,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 154,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 155,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 155,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 156,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 157,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 157,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 158,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 158,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 159,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 159,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 160,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 160,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 161,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 161,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 162,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 162,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 163,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 164,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 165,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 165,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 166,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 167,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 167,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 168,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 168,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 169,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 170,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 170,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 171,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 178,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 178,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 179,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 180,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 180,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 181,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 182,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 183,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 183,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 184,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 184,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 185,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 185,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 186,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 186,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 187,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 187,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 188,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 188,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 189,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 190,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 191,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 192,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 192,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 193,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 193,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 194,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 194,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 195,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 195,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 196,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 197,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 198,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 199,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 199,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 200,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 201,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 201,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 202,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 202,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 203,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 204,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 204,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 205,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 205,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 206,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 207,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 207,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 208,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 208,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 209,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 210,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 211,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 211,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 212,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 212,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 213,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 214,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 215,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 215,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 216,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 216,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 217,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 217,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 218,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 219,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 219,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 220,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 220,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 221,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 222,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 222,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 222,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 223,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 224,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 224,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 225,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 225,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 226,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 226,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 227,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 227,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 228,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 228,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 229,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 229,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 230,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 231,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 232,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 233,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 233,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 234,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 235,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 236,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 236,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 237,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 237,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 238,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 238,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 239,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 239,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 239,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 240,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 240,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 240,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 241,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 241,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 241,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 242,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 242,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 242,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 243,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 243,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 244,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 244,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 244,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 245,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 245,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 245,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 246,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 246,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 247,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 248,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 249,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 250,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 250,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 251,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 251,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 252,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 252,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 253,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 254,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 254,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 255,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 255,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 256,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 256,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 257,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 258,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 258,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 259,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 260,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 260,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 261,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 262,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 263,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 268,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 269,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 269,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 270,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 271,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 272,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 273,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 274,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 274,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 275,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 276,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 276,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 277,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 277,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 277,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 278,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 278,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 279,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 280,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 281,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 282,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 282,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 283,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 284,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 285,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 285,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 286,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 287,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 288,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 288,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 289,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 289,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 290,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 290,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 291,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 291,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 292,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 292,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 293,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 294,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 294,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 295,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 296,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 299,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 299,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 300,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 301,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 302,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 303,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 304,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 305,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 306,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 307,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 308,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 309,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 309,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 310,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 310,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 311,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 312,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 312,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 313,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 314,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 314,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 315,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 316,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 316,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 317,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 318,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 318,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 319,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 320,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 321,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 321,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 322,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 322,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 322,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 326,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 327,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 327,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 328,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 329,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 329,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 330,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 331,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 331,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 332,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 332,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 333,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 334,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 335,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 336,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 336,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 337,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 337,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 338,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 338,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 339,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 339,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 340,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 340,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 341,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 342,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 343,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 343,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 344,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 344,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 345,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 346,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 347,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 348,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 349,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 349,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 350,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 350,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 351,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 352,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 353,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 354,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 355,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 355,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 356,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 356,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 357,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 358,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 358,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 359,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 359,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 360,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 360,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 360,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 361,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 362,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 362,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 363,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 363,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 364,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 364,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 365,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 366,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 366,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 367,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 368,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 369,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 370,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 371,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 371,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 372,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 373,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 373,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 374,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 374,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 375,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 376,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 377,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 377,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 378,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 378,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 379,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 379,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 380,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 381,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 381,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 385,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 385,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 386,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 387,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 387,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 388,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 388,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 389,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 389,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 390,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 391,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 392,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 392,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 393,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 394,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 394,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 395,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 396,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 396,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 397,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 398,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 398,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 399,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 399,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 400,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 401,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 401,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 402,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 403,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 403,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 404,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 404,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 405,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 405,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 406,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 420,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 420,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 421,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 422,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 423,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 424,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 425,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 425,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 426,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 427,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 428,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 429,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 430,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 431,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 432,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 433,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 434,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 434,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 435,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 436,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 437,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 438,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 438,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 439,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 440,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 441,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 442,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 442,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 443,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 443,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 444,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 445,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 445,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 446,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 447,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 448,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 448,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 449,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 450,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 451,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 452,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 452,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 453,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 454,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 454,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 455,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 455,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 456,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 456,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 457,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 457,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 458,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 459,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 459,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 460,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 460,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 461,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 461,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 462,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 463,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 463,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 464,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 464,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 465,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 465,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 466,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 467,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 468,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 468,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 469,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 470,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 471,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 472,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 473,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 474,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 475,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 476,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 477,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 477,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 478,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 479,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 479,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 480,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 481,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 481,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 482,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 482,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 483,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 483,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 484,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 484,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 485,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 485,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 486,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 486,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 487,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 488,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 489,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 489,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 490,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 490,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 491,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 492,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 492,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 493,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 493,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 494,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 494,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 495,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 495,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 496,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 497,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 498,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 498,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 499,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 500,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 501,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 502,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 503,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 504,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 504,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 505,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 506,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 507,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 507,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 508,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 508,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 509,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 510,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 511,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 511,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 512,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 513,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 514,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 515,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 515,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 516,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 516,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 517,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 518,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 519,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 519,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 520,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 520,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 521,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 522,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 523,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 524,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 524,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 525,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 525,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 526,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 527,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 528,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 529,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 530,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 531,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 532,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 533,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 534,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 535,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 536,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 537,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 537,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 538,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 538,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 539,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 539,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 540,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 541,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 541,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 542,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 542,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 543,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 544,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 545,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 546,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 547,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 548,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 549,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 550,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 550,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 551,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 552,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 552,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 553,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 554,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 555,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 555,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 556,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 556,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 557,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 557,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 558,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 558,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 559,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 559,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 560,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 561,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 561,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 562,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 562,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 562,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 565,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 566,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 566,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 567,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 567,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 568,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 568,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 569,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 569,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 570,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 570,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 571,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 571,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 572,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 573,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 573,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 574,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 574,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 575,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 575,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 576,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 576,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 577,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 578,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 578,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 579,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 579,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 580,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 580,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 581,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 582,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 582,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 583,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 584,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 584,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 585,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 586,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 587,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 588,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 589,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 589,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 590,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 590,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 592,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 593,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 593,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 594,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 595,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 595,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 596,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 596,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 597,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 598,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 599,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 600,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 600,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 601,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 602,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 602,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 603,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 603,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 604,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 605,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 605,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 607,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 607,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 608,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 608,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 609,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 614,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 620,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 620,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 621,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 622,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 622,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 623,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 623,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 624,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 624,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 625,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 625,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 626,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 626,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 627,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 627,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 628,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 629,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 629,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 630,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 630,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 630,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 631,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 632,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 632,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 633,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 633,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 634,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 635,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 635,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 636,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 637,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 637,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 637,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 638,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 639,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 640,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 641,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 641,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 642,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 642,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 643,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 644,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 644,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 645,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 646,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 647,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 648,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 648,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 649,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 650,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 650,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 651,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 652,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 653,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 654,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 655,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 656,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 656,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 657,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 658,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 658,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 659,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 659,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 660,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 660,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 661,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 661,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 662,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 663,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 663,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 664,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 665,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 666,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 667,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 667,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 668,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 668,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 669,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 670,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 670,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 671,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 672,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 673,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 673,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 674,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 675,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 676,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 676,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 677,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 677,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 678,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 679,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 679,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 680,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 680,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 681,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 681,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 682,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 683,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 683,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 684,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 685,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 685,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 686,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 686,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 687,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 687,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 688,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 690,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 690,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 691,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 691,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 692,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 692,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 693,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 693,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 694,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 694,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 695,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 696,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 696,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 697,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 698,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 699,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 700,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 700,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 701,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 702,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 702,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 706,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 707,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 707,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 708,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 708,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 709,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 710,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 710,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 711,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 712,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 712,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 713,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 713,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 714,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 714,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 715,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 716,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 716,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 717,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 718,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 719,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 720,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 720,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 721,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 721,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 722,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 723,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 723,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 724,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 725,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 726,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 726,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 727,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 728,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 728,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 731,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 732,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 733,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 733,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 734,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 735,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 736,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 736,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 737,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 737,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 738,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 739,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 739,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 740,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 741,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 742,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 743,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 743,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 744,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 745,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 746,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 747,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 748,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 750,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 751,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 751,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 752,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 752,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 753,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 753,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 754,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 755,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 756,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 757,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 758,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 758,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 759,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 760,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 760,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 761,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 762,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 762,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 763,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 764,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 764,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 765,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 766,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 767,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 768,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 768,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 769,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 769,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 770,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 770,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 771,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 771,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 772,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 772,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 773,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 774,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 774,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 776,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 776,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 777,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 777,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 777,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 778,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 779,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 779,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 780,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 780,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 781,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 782,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 782,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 783,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 784,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 785,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 785,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 786,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 786,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 787,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 788,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 789,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 790,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 790,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 791,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 791,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 792,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 793,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 793,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 794,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 795,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 795,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 796,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 796,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 797,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 797,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 800,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 801,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 802,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 802,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 803,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 803,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 803,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 804,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 804,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 805,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 805,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 805,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 806,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 806,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 807,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 807,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 808,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 808,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 808,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 809,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 809,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 810,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 810,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 811,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 812,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 812,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 813,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 813,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 814,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 815,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 816,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 816,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 817,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 817,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 818,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 818,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 819,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 819,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 820,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 821,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 823,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 824,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 828,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 828,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 828,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 829,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 830,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 830,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 831,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 831,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 831,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 832,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 833,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 833,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 834,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 834,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 835,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 835,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 835,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 836,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 836,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 837,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 838,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 839,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 840,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 840,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 841,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 842,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 842,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 843,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 843,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 844,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 844,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 845,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 846,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 846,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 846,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 847,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 847,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 848,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 848,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 849,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 849,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 849,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 850,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 850,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 850,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 851,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 851,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 852,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 852,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 853,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 854,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 854,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 855,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 856,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 857,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 857,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 858,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 859,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 860,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 860,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 860,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 861,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 861,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 862,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 862,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 862,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 863,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 863,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 865,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 866,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 867,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 867,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 868,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 869,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 870,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 870,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 871,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 871,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 872,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 873,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 873,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 874,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 874,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 875,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 875,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 876,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 877,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 877,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 878,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 879,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 879,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 880,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 881,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 881,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 882,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 883,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 884,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 885,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 885,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 886,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 887,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 888,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 888,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 889,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 890,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 890,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 891,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 891,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 892,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 893,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 893,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 894,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 895,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 895,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 896,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 896,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 897,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 898,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 898,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 899,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 900,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 900,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 901,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 901,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 902,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 902,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 903,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 904,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 904,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 905,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 905,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 906,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 907,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 907,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 908,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 909,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 909,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 910,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 910,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 911,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 911,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 912,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 912,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 913,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 913,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 914,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 914,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 915,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 915,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 916,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 916,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 917,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 918,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 919,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 919,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 920,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 923,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 924,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 925,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 926,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 926,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 927,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 928,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 929,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 930,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 931,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 933,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 933,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 934,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 935,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 936,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 937,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 937,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 938,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 938,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 939,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 940,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 941,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 942,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 943,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 943,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 944,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 945,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 945,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 947,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 948,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 949,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 950,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 950,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 952,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 952,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 953,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 953,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 954,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 954,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 955,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 956,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 956,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 957,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 957,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 958,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 959,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 959,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 960,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 961,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 961,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 962,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 963,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 964,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 965,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 966,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 966,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 967,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 967,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 968,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 968,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 969,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 970,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 970,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 971,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 971,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 971,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 972,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 972,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 973,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 975,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 975,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 976,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 976,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 979,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 980,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 980,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 981,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 982,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 982,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 983,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 984,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 984,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 985,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 986,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 986,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 987,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 987,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 988,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 988,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 989,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 989,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 990,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 990,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 991,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 991,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 992,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 993,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 994,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 994,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 995,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 995,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 996,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 996,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 997,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 998,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 998,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 999,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 999,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1000,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1001,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1002,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1003,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1003,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1005,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1008,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1008,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1009,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1009,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1010,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1010,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1011,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1012,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1013,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1014,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1015,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1016,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1016,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1017,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1017,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1018,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1019,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1019,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1020,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1020,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1021,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1021,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1022,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1022,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1023,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1023,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1024,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1026,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1027,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1028,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1029,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1029,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1030,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1030,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1030,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1031,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1031,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1031,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1032,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1033,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1033,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1034,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1035,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1035,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1036,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1037,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1038,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1038,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1039,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1040,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1040,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1041,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1042,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1042,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1043,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1044,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1045,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1045,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1046,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1046,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1047,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1047,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1047,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1048,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1048,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1048,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1049,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1052,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1052,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1053,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1053,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1054,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1055,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1055,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1056,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1056,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1057,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1057,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1058,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1058,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1059,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1059,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1060,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1060,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1061,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1061,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1062,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1062,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1063,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1064,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1064,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1065,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1065,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1066,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1066,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1067,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1067,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1068,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1068,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1069,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1069,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1070,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1070,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1071,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1071,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1072,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1073,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1073,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1074,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1075,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1076,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1077,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1078,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1078,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1079,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1079,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1080,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1081,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1081,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1082,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1083,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1083,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1084,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1084,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1085,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1085,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1086,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1087,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1087,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1088,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1089,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1089,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1093,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1093,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1094,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1094,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1095,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1096,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1097,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1098,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1099,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1099,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1100,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1100,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1101,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1101,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1102,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1103,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1104,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1105,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1106,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1107,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1108,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1108,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1109,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1109,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1110,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1111,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1112,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1112,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1113,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1114,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1114,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1115,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1115,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1116,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1117,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1118,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1119,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1119,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1120,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1120,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1121,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1121,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1122,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1123,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1123,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1124,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1124,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1125,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1125,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1126,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1126,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1127,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1127,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1128,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1128,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1129,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1130,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1130,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1131,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1132,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1133,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1134,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1134,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1135,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1135,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1136,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1137,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1138,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1139,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1140,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1141,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1141,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1142,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1143,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1143,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1144,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1145,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1145,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1146,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1146,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1147,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1147,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1148,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1149,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1149,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1150,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1150,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1151,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1152,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1152,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1153,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1153,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1154,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1155,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1156,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1156,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1157,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1158,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1158,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1159,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1159,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1160,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1160,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1161,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1162,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1163,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1164,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1165,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1166,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1167,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1168,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1168,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1169,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1170,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1171,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1171,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1172,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1173,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1173,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1174,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1174,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1175,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1175,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1176,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1176,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1177,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1177,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1178,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1178,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1179,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1180,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1180,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1181,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1182,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1182,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1183,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1184,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1184,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1185,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1185,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1186,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1187,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1187,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1188,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1189,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1189,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1190,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1191,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1191,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1192,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1192,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1193,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1194,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1195,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1196,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1196,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1197,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1198,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1198,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1199,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1199,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1200,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1201,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1201,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1202,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1203,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1203,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1204,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1205,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1206,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1206,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1206,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1207,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1208,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1209,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1210,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1211,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1212,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1212,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1213,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1214,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1215,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1216,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1217,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1218,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1218,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1219,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1220,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1221,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1222,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1223,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1223,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1224,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1225,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1226,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1227,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1227,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1228,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1229,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1230,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1231,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1231,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1232,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1232,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1233,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1234,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1234,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1235,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1236,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1237,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1237,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1238,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1239,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1240,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1240,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1241,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1241,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1242,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1242,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1243,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1244,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1244,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1245,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1246,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1246,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1247,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1247,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1248,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1249,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1250,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1250,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1251,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1251,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1252,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1253,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1253,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1254,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1255,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1256,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1257,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1258,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1258,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1259,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1260,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1260,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1261,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1262,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1262,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1263,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1263,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1264,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1264,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1265,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1266,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1266,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1267,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1267,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1268,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1268,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1268,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1269,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1269,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1270,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1271,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1271,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1272,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1273,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1273,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1274,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1275,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1276,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1277,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1278,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1278,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1278,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1279,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1279,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1280,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1280,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1281,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1281,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1282,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1283,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1284,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1284,
+        "method_id": 3
+    },
+    {
+        "spirits_id": 1285,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1285,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1286,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1286,
+        "method_id": 5
+    },
+    {
+        "spirits_id": 1287,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1287,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1288,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1288,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1289,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1289,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1290,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1290,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1291,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1291,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1292,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1292,
+        "method_id": 4
+    },
+    {
+        "spirits_id": 1293,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1293,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1294,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1294,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1295,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1296,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1296,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1297,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1297,
+        "method_id": 2
+    },
+    {
+        "spirits_id": 1298,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1298,
+        "method_id": 8
+    },
+    {
+        "spirits_id": 1299,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1299,
+        "method_id": 8
+    },
+    {
+        "spirits_id": 1300,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1301,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1302,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1306,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1307,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1308,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1309,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1310,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1311,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1312,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1313,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1314,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1315,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1316,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1317,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1318,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1319,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1320,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1321,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1322,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1323,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1328,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1329,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1330,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1331,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1332,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1333,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1334,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1335,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1336,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1338,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1339,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1340,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1341,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1342,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1343,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1344,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1345,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1346,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1346,
+        "method_id": 8
+    },
+    {
+        "spirits_id": 1347,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1348,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1349,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1350,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1351,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1352,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1353,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1354,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1355,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1357,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1358,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1359,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1360,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1361,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1362,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1363,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1364,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1365,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1366,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1367,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1368,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1369,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1370,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1371,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1372,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1373,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1374,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1375,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1376,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1377,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1378,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1379,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1382,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1383,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1384,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1385,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1386,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1387,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1388,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1389,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1390,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1391,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1392,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1393,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1394,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1395,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1396,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1397,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1398,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1399,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1400,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1401,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1402,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1403,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1404,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1405,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1406,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1407,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1408,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1409,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1410,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1411,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1412,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1413,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1415,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1416,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1417,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1418,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1419,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1420,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1421,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1422,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1423,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1424,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1425,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1426,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1427,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1430,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1431,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1432,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1433,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1434,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1435,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1436,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1437,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1438,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1440,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1441,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1442,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1443,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1444,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1445,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1446,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1447,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1448,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1449,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1450,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1451,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1452,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1453,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1454,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1455,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1456,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1457,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1460,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1461,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1462,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1463,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1464,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1465,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1466,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1466,
+        "method_id": 8
+    },
+    {
+        "spirits_id": 1467,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1467,
+        "method_id": 8
+    },
+    {
+        "spirits_id": 1468,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1469,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1470,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1471,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1472,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1473,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1476,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1477,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1478,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1479,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1480,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1481,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1482,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1483,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1484,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1485,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1486,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1487,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1487,
+        "method_id": 8
+    },
+    {
+        "spirits_id": 1488,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1489,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1490,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1491,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1492,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1493,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1494,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1495,
+        "method_id": 6
+    },
+    {
+        "spirits_id": 1496,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1497,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1497,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1498,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1498,
+        "method_id": 7
+    },
+    {
+        "spirits_id": 1499,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1505,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1506,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1507,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1508,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1509,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1510,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1511,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1512,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1513,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1514,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1515,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1516,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1517,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1518,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1519,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1520,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1521,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1522,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1523,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1524,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1525,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1526,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1527,
+        "method_id": 1
+    },
+    {
+        "spirits_id": 1528,
+        "method_id": 1
+    }
+]

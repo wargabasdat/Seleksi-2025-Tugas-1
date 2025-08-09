@@ -1,0 +1,866 @@
+[
+    {
+        "series_id": 1,
+        "name": "Super Mario Series"
+    },
+    {
+        "series_id": 2,
+        "name": "Super Mario Maker Series"
+    },
+    {
+        "series_id": 3,
+        "name": "Dr. Mario Series"
+    },
+    {
+        "series_id": 4,
+        "name": "Captain Toad: Treasure Tracker Series"
+    },
+    {
+        "series_id": 5,
+        "name": "Luigi's Mansion Series"
+    },
+    {
+        "series_id": 6,
+        "name": "Super Mario Land Series"
+    },
+    {
+        "series_id": 7,
+        "name": "Mario Kart Series"
+    },
+    {
+        "series_id": 8,
+        "name": "Paper Mario Series"
+    },
+    {
+        "series_id": 9,
+        "name": "Super Mario RPG: Legend of the Seven Stars"
+    },
+    {
+        "series_id": 10,
+        "name": "Mario & Luigi Series"
+    },
+    {
+        "series_id": 11,
+        "name": "Mario Bros. Series"
+    },
+    {
+        "series_id": 12,
+        "name": "Wrecking Crew Series"
+    },
+    {
+        "series_id": 13,
+        "name": "Mario Paint Series"
+    },
+    {
+        "series_id": 14,
+        "name": "Mario Golf Series"
+    },
+    {
+        "series_id": 15,
+        "name": "Super Princess Peach"
+    },
+    {
+        "series_id": 16,
+        "name": "Super Mario Strikers Series"
+    },
+    {
+        "series_id": 17,
+        "name": "Mario vs. Donkey Kong Series"
+    },
+    {
+        "series_id": 18,
+        "name": "Mario Party Series"
+    },
+    {
+        "series_id": 19,
+        "name": "Mario + Rabbids Kingdom Battle"
+    },
+    {
+        "series_id": 20,
+        "name": "Mario Tennis Aces"
+    },
+    {
+        "series_id": 21,
+        "name": "Donkey Kong Series"
+    },
+    {
+        "series_id": 22,
+        "name": "Donkey Kong: Barrel Blast"
+    },
+    {
+        "series_id": 23,
+        "name": "Donkey Kong Jungle Beat"
+    },
+    {
+        "series_id": 24,
+        "name": "The Legend of Zelda Series"
+    },
+    {
+        "series_id": 25,
+        "name": "Metroid Series"
+    },
+    {
+        "series_id": 26,
+        "name": "Metroid Prime Series"
+    },
+    {
+        "series_id": 27,
+        "name": "Yoshi Series"
+    },
+    {
+        "series_id": 28,
+        "name": "Kirby Series"
+    },
+    {
+        "series_id": 29,
+        "name": "Kirby's Epic Yarn"
+    },
+    {
+        "series_id": 30,
+        "name": "Star Fox Series"
+    },
+    {
+        "series_id": 31,
+        "name": "Pokemon Series"
+    },
+    {
+        "series_id": 32,
+        "name": "Detective Pikachu"
+    },
+    {
+        "series_id": 33,
+        "name": "EarthBound Series"
+    },
+    {
+        "series_id": 34,
+        "name": "F-Zero Series"
+    },
+    {
+        "series_id": 35,
+        "name": "Ice Climber Series"
+    },
+    {
+        "series_id": 36,
+        "name": "Fire Emblem Series"
+    },
+    {
+        "series_id": 37,
+        "name": "Tokyo Mirage Sessions FE"
+    },
+    {
+        "series_id": 38,
+        "name": "Game & Watch Series"
+    },
+    {
+        "series_id": 39,
+        "name": "Kid Icarus Series"
+    },
+    {
+        "series_id": 40,
+        "name": "WarioWare Series"
+    },
+    {
+        "series_id": 41,
+        "name": "Wario Land Series"
+    },
+    {
+        "series_id": 42,
+        "name": "Metal Gear Solid Series"
+    },
+    {
+        "series_id": 43,
+        "name": "Sonic The Hedgehog Series"
+    },
+    {
+        "series_id": 44,
+        "name": "Pikmin Series"
+    },
+    {
+        "series_id": 45,
+        "name": "R.O.B. Series"
+    },
+    {
+        "series_id": 46,
+        "name": "Animal Crossing Series"
+    },
+    {
+        "series_id": 47,
+        "name": "Mega Man Series"
+    },
+    {
+        "series_id": 48,
+        "name": "Mega Man X Series"
+    },
+    {
+        "series_id": 49,
+        "name": "Mega Man Legends Series"
+    },
+    {
+        "series_id": 50,
+        "name": "Mega Man Battle Network Series"
+    },
+    {
+        "series_id": 51,
+        "name": "Mega Man Star Force Series"
+    },
+    {
+        "series_id": 52,
+        "name": "Mega Man Zero Series"
+    },
+    {
+        "series_id": 53,
+        "name": "Mega Man ZX Series"
+    },
+    {
+        "series_id": 54,
+        "name": "Wii Fit Series"
+    },
+    {
+        "series_id": 55,
+        "name": "Punch-Out!! Series"
+    },
+    {
+        "series_id": 56,
+        "name": "PAC-MAN Series"
+    },
+    {
+        "series_id": 57,
+        "name": "Xenoblade Chronicles Series"
+    },
+    {
+        "series_id": 58,
+        "name": "Duck Hunt Series"
+    },
+    {
+        "series_id": 59,
+        "name": "Wild Gunman"
+    },
+    {
+        "series_id": 60,
+        "name": "Hogan's Alley"
+    },
+    {
+        "series_id": 61,
+        "name": "Street Fighter Series"
+    },
+    {
+        "series_id": 62,
+        "name": "FINAL FANTASY Series"
+    },
+    {
+        "series_id": 63,
+        "name": "Bayonetta Series"
+    },
+    {
+        "series_id": 64,
+        "name": "Splatoon Series"
+    },
+    {
+        "series_id": 65,
+        "name": "Castlevania Series"
+    },
+    {
+        "series_id": 66,
+        "name": "Kid Dracula"
+    },
+    {
+        "series_id": 67,
+        "name": "Wii Music"
+    },
+    {
+        "series_id": 68,
+        "name": "Wii Party Series"
+    },
+    {
+        "series_id": 69,
+        "name": "StreetPass Mii Plaza Series"
+    },
+    {
+        "series_id": 70,
+        "name": "Pilotwings Series"
+    },
+    {
+        "series_id": 71,
+        "name": "Nintendo Land"
+    },
+    {
+        "series_id": 72,
+        "name": "Super Smash Bros. Series"
+    },
+    {
+        "series_id": 73,
+        "name": "Sheriff Series"
+    },
+    {
+        "series_id": 74,
+        "name": "Baseball"
+    },
+    {
+        "series_id": 75,
+        "name": "Tennis"
+    },
+    {
+        "series_id": 76,
+        "name": "Devil World"
+    },
+    {
+        "series_id": 77,
+        "name": "Urban Champion Series"
+    },
+    {
+        "series_id": 78,
+        "name": "Clu Clu Land Series"
+    },
+    {
+        "series_id": 79,
+        "name": "Excitebike Series"
+    },
+    {
+        "series_id": 80,
+        "name": "Balloon Fight Series"
+    },
+    {
+        "series_id": 81,
+        "name": "Mach Rider Series"
+    },
+    {
+        "series_id": 82,
+        "name": "Disk System"
+    },
+    {
+        "series_id": 83,
+        "name": "The Mysterious Murasame Castle"
+    },
+    {
+        "series_id": 84,
+        "name": "Volleyball"
+    },
+    {
+        "series_id": 85,
+        "name": "Famicom Mukashibanashi Series"
+    },
+    {
+        "series_id": 86,
+        "name": "Ice Hockey"
+    },
+    {
+        "series_id": 87,
+        "name": "Famicom Grand Prix II: 3D Hot Rally Series"
+    },
+    {
+        "series_id": 88,
+        "name": "Famicom Wars Series"
+    },
+    {
+        "series_id": 89,
+        "name": "Advance Wars Series"
+    },
+    {
+        "series_id": 90,
+        "name": "Famicom Tantei Club Series"
+    },
+    {
+        "series_id": 91,
+        "name": "Joy Mech Fight"
+    },
+    {
+        "series_id": 92,
+        "name": "Yakuman"
+    },
+    {
+        "series_id": 93,
+        "name": "X"
+    },
+    {
+        "series_id": 94,
+        "name": "Kaeru no Tame ni Kane wa Naru"
+    },
+    {
+        "series_id": 95,
+        "name": "Mole Mania"
+    },
+    {
+        "series_id": 96,
+        "name": "Trade & Battle: Card Hero Series"
+    },
+    {
+        "series_id": 97,
+        "name": "SimCity Series"
+    },
+    {
+        "series_id": 98,
+        "name": "Battle Clash"
+    },
+    {
+        "series_id": 99,
+        "name": "Stunt Race FX"
+    },
+    {
+        "series_id": 100,
+        "name": "Panel de Pon Series"
+    },
+    {
+        "series_id": 101,
+        "name": "Marvelous: Mouhitotsu  Takarajima"
+    },
+    {
+        "series_id": 102,
+        "name": "Sutte Hakkun"
+    },
+    {
+        "series_id": 103,
+        "name": "Hajimari no Mori"
+    },
+    {
+        "series_id": 104,
+        "name": "Teleroboxer"
+    },
+    {
+        "series_id": 105,
+        "name": "Wave Race Series"
+    },
+    {
+        "series_id": 106,
+        "name": "1080 Series"
+    },
+    {
+        "series_id": 107,
+        "name": "Custom Robo Series"
+    },
+    {
+        "series_id": 108,
+        "name": "Sin & Punishment Series"
+    },
+    {
+        "series_id": 109,
+        "name": "Kuru Kuru Kururin Series"
+    },
+    {
+        "series_id": 110,
+        "name": "Napoleon"
+    },
+    {
+        "series_id": 111,
+        "name": "Golden Sun Series"
+    },
+    {
+        "series_id": 112,
+        "name": "Magical Vacation Series"
+    },
+    {
+        "series_id": 113,
+        "name": "Tomato Adventure"
+    },
+    {
+        "series_id": 114,
+        "name": "The Legendary Starfy Series"
+    },
+    {
+        "series_id": 115,
+        "name": "Sennen Kazoku"
+    },
+    {
+        "series_id": 116,
+        "name": "Puzzle Chalien"
+    },
+    {
+        "series_id": 117,
+        "name": "SimTower SP"
+    },
+    {
+        "series_id": 118,
+        "name": "Drill Dozer"
+    },
+    {
+        "series_id": 119,
+        "name": "Calciobit Series"
+    },
+    {
+        "series_id": 120,
+        "name": "Rhythm Heaven Series"
+    },
+    {
+        "series_id": 121,
+        "name": "Cubivore: Survival of the Fittest"
+    },
+    {
+        "series_id": 122,
+        "name": "Eternal Darkness: Sanity's Requiem"
+    },
+    {
+        "series_id": 123,
+        "name": "Giftpia"
+    },
+    {
+        "series_id": 124,
+        "name": "Baten Kaitos Series"
+    },
+    {
+        "series_id": 125,
+        "name": "Chibi-Robo! Series"
+    },
+    {
+        "series_id": 126,
+        "name": "Jam with the Band Series"
+    },
+    {
+        "series_id": 127,
+        "name": "Trace Memory Series"
+    },
+    {
+        "series_id": 128,
+        "name": "Electroplankton Series"
+    },
+    {
+        "series_id": 129,
+        "name": "Brain Age: Train Your Brain in Minutes a Day! Series"
+    },
+    {
+        "series_id": 130,
+        "name": "Big Brain Academy Series"
+    },
+    {
+        "series_id": 131,
+        "name": "Osu! Tatakae! Ouendan Series"
+    },
+    {
+        "series_id": 132,
+        "name": "Elite Beat Agents Series"
+    },
+    {
+        "series_id": 133,
+        "name": "Project Hacker: Kakusei"
+    },
+    {
+        "series_id": 134,
+        "name": "Chosoju Mecha MG"
+    },
+    {
+        "series_id": 135,
+        "name": "Hotel Dusk: Room 215"
+    },
+    {
+        "series_id": 136,
+        "name": "Kurikin Nano Island Story"
+    },
+    {
+        "series_id": 137,
+        "name": "Sujin Taisen: Number Battles Series"
+    },
+    {
+        "series_id": 138,
+        "name": "Slide Adventure MAGKID"
+    },
+    {
+        "series_id": 139,
+        "name": "ASH: Archaic Sealed Heat"
+    },
+    {
+        "series_id": 140,
+        "name": "Make 10: A Journey of Numbers"
+    },
+    {
+        "series_id": 141,
+        "name": "Soma Bringer"
+    },
+    {
+        "series_id": 142,
+        "name": "Fossil Fighters Series"
+    },
+    {
+        "series_id": 143,
+        "name": "Glory of Heracles Series"
+    },
+    {
+        "series_id": 144,
+        "name": "Personal Trainer: Cooking Series"
+    },
+    {
+        "series_id": 145,
+        "name": "Style Savvy Series"
+    },
+    {
+        "series_id": 146,
+        "name": "Art Academy Series"
+    },
+    {
+        "series_id": 147,
+        "name": "Looksley's Line Up"
+    },
+    {
+        "series_id": 148,
+        "name": "Tsukutte Utau: Saru Band"
+    },
+    {
+        "series_id": 149,
+        "name": "Fatal Frame Series"
+    },
+    {
+        "series_id": 150,
+        "name": "Captain Rainbow"
+    },
+    {
+        "series_id": 151,
+        "name": "Disaster: Day of Crisis"
+    },
+    {
+        "series_id": 152,
+        "name": "Excitebots: Trick Racing"
+    },
+    {
+        "series_id": 153,
+        "name": "Takt of Magic"
+    },
+    {
+        "series_id": 154,
+        "name": "Zangeki no Reginleiv"
+    },
+    {
+        "series_id": 155,
+        "name": "And-Kensaku"
+    },
+    {
+        "series_id": 156,
+        "name": "FlingSmash"
+    },
+    {
+        "series_id": 157,
+        "name": "The Last Story"
+    },
+    {
+        "series_id": 158,
+        "name": "Pandora's Tower"
+    },
+    {
+        "series_id": 159,
+        "name": "Nintendogs Series"
+    },
+    {
+        "series_id": 160,
+        "name": "Steel Diver Series"
+    },
+    {
+        "series_id": 161,
+        "name": "Pushmo"
+    },
+    {
+        "series_id": 162,
+        "name": "Sakura Samurai: Art of the Sword"
+    },
+    {
+        "series_id": 163,
+        "name": "Swapnote Series"
+    },
+    {
+        "series_id": 164,
+        "name": "Kiki Trick"
+    },
+    {
+        "series_id": 165,
+        "name": "Dillon's Dead-Heat Breakers"
+    },
+    {
+        "series_id": 166,
+        "name": "Shovel Knight Series"
+    },
+    {
+        "series_id": 167,
+        "name": "Culdcept Series"
+    },
+    {
+        "series_id": 168,
+        "name": "HarmoKnight"
+    },
+    {
+        "series_id": 169,
+        "name": "Fluidity: Spin Cycle"
+    },
+    {
+        "series_id": 170,
+        "name": "Nintendoji"
+    },
+    {
+        "series_id": 171,
+        "name": "Darumeshi Sports Store"
+    },
+    {
+        "series_id": 172,
+        "name": "Rusty's Real Deal Baseball"
+    },
+    {
+        "series_id": 173,
+        "name": "Nintendo Badge Arcade"
+    },
+    {
+        "series_id": 174,
+        "name": "BOXBOY! Series"
+    },
+    {
+        "series_id": 175,
+        "name": "Code Name: S.T.E.A.M."
+    },
+    {
+        "series_id": 176,
+        "name": "Ever Oasis"
+    },
+    {
+        "series_id": 177,
+        "name": "Sushi Striker: The Way of Sushido"
+    },
+    {
+        "series_id": 178,
+        "name": "The Wonderful 101"
+    },
+    {
+        "series_id": 179,
+        "name": "Rayman Series"
+    },
+    {
+        "series_id": 180,
+        "name": "Snipperclips - Cut it out, together! Series"
+    },
+    {
+        "series_id": 181,
+        "name": "ARMS"
+    },
+    {
+        "series_id": 182,
+        "name": "Galaga Series"
+    },
+    {
+        "series_id": 183,
+        "name": "Bomberman Series"
+    },
+    {
+        "series_id": 184,
+        "name": "Virtua Fighter Series"
+    },
+    {
+        "series_id": 185,
+        "name": "MONSTER HUNTER Series"
+    },
+    {
+        "series_id": 186,
+        "name": "Shantae Series"
+    },
+    {
+        "series_id": 187,
+        "name": "Persona Series"
+    },
+    {
+        "series_id": 188,
+        "name": "Nintendo Labo Series"
+    },
+    {
+        "series_id": 189,
+        "name": "DRAGON QUEST Series"
+    },
+    {
+        "series_id": 190,
+        "name": "Banjo-Kazooie Series"
+    },
+    {
+        "series_id": 191,
+        "name": "DAEMON X MACHINA"
+    },
+    {
+        "series_id": 192,
+        "name": "Tetris Series"
+    },
+    {
+        "series_id": 193,
+        "name": "FATAL FURY Series"
+    },
+    {
+        "series_id": 194,
+        "name": "Art of Fighting Series"
+    },
+    {
+        "series_id": 195,
+        "name": "THE KING OF FIGHTERS Series"
+    },
+    {
+        "series_id": 196,
+        "name": "SAMURAI SHODOWN Series"
+    },
+    {
+        "series_id": 197,
+        "name": "Psycho Soldier"
+    },
+    {
+        "series_id": 198,
+        "name": "Ikari Warriors Series"
+    },
+    {
+        "series_id": 199,
+        "name": "Resident Evil Series"
+    },
+    {
+        "series_id": 200,
+        "name": "ASTRAL CHAIN"
+    },
+    {
+        "series_id": 201,
+        "name": "River City Series"
+    },
+    {
+        "series_id": 202,
+        "name": "Cuphead"
+    },
+    {
+        "series_id": 203,
+        "name": "Warframe"
+    },
+    {
+        "series_id": 204,
+        "name": "Ring Fit Adventure"
+    },
+    {
+        "series_id": 205,
+        "name": "Mana Series"
+    },
+    {
+        "series_id": 206,
+        "name": "OCTOPATH TRAVELER"
+    },
+    {
+        "series_id": 207,
+        "name": "Minecraft Series"
+    },
+    {
+        "series_id": 208,
+        "name": "Bravely Default Series"
+    },
+    {
+        "series_id": 209,
+        "name": "Ghosts 'n Goblins Series"
+    },
+    {
+        "series_id": 210,
+        "name": "Tekken Series"
+    },
+    {
+        "series_id": 211,
+        "name": "Sakuna: Of Rice and Ruin"
+    },
+    {
+        "series_id": 212,
+        "name": "Mario Golf: Super Rush"
+    },
+    {
+        "series_id": 213,
+        "name": "No more Heroes Series"
+    },
+    {
+        "series_id": 214,
+        "name": "KINGDOM HEARTS Series"
+    },
+    {
+        "series_id": 215,
+        "name": "[sic]"
+    },
+    {
+        "series_id": 216,
+        "name": "eBASEBALL: POWER PROS"
+    }
+]

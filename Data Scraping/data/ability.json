@@ -1,0 +1,710 @@
+[
+    {
+        "ability_id": 1,
+        "name": "Stats up after Eating"
+    },
+    {
+        "ability_id": 2,
+        "name": "Fire Flower Equipped"
+    },
+    {
+        "ability_id": 3,
+        "name": "First-Strike Advantage"
+    },
+    {
+        "ability_id": 4,
+        "name": "Weight up"
+    },
+    {
+        "ability_id": 5,
+        "name": "Lightweight"
+    },
+    {
+        "ability_id": 6,
+        "name": "Physical Attack up"
+    },
+    {
+        "ability_id": 7,
+        "name": "Super Armor"
+    },
+    {
+        "ability_id": 8,
+        "name": "Easier Dodging"
+    },
+    {
+        "ability_id": 9,
+        "name": "Toss & Meteor"
+    },
+    {
+        "ability_id": 10,
+        "name": "Air Defense up"
+    },
+    {
+        "ability_id": 11,
+        "name": "Weight down"
+    },
+    {
+        "ability_id": 12,
+        "name": "Critical-Health Healing"
+    },
+    {
+        "ability_id": 13,
+        "name": "Can Be Enhanced at Lv. 99"
+    },
+    {
+        "ability_id": 14,
+        "name": "Item Gravitation"
+    },
+    {
+        "ability_id": 15,
+        "name": "Ramblin' Evil Mushroom Equipped"
+    },
+    {
+        "ability_id": 16,
+        "name": "Foot Attack up"
+    },
+    {
+        "ability_id": 17,
+        "name": "Green Shell Equipped"
+    },
+    {
+        "ability_id": 18,
+        "name": "Jump up"
+    },
+    {
+        "ability_id": 19,
+        "name": "Impact Run"
+    },
+    {
+        "ability_id": 20,
+        "name": "Fist Attack up"
+    },
+    {
+        "ability_id": 21,
+        "name": "Air Attack up"
+    },
+    {
+        "ability_id": 22,
+        "name": "Floaty Jumps"
+    },
+    {
+        "ability_id": 23,
+        "name": "Bob-omb Equipped"
+    },
+    {
+        "ability_id": 24,
+        "name": "Weapon Resist up"
+    },
+    {
+        "ability_id": 25,
+        "name": "Giant"
+    },
+    {
+        "ability_id": 26,
+        "name": "Hyper Smash Attacks"
+    },
+    {
+        "ability_id": 27,
+        "name": "Hothead Equipped"
+    },
+    {
+        "ability_id": 28,
+        "name": "Lip's Stick Equipped"
+    },
+    {
+        "ability_id": 29,
+        "name": "Magic Attack up"
+    },
+    {
+        "ability_id": 30,
+        "name": "Lava-Floor Resist"
+    },
+    {
+        "ability_id": 31,
+        "name": "Fire Attack up"
+    },
+    {
+        "ability_id": 32,
+        "name": "Electric Weakness"
+    },
+    {
+        "ability_id": 33,
+        "name": "Strong Throw"
+    },
+    {
+        "ability_id": 34,
+        "name": "Special-Move Power up"
+    },
+    {
+        "ability_id": 35,
+        "name": "Sticky-Floor Immunity"
+    },
+    {
+        "ability_id": 36,
+        "name": "Banana Gun Equipped"
+    },
+    {
+        "ability_id": 37,
+        "name": "Super Launch Star Equipped"
+    },
+    {
+        "ability_id": 38,
+        "name": "Transformation Duration up"
+    },
+    {
+        "ability_id": 39,
+        "name": "Irreversible Controls"
+    },
+    {
+        "ability_id": 40,
+        "name": "Fairy Bottle Equipped"
+    },
+    {
+        "ability_id": 41,
+        "name": "Swimmer"
+    },
+    {
+        "ability_id": 42,
+        "name": "Healing Shield"
+    },
+    {
+        "ability_id": 43,
+        "name": "Strong-Wind Resist"
+    },
+    {
+        "ability_id": 44,
+        "name": "Dash Attack up"
+    },
+    {
+        "ability_id": 45,
+        "name": "Fire Bar Equipped"
+    },
+    {
+        "ability_id": 46,
+        "name": "Thrown Items up"
+    },
+    {
+        "ability_id": 47,
+        "name": "Neutral Special up"
+    },
+    {
+        "ability_id": 48,
+        "name": "Boomerang Equipped"
+    },
+    {
+        "ability_id": 49,
+        "name": "Undamaged Speed up"
+    },
+    {
+        "ability_id": 50,
+        "name": "Speed up"
+    },
+    {
+        "ability_id": 51,
+        "name": "Screen-Flip Immunity"
+    },
+    {
+        "ability_id": 52,
+        "name": "Undamaged Attack & Speed up"
+    },
+    {
+        "ability_id": 53,
+        "name": "Water Weakness"
+    },
+    {
+        "ability_id": 54,
+        "name": "Mouthful of Curry"
+    },
+    {
+        "ability_id": 55,
+        "name": "Water/Freezing Resist up"
+    },
+    {
+        "ability_id": 56,
+        "name": "Trade-Off Attacks up"
+    },
+    {
+        "ability_id": 57,
+        "name": "Electric Attack up"
+    },
+    {
+        "ability_id": 58,
+        "name": "Undamaged Attack up"
+    },
+    {
+        "ability_id": 59,
+        "name": "Death's Scythe Equipped"
+    },
+    {
+        "ability_id": 60,
+        "name": "Fire Weakness"
+    },
+    {
+        "ability_id": 61,
+        "name": "Trade-Off Speed up"
+    },
+    {
+        "ability_id": 62,
+        "name": "Freezie Equipped"
+    },
+    {
+        "ability_id": 63,
+        "name": "Poison Damage Reduced"
+    },
+    {
+        "ability_id": 64,
+        "name": "Battering Items up"
+    },
+    {
+        "ability_id": 65,
+        "name": "Stamina up"
+    },
+    {
+        "ability_id": 66,
+        "name": "Energy Shot Attack/Resistance up"
+    },
+    {
+        "ability_id": 67,
+        "name": "Fog Immunity"
+    },
+    {
+        "ability_id": 68,
+        "name": "Bury Immunity"
+    },
+    {
+        "ability_id": 69,
+        "name": "Hammer Duration up"
+    },
+    {
+        "ability_id": 70,
+        "name": "Star Rod Equipped"
+    },
+    {
+        "ability_id": 71,
+        "name": "Critical Hit up"
+    },
+    {
+        "ability_id": 72,
+        "name": "Weapon Attack up"
+    },
+    {
+        "ability_id": 73,
+        "name": "Speed down"
+    },
+    {
+        "ability_id": 74,
+        "name": "Critical-Health Stats up"
+    },
+    {
+        "ability_id": 75,
+        "name": "Trade-Off Defense up"
+    },
+    {
+        "ability_id": 76,
+        "name": "Water & Ice Attack up"
+    },
+    {
+        "ability_id": 77,
+        "name": "Giant Killer"
+    },
+    {
+        "ability_id": 78,
+        "name": "Rocket Belt Equipped"
+    },
+    {
+        "ability_id": 79,
+        "name": "Perfect-Shield Reflect"
+    },
+    {
+        "ability_id": 80,
+        "name": "Sword Attack up"
+    },
+    {
+        "ability_id": 81,
+        "name": "Assist Killer"
+    },
+    {
+        "ability_id": 82,
+        "name": "Easier Perfect Shield"
+    },
+    {
+        "ability_id": 83,
+        "name": "Shooting Items up"
+    },
+    {
+        "ability_id": 84,
+        "name": "Fire/Explosion Resist up"
+    },
+    {
+        "ability_id": 85,
+        "name": "Water Attack up"
+    },
+    {
+        "ability_id": 86,
+        "name": "Jump down"
+    },
+    {
+        "ability_id": 87,
+        "name": "Lifesteal"
+    },
+    {
+        "ability_id": 88,
+        "name": "Trade-Off Ability up"
+    },
+    {
+        "ability_id": 89,
+        "name": "Slumber Immunity"
+    },
+    {
+        "ability_id": 90,
+        "name": "Mr. Saturn Equipped"
+    },
+    {
+        "ability_id": 91,
+        "name": "Bunny Hood Equipped"
+    },
+    {
+        "ability_id": 92,
+        "name": "Instadrop"
+    },
+    {
+        "ability_id": 93,
+        "name": "Landing Lag down"
+    },
+    {
+        "ability_id": 94,
+        "name": "Killing Edge Equipped"
+    },
+    {
+        "ability_id": 95,
+        "name": "Poison Immunity"
+    },
+    {
+        "ability_id": 96,
+        "name": "Shooting Attack up"
+    },
+    {
+        "ability_id": 97,
+        "name": "Battering Items Power up"
+    },
+    {
+        "ability_id": 98,
+        "name": "Chance of Double Final Smash"
+    },
+    {
+        "ability_id": 99,
+        "name": "Critical-Health Stats up up"
+    },
+    {
+        "ability_id": 100,
+        "name": "Strong-Wind Immunity"
+    },
+    {
+        "ability_id": 101,
+        "name": "Falling Immunity"
+    },
+    {
+        "ability_id": 102,
+        "name": "Shooting Items Power up"
+    },
+    {
+        "ability_id": 103,
+        "name": "KOs Heal Damage"
+    },
+    {
+        "ability_id": 104,
+        "name": "Initial Damage 30%"
+    },
+    {
+        "ability_id": 105,
+        "name": "Electric Resist up"
+    },
+    {
+        "ability_id": 106,
+        "name": "Beastball Equipped"
+    },
+    {
+        "ability_id": 107,
+        "name": "Invincibility after Eating"
+    },
+    {
+        "ability_id": 108,
+        "name": "Magic Resist up"
+    },
+    {
+        "ability_id": 109,
+        "name": "PSI Attack up"
+    },
+    {
+        "ability_id": 110,
+        "name": "Armor Knight"
+    },
+    {
+        "ability_id": 111,
+        "name": "Unira Equipped"
+    },
+    {
+        "ability_id": 112,
+        "name": "Super Leaf Equipped"
+    },
+    {
+        "ability_id": 113,
+        "name": "Jam FS Charge"
+    },
+    {
+        "ability_id": 114,
+        "name": "Drill Equipped"
+    },
+    {
+        "ability_id": 115,
+        "name": "Franklin Badge Equipped"
+    },
+    {
+        "ability_id": 116,
+        "name": "Fire & Explosion Attack up"
+    },
+    {
+        "ability_id": 117,
+        "name": "Beam Sword Equipped"
+    },
+    {
+        "ability_id": 118,
+        "name": "Unflinching Charged Smashes"
+    },
+    {
+        "ability_id": 119,
+        "name": "Bomber Equipped"
+    },
+    {
+        "ability_id": 120,
+        "name": "Stats up up after Eating"
+    },
+    {
+        "ability_id": 121,
+        "name": "Made of Metal"
+    },
+    {
+        "ability_id": 122,
+        "name": "Gravity-Change Immunity"
+    },
+    {
+        "ability_id": 123,
+        "name": "Metal Killer"
+    },
+    {
+        "ability_id": 124,
+        "name": "Super Scope Equipped"
+    },
+    {
+        "ability_id": 125,
+        "name": "Ray Gun Equipped"
+    },
+    {
+        "ability_id": 126,
+        "name": "Shield Damage up"
+    },
+    {
+        "ability_id": 127,
+        "name": "Back Shield Equipped"
+    },
+    {
+        "ability_id": 128,
+        "name": "Critical-Health Defense up"
+    },
+    {
+        "ability_id": 129,
+        "name": "Screw Attack Equipped"
+    },
+    {
+        "ability_id": 130,
+        "name": "Improved Escape"
+    },
+    {
+        "ability_id": 131,
+        "name": "PSI Resist up"
+    },
+    {
+        "ability_id": 132,
+        "name": "Additional Midair Jump"
+    },
+    {
+        "ability_id": 133,
+        "name": "Great Autoheal"
+    },
+    {
+        "ability_id": 134,
+        "name": "Fast Final Smash Meter"
+    },
+    {
+        "ability_id": 135,
+        "name": "Slow Super Armor"
+    },
+    {
+        "ability_id": 136,
+        "name": "Running Start"
+    },
+    {
+        "ability_id": 137,
+        "name": "Move Speed up"
+    },
+    {
+        "ability_id": 138,
+        "name": "Autoheal"
+    },
+    {
+        "ability_id": 139,
+        "name": "Lava-Floor Immunity"
+    },
+    {
+        "ability_id": 140,
+        "name": "Critical-Health Attack up"
+    },
+    {
+        "ability_id": 141,
+        "name": "Ice-Floor Immunity"
+    },
+    {
+        "ability_id": 142,
+        "name": "Critical Immunity"
+    },
+    {
+        "ability_id": 143,
+        "name": "Aura Resist up"
+    },
+    {
+        "ability_id": 144,
+        "name": "Aura Attack up"
+    },
+    {
+        "ability_id": 145,
+        "name": "Critical Hit up up"
+    },
+    {
+        "ability_id": 146,
+        "name": "Weapon Attack & Move Speed up"
+    },
+    {
+        "ability_id": 147,
+        "name": "Staff Equipped"
+    },
+    {
+        "ability_id": 148,
+        "name": "Side Special up"
+    },
+    {
+        "ability_id": 149,
+        "name": "Zap-Floor Immunity"
+    },
+    {
+        "ability_id": 150,
+        "name": "Down Special up"
+    },
+    {
+        "ability_id": 151,
+        "name": "Energy-Shot Resist up"
+    },
+    {
+        "ability_id": 152,
+        "name": "Energy-Shot Attack up"
+    },
+    {
+        "ability_id": 153,
+        "name": "Rage Blaster Equipped"
+    },
+    {
+        "ability_id": 154,
+        "name": "Metal and Giant"
+    },
+    {
+        "ability_id": 155,
+        "name": "Up Special up"
+    },
+    {
+        "ability_id": 156,
+        "name": "Shield Durability up"
+    },
+    {
+        "ability_id": 157,
+        "name": "Black Hole Equipped"
+    },
+    {
+        "ability_id": 158,
+        "name": "Braking Ability up"
+    },
+    {
+        "ability_id": 159,
+        "name": "Ore Club Equipped"
+    },
+    {
+        "ability_id": 160,
+        "name": "Steel Diver Equipped"
+    },
+    {
+        "ability_id": 161,
+        "name": "Poison Heals"
+    },
+    {
+        "ability_id": 162,
+        "name": "Double Final Smash"
+    },
+    {
+        "ability_id": 163,
+        "name": "Bane of Darkness"
+    },
+    {
+        "ability_id": 164,
+        "name": "Bane of Light"
+    },
+    {
+        "ability_id": 165,
+        "name": "Item Autograb"
+    },
+    {
+        "ability_id": 166,
+        "name": "Team Power Up"
+    },
+    {
+        "ability_id": 167,
+        "name": "Weight up up"
+    },
+    {
+        "ability_id": 168,
+        "name": "Poison Power Up"
+    },
+    {
+        "ability_id": 169,
+        "name": "Critical Fast Final Smash Meter up up"
+    },
+    {
+        "ability_id": 170,
+        "name": "Item Throw up"
+    },
+    {
+        "ability_id": 171,
+        "name": "Critical-Health Healing up up"
+    },
+    {
+        "ability_id": 172,
+        "name": "Critical Super Giant"
+    },
+    {
+        "ability_id": 173,
+        "name": "Mouthful of Curry up up"
+    },
+    {
+        "ability_id": 174,
+        "name": "Final Smash up"
+    },
+    {
+        "ability_id": 175,
+        "name": "Critical Healing & Metal"
+    },
+    {
+        "ability_id": 176,
+        "name": "Fist & Foot Attack up"
+    },
+    {
+        "ability_id": 177,
+        "name": "Weapon Attack & Move Speed up up"
+    }
+]

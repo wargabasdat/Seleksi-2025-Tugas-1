@@ -1,78 +1,114 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2025 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# ETL Project Seleksi 1 Basdat - Super Smash Bros. Ultimate Spirits
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## 👤 Author
+- **Nama**: Ahmad Evander Ruizhi Xavier
+- **NIM**: 18223064
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2025](https://docs.google.com/spreadsheets/d/1gZqDhe8dYiInrAk_Xs3pjEPvQ1KXNiGD6-4AYpkZ2j4/edit?gid=1775022615#gid=1775022615)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+---
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## 📌 Deskripsi Proyek
+Proyek ini bertujuan untuk melakukan *web scraping* terhadap data *Spirits* dari game **Super Smash Bros. Ultimate**, kemudian menyimpannya dalam format terstruktur (JSON) dan memasukkannya ke dalam **Relational Database Management System (RDBMS)** menggunakan PostgreSQL. Spirits pada game Super Smash Bros. Ultimate merupakan komponen penting dalam game yang memuat seluruh karakter (baik yang bisa dimainkan maupun yang hanya menjadi pendukung) dari berbagai serial yang terdapat dalam game.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+Topik ini dipilih karena author memiliki pengetahuan yang cukup dalam mengenai informasi game dan struktur data spirits yang cukup kompleks. Selain itu, web refrensi menampilkan data yang tersusun dengan kurang rapi dan tidak konsisten sehingga cocok untuk dijadikan proyek ETL.
+
+---
+
+## 🕹️ Cara Menggunakan Scraper dan Output-nya
+1. Clone atau unduh repository ini
+2. Buka terminal dari direktori:  
+   ```bash
+   ../Data Scraping/src/
+3. Jalankan program dengan perintah berikut (atau disesuaikan dengan virtual environment yang digunakan):
+    ```bash
+    python scraping.py
+4. Seluruh file JSON yang diperlukan akan didapat dan disimpan pada direktori yang sama. File output yang dihasilkan adalah:
+    - ability.json
+    - equipable_spirits.json
+    - obtaining_method.json
+    - primary_spirits.json
+    - series.json
+    - spirits_obtain.json
+    - spirits.json
+    - support_spirits.json
+5. Seluruh file JSON output dipindahkan ke direktori:
+   ```bash
+   ../Data Scraping/data/
+6. Pindah ke direktori:
+   ```bash
+   ../Data Storing/src/
+7. Jalankan program untuk melakukan storing data ke RDBMS. Pastikan RDBMS menggunakan parameter global yang tertera pada kode, dan seluruh tabel yang diperlukan sudah dibuat:
+    ```bash
+    python storing.py
+   
+## Penjelasan Struktur File JSON yang Dihasilkan *Scraper*
+- ability.json
+   ```bash
+    {
+        "ability_id": 1, # id ability
+        "name": "Stats up after Eating" # nama atau efek dari ability
+    }
+
+- equipable_spirits.json
+  ```bash
+  {
+        "spirits_id": 18, # id spirits
+        "class": 2, # class atau tingkat kelangkaan spirits (1 sampai 4)
+        "ability_id": 1 # id ability
+  }
+
+- obtaining_method.json
+   ```bash
+    {
+        "method_id": 1, # id method
+        "name": "Spirit Board" # nama metode spirit tersebut didapatkan
+    }
+
+- primary_spirits.json
+   ```bash
+    {
+        "spirits_id": 21, # id spirits
+        "type": "Shield", # tipe spirits (Attack, Shield, Grab, atau Neutral)
+        "slot_capacity": 1, # kapasitas total untuk support spirits yang bisa masuk
+        "min_power": 2552, # akumulasi attack dan defense minimum
+        "max_power": 7695, # akumulasi attack dan defense maksimum
+        "min_attack": 510, # attack minimum
+        "max_attack": 1539, # attack maximum
+        "min_defense": 2042, # defense minimum
+        "max_defense": 6156 # defense maksimum
+    }
+
+- series.json
+   ```bash
+    {
+        "series_id": 1, # id series
+        "name": "Super Mario Series" # nama series
+    }
+- spirits_obtain.json
+   ```bash
+    {
+        "spirits_id": 3, # id spirits
+        "method_id": 5 # id method
+    }
+- spirits.json
+   ```bash
+    {
+        "spirits_id": 1, # id spirits
+        "name": "Mario", # nama spirit yang bersangkutan
+        "category": "Fighter", # kategori spirits (Fighter, Master, Primary, atau Support)
+        "spirit_battle": false, # boolean apakah terdapat pertarungan melawan spirit tersebut
+        "series_id": 1 # id series
+    }
+- support_spirits.json
+   ```bash
+    {
+        "spirits_id": 18, # id spirits
+        "slot_cost": 1 # jumlah slot yang digunakan dalam memasuki primary spirits
+    }
+
+## Struktur ERD dan Diagram Relasional RDMS
+[/Data Storing/design/ERD.png](https://github.com/evanderruizhix/TUGAS_SELEKSI_1_18223064/blob/main/Data%20Storing/design/ERD.png)
+Data Storing/design/Relational Model.drawio.png
 
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2025](https://github.com/wargabasdat/Seleksi-2025-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 8 Agustus 2025, PUKUL 20:40
-
-
-
+## Referensi
+https://www.ssbwiki.com/List_of_spirits_(complete_list)#cite_note-TnT-1

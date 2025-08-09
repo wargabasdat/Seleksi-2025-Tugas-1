@@ -1,0 +1,2558 @@
+[
+    {
+        "spirits_id": 18,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 19,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 20,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 22,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 23,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 24,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 25,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 26,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 27,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 29,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 34,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 37,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 44,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 50,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 52,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 58,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 60,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 62,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 64,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 67,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 68,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 69,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 71,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 72,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 74,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 75,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 76,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 77,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 78,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 79,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 80,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 82,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 83,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 84,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 85,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 86,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 87,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 89,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 92,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 102,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 103,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 108,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 111,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 113,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 114,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 116,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 117,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 118,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 119,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 120,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 121,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 122,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 123,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 128,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 132,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 133,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 142,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 143,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 144,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 148,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 152,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 153,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 154,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 155,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 156,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 157,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 158,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 164,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 168,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 169,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 182,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 184,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 186,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 187,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 188,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 192,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 194,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 195,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 196,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 197,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 199,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 201,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 209,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 210,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 211,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 212,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 213,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 214,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 215,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 216,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 217,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 218,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 219,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 225,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 227,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 231,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 235,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 238,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 239,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 241,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 245,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 250,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 251,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 252,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 254,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 256,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 260,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 263,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 269,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 271,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 276,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 277,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 280,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 284,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 289,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 290,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 292,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 293,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 295,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 302,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 303,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 306,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 307,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 308,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 309,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 310,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 312,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 313,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 314,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 315,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 317,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 318,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 319,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 320,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 326,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 327,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 328,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 329,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 330,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 331,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 332,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 333,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 334,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 337,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 338,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 349,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 350,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 358,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 359,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 363,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 368,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 369,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 370,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 371,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 373,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 376,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 377,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 378,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 381,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 385,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 388,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 390,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 391,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 392,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 393,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 394,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 396,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 399,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 403,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 404,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 424,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 425,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 427,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 428,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 430,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 431,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 432,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 433,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 434,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 435,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 436,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 442,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 443,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 444,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 445,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 448,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 449,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 452,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 456,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 457,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 458,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 461,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 465,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 467,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 469,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 470,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 471,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 472,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 473,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 474,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 481,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 485,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 486,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 488,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 489,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 491,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 495,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 501,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 503,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 507,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 511,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 515,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 516,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 520,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 523,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 526,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 527,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 531,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 536,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 539,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 540,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 541,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 550,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 553,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 555,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 559,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 560,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 561,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 562,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 566,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 573,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 576,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 577,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 578,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 579,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 582,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 587,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 595,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 597,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 599,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 605,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 607,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 608,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 609,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 623,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 625,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 626,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 628,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 632,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 635,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 636,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 640,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 648,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 650,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 651,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 652,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 655,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 658,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 659,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 660,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 663,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 667,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 668,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 673,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 676,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 677,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 681,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 685,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 686,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 690,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 691,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 692,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 693,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 694,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 695,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 697,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 699,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 700,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 702,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 707,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 709,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 712,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 720,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 721,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 722,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 723,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 724,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 728,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 732,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 733,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 734,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 737,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 739,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 740,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 743,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 744,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 746,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 752,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 753,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 755,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 757,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 761,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 764,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 766,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 767,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 768,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 771,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 774,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 777,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 779,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 790,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 791,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 793,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 794,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 795,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 796,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 802,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 803,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 804,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 805,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 806,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 808,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 812,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 816,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 817,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 818,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 819,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 823,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 824,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 835,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 836,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 837,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 839,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 840,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 842,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 843,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 845,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 846,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 847,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 848,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 849,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 850,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 851,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 852,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 853,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 854,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 855,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 856,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 857,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 859,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 860,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 861,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 867,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 868,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 869,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 870,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 871,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 873,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 878,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 879,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 884,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 885,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 886,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 887,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 889,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 890,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 892,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 893,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 894,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 895,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 899,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 901,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 903,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 904,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 909,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 912,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 925,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 926,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 927,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 928,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 929,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 930,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 931,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 936,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 943,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 944,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 945,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 947,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 949,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 950,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 952,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 955,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 962,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 964,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 965,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 967,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 968,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 971,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 976,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 979,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 985,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 986,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 991,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 995,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1001,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1003,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1009,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1014,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1015,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1016,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1024,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1027,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1028,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1029,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1030,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1031,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1033,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1034,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1035,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1037,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1038,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1039,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1040,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1045,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1046,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1048,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1049,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1060,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1062,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1063,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1068,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1070,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1071,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1072,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1073,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1074,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1077,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1079,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1080,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1084,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1086,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1087,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1088,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1089,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1093,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1094,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1107,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1109,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1112,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1113,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1115,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1116,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1117,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1119,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1120,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1121,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1122,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1123,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1124,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1127,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1129,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1132,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1133,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1134,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1138,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1141,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1142,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1146,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1147,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1149,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1151,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1152,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1153,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1155,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1156,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1158,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1159,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1163,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1165,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1166,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1167,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1171,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1174,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1177,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1180,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1184,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1185,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1186,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1187,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1188,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1189,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1190,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1191,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1195,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1199,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1201,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1208,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1212,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1213,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1216,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1217,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1218,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1219,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1220,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1221,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1225,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1226,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1228,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1229,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1235,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1236,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1237,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1238,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1239,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1240,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1241,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1245,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1248,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1249,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1253,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1254,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1255,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1256,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1257,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1260,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1261,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1263,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1265,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1266,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1269,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1270,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1273,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1275,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1276,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1277,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1278,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1279,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1281,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1286,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1290,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1291,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1292,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1295,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1297,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1298,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1299,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1300,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1301,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1302,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1306,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1307,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1308,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1313,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1314,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1316,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1318,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1319,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1320,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1323,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1328,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1329,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1332,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1336,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1338,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1343,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1344,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1345,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1346,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1348,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1350,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1352,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1354,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1357,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1359,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1360,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1365,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1366,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1370,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1371,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1375,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1378,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1379,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1388,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1390,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1391,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1392,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1393,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1396,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1400,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1401,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1406,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1407,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1408,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1410,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1411,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1412,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1413,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1416,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1419,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1420,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1421,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1423,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1424,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1425,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1426,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1432,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1433,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1436,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1437,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1438,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1442,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1445,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1446,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1448,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1449,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1451,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1453,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1457,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1461,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1462,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1465,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1468,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1473,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1479,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1480,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1486,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1489,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1490,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1493,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1496,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1499,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1506,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1507,
+        "slot_cost": 3
+    },
+    {
+        "spirits_id": 1509,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1514,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1517,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1524,
+        "slot_cost": 1
+    },
+    {
+        "spirits_id": 1526,
+        "slot_cost": 2
+    },
+    {
+        "spirits_id": 1528,
+        "slot_cost": 1
+    }
+]
